@@ -36,9 +36,9 @@ Mae'r prosiect yma yn trin elfennau sydd yn rhan o'r adran ganlynol o [Faes Llaf
 + [Cyfuno adeiladwaith rhaglenni i ddatrys problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
 ## Heriau
-+ "Perffeithio neidio" - defnyddio bloc 'os' {.blockcontrol} ychwanegol i ddatrys problem neidio; 
-+ "Peli ar hap" - defnyddio bloc 'ar hap'{.blockoperators} i amrywio gwisg, maint ac amseru peli; 
++ "Perffeithio neidio" - defnyddio bloc `os`{:class="blockcontrol"} ychwanegol i ddatrys problem neidio; 
++ "Peli ar hap" - defnyddio bloc `ar hap`{:class="blockoperators"} i amrywio gwisg, maint ac amseru peli; 
 + "Mwy o rwystrau" - ychwanegu cipluniau ychwanegol i'r gêm;
-+ "Perffeithio disgyrchiant" - defnyddio bloc 'os' {.blockcontrol} ychwanegol i ddatrys problem 'disgyrchiant' {.blockdata};
-+ "Mwy o fywydau" - ychwanegu newidyn 'bywydau' {.blockdata}.
++ "Perffeithio disgyrchiant" - defnyddio bloc `os`{:class="blockcontrol"} ychwanegol i ddatrys problem `disgyrchiant`{:class="blockdata"};
++ "Mwy o fywydau" - ychwanegu newidyn `bywydau`{:class="blockdata"}.
 
