@@ -6,7 +6,7 @@ Fe wnawn ni wneud dy gymeriad i symud yn fwy realistig, wrth ychwanegu disgyrchi
 
 	![screenshot](images/dodge-no-gravity.png)
 
-+ I drwsio hyn, fe wnawn ni ychwanegu disgyrchiant i'r gêm.  Mae angen creu newidyn newydd o'r enw 'disgyrchiant' {.blockdata}.  Mae modd i ti guddio'r newidyn yma o'r llwyfan os wyt ti eisiau.
++ I drwsio hyn, fe wnawn ni ychwanegu disgyrchiant i'r gêm.  Mae angen creu newidyn newydd o'r enw `disgyrchiant`{:class="blockdata"}.  Mae modd i ti guddio'r newidyn yma o'r llwyfan os wyt ti eisiau.
 
 	![screenshot](images/dodge-gravity.png)
 
@@ -24,7 +24,7 @@ Fe wnawn ni wneud dy gymeriad i symud yn fwy realistig, wrth ychwanegu disgyrchi
 
 	![screenshot](images/dodge-gravity-drag.png)
 
-+ Ni ddylai disgyrchiant symud dy gymeriad trwy platfform neu ysgol! Ychwanega bloc 'os' {.blockcontrol} i dy gôd, fel bod y disgyrchiant ond yn gweithio pan mae'r cymeriad yn yr aer.  Fe ddylai côd y disgyrchiant edrych fel hyn:
++ Ni ddylai disgyrchiant symud dy gymeriad trwy platfform neu ysgol! Ychwanega bloc `os`{:class="blockcontrol"} i dy gôd, fel bod y disgyrchiant ond yn gweithio pan mae'r cymeriad yn yr aer.  Fe ddylai côd y disgyrchiant edrych fel hyn:
 
 	```blocks
 		pan fo ⚑ wedi ei glicio
@@ -49,11 +49,11 @@ Fe wnawn ni wneud dy gymeriad i symud yn fwy realistig, wrth ychwanegu disgyrchi
 		end
 	```
 
-	Gan fod disgyrchiant yn gyson yn gwthio dy gymeriad i lawr 4 picsel, mae angen i ti ddewis rhif yn fwy na 4 yn dy floc 'newid y gan (4)' {.blockmotion}.  Newida'r rhif yma tan dy fod yn hapus gyda uchder neidio dy gymeriad.
+	Gan fod disgyrchiant yn gyson yn gwthio dy gymeriad i lawr 4 picsel, mae angen i ti ddewis rhif yn fwy na 4 yn dy floc `newid y gan (4)`{:class="blockmotion"}.  Newida'r rhif yma tan dy fod yn hapus gyda uchder neidio dy gymeriad.
 
 + Os wyt ti'n profi'r côd yma, fe wnei di sylwi ei fod yn gweithio ond nad yw'n llyfn iawn. I wneud y neidio edrych yn fwy llyfn, bydd angen i ti symud dy gymeriad llai a llai nes nad yw'n neidio rhagor.
 
-+ I wneud hyn, bydd angen creu newidyn arall o'r enw 'uchder neidio' {.blockdata}.  Eto, mae modd newid y newidyn yma os oes well gyda ti. 
++ I wneud hyn, bydd angen creu newidyn arall o'r enw `uchder neidio`{:class="blockdata"}.  Eto, mae modd newid y newidyn yma os oes well gyda ti. 
 
 + Dileua'r côd neidio wnes di ychwanegu i dy gymeriad, a gosod y côd yma yn ei le:
 
@@ -68,4 +68,4 @@ Fe wnawn ni wneud dy gymeriad i symud yn fwy realistig, wrth ychwanegu disgyrchi
 
 	Mae'r côd yma yn symud dy gymeriad fyny wrth 8 picsel, yna 7.5 picsel, yna 7 picsel, ac ati, tan fod dy gymeriad wedi gorffen neidio.  Mae hyn yn gwneud i'r neidio edrych yn llawer llyfnach.
 
-+ Newida gwerth dechrau y newidyn 'uchder neidio' {.blockdata} a profa fe tan dy fod yn hapus gydag uchder neidio dy gymeriad.
++ Newida gwerth dechrau y newidyn `uchder neidio`{:class="blockdata"} a profa fe tan dy fod yn hapus gydag uchder neidio dy gymeriad.
