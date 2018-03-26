@@ -41,8 +41,8 @@ Fe wnawn ni ddechrau trwy greu cymeriad sy'n gallu symud i'r dde a chwith a drin
 
 	Neu, os oes well gyda ti ychwanegu y bloc yma i ddechrau sgript dy gymeriad:
 
-	```scratch
-	gosod steil cylchdroi [chwith-dde v]
+	```blocks
+	  gosod steil cylchdroi [chwith-dde v]
 	```
 
 + I ddringo'r ysgol binc, fe ddylai'r cymeriad symud ychydig yn uwch bob tro mae'r saeth fyny yn cael ei wasgu ac mae'n cyffwrdd y lliw cywir.  Ychwanega'r côd yma tu fewn i ddolen `am byth`{:class="blockcontrol"} y cymeriad:
