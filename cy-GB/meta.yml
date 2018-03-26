@@ -1,0 +1,27 @@
+---
+hero_image: images/banner.png
+theme: yellow
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+title: Osgoi'r bêl
+description: Creu gêm platfform lle mae rhaid i ti osgoi'r bêl i gyrraedd diwedd y lefel.
+original_url: https://codeclubprojects.org/en-GB/scratch/dodgeball
+interests: ''
+technologies: scratch
+site_areas: codeclub, scratch
+steps:
+- title: Cyflwyniad
+- title: Symudiad y Cymeriad
+- title: "Her: Cwblhau'r lefel"
+- title: Disgyrchiant a neidio
+- title: "Her: Gwella'r neidio"
+- title: Osgoi peli
+- title: 'Her: Peli ar hap'
+- title: Laser!
+- title: 'Her: Mwy o rwystrau'
+- title: 'Her: Gwella'r disgyrchiant'
+- title: 'Her: Mwy o fywydau'
+
