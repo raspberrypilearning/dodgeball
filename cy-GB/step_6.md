@@ -38,7 +38,7 @@ Nawr fod dy gymeriad yn symud o gwmpas, fe awn ati i ychwanegu peli bydd yn rhai
 + Bydd hefyd angen i ti ychwanegu côd i dy gymeriad, i symud yn ôl i'r dechrau pan mae'n cael ei daro:
 
 	```blocks
-		pan fyddaf yn derbyn [hit v]
+		pan dderbyniaf [hit v]
 		pwyntio i gyfeiriad (90 v)
 		mynd i x:(-210) y:(-120)
 
