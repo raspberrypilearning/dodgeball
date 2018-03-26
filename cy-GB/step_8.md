@@ -22,10 +22,10 @@ Fe wnawn ni wneud dy gêm ychydig yn anodd i gwblhau, trwy ychwanegu laser!
 		end
 	```
 
-	Os oes well gyda ti, mae modd i ti 'aros' {.blockcontrol} cyfanswm 'ar hap' {.blockcontrol} o amser rhwng newid gwisg.
+	Os oes well gyda ti, mae modd i ti `aros`{:class="blockcontrol"} cyfanswm `ar hap`{:class="blockcontrol"} o amser rhwng newid gwisg.
 
 + Yn olaf, ychwanega côd i dy laser, fel bod y neges 'taro' yn darlledu pan mae'r laser yn cyffwrdd dy gymeriad.  Bydd y côd yma yn debyg iawn i'r côd wnes di ychwanegu i giplun y bêl.
 
 	Does dim angen i ti ychwanegu mwy o gôd i gy gymeriad - mae'n gwybod beth i wneud pan mae'n cael ei daro!
 
-+ Profa dy gêm i weld os wyt ti'n gallu mynd heibio'r laser. Newida'r amser 'aros' {.blockcontrol} yn dy gôd os yw'r laser yn rhy hawdd neu'n rhy anodd.
++ Profa dy gêm i weld os wyt ti'n gallu mynd heibio'r laser. Newida'r amser `aros`{:class="blockcontrol"} yn dy gôd os yw'r laser yn rhy hawdd neu'n rhy anodd.
