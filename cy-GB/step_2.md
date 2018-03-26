@@ -29,13 +29,13 @@ Fe wnawn ni ddechrau trwy greu cymeriad sy'n gallu symud i'r dde a chwith a drin
 
 	![screenshot](images/dodge-walking.png)
 
-+ I symud dy gymeriad i'r chwith, bydd angen i ti ychwanegu bloc 'os' {.blockcontrol} arall yn dy ddolen 'am byth' {.blockcontrol} , sydd yn symud dy gymeriad i'r chwith.
++ I symud dy gymeriad i'r chwith, bydd angen i ti ychwanegu bloc `os`{:class="blockcontrol"} arall yn dy ddolen `am byth`{:class="blockcontrol"} , sydd yn symud dy gymeriad i'r chwith.
 
 + Profa dy gôd newydd i wneud yn siwr ei fod yn gweithio. Ydy dy gymeriad yn troi ben i waered pan yn cerdded i'r chwith?
 
 	![screenshot](images/dodge-upside-down.png)
 
-	Os felly, fe alli di drwsio hyn trwy glicio yr eicon '(i)' {.blocksensing} ar gymeriad dy giplun, ac yn clicio y saeth chwith-dde.
+	Os felly, fe alli di drwsio hyn trwy glicio yr eicon `(i)`{:class="blocksensing"} ar gymeriad dy giplun, ac yn clicio y saeth chwith-dde.
 
 	![screenshot](images/dodge-left-right.png)
 
@@ -45,7 +45,7 @@ Fe wnawn ni ddechrau trwy greu cymeriad sy'n gallu symud i'r dde a chwith a drin
 	gosod steil cylchdroi [chwith-dde v]
 	```
 
-+ I ddringo'r ysgol binc, fe ddylai'r cymeriad symud ychydig yn uwch bob tro mae'r saeth fyny yn cael ei wasgu ac mae'n cyffwrdd y lliw cywir.  Ychwanega'r côd yma tu fewn i ddolen 'am byth' {.blockcontrol} y cymeriad:
++ I ddringo'r ysgol binc, fe ddylai'r cymeriad symud ychydig yn uwch bob tro mae'r saeth fyny yn cael ei wasgu ac mae'n cyffwrdd y lliw cywir.  Ychwanega'r côd yma tu fewn i ddolen `am byth`{:class="blockcontrol"} y cymeriad:
 
 
 	```blocks
