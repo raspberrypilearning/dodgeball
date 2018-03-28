@@ -7,6 +7,11 @@ Yn y prosiect yma fe wnei di ddysgu sut i greu gêm platfform lle mae rhaid i ti
   <img src="images/dodge-final.png">
 </div>
 
+--- collapse ---
+---
+title: Nodiadau i Wirfoddolwyr
+---
+
 ## Adnoddau
 Ar gyfer y prosiect yma, dylid defnyddio Scratch 2.  Mae modd defnyddio Scratch 2 arlein yma [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) neu mae modd ei lawrlwytho yma [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) a'i ddefnyddio heb gysylltiad gwe.
 
@@ -42,3 +47,4 @@ Mae'r prosiect yma yn trin elfennau sydd yn rhan o'r adran ganlynol o [Faes Llaf
 + "Perffeithio disgyrchiant" - defnyddio bloc `os`{:class="blockcontrol"} ychwanegol i ddatrys problem `disgyrchiant`{:class="blockdata"};
 + "Mwy o fywydau" - ychwanegu newidyn `bywydau`{:class="blockdata"}.
 
+--- collapse ---
