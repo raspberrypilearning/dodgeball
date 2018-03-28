@@ -47,4 +47,4 @@ Mae'r prosiect yma yn trin elfennau sydd yn rhan o'r adran ganlynol o [Faes Llaf
 + "Perffeithio disgyrchiant" - defnyddio bloc `os`{:class="blockcontrol"} ychwanegol i ddatrys problem `disgyrchiant`{:class="blockdata"};
 + "Mwy o fywydau" - ychwanegu newidyn `bywydau`{:class="blockdata"}.
 
---- collapse ---
+--- /collapse ---
