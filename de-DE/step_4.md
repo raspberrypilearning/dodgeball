@@ -6,7 +6,7 @@ Lass uns die Bewegungen Deines Charakters relistischer erscheinen lassen, indem 
 
 	![screenshot](images/dodge-no-gravity.png)
 
-+ Um dies zu berictigen,lass uns Schwerkraft zu Deinem Spiel hinzufügen. Erstelle eine neue Variable names `Schwerkraft` {.blockdata}. Du kannst Die Variable von der Bühne verstecken, wenn Du möchtest.
++ Um dies zu berictigen,lass uns Schwerkraft zu Deinem Spiel hinzufügen. Erstelle eine neue Variable names `Schwerkraft`{:class="blockdata"}. Du kannst Die Variable von der Bühne verstecken, wenn Du möchtest.
 
 	![screenshot](images/dodge-gravity.png)
 
@@ -24,7 +24,7 @@ Lass uns die Bewegungen Deines Charakters relistischer erscheinen lassen, indem 
 
 	![screenshot](images/dodge-gravity-drag.png)
 
-+ Die Schwerkraft sollte Deinen Charakter jedoch nicht durch einen Mast oder eine Plattform bewegen. Füge einen `wenn` {.blockcontrol}-Block zu Deinem Code hinzu, so dass Deine Schwerkraft nur greift, wenn sich die Figur in der Luft befindet. Der Schwerkraft-Code sollte so aussehen:
++ Die Schwerkraft sollte Deinen Charakter jedoch nicht durch einen Mast oder eine Plattform bewegen. Füge einen `wenn`{:class="blockcontrol"}-Block zu Deinem Code hinzu, so dass Deine Schwerkraft nur greift, wenn sich die Figur in der Luft befindet. Der Schwerkraft-Code sollte so aussehen:
 
 	```blocks
 		Wenn die grüne Flagge angeklickt
@@ -49,11 +49,11 @@ Lass uns die Bewegungen Deines Charakters relistischer erscheinen lassen, indem 
 		Ende
 	```
 
-	Da die Schwerkraft deine Figur kontinuierlich um 4 Pixels herunterbewegt, musst Du eine größere Zahl als 4 in Deinem `change y by (4)` {.blockmotion}-Block nehmen. Verändere die Nummer so lange, bis Du zufrieden bist mit der Höhe, die Deine Spielfigur springt.
+	Da die Schwerkraft deine Figur kontinuierlich um 4 Pixels herunterbewegt, musst Du eine größere Zahl als 4 in Deinem `change y by (4)`{:class="blockmotion"}-Block nehmen. Verändere die Nummer so lange, bis Du zufrieden bist mit der Höhe, die Deine Spielfigur springt.
 
 + Wenn Du den Code testest, wirst Du feststellen, dass er funktionuert. Allerdings sind die BEwegungen nicht sehr flüssig. Um das Springen natürlicher aussehen zu lassen, musst du die BEwegungen der Figur kleiner und kleiner wwerden lassen, bis sie nicht mehr springt.
 
-+ Um dies zu tun, erstelle eine weitere Variable, die `jump height` {.blockdata} heißt. Auch hier kannst Du die Variable von der Bühne verstecken, wenn Du möchtest.
++ Um dies zu tun, erstelle eine weitere Variable, die `jump height`{:class="blockdata"} heißt. Auch hier kannst Du die Variable von der Bühne verstecken, wenn Du möchtest.
 
 + Lösche den Springen-Code, den Du Deinem Charakter hinzugefügt hast und ersetzte ihn stattdessen mit diesem:
 
@@ -68,4 +68,4 @@ Lass uns die Bewegungen Deines Charakters relistischer erscheinen lassen, indem 
 
 	Dieser Code bewegt Deinen Charakter um 8 Pixel nach oben, dann um 7.5 Pixels, dann um 7 und so weiter, bis Deine Figur nicht mehr springt. Das lässt das Springen viel flüssiger erscheinen.
 
-+ Verändere den Startwert deiner Sprunghöhe / `jump height` {.blockdata}-Variable und teste sie, bis Du zufrieden mit der Höhe, die Deine Figur springt.
++ Verändere den Startwert deiner Sprunghöhe / `jump height`{:class="blockdata"}-Variable und teste sie, bis Du zufrieden mit der Höhe, die Deine Figur springt.
