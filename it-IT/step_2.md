@@ -29,13 +29,13 @@ Iniziamo creando un personaggio che può muoversi a destra e a sinistra, e anche
 
 	![screenshot](images/dodge-walking.png)
 
-+ Per muovere il tuo personaggio a sinistra, dovrai aggiungere un altro blocco `se` {.blockcontrol} dentro il loop `per sempre` {.blockcontrol}, che muove il tuo personaggio a sinistra.
++ Per muovere il tuo personaggio a sinistra, dovrai aggiungere un altro blocco `se`{:class="blockcontrol"} dentro il loop `per sempre`{:class="blockcontrol"}, che muove il tuo personaggio a sinistra.
 
 + Prova il tuo nuovo codice per assicurarti che funzioni. Il tuo personaggio si capovolge quando cammina a sinistra?
 
 	![screenshot](images/dodge-upside-down.png)
 
-	In quel caso, puoi risolvere questo bug cliccando l'icona `(i)` {.blocksensing} sullo sprite del personaggio, e poi clicca le frecce dstra-sinistra.
+	In quel caso, puoi risolvere questo bug cliccando l'icona `(i)`{:class="blocksensing"} sullo sprite del personaggio, e poi clicca le frecce dstra-sinistra.
 
 	![screenshot](images/dodge-left-right.png)
 
@@ -45,7 +45,7 @@ Iniziamo creando un personaggio che può muoversi a destra e a sinistra, e anche
 	porta stile rotazione a [sinistra-destra v]
 	```
 
-+ Per salire una scala rosa, il tuo personaggio dovrebbe muoversi leggermente verso l'alto ogni volta che la freccia in su è premuta e sta toccando il colore corretto. Aggiungi questo codice dentro il loop `per sempre` {.blockcontrol} del tuo personaggio:
++ Per salire una scala rosa, il tuo personaggio dovrebbe muoversi leggermente verso l'alto ogni volta che la freccia in su è premuta e sta toccando il colore corretto. Aggiungi questo codice dentro il loop `per sempre`{:class="blockcontrol"} del tuo personaggio:
 
 	```blocks
 		se <<tasto [freccia su v] premuto> e <sta toccando il colore [#FF69B4]>> allora
