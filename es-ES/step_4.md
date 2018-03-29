@@ -49,7 +49,7 @@ Vamos a hacer que tu personaje se mueva de forma más realista añadiendo graved
 		fin
 	```
 
-	Como la gravedad está constantemente empujando a tu personaje 4 píxeles hacia abajo, necesitarás indicar un número superior a 4 en el bloque `cambiar y por (4)` {.blockmotion}. Cambia el número hasta que te parezca bien la altura a la que el personaje salta.
+	Como la gravedad está constantemente empujando a tu personaje 4 píxeles hacia abajo, necesitarás indicar un número superior a 4 en el bloque `cambiar y por (4)`{:class="blockmotion"}. Cambia el número hasta que te parezca bien la altura a la que el personaje salta.
 
 + Si pruebas este código verás que funciona bien, pero el movimiento no es demasiado fluido. Para que los saltos parezcan más naturales, tendrás que mover al personaje en cantidades cada vez más pequeñas, hasta que deje de saltar.
 
