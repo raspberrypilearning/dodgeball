@@ -49,7 +49,7 @@ Déplaçons votre personnage plus réellement en ajoutant de la gravité et en l
 		end
 	```
 
-	Comme la gravité pousse constamment votre personnage en bas par 4 pixels, vous devez choisir un nombre plus grand que 4 dans votre ` Changer y par (4)`{:class="blockmotion"}. Changez ce nombre jusqu'à ce que vous soyez heureux avec la hauteur de vos sauts.
+	Comme la gravité pousse constamment votre personnage en bas par 4 pixels, vous devez choisir un nombre plus grand que 4 dans votre `Changer y par (4)`{:class="blockmotion"}. Changez ce nombre jusqu'à ce que vous soyez heureux avec la hauteur de vos sauts.
 
 
 + Si vous testez ce code, vous remarquerez que ça marche, mais le mouvement n'est pas très cohérent. Pour améliorer cela, vous devrez déplacer votre personnage par des quantités de plus en plus petites jusqu'à ce qu'il ne saute plus.
