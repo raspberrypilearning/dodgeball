@@ -22,10 +22,10 @@
 		fin
 	```
 
-	Si lo prefieres, puedes `esperar` {.blockcontrol} un tiempo `al azar` {.blockoperators} entre el cambio de disfraces.
+	Si lo prefieres, puedes `esperar`{:class="blockcontrol"} un tiempo `al azar`{:class="blockoperators"} entre el cambio de disfraces.
 
 + Para finalizar, añade código al láser para que el mensaje 'tocado' se envíe cuando el láser toque al personaje. Este código es el mismo que el que has añadido al objeto balón.
 
 	No necesitas añadir más código al personaje, ¡ya sabe lo que tiene que hacer cuando algo le toca!
 
-+ Prueba el juego para ver si eres capaz de pasar a través del láser. Cambia los tiempos en el código `esperar` {.blockcontrol} si los láseres son demasiado fáciles o difíciles.
++ Prueba el juego para ver si eres capaz de pasar a través del láser. Cambia los tiempos en el código `esperar`{:class="blockcontrol"} si los láseres son demasiado fáciles o difíciles.
