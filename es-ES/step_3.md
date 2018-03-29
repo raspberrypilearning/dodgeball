@@ -1,6 +1,6 @@
 --- challenge ---
 ## Reto: Acabar el nivel 
-¿Puedes añadir más código al personaje, para que diga algo `si` {.blockcontrol} llega a la puerta marrón?
+¿Puedes añadir más código al personaje, para que diga algo `si`{:class="blockcontrol"} llega a la puerta marrón?
 
 ![screenshot](images/dodge-win.png)
 
