@@ -22,10 +22,10 @@ Rendez votre jeu un peu plus compliqué en ajoutant des lasers!
 		end
 	```
 
-	Si vous préférez, vous pouvez 'Attendre' {.blockcontrol} un temps 'aléatoire' {.blockoperators} entre les changements de costume.
+	Si vous préférez, vous pouvez `Attendre`{:class="blockcontrol"} un temps `aléatoire`{:class="blockoperators"} entre les changements de costume.
 
 + Finalement, ajoutez le code à votre laser pour que le message 'hit' soit diffusé quand le laser touche votre personnage. Ce code sera le même que vous avez ajouté à votre lutin de balle.
 
 	Vous n'avez pas à ajouter plus de codes à votre personnage, il sait déjà quoi faire lorsqu'il est frappé!
 
-+ Testez votre jeu pour voir si vous pouvez arriver devant le laser. Changer le temps 'attendre' {.blockcontrol} dans votre code si les lasers sont trop faciles ou trop difficiles.
++ Testez votre jeu pour voir si vous pouvez arriver devant le laser. Changer le temps `attendre`{:class="blockcontrol"} dans votre code si les lasers sont trop faciles ou trop difficiles.
