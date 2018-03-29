@@ -46,11 +46,11 @@ Questo progetto copre elementi contenuti nei seguenti filoni di [Raspberry Pi Di
 + [Combinazione di costrutti di programmazione per la soluzione di problemi.](https://www.raspberrypi.org/curriculum/programming/builder)
 
 ## Sfide
-+ "Salti migliorati" - usa un ulteriore blocco 'se' {.blockcontrol} per risolvere il bug dei salti multipli;
-+ "Palle A Caso" - usa il blocco 'a caso' {.blockoperators} per variare l'aspetto e la misura della palla e il ritardo tra i cloni;
++ "Salti migliorati" - usa un ulteriore blocco `se`{:class="blockcontrol"} per risolvere il bug dei salti multipli;
++ "Palle A Caso" - usa il blocco `a caso`{:class="blockoperators"} per variare l'aspetto e la misura della palla e il ritardo tra i cloni;
 + "Altri ostacoli" - aggiunge ulteriori sprite al gioco;
-+ "Gravità migliorata" - usa un ulteriore blocco 'se' {.blockcontrol} per risolvere un bug nella gravità {.blockdata};
-+ "Altre vite" - aggiunta di una variabile 'vite' {.blockdata}.
++ "Gravità migliorata" - usa un ulteriore blocco `se`{:class="blockcontrol"} per risolvere un bug nella `gravità`{:class="blockdata"};
++ "Altre vite" - aggiunta di una variabile '`vite`{:class="blockdata"}.
 
 
 
