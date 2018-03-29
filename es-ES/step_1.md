@@ -4,7 +4,7 @@ En este proyecto aprenderás a crear un juego de plataformas en el que tendrás 
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/39740618/?autostart=false" frameborder="0"></iframe>
-  <img src="dodge-final.png">
+  <img src="images/dodge-final.png">
 </div>
 
 
@@ -37,11 +37,11 @@ Recursos del Proyecto:
 + Este proyecto consolida el aprendizaje de habilidades de programación aprendidas con anterioridad.
 
 ## Retos
-+ "Salto mejorado" - usar un bloque adicional `si` {.blockcontrol} para solucionar un error de salto múltiple;
-+ "Balones aleatorios" - usar el bloque `al azar` {.blockoperators} para modificar el disfraz y el tamaño del balón y el intervalo entre clones;
++ "Salto mejorado" - usar un bloque adicional `si`{:class="blockcontrol"} para solucionar un error de salto múltiple;
++ "Balones aleatorios" - usar el bloque `al azar` {:class="blockoperators"} para modificar el disfraz y el tamaño del balón y el intervalo entre clones;
 + "Más obstáculos" - añadir más objetos al juego;
-+ "Gravedad mejorada" - usar un bloque adicional `si` {.blockcontrol} para solucionar un error en la `gravedad` {.blockdata};
-+ "Más vidas" - añadir una variable de `vidas` {.blockdata}.
++ "Gravedad mejorada" - usar un bloque adicional `si`{:class="blockcontrol"} para solucionar un error en la `gravedad`{:class="blockdata"};
++ "Más vidas" - añadir una variable de `vidas`{:class="blockdata"}.
 
 
 
