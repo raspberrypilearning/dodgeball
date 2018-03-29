@@ -6,7 +6,7 @@ Vamos a hacer que tu personaje se mueva de forma más realista añadiendo graved
 
 	![screenshot](images/dodge-no-gravity.png)
 
-+ Para arreglar esto, vamos a añadir gravedad al juego. Crea una nueva variable con el nombre `gravedad` {.blockdata}. Si quieres, puedes esconder esta variable del escenario.
++ Para arreglar esto, vamos a añadir gravedad al juego. Crea una nueva variable con el nombre `gravedad`{:class="blockdata"}. Si quieres, puedes esconder esta variable del escenario.
 
 	![screenshot](images/dodge-gravity.png)
 
@@ -24,7 +24,7 @@ Vamos a hacer que tu personaje se mueva de forma más realista añadiendo graved
 
 	![screenshot](images/dodge-gravity-drag.png)
 
-+ ¡La gravedad no debería hacer caer a tu personaje de las plataformas o de un poste! Añade un bloque `si` {.blockcontrol} al código para que la gravedad sólo funcione cuando el personaje esté en medio del aire. El código de gravedad debería ser así:
++ ¡La gravedad no debería hacer caer a tu personaje de las plataformas o de un poste! Añade un bloque `si`{:class="blockcontrol"} al código para que la gravedad sólo funcione cuando el personaje esté en medio del aire. El código de gravedad debería ser así:
 
 	```blocks
 		al presionar bandera verde
@@ -53,7 +53,7 @@ Vamos a hacer que tu personaje se mueva de forma más realista añadiendo graved
 
 + Si pruebas este código verás que funciona bien, pero el movimiento no es demasiado fluido. Para que los saltos parezcan más naturales, tendrás que mover al personaje en cantidades cada vez más pequeñas, hasta que deje de saltar.
 
-+ Para conseguir esto, crea otra variable llamada `altura de salto` {.blockdata}. De nuevo, puedes esconder esta variable si lo prefieres.
++ Para conseguir esto, crea otra variable llamada `altura de salto`{:class="blockdata"}. De nuevo, puedes esconder esta variable si lo prefieres.
 
 + Elimina el código de salto que has añadido a tu personaje, y sustitúyelo por éste:
 
@@ -68,4 +68,4 @@ Vamos a hacer que tu personaje se mueva de forma más realista añadiendo graved
 
 	Este código hace que el personaje se mueva hacia arriba 8 píxeles, después 7,5 píxeles, después 7 píxeles, y así hasta que el personaje acabe de saltar. Esto hará que el salto parezca mucho más fluido.
 
-+ Cambia el valor de inicio de la variable `altura de salto` {.blockdata} y prueba hasta que te parezca bien la altura a la que el personaje salta.
++ Cambia el valor de inicio de la variable `altura de salto`{:class="blockdata"} y prueba hasta que te parezca bien la altura a la que el personaje salta.
