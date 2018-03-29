@@ -33,9 +33,9 @@ Commençons par créer un personnage qui peut se déplacer à gauche et à droit
 
 	![screenshot](images/dodge-walking.png)
 
-+ Pour déplacer votre personnage vers la gauche, vous devrez ajouter un autre `si` {.blockcontrol} à l'intérieur de votre `répéter indéfiniment` {.blockcontrol} pour déplacer votre personnage à gauche. Rappelez-vous de tester votre nouveau code pour vous assurer ça marche !
++ Pour déplacer votre personnage vers la gauche, vous devrez ajouter un autre `si`{:class="blockcontrol"} à l'intérieur de votre `répéter indéfiniment`{:class="blockcontrol"} pour déplacer votre personnage à gauche. Rappelez-vous de tester votre nouveau code pour vous assurer ça marche !
 
-+ Pour monter une échelle rose, votre personnage devrait avancer légèrement en haut quand la flèche du haut est appuyée et qu'il touche la bonne couleur. Ajoutez ce code à l'intérieur de la boucle `répéter indéfiniment` {.blockcontrol} de votre personnage :
++ Pour monter une échelle rose, votre personnage devrait avancer légèrement en haut quand la flèche du haut est appuyée et qu'il touche la bonne couleur. Ajoutez ce code à l'intérieur de la boucle `répéter indéfiniment`{:class="blockcontrol"} de votre personnage :
 
 	```blocks
 		si <<touche [flèche haut v] pressée?> et <couleur [#FFFF00] touchée?>> alors
