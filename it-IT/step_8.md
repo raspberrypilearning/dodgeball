@@ -22,10 +22,10 @@ Rendiamo il gioco un po' più difficile aggiungendo dei laser!
 		end
 	```
 
-	Se preferisci, puoi `attendi` {.blockcontrol} un periodo di tempo `a caso` {.blockoperators} tra il cambio da un costume all'altro.
+	Se preferisci, puoi `attendi`{:class="blockcontrol"} un periodo di tempo `a caso`{:class="blockoperators"} tra il cambio da un costume all'altro.
 
 + Infine, aggiungi un codice al tuo laser, in modo che venga trasmesso il messaggio 'colpito' quando il laser tocca il personaggio. Questo codice sarà molto simile a quello che hai aggiunto allo sprite della palla.
 
 	Non dovrai aggiungere altri codici al tuo personaggio - sa già cosa fare quando viene colpito!
 
-+ Prova il tuo gioco per vedere se riesci a superare il laser. Cambia i tempi di `attendi` {.blockcontrol} nel tuo codice se i laser sono troppo facili o troppo difficili.
++ Prova il tuo gioco per vedere se riesci a superare il laser. Cambia i tempi di `attendi`{:class="blockcontrol"} nel tuo codice se i laser sono troppo facili o troppo difficili.
