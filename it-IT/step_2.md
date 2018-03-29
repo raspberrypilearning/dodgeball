@@ -41,9 +41,9 @@ Iniziamo creando un personaggio che può muoversi a destra e a sinistra, e anche
 
 	Oppure, se preferisci, puoi aggiungere questo blocco all'inizio del testo del tuo personaggio:
 
-	```scratch
-	porta stile rotazione a [sinistra-destra v]
-	```
+	 ```blocks
+	   porta stile rotazione a [sinistra-destra v]
+	 ```
 
 + Per salire una scala rosa, il tuo personaggio dovrebbe muoversi leggermente verso l'alto ogni volta che la freccia in su è premuta e sta toccando il colore corretto. Aggiungi questo codice dentro il loop `per sempre`{:class="blockcontrol"} del tuo personaggio:
 
