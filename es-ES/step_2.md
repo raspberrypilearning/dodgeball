@@ -33,9 +33,9 @@ Empezaremos por crear un personaje que pueda moverse hacia la derecha y la izqui
 
 	![screenshot](images/dodge-walking.png)
 
-+ Para que el personaje se mueva hacia la izquierda, tendrás que añadir otro bloque `si` {.blockcontrol} dentro del bucle `por siempre` {.blockcontrol}. ¡Recuerda probar el nuevo código para asegurarte de que funciona!
++ Para que el personaje se mueva hacia la izquierda, tendrás que añadir otro bloque `si`{:class="blockcontrol"} dentro del bucle `por siempre`{:class="blockcontrol"}. ¡Recuerda probar el nuevo código para asegurarte de que funciona!
 
-+ Para subirse a un poste, tu personaje debería moverse un poco hacia arriba siempre que se pulse la flecha arriba y esté tocando el color correcto. Añade este código al bucle `por siempre` {.blockcontrol} de tu personaje:
++ Para subirse a un poste, tu personaje debería moverse un poco hacia arriba siempre que se pulse la flecha arriba y esté tocando el color correcto. Añade este código al bucle `por siempre`{:class="blockcontrol"} de tu personaje:
 
 	```blocks
 		si <<¿tecla [flecha arriba v] presionada?> y <¿tocando el color [#FFFF00]?>> entonces
