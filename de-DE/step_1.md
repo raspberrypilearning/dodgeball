@@ -37,9 +37,10 @@ Projekt-Ressourcen:
 + Dieses Projekt konsolidiert die erlernten Fähigkeiten aus vorangehenden Projekten.
 
 ## Herausforderungen
-+ "Verbessertes Springen" - Nutzung eines zusätzlichen `wenn` {.blockcontrol}-Blocks, um einen Mehrfach-Sprung-Bug zu beheben;
-+ "Willkürliche Bälle" - Nutzung des `Zufallszahl` {.blockoperators}-Blocks, um das Kostüm des Balls, sowie die Größe und den Abstand zwischen Klonen zu variieren;
++ "Verbessertes Springen" - Nutzung eines zusätzlichen `wenn`{:class="blockcontrol"}-Blocks, um einen Mehrfach-Sprung-Bug zu beheben;
++ "Willkürliche Bälle" - Nutzung des `Zufallszahl`{:class="blockoperators"}-Blocks, um das Kostüm des Balls, sowie die Größe und den Abstand zwischen Klonen zu variieren;
 + "Mehr Hindernisse" - Hinzufügen zusätzlicher Figuren zu dem Spiel;
-+ "Verbesserte Schwerkraft" - Nutzung eines zusätzlichen `wenn` {.blockcontrol}-Blocks, um einen `Schwerkraft` {.blockdata}-Bug zu beheben;
-+ "Mehr Leben" - Hinzufügen einer zusätzlicher `Leben` {.blockdata}-Variable.
++ "Verbesserte Schwerkraft" - Nutzung eines zusätzlichen `wenn`{:class="blockcontrol"}-Blocks, um einen `Schwerkraft`{:class="blockdata"}-Bug zu beheben;
++ "Mehr Leben" - Hinzufügen einer zusätzlicher `Leben`{:class="blockdata"}-Variable.
+
 --- /collapse ---
