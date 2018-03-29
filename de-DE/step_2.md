@@ -33,9 +33,9 @@ Lass uns damit starten, dass wir eine Spielfugur erstllen, die sich sowohl nach 
 
 	![screenshot](images/dodge-walking.png)
 
-+ Um Deine Figur nach links zu bewegen, musst Du einen weiteren `wenn` {.blockcontrol}-Block in Deine `forever` {.blockcontrol}-Schliefe einbauen. Vergiss nicht Deinen Code zu testen, um sicherzustellen, dass er funktioniert!
++ Um Deine Figur nach links zu bewegen, musst Du einen weiteren `wenn`{:class="blockcontrol"}-Block in Deine `forever`{:class="blockcontrol"}-Schliefe einbauen. Vergiss nicht Deinen Code zu testen, um sicherzustellen, dass er funktioniert!
 
-+ Um einen Mast hochklettern zu können, sollte sich Deine Spielfigur leicht nach oben bewegen, sobald der Hoch-Pfeil gedrückt wird und die Figur die richtige Farbe berührt wird. Füge diesen Code in die `forever` {.blockcontrol}´Schleife der Spielfigur hinzu:
++ Um einen Mast hochklettern zu können, sollte sich Deine Spielfigur leicht nach oben bewegen, sobald der Hoch-Pfeil gedrückt wird und die Figur die richtige Farbe berührt wird. Füge diesen Code in die `forever`{:class="blockcontrol"}´Schleife der Spielfigur hinzu:
 
 	```blocks
 		falls <<Taste [Pfeil nach oben v] gedrückt?> und <wird Farbe [#FFFF00] berührt?>> dann
