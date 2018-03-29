@@ -38,7 +38,7 @@ Recursos del Proyecto:
 
 ## Retos
 + "Salto mejorado" - usar un bloque adicional `si`{:class="blockcontrol"} para solucionar un error de salto múltiple;
-+ "Balones aleatorios" - usar el bloque `al azar` {:class="blockoperators"} para modificar el disfraz y el tamaño del balón y el intervalo entre clones;
++ "Balones aleatorios" - usar el bloque `al azar`{:class="blockoperators"} para modificar el disfraz y el tamaño del balón y el intervalo entre clones;
 + "Más obstáculos" - añadir más objetos al juego;
 + "Gravedad mejorada" - usar un bloque adicional `si`{:class="blockcontrol"} para solucionar un error en la `gravedad`{:class="blockdata"};
 + "Más vidas" - añadir una variable de `vidas`{:class="blockdata"}.
