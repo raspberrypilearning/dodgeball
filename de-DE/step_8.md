@@ -22,11 +22,11 @@ Lass uns Dein Spile noch schwieriger machen, indem wir Laser hinzufügen!
 		Ende
 	```
 
-	Wenn Du möchtest, kannst Du eine willkürliche / `random` {.blockoperators} Zeit `warten` {.blockcontrol}, bevor das Kostüm wechselt.
+	Wenn Du möchtest, kannst Du eine willkürliche / `random`{:class="blockoperators"} Zeit `warten`{:class="blockcontrol"}, bevor das Kostüm wechselt.
 
 + Füge anschließend Deinem Laser einen Code hinzu, so dass die 'hit'-Nachricht verbreitet wird, sobald der Laser Deine Figur berührt. Dieser Code wird der gleiche sein, den Du Deiner Ball-Figur hinzugefügt hast.
 
 	Du musst Deiner Figur keinen weiteren Code hinzufügen - sie weiß bereits was zu tun ist, wenn sie berührt wird.
 
-+ Teste Dein Spiel darauf, ob Du es schaffst den Laser zu passieren. Ändere die `wait` {.blockcontrol}´-Zeit in Deinem Code, wenn die Laser zu einfach oder zu schwierig zu umgehen sind.
++ Teste Dein Spiel darauf, ob Du es schaffst den Laser zu passieren. Ändere die `wait`{:class="blockcontrol"}´-Zeit in Deinem Code, wenn die Laser zu einfach oder zu schwierig zu umgehen sind.
 
