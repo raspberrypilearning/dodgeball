@@ -2,13 +2,11 @@
 
 Facciamo muovere il perosnaggio in maniera più realistica, aggiungendo la gravità e permettendogli di saltare.
 
-## Lista delle attività { .check}
-
 + Avrai notato che il tuo personaggio può scendere dalla piattaforma a mezz'aria. Prova a scendere da una piattaforma e vedi cosa succede.
 
 	![screenshot](images/dodge-no-gravity.png)
 
-+ Per risolverlo, aggiungiamo la gravità al tuo gioco. Crea una nuova variabile chiamata `gravità` {.blockdata}. Se vuoi, puoi nascondere questa variabile dal quadro.
++ Per risolverlo, aggiungiamo la gravità al tuo gioco. Crea una nuova variabile chiamata `gravità`{:class="blockdata"}. Se vuoi, puoi nascondere questa variabile dal quadro.
 
 	![screenshot](images/dodge-gravity.png)
 
@@ -26,7 +24,7 @@ Facciamo muovere il perosnaggio in maniera più realistica, aggiungendo la gravi
 
 	![screenshot](images/dodge-gravity-drag.png)
 
-+ La gravità non dovrebbe muovere il tuo personaggio attraverso una piattaforma o una scala! Aggiungi un blocco `se` {.blockcontrol} al tuo codice, in modo che la gravità funzioni solo quando il personaggio si trova a mezz'aria. Il codice della gravità ora dovrebbe apparire così:
++ La gravità non dovrebbe muovere il tuo personaggio attraverso una piattaforma o una scala! Aggiungi un blocco `se`{:class="blockcontrol"} al tuo codice, in modo che la gravità funzioni solo quando il personaggio si trova a mezz'aria. Il codice della gravità ora dovrebbe apparire così:
 
 	```blocks
 		quando si clicca sulla bandiera verde
@@ -51,11 +49,11 @@ Facciamo muovere il perosnaggio in maniera più realistica, aggiungendo la gravi
 		end
 	```
 
-	Siccome la gravità continua a spingere il personaggio verso il basso di 4 pixel, dovrai scegliere un numero maggiore di 4 nel tuo blocco `cambia y di (4)` {.blockmotion}. Cambia questo numero fino ad arrivare all'altezza desiderata dei salti.
+	Siccome la gravità continua a spingere il personaggio verso il basso di 4 pixel, dovrai scegliere un numero maggiore di 4 nel tuo blocco `cambia y di (4)`{:class="blockmotion"}. Cambia questo numero fino ad arrivare all'altezza desiderata dei salti.
 
 + Se provi questo codice, noterai che funziona, ma che il movimento non è molto naturale. Per rendere il salto più naturale, dovrai muovere il personaggio in quantità sempre più piccole, finché non salta più.
 
-+ Per fare ciò, crea un'altra variabile chiamata `altezza salto` {.blockdata}. Come prima, puoi nascondere questa variabile se preferisci.
++ Per fare ciò, crea un'altra variabile chiamata `altezza salto`{:class="blockdata"}. Come prima, puoi nascondere questa variabile se preferisci.
 
 + Cancella il codice del salto che hai aggiunto al personaggio, e sostituiscilo con questo codice:
 
@@ -70,4 +68,4 @@ Facciamo muovere il perosnaggio in maniera più realistica, aggiungendo la gravi
 
 	Questo codice fa salire il tuo personaggio di 8 pixel, poi 7,5, poi 7, e così via, finché il personaggio smette di saltare. Questo rende il salto molto più naturale.
 
-+ Cambia il valore iniziale della variabile `altezza salto` {.blockdata} e provalo finché raggiungi l'altezza desiderata.
++ Cambia il valore iniziale della variabile `altezza salto`{:class="blockdata"} e provalo finché raggiungi l'altezza desiderata.
