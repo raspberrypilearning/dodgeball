@@ -29,8 +29,8 @@ Ressources de projet :
 + Ce projet consolident l'apprentissage de compétences de programmation précédement apprises.
 
 ## Défis
-+ "le bond Amélioré" - l'utilisation d'un block supplémentaire 'si' {.blockcontrol} pour fixer un bug de saut multiple;
-+ "Des balles aléatoires" - l'utilisation de 'aléatoire' {.blockoperators} pour varier le costume de balle, la taille et l'écart entre les clones;
++ "le bond Amélioré" - l'utilisation d'un block supplémentaire `si`{:class="blockcontrol"} pour fixer un bug de saut multiple;
++ "Des balles aléatoires" - l'utilisation de `aléatoire`{:class="blockoperators"} pour varier le costume de balle, la taille et l'écart entre les clones;
 + "Plus d'obstacles" - ajout de lutins supplémentaires au jeu;
-+ "La gravité Améliorée" - l'utilisation d'un 'si' {.blockcontrol} supplémentaire pour corriger un bogue dans 'gravité' {.blockdata};
-+ "Plus de vies" - Ajoutez des variable de 'vies' {.blockdata}.
++ "La gravité Améliorée" - l'utilisation d'un `si`{:class="blockcontrol"} supplémentaire pour corriger un bogue dans `gravité`{:class="blockdata"};
++ "Plus de vies" - Ajoutez des variable de `vies`{:class="blockdata"}.
