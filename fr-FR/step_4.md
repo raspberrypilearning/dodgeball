@@ -14,7 +14,7 @@ Déplaçons votre personnage plus réellement en ajoutant de la gravité et en l
 
 	```blocks
 		quand le drapeau vert pressé
-		[gravity v] prend la valeur [-4]
+		mettre [gravity v] à [-4]
 		répéter indéfiniment
    			ajouter (gravity) à y
 		fin
@@ -28,7 +28,7 @@ Déplaçons votre personnage plus réellement en ajoutant de la gravité et en l
 
 	```blocks
 		quand le drapeau vert pressé
-		[gravity v] prend la valeur [-4]
+		mettre [gravity v] à [-4]
 		répéter indéfiniment
   			si <non <<couleur [#FFFF00] touchée?> ou <couleur [#FF69B4] touchée?>>> alors
       			ajouter (gravity) à y
@@ -60,7 +60,7 @@ Déplaçons votre personnage plus réellement en ajoutant de la gravité et en l
 
 	```blocks
 		quand [espace v] est pressé
-		[jump height v] prend la valeur [8]
+		mettre [jump height v] à [8]
 		répéter jusqu’à <(jump height) = [0]>
    			ajouter (jump height) à y
    			ajouter à [jump height v] (-0.5)
