@@ -20,7 +20,7 @@ Iniziamo creando un personaggio che può muoversi a destra e a sinistra, e anche
   			se <tasto [freccia destra v] premuto> allora
    				punta in direzione (90 v)
     			fai (3) passi
-    			passa al costum.e seguente
+    			passa al costume seguente
   			end
 		end
 	```
