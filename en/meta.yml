@@ -5,15 +5,18 @@ duration: 2
 listed: true
 ingredient: false
 copyedit: false
-curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: Dodgeball
-description: Create a platform game, in which you have to dodge the moving balls and
-  reach the end of the level.
+description: Create a platform game, in which you have to dodge the moving balls and reach the end of the level.
 original_url: https://codeclubprojects.org/en-GB/scratch/dodgeball
-interests: ''
+interests: games
 technologies: scratch
-site_areas: codeclub, scratch
-steps:
+site_areas: projects
+hardware: ''
+software: scratch
+version: 3
+last_tested: 2017-01-01
+steps: 
 - title: Introduction
 - title: Character movement
 - title: 'Challenge: Completing the level'
@@ -25,4 +28,3 @@ steps:
 - title: 'Challenge: More obstacles'
 - title: 'Challenge: Improved gravity'
 - title: 'Challenge: More lives'
-
