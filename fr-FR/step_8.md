@@ -15,9 +15,9 @@ Rendez votre jeu un peu plus compliqué en ajoutant des lasers!
 	```blocks
 		quand le drapeau vert pressé
 		répéter indéfiniment
-			basculer sur costume [on v]
+			basculer sur le costume [Activé v]
 			attendre (2) secondes
-			basculer sur costume [off v]
+			basculer sur le costume [Désactivé v]
 			attendre (2) secondes
 		end
 	```
