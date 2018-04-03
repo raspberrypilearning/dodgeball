@@ -8,6 +8,10 @@ Dans ce projet vous apprendrez à créer un jeu de plateforme dans lequel vous d
  <img src="images/dodge-final.png">
 </div>
 
+--- collapse ---
+---
+title: Notes du volontaire
+---
 
 ## Ressources
 Pour ce projet, scratch 2 devrait être utilisé. Scratch 2 peut ou être utilisée en ligne [à jumpto.cc/scratch-on] (http: // jumpto.cc/scratch-on) ou peut être téléchargée [de jumpto.cc/scratch-off] (http: // jumpto.cc/scratch-off) et utilisée hors connexion.
@@ -34,3 +38,5 @@ Ressources de projet :
 + "Plus d'obstacles" - ajout de lutins supplémentaires au jeu;
 + "La gravité Améliorée" - l'utilisation d'un `si`{:class="blockcontrol"} supplémentaire pour corriger un bogue dans `gravité`{:class="blockdata"};
 + "Plus de vies" - Ajoutez des variable de `vies`{:class="blockdata"}.
+
+--- /collapse ---
