@@ -28,7 +28,7 @@ Lass uns die Bewegungen Deines Charakters relistischer erscheinen lassen, indem 
 
 	```blocks
 		Wenn die grüne Flagge angeklickt
-		set [Schwerkraft v] to [-4] ^
+		setze [Schwerkraft v] auf [-4]
 		wiederhole fortlaufend
 		   falls <nicht <<wird Farbe [#0000FF] berührt?> oder <wird Farbe [#FFFF00] berührt?>>> dann
 		      ändere y um (Schwerkraft)
