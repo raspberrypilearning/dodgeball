@@ -5,34 +5,37 @@ duration: 2
 listed: true
 ingredient: false
 copyedit: false
-curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
-title: Dodgeball
-description: Create a platform game, in which you have to dodge the moving balls and reach the end of the level.
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: Alón Prisionero
+description: Crea un juego de plataforma en el que tengas que esquivar pelotas y llegar al final del nivel.
 original_url: https://codeclubprojects.org/en-GB/scratch/dodgeball
-interests: ''
+interests: games
 technologies: scratch
-site_areas: codeclub, scratch
+site_areas: projects
+hardware: ''
+software: scratch
+version: 3
+last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: Introducción
   - 
-    title: Character movement
+    title: Movimientos del personaje
   - 
-    title: 'Challenge: Completing the level'
+    title: 'Reto: Acabar el nivel'
   - 
-    title: Gravity and jumping
+    title: Gravedad y saltos
   - 
-    title: 'Challenge: Improved jumping'
+    title: 'Reto: Salto mejorado'
   - 
-    title: Dodging balls
+    title: Esquivar los balones
   - 
-    title: 'Challenge: Random balls'
+    title: 'Reto: Balones aleatorios'
   - 
-    title: Lasers!
+    title: '¡Láseres!'
   - 
-    title: 'Challenge: More obstacles'
+    title: 'Reto: Más obstáculos'
   - 
-    title: 'Challenge: Improved gravity'
+    title: 'Reto: Gravedad mejorada'
   - 
-    title: 'Challenge: More lives'
-
+    title: 'Reto: Más vidas'
