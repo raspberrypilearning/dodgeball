@@ -1,0 +1,41 @@
+---
+hero_image: images/banner.png
+theme: yellow
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: Trefbal
+description: Maak een platformspel, waarin je de bewegende ballen moet ontwijken en het level moet halen.
+original_url: https://codeclubprojects.org/en-GB/scratch/dodgeball
+interests: games
+technologies: scratch
+site_areas: projects
+hardware: ''
+software: scratch
+version: 3
+last_tested: 2017-01-01
+steps:
+  - 
+    title: Inleiding
+  - 
+    title: Voortbeweging personage
+  - 
+    title: 'Uitdaging: het level halen'
+  - 
+    title: Zwaartekracht en springen
+  - 
+    title: 'Uitdaging: beter springen'
+  - 
+    title: Trefballen
+  - 
+    title: 'Uitdaging: willekeurige ballen'
+  - 
+    title: Lasers!
+  - 
+    title: 'Uitdaging: meer hindernissen'
+  - 
+    title: 'Uitdaging: verbeterde zwaartekracht'
+  - 
+    title: 'Uitdaging: meer levens'
