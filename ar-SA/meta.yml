@@ -1,0 +1,28 @@
+---
+hero_image: images/dodgeball.png
+theme: yellow
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+title: تفادي الكرات
+description: اصنع لعبة منصات تتفادى فيها الكرات المتحركة
+  لتصل إلى نهاية المستوى.
+original_url: https://codeclubprojects.org/en-GB/scratch/dodgeball
+interests: ''
+technologies: scratch
+site_areas: codeclub, scratch
+steps:
+- title: المقدمة
+- title: حركة الشخصية
+- title: 'التحدي: إنهاء المستوى'
+- title: الجاذبية والقفز
+- title: 'التحدي: تحسين القفز'
+- title: تفادي الكرات
+- title: 'التحدي: كرات عشوائية'
+- title: أشعة ليزر!
+- title: 'التحدي: عوائق أخرى'
+- title: 'التحدي: تحسين الجاذبية'
+- title: 'التحدي: محاولات أخرى'
+

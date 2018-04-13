@@ -1,0 +1,28 @@
+---
+hero_image: images/dodgeball.png
+theme: yellow
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+title: डॉजबॉल
+description: प्लेटफॉर्म गेम बनाएँ, जिसमे आपको हिलती बॉल को पार करके
+  अगले लेवल के अंत तक पहुँचना हो।
+original_url: https://codeclubprojects.org/en-GB/scratch/dodgeball
+interests: ''
+technologies: scratch
+site_areas: codeclub, scratch
+steps:
+- title: भूमिका
+- title: कैरेक्टर की गति
+- title: 'चुनौती: लेवल पूरा करना'
+- title: गुरुत्वाकर्षण और छलांग
+- title: 'चुनौती: छलांग में सुधार'
+- title: डॉजिंग बॉल्स
+- title: 'चुनौती: बेतरतीब बॉल'
+- title: लेज़र!
+- title: 'चुनौती: और रुकावटें'
+- title: 'चुनौती: गुरुत्वाकर्षण में सुधार'
+- title: 'चुनौती: और जीवन'
+
