@@ -5,34 +5,37 @@ duration: 2
 listed: true
 ingredient: false
 copyedit: false
-curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
-title: Dodgeball
-description: Create a platform game, in which you have to dodge the moving balls and reach the end of the level.
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: Ballon chasseur
+description: Apprends à programmer ton propre jeu de plateforme!
 original_url: https://codeclubprojects.org/en-GB/scratch/dodgeball
-interests: ''
+interests: games
 technologies: scratch
-site_areas: codeclub, scratch
+site_areas: projects
+hardware: ''
+software: scratch
+version: 3
+last_tested: 2017-01-01
 steps:
   - 
     title: Introduction
   - 
-    title: Character movement
+    title: Mouvement du personnage
   - 
-    title: 'Challenge: Completing the level'
+    title: 'Défi : Achèvement du niveau'
   - 
-    title: Gravity and jumping
+    title: Gravité et saut
   - 
-    title: 'Challenge: Improved jumping'
+    title: 'Défi : Bond Amélioré'
   - 
-    title: Dodging balls
+    title: Esquive des balles
   - 
-    title: 'Challenge: Random balls'
+    title: 'Défi : balles aléatoires'
   - 
     title: Lasers!
   - 
-    title: 'Challenge: More obstacles'
+    title: 'Défi : Plus d''obstacles'
   - 
-    title: 'Challenge: Improved gravity'
+    title: 'Défi : gravité améliorée'
   - 
-    title: 'Challenge: More lives'
-
+    title: 'Défi : Plus de vies'
