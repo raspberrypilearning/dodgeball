@@ -15,13 +15,13 @@
 + أضف تعليمة برمجية إلى شعاع الليزر لتحويله بين المظهرين.
 
 	```blocks
-		عند نقر العلم
-		كرِّر باستمرار
-			حوِّل المظهر إلى [تشغيل v]
-			انتظر (2) ثانية
-			حوِّل المظهر إلى [إيقاف v]
-			انتظر (2) ثانية
-		أوقف المقطع البرمجي
+		when flag clicked
+		forever
+			switch costume to [on v]
+			wait (2) secs
+			switch costume to [off v]
+			wait (2) secs
+		end
 	```
 
 	يمكنك `الانتظار`{:class="blockcontrol"} مدة `عشوائية`{:class="blockoperators"} من الوقت للتحوّل من مظهر إلى آخر.
