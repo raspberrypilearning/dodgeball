@@ -13,13 +13,13 @@ Kun je deze fout (Engels: bug) repareren? Om dat te doen moet je het personage e
 ... en vervang dan de code:
 
 ```blocks
-  <raak ik kleur [#0000FF] ?> &gt;
+  <raak ik kleur [#0000FF] ?>
 ```
 
 door:
 
 ```blocks
-  <kleur [#00FF00] raakt [#0000FF] ?>  - 
+  <kleur [#00FF00] raakt [#0000FF] ?>
 ```
 
 Vergeet niet om de verbeteringen te testen om zeker te weten dat de bug is opgelost!
