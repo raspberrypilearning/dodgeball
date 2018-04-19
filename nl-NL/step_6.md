@@ -32,7 +32,7 @@ herhaal
   als <raak ik [Pico loopt v] ?> dan 
     zend signaal [raak v]
   end
-end  -
+end
 ```
 
 + Je moet ook code aan je personage toevoegen zodat die, als die wordt geraakt, teruggaat naar het begin:
