@@ -22,7 +22,7 @@ herhaal
     neem (3) stappen
     volgend uiterlijk
   end
-end -
+end
 ```
 
 + Test je personage door op de vlag te klikken en de toets pijl naar rechts ingedrukt te houden. Gaat je speler naar rechts? Lijkt het erop dat je personage loopt?
