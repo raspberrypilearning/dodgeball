@@ -9,7 +9,7 @@ In dit project leer je hoe je een platformgame maakt, waarin je de bewegende bal
 
 ### Aanvullende informatie voor clubleiders
 
-Als u dit project wilt afdrukken, gebruik dan de [Printervriendelijke versie](https://projects.raspberrypi.org/en/projects/dodgeball/print).
+Als u dit project wilt afdrukken, gebruik dan de [Printervriendelijke versie](https://projects.raspberrypi.org/nl-NL/projects/dodgeball/print).
 
 --- collapse ---
 ---
