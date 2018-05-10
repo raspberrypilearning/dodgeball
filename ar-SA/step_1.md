@@ -66,7 +66,7 @@ title: ملاحظات قادة النادي
 title: مواد المشروع
 ---
 ## موارد المشروع
-* [مشروع Scratch 2 عبر الإنترنت يحتوي على موارد خارجية] resources](http://jumpto.cc/dodge-resources)
+* [مشروع Scratch 2 عبر الإنترنت يحتوي على موارد خارجية](http://jumpto.cc/dodge-resources)
 * [مشروع Scratch 2 قابل للتنزيل يحتوي على موارد خارجية](resources/DodgeballResources.sb2)
 * [background.png](resources/background.png)
 
