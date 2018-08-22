@@ -1,71 +1,71 @@
-## Gravity and jumping
+## Grawitacja i skakanie
 
-Let's make your character move more realistically, by adding gravity and allowing them to jump.
+Uczyńmy ruchy Twojej postaci bardziej realistycznymi, przez dodanie grawitacji i pozwalając jej skakać.
 
-+ You may have noticed that your character can walk off a platform into mid-air. Try to walk off of a platform and see what happens.
++ Być może zauważyłeś że Twoja postać może zejść z platformy i chodzić w powietrzu. Spróbuj zejść z platformy i zobacz co się stanie.
     
     ![screenshot](images/dodge-no-gravity.png)
 
-+ To fix this, let's add gravity to your game. Create a new variable called `gravity`{:class="blockdata"}. You can hide this variable from your stage if you want to.
++ By to naprawić, dodajmy grawitację do Twojej gry. Stwórz nową zmienną o nazwie `gravity`{:class="blockdata"}. Możesz ukryć tą zmienną ze sceny jeśli chcesz.
     
     ![screenshot](images/dodge-gravity.png)
 
-+ Add this new code block, which sets the gravity to a negative number, and then uses this to repeatedly change your character's y-coordinate.
++ Dodaj nowy blok kodu, który ustawia grawitację jako ujemną liczbę i używa jej ciągle zmieniając koordynaty Twojej postaci.
     
     ```blocks
-    when flag clicked
-    set [gravity v] to [-4]
-    forever
-        change y by (gravity)
-    end
-```
+        kiedy kliknięto flagę
+        ustaw [gravity v] na [-4]
+        zawsze
+            zmień y o (gravity)
+        end
+    ```
 
-+ Click the flag, and then drag your character to the top of the stage. What happens? Does the gravity work as you expected?
++ Kliknij flagę, i przesuń Twoją postać na szczyt sceny. What happens? Czy grawitacja działa tak jak się spodziewałeś?
     
     ![screenshot](images/dodge-gravity-drag.png)
 
-+ Gravity shouldn't move your character through a platform or a ladder! Add an `if`{:class="blockcontrol"} block to your code, so that the gravity only works when your character is in mid-air. The gravity code should now look like this:
++ Grawitacja nie powinna poruszać Twoją postacią poprzez platformy lub drabiny! Dodaj blok `jeżeli`{:class="blockcontrol"} do Twojego kocu, tak by grawitacja działała tylko gdy Twoja postać jest w powietrzu. Kod grawitacji powinien wyglądać teraz w ten sposób:
     
     ```blocks
-    when flag clicked
-    set [gravity v] to [-4]
-    forever
-        if < not < <touching color [#0000FF]?> or <touching color [#FF69B4]?> > > then
-            change y by (gravity)
-        end
-    end
-```
+        kiedy kliknięto flagę
+            ustaw [gravity v] na [-4]
+            zawsze
+                jeżeli < nie < < dotyka koloru [#0000FF]?> or < dotyka koloru [#Ff69B4]?>>> to
+                    zmień y o (gravity)
+                end
+            end
+    ```
 
-+ Test the gravity again. Does your character stop when they are on a platform or a ladder? Can you walk off the edge of platforms to the level below?
++ Przetestuj grawitację znowu. Czy Twoja postać zatrzyma się gdy będzie na platformie lub drabinie? Czy możesz zejść z krawędzi platformy na poziom poniżej?
     
     ![screenshot](images/dodge-gravity-test.png)
 
-+ Let's also make your character jump when the player presses the space bar. One very easy way to do this is to move your character up a few times, using this code:
++ Zróbmy tak, by Twoja postać skakała gdy gracz naciśnie klawisz spacji. Jedna, bardzo prosta możliwość by to zrobić, to poruszyć Twoją postać do góry, kilka razy używając tego kodu:
     
     ```blocks
-    when [space v] key pressed
-    repeat (10)
-        change y by (4)
-    end
-```
+        kiedy klawisz [spacja v] naciśnięty
+            powtórz (10) razy
+                zmień y o (4)
+            end
+    ```
+    
+    Grawitacja ciągle popycha Twoją postać w dół o 4 pixele, potrzebujesz wybrać liczbę większą niż 4 w Twoim bloku `zmień y o (4)`{:class="blockmotion"}. Zmień tą liczbę aż będziesz zadowolony z wysokości skoków Twojej postaci.
 
-As gravity is constantly pushing your character down by 4 pixels, you need to choose a number greater than 4 in your `change y by (4)`{:class="blockmotion"} block. Change this number until you're happy with the height your character jumps.
++ Jeśli przetestujesz ten kod, zauważysz że działa, ale ruch nie jest zbyt płynny. By uczynić skakanie bardziej płynnym, potrzebujesz przesunąć Twoją postać o mniejszą i mniejszą liczbę, dopóki nie będzie więcej skakać.
 
-+ If you test out this code, you'll notice that it works, but the movement isn't very smooth. To make jumping look smoother, you'll need to move your character by smaller and smaller amounts, until they're not jumping anymore.
++ To do this, create another variable called `jump height`{:class="blockdata"}. Ponownie, jeśli chcesz możesz ukryć tę zmienną.
 
-+ To do this, create another variable called `jump height`{:class="blockdata"}. Again, you can hide this variable if you prefer.
-
-+ Delete the jumping code you added to your character, and replace it with this code:
++ Usuń kod skoków który dodałeś do Twojej postaci i zamień go z tym kodem:
     
     ```blocks
-    when [space v] key pressed
-    set [jump height v] to [8]
-    repeat until < (jump height) = [0] >
-        change y by (jump height)
-        change [jump height v] by (-0.5)
-    end
-```
+        kiedy klawisz [spacja v] naciśnięty
+            ustaw [jump height v] na [8]
+            powtarzaj aż < (jump height) = [0] >
+                zmień y o (jumpu height)
+                zmień [jump height v] o (-0,5)
+            end
+    ```
+    
+    Ten kod porusza Twoją postać do góry o 8 pixeli, następnie o 7,5 pixeli, następnie i 7 pixeli, i tak dalej, dopóki Twoja postać nie zakończy skakać. To uczyni wygląd skoków bardziej płynnym.
 
-This code moves your character up by 8 pixels, then 7.5 pixels, then 7 pixels, and so on, until your character has finished jumping. This makes jumping look much smoother.
-
-+ Change the starting value of your `jump height`{:class="blockdata"} variable and test it until you're happy with the height your character jumps.
++ Zmień początkową wartość Twojej zmiennej `jump height`{:class="blockdata"} i testuj zmiany aż będziesz zadowolony z wysokości skoków Twojej postaci.
