@@ -42,7 +42,7 @@ Počnimo tako što ćemo kreirati karaktera koji može da se kreće lijevo i des
     Ili, ako ti više odgovara, možeš da dodaš sljedeći blok na početak skripte (script) svog karaktera:
     
     ```scratch
-    set rotation style [left-right v]
+        set rotation style [left-right v]
     ```
 
 + Da se popenje uz ružičaste ljestve, tvoj karakter treba polako da se pomjera prema gore svaki put kada je pritisnuta strelica nagore i kada dodiruje ispravnu boju. Dodaj ovaj kôd unutar petlje `forever`{:class="blockcontrol"} (ponavljaj) svog karaktera:

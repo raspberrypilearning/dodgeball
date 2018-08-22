@@ -55,7 +55,7 @@ Ovim projektom obuhvaćeni su elementi iz sljedećih dijelova [Raspberry Pi Digi
 * "Slučajne lopte" - korišćenje bloka `random`{:class="blockoperators"} (slučajan broj) za mijenjanje kostima lopte, njene veličine i vremenskog razmaka između pojavljivanja klonova;
 * "Više prepreka" - dodavanje dodatnih likova u igru;
 * "Poboljšana gravitacija" - korišćenje dodatnog bloka `if`{:class="blockcontrol"} (ako) za ispravljanje greške u `gravitaciji`{:class="blockdata"};
-* "Više života" - dodavanje promjenljive ` životi`{:class="blockdata"}.
+* "Više života" - dodavanje promjenljive `životi`{:class="blockdata"}.
 
 --- /collapse ---
 
