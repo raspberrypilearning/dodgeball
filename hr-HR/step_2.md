@@ -15,15 +15,15 @@ Let's start by creating a character that can move left and right, as well as cli
 + Let's use the arrow keys to move your character around. When the player presses the right arrow, you want your character to point right, move a few steps and change to the next costume:
     
     ```blocks
-    when flag clicked
-    forever
-        if <key [right arrow v] pressed? > then
-            point in direction (90 v)
-            move (3) steps
-            next costume
+        when flag clicked
+        forever
+            if <key [right arrow v] pressed? > then
+                point in direction (90 v)
+                move (3) steps
+                next costume
+            end
         end
-    end
-```
+    ```
 
 + Test out your character by clicking the flag and then holding down the right arrow key. Does your player move to the right? Does your character look like they are walking?
     
@@ -42,16 +42,16 @@ Let's start by creating a character that can move left and right, as well as cli
     Or, if you prefer you can add this block to the start of your character's script:
     
     ```scratch
-set rotation style [left-right v]
-```
+    set rotation style [left-right v]
+    ```
 
 + To climb a pink ladder, your character should move up slightly whenever the up arrow is pressed and they're touching the correct colour. Add this code inside your character's `forever`{:class="blockcontrol"} loop:
     
     ```blocks
-    if < <key [up arrow v] pressed?> and <touching color [#FF69B4]?> > then
-        change y by (4)
-    end
-```
+        if < <key [up arrow v] pressed?> and <touching color [#FF69B4]?> > then
+            change y by (4)
+        end
+    ```
 
 + Test your character - can you climb the pink ladders and get to the end of your level?
     
