@@ -1,71 +1,71 @@
-## Gravity and jumping
+## Гравітація і стрибки
 
-Let's make your character move more realistically, by adding gravity and allowing them to jump.
+Давайте дамо вашому персонажу рухатись реалістичніше, додавши гравітацію і дозволивши стрибки.
 
-+ You may have noticed that your character can walk off a platform into mid-air. Try to walk off of a platform and see what happens.
++ Ви напевно помітили що ваш персонаж може зійти з платформи і іти по повітрю. Спробуйте зійти з платформи і погляньте що буде.
     
-    ![screenshot](images/dodge-no-gravity.png)
+    ![скріншот](images/dodge-no-gravity.png)
 
-+ To fix this, let's add gravity to your game. Create a new variable called `gravity`{:class="blockdata"}. You can hide this variable from your stage if you want to.
++ Щоб цього не було, додаймо гравітацію у вашу гру. Давайте створимо змінну що називається `gravity`{:class="blockdata"}. Ви можете забрати цю змінну з вашого рівня якщо хочете.
     
-    ![screenshot](images/dodge-gravity.png)
+    ![скріншот](images/dodge-gravity.png)
 
-+ Add this new code block, which sets the gravity to a negative number, and then uses this to repeatedly change your character's y-coordinate.
-    
-    ```blocks
-    when flag clicked
-    set [gravity v] to [-4]
-    forever
-        change y by (gravity)
-    end
-```
-
-+ Click the flag, and then drag your character to the top of the stage. What happens? Does the gravity work as you expected?
-    
-    ![screenshot](images/dodge-gravity-drag.png)
-
-+ Gravity shouldn't move your character through a platform or a ladder! Add an `if`{:class="blockcontrol"} block to your code, so that the gravity only works when your character is in mid-air. The gravity code should now look like this:
++ Додайте блок коду, який робить гравітацію негативним числом, і потім використовує це щоб повторно змінювати Y-координати вашого персонажа.
     
     ```blocks
-    when flag clicked
-    set [gravity v] to [-4]
-    forever
-        if < not < <touching color [#0000FF]?> or <touching color [#FF69B4]?> > > then
+        коли натиснуто ⚑ 
+        set [gravity v] to [-4]
+        forever
             change y by (gravity)
         end
-    end
-```
+    ```
 
-+ Test the gravity again. Does your character stop when they are on a platform or a ladder? Can you walk off the edge of platforms to the level below?
++ Натисніть прапорець і перетягніть свого персонажа на верх рівня. Що трапилось? Чи працює гравітація як ви очікували?
     
-    ![screenshot](images/dodge-gravity-test.png)
+    ![скріншот](images/dodge-gravity-drag.png)
 
-+ Let's also make your character jump when the player presses the space bar. One very easy way to do this is to move your character up a few times, using this code:
-    
-    ```blocks
-    when [space v] key pressed
-    repeat (10)
-        change y by (4)
-    end
-```
-
-As gravity is constantly pushing your character down by 4 pixels, you need to choose a number greater than 4 in your `change y by (4)`{:class="blockmotion"} block. Change this number until you're happy with the height your character jumps.
-
-+ If you test out this code, you'll notice that it works, but the movement isn't very smooth. To make jumping look smoother, you'll need to move your character by smaller and smaller amounts, until they're not jumping anymore.
-
-+ To do this, create another variable called `jump height`{:class="blockdata"}. Again, you can hide this variable if you prefer.
-
-+ Delete the jumping code you added to your character, and replace it with this code:
++ Гравітація не повинна пересувати персонажа через платформу чи драбину! Додайте блок `if`{:class="blockcontrol"} до вашого коду, щоб гравітація працювала тільки коли ваш персонаж у повітрі. Ваш код повинен виглядати так:
     
     ```blocks
-    when [space v] key pressed
-    set [jump height v] to [8]
-    repeat until < (jump height) = [0] >
-        change y by (jump height)
-        change [jump height v] by (-0.5)
-    end
-```
+        коли натиснуто ⚑
+        set [gravity v] to [-4]
+        forever
+            if < not < <touching color [#0000FF]?> or <touching color [#FF69B4]?> > > then
+                change y by (gravity)
+            end
+        end
+    ```
 
-This code moves your character up by 8 pixels, then 7.5 pixels, then 7 pixels, and so on, until your character has finished jumping. This makes jumping look much smoother.
++ Протестуйте гравітацію ще раз. Чи зупиняється ваш персонаж коли він на платформі або сходах? Чи можете ви зійти з краю платформи на нижчі рівні?
+    
+    ![скріншот](images/dodge-gravity-test.png)
 
-+ Change the starting value of your `jump height`{:class="blockdata"} variable and test it until you're happy with the height your character jumps.
++ Давайте також заставимо персонажа стрибати коли гравець натискає пробіл. Один простий спосіб це зробити це підняти вашого персонажа вверх, використовуючи цей код:
+    
+    ```blocks
+        when [space v] key pressed
+        repeat (10)
+            change y by (4)
+        end
+    ```
+    
+    Так як гравітація опускає вашого персонажа на 4 пікселі вниз, вам потрібно вибрати число, більше 4 у вашому блоці `change y by (4)`{:class="blockmotion"}. Змінюйте це число допоки не будете задоволені висотою стрибка вашого персонажа.
+
++ Якщо ви протестуєте цей код, ви помітите, що він працює, але рухи не достатньо плавні. Щоб стрибки виглядали плавніше, вам потрібно пересунути ваше число на все менші і менші кількості, допоки він вже більше не стрибає.
+
++ Щоб зробити це, створіть ще одну змінну яка називається `jump height`{:class="blockdata"}. І ви також можете заховати цю змінну.
+
++ Видаліть код стриба який ви додали до вашого персонажа і замініть його цим кодом:
+    
+    ```blocks
+        when [space v] key pressed
+        set [jump height v] to [8]
+        repeat until < (jump height) = [0] >
+            change y by (jump height)
+            change [jump height v] by (-0.5)
+        end
+    ```
+    
+    Цей код пересуває персонажа вверх на 8 пікселів, потім на 7.5 пікселів, потім на 7 пікселів і так далі, допоки ваш персонаж не перестане стрибати. Це робить стрибки набагато плавнішими.
+
++ Змініть початкове число змінної `jump height`{:class="blockdata"} і тестуйте її допоки не будете задоволені висотою на яку стрибає ваш персонаж.
