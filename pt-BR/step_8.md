@@ -13,16 +13,16 @@ Let's make your game a little harder to complete, by adding lasers!
 + Add code to your laser, to make it switch between the 2 costumes.
     
     ```blocks
-    when flag clicked
-    forever
-        switch costume to [on v]
-        wait (2) secs
-        switch costume to [off v]
-        wait (2) secs
-    end
-```
-
-If you prefer, you can `wait`{:class="blockcontrol"} a `random`{:class="blockoperators"} amount of time between costume changes.
+        when flag clicked
+        forever
+            switch costume to [on v]
+            wait (2) secs
+            switch costume to [off v]
+            wait (2) secs
+        end
+    ```
+    
+    If you prefer, you can `wait`{:class="blockcontrol"} a `random`{:class="blockoperators"} amount of time between costume changes.
 
 + Finally, add code to your laser, so that the 'hit' message is broadcast when the laser touches your character. This code will be very similar to the code you added to your ball sprite.
     
