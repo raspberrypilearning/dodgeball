@@ -1,27 +1,27 @@
-\--- challenge \---
+-- challenge \---
 
-## Challenge: Improved gravity
+## Завдання: Покращена гравітація
 
-There's one other small bug in your game: gravity doesn't pull your character downwards if *any* part of it is touching a blue platform - even its head! You can test this out by climbing most of the way up a ladder and then moving to the left.
+Є ще один маленький баг у вашій грі: гравітація не тягне вашого персонажа вниз, якщо *any* частинка не торкається синьої платформи - навіть голова! Ви можете це протестувати це вилізши більшість дороги вверх по драбині і потім рухаючись вліво.
 
-![screenshot](images/dodge-gravity-bug.png)
+![скріншот](images/dodge-gravity-bug.png)
 
-Can you fix this bug? To do this, you need to give your character different coloured trousers (on *all* costumes)...
+Можете виправити цей баг? Щоб зробити це, ви повинні дати вашому персонажу різнокольорові штани (у *all* костюмах)...
 
-![screenshot](images/dodge-trousers.png)
+![скріншот](images/dodge-trousers.png)
 
-...and then replace the code:
+... і потім замінити код:
 
 ```blocks
-    < touching color [#0000FF]? >
+    if < touching color [#0000FF]? >
 ```
 
-with:
+на:
 
 ```blocks
     < color [#00FF00] is touching [#0000FF]? >
 ```
 
-Remember to test your improvements to make sure you've fixed the bug!
+Не забудьте протестувати свої зміни щоб впевнитись що ти виправив баг!
 
 \--- /challenge \---
