@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: Completing the level
+## Desafio: completar o nível
 
-Can you add more code to your character, so that they say something `if`{:class="blockcontrol"} they get to the green door?
+Voce pode adicionar mais código ao seu personagem, para que eles digam algo`se`{:class="blockcontrol"} eles chegarem a porta verde?
 
-![screenshot](images/dodge-win.png)
+![captura de tela](images/dodge-win.png)
 
 \--- /challenge \---
