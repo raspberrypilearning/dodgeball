@@ -1,13 +1,13 @@
 \--- challenge \---
 
-## Challenge: Random balls
+## Завдання: Випадові м'ячі
 
-The balls your character has to dodge all look the same, and always appear every 3 seconds. Can you improve them, so that they:
+М'ячі, які ваш персонаж повинен відбивати виглядають однаково, і з'являються кожні 3 секунди. Чи можете ви їх поліпшити, щоб вони:
 
-+ don't all look the same?
-+ appear after a random amount of time?
-+ are a random size?
++ не виглядали однаково?
++ з'являються опісля різного періоду часу?
++ різного розміру?
 
-![screenshot](images/dodge-ball-random.png)
+![скріншот](images/dodge-ball-random.png)
 
 \--- /challenge \---
