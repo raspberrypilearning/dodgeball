@@ -1,16 +1,16 @@
 \--- challenge \---
 
-## Challenge: Improved gravity
+## Desafio: Gravidade melhorada
 
-There's one other small bug in your game: gravity doesn't pull your character downwards if *any* part of it is touching a blue platform - even its head! You can test this out by climbing most of the way up a ladder and then moving to the left.
+Há outro pequeno erro no seu jogo: a gravidade não puxa seu personagem para baixo se*alguma*parte dele estiver tocando uma plataforma azul - até mesmo a cabeça! Você pode testar isso subindo a maior parte do caminho até uma escada e, em seguida, movendo-se para a esquerda! Você pode testar subindo a maior parte do caminho até uma escada e, em seguida, movendo-se para a esquerda.
 
-![screenshot](images/dodge-gravity-bug.png)
+![captura de tela](images/dodge-gravity-bug.png)
 
-Can you fix this bug? To do this, you need to give your character different coloured trousers (on *all* costumes)...
+Você pode corrigir esse erro? Para fazê-lo você precisa dar ao seu personagem diferentes calças. (em *todas*roupas)...
 
-![screenshot](images/dodge-trousers.png)
+![captura de tela](images/dodge-trousers.png)
 
-...and then replace the code:
+...Então mude o código:
 
 ```blocks
     < touching color [#0000FF]? >
@@ -22,6 +22,6 @@ with:
     < color [#00FF00] is touching [#0000FF]? >
 ```
 
-Remember to test your improvements to make sure you've fixed the bug!
+Lembre-se de testar as melhorias para ter certeza que você corrigir o erro!
 
 \--- /challenge \---
