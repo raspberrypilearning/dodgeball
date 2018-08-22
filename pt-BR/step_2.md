@@ -1,58 +1,58 @@
-## Character movement
+## Movimento do personagem
 
-Let's start by creating a character that can move left and right, as well as climb up ladders.
+Vamos começar criando um personagem que pode se mover para esquerda e direita, e também subir escadas.
 
-+ Open the 'Dodgeball' Scratch project online at <a href="http://jumpto.cc/dodge-go" target="_blank">jumpto.cc/dodge-go</a> or download from <a href="http://jumpto.cc/dodge-get" target="_blank">jumpto.cc/dodge-get</a> and then open if you are using the offline editor.
++ Abra o projeto 'Dodgeball' Scratch online em<a href="http://jumpto.cc/dodge-go" target="_blank">jumpto.cc/dodge-go</a> ou baixe em <a href="http://jumpto.cc/dodge-get" target="_blank">jumpto.cc/dodge-get</a> então abra se você estiver usando o editor offline.
     
-    The project contains a background with platforms:
+    O projeto contém um plano de fundo com plataformas:
     
     ![screenshot](images/dodge-background.png)
 
-+ Add a new sprite, which will be your character. It's better if you choose a sprite with multiple costumes, so that you can make it look as though it's walking.
++ Adicione um novo espírito, que será o seu personagem. É melhor se você escolher um espírito com várias fantasias, para que você possa fazer parecer que está andando.
     
     ![screenshot](images/dodge-characters.png)
 
-+ Let's use the arrow keys to move your character around. When the player presses the right arrow, you want your character to point right, move a few steps and change to the next costume:
++ Vamos usar as setas do teclado para mover seu personagem. Quando o jogador pressiona a seta para a direita, você quer que seu personagem aponte para a direita, mova alguns passos e mude para a próxima roupa:
     
     ```blocks
-    when flag clicked
-    forever
-        if <key [right arrow v] pressed? > then
-            point in direction (90 v)
-            move (3) steps
-            next costume
+        when flag clicked
+        forever
+            if <key [right arrow v] pressed? > then
+                point in direction (90 v)
+                move (3) steps
+                next costume
+            end
         end
-    end
-```
+    ```
 
-+ Test out your character by clicking the flag and then holding down the right arrow key. Does your player move to the right? Does your character look like they are walking?
++ Teste seu personagem clicando no sinalizador e, em seguida, mantendo pressionada a tecla de seta para a direita. O seu jogador se move para a direita? Does your character look like they are walking?
     
     ![screenshot](images/dodge-walking.png)
 
-+ To move your character to the left, you'll need to add another `if`{:class="blockcontrol"} block inside your `forever`{:class="blockcontrol"} loop, which moves your character to the left.
++ Para mover seu personagem para esquerda, você vai precisar adicionar outro`if`{:class="blockcontrol"} bloqueie dentro seu `forever`{:class="blockcontrol"} laço, que move o seu personagem para a esquerda.
 
-+ Test your new code to make sure that it works. Does your character turn upside-down when walking to the left?
++ Teste seu novo código para ter certeza de que funciona. Seu personagem vira de cabeça para baixo quando caminha para a esquerda?
     
     ![screenshot](images/dodge-upside-down.png)
     
-    If so, you can fix this bug by clicking the `(i)`{:class="blocksensing"} icon on your character sprite, and then clicking the left-right arrow.
+    Se virar, você pode consertar esse erro clicando em `(i)`{:class="blocksensing" ícone no espírito do seu personagem e, em seguida, clicando na seta esquerda-direita.
     
     ![screenshot](images/dodge-left-right.png)
     
-    Or, if you prefer you can add this block to the start of your character's script:
+    Ou, se preferir, você pode adicionar este bloco ao início do script do seu personagem:
     
     ```scratch
-set rotation style [left-right v]
-```
+    set rotation style [left-right v]
+    ```
 
-+ To climb a pink ladder, your character should move up slightly whenever the up arrow is pressed and they're touching the correct colour. Add this code inside your character's `forever`{:class="blockcontrol"} loop:
++ Para subir uma escada cor-de-rosa, seu personagem deve subir levemente sempre que a seta para cima estiver pressionada e eles estiverem tocando a cor correta. Adicione este código no seu personagem `forever`{:class="blockcontrol"} loop:
     
     ```blocks
-    if < <key [up arrow v] pressed?> and <touching color [#FF69B4]?> > then
-        change y by (4)
-    end
-```
+        if < <key [up arrow v] pressed?> and <touching color [#FF69B4]?> > then
+            change y by (4)
+        end
+    ```
 
-+ Test your character - can you climb the pink ladders and get to the end of your level?
++ Teste seu personagem - você pode subir nas escadas cor-de-rosa e chegar ao final do seu nível?
     
     ![screenshot](images/dodge-test-character.png)
