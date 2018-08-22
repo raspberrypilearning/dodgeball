@@ -1,31 +1,31 @@
-## Lasers!
+## Лазери!
 
-Let's make your game a little harder to complete, by adding lasers!
+Давайте зробимо вашу гру важчою для проходження, додавши лазери!
 
-+ Add a new sprite to your game, called 'Laser'. It should have 2 costumes, called 'on' and 'off'.
++ Додайте новий спрайт, під назвою 'Laser'. Воно має мати 2 режими, 'on' і 'off'.
     
-    ![screenshot](images/dodge-lasers-costume.png)
+    ![скріншот](images/dodge-lasers-costume.png)
 
-+ Place your new laser anywhere you like, between 2 platforms.
++ Поставте ваш лазер де забажаєте, між 2 платформами.
     
-    ![screenshot](images/dodge-lasers-position.png)
+    ![скріншот](images/dodge-lasers-position.png)
 
-+ Add code to your laser, to make it switch between the 2 costumes.
++ Додайте код до вашого лазера, щоб дозволити йому перемикатисьміж двома режимами.
     
     ```blocks
-    when flag clicked
-    forever
-        switch costume to [on v]
-        wait (2) secs
-        switch costume to [off v]
-        wait (2) secs
-    end
-```
-
-If you prefer, you can `wait`{:class="blockcontrol"} a `random`{:class="blockoperators"} amount of time between costume changes.
-
-+ Finally, add code to your laser, so that the 'hit' message is broadcast when the laser touches your character. This code will be very similar to the code you added to your ball sprite.
+        коли натиснуто ⚑ 
+      forever
+            switch costume to [on v]
+            wait (2) secs
+            switch costume to [off v]
+            wait (2) secs
+        end
+    ```
     
-    You don't need to add any more code to your character - it already knows what to do when it is hit!
+    Якщо ви забажаєте, можна поставити `wait`{:class="blockcontrol"} у `random`{:class="blockoperators"} кількість часу між зміною вигляду.
 
-+ Test out your game to see if you can get past the laser. Change the `wait`{:class="blockcontrol"} times in your code if the lasers are too easy or too hard.
++ Нарешті, додайте код до вашого лазеру, щоб повідомлення про попадання відображалось коли лазер торкається персонажа. Цей код буде дуже подібний до коду який ви додавали до спрайту м'яча.
+    
+    Вам більше не потрібно додавати код до персонажа - він уже знає що йому робити коли в нього попали!
+
++ Протестуйте гру щоб побачити чи ви пройдете через лазери. Змініть `wait`{:class="blockcontrol"} число у вашому коді, якщо лазери надто легкі або надто важкі. для проходження.
