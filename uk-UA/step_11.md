@@ -1,11 +1,11 @@
 \--- challenge \---
 
-## Challenge: More lives
+## Завдання: Більше життів
 
-Can you give your player 3 `lives`{:class="blockdata"}, instead of just sending them back to the beginning each time? Here's how your game could work:
+Чи можете ви дати вашому персонажу 3 `життя`{:class="blockdata"}, замість просто відсилати їх назад на початок кожен раз? Ось як ваша гра працює:
 
-+ Your player starts with 3 lives;
-+ Whenever your player gets hit, one life is lost and they go back to the start;
-+ If there are no lives left, the game ends.
++ Ваш персонаж стартує з 3 життями;
++ Коли персонаж отримує поранення, втрачається життя і вони повертаються на початок;
++ Якщо залишається життів, гра закінчується.
 
 \--- /challenge \---
