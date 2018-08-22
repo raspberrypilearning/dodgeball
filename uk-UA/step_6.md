@@ -1,46 +1,46 @@
-## Dodging balls
+## Відбивати м'ячі
 
-Now that you've got your character moving around, let's add some balls for your character to avoid.
+Тепер коли ви змогли заставити вашого персонажа рухатись, давайте додамо м'ячі щоб він їх уникав.
 
-+ Create a new ball sprite. You can choose any type of ball you like.
++ Створіть новий спрайт м'яча. Ви можете обрати будь-який вид м'яча.
     
-    ![screenshot](images/dodge-balls.png)
+    ![скріншот](images/dodge-balls.png)
 
-+ Resize your ball, so that your character can jump over it. Try jumping over the ball to test it.
++ Змініть розміри м'яча щоб ваш персонаж зміг його перестрибнути. Перестрибніть через м'яч щоб протестувати це.
     
-    ![screenshot](images/dodge-ball-resize.png)
+    ![скріншот](images/dodge-ball-resize.png)
 
-+ Add this code to your ball:
++ Додайте цей код до вашого м'яча:
     
-    ![screenshot](images/dodge-ball-motion.png)
+    ![скріншот](images/dodge-ball-motion.png)
     
-    This code creates a new ball clone every 3 seconds. Each new clone moves along the top platform.
+    Цей код створює клонів м'яча кожні 3 секунди. Кожен новий клон рухається зверху платформи.
 
-+ Click the flag to test this out.
++ Натисніть на прапорець щоб протестувати це.
     
-    ![screenshot](images/dodge-ball-test.png)
+    ![скріншот](images/dodge-ball-test.png)
 
-+ Add more code to your ball sprite, so that they move across all 3 platforms.
++ Додайте ще більше коду до спрайту вашого м'яча, щоб той міг рухатись через усі 3 платформи.
     
-    ![screenshot](images/dodge-ball-more-motion.png)
+    ![скріншот](images/dodge-ball-more-motion.png)
 
-+ Finally, you'll need code for when your character gets hit by a ball! Add this code to your ball sprite:
++ Нарешті, вам потрібен код коли ваш персонаж вдаряється об м'яч! Додайте цей код до спрайту вашого м'яча:
     
     ```blocks
-    when I start as a clone
-    forever
-        if < touching [Pico walking v]? > then
-            broadcast [hit v]
+        when I start as a clone
+        forever
+            if < touching [Pico walking v]? > then
+                broadcast [hit v]
+            end
         end
-    end
-```
+    ```
 
-+ You'll also need to add code to your character, to move back to the start when they're hit:
++ Також потрібно буде додати код до вашого персонажа щоб той повертався на початок коли у нього попадають:
     
     ```blocks
-    when I receive [hit v]
-    point in direction (90 v)
-    go to x: (-210) y: (-120)
-```
+        when I receive [hit v]
+        point in direction (90 v)
+        go to x: (-210) y: (-120)
+    ```
 
-+ Test out your character and see if they go back to the start when they've been hit by a ball.
++ Протестуйте вашого персонажа і подивіться чи він повертається на початок коли у нього попадає м'яч.
