@@ -1,16 +1,16 @@
 \--- challenge \---
 
-## Challenge: More obstacles
+## Завдання: Більше перешкод
 
-If you think your game is still too easy, you can add more obstacles to your level. You can add anything you like, but here are some ideas:
+Якщо ви думаєте що ваша гра надто легка, ви можете додати більше перешкод до рівня. Ви можете додати що забажаєте, але ось декілька ідей:
 
-+ A flying killer butterfly;
-+ Platforms that appear and disappear;
-+ Falling tennis balls that must be avoided.
++ Летючий метелик-вбивця;
++ Платформи, що з'являються і зникають;
++ Тенісні м'ячі, які падають і від них потрібно ухилятись.
 
-![screenshot](images/dodge-obstacles.png)
+![скріншот](images/dodge-obstacles.png)
 
-You could even create more than one backdrop, and move to the next level when your character reaches the green door:
+Ви можете навіть зробити більше ніж один фон і пересунутись на наступний рівень коли ваш персонаж досягне зелених зелених дверей:
 
 ```blocks
     if <touching color [#00FF00]?> then
