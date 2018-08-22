@@ -1,58 +1,58 @@
-## Character movement
+## Рухи персонажа
 
-Let's start by creating a character that can move left and right, as well as climb up ladders.
+Розпочнімо із створення персонажа, що може рухатись вліво і вправо, і також лізти по драбинах.
 
-+ Open the 'Dodgeball' Scratch project online at <a href="http://jumpto.cc/dodge-go" target="_blank">jumpto.cc/dodge-go</a> or download from <a href="http://jumpto.cc/dodge-get" target="_blank">jumpto.cc/dodge-get</a> and then open if you are using the offline editor.
++ Відкрийте проект Scratch "Dodgeball" онлайн на <a href="http://jumpto.cc/dodge-go" target="_blank">jumpto.cc/dodge-go</a> або завантажте з <a href="http://jumpto.cc/dodge-get" target="_blank">jumpto.cc/dodge-get</a> і відкрийте його, якщо ви користуєтесь редактором офлайн.
     
-    The project contains a background with platforms:
+    Проект містить фон з платформами:
     
-    ![screenshot](images/dodge-background.png)
+    ![скріншот](images/dodge-background.png)
 
-+ Add a new sprite, which will be your character. It's better if you choose a sprite with multiple costumes, so that you can make it look as though it's walking.
++ Додайте новий спрайт, що буде вашим персонажем. Краще коли ви оберете спрайт з кількома костюмами, щоб ви могли зробити його наче він ходить.
     
-    ![screenshot](images/dodge-characters.png)
+    ![скріншот](images/dodge-characters.png)
 
-+ Let's use the arrow keys to move your character around. When the player presses the right arrow, you want your character to point right, move a few steps and change to the next costume:
++ Давайте використаємо стрілки щоб керувати персонажем. Коли гравець натискає стрілку вправо, вам потрібно щоб персонаж рухався вправо, пройшов кілька кроків і змінив костюм:
     
     ```blocks
-    when flag clicked
-    forever
-        if <key [right arrow v] pressed? > then
-            point in direction (90 v)
-            move (3) steps
-            next costume
+        when flag clicked
+        forever
+            if <key [right arrow v] pressed? > then
+                point in direction (90 v)
+                move (3) steps
+                next costume
+            end
         end
-    end
-```
+    ```
 
-+ Test out your character by clicking the flag and then holding down the right arrow key. Does your player move to the right? Does your character look like they are walking?
++ Протестуй свого персонажа натискаючи прапорець і потім тримаючи клавішу вправо. Чи рухається ваш персонаж вправо? Чи виглядає ваш персонаж ніби він рухається?
     
-    ![screenshot](images/dodge-walking.png)
+    ![скріншот](images/dodge-walking.png)
 
-+ To move your character to the left, you'll need to add another `if`{:class="blockcontrol"} block inside your `forever`{:class="blockcontrol"} loop, which moves your character to the left.
++ Щоб ваш персонаж рухався вліво, вам потрібно додати ще один `if`{:class="blockcontrol"} блок всередині вашого циклу `forever`{:class="blockcontrol"}, який буде керувати вашим персонажем вліво.
 
-+ Test your new code to make sure that it works. Does your character turn upside-down when walking to the left?
++ Протестуйте ваш новий код щоб впевнитись що усе працює. Чи перевертається ваш персонаж, коли рухається вліво?
     
-    ![screenshot](images/dodge-upside-down.png)
+    ![скріншот](images/dodge-upside-down.png)
     
-    If so, you can fix this bug by clicking the `(i)`{:class="blocksensing"} icon on your character sprite, and then clicking the left-right arrow.
+    Якщо так, ви можете виправити цей баг натиснувши іконку `(i)`{:class="blocksensing"} на спрайті вашого персонажа, а потім натиснути вліво і вправо.
     
-    ![screenshot](images/dodge-left-right.png)
+    ![скріншот](images/dodge-left-right.png)
     
-    Or, if you prefer you can add this block to the start of your character's script:
+    Або, якщо ви забажаєте, ви можете додати цей блок на початок вашого скрипту:
     
     ```scratch
-set rotation style [left-right v]
-```
+    set rotation style [left-right v]
+    ```
 
-+ To climb a pink ladder, your character should move up slightly whenever the up arrow is pressed and they're touching the correct colour. Add this code inside your character's `forever`{:class="blockcontrol"} loop:
++ Щоб вилізти по рожевій драбині, ваш персонаж має рухатись трохи вверх, коли кнопка вверх натиснута і він торкається правильного кольору. Додайте цей код у цикл вашого `forever`{:class="blockcontrol"} персонажа:
     
     ```blocks
-    if < <key [up arrow v] pressed?> and <touching color [#FF69B4]?> > then
-        change y by (4)
-    end
-```
+        if < <key [up arrow v] pressed?> and <touching color [#FF69B4]?> > then
+            change y by (4)
+        end
+    ```
 
-+ Test your character - can you climb the pink ladders and get to the end of your level?
++ Протестуйте вашого персонажа - чи можете ви лізти по рожевих драбинах і дістатись кінця рівня?
     
-    ![screenshot](images/dodge-test-character.png)
+    ![скріншот](images/dodge-test-character.png)
