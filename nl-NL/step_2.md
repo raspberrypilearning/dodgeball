@@ -15,15 +15,15 @@ Laten we beginnen met het creëren van een personage dat naar links en rechts ka
 + Laten we de pijltjestoetsen gebruiken om je personage te verplaatsen. Wanneer de speler op de pijl naar rechts drukt, wil je dat het personage zich naar rechts richt, een paar stappen maakt en naar het volgende uiterlijk gaat:
     
     ```blocks
-    wanneer groene vlag wordt aangeklikt
-herhaal 
-  als <toets [pijltje rechts v] ingedrukt?> dan 
-    richt naar (90 v) graden
-    neem (3) stappen
-    volgend uiterlijk
-  end
-end -
-```
+        wanneer groene vlag wordt aangeklikt
+    herhaal 
+      als <toets [pijltje rechts v] ingedrukt?> dan 
+        richt naar (90 v) graden
+        neem (3) stappen
+        volgend uiterlijk
+      end
+    end -
+    ```
 
 + Test je personage door op de vlag te klikken en de toets pijl naar rechts ingedrukt te houden. Gaat je speler naar rechts? Lijkt het erop dat je personage loopt?
     
@@ -42,16 +42,16 @@ end -
     Of, als je wilt, kun je dit blok toevoegen aan het begin van het script van je personage:
     
     ```scratch
-maak draaistijl [links-rechts v]
-```
+    maak draaistijl [links-rechts v]
+    ```
 
 + Om een ​​roze ladder te beklimmen, moet het personage een beetje omhoog gaan wanneer de pijl naar omhoog wordt ingedrukt en de juiste kleur wordt aangeraakt. Voeg deze code toe binnen de `herhaal`{: class = "blockcontrol"} -lus van je personage:
     
     ```blocks
-    als <<toets [pijltje omhoog v] ingedrukt?> en <raak ik kleur [#ff00bf] ?>> dan 
-  verander y met (4)
-end
-```
+        als <<toets [pijltje omhoog v] ingedrukt?> en <raak ik kleur [#ff00bf] ?>> dan 
+      verander y met (4)
+    end
+    ```
 
 + Test het personage - kun je de roze ladders beklimmen en aan het einde van je level komen?
     
