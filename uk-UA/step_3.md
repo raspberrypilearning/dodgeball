@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: Completing the level
+## Завдання: Пройти рівень
 
-Can you add more code to your character, so that they say something `if`{:class="blockcontrol"} they get to the green door?
+Чи можете ви додати ще коду до вашого персонажа, щоб той міг щось сказати `if`{:class="blockcontrol"} коли добирається до зелених дверей?
 
-![screenshot](images/dodge-win.png)
+![скріншот](images/dodge-win.png)
 
 \--- /challenge \---
