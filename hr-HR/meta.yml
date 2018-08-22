@@ -6,8 +6,8 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Dodgeball
-description: Create a platform game, in which you have to dodge the moving balls and reach the end of the level.
+title: Preskakanje lopti
+description: U ovom projektu ćeš naučiti napraviti igru u kojoj igrač treba izbjegavati lopte koje se kreću i stići do kraja nivoa.
 original_url: https://codeclubprojects.org/en-GB/scratch/dodgeball
 interests: games
 technologies: scratch
@@ -18,7 +18,7 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: Preskakanje lopti
   - 
     title: Character movement
   - 
