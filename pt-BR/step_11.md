@@ -1,11 +1,11 @@
 \--- challenge \---
 
-## Challenge: More lives
+## Desafio: Mais vidas
 
-Can you give your player 3 `lives`{:class="blockdata"}, instead of just sending them back to the beginning each time? Here's how your game could work:
+Você pode dar ao seu jogador 3 vidas`vidas`{:class="blockdata"} ao invés de somente enviá-los de volta ao incio de cada vez? Veja como seu jogo pode funcionar:
 
-+ Your player starts with 3 lives;
-+ Whenever your player gets hit, one life is lost and they go back to the start;
-+ If there are no lives left, the game ends.
++ Seu jogador começa com 3 vidas;
++ Sempre que seu jogador é atingido, uma vida é perdida e eles voltam para o começo;
++ Se não houver mais vidas sobrando, o jogo termina.
 
 \--- /challenge \---
