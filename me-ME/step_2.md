@@ -41,7 +41,7 @@ Počnimo tako što ćemo kreirati karaktera koji može da se kreće lijevo i des
     
     Ili, ako ti više odgovara, možeš da dodaš sljedeći blok na početak skripte (script) svog karaktera:
     
-    ```scratch
+    ```blocks
         set rotation style [left-right v]
     ```
 
