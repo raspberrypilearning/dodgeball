@@ -1,77 +1,77 @@
-## Introduction
+## Introdução
 
-In this project you'll learn how to create a platform game, in which you have to dodge the moving balls and reach the end of the level.
+Nesse Projeto você vai aprender a criar um jogo de plataforma, Na qual você terá que se esquivar das bolas em movimento e chegar ao final da fase.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/39740618/?autostart=false" frameborder="0"></iframe>
   <img src="images/dodge-final.png">
 </div>
 
-### Additional information for club leaders
+### Informação complementar para líderes de clube
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/dodgeball/print).
+Se você precisar imprimir esse projeto, por favor usar[ a versão para impressão](https://projects.raspberrypi.org/en/projects/dodgeball/print).
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## título: Comentários do líder do clube
 
-## Introduction:
+## Introdução:
 
-In this project, children will learn how to make a platform game, making use of Scratch concepts and skills that have been learnt in previous projects.
+Neste projeto, as crianças aprenderão como fazer um jogo de plataforma, fazendo uso dos conceitos e habilidades do Scratch que foram aprendidos em projetos anteriores.
 
-## Resources
+## Recursos
 
-For this project, Scratch 2 should be used. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
+Para esse projeto, Scratch 2 deve ser usado. Scratch 2 pode ser usado online em [jumpto.cc/scratch-on ](http://jumpto.cc/scratch-on)ou também ser baixado em [jumpto.cc/scratch-off ](http://jumpto.cc/scratch-off)e ser usado o mesmo sem conexão à internet.
 
-The 'Project Materials' link for this project contains the following resources:
+'Materiais do Projeto' o link para esse projeto contém os seguintes recursos:
 
-##### Club leader Resources
+##### Recursos do líder de clube
 
-You can find a completed version of this project [online](http://scratch.mit.edu/projects/39740618/#editor), or it can be downloaded by clicking the 'Project Materials' link for this project, which contains:
+Você pode encontrar uma versão completa desse projeto [online](http://scratch.mit.edu/projects/39740618/#editor), ou pode fazer o download clicando em 'Materiais do Projeto' link para esse projeto que contém:
 
 * Dodgeball.sb2
 
-##### Project Resources
+##### Recursos do Projeto
 
-For this project, club members can make use of external resources that aren't available in the Scratch library:
+Para esse projeto, membros do clube podem usar recursos externos que não estão disponíveis na biblioteca do Scratch:
 
 * background.png.
 
-For club members that aren't able to access these project resources, there is a Scratch project with the external resources pre-loaded. This is available online at [jumpto.cc/dodge-resources](http://jumpto.cc/dodge-resources), or in the downloadable project materials, which contains:
+Para membros do clube que não puderem acessar esses recursos do projeto, há um projeto Scratch com fontes externas pré carregadas. Está disponível online em [jumpto.cc/dodge-resources](http://jumpto.cc/dodge-resources), ou nos pode ser baixado nos materiais de projeto, que contém:
 
 * DodgeballResources.sb2 
 
-## Learning Objectives
+## Objetivos de Aprendizado
 
-* This project consolidates learning of previous programming skills learnt.
+* Este projeto consolida a aprendizagem das habilidades de programação anteriores aprendidas.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Esse projeto cobre elementos dos seguintes vertentes do [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Combinar construções de programação para resolver um problema.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Challenges
+## Desafios
 
-* "Improved jumping" - using an additional `if`{:class="blockcontrol"} block to fix a multiple-jump bug;
-* "Random balls" - using the `random`{:class="blockoperators"} block to vary the ball costume, size and delay between clones;
-* "More obstacles" - adding additional sprites to the game;
-* "Improved gravity" - using an additional `if`{:class="blockcontrol"} block to fix a bug in the `gravity`{:class="blockdata"};
-* "More lives" - addition of a `lives`{:class="blockdata"} variable.
+* "Salto Melhorado" - usando um adicional`if` {:class="blockcontrol"} bloco para corrigir um bug de salto múltiplo;
+* "Bolas Aleatórias" - usando `random`{:class=blockoperators"} bloqueia para variar o traje da bola, tamanho e atraso entre os clones;
+* "Mais obstáculos" - adiciona mais espírito no jogo;
+* "Melhorar a gravidade" - usando um adicional `if `{:class="blockcontrol"} bloco para corrigir um erro no `gravity`{:class="blockdata"};
+* "Mais Vidas" - adição de `lives`{;class="blockdata"} variável.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## Título: Materiais do projeto
 
-## Project resources
+## Recursos do Projeto
 
-* [Online Scratch 2 project containing external resources](http://jumpto.cc/dodge-resources)
-* [Downloadable Scratch 2 project containing external resources](resources/DodgeballResources.sb2)
+* [O projeto Online Scratch 2 contém 2 recursos externos](http://jumpto.cc/dodge-resources)
+* [Projeto Scratch 2 contendo recurso externos para baixar](resources/DodgeballResources.sb2)
 * [background.png](resources/background.png)
 
-## Club leader resources
+## Recursos dos Líderes de Clube
 
-* [Online completed Scratch 2 project](http://scratch.mit.edu/projects/39740618/#editor)
-* [Downloadable completed Scratch 2 project](resources/Dodgeball.sb2)
+* [Projeto concluído do Scratch 2 online](http://scratch.mit.edu/projects/39740618/#editor)
+* [Baixar Projeto Scratch 2 completo](resources/Dodgeball.sb2)
 
 \--- /collapse \---
