@@ -1,58 +1,58 @@
-## Character movement
+## Poruszanie się postaci
 
-Let's start by creating a character that can move left and right, as well as climb up ladders.
+Zacznijmy tworząc postać która może poruszać się w lewo i w prawo oraz wspinać się po drabinach.
 
-+ Open the 'Dodgeball' Scratch project online at <a href="http://jumpto.cc/dodge-go" target="_blank">jumpto.cc/dodge-go</a> or download from <a href="http://jumpto.cc/dodge-get" target="_blank">jumpto.cc/dodge-get</a> and then open if you are using the offline editor.
++ Otwórz projekt Scratch 'Zbijak' online <a href="http://jumpto.cc/dodge-go" target="_blank">jumpto.cc/dodge-go</a> lub pobierz z <a href="http://jumpto.cc/dodge-get" target="_blank">jumpto.cc/dodge-get</a> i otwórz jeśli używasz edytora offline.
     
-    The project contains a background with platforms:
+    Projekt zawiera tło z platformami:
     
     ![screenshot](images/dodge-background.png)
 
-+ Add a new sprite, which will be your character. It's better if you choose a sprite with multiple costumes, so that you can make it look as though it's walking.
++ Dodaj nowego duszka, który będzie Twoją postacią. Będzie lepiej jeśli wybierzesz duszka z wieloma kostiumami, wtedy będziesz mógł sprawić żeby wyglądał jakby chodził.
     
     ![screenshot](images/dodge-characters.png)
 
-+ Let's use the arrow keys to move your character around. When the player presses the right arrow, you want your character to point right, move a few steps and change to the next costume:
++ Użyj klawiszy strzałek by poruszać Twoją postacią. Gdy gracz naciśnie prawą strzałkę, chcesz aby Twoja postać popatrzyła w prawo, poruszyła się kilka kroków i zmieniła kostium na następny:
     
     ```blocks
-    when flag clicked
-    forever
-        if <key [right arrow v] pressed? > then
-            point in direction (90 v)
-            move (3) steps
-            next costume
+        kiedy kliknięto flagę
+         zawsze
+            <jeżeli klawisz [strzałka w prawo V] nacisnięty? > to
+            ustaw kierunek na (90 v)
+            przesuń o (3) kroków
+            następny kostium
+         end
         end
-    end
-```
+    ```
 
-+ Test out your character by clicking the flag and then holding down the right arrow key. Does your player move to the right? Does your character look like they are walking?
++ Przetestuj Twoją postać, klikając na flagę i przytrzymując klawisz prawej strzałki. Czy Twój gracz porusza się w prawo? Czy Twoja postać wygląda jakby się poruszała?
     
     ![screenshot](images/dodge-walking.png)
 
-+ To move your character to the left, you'll need to add another `if`{:class="blockcontrol"} block inside your `forever`{:class="blockcontrol"} loop, which moves your character to the left.
++ By poruszać Twoją postacią w lewo, będziesz potrzebował dodać inny blok `if`{:class="blockcontrol"} wewnątrz Twojej pętli `forever`{:class="blockcontrol"}, która poruszy Twoją postać w lewo.
 
-+ Test your new code to make sure that it works. Does your character turn upside-down when walking to the left?
++ Przetestuj Twój nowy kod, by mieć pewność że działa. Czy Twoja postać obraca się do góry nogami idąc w lewo?
     
     ![screenshot](images/dodge-upside-down.png)
     
-    If so, you can fix this bug by clicking the `(i)`{:class="blocksensing"} icon on your character sprite, and then clicking the left-right arrow.
+    Jeśli tak, możesz naprawić to klikając ikonę `(i)`{:class="blocksensing"} na Twoim duszku, i wtedy klikając strzałka lewo-prawo.
     
     ![screenshot](images/dodge-left-right.png)
     
-    Or, if you prefer you can add this block to the start of your character's script:
+    Lub, jeśli wolisz możesz dodać ten blok na start kodu Twojej postaci:
     
     ```scratch
-set rotation style [left-right v]
-```
+    ustaw styl obrotu [lewo-prawo v]
+    ```
 
-+ To climb a pink ladder, your character should move up slightly whenever the up arrow is pressed and they're touching the correct colour. Add this code inside your character's `forever`{:class="blockcontrol"} loop:
++ By wspiąć się na różową drabinę, Twoja postać powinna poruszać się w górę zawsze gdy klawisz strzałka w górę jest wciśnięty i gdy dotyka ona właściwego koloru. Dodaj ten kod w środku pętli Twojej postaci `zawsze`{:class="blockcontrol"}:
     
     ```blocks
-    if < <key [up arrow v] pressed?> and <touching color [#FF69B4]?> > then
-        change y by (4)
-    end
-```
+        jeżeli << klawisz [strzałka w górę] naciśnięty? > i < dotyka koloru [różowy]>
+            zmień y o (4)
+        end
+    ```
 
-+ Test your character - can you climb the pink ladders and get to the end of your level?
++ Przetestuj Twoją postać - możesz wspiąć się różową drabiną i dostać się na koniec twojego poziomu?
     
     ![screenshot](images/dodge-test-character.png)
