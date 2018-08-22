@@ -13,16 +13,16 @@ We gaan het een beetje lastiger maken om het spel uit te spelen, door lasers toe
 + Voeg code toe aan je laser, zodat die kan wisselen tussen de 2 uiterlijken.
     
     ```blocks
-    wanneer groene vlag wordt aangeklikt
-herhaal 
-  verander uiterlijk naar [aan v]
-  wacht (2) sec.
-  verander uiterlijk naar [uit v]
-  wacht (2) sec.
-end
-```
-
-Als je wilt, kun je een `willekeurig`{: class = "blockoperators"}e tijd `wacht`{: class = "blockcontrol"}en tussen het wisselen van de uiterlijken.
+        wanneer groene vlag wordt aangeklikt
+    herhaal 
+      verander uiterlijk naar [aan v]
+      wacht (2) sec.
+      verander uiterlijk naar [uit v]
+      wacht (2) sec.
+    end
+    ```
+    
+    Als je wilt, kun je een `willekeurig`{: class = "blockoperators"}e tijd `wacht`{: class = "blockcontrol"}en tussen het wisselen van de uiterlijken.
 
 + Voeg tot slot code toe aan de laser, zodat het 'raak'-signaal wordt uitgezonden als de laser het personage raakt. Deze code zal erg lijken op de code die je aan je balsprite hebt toegevoegd.
     
