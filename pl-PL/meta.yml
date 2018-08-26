@@ -22,7 +22,7 @@ steps:
   - 
     title: Poruszanie się postacią
   - 
-    title: 'Wyzwanie: Zakończenie poziomu'
+    title: 'Wyzwanie: Ukończenie poziomu'
   - 
     title: Grawitacja i skakanie
   - 
@@ -30,7 +30,7 @@ steps:
   - 
     title: Unikanie piłek
   - 
-    title: 'Wyzwanie: Losowe piłki'
+    title: 'Wyzwanie: Różne piłki'
   - 
     title: Lasery!
   - 
