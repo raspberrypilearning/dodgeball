@@ -53,7 +53,7 @@ Uczyńmy ruchy Twojej postaci bardziej realistycznymi, przez dodanie grawitacji 
 
 + Jeśli przetestujesz ten kod, zauważysz że działa, ale ruch nie jest zbyt płynny. By uczynić skakanie bardziej płynnym, potrzebujesz przesunąć Twoją postać o mniejszą i mniejszą liczbę, dopóki nie będzie więcej skakać.
 
-+ To do this, create another variable called `jump height`{:class="blockdata"}. Ponownie, jeśli chcesz możesz ukryć tę zmienną.
++ By to zrobić, utwórz następną zmienną o nazwie `jump height`{:class="blockdata"}. Ponownie, jeśli chcesz możesz ukryć tę zmienną.
 
 + Usuń kod skoków który dodałeś do Twojej postaci i zamień go z tym kodem:
     
