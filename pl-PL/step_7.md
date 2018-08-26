@@ -2,11 +2,11 @@
 
 ## Challenge: Random balls
 
-The balls your character has to dodge all look the same, and always appear every 3 seconds. Can you improve them, so that they:
+Wszystkie piłki których Twoja postać musi unikać wyglądają tak samo i zawsze pojawiają się po 3 sekundach. Czy możesz poprawić to, tak żeby one:
 
-+ don't all look the same?
-+ appear after a random amount of time?
-+ are a random size?
++ nie wyglądały wszystkie podobnie?
++ pojawiały się po losowym okresie czasu?
++ były w losowym rozmiarze?
 
 ![screenshot](images/dodge-ball-random.png)
 
