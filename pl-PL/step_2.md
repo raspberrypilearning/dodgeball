@@ -1,8 +1,8 @@
-## Poruszanie się postaci
+## Sterowanie postacią
 
-Zacznijmy tworząc postać która może poruszać się w lewo i w prawo oraz wspinać się po drabinach.
+Zacznijmy od stworzenia postaci która może poruszać się w lewo i w prawo oraz wspinać się po drabinach.
 
-+ Otwórz projekt Scratch 'Zbijak' online <a href="http://jumpto.cc/dodge-go" target="_blank">jumpto.cc/dodge-go</a> lub pobierz z <a href="http://jumpto.cc/dodge-get" target="_blank">jumpto.cc/dodge-get</a> i otwórz jeśli używasz edytora offline.
++ Otwórz projekt Scratch online 'Dwa ognie' z <a href="http://jumpto.cc/dodge-go" target="_blank">jumpto.cc/dodge-go</a> lub pobierz z <a href="http://jumpto.cc/dodge-get" target="_blank">jumpto.cc/dodge-get</a> i otwórz jeśli używasz edytora offline.
     
     Projekt zawiera tło z platformami:
     
