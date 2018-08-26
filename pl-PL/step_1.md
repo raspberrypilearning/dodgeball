@@ -51,10 +51,10 @@ Projekt ten obejmuje następujące elementy [Cyfrowego programu nauczania Raspbe
 
 ## Wyzwania
 
-* "Ulepszone skakanie" - użycie dodatkowego bloku `if`{:class="blockcontrol"} do naprawy błędu wielokrotnego skoku;
-* "Losowe piłki" - użycie bloku `random`{:class="blockoperators"} aby zmienić wygląd i rozmiar piłek oraz opóźnienie między ich klonami;
+* "Poprawione skakanie" - użycie dodatkowego bloku `if`{:class="blockcontrol"} do naprawy błędu wielokrotnego skoku;
+* "Róźne piłki" - użycie bloku `random`{:class="blockoperators"} aby zmienić wygląd i rozmiar piłek oraz opóźnienie między ich klonami;
 * "Więcej przeszkód" - dodanie dodatkowych duszków do gry;
-* "Ulepszona grawitacja" - użycie dodatkowego bloku `if`{:class="blockcontrol"} by naprawić błąd w `gravity`{:class="blockdata"};
+* "Poprawiona grawitacja" - użycie dodatkowego bloku `if`{:class="blockcontrol"} by naprawić błąd w `gravity`{:class="blockdata"};
 * "Więcej żyć" - dodanie zmiennej `lives`{:class="blockdata"}.
 
 \--- /collapse \---
@@ -65,13 +65,13 @@ Projekt ten obejmuje następujące elementy [Cyfrowego programu nauczania Raspbe
 
 ## Zasoby
 
-* [Projekt Scratch 2 online zawierający zewnętrzne zasoby](http://jumpto.cc/dodge-resources)
-* [Projekt Scratch 2 zawierający zewnętrzne zasoby do pobrania](resources/DodgeballResources.sb2)
+* [Projekt Scratch 2 online zawierający zasoby zewnętrzne](http://jumpto.cc/dodge-resources)
+* [Gotowy do pobrania projekt Scratch 2 zawierający zasoby zewnętrzne](resources/DodgeballResources.sb2)
 * [background.png](resources/background.png)
 
-## Zasoby dla prowadzących klub
+## Materiały dla prowadzących klub
 
-* [Ukończony projekt Scratch 2 online](http://scratch.mit.edu/projects/39740618/#editor)
-* [Ukończony projekt Scratch 2 do pobrania](resources/Dodgeball.sb2)
+* [Wersja online ukończonego projektu Scratch 2](http://scratch.mit.edu/projects/39740618/#editor)
+* [Wersja do pobrania ukończonego projekt Scratch 2](resources/Dodgeball.sb2)
 
 \--- /collapse \---
