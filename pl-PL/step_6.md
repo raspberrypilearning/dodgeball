@@ -16,15 +16,15 @@ Teraz masz poruszającą się postać, dodajmy kilka piłek których Twoja posta
     
     Ten kod tworzy nowy klon piłki co 3 sekundy. Każdy nowy klon porusza się wzdłuż górnej platformy.
 
-+ Click the flag to test this out.
++ Kliknij flagę by to przetestować.
     
     ![screenshot](images/dodge-ball-test.png)
 
-+ Add more code to your ball sprite, so that they move across all 3 platforms.
++ Dodaj więcej kody do duszka piłki, tak by te poruszały się po wszystkich trzech platformach.
     
     ![screenshot](images/dodge-ball-more-motion.png)
 
-+ Finally, you'll need code for when your character gets hit by a ball! Add this code to your ball sprite:
++ Ostatecznie, będziesz potrzebować kod gdy w Twoją postać trafi piłka! Dodaj poniższy kod do duszka piłki:
     
     ```blocks
         when I start as a clone
