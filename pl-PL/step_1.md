@@ -19,13 +19,13 @@ Jeśli chcesz wydrukować ten projekt, użyj [wersji do druku](https://projects.
 
 W tym projekcie, dzieci nauczą się jak stworzyć grę platformową, używając koncepcji Scratch'a oraz umiejętności nabytych w poprzednich projektach.
 
-## Zasoby
+## Materiały
 
 Do tego projektu należy użyć Scratch 2. Scratch 2 można używać online pod [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) albo pobrać z [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) do użycia w trybie offline.
 
 Link do materiałów dla tego projektu zawiera następujące zasoby":
 
-##### Zasoby dla prowadzących klub
+##### Materiały dla prowadzących klub
 
 Ukończoną wersję tego projektu można znaleźć [online](http://scratch.mit.edu/projects/39740618/#editor) lub też można ją pobrać klikając w link 'Materiały Projektu' w tym projekcie, który zawiera:
 
@@ -33,21 +33,21 @@ Ukończoną wersję tego projektu można znaleźć [online](http://scratch.mit.e
 
 ##### Zasoby projektu
 
-W tym projekcie, członkowie klubu mogą użyć zewnętrzne zasoby które nie są dostępne w bibliotece Scratch'a:
+W tym projekcie, członkowie klubu mogą użyć zasobów zewnętrznych, które nie są dostępne w bibliotece Scratch'a:
 
 * background.png.
 
-Dla członków klubu którzy nie mają dostępu do tych zasobów projektu, jest projekt Scratch'a z dołączonymi zewnętrznymi zasobami. Jest on dostępny online [jumpto.cc/dodge-resources](http://jumpto.cc/dodge-resources), lub w materiałach projektu do pobrania, zawierają one:
+Dla członków klubu którzy nie mają dostępu do tych zasobów projektu, dostępny jest projekt Scratch'a z już dołączonymi zasobami zewnętrznymi. Jest on dostępny online [jumpto.cc/dodge-resources](http://jumpto.cc/dodge-resources), lub w materiałach projektu do pobrania, zawierające:
 
 * DodgeballResources.sb2 
 
 ## Cele dydaktyczne
 
-* Ten projekt utrwala naukę poprzednio nauczonych umiejętności programowania.
+* Ten projekt utrwala naukę poprzednio nabytych umiejętności programowania.
 
 Projekt ten obejmuje następujące elementy [Cyfrowego programu nauczania Raspberry Pi](http://rpf.io/curriculum):
 
-* [Połącz konstrukcje programistyczne, aby rozwiązać problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Połącz konstrukty programistyczne, aby rozwiązać problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
 ## Wyzwania
 
