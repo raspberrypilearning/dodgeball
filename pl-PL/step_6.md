@@ -27,15 +27,15 @@ Teraz masz poruszającą się postać, dodajmy kilka piłek których Twoja posta
 + Ostatecznie, będziesz potrzebować kod gdy w Twoją postać trafi piłka! Dodaj poniższy kod do duszka piłki:
     
     ```blocks
-        when I start as a clone
-        forever
-            if < touching [Pico walking v]? > then
-                broadcast [hit v]
+        kiedy zaczynam jako klon
+            zawsze
+                jeżeli < dotyka [Pico v]? > to?     
+                nadaj [trafienie v]
             end
         end
     ```
 
-+ You'll also need to add code to your character, to move back to the start when they're hit:
++ Będziesz potrzebował także dodać kod do Twojej postaci, by wracała na start gdy zostanie trafiona:
     
     ```blocks
         when I receive [hit v]
