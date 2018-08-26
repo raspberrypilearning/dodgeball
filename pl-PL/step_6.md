@@ -38,9 +38,9 @@ Teraz masz poruszającą się postać, dodajmy kilka piłek których Twoja posta
 + Będziesz potrzebował także dodać kod do Twojej postaci, by wracała na start gdy zostanie trafiona:
     
     ```blocks
-        when I receive [hit v]
-        point in direction (90 v)
-        go to x: (-210) y: (-120)
+        kiedy otrzymam [trafienie v]
+    ustaw kierunek na (9 0v)
+    idź do x: (-210) y: (-120)
     ```
 
-+ Test out your character and see if they go back to the start when they've been hit by a ball.
++ Przetestuj Twoją postać i zobacz czy powraca na start kiedy zostanie trafiona przez piłkę.
