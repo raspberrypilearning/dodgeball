@@ -1,6 +1,6 @@
 ## Wprowadzenie
 
-W tym projekcie nauczysz się jak stworzyć grę platformową, w której będziesz musiał unikać poruszających się piłek i osiągnąć koniec poziomu.
+W tym projekcie nauczysz się jak stworzyć grę platformową, w której będziesz musiał unikać poruszających się piłek i ukończyć poziom.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/39740618/?autostart=false" frameborder="0"></iframe>
@@ -13,7 +13,7 @@ Jeśli chcesz wydrukować ten projekt, użyj [wersji do druku](https://projects.
 
 ## \--- collapse \---
 
-## title: Notatki prowadzących klub
+## title: Notatki dla prowadzących klub
 
 ## Wprowadzenie:
 
