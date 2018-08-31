@@ -1,8 +1,8 @@
 ## Unikanie piłek
 
-Teraz masz poruszającą się postać, dodajmy kilka piłek których Twoja postać musi unikać.
+Teraz masz poruszającą się postać, dodajmy kilka piłek których musi unikać.
 
-+ Utwórz nowego duszka piłkę. Możesz wybrać każdy typ piłki który chcesz.
++ Utwórz nowego duszka piłkę. Możesz wybrać dowolny typ piłki który chcesz.
     
     ![screenshot](images/dodge-balls.png)
 
@@ -20,11 +20,11 @@ Teraz masz poruszającą się postać, dodajmy kilka piłek których Twoja posta
     
     ![screenshot](images/dodge-ball-test.png)
 
-+ Dodaj więcej kody do duszka piłki, tak by te poruszały się po wszystkich trzech platformach.
++ Dodaj więcej kodu do duszków piłek, tak by te poruszały się po wszystkich trzech platformach.
     
     ![screenshot](images/dodge-ball-more-motion.png)
 
-+ Ostatecznie, będziesz potrzebować kod gdy w Twoją postać trafi piłka! Dodaj poniższy kod do duszka piłki:
++ Ostatecznie, będziesz potrzebować kodu gdy w Twoją postać zostanie trafiona piłką! Dodaj poniższy kod do duszka piłki:
     
     ```blocks
         kiedy zaczynam jako klon
@@ -35,7 +35,7 @@ Teraz masz poruszającą się postać, dodajmy kilka piłek których Twoja posta
         end
     ```
 
-+ Będziesz potrzebował także dodać kod do Twojej postaci, by wracała na start gdy zostanie trafiona:
++ Będziesz również potrzebował dodać kod do Twojej postaci, aby wracała na start gdy zostanie trafiona:
     
     ```blocks
         kiedy otrzymam [trafienie v]
