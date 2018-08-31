@@ -1,4 +1,4 @@
-## Unikając piłek
+## Unikanie piłek
 
 Teraz masz poruszającą się postać, dodajmy kilka piłek których Twoja postać musi unikać.
 
