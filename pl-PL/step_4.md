@@ -51,21 +51,21 @@ Uczyńmy ruchy Twojej postaci bardziej realistycznymi, przez dodanie grawitacji 
     
     Grawitacja ciągle ciągnie Twoją postać w dół o 4 pixele, potrzebujesz wybrać liczbę większą niż 4 w Twoim bloku `zmień y o (4)`{:class="blockmotion"}. Zmień tą liczbę aż będziesz zadowolony z wysokości skoków Twojej postaci.
 
-+ Jeśli przetestujesz ten kod, zauważysz że działa, ale ruch nie jest zbyt płynny. By uczynić skakanie bardziej płynnym, potrzebujesz przesunąć Twoją postać o mniejszą i mniejszą liczbę, dopóki nie będzie więcej skakać.
++ Jeśli przetestujesz ten kod, zauważysz że działa, ale ruch nie jest zbyt płynny. By uczynić skakanie bardziej płynnym, potrzebujesz przesunąć Twoją postać o coraz mniejszą liczbę, dopóki nie będzie więcej skakać.
 
-+ By to zrobić, utwórz następną zmienną o nazwie `jump height`{:class="blockdata"}. Ponownie, jeśli chcesz możesz ukryć tę zmienną.
++ By to zrobić, utwórz następną zmienną o nazwie `wysokość skoku`{:class="blockdata"}. Ponownie, jeśli chcesz możesz ukryć tę zmienną.
 
-+ Usuń kod skoków który dodałeś do Twojej postaci i zamień go z tym kodem:
++ Usuń kod odpowiedzialny za skoki który dodałeś do Twojej postaci i zastąp go tym kodem:
     
     ```blocks
         kiedy klawisz [spacja v] naciśnięty
-            ustaw [jump height v] na [8]
-            powtarzaj aż < (jump height) = [0] >
-                zmień y o (jumpu height)
-                zmień [jump height v] o (-0,5)
+            ustaw [wysokość skoku v] na [8]
+            powtarzaj aż < (wysokość skoku) = [0] >
+                zmień y o (wysokość skoku)
+                zmień [wysokość skoku v] o (-0,5)
             end
     ```
     
-    Ten kod porusza Twoją postać do góry o 8 pixeli, następnie o 7,5 pixeli, następnie i 7 pixeli, i tak dalej, dopóki Twoja postać nie zakończy skakać. To uczyni wygląd skoków bardziej płynnym.
+    Ten kod porusza Twoją postać do góry o 8 pixeli, następnie o 7,5 pixeli, później o 7 pixeli, i tak dalej, dopóki Twoja postać nie zakończy skakać. To uczyni wygląd skoków bardziej płynnym.
 
-+ Zmień początkową wartość Twojej zmiennej `jump height`{:class="blockdata"} i testuj zmiany aż będziesz zadowolony z wysokości skoków Twojej postaci.
++ Zmień początkową wartość Twojej zmiennej `wysokość skoku`{:class="blockdata"} i testuj zmiany aż będziesz zadowolony z wysokości skoków Twojej postaci.
