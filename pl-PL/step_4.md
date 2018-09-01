@@ -6,7 +6,7 @@ Uczyńmy ruchy Twojej postaci bardziej realistycznymi, przez dodanie grawitacji 
     
     ![screenshot](images/dodge-no-gravity.png)
 
-+ By to naprawić, dodajmy grawitację do Twojej gry. Stwórz nową zmienną o nazwie `gravity`{:class="blockdata"}. Możesz ukryć tą zmienną ze sceny jeśli chcesz.
++ Aby to naprawić, dodajmy grawitację do Twojej gry. Stwórz nową zmienną o nazwie `gravity`{:class="blockdata"}. Możesz ukryć tą zmienną ze sceny jeśli chcesz.
     
     ![screenshot](images/dodge-gravity.png)
 
