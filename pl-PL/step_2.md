@@ -48,7 +48,7 @@ Zacznijmy od stworzenia postaci która może poruszać się w lewo i w prawo ora
 + By wspiąć się na różową drabinę, Twoja postać powinna poruszać się w górę zawsze gdy klawisz strzałka w górę jest wciśnięty i gdy dotyka ona właściwego koloru. Dodaj ten kod w środku pętli Twojej postaci `zawsze`{:class="blockcontrol"}:
     
     ```blocks
-        jeżeli << klawisz [strzałka w górę] naciśnięty? > i < dotyka koloru [różowy]>
+        jeżeli <<key [up arrow v] pressed?> i <touching color [#FF69B4]?> > to
             zmień y o (4)
         end
     ```
