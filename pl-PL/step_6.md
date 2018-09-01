@@ -29,7 +29,7 @@ Teraz masz poruszającą się postać, dodajmy kilka piłek których musi unika�
     ```blocks
         kiedy zaczynam jako klon
             zawsze
-                jeżeli < dotyka [Pico v]? > to?     
+                jeżeli < dotyka [Pico v]? > to? > to
                 nadaj [trafienie v]
             end
         end
