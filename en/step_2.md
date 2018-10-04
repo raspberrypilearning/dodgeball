@@ -12,7 +12,6 @@ The project contains a background with platforms:
 
 ![screenshot](images/dodge-background.png)
 
-
 --- task ---
 
 Add a new sprite, which will be your character. It's better if you choose a sprite with multiple costumes, so that you can make it look as though it's walking.
@@ -25,6 +24,7 @@ Add a new sprite, which will be your character. It's better if you choose a spri
 
 Let's use the arrow keys to move your character around. When the player presses the right arrow, you want your character to point right, move a few steps and change to the next costume:
 
+![pico walking sprite](images/pico_walking_sprite.png)
 ```blocks
 when flag clicked
 forever
@@ -48,7 +48,7 @@ Test out your character by clicking the flag and then holding down the right arr
 
 --- task ---
 
-Add the code to your `forever`{:class="blockcontrol"} to make your character arrow walk left.
+Add the code to the  `forever`{:class="blockcontrol"} loop to make your character arrow walk left.
 
 --- hints ---
 
@@ -74,6 +74,7 @@ end
 
 --- hint ---
 
+![pico walking sprite](images/pico_walking_sprite.png)
 ```blocks
 when green flag clicked
 forever 
@@ -118,6 +119,7 @@ set rotation style [left-right v]
 
 To climb a pink ladder, your character should move up slightly whenever the up arrow is pressed and they're touching the correct colour. Add this code inside your character's `forever`{:class="blockcontrol"} loop:
 
+![pico walking sprite](images/pico_walking_sprite.png)
 ```blocks
 	if < <key [up arrow v] pressed?> and <touching color [#FF69B4]?> > then
 		change y by (4)

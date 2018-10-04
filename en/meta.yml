@@ -20,6 +20,7 @@ steps:
 - title: Introduction
 - title: Character movement
 - title: 'Challenge: Completing the level'
+  challenge: true
 - title: Gravity and jumping
 - title: 'Challenge: Improved jumping'
 - title: Dodging balls
