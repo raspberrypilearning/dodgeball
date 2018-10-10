@@ -22,6 +22,33 @@ Resize your ball, so that your character can jump over it. Try jumping over the 
 
 Add this code to your ball:
 
+
+```blocks
+when green flag clicked
+hide
+forever 
+  wait (3) secs
+  create clone of [myself v]
+end
+```
+
+```blocks
+when I start as a clone
+go to x: (160) y: (160)
+show
+repeat (22) 
+  change y by (-4)
+end
+repeat (170) 
+  change x by (-2)
+  turn ccw (6) degrees
+end
+repeat (30) 
+  change y by (-4)
+end
+delete this clone
+```
+
 ![screenshot](images/dodge-ball-motion.png)
 
 This code creates a new ball clone every 3 seconds. Each new clone moves along the top platform.
