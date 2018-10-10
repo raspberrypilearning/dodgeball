@@ -22,6 +22,7 @@ Resize your ball, so that your character can jump over it. Try jumping over the 
 
 Add this code to your ball:
 
+![ball sprite](images/ball_sprite.png)
 
 ```blocks
 when green flag clicked
@@ -49,8 +50,6 @@ end
 delete this clone
 ```
 
-![screenshot](images/dodge-ball-motion.png)
-
 This code creates a new ball clone every 3 seconds. Each new clone moves along the top platform.
 
 --- /task ---
@@ -75,6 +74,8 @@ Add more code to your ball sprite, so that they move across all 3 platforms.
 
 Finally, you'll need code for when your character gets hit by a ball! Add this code to your ball sprite:
 
+![ball sprite](images/ball_sprite.png)
+
 ```blocks
 	when I start as a clone
 	forever
@@ -89,6 +90,8 @@ Finally, you'll need code for when your character gets hit by a ball! Add this c
 --- task ---
 
 You'll also need to add code to your character, to move back to the start when they're hit:
+
+![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks
 	when I receive [hit v]

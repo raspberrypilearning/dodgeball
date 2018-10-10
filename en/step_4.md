@@ -24,6 +24,8 @@ To fix this, let's add gravity to your game. Create a new variable called `gravi
 
 Add this new code block, which sets the gravity to a negative number, and then uses this to repeatedly change your character's y-coordinate.
 
+![pico walking sprite](images/pico_walking_sprite.png)
+
 ```blocks
 	when flag clicked
 	set [gravity v] to [-4]
@@ -45,6 +47,8 @@ Click the flag, and then drag your character to the top of the stage. What happe
 --- task ---
 
 Gravity shouldn't move your character through a platform or a ladder! Add an `if`{:class="blockcontrol"} block to your code, so that the gravity only works when your character is in mid-air. The gravity code should now look like this:
+
+![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks
 	when flag clicked
@@ -69,6 +73,8 @@ Test the gravity again. Does your character stop when they are on a platform or 
 --- task ---
 
 Let's also make your character jump when the player presses the space bar. One very easy way to do this is to move your character up a few times, using this code:
+
+![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks
 	when [space v] key pressed
@@ -96,6 +102,8 @@ To do this, create another variable called `jump height`{:class="blockdata"}. Ag
 --- task ---
 
 Delete the jumping code you added to your character, and replace it with this code:
+
+![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks
 	when [space v] key pressed
