@@ -1,5 +1,5 @@
---- challenge ---
 ## Challenge: Random balls
+
 The balls your character has to dodge all look the same, and always appear every 3 seconds. Can you improve them, so that they:
 
 + don't all look the same?
@@ -8,7 +8,3 @@ The balls your character has to dodge all look the same, and always appear every
 
 ![screenshot](images/dodge-ball-random.png)
 
-
-
-
---- /challenge ---

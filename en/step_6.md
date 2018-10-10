@@ -72,13 +72,15 @@ Add more code to your ball sprite, so that they move across all 3 platforms.
 
 --- hint ---
 
-Repeat the code above changing the x{:class="blockmotion"}, y{:class="blockmotion"} and repeat{:class="blockcontrol"} numbers so the balls follow the platforms.
+Repeat the code above changing the `x`{:class="blockmotion"}, `y`{:class="blockmotion"} and `repeat`{:class="blockcontrol"} numbers so the balls follow the platforms.
 
 --- /hint ---
 
 --- hint ---
 
 These blocks of code will move the ball in the right directions but will need to be order correctly.
+
+![ball sprite](images/ball_sprite.png)
 
 ```blocks
 repeat (170) 
@@ -101,6 +103,8 @@ end
 --- hint ---
 
 The code for your ball should look like this:
+
+![ball sprite](images/ball_sprite.png)
 
 ```blocks
 when I start as a clone
