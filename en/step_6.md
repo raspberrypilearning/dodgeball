@@ -80,6 +80,7 @@ Repeat the code above changing the x{:class="blockmotion"}, y{:class="blockmotio
 
 These blocks of code will move the ball in the right directions but will need to be order correctly.
 
+```blocks
 repeat (170) 
   change x by (-2)
   turn ccw (6) degrees
@@ -93,6 +94,7 @@ end
 repeat (30) 
   change y by (-4)
 end
+```
 
 --- /hint ---
 
@@ -131,7 +133,6 @@ delete this clone
 --- /hint ---
 
 --- /hints ---
-
 
 --- /task ---
 
