@@ -22,6 +22,8 @@ Place your new laser anywhere you like, between 2 platforms.
 
 Add code to your laser, to make it switch between the 2 costumes.
 
+![laser sprite](images/laser_sprite.png)
+
 ```blocks
 	when flag clicked
 	forever
@@ -48,7 +50,6 @@ This code will be very similar to the code you added to your ball sprite.
 
 --- /hint ---
 
-
 --- hint ---
 
 Copy the code you created for the ball sprite which `broadcasts 'hit'`{:class="blockcontrol"} when it is `touching your character`{:class="blocksensing"}.
@@ -58,6 +59,8 @@ Copy the code you created for the ball sprite which `broadcasts 'hit'`{:class="b
 --- hint ---
 
 This is the code you should add:
+
+![laser sprite](images/laser_sprite.png)
 
 ```blocks
 when green flag clicked
