@@ -2,50 +2,78 @@
 
 Now that you've got your character moving around, let's add some balls for your character to avoid.
 
+--- task ---
 
+Create a new ball sprite. You can choose any type of ball you like.
 
-+ Create a new ball sprite. You can choose any type of ball you like.
+![screenshot](images/dodge-balls.png)
 
-	![screenshot](images/dodge-balls.png)
+--- /task ---
 
-+ Resize your ball, so that your character can jump over it. Try jumping over the ball to test it. 
+--- task ---
 
-	![screenshot](images/dodge-ball-resize.png)
+Resize your ball, so that your character can jump over it. Try jumping over the ball to test it. 
 
-+ Add this code to your ball:
+![screenshot](images/dodge-ball-resize.png)
 
-	![screenshot](images/dodge-ball-motion.png)
+--- /task ---
 
-	This code creates a new ball clone every 3 seconds. Each new clone moves along the top platform.
+--- task ---
 
-+ Click the flag to test this out.
+Add this code to your ball:
 
-	![screenshot](images/dodge-ball-test.png)
+![screenshot](images/dodge-ball-motion.png)
 
-+ Add more code to your ball sprite, so that they move across all 3 platforms.
+This code creates a new ball clone every 3 seconds. Each new clone moves along the top platform.
 
-	![screenshot](images/dodge-ball-more-motion.png)
+--- /task ---
 
-+ Finally, you'll need code for when your character gets hit by a ball! Add this code to your ball sprite:
+--- task ---
 
-	```blocks
-		when I start as a clone
-		forever
-			if < touching [Pico walking v]? > then
-				broadcast [hit v]
-			end
+Click the flag to test this out.
+
+![screenshot](images/dodge-ball-test.png)
+
+--- /task ---
+
+--- task ---
+
+Add more code to your ball sprite, so that they move across all 3 platforms.
+
+![screenshot](images/dodge-ball-more-motion.png)
+
+--- /task ---
+
+--- task ---
+
+Finally, you'll need code for when your character gets hit by a ball! Add this code to your ball sprite:
+
+```blocks
+	when I start as a clone
+	forever
+		if < touching [Pico walking v]? > then
+			broadcast [hit v]
 		end
-	```
+	end
+```
 
-+ You'll also need to add code to your character, to move back to the start when they're hit:
+--- /task ---
 
-	```blocks
-		when I receive [hit v]
-		point in direction (90 v)
-		go to x: (-210) y: (-120)
-	```	
+--- task ---
 
-+ Test out your character and see if they go back to the start when they've been hit by a ball.
+You'll also need to add code to your character, to move back to the start when they're hit:
 
+```blocks
+	when I receive [hit v]
+	point in direction (90 v)
+	go to x: (-210) y: (-120)
+```	
 
+--- /task ---
+
+--- task ---
+
+Test out your character and see if they go back to the start when they've been hit by a ball.
+
+--- /task ---
 

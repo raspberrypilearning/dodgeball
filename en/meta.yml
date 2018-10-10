@@ -23,6 +23,7 @@ steps:
   challenge: true
 - title: Gravity and jumping
 - title: 'Challenge: Improved jumping'
+  challenge: true
 - title: Dodging balls
 - title: 'Challenge: Random balls'
 - title: Lasers!
