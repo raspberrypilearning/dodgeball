@@ -20,5 +20,8 @@ steps:
   challenge: true
 - title: Lasers!
 - title: 'Challenge: More obstacles'
+  challenge: true
 - title: 'Challenge: Improved gravity'
+  challenge: true
 - title: 'Challenge: More lives'
+  challenge: true

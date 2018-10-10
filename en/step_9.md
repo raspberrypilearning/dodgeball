@@ -1,5 +1,5 @@
---- challenge ---
 ## Challenge: More obstacles
+
 If you think your game is still too easy, you can add more obstacles to your level. You can add anything you like, but here are some ideas:
 
 + A flying killer butterfly;
@@ -17,8 +17,3 @@ You could even create more than one backdrop, and move to the next level when yo
 		wait (1) secs
 	end
 ```
-
-
-
-
---- /challenge ---

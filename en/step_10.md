@@ -1,5 +1,5 @@
---- challenge ---
 ## Challenge: Improved gravity
+
 There's one other small bug in your game: gravity doesn't pull your character downwards if _any_ part of it is touching a blue platform - even its head! You can test this out by climbing most of the way up a ladder and then moving to the left.
 
 ![screenshot](images/dodge-gravity-bug.png)
@@ -22,7 +22,3 @@ with:
 
 Remember to test your improvements to make sure you've fixed the bug!
 
-
-
-
---- /challenge ---

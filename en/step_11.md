@@ -1,5 +1,5 @@
---- challenge ---
 ## Challenge: More lives
+
 Can you give your player 3 `lives`{:class="blockdata"}, instead of just sending them back to the beginning each time? Here's how your game could work:
 
 + Your player starts with 3 lives;
@@ -7,6 +7,3 @@ Can you give your player 3 `lives`{:class="blockdata"}, instead of just sending 
 + If there are no lives left, the game ends.
 
 
-
-
---- /challenge ---
