@@ -4,7 +4,11 @@ Let's start by creating a character that can move left and right, as well as cli
 
 --- task ---
 
-Open the 'Dodgeball' Scratch project online at [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on) or download from [rpf.io/dodgeball-off](http://rpf.io/dodgeball-off) and then open if you are using the offline editor.
+Open the 'Dodgeball' starter project.
+
+**Online:** Open Scratch starter project at [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on). 
+
+**Offline:** Download the starter project from [rpf.io/dodgeball-off](http://rpf.io/dodgeball-off) and then open it using the offline editor.
 
 --- /task ---
 
