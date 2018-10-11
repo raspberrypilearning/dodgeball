@@ -14,13 +14,13 @@ Open the 'Dodgeball' starter project.
 
 The project contains a background with platforms:
 
-![screenshot](images/dodge-background.png)
+![dodgeball project background](images/dodge-background.png)
 
 --- task ---
 
 Add a new sprite, which will be your character. It's better if you choose a sprite with multiple costumes, so that you can make it look as though it's walking.
 
-![screenshot](images/dodge-characters.png)
+![pick a sprite](images/dodge-characters.png)
 
 --- /task ---
 
