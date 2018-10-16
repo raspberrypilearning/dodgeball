@@ -46,9 +46,9 @@ title: What you will need
 title: What you will learn
 ---
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
-
-+ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
++ How to control a sprite using the keyboard
++ Using if, then, else
++ How to clone a sprite
 
 --- /collapse ---
 

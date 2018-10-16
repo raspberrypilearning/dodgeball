@@ -20,9 +20,9 @@ Resize your ball, so that your character can jump over it. Try jumping over the 
 
 --- task ---
 
-Add this code to your ball
+Add this code to your ball:
 
-![ball sprite](images/ball_sprite.png):
+![ball sprite](images/ball_sprite.png)
 
 ```blocks
 when green flag clicked
@@ -142,7 +142,9 @@ delete this clone
 
 --- task ---
 
-Finally, you'll need code for when your character gets hit by a ball! Add this code to your ball sprite:
+You'll need to add some code to broadcast (send) a message when your character gets hit by the ball!
+
+Add this code to your ball sprite:
 
 ![ball sprite](images/ball_sprite.png)
 
@@ -159,7 +161,7 @@ Finally, you'll need code for when your character gets hit by a ball! Add this c
 
 --- task ---
 
-You'll also need to add code to your character, to move back to the start when they're hit:
+Finally you'll also need to add some code to your character, to move back to the start when they receive the "hit" message:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 

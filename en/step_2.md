@@ -22,6 +22,8 @@ Add a new sprite, which will be your character. It's better if you choose a spri
 
 ![pick a sprite](images/dodge-characters.png)
 
+[[[generic-scratch-sprite-from-library]]]
+
 --- /task ---
 
 --- task ---
@@ -44,7 +46,7 @@ end
 
 --- task ---
 
-Test out your character by clicking the flag and then holding down the right arrow key. Does your player move to the right? Does your character look like they are walking?
+Test out your character by clicking the flag and then holding down the right arrow key. Does your character move to the right? Does your character look like they are walking?
 
 ![screenshot](images/dodge-walking.png)
 
@@ -121,7 +123,11 @@ set rotation style [left-right v]
 
 --- task ---
 
-To climb a pink ladder, your character should move up slightly whenever the up arrow is pressed and they're touching the correct colour. Add this code inside your character's `forever`{:class="blockcontrol"} loop:
+To climb a pink ladder, your character should move up the screen slightly whenever the up arrow is pressed and they're touching the correct colour. 
+
+You do this by `changing`{:class="blockmotion"} the characters y (vertical) position `if`{:class="blockcontrol"} the `up arrow is pressed`{:class="blocksensing"} and the character is `touching the colour pink`{:class="blocksensing"}.
+
+Add this code inside your character's `forever`{:class="blockcontrol"} loop:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 ```blocks

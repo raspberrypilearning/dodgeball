@@ -75,7 +75,7 @@ end
 
 --- /hints ---
 
-You don't need to add any more code to your character - it already knows what to do when it is hit!
+You don't need to add any more code to your character because you used a `broadcast` and it already knows what to do when it receives "hit"!
 
 --- /task ---
 
