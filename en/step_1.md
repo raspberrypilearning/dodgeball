@@ -19,7 +19,6 @@ Click the Green Flag to start, use the arrow keys to move and <kbd>space</kbd> t
 
 --- /print-only ---
 
-
 --- collapse ---
 
 ---
