@@ -35,7 +35,7 @@ title: What you will need
 
 ### Downloads
 
-[Downloads can be found here](http://rpf.io/dodgeball-go).
+[Downloads can be found here](http://rpf.io/p/en/dodgeball-go).
 
 --- /collapse ---
 
@@ -63,6 +63,6 @@ If you need to print this project, please use the [printer-friendly version](htt
 
 --- /no-print ---
 
-[If you need the solution to this project, you can find it here](http://rpf.io/dodgeball-get).
+[If you need the solution to this project, you can find it here](http://rpf.io/p/en/dodgeball-get).
 
 --- /collapse ---
