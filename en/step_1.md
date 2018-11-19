@@ -1,10 +1,10 @@
 ## Introduction
 
-In this project you'll learn how to create a platform game, in which you have to dodge the moving balls and reach the end of the level.
+You'll learn how to create a platform game in which the player has to dodge moving balls to reach the end of the level.
 
 --- no-print ---
 
-Click the Green Flag to start, use the arrow keys to move and <kbd>space</kbd> to jump.
+Click the green flag to start, and then use the arrow keys to move and the <kbd>space</kbd> key to jump.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/39740618/?autostart=false" frameborder="0"></iframe>
@@ -27,7 +27,7 @@ title: What you will need
 
 ### Hardware
 
-+ Computer capable of running Scratch 2.0
++ A computer capable of running Scratch 2.0
 
 ### Software
 
@@ -35,7 +35,7 @@ title: What you will need
 
 ### Downloads
 
-[Downloads can be found here](http://rpf.io/p/en/dodgeball-go).
+You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 --- /collapse ---
 
@@ -45,8 +45,8 @@ title: What you will need
 title: What you will learn
 ---
 
-+ How to control a sprite using the keyboard
-+ Using if, then, else
++ How to use the keyboard to control a sprite
++ How to use the `if, then, else`{:class="blockcontrol"} Scratch block
 + How to clone a sprite
 
 --- /collapse ---
@@ -63,6 +63,6 @@ If you need to print this project, please use the [printer-friendly version](htt
 
 --- /no-print ---
 
-[If you need the solution to this project, you can find it here](http://rpf.io/p/en/dodgeball-get).
+If you need the solution to this project, [you can find it here](http://rpf.io/p/en/dodgeball-get).
 
 --- /collapse ---
