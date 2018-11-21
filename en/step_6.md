@@ -1,6 +1,6 @@
 ## Dodging balls
 
-Now that you've got your character moving around, let's add some balls for your character to avoid.
+Your character can move and jump now, so it's time to add some balls that the character has to avoid.
 
 --- task ---
 
@@ -12,7 +12,7 @@ Create a new ball sprite. You can choose any type of ball you like.
 
 --- task ---
 
-Resize your ball, so that your character can jump over it. Try jumping over the ball to test it. 
+Resize the ball sprite so that the character can jump over it. Try making the character jump over the ball to test whether the ball is the right size.
 
 ![screenshot](images/dodge-ball-resize.png)
 
@@ -20,7 +20,7 @@ Resize your ball, so that your character can jump over it. Try jumping over the 
 
 --- task ---
 
-Add this code to your ball:
+Add this code to your ball sprite:
 
 ![ball sprite](images/ball_sprite.png)
 
@@ -50,13 +50,13 @@ end
 delete this clone
 ```
 
-This code creates a new ball clone every 3 seconds. Each new clone moves along the top platform and then drops.
+This code creates a new clone of the ball sprite every three seconds. Each new clone moves along the top platform and then drops.
 
 --- /task ---
 
 --- task ---
 
-Click the flag to test this out.
+Click the flag to test the game.
 
 ![screenshot](images/dodge-ball-test.png)
 
@@ -64,7 +64,7 @@ Click the flag to test this out.
 
 --- task ---
 
-Add more code to your ball sprite, so that they move across all 3 platforms.
+Add more code to your ball sprite so that clones of it move across all three platforms.
 
 ![screenshot](images/dodge-ball-more-motion.png)
 
@@ -72,13 +72,13 @@ Add more code to your ball sprite, so that they move across all 3 platforms.
 
 --- hint ---
 
-Repeat the code above changing the `x`{:class="blockmotion"}, `y`{:class="blockmotion"} and `repeat`{:class="blockcontrol"} numbers so the balls follow the platforms.
+Repeat the code blocks you used to move the ball sprite clone across the first platform. You need to change the `x`{:class="blockmotion"}, `y`{:class="blockmotion"}, and `repeat`{:class="blockcontrol"} numbers so that the clones follow the platforms correctly.
 
 --- /hint ---
 
 --- hint ---
 
-These blocks of code will move the ball in the right directions but will need to be order correctly.
+These are the blocks you need. Make sure you add them in the correct order.
 
 ![ball sprite](images/ball_sprite.png)
 
@@ -102,7 +102,7 @@ end
 
 --- hint ---
 
-The code for your ball should look like this:
+The code for your ball sprite clones should look like this:
 
 ![ball sprite](images/ball_sprite.png)
 
@@ -142,7 +142,7 @@ delete this clone
 
 --- task ---
 
-You'll need to add some code to broadcast (send) a message when your character gets hit by the ball!
+Now add some code blocks to broadcast (send) a message if your character gets hit by a ball!
 
 Add this code to your ball sprite:
 
@@ -161,7 +161,7 @@ Add this code to your ball sprite:
 
 --- task ---
 
-Finally you'll also need to add some code to your character, to move back to the start when they receive the "hit" message:
+Finally, add code blocks to your character sprite to make it move back to its starting position when it receives the `hit` message:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -175,7 +175,7 @@ Finally you'll also need to add some code to your character, to move back to the
 
 --- task ---
 
-Test out your character and see if they go back to the start when they've been hit by a ball.
+Test out your code. Check whether the character moves back to the start after touching a ball.
 
 --- /task ---
 
