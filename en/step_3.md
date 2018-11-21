@@ -1,5 +1,5 @@
 ## Challenge: completing the level
-Can you add more code to your character, so that they say something `if`{:class="blockcontrol"} they get to the green door?
+Can you add more code blocks to your character sprite to make the sprite say something `if`{:class="blockcontrol"} it gets to the green door?
 
 ![screenshot](images/dodge-win.png)
 
