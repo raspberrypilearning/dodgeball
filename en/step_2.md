@@ -141,7 +141,7 @@ Add inside your character's `forever`{:class="blockcontrol"} loop to `change`{:c
 
 --- task ---
 
-Test your code. Can you make the character climb the pink ladders and get to the end of your level?
+Test your code. Can you make the character climb the pink ladders and get to the end of the level?
 
 ![screenshot](images/dodge-test-character.png)
 
