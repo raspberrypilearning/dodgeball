@@ -1,3 +1,3 @@
 ## What next?
 
-Have a go at our [Brain Game](https://projects.raspberrypi.org/en/projects/brain-game) project where you can create your own maths quiz.
+Have a go at our [Brain game](https://projects.raspberrypi.org/en/projects/brain-game) project, in which you can create your own maths quiz.
