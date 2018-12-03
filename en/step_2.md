@@ -8,7 +8,7 @@ Open the 'Dodgeball' Scratch starter project.
 
 **Online:** open the starter project at [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on). 
 
-**Offline:** download the starter project from [rpf.io/dodgeball-off](http://rpf.io/dodgeball-off) and then open it using the offline editor.
+**Offline:** download the starter project from [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) and then open it using the offline editor.
 
 --- /task ---
 
@@ -41,6 +41,14 @@ forever
 	end
 end
 ```
+
+--- /task ---
+
+--- task ---
+
+You may have to adjust the size of your sprite so it fits.
+
+![set sprite size so it fits](images/dodge-sprite-size-annotated.png)
 
 --- /task ---
 
@@ -111,9 +119,9 @@ Test your new code to make sure that it works. Does your character turn upside-d
 
 ![screenshot](images/dodge-upside-down.png)
 
-If so, you can fix this by clicking the `(i)`{:class="block3sensing"} icon on your character sprite, and then clicking the left-right arrow.
+If so, you can fix this by selecting the **direction** of your character sprite, and then clicking the left-right arrow.
 
-![screenshot](images/dodge-left-right.png)
+![screenshot](images/dodge-left-right-annotated.png)
 
 Or if you prefer, you can also fix the problem by adding this block to the start of your character's script:
 

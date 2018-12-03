@@ -18,7 +18,7 @@ To fix this, add gravity to your game. To do this, create a new variable called 
 
 You can hide this variable from your Stage if you want to.
 
-![screenshot](images/dodge-gravity.png)
+![screenshot](images/dodge-gravity-annotated.png)
 
 --- /task ---
 
