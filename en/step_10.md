@@ -10,13 +10,13 @@ To fix the bug, you first need to give your character sprite new trousers that h
 
 Then replace this code block: 
 
-```blocks
+```blocks3
 	< touching color [#0000FF]? >
 ```
 
 with this code block:
 
-```blocks
+```blocks3
 	< color [#00FF00] is touching [#0000FF]? >
 ```
 

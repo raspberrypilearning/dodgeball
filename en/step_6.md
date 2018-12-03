@@ -24,7 +24,7 @@ Add this code to your ball sprite:
 
 ![ball sprite](images/ball_sprite.png)
 
-```blocks
+```blocks3
 when green flag clicked
 hide
 forever 
@@ -33,7 +33,7 @@ forever
 end
 ```
 
-```blocks
+```blocks3
 when I start as a clone
 go to x: (160) y: (160)
 show
@@ -72,7 +72,7 @@ Add more code to your ball sprite so that clones of it move across all three pla
 
 --- hint ---
 
-Repeat the code blocks you used to move the ball sprite clone across the first platform. You need to change the `x`{:class="blockmotion"}, `y`{:class="blockmotion"}, and `repeat`{:class="blockcontrol"} numbers so that the clones follow the platforms correctly.
+Repeat the code blocks you used to move the ball sprite clone across the first platform. You need to change the `x`{:class="block3motion"}, `y`{:class="block3motion"}, and `repeat`{:class="block3control"} numbers so that the clones follow the platforms correctly.
 
 --- /hint ---
 
@@ -82,7 +82,7 @@ These are the blocks you need. Make sure you add them in the correct order.
 
 ![ball sprite](images/ball_sprite.png)
 
-```blocks
+```blocks3
 repeat (170) 
   change x by (-2)
   turn ccw (6) degrees
@@ -106,7 +106,7 @@ The code for your ball sprite clones should look like this:
 
 ![ball sprite](images/ball_sprite.png)
 
-```blocks
+```blocks3
 when I start as a clone
 go to x: (160) y: (160)
 show
@@ -148,7 +148,7 @@ Add this code to your ball sprite:
 
 ![ball sprite](images/ball_sprite.png)
 
-```blocks
+```blocks3
 	when I start as a clone
 	forever
 		if < touching [Pico walking v]? > then
@@ -165,7 +165,7 @@ Finally, add code blocks to your character sprite to make it move back to its st
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
-```blocks
+```blocks3
 	when I receive [hit v]
 	point in direction (90 v)
 	go to x: (-210) y: (-120)

@@ -1,3 +1,9 @@
+--- no-print ---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2).
+
+--- /no-print ---
+
 ## Introduction
 
 You'll learn how to create a platform game in which the player has to dodge moving balls to reach the end of the level.
@@ -27,11 +33,11 @@ title: What you will need
 
 ### Hardware
 
-+ A computer capable of running Scratch 2.0
++ A computer capable of running Scratch 3
 
 ### Software
 
-+ Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/scratch2download/))
++ Scratch 3 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/download/))
 
 ### Downloads
 
@@ -46,7 +52,7 @@ title: What you will learn
 ---
 
 + How to use the keyboard to control a sprite
-+ How to use the `if, then, else`{:class="blockcontrol"} Scratch block
++ How to use the `if, then, else`{:class="block3control"} Scratch block
 + How to clone a sprite
 
 --- /collapse ---

@@ -22,7 +22,7 @@ Choose a new sprite as the character the player will control, and add it to your
 
 ![pick a sprite](images/dodge-characters.png)
 
-[[[generic-scratch-sprite-from-library]]]
+[[[generic-scratch3-sprite-from-library]]]
 
 --- /task ---
 
@@ -31,7 +31,7 @@ Choose a new sprite as the character the player will control, and add it to your
 Add code blocks to your character sprite so that the player can use the arrow keys to move the character around. When the player presses the right arrow, the character should point right, move a few steps, and change to the next costume:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
-```blocks
+```blocks3
 when flag clicked
 forever
 	if <key [right arrow v] pressed? > then
@@ -54,21 +54,21 @@ Test out your character by clicking the flag and then holding down the right arr
 
 --- task ---
 
-Add code blocks to the character sprite's `forever`{:class="blockcontrol"} loop so that it walks left if the left arrow key is pressed.
+Add code blocks to the character sprite's `forever`{:class="block3control"} loop so that it walks left if the left arrow key is pressed.
 
 --- hints ---
 
 --- hint ---
 
-So that your character can move to the left, you'll need to add another `if`{:class="blockcontrol"} block inside the `forever`{:class="blockcontrol"} loop. In this new `if`{:class="blockcontrol"} block, add code to make your character sprite `move`{:class="blockmotion"} to the left.
+So that your character can move to the left, you'll need to add another `if`{:class="block3control"} block inside the `forever`{:class="block3control"} loop. In this new `if`{:class="block3control"} block, add code to make your character sprite `move`{:class="block3motion"} to the left.
 
 --- /hint ---
 
 --- hint ---
 
-Copy the code you created to make the character walk to the right. Then set the `key pressed`{:class="blocksensing"} to the `left arrow`{:class="blocksensing"}, and change the `direction`{:class="blockmotion"} to `-90`.
+Copy the code you created to make the character walk to the right. Then set the `key pressed`{:class="block3sensing"} to the `left arrow`{:class="block3sensing"}, and change the `direction`{:class="block3motion"} to `-90`.
 
-```blocks
+```blocks3
 if <key [right arrow v] pressed? > then
 	point in direction (90 v)
 	move (3) steps
@@ -83,7 +83,7 @@ end
 Your code should look like this now:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
-```blocks
+```blocks3
 when green flag clicked
 forever 
   if <key [right arrow v] pressed?> then 
@@ -111,13 +111,13 @@ Test your new code to make sure that it works. Does your character turn upside-d
 
 ![screenshot](images/dodge-upside-down.png)
 
-If so, you can fix this by clicking the `(i)`{:class="blocksensing"} icon on your character sprite, and then clicking the left-right arrow.
+If so, you can fix this by clicking the `(i)`{:class="block3sensing"} icon on your character sprite, and then clicking the left-right arrow.
 
 ![screenshot](images/dodge-left-right.png)
 
 Or if you prefer, you can also fix the problem by adding this block to the start of your character's script:
 
-```blocks
+```blocks3
 set rotation style [left-right v]
 ```
 
@@ -127,11 +127,11 @@ set rotation style [left-right v]
 
 To climb a pink ladder, your character sprite should move a few steps upwards on the Stage whenever the up arrow is pressed **and** the character is touching the correct colour. 
 
-Add inside your character's `forever`{:class="blockcontrol"} loop to `change`{:class="blockmotion"} the character's `y` (vertical) position `if`{:class="blockcontrol"} the `up arrow is pressed`{:class="blocksensing"} and the character is `touching the colour pink`{:class="blocksensing"}.
+Add inside your character's `forever`{:class="block3control"} loop to `change`{:class="block3motion"} the character's `y` (vertical) position `if`{:class="block3control"} the `up arrow is pressed`{:class="block3sensing"} and the character is `touching the colour pink`{:class="block3sensing"}.
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
-```blocks
+```blocks3
 	if < <key [up arrow v] pressed?> and <touching color [#FF69B4]?> > then
 		change y by (4)
 	end

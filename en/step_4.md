@@ -12,9 +12,9 @@ In the game, move your character so that it walks off a platform. Do you see tha
 
 --- task ---
 
-To fix this, add gravity to your game. To do this, create a new variable called `gravity`{:class="blockdata"}.
+To fix this, add gravity to your game. To do this, create a new variable called `gravity`{:class="block3variables"}.
 
-[[[generic-scratch-add-variable]]]
+[[[generic-scratch3-add-variable]]]
 
 You can hide this variable from your Stage if you want to.
 
@@ -28,7 +28,7 @@ Add these new code blocks that set `gravity` to a negative number and use the va
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
-```blocks
+```blocks3
 	when flag clicked
 	set [gravity v] to [-4]
 	forever
@@ -48,11 +48,11 @@ Click the flag, and then drag your character to the top of the Stage. What happe
 
 --- task ---
 
-Gravity shouldn't move the character sprite through a platform or a ladder! Add an `if`{:class="blockcontrol"} block to your code to only let the gravity work when the character is in mid-air. The gravity code should then look like this:
+Gravity shouldn't move the character sprite through a platform or a ladder! Add an `if`{:class="block3control"} block to your code to only let the gravity work when the character is in mid-air. The gravity code should then look like this:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
-```blocks
+```blocks3
 	when flag clicked
 	set [gravity v] to [-4]
 	forever
@@ -78,14 +78,14 @@ Now add code to make your character jump whenever the player presses the <kbd>sp
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
-```blocks
+```blocks3
 	when [space v] key pressed
 	repeat (10)
 		change y by (4)
 	end
 ```
 
-Because gravity is constantly pushing your character down by 4 pixels, you need to choose a number greater than `4` in your `change y by (4)`{:class="blockmotion"} block. Change the number until you're happy with the height the character jumps.
+Because gravity is constantly pushing your character down by 4 pixels, you need to choose a number greater than `4` in your `change y by (4)`{:class="block3motion"} block. Change the number until you're happy with the height the character jumps.
 
 --- /task ---
 
@@ -97,7 +97,7 @@ Test out your code. Notice that the jumping movement isn't very smooth. To make 
 
 --- task ---
 
-To do this, create a new variable called `jump height`{:class="blockdata"}. Again, you can hide this variable if you prefer.
+To do this, create a new variable called `jump height`{:class="block3variables"}. Again, you can hide this variable if you prefer.
 
 --- /task ---
 
@@ -107,7 +107,7 @@ Delete the jumping code you added to your character sprite, and add this code in
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
-```blocks
+```blocks3
 	when [space v] key pressed
 	set [jump height v] to [8]
 	repeat until < (jump height) = [0] >
@@ -122,7 +122,7 @@ This code moves your character up by 8 pixels, then 7.5 pixels, then 7 pixels, a
 
 --- task ---
 
-Change the value of the `jump height`{:class="blockdata"} variable that is set before the `repeat`{:class="blockcontrol"} starts. Then test your game.
+Change the value of the `jump height`{:class="block3variables"} variable that is set before the `repeat`{:class="block3control"} starts. Then test your game.
 
 Repeat these two steps until you're happy with how high the character jumps.
 
