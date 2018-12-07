@@ -10,6 +10,8 @@ If you think your game is still too easy, you can add more obstacles to it. The 
 
 You could even design another backdrop to create the next level. Then add code so that, when your character reaches the green door, the game switches to the new background:
 
+![pico walking sprite](images/pico_walking_sprite.png)
+
 ```blocks3
 	if <touching color [#00FF00]?> then
 		switch backdrop to [next backdrop v]
