@@ -46,7 +46,7 @@ end
 
 --- task ---
 
-You may have to adjust the size of your sprite so it fits.
+If your sprite doesn't fit, adjust its size.
 
 ![set sprite size so it fits](images/dodge-sprite-size-annotated.png)
 
@@ -119,7 +119,7 @@ Test your new code to make sure that it works. Does your character turn upside-d
 
 ![screenshot](images/dodge-upside-down.png)
 
-If so, you can fix this by selecting the **direction** of your character sprite, and then clicking the left-right arrow.
+If so, you can fix this by clicking on the **direction** of your character sprite, and then clicking on the left-right arrow.
 
 ![screenshot](images/dodge-left-right-annotated.png)
 
