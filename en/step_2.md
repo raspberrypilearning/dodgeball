@@ -34,7 +34,7 @@ Add code blocks to your character sprite so that the player can use the arrow ke
 ```blocks3
 when flag clicked
 forever
-	if <key [right arrow v] pressed? > then
+	if <key (right arrow v) pressed? > then
 		point in direction (90 v)
 		move (3) steps
 		next costume
@@ -77,7 +77,7 @@ So that your character can move to the left, you'll need to add another `if`{:cl
 Copy the code you created to make the character walk to the right. Then set the `key pressed`{:class="block3sensing"} to the `left arrow`{:class="block3sensing"}, and change the `direction`{:class="block3motion"} to `-90`.
 
 ```blocks3
-if <key [right arrow v] pressed? > then
+if <key (right arrow v) pressed? > then
 	point in direction (90 v)
 	move (3) steps
 	next costume
@@ -94,12 +94,12 @@ Your code should look like this now:
 ```blocks3
 when green flag clicked
 forever 
-  if <key [right arrow v] pressed?> then 
+  if <key (right arrow v) pressed?> then 
     point in direction (90 v)
     move (3) steps
     next costume
   end
-  if <key [left arrow v] pressed?> then 
+  if <key (left arrow v) pressed?> then 
     point in direction (-90 v)
     move (3) steps
     next costume
@@ -140,7 +140,7 @@ Add inside your character's `forever`{:class="block3control"} loop to `change`{:
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-	if < <key [up arrow v] pressed?> and <touching color [#FF69B4]?> > then
+	if < <key (up arrow v) pressed?> and <touching color [#FF69B4]?> > then
 		change y by (4)
 	end
 ```

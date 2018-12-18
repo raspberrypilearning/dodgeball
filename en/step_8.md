@@ -29,9 +29,9 @@ Add code to your laser sprite to make it switch between its two costumes.
 ```blocks3
 	when flag clicked
 	forever
-		switch costume to [on v]
+		switch costume to (on v)
 		wait (2) secs
-		switch costume to [off v]
+		switch costume to (off v)
 		wait (2) secs
 	end
 ```
@@ -67,8 +67,8 @@ This is the code you should add:
 ```blocks3
 when green flag clicked
 forever 
-  if <touching [Pico walking v] ?> then 
-    broadcast [hit v]
+  if <touching (Pico walking v) ?> then 
+    broadcast (hit v)
   end
 end
 ```

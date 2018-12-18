@@ -29,7 +29,7 @@ when green flag clicked
 hide
 forever 
   wait (3) secs
-  create clone of [myself v]
+  create clone of (myself v)
 end
 ```
 
@@ -151,8 +151,8 @@ Add this code to your ball sprite:
 ```blocks3
 	when I start as a clone
 	forever
-		if < touching [Pico walking v]? > then
-			broadcast [hit v]
+		if < touching (Pico walking v)? > then
+			broadcast (hit v)
 		end
 	end
 ```
@@ -167,7 +167,7 @@ Finally, add code blocks to your character sprite to make it move back to its st
 
 ```blocks3
 	when I receive [hit v]
-	point in direction (90 v)
+	point in direction (90)
 	go to x: (-210) y: (-120)
 ```	
 
