@@ -30,9 +30,9 @@ Add code to your laser sprite to make it switch between its two costumes.
 	when flag clicked
 	forever
 		switch costume to (on v)
-		wait (2) secs
+		wait (2) seconds
 		switch costume to (off v)
-		wait (2) secs
+		wait (2) seconds
 	end
 ```
 

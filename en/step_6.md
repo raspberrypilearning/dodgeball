@@ -28,7 +28,7 @@ Add this code to your ball sprite:
 when green flag clicked
 hide
 forever 
-  wait (3) secs
+  wait (3) seconds
   create clone of (myself v)
 end
 ```
