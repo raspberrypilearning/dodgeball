@@ -10,14 +10,10 @@ To fix the bug, you first need to give your character sprite new trousers that h
 
 Then replace this code block: 
 
-```blocks3
-	< touching color [#0000FF]? >
-```
+![blocks_1545305688_7672868](images/blocks_1545305688_7672868.png)
 
 with this code block:
 
-```blocks3
-	< color [#00FF00] is touching [#0000FF]? >
-```
+![blocks_1545305690_8529701](images/blocks_1545305690_8529701.png)
 
 To make sure you've fixed the bug, test the game after you've made these changes!

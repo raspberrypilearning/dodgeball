@@ -24,31 +24,9 @@ Add this code to your ball sprite:
 
 ![ball sprite](images/ball_sprite.png)
 
-```blocks3
-when green flag clicked
-hide
-forever 
-  wait (3) seconds
-  create clone of (myself v)
-end
-```
+![blocks_1545305702_3024704](images/blocks_1545305702_3024704.png)
 
-```blocks3
-when I start as a clone
-go to x: (160) y: (160)
-show
-repeat (22) 
-  change y by (-4)
-end
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
-end
-repeat (30) 
-  change y by (-4)
-end
-delete this clone
-```
+![blocks_1545305703_4007435](images/blocks_1545305703_4007435.png)
 
 This code creates a new clone of the ball sprite every three seconds. Each new clone moves along the top platform and then drops.
 
@@ -82,21 +60,7 @@ These are the blocks you need. Make sure you add them in the correct order.
 
 ![ball sprite](images/ball_sprite.png)
 
-```blocks3
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
-end
-
-repeat (180) 
-  change x by (2)
-  turn cw (6) degrees
-end
-
-repeat (30) 
-  change y by (-4)
-end
-```
+![blocks_1545305704_5492086](images/blocks_1545305704_5492086.png)
 
 --- /hint ---
 
@@ -106,33 +70,7 @@ The code for your ball sprite clones should look like this:
 
 ![ball sprite](images/ball_sprite.png)
 
-```blocks3
-when I start as a clone
-go to x: (160) y: (160)
-show
-repeat (22) 
-  change y by (-4)
-end
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
-end
-repeat (30) 
-  change y by (-4)
-end
-repeat (180) 
-  change x by (2)
-  turn cw (6) degrees
-end
-repeat (30) 
-  change y by (-4)
-end
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
-end
-delete this clone
-```
+![blocks_1545305705_7074904](images/blocks_1545305705_7074904.png)
 
 --- /hint ---
 
@@ -148,14 +86,7 @@ Add this code to your ball sprite:
 
 ![ball sprite](images/ball_sprite.png)
 
-```blocks3
-	when I start as a clone
-	forever
-		if < touching (Pico walking v)? > then
-			broadcast (hit v)
-		end
-	end
-```
+![blocks_1545305706_9165304](images/blocks_1545305706_9165304.png)
 
 --- /task ---
 
@@ -165,11 +96,7 @@ Finally, add code blocks to your character sprite to make it move back to its st
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
-```blocks3
-	when I receive [hit v]
-	point in direction (90)
-	go to x: (-210) y: (-120)
-```	
+![blocks_1545305708_0022807](images/blocks_1545305708_0022807.png)
 
 --- /task ---
 
