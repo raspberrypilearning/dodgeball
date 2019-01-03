@@ -13,7 +13,7 @@ You'll learn how to create a platform game in which the player has to dodge movi
 Click the green flag to start, and then use the arrow keys to move and the <kbd>space</kbd> key to jump.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/39740618/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/39740618/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/dodge-final.png">
 </div>
 
