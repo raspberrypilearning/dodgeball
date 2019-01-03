@@ -1,14 +1,10 @@
---- challenge ---
-## Challenge: Random balls
-The balls your character has to dodge all look the same, and always appear every 3 seconds. Can you improve them, so that they:
+## Challenge: random balls
 
-+ don't all look the same?
-+ appear after a random amount of time?
-+ are a random size?
+The balls that your character has to dodge all look the same, and they appear at regular three-second intervals. Can you add code to your game so that the balls:
+
++ Don't all look the same?
++ Appear after a `random`{:class="block3operators"} amount of time?
++ Are a random size?
 
 ![screenshot](images/dodge-ball-random.png)
 
-
-
-
---- /challenge ---

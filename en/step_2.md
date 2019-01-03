@@ -1,63 +1,121 @@
 ## Character movement
 
-Let's start by creating a character that can move left and right, as well as climb up ladders.
+Start by creating a character that can move left and right, and can climb up ladders.
 
+--- task ---
 
+Open the 'Dodgeball' Scratch starter project.
 
-+ Open the 'Dodgeball' Scratch project online at <a href="http://jumpto.cc/dodge-go" target="_blank">jumpto.cc/dodge-go</a> or download from <a href="http://jumpto.cc/dodge-get" target="_blank">jumpto.cc/dodge-get</a> and then open if you are using the offline editor.
+**Online:** open the starter project at [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on). 
 
-	The project contains a background with platforms:
+**Offline:** download the starter project from [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) and then open it using the offline editor.
 
-	![screenshot](images/dodge-background.png)
+--- /task ---
 
-+ Add a new sprite, which will be your character. It's better if you choose a sprite with multiple costumes, so that you can make it look as though it's walking.
+The project contains a backdrop with platforms:
 
-	![screenshot](images/dodge-characters.png)
+![dodgeball project background](images/dodge-background.png)
 
-+ Let's use the arrow keys to move your character around. When the player presses the right arrow, you want your character to point right, move a few steps and change to the next costume:
+--- task ---
 
-	```blocks
-		when flag clicked
-		forever
-			if <key [right arrow v] pressed? > then
-				point in direction (90 v)
-				move (3) steps
-				next costume
-			end
-		end
-	```
+Choose a new sprite as the character the player will control, and add it to your project. It's best if you choose a sprite with multiple costumes, so that you can make it look as though it's walking.
 
-+ Test out your character by clicking the flag and then holding down the right arrow key. Does your player move to the right? Does your character look like they are walking?
+![pick a sprite](images/dodge-characters.png)
 
-	![screenshot](images/dodge-walking.png)
+[[[generic-scratch3-sprite-from-library]]]
 
-+ To move your character to the left, you'll need to add another `if`{:class="blockcontrol"} block inside your `forever`{:class="blockcontrol"} loop, which moves your character to the left.
+--- /task ---
 
-+ Test your new code to make sure that it works. Does your character turn upside-down when walking to the left?
+--- task ---
 
-	![screenshot](images/dodge-upside-down.png)
+Add code blocks to your character sprite so that the player can use the arrow keys to move the character around. When the player presses the right arrow, the character should point right, move a few steps, and change to the next costume:
 
-	If so, you can fix this bug by clicking the `(i)`{:class="blocksensing"} icon on your character sprite, and then clicking the left-right arrow.
+![pico walking sprite](images/pico_walking_sprite.png)
+![blocks_1545305691_9973764](images/blocks_1545305691_9973764.png)
 
-	![screenshot](images/dodge-left-right.png)
+--- /task ---
 
-	Or, if you prefer you can add this block to the start of your character's script:
+--- task ---
 
-	```scratch
-	set rotation style [left-right v]
-	```
+If your sprite doesn't fit, adjust its size.
 
-+ To climb a pink ladder, your character should move up slightly whenever the up arrow is pressed and they're touching the correct colour. Add this code inside your character's `forever`{:class="blockcontrol"} loop:
+![set sprite size so it fits](images/dodge-sprite-size-annotated.png)
 
-	```blocks
-		if < <key [up arrow v] pressed?> and <touching color [#FF69B4]?> > then
-			change y by (4)
-		end
-	```
+--- /task ---
 
-+ Test your character - can you climb the pink ladders and get to the end of your level?
+--- task ---
 
-	![screenshot](images/dodge-test-character.png)
+Test out your character by clicking the flag and then holding down the right arrow key. Does your character move to the right? Does your character look like it is walking?
 
+![screenshot](images/dodge-walking.png)
 
+--- /task ---
 
+--- task ---
+
+Add code blocks to the character sprite's `forever`{:class="block3control"} loop so that it walks left if the left arrow key is pressed.
+
+--- hints ---
+
+--- hint ---
+
+So that your character can move to the left, you'll need to add another `if`{:class="block3control"} block inside the `forever`{:class="block3control"} loop. In this new `if`{:class="block3control"} block, add code to make your character sprite `move`{:class="block3motion"} to the left.
+
+--- /hint ---
+
+--- hint ---
+
+Copy the code you created to make the character walk to the right. Then set the `key pressed`{:class="block3sensing"} to the `left arrow`{:class="block3sensing"}, and change the `direction`{:class="block3motion"} to `-90`.
+
+![blocks_1545305693_1161232](images/blocks_1545305693_1161232.png)
+
+--- /hint ---
+
+--- hint ---
+
+Your code should look like this now:
+
+![pico walking sprite](images/pico_walking_sprite.png)
+![blocks_1545305694_2770388](images/blocks_1545305694_2770388.png)
+
+--- /hint ---
+
+--- /hints ---
+
+--- /task ---
+
+--- task ---
+
+Test your new code to make sure that it works. Does your character turn upside-down when walking to the left?
+
+![screenshot](images/dodge-upside-down.png)
+
+If so, you can fix this by clicking on the **direction** of your character sprite, and then clicking on the left-right arrow.
+
+![screenshot](images/dodge-left-right-annotated.png)
+
+Or if you prefer, you can also fix the problem by adding this block to the start of your character's script:
+
+![blocks_1545305695_3999827](images/blocks_1545305695_3999827.png)
+
+--- /task ---
+
+--- task ---
+
+To climb a pink ladder, your character sprite should move a few steps upwards on the Stage whenever the up arrow is pressed **and** the character is touching the correct colour. 
+
+Add inside your character's `forever`{:class="block3control"} loop to `change`{:class="block3motion"} the character's `y` (vertical) position `if`{:class="block3control"} the `up arrow is pressed`{:class="block3sensing"} and the character is `touching the colour pink`{:class="block3sensing"}.
+
+![pico walking sprite](images/pico_walking_sprite.png)
+
+![blocks_1545305696_5471044](images/blocks_1545305696_5471044.png)
+
+--- /task ---
+
+--- task ---
+
+Test your code. Can you make the character climb the pink ladders and get to the end of the level?
+
+![screenshot](images/dodge-test-character.png)
+
+--- /task ---

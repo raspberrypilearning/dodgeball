@@ -1,51 +1,108 @@
 ## Dodging balls
 
-Now that you've got your character moving around, let's add some balls for your character to avoid.
+Your character can move and jump now, so it's time to add some balls that the character has to avoid.
 
+--- task ---
 
+Create a new ball sprite. You can choose any type of ball you like.
 
-+ Create a new ball sprite. You can choose any type of ball you like.
+![screenshot](images/dodge-balls.png)
 
-	![screenshot](images/dodge-balls.png)
+--- /task ---
 
-+ Resize your ball, so that your character can jump over it. Try jumping over the ball to test it. 
+--- task ---
 
-	![screenshot](images/dodge-ball-resize.png)
+Resize the ball sprite so that the character can jump over it. Try making the character jump over the ball to test whether the ball is the right size.
 
-+ Add this code to your ball:
+![screenshot](images/dodge-ball-resize.png)
 
-	![screenshot](images/dodge-ball-motion.png)
+--- /task ---
 
-	This code creates a new ball clone every 3 seconds. Each new clone moves along the top platform.
+--- task ---
 
-+ Click the flag to test this out.
+Add this code to your ball sprite:
 
-	![screenshot](images/dodge-ball-test.png)
+![ball sprite](images/ball_sprite.png)
 
-+ Add more code to your ball sprite, so that they move across all 3 platforms.
+![blocks_1545305702_3024704](images/blocks_1545305702_3024704.png)
 
-	![screenshot](images/dodge-ball-more-motion.png)
+![blocks_1545305703_4007435](images/blocks_1545305703_4007435.png)
 
-+ Finally, you'll need code for when your character gets hit by a ball! Add this code to your ball sprite:
+This code creates a new clone of the ball sprite every three seconds. Each new clone moves along the top platform and then drops.
 
-	```blocks
-		when I start as a clone
-		forever
-			if < touching [Pico walking v]? > then
-				broadcast [hit v]
-			end
-		end
-	```
+--- /task ---
 
-+ You'll also need to add code to your character, to move back to the start when they're hit:
+--- task ---
 
-	```blocks
-		when I receive [hit v]
-		point in direction (90 v)
-		go to x: (-210) y: (-120)
-	```	
+Click the flag to test the game.
 
-+ Test out your character and see if they go back to the start when they've been hit by a ball.
+![screenshot](images/dodge-ball-test.png)
 
+--- /task ---
 
+--- task ---
+
+Add more code to your ball sprite so that clones of it move across all three platforms.
+
+![screenshot](images/dodge-ball-more-motion.png)
+
+--- hints ---
+
+--- hint ---
+
+Repeat the code blocks you used to move the ball sprite clone across the first platform. You need to change the `x`{:class="block3motion"}, `y`{:class="block3motion"}, and `repeat`{:class="block3control"} numbers so that the clones follow the platforms correctly.
+
+--- /hint ---
+
+--- hint ---
+
+These are the blocks you need. Make sure you add them in the correct order.
+
+![ball sprite](images/ball_sprite.png)
+
+![blocks_1545305704_5492086](images/blocks_1545305704_5492086.png)
+
+--- /hint ---
+
+--- hint ---
+
+The code for your ball sprite clones should look like this:
+
+![ball sprite](images/ball_sprite.png)
+
+![blocks_1545305705_7074904](images/blocks_1545305705_7074904.png)
+
+--- /hint ---
+
+--- /hints ---
+
+--- /task ---
+
+--- task ---
+
+Now add some code blocks to broadcast (send) a message if your character gets hit by a ball!
+
+Add this code to your ball sprite:
+
+![ball sprite](images/ball_sprite.png)
+
+![blocks_1545305706_9165304](images/blocks_1545305706_9165304.png)
+
+--- /task ---
+
+--- task ---
+
+Finally, add code blocks to your character sprite to make it move back to its starting position when it receives the `hit` message:
+
+![pico walking sprite](images/pico_walking_sprite.png)
+
+![blocks_1545305708_0022807](images/blocks_1545305708_0022807.png)
+
+--- /task ---
+
+--- task ---
+
+Test out your code. Check whether the character moves back to the start after touching a ball.
+
+--- /task ---
 
