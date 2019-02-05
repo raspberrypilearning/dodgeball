@@ -31,7 +31,16 @@ Choose a new sprite as the character the player will control, and add it to your
 Add code blocks to your character sprite so that the player can use the arrow keys to move the character around. When the player presses the right arrow, the character should point right, move a few steps, and change to the next costume:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
-![blocks_1545305691_9973764](images/blocks_1545305691_9973764.png)
+```blocks3
+when flag clicked
+forever
+	if <key (right arrow v) pressed? > then
+		point in direction (90 v)
+		move (3) steps
+		next costume
+	end
+end
+```
 
 --- /task ---
 
@@ -67,7 +76,13 @@ So that your character can move to the left, you'll need to add another `if`{:cl
 
 Copy the code you created to make the character walk to the right. Then set the `key pressed`{:class="block3sensing"} to the `left arrow`{:class="block3sensing"}, and change the `direction`{:class="block3motion"} to `-90`.
 
-![blocks_1545305693_1161232](images/blocks_1545305693_1161232.png)
+```blocks3
+if <key (right arrow v) pressed? > then
+	point in direction (90 v)
+	move (3) steps
+	next costume
+end
+```
 
 --- /hint ---
 
@@ -76,7 +91,21 @@ Copy the code you created to make the character walk to the right. Then set the 
 Your code should look like this now:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
-![blocks_1545305694_2770388](images/blocks_1545305694_2770388.png)
+```blocks3
+when green flag clicked
+forever 
+  if <key (right arrow v) pressed?> then 
+    point in direction (90 v)
+    move (3) steps
+    next costume
+  end
+  if <key (left arrow v) pressed?> then 
+    point in direction (-90 v)
+    move (3) steps
+    next costume
+  end
+end
+```
 
 --- /hint ---
 
@@ -96,7 +125,9 @@ If so, you can fix this by clicking on the **direction** of your character sprit
 
 Or if you prefer, you can also fix the problem by adding this block to the start of your character's script:
 
-![blocks_1545305695_3999827](images/blocks_1545305695_3999827.png)
+```blocks3
+set rotation style [left-right v]
+```
 
 --- /task ---
 
@@ -108,7 +139,11 @@ Add inside your character's `forever`{:class="block3control"} loop to `change`{:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
-![blocks_1545305696_5471044](images/blocks_1545305696_5471044.png)
+```blocks3
+	if < <key (up arrow v) pressed?> and <touching color [#FF69B4]?> > then
+		change y by (4)
+	end
+```
 
 --- /task ---
 
