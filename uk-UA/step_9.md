@@ -1,23 +1,21 @@
-\--- challenge \---
+## Challenge: more obstacles
 
-## Завдання: Більше перешкод
+If you think your game is still too easy, you can add more obstacles to it. The obstacles can be anything you like! Here are some ideas:
 
-Якщо ви думаєте що ваша гра надто легка, ви можете додати більше перешкод до рівня. Ви можете додати що забажаєте, але ось декілька ідей:
++ A dangerous butterfly
++ Platforms that appear and disappear
++ Falling tennis balls that must be avoided
 
-+ Летючий метелик-вбивця;
-+ Платформи, що з'являються і зникають;
-+ Тенісні м'ячі, які падають і від них потрібно ухилятись.
+![screenshot](images/dodge-obstacles.png)
 
-![скріншот](images/dodge-obstacles.png)
+You could even design another backdrop to create the next level. Then add code so that, when your character reaches the green door, the game switches to the new background:
 
-Ви можете навіть зробити більше ніж один фон і пересунутись на наступний рівень коли ваш персонаж досягне зелених зелених дверей:
+![pico walking sprite](images/pico_walking_sprite.png)
 
-```blocks
+```blocks3
     if <touching color [#00FF00]?> then
-        switch backdrop to [next backdrop v]
+        switch backdrop to (next backdrop v)
         go to x: (-210) y: (-120)
-        wait (1) secs
+        wait (1) seconds
     end
 ```
-
-\--- /challenge \---
