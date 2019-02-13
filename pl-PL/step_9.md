@@ -1,10 +1,10 @@
-## Challenge: more obstacles
+## Wyzwanie: więcej przeszkód
 
-If you think your game is still too easy, you can add more obstacles to it. The obstacles can be anything you like! Here are some ideas:
+If you think your game is still too easy, you can add more obstacles to it. The obstacles can be anything you like! Oto kilka pomysłów:
 
 + A dangerous butterfly
-+ Platforms that appear and disappear
-+ Falling tennis balls that must be avoided
++ Platformy które pojawiając się i znikają
++ Spadające piłeczki tenisowe których musisz unikać
 
 ![screenshot](images/dodge-obstacles.png)
 
