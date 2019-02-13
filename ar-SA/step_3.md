@@ -1,9 +1,5 @@
-\--- challenge \---
+## Challenge: completing the level
 
-## التحدي: إنهاء المستوى
+Can you add more code blocks to your character sprite to make the sprite say something `if`{:class="block3control"} it gets to the green door?
 
-هل يمكنك إضافة تعليمات برمجية أخرى إلى الشخصية، بحيث تقول عبارةً أو جملةً `إذا`{:class="blockcontrol"} وصلتْ إلى الباب الأخضر؟
-
-![لقطة الشاشة](images/dodge-win.png)
-
-\--- /challenge \---
+![screenshot](images/dodge-win.png)
