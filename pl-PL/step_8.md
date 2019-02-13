@@ -6,9 +6,9 @@ To your game a little harder to complete, you are going to add lasers!
 
 Add a new sprite to your game and call it `laser`. It should have two costumes: one called 'on', and one called 'off'.
 
-![screenshot](images/dodge-lasers-costume1.png)
+![zrzut ekranu](images/dodge-lasers-costume1.png)
 
-![screenshot](images/dodge-lasers-costume1.png)
+![zrzut ekranu](images/dodge-lasers-costume1.png)
 
 \--- /task \---
 
@@ -16,7 +16,7 @@ Add a new sprite to your game and call it `laser`. It should have two costumes: 
 
 Place your new laser sprite between two platforms.
 
-![screenshot](images/dodge-lasers-position.png)
+![zrzut ekranu](images/dodge-lasers-position.png)
 
 \--- /task \---
 
@@ -44,19 +44,19 @@ If you prefer, you can change the code shown above so that the sprite `waits`{:c
 
 Finally, add code to your laser sprite so that the laser sprite broadcasts a 'hit' message when it touches the character sprite.
 
-\--- hints \---
+\--- wskazówka \---
 
 \--- hint \---
 
 This code should be very similar to the code you added to your ball sprite.
 
-\--- /hint \---
+\--- /wskazówka \---
 
 \--- hint \---
 
 Copy the code you add to the ball sprite to make this sprite `broadcast 'hit'`{:class="block3control"} when it is `touching your character`{:class="block3sensing"}.
 
-\--- /hint \---
+\--- /wskazówka \---
 
 \--- hint \---
 
@@ -73,9 +73,9 @@ forever
 end
 ```
 
-\--- /hint \---
+\--- /wskazówka \---
 
-\--- /hints \---
+\--- /wskazówka \---
 
 You don't need to add any extra code to your characters sprite, because the character sprite already knows what to do when it receives the `broadcast 'hit'`{:class="block3control"}!
 
