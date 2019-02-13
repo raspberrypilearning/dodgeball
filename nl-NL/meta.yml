@@ -1,12 +1,12 @@
 ---
-hero_image: images/banner.png
+hero_image: afbeeldingen / banner.png
 listed: true
 ingredient: false
 copyedit: false
 title: Trefbal
 description: Maak een platformspel, waarin je de bewegende ballen moet ontwijken en het level moet halen.
-version: 3
-last_tested: 2017-01-01
+version: 4.0.0
+last_tested: 2018-10-10
 steps:
   - 
     title: Inleiding
@@ -28,7 +28,7 @@ steps:
   - 
     title: Lasers!
   - 
-    title: 'Uitdaging: meer hindernissen'
+    title: 'Uitdaging: meer obstakels'
     challenge: true
   - 
     title: 'Uitdaging: verbeterde zwaartekracht'
@@ -37,4 +37,4 @@ steps:
     title: 'Uitdaging: meer levens'
     challenge: true
   - 
-    title: What next?
+    title: Wat nu?
