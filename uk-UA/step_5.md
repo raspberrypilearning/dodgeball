@@ -1,7 +1,5 @@
-\--- challenge \---
+## Challenge: better jumping
 
-## Завдання: Покращений стрибок
+Even if the character is already in mid-air, it jumps whenever the player presses the <kbd>space</kbd> bar. You can see this behaviour if you hold down the <kbd>space</kbd> bar.
 
-Ваш персонаж може стрибати кожен раз коли натиснута кнопка пробіл, навіть якщо він у повітрі. Можете це протестувати затримавши пробіл. Чи можете ви це виправити, щоб ваш персонаж стрибав тільки `if`{:class="blockcontrol"} коли він торкається синьої платформи?
-
-\--- /challenge \---
+Can you change the character sprite's code for jumping so that your character can only jump `if`{:class="block3control"} it touches a blue platform?
