@@ -1,13 +1,9 @@
-\--- challenge \---
+## Challenge: random balls
 
-## Uitdaging: willekeurige ballen
+The balls that your character has to dodge all look the same, and they appear at regular three-second intervals. Can you add code to your game so that the balls:
 
-De ballen die je personage moet ontwijken, zien er allemaal hetzelfde uit en verschijnen altijd elke 3 seconden. Kun je ze verbeteren, zodat ze:
-
-+ niet allemaal op elkaar lijken?
-+ verschijnen na een willekeurige hoeveelheid tijd?
-+ een willekeurige grootte hebben?
++ Don't all look the same?
++ Appear after a `random`{:class="block3operators"} amount of time?
++ Are a random size?
 
 ![screenshot](images/dodge-ball-random.png)
-
-\--- /challenge \---
