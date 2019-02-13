@@ -33,11 +33,11 @@ Click the green flag to start, and then use the arrow keys to move and the <kbd>
 
 ### Hardware
 
-+ A computer capable of running Scratch 3
++ Een computer die Scratch 3 kan uitvoeren
 
 ### Software
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/download/))
++ Scratch 3 (of [online](https://scratch.mit.edu/projects/editor/) of [offline](https://scratch.mit.edu/download/))
 
 ### Downloads
 
@@ -49,7 +49,7 @@ You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 * * *
 
-## title: What you will learn
+## title: Wat ga je leren
 
 + How to use the keyboard to control a sprite
 + How to use the `if, then, else`{:class="block3control"} Scratch block
@@ -65,7 +65,7 @@ You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
+Als je dit project wilt afdrukken, gebruik dan de [ printvriendelijke versie ](https://projects.raspberrypi.org/en/projects/dodgeball/print) {:target="_ blank"}.
 
 \--- /no-print \---
 
