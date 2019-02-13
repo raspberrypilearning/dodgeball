@@ -4,23 +4,23 @@ Your character can move and jump now, so it's time to add some balls that the ch
 
 \--- task \---
 
-Create a new ball sprite. You can choose any type of ball you like.
+أنشئ كائن كرة جديد. يمكنك اختيار نوع الكرة الذي يعجبك.
 
-![screenshot](images/dodge-balls.png)
+![لقطة الشاشة](images/dodge-balls.png)
 
-\--- /task \---
+\---/task--
 
 \--- task \---
 
 Resize the ball sprite so that the character can jump over it. Try making the character jump over the ball to test whether the ball is the right size.
 
-![screenshot](images/dodge-ball-resize.png)
+![لقطة الشاشة](images/dodge-ball-resize.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add this code to your ball sprite:
+أضف هذه التعليمة البرمجية إلى كائن الكرة:
 
 ![ball sprite](images/ball_sprite.png)
 
@@ -58,15 +58,15 @@ This code creates a new clone of the ball sprite every three seconds. Each new c
 
 Click the flag to test the game.
 
-![screenshot](images/dodge-ball-test.png)
+![لقطة الشاشة](images/dodge-ball-test.png)
 
-\--- /task \---
+\---/task--
 
 \--- task \---
 
 Add more code to your ball sprite so that clones of it move across all three platforms.
 
-![screenshot](images/dodge-ball-more-motion.png)
+![لقطة الشاشة](images/dodge-ball-more-motion.png)
 
 \--- hints \---
 
@@ -74,7 +74,7 @@ Add more code to your ball sprite so that clones of it move across all three pla
 
 Repeat the code blocks you used to move the ball sprite clone across the first platform. You need to change the `x`{:class="block3motion"}, `y`{:class="block3motion"}, and `repeat`{:class="block3control"} numbers so that the clones follow the platforms correctly.
 
-\--- /hint \---
+\--- hint/ \---
 
 \--- hint \---
 
@@ -98,7 +98,7 @@ repeat (30)
 end
 ```
 
-\--- /hint \---
+\--- hint/ \---
 
 \--- hint \---
 
@@ -134,9 +134,9 @@ end
 delete this clone
 ```
 
-\--- /hint \---
+\--- hint/ \---
 
-\--- /hints \---
+\--- hints/ \---
 
 \--- /task \---
 
@@ -144,7 +144,7 @@ delete this clone
 
 Now add some code blocks to broadcast (send) a message if your character gets hit by a ball!
 
-Add this code to your ball sprite:
+أضف هذه التعليمة البرمجية إلى كائن الكرة:
 
 ![ball sprite](images/ball_sprite.png)
 
