@@ -55,9 +55,9 @@ If your sprite doesn't fit, adjust its size.
 
 \--- task \---
 
-Test out your character by clicking the flag and then holding down the right arrow key. Does your character move to the right? Does your character look like it is walking?
+Teste seu personagem clicando no sinalizador e, em seguida, mantendo pressionada a tecla de seta para a direita. Does your character move to the right? Does your character look like it is walking?
 
-![screenshot](images/dodge-walking.png)
+![captura de tela](images/dodge-walking.png)
 
 \--- /task \---
 
@@ -65,7 +65,7 @@ Test out your character by clicking the flag and then holding down the right arr
 
 Add code blocks to the character sprite's `forever`{:class="block3control"} loop so that it walks left if the left arrow key is pressed.
 
-\--- hints \---
+\--- dica \---
 
 \--- hint \---
 
@@ -117,9 +117,9 @@ end
 
 \--- task \---
 
-Test your new code to make sure that it works. Does your character turn upside-down when walking to the left?
+Teste seu novo código para ter certeza de que funciona. Seu personagem vira de cabeça para baixo quando caminha para a esquerda?
 
-![screenshot](images/dodge-upside-down.png)
+![captura de tela](images/dodge-upside-down.png)
 
 If so, you can fix this by clicking on the **direction** of your character sprite, and then clicking on the left-right arrow.
 
