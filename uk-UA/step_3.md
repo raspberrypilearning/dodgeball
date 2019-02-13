@@ -1,9 +1,5 @@
-\--- challenge \---
+## Challenge: completing the level
 
-## Завдання: Пройти рівень
+Can you add more code blocks to your character sprite to make the sprite say something `if`{:class="block3control"} it gets to the green door?
 
-Чи можете ви додати ще коду до вашого персонажа, щоб той міг щось сказати `if`{:class="blockcontrol"} коли добирається до зелених дверей?
-
-![скріншот](images/dodge-win.png)
-
-\--- /challenge \---
+![screenshot](images/dodge-win.png)
