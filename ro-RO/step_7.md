@@ -1,13 +1,9 @@
-\--- challenge \---
+## Challenge: random balls
 
-## Provocare: Mingi aleatoare
+The balls that your character has to dodge all look the same, and they appear at regular three-second intervals. Can you add code to your game so that the balls:
 
-Mingile pe care personajul tău trebuie să le evite arată la fel, și apar întotdeauna la fiecare 3 secunde. Îi poți îmbunătăți, astfel încât ei:
++ Don't all look the same?
++ Appear after a `random`{:class="block3operators"} amount of time?
++ Are a random size?
 
-+ sa nu arate toate la fel?
-+ sa apara după o perioadă aleatorie de timp?
-+ sa aiba dimensiun aleatori?
-
-![captura de ecran](images/dodge-ball-random.png)
-
-\--- /challenge \---
+![screenshot](images/dodge-ball-random.png)
