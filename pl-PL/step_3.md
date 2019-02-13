@@ -1,9 +1,5 @@
-\--- challenge \---
+## Challenge: completing the level
 
-## Wyzwanie: Ukończenie poziomu
-
-Czy możesz dodać więcej kodu do Twojej postaci, tak by coś powiedziała `jeżeli`{:class="blockcontrol"} dojdzie do zielonych drzwi?
+Can you add more code blocks to your character sprite to make the sprite say something `if`{:class="block3control"} it gets to the green door?
 
 ![screenshot](images/dodge-win.png)
-
-\--- /challenge \---
