@@ -30,9 +30,9 @@ Add these new code blocks that set `gravity` to a negative number and use the va
 
 ```blocks3
     when flag clicked
-    set [gravity v] to [-4]
+    set [gravitacija v] to [-4]
     forever
-        change y by (gravity)
+        change y by (gravitacija)
     end
 ```
 
@@ -40,7 +40,7 @@ Add these new code blocks that set `gravity` to a negative number and use the va
 
 \--- task \---
 
-Click the flag, and then drag your character to the top of the Stage. What happens? Does the gravity work as you expect?
+Click the flag, and then drag your character to the top of the Stage. Šta se dešava? Does the gravity work as you expect?
 
 ![screenshot](images/dodge-gravity-drag.png)
 
@@ -54,10 +54,10 @@ Gravity shouldn't move the character sprite through a platform or a ladder! Add 
 
 ```blocks3
     when flag clicked
-    set [gravity v] to [-4]
+    set [gravitacija v] to [-4]
     forever
         if < not < <touching color [#0000FF]?> or <touching color [#FF69B4]?> > > then
-            change y by (gravity)
+            change y by (gravitacija)
         end
     end
 ```
@@ -97,7 +97,7 @@ Test out your code. Notice that the jumping movement isn't very smooth. To make 
 
 \--- task \---
 
-To do this, create a new variable called `jump height`{:class="block3variables"}. Again, you can hide this variable if you prefer.
+To do this, create a new variable called `jump height`{:class="block3variables"}. Ako želiš, i ovu promjenljivu možeš da sakriješ.
 
 \--- /task \---
 
@@ -109,14 +109,14 @@ Delete the jumping code you added to your character sprite, and add this code in
 
 ```blocks3
     when [space v] key pressed
-    set [jump height v] to [8]
-    repeat until < (jump height) = [0] >
-        change y by (jump height)
-        change [jump height v] by (-0.5)
+    set [visina skoka v] to [8]
+    repeat until < (visina skoka) = [0] >
+        change y by (visina skoka)
+        change [visina skoka v] by (-0.5)
     end
 ```
 
-This code moves your character up by 8 pixels, then 7.5 pixels, then 7 pixels, and so on, until it does not rise any higher. This makes jumping look much smoother.
+This code moves your character up by 8 pixels, then 7.5 pixels, then 7 pixels, and so on, until it does not rise any higher. Na ovaj način, skok izgleda mnogo prirodnije.
 
 \--- /task \---
 
