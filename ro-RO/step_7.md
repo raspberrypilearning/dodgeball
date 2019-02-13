@@ -1,9 +1,9 @@
-## Challenge: random balls
+## Provocare: bile aleatoare
 
-The balls that your character has to dodge all look the same, and they appear at regular three-second intervals. Can you add code to your game so that the balls:
+Bilele pe care personajul tău trebuie să le evite, toate arată la fel și apar la intervale regulate de trei secunde. Puteți adăuga un cod la joc astfel încât bilele:
 
-+ Don't all look the same?
-+ Appear after a `random`{:class="block3operators"} amount of time?
-+ Are a random size?
++ Sa nu arate toate la fel?
++ Apare după o sumă de timp o dată `întâmplare de`{: class = "block3operators"}?
++ Sa aiba dimensiun aleatori?
 
-![screenshot](images/dodge-ball-random.png)
+![captură de ecran](images/dodge-ball-random.png)
