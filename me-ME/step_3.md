@@ -1,9 +1,5 @@
-\--- challenge \---
+## Challenge: completing the level
 
-## Izazov: Dovršavanje nivoa
-
-Da li možeš da dodaš još kôda svom karakteru, tako da on nešto kaže `ako`{:class="blockcontrol"} (if) stigne do zelenih vrata?
+Can you add more code blocks to your character sprite to make the sprite say something `if`{:class="block3control"} it gets to the green door?
 
 ![screenshot](images/dodge-win.png)
-
-\--- /challenge \---
