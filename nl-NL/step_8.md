@@ -12,7 +12,7 @@ Add a new sprite to your game and call it `laser`. It should have two costumes: 
 
 \--- /task \---
 
-\--- task \---
+\--- task \----
 
 Place your new laser sprite between two platforms.
 
@@ -40,7 +40,7 @@ If you prefer, you can change the code shown above so that the sprite `waits`{:c
 
 \--- /task \---
 
-\--- task \---
+\--- taak \---
 
 Finally, add code to your laser sprite so that the laser sprite broadcasts a 'hit' message when it touches the character sprite.
 
@@ -81,7 +81,7 @@ You don't need to add any extra code to your characters sprite, because the char
 
 \--- /task \---
 
-\--- task \---
+\--- task \----
 
 Test out your game to see if you can move the character past the laser. If the laser is too easy or too hard to avoid, change the `wait`{:class="block3control"} times in the code for the laser sprite.
 
