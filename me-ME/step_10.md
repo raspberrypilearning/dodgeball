@@ -1,27 +1,23 @@
-\--- challenge \---
+## Challenge: improved gravity
 
-## Izazov: Poboljšana gravitacija
-
-Postoji još jedna mala greška u tvojoj igri: gravitacija ne vuče karaktera nadolje ako on *bilo kojim* svojim dijelom dodiruje plavu platformu - pa čak i svojom glavom! To možeš da isprobaš tako što ćeš se popeti skoro do vrha ljestvi, a zatim krenuti ulijevo.
+There's one other small bug in your game: gravity doesn't pull the character sprite downwards if **any** part of the sprite is touching a blue platform. So even if the sprites head touches a platform, the sprite doesn't fall! You can test this yourself: make your character climb most of the way up a ladder, and then move the character sideways beneath a platform:
 
 ![screenshot](images/dodge-gravity-bug.png)
 
-Možeš li da ispraviš ovu grešku? Da to uradiš, potrebno je da svom karakteru promijeniš boju pantalona (u *svim* kostimima)...
+To fix the bug, you first need to give your character sprite new trousers that have a different colour (on **all** costumes).
 
 ![screenshot](images/dodge-trousers.png)
 
-... a zatim zamijeniš kôd:
+Then replace this code block:
 
-```blocks
+```blocks3
     < touching color [#0000FF]? >
 ```
 
-sa:
+with this code block:
 
-```blocks
+```blocks3
     < color [#00FF00] is touching [#0000FF]? >
 ```
 
-Ne zaboravi da isprobaš svoja poboljšanja i provjeriš da li je greška ispravljena!
-
-\--- /challenge \---
+To make sure you've fixed the bug, test the game after you've made these changes!
