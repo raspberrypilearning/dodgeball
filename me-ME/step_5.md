@@ -1,7 +1,5 @@
-\--- challenge \---
+## Challenge: better jumping
 
-## Izazov: Poboljšan skok
+Even if the character is already in mid-air, it jumps whenever the player presses the <kbd>space</kbd> bar. You can see this behaviour if you hold down the <kbd>space</kbd> bar.
 
-Tvoj karakter može da skoči svaki put kada je pritisnut taster za razmak, čak i kada je u vazduhu. Možeš to da isprobaš tako što ćeš samo držati pritisnut taster za razmak. Da li možeš to da popraviš, tako da tvoj karakter može da skoči samo `ako`{:class="blockcontrol"} (if) dodiruje plavu platformu?
-
-\--- /challenge \---
+Can you change the character sprite's code for jumping so that your character can only jump `if`{:class="block3control"} it touches a blue platform?
