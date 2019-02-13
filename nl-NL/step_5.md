@@ -1,7 +1,5 @@
-\--- challenge \---
+## Challenge: better jumping
 
-## Uitdaging: beter springen
+Even if the character is already in mid-air, it jumps whenever the player presses the <kbd>space</kbd> bar. You can see this behaviour if you hold down the <kbd>space</kbd> bar.
 
-Je personage kan springen als de spatiebalk wordt ingedrukt, zelfs als die al in de lucht is. Je kunt dit testen door de spatiebalk ingedrukt te houden. Kun je dit oplossen, zodat het personage alleen kan springen `als`{: class = "blockcontrol"} die een blauw platform raakt?
-
-\--- /challenge \---
+Can you change the character sprite's code for jumping so that your character can only jump `if`{:class="block3control"} it touches a blue platform?
