@@ -4,7 +4,7 @@ Your character can move and jump now, so it's time to add some balls that the ch
 
 \--- task \---
 
-Create a new ball sprite. You can choose any type of ball you like.
+Kreiraj novi lik (sprite) lopte. Možeš da izabereš bilo koju vrstu lopte koja ti se sviđa.
 
 ![screenshot](images/dodge-balls.png)
 
@@ -20,7 +20,7 @@ Resize the ball sprite so that the character can jump over it. Try making the ch
 
 \--- task \---
 
-Add this code to your ball sprite:
+Dodaj ovaj kôd liku lopte:
 
 ![ball sprite](images/ball_sprite.png)
 
@@ -68,15 +68,15 @@ Add more code to your ball sprite so that clones of it move across all three pla
 
 ![screenshot](images/dodge-ball-more-motion.png)
 
-\--- hints \---
+\--- pomoć \---
 
-\--- hint \---
+\--- pomoć \---
 
 Repeat the code blocks you used to move the ball sprite clone across the first platform. You need to change the `x`{:class="block3motion"}, `y`{:class="block3motion"}, and `repeat`{:class="block3control"} numbers so that the clones follow the platforms correctly.
 
 \--- /hint \---
 
-\--- hint \---
+\--- pomoć \---
 
 These are the blocks you need. Make sure you add them in the correct order.
 
@@ -144,7 +144,7 @@ delete this clone
 
 Now add some code blocks to broadcast (send) a message if your character gets hit by a ball!
 
-Add this code to your ball sprite:
+Dodaj ovaj kôd liku lopte:
 
 ![ball sprite](images/ball_sprite.png)
 
