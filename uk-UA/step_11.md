@@ -1,11 +1,7 @@
-\--- challenge \---
+## Challenge: more lives
 
-## Завдання: Більше життів
+Right now, your character goes back to its starting position when it gets hit. Can you also give the character sprite three `lives`{:class="block3variables"}, and make it lose one life when it gets hit? Here's how your game could work:
 
-Чи можете ви дати вашому персонажу 3 `життя`{:class="blockdata"}, замість просто відсилати їх назад на початок кожен раз? Ось як ваша гра працює:
-
-+ Ваш персонаж стартує з 3 життями;
-+ Коли персонаж отримує поранення, втрачається життя і вони повертаються на початок;
-+ Якщо залишається життів, гра закінчується.
-
-\--- /challenge \---
++ The game starts with three lives for the character
++ Whenever the character gets hit, it loses one life **and** moves back to the start
++ If there are no lives left, the game ends
