@@ -6,7 +6,7 @@ copyedit: false
 title: Između dvije vatre
 description: Kreiraj platformsku igru u kojoj treba da izbjegavaš lopte koje se kreću i dođeš do kraja nivoa.
 version: 3
-last_tested: 2017-01-01
+last_tested: 2018-10-10
 steps:
   - 
     title: Uvod
@@ -28,7 +28,7 @@ steps:
   - 
     title: Laseri!
   - 
-    title: 'Izazov: Više prepreka'
+    title: 'Izazov: više prepreka'
     challenge: true
   - 
     title: 'Izazov: Poboljšana gravitacija'
@@ -37,4 +37,4 @@ steps:
     title: 'Izazov: Više života'
     challenge: true
   - 
-    title: What next?
+    title: 'Izazov: više olovaka'
