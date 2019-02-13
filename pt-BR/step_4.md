@@ -40,9 +40,9 @@ Add these new code blocks that set `gravity` to a negative number and use the va
 
 \--- task \---
 
-Click the flag, and then drag your character to the top of the Stage. What happens? Does the gravity work as you expect?
+Click the flag, and then drag your character to the top of the Stage. O que acontece? Does the gravity work as you expect?
 
-![screenshot](images/dodge-gravity-drag.png)
+![captura de tela](images/dodge-gravity-drag.png)
 
 \--- /task \---
 
@@ -68,7 +68,7 @@ Gravity shouldn't move the character sprite through a platform or a ladder! Add 
 
 Test the game again to see whether gravity works correctly now. Does your character sprite stop falling when it touches a platform or a ladder? Can you make the character walk off the edge of platforms and fall onto the level below?
 
-![screenshot](images/dodge-gravity-test.png)
+![captura de tela](images/dodge-gravity-test.png)
 
 \--- /task \---
 
@@ -97,7 +97,7 @@ Test out your code. Notice that the jumping movement isn't very smooth. To make 
 
 \--- task \---
 
-To do this, create a new variable called `jump height`{:class="block3variables"}. Again, you can hide this variable if you prefer.
+To do this, create a new variable called `jump height`{:class="block3variables"}. Mais uma vez, você pode ocultar essa variável, se preferir.
 
 \--- /task \---
 
@@ -116,7 +116,7 @@ Delete the jumping code you added to your character sprite, and add this code in
     end
 ```
 
-This code moves your character up by 8 pixels, then 7.5 pixels, then 7 pixels, and so on, until it does not rise any higher. This makes jumping look much smoother.
+This code moves your character up by 8 pixels, then 7.5 pixels, then 7 pixels, and so on, until it does not rise any higher. Isso faz com que o salto pareça muito mais suave.
 
 \--- /task \---
 
