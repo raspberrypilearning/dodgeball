@@ -1,3 +1,3 @@
-## What next?
+## Ce urmează?
 
-Have a go at our [Brain game](https://projects.raspberrypi.org/en/projects/brain-game) project, in which you can create your own maths quiz.
+Mergeți la proiectul nostru [Brain](https://projects.raspberrypi.org/en/projects/brain-game) , în care puteți crea propriul dvs. test de matematică.
