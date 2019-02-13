@@ -4,9 +4,9 @@ Your character can move and jump now, so it's time to add some balls that the ch
 
 \--- task \---
 
-Create a new ball sprite. You can choose any type of ball you like.
+Utwórz nowego duszka piłkę. Możesz wybrać dowolny typ piłki który chcesz.
 
-![screenshot](images/dodge-balls.png)
+![zrzut ekranu](images/dodge-balls.png)
 
 \--- /task \---
 
@@ -14,13 +14,13 @@ Create a new ball sprite. You can choose any type of ball you like.
 
 Resize the ball sprite so that the character can jump over it. Try making the character jump over the ball to test whether the ball is the right size.
 
-![screenshot](images/dodge-ball-resize.png)
+![zrzut ekranu](images/dodge-ball-resize.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add this code to your ball sprite:
+Dodaj poniższy kod do duszka piłki:
 
 ![ball sprite](images/ball_sprite.png)
 
@@ -58,7 +58,7 @@ This code creates a new clone of the ball sprite every three seconds. Each new c
 
 Click the flag to test the game.
 
-![screenshot](images/dodge-ball-test.png)
+![zrzut ekranu](images/dodge-ball-test.png)
 
 \--- /task \---
 
@@ -66,15 +66,15 @@ Click the flag to test the game.
 
 Add more code to your ball sprite so that clones of it move across all three platforms.
 
-![screenshot](images/dodge-ball-more-motion.png)
+![zrzut ekranu](images/dodge-ball-more-motion.png)
 
-\--- hints \---
+\--- wskazówka \---
 
 \--- hint \---
 
 Repeat the code blocks you used to move the ball sprite clone across the first platform. You need to change the `x`{:class="block3motion"}, `y`{:class="block3motion"}, and `repeat`{:class="block3control"} numbers so that the clones follow the platforms correctly.
 
-\--- /hint \---
+\--- /wskazówka \---
 
 \--- hint \---
 
@@ -98,7 +98,7 @@ repeat (30)
 end
 ```
 
-\--- /hint \---
+\--- /wskazówka \---
 
 \--- hint \---
 
@@ -134,9 +134,9 @@ end
 delete this clone
 ```
 
-\--- /hint \---
+\--- /wskazówka \---
 
-\--- /hints \---
+\--- /wskazówka \---
 
 \--- /task \---
 
@@ -144,7 +144,7 @@ delete this clone
 
 Now add some code blocks to broadcast (send) a message if your character gets hit by a ball!
 
-Add this code to your ball sprite:
+Dodaj poniższy kod do duszka piłki:
 
 ![ball sprite](images/ball_sprite.png)
 
