@@ -1,77 +1,74 @@
+\--- no-print \---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2).
+
+\--- /no-print \---
+
 ## Uvod
 
-U ovom projektu naučićeš kako da napraviš platformsku igru u kojoj treba da izbjegavaš lopte koje se kreću i dođeš do kraja nivoa.
+You'll learn how to create a platform game in which the player has to dodge moving balls to reach the end of the level.
+
+\--- no-print \---
+
+Click the green flag to start, and then use the arrow keys to move and the <kbd>space</kbd> key to jump.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/39740618/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/39740618/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/dodge-final.png">
 </div>
 
-### Dodatne informacije za vođe kluba
+\--- /no-print \---
 
-Ukoliko je potrebno da odštampate ovaj projekat, koristite [Verziju za štampu](https://projects.raspberrypi.org/en/projects/dodgeball/print).
+\--- print-only \---
 
-## \--- collapse \---
+![dodgeball game being played](images/dodgeball-showcase.png)
 
-## title: Bilješke za vođe kluba
+\--- /print-only \---
 
-## Uvod:
+\--- collapse \---
 
-U ovom projektu djeca će naučiti kako da naprave platformsku igru koristeći koncepte i vještine u Scratch-u koje su savladala u prethodnim projektima.
+* * *
 
-## Izvori
+## title: What you will need
 
-Za ovaj projekat koristite Scratch 2. Scratch 2 možete koristiti online na [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) ili ga preuzeti sa [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) i koristiti offline.
+### Hardware
 
-Link 'Project Materials' za ovaj projekat sadrži sljedeće izvore:
++ A computer capable of running Scratch 3
 
-##### Izvori za vođe kluba
+### Software
 
-Završenu verziju projekta možete naći [online](http://scratch.mit.edu/projects/39740618/#editor) ili preuzeti klikom na link 'Project Materials', koji sadrži:
++ Scratch 3 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/download/))
 
-* Dodgeball.sb2
+### Downloads
 
-##### Izvori projekta
-
-Za ovaj projekat, članovi kluba mogu da koriste spoljašnje izvore koji nisu dostupni u Scratch biblioteci:
-
-* background.png.
-
-Za članove kluba koji nisu u mogućnosti da pristupe ovim izvorima projekta, postoji Scratch projekat u kojem su spoljašnji izvori već učitani. Projekat je dostupan online na [jumpto.cc/dodge-resources](http://jumpto.cc/dodge-resources) ili u projektnim materijalima koji se mogu preuzeti. Materijali sadrže:
-
-* DodgeballResources.sb2 
-
-## Ciljevi učenja
-
-* U ovom projektu utvrđuju se prethodno savladane vještine programiranja.
-
-Ovim projektom obuhvaćeni su elementi iz sljedećih dijelova [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
-
-* [Kombinujte programske konstrukcije za rješavanje problema.](https://www.raspberrypi.org/curriculum/programming/builder)
-
-## Izazovi
-
-* ''Poboljšan skok'' - korišćenje dodatnog bloka `if`{:class="blockcontrol"} (ako) za ispravljanje greške u skoku;
-* ''Slučajne lopte'' - korišćenje bloka `random`{:class="blockoperators"} (slučajan broj) za mijenjanje kostima lopte, njene veličine i vremenskog razmaka između pojavljivanja klonova;
-* ''Više prepreka'' - dodavanje dodatnih likova u igru;
-* ''Poboljšana gravitacija'' - korišćenje dodatnog bloka `if`{:class="blockcontrol"} (ako) za ispravljanje greške u `gravitaciji`{:class="blockdata"};
-* ''Više života'' - dodavanje promjenljive ` životi`{:class="blockdata"}.
+You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 \--- /collapse \---
 
-## \--- collapse \---
+\--- collapse \---
 
-## title: Projektni materijali
+* * *
 
-## Izvori projekta
+## title: What you will learn
 
-* [Online Scratch 2 projekat koji sadrži spoljašnje izvore](http://jumpto.cc/dodge-resources)
-* [Scratch 2 projekat koji sadrži spoljašnje izvore i koji se može preuzeti](resources/DodgeballResources.sb2)
-* [background.png](resources/background.png)
++ How to use the keyboard to control a sprite
++ How to use the `if, then, else`{:class="block3control"} Scratch block
++ How to clone a sprite
 
-## Izvori za vođe kluba
+\--- /collapse \---
 
-* [Završen Scratch 2 projekat online](http://scratch.mit.edu/projects/39740618/#editor)
-* [Završen Scratch 2 projekat koji se može preuzeti](resources/Dodgeball.sb2)
+\--- collapse \---
+
+* * *
+
+## title: Additional notes for educators
+
+\--- no-print \---
+
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
+
+\--- /no-print \---
+
+If you need the solution to this project, [you can find it here](http://rpf.io/p/en/dodgeball-get).
 
 \--- /collapse \---
