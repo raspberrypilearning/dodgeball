@@ -1,23 +1,21 @@
-\--- challenge \---
+## Challenge: more obstacles
 
-## التحدي: عوائق أخرى
+If you think your game is still too easy, you can add more obstacles to it. The obstacles can be anything you like! Here are some ideas:
 
-إذا كنت ترى أن لعبتك ما زالت سهلة للغاية، فيمكنك إضافة عوائق أخرى إلى المستوى. ويمكنك إضافة أي شيء تريده، لكن إليك بعض الأفكار:
++ A dangerous butterfly
++ Platforms that appear and disappear
++ Falling tennis balls that must be avoided
 
-+ فراشة طائرة قاتلة؛
-+ منصات تظهر وتختفي؛
-+ كرات تنس طائرة يجب تفاديها.
+![screenshot](images/dodge-obstacles.png)
 
-![لقطة الشاشة](images/dodge-obstacles.png)
+You could even design another backdrop to create the next level. Then add code so that, when your character reaches the green door, the game switches to the new background:
 
-يمكنك أيضًا إضافة أكثر من خلفية واحدة، والانتقال إلى المستوى التالي عندما تصل الشخصية إلى الباب الأخضر:
+![pico walking sprite](images/pico_walking_sprite.png)
 
-```blocks
-    إذا <ملامس للون [#00FF00] ؟> 
-  غيّر الخلفية إلى [next backdrop v]
-  اذهب إلى الموضع س: (-210) ص: (-120)
-  انتظر (1) ثانية
-end
+```blocks3
+    if <touching color [#00FF00]?> then
+        switch backdrop to (next backdrop v)
+        go to x: (-210) y: (-120)
+        wait (1) seconds
+    end
 ```
-
-\--- /challenge \---
