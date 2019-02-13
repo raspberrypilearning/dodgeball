@@ -1,88 +1,88 @@
-## Lasere!
+## Laser!
 
-To your game a little harder to complete, you are going to add lasers!
+Pentru jocul dvs. un pic mai greu pentru a finaliza, aveți de gând să adăugați lasere!
 
-\--- task \---
+\--- proba\---
 
-Add a new sprite to your game and call it `laser`. It should have two costumes: one called 'on', and one called 'off'.
+Adăugați un nou sprite la joc și numiți-l `laser`. Ar trebui să aibă două costume: unul numit "pe" și unul numit "off".
 
-![screenshot](images/dodge-lasers-costume1.png)
+![captură de ecran](images/dodge-lasers-costume1.png)
 
-![screenshot](images/dodge-lasers-costume1.png)
-
-\--- /task \---
-
-\--- task \---
-
-Place your new laser sprite between two platforms.
-
-![screenshot](images/dodge-lasers-position.png)
+![captură de ecran](images/dodge-lasers-costume1.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your laser sprite to make it switch between its two costumes.
+Plasați noul dvs. sprite laser între două platforme.
+
+![captură de ecran](images/dodge-lasers-position.png)
+
+\--- /task \---
+
+\--- proba\---
+
+Adăugați codul la sprite-ul laser pentru al face să treacă între cele două costume.
 
 ![laser sprite](images/laser_sprite.png)
 
 ```blocks3
-    when flag clicked
-    forever
-        switch costume to (on v)
-        wait (2) seconds
-        switch costume to (off v)
-        wait (2) seconds
-    end
+    când pavilionul a dat clic
+    pentru totdeauna
+        costum pentru comutator pentru (pe v)
+        așteptați (2) secunde
+        costum de comutare la (oprit v)
+        așteptați (2) secunde
+    sfârșit
 ```
 
-If you prefer, you can change the code shown above so that the sprite `waits`{:class="block3control"} a `random`{:class="block3operators"} amount of time between costume changes.
+Dacă preferați, puteți schimba codul prezentat mai sus , astfel încât sprite `așteaptă`{: class = „block3control“} a `aleatoare`{: class = „block3operators“} cantitate de timp între schimbările costum.
 
 \--- /task \---
 
 \--- task \---
 
-Finally, add code to your laser sprite so that the laser sprite broadcasts a 'hit' message when it touches the character sprite.
+În cele din urmă, adăugați cod la sprite laser, astfel încât sprite laser transmite un mesaj "lovit" când atinge caracterul sprite.
 
-\--- hints \---
-
-\--- hint \---
-
-This code should be very similar to the code you added to your ball sprite.
-
-\--- /hint \---
+\--- sugestii \---
 
 \--- hint \---
 
-Copy the code you add to the ball sprite to make this sprite `broadcast 'hit'`{:class="block3control"} when it is `touching your character`{:class="block3sensing"}.
+Acest cod trebuie să fie foarte asemănător cu codul pe care l-ați adăugat la sprite-ul tău.
 
-\--- /hint \---
+\--- / indiciu \---
+
+\--- indiciu \---
+
+Copiați codul pe care îl adăugați la sprite-ul pentru a face acest sprite `difuzat "lovit"`{: class = "block3control"} atunci când atinge `personajul tău`{: class = "block3sensing"}.
+
+\--- / indiciu \---
 
 \--- hint \---
 
-This is the code you should add:
+Acesta este codul pe care trebuie să-l adăugați:
 
 ![laser sprite](images/laser_sprite.png)
 
 ```blocks3
-when green flag clicked
-forever 
-  if <touching (Pico walking v) ?> then 
-    broadcast (hit v)
-  end
-end
+când steagul verde a dat clic
+pentru totdeauna 
+  dacă <touching (Pico walking v) ?> apoi 
+    difuzat (lovit v)
+  sfârșitul sfârșitul
+
 ```
 
-\--- /hint \---
+\--- / indiciu \---
 
-\--- /hints \---
+\--- / sugestii \---
 
-You don't need to add any extra code to your characters sprite, because the character sprite already knows what to do when it receives the `broadcast 'hit'`{:class="block3control"}!
+Nu aveți nevoie să adăugați niciun cod suplimentar caracterelor dvs. sprite, deoarece sprite-ul de caractere deja știe ce trebuie să facă atunci când primește mesajul de difuzare `'hit'`{: class = "block3control"}!
 
 \--- /task \---
 
 \--- task \---
 
-Test out your game to see if you can move the character past the laser. If the laser is too easy or too hard to avoid, change the `wait`{:class="block3control"} times in the code for the laser sprite.
+Testați-vă jocul pentru a vedea dacă puteți mișca caracterul de lângă laser. Dacă laserul este prea ușor sau prea greu de evitat, schimba `asteptati`{: class = „block3control“} ori în codul pentru sprite cu laser.
 
 \--- /task \---
