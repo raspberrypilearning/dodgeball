@@ -16,7 +16,7 @@ The project contains a backdrop with platforms:
 
 ![dodgeball project background](images/dodge-background.png)
 
-\--- task \---
+\--- task \----
 
 Choose a new sprite as the character the player will control, and add it to your project. It's best if you choose a sprite with multiple costumes, so that you can make it look as though it's walking.
 
@@ -45,7 +45,7 @@ end
 
 \--- /task \---
 
-\--- task \---
+\--- task \----
 
 If your sprite doesn't fit, adjust its size.
 
@@ -53,15 +53,15 @@ If your sprite doesn't fit, adjust its size.
 
 \--- /task \---
 
-\--- task \---
+\--- task \----
 
-Test out your character by clicking the flag and then holding down the right arrow key. Does your character move to the right? Does your character look like it is walking?
+Test je personage door op de vlag te klikken en de toets pijl naar rechts ingedrukt te houden. Does your character move to the right? Does your character look like it is walking?
 
 ![screenshot](images/dodge-walking.png)
 
 \--- /task \---
 
-\--- task \---
+\--- task \----
 
 Add code blocks to the character sprite's `forever`{:class="block3control"} loop so that it walks left if the left arrow key is pressed.
 
@@ -115,9 +115,9 @@ end
 
 \--- /task \---
 
-\--- task \---
+\--- task \----
 
-Test your new code to make sure that it works. Does your character turn upside-down when walking to the left?
+Test de nieuwe code om te controleren of die werkt. Staat je personage ondersteboven als je naar links loopt?
 
 ![screenshot](images/dodge-upside-down.png)
 
@@ -128,12 +128,12 @@ If so, you can fix this by clicking on the **direction** of your character sprit
 Or if you prefer, you can also fix the problem by adding this block to the start of your character's script:
 
 ```blocks3
-set rotation style [left-right v]
+maak draaistijl [links-rechts v]
 ```
 
 \--- /task \---
 
-\--- task \---
+\--- task \----
 
 To climb a pink ladder, your character sprite should move a few steps upwards on the Stage whenever the up arrow is pressed **and** the character is touching the correct colour.
 
@@ -149,7 +149,7 @@ Add inside your character's `forever`{:class="block3control"} loop to `change`{:
 
 \--- /task \---
 
-\--- task \---
+\--- task \----
 
 Test your code. Can you make the character climb the pink ladders and get to the end of the level?
 
