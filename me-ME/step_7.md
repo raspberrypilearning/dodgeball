@@ -1,13 +1,9 @@
-\--- challenge \---
+## Challenge: random balls
 
-## Izazov: Slučajne lopte
+The balls that your character has to dodge all look the same, and they appear at regular three-second intervals. Can you add code to your game so that the balls:
 
-Sve lopte koje tvoj karakter treba da izbjegne izgledaju isto i uvijek se pojavljuju svake 3 sekunde. Možeš li da ih poboljšaš na način:
-
-+ da ne izgledaju sve jednako?
-+ da se pojavljuju nakon slučajnog vremenskog perioda?
-+ da imaju slučajnu veličinu?
++ Don't all look the same?
++ Appear after a `random`{:class="block3operators"} amount of time?
++ Are a random size?
 
 ![screenshot](images/dodge-ball-random.png)
-
-\--- /challenge \---
