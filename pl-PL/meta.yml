@@ -6,12 +6,12 @@ copyedit: false
 title: Dwa ognie
 description: Naucz się, jak stworzyć grę platformową, w której gracz musi unikać toczących się piłek.
 version: 3
-last_tested: 2017-01-01
+last_tested: 2018-10-10
 steps:
   - 
-    title: Wstęp
+    title: Wprowadzenie
   - 
-    title: Poruszanie się postacią
+    title: Sterowanie postacią
   - 
     title: "Challenge: completing the level"
     challenge: true
@@ -28,7 +28,7 @@ steps:
   - 
     title: Lasery!
   - 
-    title: 'Challenge: more obstacles'
+    title: 'Wyzwanie: więcej przeszkód'
     challenge: true
   - 
     title: 'Challenge: improved gravity'
@@ -37,4 +37,4 @@ steps:
     title: 'Challenge: more lives'
     challenge: true
   - 
-    title: What next?
+    title: Co następne?
