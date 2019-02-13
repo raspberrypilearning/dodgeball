@@ -1,31 +1,88 @@
 ## أشعة ليزر!
 
-لنجعل إنهاء لعبتك أكثر صعوبة بإضافة أشعة الليزر!
+To your game a little harder to complete, you are going to add lasers!
 
-+ أضف كائنًا جديدًا إلى لعبتك يُسمى 'شعاع ليزر'. ويجب أن يكون لهذا الكائن مظهران، أحدهما 'تشغيل' والآخر 'إيقاف'.
-    
-    ![لقطة الشاشة](images/dodge-lasers-costume.png)
+\--- task \---
 
-+ ضَع كائن شعاع الليزر الجديد في أي مكان تختاره بين منصتين.
-    
-    ![لقطة الشاشة](images/dodge-lasers-position.png)
+Add a new sprite to your game and call it `laser`. It should have two costumes: one called 'on', and one called 'off'.
 
-+ أضف تعليمة برمجية إلى شعاع الليزر لتحويله بين المظهرين.
-    
-    ```blocks
-        عند نقر ⚑
-    كرر باستمرار 
-      غيّر المظهر إلى [يعمل v]
-      انتظر (2) ثانية
-      غيّر المظهر إلى [يتوقف v]
-      انتظر (2) ثانية
+![screenshot](images/dodge-lasers-costume1.png)
+
+![screenshot](images/dodge-lasers-costume1.png)
+
+\--- /task \---
+
+\--- task \---
+
+Place your new laser sprite between two platforms.
+
+![screenshot](images/dodge-lasers-position.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your laser sprite to make it switch between its two costumes.
+
+![laser sprite](images/laser_sprite.png)
+
+```blocks3
+    when flag clicked
+    forever
+        switch costume to (on v)
+        wait (2) seconds
+        switch costume to (off v)
+        wait (2) seconds
     end
-    ```
-    
-    يمكنك `الانتظار`{:class="blockcontrol"} مدة `عشوائية`{:class="blockoperators"} من الوقت للتحوّل من مظهر إلى آخر.
+```
 
-+ وأخيرًا، أضف تعليمة برمجية إلى شعاع الليزر، بحيث يتم بث الرسالة 'اصطدام' عندما يلامس شعاع الليزر الشخصية. ستكون هذه التعليمة البرمجية مشابهة جدًا للتعليمة البرمجية التي أضفتَها إلى كائن الكرة.
-    
-    لن تحتاج إلى إضافة أي تعليمات برمجية أخرى إلى الشخصية - لأنها تعرف ماذا ستفعل عندما تصطدم!
+If you prefer, you can change the code shown above so that the sprite `waits`{:class="block3control"} a `random`{:class="block3operators"} amount of time between costume changes.
 
-+ اختبر لعبتك لتلاحظ هل يمكنك اختراق شعاع الليزر أم لا. غيِّر أوقات `الانتظار`{:class="blockcontrol"} في التعليمة البرمجية إذا كانت أشعة الليزر عوائق سهلة للغاية أو صعبة جدًا.
+\--- /task \---
+
+\--- task \---
+
+Finally, add code to your laser sprite so that the laser sprite broadcasts a 'hit' message when it touches the character sprite.
+
+\--- hints \---
+
+\--- hint \---
+
+This code should be very similar to the code you added to your ball sprite.
+
+\--- /hint \---
+
+\--- hint \---
+
+Copy the code you add to the ball sprite to make this sprite `broadcast 'hit'`{:class="block3control"} when it is `touching your character`{:class="block3sensing"}.
+
+\--- /hint \---
+
+\--- hint \---
+
+This is the code you should add:
+
+![laser sprite](images/laser_sprite.png)
+
+```blocks3
+when green flag clicked
+forever 
+  if <touching (Pico walking v) ?> then 
+    broadcast (hit v)
+  end
+end
+```
+
+\--- /hint \---
+
+\--- /hints \---
+
+You don't need to add any extra code to your characters sprite, because the character sprite already knows what to do when it receives the `broadcast 'hit'`{:class="block3control"}!
+
+\--- /task \---
+
+\--- task \---
+
+Test out your game to see if you can move the character past the laser. If the laser is too easy or too hard to avoid, change the `wait`{:class="block3control"} times in the code for the laser sprite.
+
+\--- /task \---
