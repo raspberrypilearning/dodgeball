@@ -1,19 +1,10 @@
 ---
 hero_image: images/banner.png
-theme: yellow
-duration: 2
 listed: true
 ingredient: false
 copyedit: false
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: Dwa ognie
-description: W tym projekcie nauczysz się jak stworzyć grę platformową, w której będziesz musiał zbić poruszające się piłki i ukończyć poziom.
-original_url: https://codeclubprojects.org/en-GB/scratch/dodgeball
-interests: games
-technologies: scratch
-site_areas: projects
-hardware: ''
-software: scratch
+description: Naucz się, jak stworzyć grę platformową, w której gracz musi unikać toczących się piłek.
 version: 3
 last_tested: 2017-01-01
 steps:
@@ -22,20 +13,28 @@ steps:
   - 
     title: Poruszanie się postacią
   - 
-    title: 'Wyzwanie: Ukończenie poziomu'
+    title: "Challenge: completing the level"
+    challenge: true
   - 
     title: Grawitacja i skakanie
   - 
-    title: 'Wyzwanie: Poprawione skakanie'
+    title: 'Challenge: improved jumping'
+    challenge: true
   - 
     title: Unikanie piłek
   - 
-    title: 'Wyzwanie: Różne piłki'
+    title: 'Challenge: random balls'
+    challenge: true
   - 
     title: Lasery!
   - 
-    title: 'Wyzwanie: Więcej przeszkód'
+    title: 'Challenge: more obstacles'
+    challenge: true
   - 
-    title: 'Wyzwanie: Poprawiona grawitacji'
+    title: 'Challenge: improved gravity'
+    challenge: true
   - 
-    title: 'Wyzwanie: Więcej żyć'
+    title: 'Challenge: more lives'
+    challenge: true
+  - 
+    title: What next?
