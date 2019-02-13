@@ -29,15 +29,15 @@ Click the green flag to start, and then use the arrow keys to move and the <kbd>
 
 * * *
 
-## title: What you will need
+## title: Šta će ti biti potrebno
 
-### Hardware
+### Hardver
 
-+ A computer capable of running Scratch 3
++ Računar koji može da pokrene Scratch 3
 
-### Software
+### Softver
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/download/))
++ Scratch 3 ([online](https://scratch.mit.edu/projects/editor/) ili [offline](https://scratch.mit.edu/download/))
 
 ### Downloads
 
@@ -49,7 +49,7 @@ You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 * * *
 
-## title: What you will learn
+## title: Šta ćeš naučiti
 
 + How to use the keyboard to control a sprite
 + How to use the `if, then, else`{:class="block3control"} Scratch block
@@ -65,7 +65,7 @@ You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
+Ukoliko je potrebno da odštampate ovaj projekat, koristite [verziju za štampu](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
 
 \--- /no-print \---
 
