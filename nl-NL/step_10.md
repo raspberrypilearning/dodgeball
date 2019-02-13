@@ -1,4 +1,4 @@
-## Challenge: improved gravity
+## Uitdaging: verbeterde zwaartekracht
 
 There's one other small bug in your game: gravity doesn't pull the character sprite downwards if **any** part of the sprite is touching a blue platform. So even if the sprites head touches a platform, the sprite doesn't fall! You can test this yourself: make your character climb most of the way up a ladder, and then move the character sideways beneath a platform:
 
@@ -11,7 +11,7 @@ To fix the bug, you first need to give your character sprite new trousers that h
 Then replace this code block:
 
 ```blocks3
-    <raak ik kleur [#0000FF] ?> &gt;
+    <raak ik kleur [#0000FF] ?>  - 
 ```
 
 with this code block:
