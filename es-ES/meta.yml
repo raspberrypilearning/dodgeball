@@ -1,19 +1,10 @@
 ---
 hero_image: images/banner.png
-theme: yellow
-duration: 2
 listed: true
 ingredient: false
 copyedit: false
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: Alón Prisionero
 description: Crea un juego de plataforma en el que tengas que esquivar pelotas y llegar al final del nivel.
-original_url: https://codeclubprojects.org/en-GB/scratch/dodgeball
-interests: games
-technologies: scratch
-site_areas: projects
-hardware: ''
-software: scratch
 version: 3
 last_tested: 2017-01-01
 steps:
@@ -22,20 +13,28 @@ steps:
   - 
     title: Movimientos del personaje
   - 
-    title: 'Reto: Acabar el nivel'
+    title: "Reto: Acabar el nivel"
+    challenge: true
   - 
     title: Gravedad y saltos
   - 
     title: 'Reto: Salto mejorado'
+    challenge: true
   - 
     title: Esquivar los balones
   - 
     title: 'Reto: Balones aleatorios'
+    challenge: true
   - 
     title: '¡Láseres!'
   - 
     title: 'Reto: Más obstáculos'
+    challenge: true
   - 
     title: 'Reto: Gravedad mejorada'
+    challenge: true
   - 
     title: 'Reto: Más vidas'
+    challenge: true
+  - 
+    title: What next?
