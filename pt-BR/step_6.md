@@ -66,9 +66,9 @@ Click the flag to test the game.
 
 Add more code to your ball sprite so that clones of it move across all three platforms.
 
-![screenshot](images/dodge-ball-more-motion.png)
+![captura de tela](images/dodge-ball-more-motion.png)
 
-\--- hints \---
+\--- dica \---
 
 \--- hint \---
 
