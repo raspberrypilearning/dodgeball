@@ -1,13 +1,9 @@
-\--- challenge \---
+## Challenge: random balls
 
-## Завдання: Випадові м'ячі
+The balls that your character has to dodge all look the same, and they appear at regular three-second intervals. Can you add code to your game so that the balls:
 
-М'ячі, які ваш персонаж повинен відбивати виглядають однаково, і з'являються кожні 3 секунди. Чи можете ви їх поліпшити, щоб вони:
++ Don't all look the same?
++ Appear after a `random`{:class="block3operators"} amount of time?
++ Are a random size?
 
-+ не виглядали однаково?
-+ з'являються опісля різного періоду часу?
-+ різного розміру?
-
-![скріншот](images/dodge-ball-random.png)
-
-\--- /challenge \---
+![screenshot](images/dodge-ball-random.png)
