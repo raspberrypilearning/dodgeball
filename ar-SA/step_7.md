@@ -1,13 +1,9 @@
-\--- challenge \---
+## Challenge: random balls
 
-## التحدي: الكرات العشوائية
+The balls that your character has to dodge all look the same, and they appear at regular three-second intervals. Can you add code to your game so that the balls:
 
-تبدو كل الكرات التي تتفاداها الشخصية متماثلة، وتظهر دائمًا كل 3 ثوان. هل يمكنك تحسينها، بحيث:
++ Don't all look the same?
++ Appear after a `random`{:class="block3operators"} amount of time?
++ Are a random size?
 
-+ لا تبدو كلها متماثلة؟
-+ تظهر بعد مدة عشوائية من الوقت؟
-+ تكون بأحجام عشوائية؟
-
-![لقطة الشاشة](images/dodge-ball-random.png)
-
-\--- /challenge \---
+![screenshot](images/dodge-ball-random.png)
