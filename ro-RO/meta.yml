@@ -6,35 +6,35 @@ copyedit: false
 title: Ratele  si vanatorii
 description: În acest proiect vei învăța cum să creezi o platformă pentru un joc în care va trebui să te ferești de mingile care se mișcă și să ajungi la sfârșitul nivelului.
 version: 3
-last_tested: 2017-01-01
+last_tested: 2018-10-10
 steps:
   - 
     title: Dodgeball
   - 
     title: Cinematica personajului
   - 
-    title: "Challenge: completing the level"
+    title: "Provocare: completarea nivelului"
     challenge: true
   - 
-    title: Gravitate si sarituri
+    title: Gravitatie si sarituri
   - 
-    title: 'Challenge: improved jumping'
+    title: 'Provocare: sărituri îmbunătățite'
     challenge: true
   - 
     title: Evita mingea
   - 
-    title: 'Challenge: random balls'
+    title: 'Provocare: bile aleatoare'
     challenge: true
   - 
-    title: Laser!
+    title: Lasere!
   - 
-    title: 'Challenge: more obstacles'
+    title: 'Provocarea: Mai multe obstacole'
     challenge: true
   - 
-    title: 'Challenge: improved gravity'
+    title: 'Provocare: îmbunătățirea gravitației'
     challenge: true
   - 
-    title: 'Challenge: more lives'
+    title: 'Provocare: mai multe vieți'
     challenge: true
   - 
-    title: What next?
+    title: Ce urmează?
