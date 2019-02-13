@@ -8,7 +8,7 @@ Add a new sprite to your game and call it `laser`. It should have two costumes: 
 
 ![screenshot](images/dodge-lasers-costume1.png)
 
-![screenshot](images/dodge-lasers-costume1.png)
+![captura de tela](images/dodge-lasers-costume1.png)
 
 \--- /task \---
 
@@ -44,7 +44,7 @@ If you prefer, you can change the code shown above so that the sprite `waits`{:c
 
 Finally, add code to your laser sprite so that the laser sprite broadcasts a 'hit' message when it touches the character sprite.
 
-\--- hints \---
+\--- dica \---
 
 \--- hint \---
 
