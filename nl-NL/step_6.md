@@ -1,10 +1,10 @@
-## Ballen ontwijken
+## Trefballen
 
 Your character can move and jump now, so it's time to add some balls that the character has to avoid.
 
-\--- task \---
+\--- task \----
 
-Create a new ball sprite. You can choose any type of ball you like.
+Maak een nieuwe balsprite. Je kunt elke soort bal kiezen die je leuk vindt.
 
 ![screenshot](images/dodge-balls.png)
 
@@ -18,9 +18,9 @@ Resize the ball sprite so that the character can jump over it. Try making the ch
 
 \--- /task \---
 
-\--- task \---
+\--- task \----
 
-Add this code to your ball sprite:
+Voeg deze code toe aan je balsprite:
 
 ![ball sprite](images/ball_sprite.png)
 
@@ -54,7 +54,7 @@ This code creates a new clone of the ball sprite every three seconds. Each new c
 
 \--- /task \---
 
-\--- task \---
+\--- task \----
 
 Click the flag to test the game.
 
@@ -140,11 +140,11 @@ delete this clone
 
 \--- /task \---
 
-\--- task \---
+\--- task \----
 
 Now add some code blocks to broadcast (send) a message if your character gets hit by a ball!
 
-Add this code to your ball sprite:
+Voeg deze code toe aan je balsprite:
 
 ![ball sprite](images/ball_sprite.png)
 
@@ -173,7 +173,7 @@ Finally, add code blocks to your character sprite to make it move back to its st
 
 \--- /task \---
 
-\--- task \---
+\--- task \----
 
 Test out your code. Check whether the character moves back to the start after touching a ball.
 
