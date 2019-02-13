@@ -1,16 +1,16 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2).
+Aceasta este versiunea **Scratch 3** a proiectului. Există, de asemenea, o versiune de [Scratch 2 a proiectului](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2).
 
 \--- /no-print \---
 
 ## Introducere
 
-You'll learn how to create a platform game in which the player has to dodge moving balls to reach the end of the level.
+Veți învăța cum să creați un joc de platformă în care jucătorul trebuie să evite baloanele în mișcare pentru a ajunge la sfârșitul nivelului.
 
 \--- no-print \---
 
-Click the green flag to start, and then use the arrow keys to move and the <kbd>space</kbd> key to jump.
+Faceți clic pe steagul verde pentru a începe, apoi utilizați tastele săgeată pentru a vă deplasa și tasta <kbd>spațiu</kbd> pentru a sari.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/39740618/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,7 +21,7 @@ Click the green flag to start, and then use the arrow keys to move and the <kbd>
 
 \--- print-only \---
 
-![dodgeball game being played](images/dodgeball-showcase.png)
+![jocul dodgeball fiind jucat](images/dodgeball-showcase.png)
 
 \--- /print-only \---
 
@@ -29,31 +29,19 @@ Click the green flag to start, and then use the arrow keys to move and the <kbd>
 
 * * *
 
-## title: What you will need
+## titlu: Ce veți avea nevoie
 
-### Hardware
+### Dispozitive
 
-+ A computer capable of running Scratch 3
++ Un computer capabil de a rula Scratch 3
 
 ### Software
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/download/))
++ Scratch 3 (fie[online](https://scratch.mit.edu/projects/editor/) fie [offline](https://scratch.mit.edu/download/))
 
-### Downloads
+### Descărcări
 
-You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
-
-\--- /collapse \---
-
-\--- collapse \---
-
-* * *
-
-## title: What you will learn
-
-+ How to use the keyboard to control a sprite
-+ How to use the `if, then, else`{:class="block3control"} Scratch block
-+ How to clone a sprite
+Puteți [găsi descărcări aici](http://rpf.io/p/en/dodgeball-go).
 
 \--- /collapse \---
 
@@ -61,14 +49,26 @@ You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 * * *
 
-## title: Additional notes for educators
+## titlu: Ce veți învăța
+
++ Cum se utilizează tastatura pentru a controla o sprite
++ Cum se folosește `dacă, atunci, altceva`{: class = "block3control"} Blocaj Scratch
++ Cum de a clona un sprite
+
+\--- /collapse \---
+
+\--- collapse \---
+
+* * *
+
+## titlu: note suplimentare pentru educatori
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
+Dacă doriți să printați acest proiect, folosiți[printer-friendly version](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
 
 \--- /no-print \---
 
-If you need the solution to this project, [you can find it here](http://rpf.io/p/en/dodgeball-get).
+Dacă aveți nevoie de soluția la acest proiect, [o puteți găsi aici](http://rpf.io/p/en/dodgeball-get).
 
 \--- /collapse \---
