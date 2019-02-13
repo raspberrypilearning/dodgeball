@@ -1,77 +1,74 @@
+\--- no-print \---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2).
+
+\--- /no-print \---
+
 ## Inleiding
 
-In dit project leer je hoe je een platformgame maakt, waarin je de bewegende ballen moet ontwijken en het level moet halen.
+You'll learn how to create a platform game in which the player has to dodge moving balls to reach the end of the level.
+
+\--- no-print \---
+
+Click the green flag to start, and then use the arrow keys to move and the <kbd>space</kbd> key to jump.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/39740618/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/39740618/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/dodge-final.png">
 </div>
 
-### Aanvullende informatie voor clubleiders
+\--- /no-print \---
 
-Als u dit project wilt afdrukken, gebruik dan de [Printervriendelijke versie](https://projects.raspberrypi.org/en/projects/dodgeball/print).
+\--- print-only \---
 
-## \--- collapse \---
+![dodgeball game being played](images/dodgeball-showcase.png)
 
-## titel: Clubleider notities
+\--- /print-only \---
 
-## Inleiding:
+\--- collapse \---
 
-In dit project leren kinderen een platformgame te maken, gebruikmakend van Scratch-concepten en vaardigheden die zijn opgedaan in eerdere projecten.
+* * *
 
-## Middelen
+## title: What you will need
 
-Voor dit project moet Scratch 2 worden gebruikt. Scratch 2 kan online worden gebruikt op [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) of kan worden gedownload van [jumpto.cc/scratchoff](http://jumpto.cc/scratch-off) en offline worden gebruikt.
+### Hardware
 
-De link 'Projectmaterialen' voor dit project bevat de volgende bronnen:
++ A computer capable of running Scratch 3
 
-##### Clubleider middelen
+### Software
 
-Je kunt een voltooide versie van dit project [online](http://scratch.mit.edu/projects/39740618/#editor)vinden of het kan worden gedownload door op de link 'Projectmaterialen' te klikken voor dit project, dat het volgende bevat:
++ Scratch 3 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/download/))
 
-* Dodgeball.sb2
+### Downloads
 
-##### Projectbronnen
-
-Voor dit project kunnen clubleden gebruik maken van externe bronnen die niet beschikbaar zijn in de Scratch-bibliotheek:
-
-* background.png.
-
-Voor clubleden die geen toegang hebben tot deze projectbronnen, is er een Scratch-project met de externe bronnen vooraf geladen. Dit is online beschikbaar op [jumpto.cc/dodge-resources](http://jumpto.cc/dodge-resources)of in het downloadbare projectmateriaal, dat het volgende bevat:
-
-* DodgeballResources.sb2 
-
-## Leerdoelen
-
-* Dit project bestendigt het leren van eerdere geleerde programmeervaardigheden.
-
-Dit project behandelt elementen uit de volgende onderdelen van het [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
-
-* [Combineer programmeerconstructies om een ​​probleem op te lossen.](https://www.raspberrypi.org/curriculum/programming/builder)
-
-## Uitdagingen
-
-* "Verbeterd springen" - met een extra `als `{: class = "blockcontrol"} -blok om een ​​bug met meerdere springers te repareren;
-* "Willekeurige ballen" - gebruikmakend van het blok`willekeurig`{: class = "blockoperators"} om het uiterlijk van de bal, de grootte en de vertraging tussen klonen te variëren;
-* "Meer obstakels" - extra sprites aan het spel toevoegen;
-* "Verbeterde zwaartekracht" - met een extra `als`{: class = "blockcontrol"} -blok om een ​​bug in de `zwaartekracht`{: class = "blockdata"} te repareren;
-* "Meer levens" - toevoeging van een `levens`{: class = "blockdata"} variabele.
+You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 \--- /collapse \---
 
-## \--- collapse \---
+\--- collapse \---
 
-## titel: Projectmaterialen
+* * *
 
-## Projectbronnen
+## title: What you will learn
 
-* [Online Scratch 2-project met externe bronnen](http://jumpto.cc/dodge-resources)
-* [Downloadbaar Scratch 2-project met externe bronnen](resources/DodgeballResources.sb2)
-* [background.png](resources/background.png)
++ How to use the keyboard to control a sprite
++ How to use the `if, then, else`{:class="block3control"} Scratch block
++ How to clone a sprite
 
-## Clubleider middelen
+\--- /collapse \---
 
-* [Online voltooid Scratch 2-project](http://scratch.mit.edu/projects/39740618/#editor)
-* [Downloadbaar voltooid Scratch 2-project](resources/Dodgeball.sb2)
+\--- collapse \---
+
+* * *
+
+## title: Additional notes for educators
+
+\--- no-print \---
+
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
+
+\--- /no-print \---
+
+If you need the solution to this project, [you can find it here](http://rpf.io/p/en/dodgeball-get).
 
 \--- /collapse \---
