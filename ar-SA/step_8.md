@@ -1,4 +1,4 @@
-## أشعة ليزر!
+## أشعة الليزر!
 
 To your game a little harder to complete, you are going to add lasers!
 
@@ -6,9 +6,9 @@ To your game a little harder to complete, you are going to add lasers!
 
 Add a new sprite to your game and call it `laser`. It should have two costumes: one called 'on', and one called 'off'.
 
-![screenshot](images/dodge-lasers-costume1.png)
+![لقطة الشاشة](images/dodge-lasers-costume1.png)
 
-![screenshot](images/dodge-lasers-costume1.png)
+![لقطة الشاشة](images/dodge-lasers-costume1.png)
 
 \--- /task \---
 
@@ -16,9 +16,9 @@ Add a new sprite to your game and call it `laser`. It should have two costumes: 
 
 Place your new laser sprite between two platforms.
 
-![screenshot](images/dodge-lasers-position.png)
+![لقطة الشاشة](images/dodge-lasers-position.png)
 
-\--- /task \---
+\---/task\---
 
 \--- task \---
 
@@ -50,13 +50,13 @@ Finally, add code to your laser sprite so that the laser sprite broadcasts a 'hi
 
 This code should be very similar to the code you added to your ball sprite.
 
-\--- /hint \---
+\--- hint/ \---
 
 \--- hint \---
 
 Copy the code you add to the ball sprite to make this sprite `broadcast 'hit'`{:class="block3control"} when it is `touching your character`{:class="block3sensing"}.
 
-\--- /hint \---
+\--- hint/ \---
 
 \--- hint \---
 
@@ -73,9 +73,9 @@ forever
 end
 ```
 
-\--- /hint \---
+\--- hint/ \---
 
-\--- /hints \---
+\--- hints/ \---
 
 You don't need to add any extra code to your characters sprite, because the character sprite already knows what to do when it receives the `broadcast 'hit'`{:class="block3control"}!
 
