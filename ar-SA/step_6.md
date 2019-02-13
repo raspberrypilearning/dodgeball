@@ -1,46 +1,180 @@
 ## تفادي الكرات
 
-بعد أن جعلت الشخصية تتحرك في كل مكان، لنضِف بعض الكرات لتتفاداها الشخصية.
+Your character can move and jump now, so it's time to add some balls that the character has to avoid.
 
-+ أنشئ كائن كرة جديد. يمكنك اختيار نوع الكرة الذي يعجبك.
-    
-    ![لقطة الشاشة](images/dodge-balls.png)
+\--- task \---
 
-+ غيِّر حجم الكرة، بحيث تستطيع الشخصية أن تقفز من فوقها. جرِّب القفز من فوق الكرة لاختبار ذلك.
-    
-    ![لقطة الشاشة](images/dodge-ball-resize.png)
+Create a new ball sprite. You can choose any type of ball you like.
 
-+ أضف هذه التعليمات البرمجية إلى الكرة:
-    
-    ![لقطة الشاشة](images/dodge-ball-motion.png)
-    
-    تُنشئ هذه التعليمة البرمجية نسخة جديدة من الكرة كل 3 ثوان. وستتحرك كل نسخة جديدة على المنصة العلوية.
+![screenshot](images/dodge-balls.png)
 
-+ انقر فوق العلم لاختبار ذلك.
-    
-    ![لقطة الشاشة](images/dodge-ball-test.png)
+\--- /task \---
 
-+ أضف تعليمات برمجية أخرى إلى كائن الكرة بحيث يتحرك على كل المنصات الثلاث.
-    
-    ![لقطة الشاشة](images/dodge-ball-more-motion.png)
+\--- task \---
 
-+ وأخيرًا، ستحتاج إلى تعليمة برمجية تعمل عند اصطدام الشخصية بالكرة! أضف هذه التعليمة البرمجية إلى كائن الكرة:
-    
-    ```blocks
-        عندما تبدأ نسخة مني
-    كرر باستمرار 
-      إذا <ملامس لـ [Pico walking v] ؟ > 
-        بث [hit v]
-      end
+Resize the ball sprite so that the character can jump over it. Try making the character jump over the ball to test whether the ball is the right size.
+
+![screenshot](images/dodge-ball-resize.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add this code to your ball sprite:
+
+![ball sprite](images/ball_sprite.png)
+
+```blocks3
+when green flag clicked
+hide
+forever 
+  wait (3) seconds
+  create clone of (myself v)
+end
+```
+
+```blocks3
+when I start as a clone
+go to x: (160) y: (160)
+show
+repeat (22) 
+  change y by (-4)
+end
+repeat (170) 
+  change x by (-2)
+  turn ccw (6) degrees
+end
+repeat (30) 
+  change y by (-4)
+end
+delete this clone
+```
+
+This code creates a new clone of the ball sprite every three seconds. Each new clone moves along the top platform and then drops.
+
+\--- /task \---
+
+\--- task \---
+
+Click the flag to test the game.
+
+![screenshot](images/dodge-ball-test.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add more code to your ball sprite so that clones of it move across all three platforms.
+
+![screenshot](images/dodge-ball-more-motion.png)
+
+\--- hints \---
+
+\--- hint \---
+
+Repeat the code blocks you used to move the ball sprite clone across the first platform. You need to change the `x`{:class="block3motion"}, `y`{:class="block3motion"}, and `repeat`{:class="block3control"} numbers so that the clones follow the platforms correctly.
+
+\--- /hint \---
+
+\--- hint \---
+
+These are the blocks you need. Make sure you add them in the correct order.
+
+![ball sprite](images/ball_sprite.png)
+
+```blocks3
+repeat (170) 
+  change x by (-2)
+  turn ccw (6) degrees
+end
+
+repeat (180) 
+  change x by (2)
+  turn cw (6) degrees
+end
+
+repeat (30) 
+  change y by (-4)
+end
+```
+
+\--- /hint \---
+
+\--- hint \---
+
+The code for your ball sprite clones should look like this:
+
+![ball sprite](images/ball_sprite.png)
+
+```blocks3
+when I start as a clone
+go to x: (160) y: (160)
+show
+repeat (22) 
+  change y by (-4)
+end
+repeat (170) 
+  change x by (-2)
+  turn ccw (6) degrees
+end
+repeat (30) 
+  change y by (-4)
+end
+repeat (180) 
+  change x by (2)
+  turn cw (6) degrees
+end
+repeat (30) 
+  change y by (-4)
+end
+repeat (170) 
+  change x by (-2)
+  turn ccw (6) degrees
+end
+delete this clone
+```
+
+\--- /hint \---
+
+\--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+Now add some code blocks to broadcast (send) a message if your character gets hit by a ball!
+
+Add this code to your ball sprite:
+
+![ball sprite](images/ball_sprite.png)
+
+```blocks3
+    when I start as a clone
+    forever
+        if < touching (Pico walking v)? > then
+            broadcast (hit v)
+        end
     end
-    ```
+```
 
-+ ستحتاج أيضًا إلى إضافة تعليمة برمجية إلى الشخصية لإرجاعها إلى الخلف لتبدأ من حيث اصطدمت:
-    
-    ```blocks
-        عندما تستقبل [hit v]
-    اتجه نحو الاتجاه (90 v)
-    اذهب إلى الموضع س: (-210) ص: (-120)
-    ```
+\--- /task \---
 
-+ اختبر الشخصية و انظر ما إذا الشخصية ترجع إلى الخلف لتبدأ من حيث اصطدمت بالكرة أم لا.
+\--- task \---
+
+Finally, add code blocks to your character sprite to make it move back to its starting position when it receives the `hit` message:
+
+![pico walking sprite](images/pico_walking_sprite.png)
+
+```blocks3
+    when I receive [hit v]
+    point in direction (90)
+    go to x: (-210) y: (-120)
+```
+
+\--- /task \---
+
+\--- task \---
+
+Test out your code. Check whether the character moves back to the start after touching a ball.
+
+\--- /task \---
