@@ -1,77 +1,74 @@
+\--- no-print \---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2).
+
+\--- /no-print \---
+
 ## Introducere
 
-In acest proiect veti invata sa creați o platformă de joc, în care trebuie să evitați mingile în mișcare și să ajungeți la sfarsitul nivelului.
+You'll learn how to create a platform game in which the player has to dodge moving balls to reach the end of the level.
+
+\--- no-print \---
+
+Click the green flag to start, and then use the arrow keys to move and the <kbd>space</kbd> key to jump.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/39740618/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/39740618/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/dodge-final.png">
 </div>
 
-### Informații suplimentare pentru conducătorii e club
+\--- /no-print \---
 
-Dacă doriți să imprimați acest proiect, vă rugăm să folosiți [Versiunea pentru imprimare](https://projects.raspberrypi.org/en/projects/dodgeball/print).
+\--- print-only \---
 
-## \--- restrange\---
+![dodgeball game being played](images/dodgeball-showcase.png)
 
-## titlu: Note pentru conducătorul clubului
+\--- /print-only \---
 
-## Introducere:
+\--- collapse \---
 
-In acest proiect copii vor invata cum sa faca jocuri utilizand concepte si abilitati Scratch care au fost insusite in proiectele anterioare.
+* * *
 
-## Resurse
+## title: What you will need
 
-Pentru acest proiect ar trebui folosit Scratch 2. Scratch 2 poate fi folosit online, la [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) sau poate fi descărcat de la [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) pentru a fi folosit offline.
+### Hardware
 
-Link-ul 'Materiale Necesare' pentru acest proiect contine urmatoarele resurse:
++ A computer capable of running Scratch 3
 
-##### Resusrsele liderului Clubului
+### Software
 
-Puteți găsi o versiune finalizată a acestui proiect [online](http://scratch.mit.edu/projects/39740618/#editor), sau o puteți descărca făcând click pe link-ul „Materiale pentru Proiect”, care conține:
++ Scratch 3 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/download/))
 
-* Fisierul Dodgeball.sb2
+### Downloads
 
-##### Resursele Proiectului
+You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
-Pentru acest proiect, membrii clubului pot utiliza resurse externe ce nu sunt disponibile in librariile Scratch:
+\--- /collapse \---
 
-* background.png.
+\--- collapse \---
 
-Pentru membrii clubului care nu pot accesa resursele proiectului, aici este un proiect Scratch cu resusrsele preincarcate. Acesta este disponibil online la [jumpto.cc/dodge-resources](http://jumpto.cc/dodge-resources), sau in materiale de descarcat, care contin:
+* * *
 
-* DodgeballResources.sb2 
+## title: What you will learn
 
-## Obiectivele exercitiului
++ How to use the keyboard to control a sprite
++ How to use the `if, then, else`{:class="block3control"} Scratch block
++ How to clone a sprite
 
-* Acest proiect consolideaza abilitatile de programare insusite anterior.
+\--- /collapse \---
 
-Acest proiect acopera elemente din urmatoarele domenii [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+\--- collapse \---
 
-* [Combina modalitati de programare ca sa rezolvi o problema.](https://www.raspberrypi.org/curriculum/programming/builder)
+* * *
 
-## Provocări
+## title: Additional notes for educators
 
-* "Imbunatateste sariturile" - folosind aditional blocul `if`{:class="blockcontrol"} pentru a repara bug-ul sariturilor multiple;
-* "Mingi aleatorii" - folosind blocul `random`{:class="blockoperators"} ce variaza aspectul, dimensiunea si intarzierea mingilor intre clone;
-* "Mai multe obstacole" - adăugând dificultate suplimentara jocului;
-* "Gravitatie îmbunătățită" - folosind un bloc suplimentar `if`{:class = "blockcontrol"} pentru a repara bug-ul în `gravity `{:class="blockdata"};
-* "Mai multe vieți" - adăugarea unei variabile `lives`{:class="blockdata"}.
+\--- no-print \---
 
-\--- /restrange \---
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
 
-## \--- restrange\---
+\--- /no-print \---
 
-## titlu: Documentatii proiect
+If you need the solution to this project, [you can find it here](http://rpf.io/p/en/dodgeball-get).
 
-## Resursele proiectului
-
-* [Proiectul Scratch 2 online care conține resurse externe](http://jumpto.cc/dodge-resources)
-* [Proiect Scratch 2 descărcabil care conține resurse externe](resources/DodgeballResources.sb2)
-* [background.png](resources/DodgeballResources.sb2)
-
-## Resursele liderului clubului
-
-* [Resursele liderului de club Online; proiectul Scratch 2 fonalizat](http://scratch.mit.edu/projects/39740618/#editor)
-* [Descarcarea proiectul Scratch 2 finalizat](resources/Dodgeball.sb2)
-
-\--- /restrange \---
+\--- /collapse \---
