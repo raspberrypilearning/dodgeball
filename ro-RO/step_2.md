@@ -1,26 +1,26 @@
 ## Cinematica personajului
 
-Start by creating a character that can move left and right, and can climb up ladders.
+Începeți prin a crea un personaj care se poate deplasa spre stânga și spre dreapta și poate urca pe scări.
 
-\--- task \---
+\--- proba\---
 
-Open the 'Dodgeball' Scratch starter project.
+Deschideți proiectul Starter Scratch "Dodgeball".
 
-**Online:** open the starter project at [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}.
+**Online:** deschideți proiectul starter la [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){: target = "_ blank"}.
 
-**Offline:** download the starter project from [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) and then open it using the offline editor.
+**Offline:** descărcați proiectul de pornire de la [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) și apoi deschideți-l folosind editorul offline.
 
 \--- /task \---
 
-The project contains a backdrop with platforms:
+Proiectul conține un fundal cu platforme:
 
-![dodgeball project background](images/dodge-background.png)
+![fundul proiectului dodgeball](images/dodge-background.png)
 
 \--- task \---
 
-Choose a new sprite as the character the player will control, and add it to your project. It's best if you choose a sprite with multiple costumes, so that you can make it look as though it's walking.
+Alegeți un nou sprite ca personajul pe care playerul îl va controla și adăugați-l în proiect. Cel mai bine este să alegeți un sprite cu mai multe costume, astfel încât să puteți face să pară ca și cum ar merge.
 
-![pick a sprite](images/dodge-characters.png)
+![alege un sprite](images/dodge-characters.png)
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -28,118 +28,118 @@ Choose a new sprite as the character the player will control, and add it to your
 
 \--- task \---
 
-Add code blocks to your character sprite so that the player can use the arrow keys to move the character around. When the player presses the right arrow, the character should point right, move a few steps, and change to the next costume:
+Adăugați blocuri de coduri pentru personajul dvs. sprite astfel încât playerul să poată utiliza tastele săgeți pentru a muta caracterul în jur. Când jucătorul apasă săgeata dreapta, caracterul trebuie să fie îndreptat spre dreapta, să meargă câțiva pași și să se schimbe costumul următor:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![pictori de mers pe jos pico](images/pico_walking_sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (right arrow v) pressed? > then
-        point in direction (90 v)
-        move (3) steps
-        next costume
-    end
-end
+când steagul a dat clic
+pentru totdeauna
+    dacă tasta <(săgeata la dreapta v) a fost apăsată? > apoi
+        punct în direcție (90 v)
+        mișcare (3) trepte
+        costum următor
+    capăt
+capăt
 ```
 
 \--- /task \---
 
-\--- task \---
+\--- proba\---
 
-If your sprite doesn't fit, adjust its size.
+Dacă sprite dvs. nu se încadrează, ajustați dimensiunea sa.
 
-![set sprite size so it fits](images/dodge-sprite-size-annotated.png)
-
-\--- /task \---
-
-\--- task \---
-
-Test out your character by clicking the flag and then holding down the right arrow key. Does your character move to the right? Does your character look like it is walking?
-
-![screenshot](images/dodge-walking.png)
+![setați mărimea sprite astfel încât să se potrivească](images/dodge-sprite-size-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code blocks to the character sprite's `forever`{:class="block3control"} loop so that it walks left if the left arrow key is pressed.
+Testați caracterul dvs. făcând clic pe steag și apoi ținând apăsată tasta săgeată dreapta. Personajul tău se mișcă spre dreapta? Caracterul tău arată ca și cum merge?
 
-\--- hints \---
+![captură de ecran](images/dodge-walking.png)
+
+\--- /task \---
+
+\--- task \---
+
+Adăugați blocuri de coduri pentru buclă de caracter `forțată`{: class = "block3control"} astfel încât să meargă la stânga dacă apăsați tasta săgeată stânga.
+
+\--- sugestii \---
+
+\--- indiciu \---
+
+Pentru ca caracterul dvs. să se poată deplasa spre stânga, va trebui să adăugați o altă blocare `cazul blocului`{: class = "block3control"} în interiorul celei de-a `buclă`{: class = "block3control"}. În acest nou bloc `dacă blocul`{: class = "block3control"}, adăugați un cod pentru a crea caracterul dvs. sprite `mutați`{: class = "block3motion"} în stânga.
+
+\--- / indiciu \---
 
 \--- hint \---
 
-So that your character can move to the left, you'll need to add another `if`{:class="block3control"} block inside the `forever`{:class="block3control"} loop. In this new `if`{:class="block3control"} block, add code to make your character sprite `move`{:class="block3motion"} to the left.
+Copiați codul pe care l-ați creat pentru a face caracterul să meargă spre dreapta. Apoi setați `apăsată tasta`{: class = "block3sensing"} la `la stânga săgeată`{: class = "block3sensing"} și schimbați `direcția`{: class = "block3motion"} la `-90`.
 
-\--- /hint \---
+```blocks3
+dacă apăsați tasta <(săgeata dreapta v)? > apoi
+    punct în direcție (90 v)
+    mișcare (3) trepte
+    costum următor
+capăt
+```
+
+\--- / indiciu \---
 
 \--- hint \---
 
-Copy the code you created to make the character walk to the right. Then set the `key pressed`{:class="block3sensing"} to the `left arrow`{:class="block3sensing"}, and change the `direction`{:class="block3motion"} to `-90`.
+Codul dvs. ar trebui să arate astfel:
+
+![pictori de mers pe jos pico](images/pico_walking_sprite.png)
 
 ```blocks3
-if <key (right arrow v) pressed? > then
-    point in direction (90 v)
-    move (3) steps
-    next costume
-end
+când steagul verde apasat
+pentru totdeauna 
+  dacă <key (right arrow v) pressed?> , apoi 
+    punct în direcția (90 v)
+    mutare (3) pașii
+    costum următor
+  capăt
+  dacă <key (left arrow v) pressed?> atunci 
+    punct în direcția (-90 v)
+    mutare (3) pașii
+    next costum
+  sfârșitul
+sfârșitul
 ```
 
-\--- /hint \---
+\--- / indiciu \---
 
-\--- hint \---
-
-Your code should look like this now:
-
-![pico walking sprite](images/pico_walking_sprite.png)
-
-```blocks3
-when green flag clicked
-forever 
-  if <key (right arrow v) pressed?> then 
-    point in direction (90 v)
-    move (3) steps
-    next costume
-  end
-  if <key (left arrow v) pressed?> then 
-    point in direction (-90 v)
-    move (3) steps
-    next costume
-  end
-end
-```
-
-\--- /hint \---
-
-\--- /hints \---
+\--- / sugestii \---
 
 \--- /task \---
 
-\--- task \---
+\--- proba\---
 
-Test your new code to make sure that it works. Does your character turn upside-down when walking to the left?
+Testați noul cod pentru a vă asigura că funcționează. Personajul tău se răstoarnă când merge la stânga?
 
-![screenshot](images/dodge-upside-down.png)
+![captură de ecran](images/dodge-upside-down.png)
 
-If so, you can fix this by clicking on the **direction** of your character sprite, and then clicking on the left-right arrow.
+Dacă da, puteți rezolva acest lucru făcând clic pe **direcția** din sprite tău caracter, apoi făcând clic pe săgeata stânga-dreapta.
 
-![screenshot](images/dodge-left-right-annotated.png)
+![captură de ecran](images/dodge-left-right-annotated.png)
 
-Or if you prefer, you can also fix the problem by adding this block to the start of your character's script:
+Sau, dacă preferați, puteți remedia problema adăugând acest bloc la începutul scriptului personajului dvs.:
 
 ```blocks3
-set rotation style [left-right v]
+setati modul de rotatie [left-right v]
 ```
 
 \--- /task \---
 
-\--- task \---
+\--- proba\---
 
-To climb a pink ladder, your character sprite should move a few steps upwards on the Stage whenever the up arrow is pressed **and** the character is touching the correct colour.
+Pentru a urca pe o scară roz, personajul dvs. sprite trebuie să se miște cu câțiva pași în sus pe scenă ori de câte ori săgeata în sus este apăsată **și** caracterul atinge culoarea corectă.
 
-Add inside your character's `forever`{:class="block3control"} loop to `change`{:class="block3motion"} the character's `y` (vertical) position `if`{:class="block3control"} the `up arrow is pressed`{:class="block3sensing"} and the character is `touching the colour pink`{:class="block3sensing"}.
+Adăugați în interiorul personajului tău `totdeauna`{: class = "block3control"} bucla la `schimbare`{: class = "block3motion"} personajului `y` (verticală) `dacă este`{: class = "block3control"} `săgeata în sus este apăsată`{: class = "block3sensing"}} iar caracterul este de `atinge culoarea roz`{: class = "block3sensing"}.
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![pictori de mers pe jos pico](images/pico_walking_sprite.png)
 
 ```blocks3
     if < <key (up arrow v) pressed?> and <touching color [#FF69B4]?> > then
@@ -151,8 +151,8 @@ Add inside your character's `forever`{:class="block3control"} loop to `change`{:
 
 \--- task \---
 
-Test your code. Can you make the character climb the pink ladders and get to the end of the level?
+Testați-vă codul. Poți face ca personajul să urce scările roz și să ajungă la sfârșitul nivelului?
 
-![screenshot](images/dodge-test-character.png)
+![captură de ecran](images/dodge-test-character.png)
 
 \--- /task \---
