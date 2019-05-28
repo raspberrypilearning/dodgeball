@@ -68,13 +68,13 @@ Add more code to your ball sprite so that clones of it move across all three pla
 
 ![screenshot](images/dodge-ball-more-motion.png)
 
-\--- hints \---
+\--- pomoć \---
 
 \--- hint \---
 
 Repeat the code blocks you used to move the ball sprite clone across the first platform. You need to change the `x`{:class="block3motion"}, `y`{:class="block3motion"}, and `repeat`{:class="block3control"} numbers so that the clones follow the platforms correctly.
 
-\--- /hint \---
+\--- /pomoć \---
 
 \--- hint \---
 
@@ -98,7 +98,7 @@ repeat (30)
 end
 ```
 
-\--- /hint \---
+\--- /pomoć \---
 
 \--- hint \---
 
@@ -134,9 +134,9 @@ end
 delete this clone
 ```
 
-\--- /hint \---
+\--- /pomoć \---
 
-\--- /hints \---
+\--- /pomoć \---
 
 \--- /task \---
 
