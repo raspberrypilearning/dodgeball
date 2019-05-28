@@ -1,6 +1,6 @@
 ## Trefballen
 
-Your character can move and jump now, so it's time to add some balls that the character has to avoid.
+Je personage kan nu bewegen en springen, dus het is tijd om ballen toe te voegen die het personage moet ontwijken.
 
 \--- task \----
 
@@ -12,7 +12,7 @@ Maak een nieuwe balsprite. Je kunt elke soort bal kiezen die je leuk vindt.
 
 \--- task \---
 
-Resize the ball sprite so that the character can jump over it. Try making the character jump over the ball to test whether the ball is the right size.
+Verklein de balsprite zodat het personage eroverheen kan springen. Probeer het personage over de bal te laten springen om te testen of de bal de juiste maat heeft.
 
 ![screenshot](images/dodge-ball-resize.png)
 
@@ -22,41 +22,41 @@ Resize the ball sprite so that the character can jump over it. Try making the ch
 
 Voeg deze code toe aan je balsprite:
 
-![ball sprite](images/ball_sprite.png)
+![balsprite](images/ball_sprite.png)
 
 ```blocks3
-when green flag clicked
-hide
-forever 
-  wait (3) seconds
-  create clone of (myself v)
+wanneer groene vlag wordt aangeklikt
+verdwijn
+herhaal 
+  wacht (3) seconden
+  maak kloon van (ikzelf v)
 end
 ```
 
 ```blocks3
-when I start as a clone
-go to x: (160) y: (160)
-show
-repeat (22) 
-  change y by (-4)
+wanneer ik als kloon start
+ga naar x: (160) y: (160)
+verschijn
+herhaal (22) 
+  verander y met (-4)
 end
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
+herhaal (170) 
+  verander x met (-2)
+  draai tegen de klok in (6) graden
 end
-repeat (30) 
-  change y by (-4)
+herhaal (30) 
+  verander y met (-4)
 end
-delete this clone
+verwijder deze kloon
 ```
 
-This code creates a new clone of the ball sprite every three seconds. Each new clone moves along the top platform and then drops.
+Deze code maakt om de drie seconden een nieuwe kloon van de balsprite. Elke nieuwe kloon rolt over het bovenste platform en valt vervolgens naar beneden.
 
 \--- /task \---
 
 \--- task \----
 
-Click the flag to test the game.
+Klik op de vlag om het spel te testen.
 
 ![screenshot](images/dodge-ball-test.png)
 
@@ -64,7 +64,7 @@ Click the flag to test the game.
 
 \--- task \---
 
-Add more code to your ball sprite so that clones of it move across all three platforms.
+Voeg meer code toe aan je balsprite, zodat klonen ervan over alle drie platforms bewegen.
 
 ![screenshot](images/dodge-ball-more-motion.png)
 
@@ -72,29 +72,29 @@ Add more code to your ball sprite so that clones of it move across all three pla
 
 \--- hint \---
 
-Repeat the code blocks you used to move the ball sprite clone across the first platform. You need to change the `x`{:class="block3motion"}, `y`{:class="block3motion"}, and `repeat`{:class="block3control"} numbers so that the clones follow the platforms correctly.
+Herhaal de codeblokken die je hebt gebruikt om de balsprite kloon over het eerste platform te bewegen. Je moet de `x` {:class="block3motion"}, `y`{:class="block3motion"}, en het aantal keren dat de `herhaal`{:class="block3control"} moet worden uitgevoerd wijzigen zodat de klonen de platforms correct volgen.
 
 \--- /hint \---
 
 \--- hint \---
 
-These are the blocks you need. Make sure you add them in the correct order.
+Dit zijn de blokken die je nodig hebt. Zorg ervoor dat je ze in de juiste volgorde toevoegt.
 
-![ball sprite](images/ball_sprite.png)
+![balsprite](images/ball_sprite.png)
 
 ```blocks3
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
+herhaal (170) 
+  verander x met (-2)
+  draai tegen de klok in (6) graden
 end
 
-repeat (180) 
-  change x by (2)
-  turn cw (6) degrees
+herhaal (180) 
+  verander x met (2)
+  draai met de klok mee (6) graden
 end
 
-repeat (30) 
-  change y by (-4)
+herhaal (30) 
+  verander y met (-4)
 end
 ```
 
@@ -102,36 +102,36 @@ end
 
 \--- hint \---
 
-The code for your ball sprite clones should look like this:
+De code voor jouw bal sprite klonen zou er zo moeten uitzien:
 
-![ball sprite](images/ball_sprite.png)
+![bal sprite](images/ball_sprite.png)
 
 ```blocks3
-when I start as a clone
-go to x: (160) y: (160)
-show
-repeat (22) 
-  change y by (-4)
+wanneer ik als kloon start
+ga naar x: (160) y: (160)
+verschijn
+herhaal (22) 
+  verander y met (-4)
 end
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
+herhaal (170) 
+  verander x met (-2)
+  draai tegen de klok in (6) graden
 end
-repeat (30) 
-  change y by (-4)
+herhaal (30) 
+  verander y met (-4)
 end
-repeat (180) 
-  change x by (2)
-  turn cw (6) degrees
+herhaal (180) 
+  verander x met (2)
+  draai met de klok mee (6) graden
 end
-repeat (30) 
-  change y by (-4)
+herhaal (30) 
+  verander y met (-4)
 end
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
+herhaal (170) 
+  verander x met (-2)
+  draai tegen de klok in (6) graden
 end
-delete this clone
+verwijder deze kloon
 ```
 
 \--- /hint \---
@@ -142,17 +142,17 @@ delete this clone
 
 \--- task \----
 
-Now add some code blocks to broadcast (send) a message if your character gets hit by a ball!
+Voeg nu een aantal codeblokken toe om een bericht te verzenden als je personage wordt geraakt door een bal!
 
 Voeg deze code toe aan je balsprite:
 
-![ball sprite](images/ball_sprite.png)
+![balsprite](images/ball_sprite.png)
 
 ```blocks3
-    when I start as a clone
-    forever
-        if < touching (Pico walking v)? > then
-            broadcast (hit v)
+    wanneer ik als kloon start
+  herhaal 
+    als < raak ik (Pico loopt v)? > dan
+            zend signaal (raak v)
         end
     end
 ```
@@ -161,20 +161,20 @@ Voeg deze code toe aan je balsprite:
 
 \--- task \---
 
-Finally, add code blocks to your character sprite to make it move back to its starting position when it receives the `hit` message:
+Voeg ten slotte code-blokken toe aan jouw personagesprite om terug te gaan naar de beginpositie wanneer deze de `raak` boodschap ontvangt:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    when I receive [hit v]
-    point in direction (90)
-    go to x: (-210) y: (-120)
+    wanneer ik signaal [raak v] ontvang
+  richt naar (90 v) graden
+  ga naar x: (-210) y: (-120)
 ```
 
 \--- /task \---
 
 \--- task \----
 
-Test out your code. Check whether the character moves back to the start after touching a ball.
+Test je code. Controleer of het personage teruggaat naar de start na het aanraken van een bal.
 
 \--- /task \---
