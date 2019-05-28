@@ -1,12 +1,14 @@
 ## Poruszanie się postacią
 
-Start by creating a character that can move left and right, and can climb up ladders.
+Zacznij od stworzenia postaci która może poruszać się w lewo i w prawo oraz wspinać się po drabinach.
 
 \--- task \---
 
 Open the 'Dodgeball' Scratch starter project.
 
-**Online:** open the starter project at [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}.
+**Online:** otwórz nowy projekt Scratcha na stronie [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}.
+
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
 **Offline:** download the starter project from [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) and then open it using the offline editor.
 
@@ -55,9 +57,9 @@ If your sprite doesn't fit, adjust its size.
 
 \--- task \---
 
-Przetestuj Twoją postać, klikając na flagę i przytrzymując klawisz prawej strzałki. Does your character move to the right? Does your character look like it is walking?
+Test out your character by clicking the flag and then holding down the right arrow key. Does your character move to the right? Does your character look like it is walking?
 
-![zrzut ekranu](images/dodge-walking.png)
+![screenshot](images/dodge-walking.png)
 
 \--- /task \---
 
@@ -65,13 +67,13 @@ Przetestuj Twoją postać, klikając na flagę i przytrzymując klawisz prawej s
 
 Add code blocks to the character sprite's `forever`{:class="block3control"} loop so that it walks left if the left arrow key is pressed.
 
-\--- wskazówka \---
+\--- hints \---
 
 \--- hint \---
 
 So that your character can move to the left, you'll need to add another `if`{:class="block3control"} block inside the `forever`{:class="block3control"} loop. In this new `if`{:class="block3control"} block, add code to make your character sprite `move`{:class="block3motion"} to the left.
 
-\--- /wskazówka \---
+\--- /hint \---
 
 \--- hint \---
 
@@ -111,19 +113,19 @@ end
 
 \--- /hint \---
 
-\--- /wskazówka \---
+\--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Przetestuj Twój nowy kod, by mieć pewność że działa. Czy Twoja postać obraca się do góry nogami idąc w lewo?
+Test your new code to make sure that it works. Does your character turn upside-down when walking to the left?
 
-![zrzut ekranu](images/dodge-upside-down.png)
+![screenshot](images/dodge-upside-down.png)
 
 If so, you can fix this by clicking on the **direction** of your character sprite, and then clicking on the left-right arrow.
 
-![zrzut ekranu](images/dodge-left-right-annotated.png)
+![screenshot](images/dodge-left-right-annotated.png)
 
 Or if you prefer, you can also fix the problem by adding this block to the start of your character's script:
 
@@ -153,6 +155,6 @@ Add inside your character's `forever`{:class="block3control"} loop to `change`{:
 
 Test your code. Can you make the character climb the pink ladders and get to the end of the level?
 
-![zrzut ekranu](images/dodge-test-character.png)
+![screenshot](images/dodge-test-character.png)
 
 \--- /task \---
