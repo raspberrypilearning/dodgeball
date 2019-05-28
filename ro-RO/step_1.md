@@ -13,7 +13,7 @@ Veți învăța cum să creați un joc de platformă în care jucătorul trebuie
 Faceți clic pe steagul verde pentru a începe, apoi utilizați tastele săgeată pentru a vă deplasa și tasta <kbd>spațiu</kbd> pentru a sari.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/39740618/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/251809924/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/dodge-final.png">
 </div>
 
