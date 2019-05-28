@@ -13,7 +13,7 @@ You'll learn how to create a platform game in which the player has to dodge movi
 Click the green flag to start, and then use the arrow keys to move and the <kbd>space</kbd> key to jump.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/39740618/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/251809924/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/dodge-final.png">
 </div>
 
@@ -35,9 +35,9 @@ Click the green flag to start, and then use the arrow keys to move and the <kbd>
 
 + Um computador capaz de executar o Scratch 3
 
-### Programas
+### Software
 
-+ Scratch 3 (ou [ online ](https://scratch.mit.edu/projects/editor/) ou [ off-line ](https://scratch.mit.edu/download/))
++ Scratch 3 ([ online ](https://scratch.mit.edu/projects/editor/) ou [ off-line ](https://scratch.mit.edu/download/))
 
 ### Downloads
 
