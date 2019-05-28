@@ -1,0 +1,40 @@
+---
+hero_image: images/banner.png
+listed: true
+ingredient: false
+copyedit: false
+title: डॉजबॉल
+description: प्लेटफॉर्म गेम बनाएँ, जिसमे आपको हिलती बॉल को पार करके अगले लेवल के अंत तक पहुँचना हो।
+version: 4.0.0
+last_tested: 2018-10-10
+steps:
+  - 
+    title: भूमिका
+  - 
+    title: कैरेक्टर की गति
+  - 
+    title: "चुनौती: लेवल पूरा करना"
+    challenge: true
+  - 
+    title: गुरुत्वाकर्षण और छलांग
+  - 
+    title: 'चुनौती: छलांग में सुधार'
+    challenge: true
+  - 
+    title: डॉजिंग बॉल्स
+  - 
+    title: 'चुनौती: बेतरतीब बॉल'
+    challenge: true
+  - 
+    title: लेज़र!
+  - 
+    title: 'चुनौती: और रुकावटें'
+    challenge: true
+  - 
+    title: 'चुनौती: गुरुत्वाकर्षण में सुधार'
+    challenge: true
+  - 
+    title: 'चुनौती: और जीवन'
+    challenge: true
+  - 
+    title: आगे क्या?
