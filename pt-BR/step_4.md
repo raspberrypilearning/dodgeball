@@ -42,7 +42,7 @@ Add these new code blocks that set `gravity` to a negative number and use the va
 
 Click the flag, and then drag your character to the top of the Stage. O que acontece? Does the gravity work as you expect?
 
-![captura de tela](images/dodge-gravity-drag.png)
+![screenshot](images/dodge-gravity-drag.png)
 
 \--- /task \---
 
@@ -68,7 +68,7 @@ Gravity shouldn't move the character sprite through a platform or a ladder! Add 
 
 Test the game again to see whether gravity works correctly now. Does your character sprite stop falling when it touches a platform or a ladder? Can you make the character walk off the edge of platforms and fall onto the level below?
 
-![captura de tela](images/dodge-gravity-test.png)
+![screenshot](images/dodge-gravity-test.png)
 
 \--- /task \---
 
