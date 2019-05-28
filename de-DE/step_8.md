@@ -1,4 +1,4 @@
-## Lasers!
+## Laser!
 
 To your game a little harder to complete, you are going to add lasers!
 
@@ -8,7 +8,7 @@ Add a new sprite to your game and call it `laser`. It should have two costumes: 
 
 ![screenshot](images/dodge-lasers-costume1.png)
 
-![screenshot](images/dodge-lasers-costume1.png)
+![Screenshot](images/dodge-lasers-costume1.png)
 
 \--- /task \---
 
@@ -16,7 +16,7 @@ Add a new sprite to your game and call it `laser`. It should have two costumes: 
 
 Place your new laser sprite between two platforms.
 
-![screenshot](images/dodge-lasers-position.png)
+![Screenshot](images/dodge-lasers-position.png)
 
 \--- /task \---
 
@@ -75,7 +75,7 @@ end
 
 \--- /hint \---
 
-\--- /hints \---
+\---/hints\---
 
 You don't need to add any extra code to your characters sprite, because the character sprite already knows what to do when it receives the `broadcast 'hit'`{:class="block3control"}!
 
