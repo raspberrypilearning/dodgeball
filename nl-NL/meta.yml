@@ -4,7 +4,7 @@ listed: true
 ingredient: false
 copyedit: false
 title: Trefbal
-description: Maak een platformspel, waarin je de bewegende ballen moet ontwijken en het level moet halen.
+description: Maak een platformspel, waarin je de bewegende ballen moet ontwijken en het level moet halen
 version: 4.0.0
 last_tested: 2018-10-10
 steps:
