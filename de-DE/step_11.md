@@ -1,4 +1,4 @@
-## Challenge: more lives
+## Herausforderung: Mehr Leben
 
 Right now, your character goes back to its starting position when it gets hit. Can you also give the character sprite three `lives`{:class="block3variables"}, and make it lose one life when it gets hit? Here's how your game could work:
 
