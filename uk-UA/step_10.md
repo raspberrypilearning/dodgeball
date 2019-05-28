@@ -6,7 +6,7 @@ There's one other small bug in your game: gravity doesn't pull the character spr
 
 To fix the bug, you first need to give your character sprite new trousers that have a different colour (on **all** costumes).
 
-![screenshot](images/dodge-trousers.png)
+![скріншот](images/dodge-trousers.png)
 
 Then replace this code block:
 
