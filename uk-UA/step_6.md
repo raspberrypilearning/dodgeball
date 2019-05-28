@@ -4,9 +4,9 @@ Your character can move and jump now, so it's time to add some balls that the ch
 
 \--- task \---
 
-Create a new ball sprite. You can choose any type of ball you like.
+Створіть новий спрайт м'яча. Ви можете обрати будь-який вид м'яча.
 
-![screenshot](images/dodge-balls.png)
+![скріншот](images/dodge-balls.png)
 
 \--- /task \---
 
@@ -14,13 +14,13 @@ Create a new ball sprite. You can choose any type of ball you like.
 
 Resize the ball sprite so that the character can jump over it. Try making the character jump over the ball to test whether the ball is the right size.
 
-![screenshot](images/dodge-ball-resize.png)
+![Знімок екрану](images/dodge-ball-resize.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add this code to your ball sprite:
+Додайте цей код до спрайту вашого м'яча:
 
 ![ball sprite](images/ball_sprite.png)
 
@@ -58,7 +58,7 @@ This code creates a new clone of the ball sprite every three seconds. Each new c
 
 Click the flag to test the game.
 
-![screenshot](images/dodge-ball-test.png)
+![скріншот](images/dodge-ball-test.png)
 
 \--- /task \---
 
@@ -66,7 +66,7 @@ Click the flag to test the game.
 
 Add more code to your ball sprite so that clones of it move across all three platforms.
 
-![screenshot](images/dodge-ball-more-motion.png)
+![скріншот](images/dodge-ball-more-motion.png)
 
 \--- hints \---
 
@@ -144,7 +144,7 @@ delete this clone
 
 Now add some code blocks to broadcast (send) a message if your character gets hit by a ball!
 
-Add this code to your ball sprite:
+Додайте цей код до спрайту вашого м'яча:
 
 ![ball sprite](images/ball_sprite.png)
 
