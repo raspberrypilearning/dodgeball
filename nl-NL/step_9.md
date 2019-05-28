@@ -1,4 +1,4 @@
-## Uitdaging: meer hindernissen
+## Uitdaging: meer obstakels
 
 Als je denkt dat je spel nog steeds te gemakkelijk is, kun je er meer obstakels aan toevoegen. De obstakels kunnen alles zijn wat je maar wilt! Hier zijn enkele ideeën:
 
