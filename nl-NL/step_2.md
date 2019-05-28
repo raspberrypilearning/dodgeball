@@ -1,12 +1,14 @@
 ## Voortbeweging personage
 
-Start by creating a character that can move left and right, and can climb up ladders.
+Laten we beginnen met het creëren van een personage dat naar links en rechts kan bewegen, maar ook ladders kan beklimmen.
 
 \--- task \---
 
-Open the 'Dodgeball' Scratch starter project.
+Open het Scratch startersproject 'Dodgeball'.
 
-**Online:** open the starter project at [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}.
+**Online:** open het startersproject op [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_ blank"}.
+
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
 **Offline:** download the starter project from [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) and then open it using the offline editor.
 
@@ -16,7 +18,7 @@ The project contains a backdrop with platforms:
 
 ![dodgeball project background](images/dodge-background.png)
 
-\--- task \----
+\--- task \---
 
 Choose a new sprite as the character the player will control, and add it to your project. It's best if you choose a sprite with multiple costumes, so that you can make it look as though it's walking.
 
@@ -33,19 +35,19 @@ Add code blocks to your character sprite so that the player can use the arrow ke
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (right arrow v) pressed? > then
-        point in direction (90 v)
-        move (3) steps
-        next costume
-    end
+wanneer groene vlag wordt aangeklikt
+herhaal 
+  als <toets (pijltje rechts v) ingedrukt? > dan 
+    richt naar (90 v) graden
+    neem (3) stappen
+    volgend uiterlijk
+  end
 end
 ```
 
 \--- /task \---
 
-\--- task \----
+\--- task \---
 
 If your sprite doesn't fit, adjust its size.
 
@@ -53,15 +55,15 @@ If your sprite doesn't fit, adjust its size.
 
 \--- /task \---
 
-\--- task \----
+\--- task \---
 
-Test je personage door op de vlag te klikken en de toets pijl naar rechts ingedrukt te houden. Does your character move to the right? Does your character look like it is walking?
+Test out your character by clicking the flag and then holding down the right arrow key. Does your character move to the right? Does your character look like it is walking?
 
 ![screenshot](images/dodge-walking.png)
 
 \--- /task \---
 
-\--- task \----
+\--- task \---
 
 Add code blocks to the character sprite's `forever`{:class="block3control"} loop so that it walks left if the left arrow key is pressed.
 
@@ -78,10 +80,10 @@ So that your character can move to the left, you'll need to add another `if`{:cl
 Copy the code you created to make the character walk to the right. Then set the `key pressed`{:class="block3sensing"} to the `left arrow`{:class="block3sensing"}, and change the `direction`{:class="block3motion"} to `-90`.
 
 ```blocks3
-if <key (right arrow v) pressed? > then
-    point in direction (90 v)
-    move (3) steps
-    next costume
+als <toets (pijltje rechts v) ingedrukt? > dan 
+    richt naar (90 v) graden
+    neem (3) stappen
+    volgend uiterlijk
 end
 ```
 
@@ -94,17 +96,17 @@ Your code should look like this now:
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-when green flag clicked
-forever 
-  if <key (right arrow v) pressed?> then 
-    point in direction (90 v)
-    move (3) steps
-    next costume
+wanneer groene vlag wordt aangeklikt
+herhaal 
+  als <key (right arrow v) pressed?> dan 
+    richt naar (90 v) graden
+    neem (3) stappen
+    volgend uiterlijk
   end
-  if <key (left arrow v) pressed?> then 
-    point in direction (-90 v)
-    move (3) steps
-    next costume
+  als <key (left arrow v) pressed?> dan 
+    richt naar (-90 v) graden
+    neem (3) stappen
+    volgend uiterlijk
   end
 end
 ```
@@ -115,9 +117,9 @@ end
 
 \--- /task \---
 
-\--- task \----
+\--- task \---
 
-Test de nieuwe code om te controleren of die werkt. Staat je personage ondersteboven als je naar links loopt?
+Test your new code to make sure that it works. Does your character turn upside-down when walking to the left?
 
 ![screenshot](images/dodge-upside-down.png)
 
@@ -133,7 +135,7 @@ maak draaistijl [links-rechts v]
 
 \--- /task \---
 
-\--- task \----
+\--- task \---
 
 To climb a pink ladder, your character sprite should move a few steps upwards on the Stage whenever the up arrow is pressed **and** the character is touching the correct colour.
 
@@ -142,14 +144,14 @@ Add inside your character's `forever`{:class="block3control"} loop to `change`{:
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    if < <key (up arrow v) pressed?> and <touching color [#FF69B4]?> > then
-        change y by (4)
-    end
+    als < <key (up arrow v) pressed?> en <touching color [#FF69B4]?> > dan
+        verander y met (4)
+end
 ```
 
 \--- /task \---
 
-\--- task \----
+\--- task \---
 
 Test your code. Can you make the character climb the pink ladders and get to the end of the level?
 
