@@ -4,7 +4,7 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /no-print \---
 
-## Introduction
+## Uvod
 
 You'll learn how to create a platform game in which the player has to dodge moving balls to reach the end of the level.
 
@@ -13,7 +13,7 @@ You'll learn how to create a platform game in which the player has to dodge movi
 Click the green flag to start, and then use the arrow keys to move and the <kbd>space</kbd> key to jump.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/39740618/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/251809924/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/dodge-final.png">
 </div>
 
@@ -29,15 +29,15 @@ Click the green flag to start, and then use the arrow keys to move and the <kbd>
 
 * * *
 
-## title: What you will need
+## title: Trebat ćeš
 
-### Hardware
+### Hardver
 
-+ A computer capable of running Scratch 3
++ Računalo koje može pokrenuti Scratch 3
 
-### Software
+### Softver
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/download/))
++ Scratch 3 (za korištenje [online](https://scratch.mit.edu/projects/editor/) ili [offline](https://scratch.mit.edu/download/))
 
 ### Downloads
 
@@ -49,7 +49,7 @@ You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 * * *
 
-## title: What you will learn
+## title: Naučit ćeš
 
 + How to use the keyboard to control a sprite
 + How to use the `if, then, else`{:class="block3control"} Scratch block
@@ -65,7 +65,7 @@ You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
+Ako trebate ispisati ovaj projekt, koristite [printer-friendly version](https://projects.raspberrypi.org/en/projects/dodgeball/print){:Target="_ blank"}.
 
 \--- /no-print \---
 
