@@ -1,4 +1,4 @@
-## Character movement
+## Movimientos del personaje
 
 Start by creating a character that can move left and right, and can climb up ladders.
 
@@ -7,6 +7,8 @@ Start by creating a character that can move left and right, and can climb up lad
 Open the 'Dodgeball' Scratch starter project.
 
 **Online:** open the starter project at [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}.
+
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
 **Offline:** download the starter project from [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) and then open it using the offline editor.
 
