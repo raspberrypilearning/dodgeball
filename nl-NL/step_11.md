@@ -1,7 +1,7 @@
 ## Uitdaging: meer levens
 
-Right now, your character goes back to its starting position when it gets hit. Can you also give the character sprite three `lives`{:class="block3variables"}, and make it lose one life when it gets hit? Het spel zou zo kunnen werken:
+Op dit moment keert je personage terug naar de beginpositie wanneer het geraakt wordt. Kun je de personage sprite drie `levens`{:class="block3variables"} geven en het steeds een leven laten verliezen wanneer het wordt geraakt? Het spel zou zo kunnen werken:
 
-+ The game starts with three lives for the character
-+ Whenever the character gets hit, it loses one life **and** moves back to the start
++ Het spel begint met drie levens voor het personage
++ Wanneer het personage wordt geraakt, verliest het één leven **en** gaat terug naar het begin
 + Als er geen levens meer over zijn, eindigt het spel
