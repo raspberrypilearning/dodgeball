@@ -1,0 +1,40 @@
+---
+hero_image: images/banner.png
+listed: true
+ingredient: false
+copyedit: false
+title: Høvdingebold
+description: I dette projekt skal du lære, hvordan du laver et platformsspil, hvor du skal undgå at blive ramt af boldene og nå til slutningen af niveauet.
+version: 3
+last_tested: 2017-01-01
+steps:
+  - 
+    title: Høvdingebold
+  - 
+    title: Character movement
+  - 
+    title: "Challenge: completing the level"
+    challenge: true
+  - 
+    title: Gravity and jumping
+  - 
+    title: 'Challenge: improved jumping'
+    challenge: true
+  - 
+    title: Dodging balls
+  - 
+    title: 'Challenge: random balls'
+    challenge: true
+  - 
+    title: Lasers!
+  - 
+    title: 'Challenge: more obstacles'
+    challenge: true
+  - 
+    title: 'Challenge: improved gravity'
+    challenge: true
+  - 
+    title: 'Challenge: more lives'
+    challenge: true
+  - 
+    title: What next?
