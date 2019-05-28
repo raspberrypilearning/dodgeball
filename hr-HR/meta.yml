@@ -6,10 +6,10 @@ copyedit: false
 title: Preskakanje lopti
 description: U ovom projektu ćeš naučiti napraviti igru u kojoj igrač treba izbjegavati lopte koje se kreću i stići do kraja nivoa.
 version: 3
-last_tested: 2017-01-01
+last_tested: 2018-10-10
 steps:
   - 
-    title: Preskakanje lopti
+    title: Sretan rođendan
   - 
     title: Character movement
   - 
@@ -28,7 +28,7 @@ steps:
   - 
     title: Lasers!
   - 
-    title: 'Challenge: more obstacles'
+    title: 'Izazov: više prepreka'
     challenge: true
   - 
     title: 'Challenge: improved gravity'
