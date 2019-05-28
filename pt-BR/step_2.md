@@ -8,6 +8,8 @@ Open the 'Dodgeball' Scratch starter project.
 
 **Online:** open the starter project at [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}.
 
+If you have a Scratch account you can make a copy by clicking **Remix**.
+
 **Offline:** download the starter project from [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) and then open it using the offline editor.
 
 \--- /task \---
@@ -55,9 +57,9 @@ If your sprite doesn't fit, adjust its size.
 
 \--- task \---
 
-Teste seu personagem clicando no sinalizador e, em seguida, mantendo pressionada a tecla de seta para a direita. Does your character move to the right? Does your character look like it is walking?
+Test out your character by clicking the flag and then holding down the right arrow key. Does your character move to the right? Does your character look like it is walking?
 
-![captura de tela](images/dodge-walking.png)
+![screenshot](images/dodge-walking.png)
 
 \--- /task \---
 
@@ -65,7 +67,7 @@ Teste seu personagem clicando no sinalizador e, em seguida, mantendo pressionada
 
 Add code blocks to the character sprite's `forever`{:class="block3control"} loop so that it walks left if the left arrow key is pressed.
 
-\--- dica \---
+\--- hints \---
 
 \--- hint \---
 
@@ -117,9 +119,9 @@ end
 
 \--- task \---
 
-Teste seu novo código para ter certeza de que funciona. Seu personagem vira de cabeça para baixo quando caminha para a esquerda?
+Test your new code to make sure that it works. Does your character turn upside-down when walking to the left?
 
-![captura de tela](images/dodge-upside-down.png)
+![screenshot](images/dodge-upside-down.png)
 
 If so, you can fix this by clicking on the **direction** of your character sprite, and then clicking on the left-right arrow.
 
