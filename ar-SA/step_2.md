@@ -8,6 +8,8 @@ Open the 'Dodgeball' Scratch starter project.
 
 **Online:** open the starter project at [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}.
 
+If you have a Scratch account you can make a copy by clicking **Remix**.
+
 **Offline:** download the starter project from [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) and then open it using the offline editor.
 
 \--- /task \---
@@ -55,9 +57,9 @@ If your sprite doesn't fit, adjust its size.
 
 \--- task \---
 
-اختبر الشخصية بالنقر فوق العلم ثم الضغط مطوَّلًا على مفتاح السهم اليمين. Does your character move to the right? Does your character look like it is walking?
+Test out your character by clicking the flag and then holding down the right arrow key. Does your character move to the right? Does your character look like it is walking?
 
-![لقطة الشاشة](images/dodge-walking.png)
+![screenshot](images/dodge-walking.png)
 
 \--- /task \---
 
@@ -71,7 +73,7 @@ Add code blocks to the character sprite's `forever`{:class="block3control"} loop
 
 So that your character can move to the left, you'll need to add another `if`{:class="block3control"} block inside the `forever`{:class="block3control"} loop. In this new `if`{:class="block3control"} block, add code to make your character sprite `move`{:class="block3motion"} to the left.
 
-\--- hint/ \---
+\--- /hint \---
 
 \--- hint \---
 
@@ -85,7 +87,7 @@ if <key (right arrow v) pressed? > then
 end
 ```
 
-\--- hint/ \---
+\--- /hint \---
 
 \--- hint \---
 
@@ -109,21 +111,21 @@ forever
 end
 ```
 
-\--- hint/ \---
+\--- /hint \---
 
-\--- hints/ \---
+\--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-اختبر التعليمة البرمجية الجديدة لتتأكد من أنها تعمل بالشكل المطلوب. هل تنقلب الشخصية عندما تسير ناحية اليسار؟
+Test your new code to make sure that it works. Does your character turn upside-down when walking to the left?
 
-![لقطة الشاشة](images/dodge-upside-down.png)
+![screenshot](images/dodge-upside-down.png)
 
 If so, you can fix this by clicking on the **direction** of your character sprite, and then clicking on the left-right arrow.
 
-![لقطة الشاشة](images/dodge-left-right-annotated.png)
+![screenshot](images/dodge-left-right-annotated.png)
 
 Or if you prefer, you can also fix the problem by adding this block to the start of your character's script:
 
@@ -153,6 +155,6 @@ Add inside your character's `forever`{:class="block3control"} loop to `change`{:
 
 Test your code. Can you make the character climb the pink ladders and get to the end of the level?
 
-![لقطة الشاشة](images/dodge-test-character.png)
+![screenshot](images/dodge-test-character.png)
 
 \--- /task \---
