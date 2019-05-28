@@ -1,23 +1,23 @@
 ## Uitdaging: verbeterde zwaartekracht
 
-There's one other small bug in your game: gravity doesn't pull the character sprite downwards if **any** part of the sprite is touching a blue platform. So even if the sprites head touches a platform, the sprite doesn't fall! You can test this yourself: make your character climb most of the way up a ladder, and then move the character sideways beneath a platform:
+Er is nog een andere kleine fout in het spel: de zwaartekracht trekt je personage niet naar beneden zolang **een** deel ervan een blauw platform raakt. Dus zelfs als het hoofd van de sprite een platform aanraakt, valt de sprite niet! Je kunt dit zelf testen: laat je personage het grootste deel van de ladder beklimmen en verplaats het personage vervolgens zijwaarts onder een platform:
 
 ![screenshot](images/dodge-gravity-bug.png)
 
-To fix the bug, you first need to give your character sprite new trousers that have a different colour (on **all** costumes).
+Om de fout te repareren moet je de personage sprite een nieuwe broek geven die een andere kleur heeft (op **alle** uiterlijken).
 
 ![screenshot](images/dodge-trousers.png)
 
-Then replace this code block:
+Vervang vervolgens dit codeblok:
 
 ```blocks3
-    <raak ik kleur [#0000FF] ?>  - 
+    <raak ik kleur [#0000FF] ?> &gt;
 ```
 
-with this code block:
+door dit codeblok:
 
 ```blocks3
-    <kleur [#00FF00] raakt [#0000FF] ?>  - 
+    < kleur [#00FF00] raakt [#0000FF]? >
 ```
 
-To make sure you've fixed the bug, test the game after you've made these changes!
+Om zeker te zijn dat je de fout hebt opgelost, test je het spel nadat je deze wijzigingen hebt aangebracht!
