@@ -1,19 +1,19 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2).
+To jest wersja projektu korzystająca z **Scratch 3**. Istnieje również [wersja tego projektu dla Scratch 2](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2).
 
 \--- /no-print \---
 
 ## Wprowadzenie
 
-You'll learn how to create a platform game in which the player has to dodge moving balls to reach the end of the level.
+W tym projekcie nauczysz się jak stworzyć grę platformową, w której będziesz musiał unikać poruszających się piłek i ukończyć poziom.
 
 \--- no-print \---
 
 Click the green flag to start, and then use the arrow keys to move and the <kbd>space</kbd> key to jump.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/39740618/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/251809924/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/dodge-final.png">
 </div>
 
@@ -39,7 +39,7 @@ Click the green flag to start, and then use the arrow keys to move and the <kbd>
 
 + Scratch 3 ([online](https://scratch.mit.edu/projects/editor/) lub [offline](https://scratch.mit.edu/download/))
 
-### Downloads
+### Pliki do pobrania
 
 You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
@@ -61,7 +61,7 @@ You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 * * *
 
-## title: Additional notes for educators
+## title: Dodatkowe informacje dla edukatorów
 
 \--- no-print \---
 
