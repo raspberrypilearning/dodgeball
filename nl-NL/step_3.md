@@ -1,5 +1,5 @@
 ## Uitdaging: het level halen
 
-Can you add more code blocks to your character sprite to make the sprite say something `if`{:class="block3control"} it gets to the green door?
+Kun je meer codeblokken aan je personage toevoegen om de sprite iets te laten zeggen `als`{:class="block3control"} het bij de groene deur komt?
 
 ![screenshot](images/dodge-win.png)
