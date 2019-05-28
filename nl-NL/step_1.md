@@ -1,19 +1,19 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2).
+Dit is de **Scratch 3** versie van het project. Er is ook een [Scratch 2 versie van dit project](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2).
 
 \--- /no-print \---
 
 ## Inleiding
 
-You'll learn how to create a platform game in which the player has to dodge moving balls to reach the end of the level.
+Je leert hoe je een platformgame maakt waarin de speler bewegende ballen moet ontwijken om het einde van het level te bereiken.
 
 \--- no-print \---
 
-Click the green flag to start, and then use the arrow keys to move and the <kbd>space</kbd> key to jump.
+Klik om te beginnen op de groene vlag en gebruik vervolgens de pijltjestoetsen om te bewegen en de <kbd>spatiebalk</kbd> om te springen.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/39740618/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/251809924/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/dodge-final.png">
 </div>
 
@@ -21,7 +21,7 @@ Click the green flag to start, and then use the arrow keys to move and the <kbd>
 
 \--- print-only \---
 
-![dodgeball game being played](images/dodgeball-showcase.png)
+![trefbal spel wordt gespeeld](images/dodgeball-showcase.png)
 
 \--- /print-only \---
 
@@ -29,7 +29,7 @@ Click the green flag to start, and then use the arrow keys to move and the <kbd>
 
 * * *
 
-## title: What you will need
+## title: Wat heb je nodig
 
 ### Hardware
 
@@ -41,7 +41,7 @@ Click the green flag to start, and then use the arrow keys to move and the <kbd>
 
 ### Downloads
 
-You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
+Je kunt [de downloads hier vinden](http://rpf.io/p/en/dodgeball-go).
 
 \--- /collapse \---
 
@@ -51,9 +51,9 @@ You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 ## title: Wat ga je leren
 
-+ How to use the keyboard to control a sprite
-+ How to use the `if, then, else`{:class="block3control"} Scratch block
-+ How to clone a sprite
++ Hoe het toetsenbord te gebruiken om een sprite te besturen
++ Hoe gebruik je het `als, dan, anders`{:class="block3control"} Scratch blok
++ Hoe een sprite te klonen
 
 \--- /collapse \---
 
@@ -61,7 +61,7 @@ You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 * * *
 
-## title: Additional notes for educators
+## title: Aanvullende informatie voor docenten
 
 \--- no-print \---
 
@@ -69,6 +69,6 @@ Als je dit project wilt afdrukken, gebruik dan de [ printvriendelijke versie ](h
 
 \--- /no-print \---
 
-If you need the solution to this project, [you can find it here](http://rpf.io/p/en/dodgeball-get).
+Als je de oplossing voor dit project nodig hebt, [kun je die hier vinden](http://rpf.io/p/en/dodgeball-get).
 
 \--- /collapse \---
