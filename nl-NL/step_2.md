@@ -6,23 +6,23 @@ Laten we beginnen met het creëren van een personage dat naar links en rechts ka
 
 Open het Scratch startersproject 'Dodgeball'.
 
-**Online:** open het startersproject op [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_ blank"}.
+**Online** open het start project op [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_ blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Als je een Scratch-account hebt, kun je een kopie maken door op **Remix** te klikken.
 
-**Offline:** download the starter project from [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) and then open it using the offline editor.
+**Offline:** download het startersproject van [rpf.io/p/en/dodgeball-get ](http://rpf.io/p/en/dodgeball-get) en open het vervolgens met behulp van de offline editor.
 
 \--- /task \---
 
-The project contains a backdrop with platforms:
+Het project bevat een achtergrond met platforms:
 
-![dodgeball project background](images/dodge-background.png)
+![trefbal projectachtergrond](images/dodge-background.png)
 
 \--- task \---
 
-Choose a new sprite as the character the player will control, and add it to your project. It's best if you choose a sprite with multiple costumes, so that you can make it look as though it's walking.
+Kies een nieuwe sprite als het personage dat de speler zal besturen en voeg het toe aan je project. Het is beter als je een sprite kiest met meerdere uiterlijken, zodat je het kunt laten lijken alsof het loopt.
 
-![pick a sprite](images/dodge-characters.png)
+![kies een sprite](images/dodge-characters.png)
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -30,7 +30,7 @@ Choose a new sprite as the character the player will control, and add it to your
 
 \--- task \---
 
-Add code blocks to your character sprite so that the player can use the arrow keys to move the character around. When the player presses the right arrow, the character should point right, move a few steps, and change to the next costume:
+Voeg codeblokken toe aan je personage-sprite, zodat de speler de pijltjestoetsen kan gebruiken om het personage te verplaatsen. Wanneer de speler op de pijl naar rechts drukt, wil je dat het personage zich naar rechts richt, een paar stappen maakt en naar het volgende uiterlijk gaat:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -49,15 +49,15 @@ end
 
 \--- task \---
 
-If your sprite doesn't fit, adjust its size.
+Als jouw sprite niet past, pas dan de grootte aan.
 
-![set sprite size so it fits](images/dodge-sprite-size-annotated.png)
+![stel de sprite zo in dat hij past](images/dodge-sprite-size-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-Test out your character by clicking the flag and then holding down the right arrow key. Does your character move to the right? Does your character look like it is walking?
+Test je personage door op de vlag te klikken en de toets pijl naar rechts ingedrukt te houden. Beweegt je personage naar rechts? Lijkt het erop dat je personage loopt?
 
 ![screenshot](images/dodge-walking.png)
 
@@ -65,19 +65,19 @@ Test out your character by clicking the flag and then holding down the right arr
 
 \--- task \---
 
-Add code blocks to the character sprite's `forever`{:class="block3control"} loop so that it walks left if the left arrow key is pressed.
+Voeg code blokken toe aan de personage-sprite's `herhaal`{:class="block3control"} lus zodat het naar links loopt als de pijltjestoets naar links wordt ingedrukt.
 
 \--- hints \---
 
 \--- hint \---
 
-So that your character can move to the left, you'll need to add another `if`{:class="block3control"} block inside the `forever`{:class="block3control"} loop. In this new `if`{:class="block3control"} block, add code to make your character sprite `move`{:class="block3motion"} to the left.
+Om je personage naar links te laten lopen moet je nog een `als`{:class="block3control"} blok toevoegen in je `herhaal`{:class="block3control"} blok. Aan dit nieuwe `als`{:class="block3control"} blok moet je code toevoegen om de sprite naar links`te laten bewegen`{:class="block3motion"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Copy the code you created to make the character walk to the right. Then set the `key pressed`{:class="block3sensing"} to the `left arrow`{:class="block3sensing"}, and change the `direction`{:class="block3motion"} to `-90`.
+Kopieer de code die je hebt gemaakt om het personage naar rechts te laten lopen. Stel vervolgens de `toets ingedrukt`{:class="block3sensing"} in op het `pijltje links`{:class="block3sensing"} en wijzig de `richting`{:class="block3motion"} naar `-90`.
 
 ```blocks3
 als <toets (pijltje rechts v) ingedrukt? > dan 
@@ -91,7 +91,7 @@ end
 
 \--- hint \---
 
-Your code should look like this now:
+Je code zou er als volgt uit moeten zien:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -119,15 +119,15 @@ end
 
 \--- task \---
 
-Test your new code to make sure that it works. Does your character turn upside-down when walking to the left?
+Test de nieuwe code om te controleren of die werkt. Staat je personage ondersteboven als je naar links loopt?
 
 ![screenshot](images/dodge-upside-down.png)
 
-If so, you can fix this by clicking on the **direction** of your character sprite, and then clicking on the left-right arrow.
+Zo ja, dan kun je dit probleem oplossen door in het pictogram van de sprite op de **richting** te klikken en dan de pijl die naar links en rechts wijst selecteren.
 
 ![screenshot](images/dodge-left-right-annotated.png)
 
-Or if you prefer, you can also fix the problem by adding this block to the start of your character's script:
+Of als je dat liever hebt, kun je het probleem ook oplossen door dit blok toe te voegen aan het begin van het script van je personage:
 
 ```blocks3
 maak draaistijl [links-rechts v]
@@ -137,9 +137,9 @@ maak draaistijl [links-rechts v]
 
 \--- task \---
 
-To climb a pink ladder, your character sprite should move a few steps upwards on the Stage whenever the up arrow is pressed **and** the character is touching the correct colour.
+Om een roze ladder te beklimmen, moet het personage een beetje omhoog gaan wanneer het pijltje naar omhoog wordt ingedrukt **en** het personage de juiste kleur aanraakt.
 
-Add inside your character's `forever`{:class="block3control"} loop to `change`{:class="block3motion"} the character's `y` (vertical) position `if`{:class="block3control"} the `up arrow is pressed`{:class="block3sensing"} and the character is `touching the colour pink`{:class="block3sensing"}.
+Voeg deze code toe aan de `herhaal`{:class="block3control"} -lus van je personage om zijn `y` (verticale) positie te `veranderen`{:class="block3motion"} `als`{:class="block3control"} de `pijltjestoets omhoog is ingedrukt`{:class="block3sensing"} en het personage `raakt de roze kleur`{:class="block3sensing"}.
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -153,7 +153,7 @@ end
 
 \--- task \---
 
-Test your code. Can you make the character climb the pink ladders and get to the end of the level?
+Test je code. Kun je ervoor zorgen dat het personage de roze ladders beklimt en naar het einde van het level gaat?
 
 ![screenshot](images/dodge-test-character.png)
 
