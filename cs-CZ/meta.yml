@@ -1,0 +1,40 @@
+---
+hero_image: images/banner.png
+listed: true
+ingredient: false
+copyedit: false
+title: Dodgeball
+description: V tomto projektu se naučíš, jak vytvořit plošinovku, kde se musíš vyhýbat pohybujicím se míčům a dostat se až na konec levelu (úrovně).
+version: 3
+last_tested: 2017-01-01
+steps:
+  - 
+    title: Dodgeball
+  - 
+    title: Character movement
+  - 
+    title: "Challenge: completing the level"
+    challenge: true
+  - 
+    title: Gravity and jumping
+  - 
+    title: 'Challenge: improved jumping'
+    challenge: true
+  - 
+    title: Dodging balls
+  - 
+    title: 'Challenge: random balls'
+    challenge: true
+  - 
+    title: Lasers!
+  - 
+    title: 'Challenge: more obstacles'
+    challenge: true
+  - 
+    title: 'Challenge: improved gravity'
+    challenge: true
+  - 
+    title: 'Challenge: more lives'
+    challenge: true
+  - 
+    title: What next?
