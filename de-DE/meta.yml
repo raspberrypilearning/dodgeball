@@ -6,10 +6,10 @@ copyedit: false
 title: Treffball
 description: In diesem Projekt lernst Du, wie Du ein Plattform-Spiel erstellst, in dem Du sich bewegenden Bällen ausweichen und das Ende des Levels erreichen musst.
 version: 3
-last_tested: 2017-01-01
+last_tested: 2018-10-10
 steps:
   - 
-    title: Einführung
+    title: Einleitung
   - 
     title: Bewegung der Spielfigur
   - 
@@ -28,7 +28,7 @@ steps:
   - 
     title: Laser!
   - 
-    title: 'Herausforderung: Mehr Hindernisse'
+    title: 'Challenge: Noch mehr Hindernisse'
     challenge: true
   - 
     title: 'Herausforderung: Verbesserte Schwerkraft'
@@ -37,4 +37,4 @@ steps:
     title: 'Herausforderung: Mehr Leben'
     challenge: true
   - 
-    title: What next?
+    title: 'Zusatzaufgabe: mehr Stifte'
