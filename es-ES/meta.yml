@@ -6,7 +6,7 @@ copyedit: false
 title: Alón Prisionero
 description: Crea un juego de plataforma en el que tengas que esquivar pelotas y llegar al final del nivel.
 version: 3
-last_tested: 2017-01-01
+last_tested: 2018-10-10
 steps:
   - 
     title: Introducción
@@ -28,7 +28,7 @@ steps:
   - 
     title: '¡Láseres!'
   - 
-    title: 'Reto: Más obstáculos'
+    title: 'Desafío: ¡más obstáculos'
     challenge: true
   - 
     title: 'Reto: Gravedad mejorada'
@@ -37,4 +37,4 @@ steps:
     title: 'Reto: Más vidas'
     challenge: true
   - 
-    title: What next?
+    title: 'Reto: Otro disfraz'
