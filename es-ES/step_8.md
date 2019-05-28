@@ -1,4 +1,4 @@
-## Lasers!
+## ¡Láseres!
 
 To your game a little harder to complete, you are going to add lasers!
 
@@ -6,7 +6,7 @@ To your game a little harder to complete, you are going to add lasers!
 
 Add a new sprite to your game and call it `laser`. It should have two costumes: one called 'on', and one called 'off'.
 
-![screenshot](images/dodge-lasers-costume1.png)
+![captura de pantalla](images/dodge-lasers-costume1.png)
 
 ![screenshot](images/dodge-lasers-costume1.png)
 
@@ -16,7 +16,7 @@ Add a new sprite to your game and call it `laser`. It should have two costumes: 
 
 Place your new laser sprite between two platforms.
 
-![screenshot](images/dodge-lasers-position.png)
+![captura de pantalla](images/dodge-lasers-position.png)
 
 \--- /task \---
 
@@ -44,7 +44,7 @@ If you prefer, you can change the code shown above so that the sprite `waits`{:c
 
 Finally, add code to your laser sprite so that the laser sprite broadcasts a 'hit' message when it touches the character sprite.
 
-\--- hints \---
+\--- consejos \---
 
 \--- hint \---
 
