@@ -1,21 +1,21 @@
 ## Uitdaging: meer hindernissen
 
-If you think your game is still too easy, you can add more obstacles to it. The obstacles can be anything you like! Hier zijn enkele ideeën:
+Als je denkt dat je spel nog steeds te gemakkelijk is, kun je er meer obstakels aan toevoegen. De obstakels kunnen alles zijn wat je maar wilt! Hier zijn enkele ideeën:
 
-+ A dangerous butterfly
++ Een gevaarlijke vlinder
 + Platforms die verschijnen en verdwijnen
 + Vallende tennisballen die moeten worden ontweken
 
 ![screenshot](images/dodge-obstacles.png)
 
-You could even design another backdrop to create the next level. Then add code so that, when your character reaches the green door, the game switches to the new background:
+Je zou zelfs een andere achtergrond kunnen ontwerpen voor het volgende niveau. Voeg vervolgens code toe zodat, wanneer je personage de groene deur bereikt, het spel overschakelt naar de nieuwe achtergrond:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    if <touching color [#00FF00]?> then
-        switch backdrop to (next backdrop v)
-        go to x: (-210) y: (-120)
-        wait (1) seconds
+    als <touching color [#00FF00]?> dan
+        verander achtergrond naar (volgende achtergrond v)
+        ga naar x: (-210) y: (-120)
+        wacht (1) sec.
     end
 ```
