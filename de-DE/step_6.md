@@ -1,4 +1,4 @@
-## Dodging balls
+## Springende Bälle
 
 Your character can move and jump now, so it's time to add some balls that the character has to avoid.
 
@@ -14,7 +14,7 @@ Create a new ball sprite. You can choose any type of ball you like.
 
 Resize the ball sprite so that the character can jump over it. Try making the character jump over the ball to test whether the ball is the right size.
 
-![screenshot](images/dodge-ball-resize.png)
+![Screenshot](images/dodge-ball-resize.png)
 
 \--- /task \---
 
@@ -58,7 +58,7 @@ This code creates a new clone of the ball sprite every three seconds. Each new c
 
 Click the flag to test the game.
 
-![screenshot](images/dodge-ball-test.png)
+![Screenshot](images/dodge-ball-test.png)
 
 \--- /task \---
 
@@ -66,7 +66,7 @@ Click the flag to test the game.
 
 Add more code to your ball sprite so that clones of it move across all three platforms.
 
-![screenshot](images/dodge-ball-more-motion.png)
+![Screenshot](images/dodge-ball-more-motion.png)
 
 \--- hints \---
 
@@ -136,7 +136,7 @@ delete this clone
 
 \--- /hint \---
 
-\--- /hints \---
+\---/hints\---
 
 \--- /task \---
 
