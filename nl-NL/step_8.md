@@ -1,10 +1,10 @@
 ## Lasers!
 
-To your game a little harder to complete, you are going to add lasers!
+Om het een beetje moeilijker te maken je spel te voltooien ga je lasers toevoegen!
 
 \--- task \---
 
-Add a new sprite to your game and call it `laser`. It should have two costumes: one called 'on', and one called 'off'.
+Voeg een nieuwe sprite toe aan je spel en noem hem `laser`. Het moet twee uiterlijken hebben die 'aan' en 'uit' heten.
 
 ![screenshot](images/dodge-lasers-costume1.png)
 
@@ -14,7 +14,7 @@ Add a new sprite to your game and call it `laser`. It should have two costumes: 
 
 \--- task \----
 
-Place your new laser sprite between two platforms.
+Zet je nieuwe laser tussen twee platforms.
 
 ![screenshot](images/dodge-lasers-position.png)
 
@@ -22,53 +22,53 @@ Place your new laser sprite between two platforms.
 
 \--- task \---
 
-Add code to your laser sprite to make it switch between its two costumes.
+Voeg code aan je laser toe, zodat die kan wisselen tussen de twee uiterlijken.
 
 ![laser sprite](images/laser_sprite.png)
 
 ```blocks3
-    when flag clicked
-    forever
-        switch costume to (on v)
-        wait (2) seconds
-        switch costume to (off v)
-        wait (2) seconds
-    end
+    wanneer groene vlag wordt aangeklikt
+  herhaal 
+    verander uiterlijk naar (aan v)
+    wacht (2) sec.
+    verander uiterlijk naar (uit v)
+    wacht (2) sec.
+  end
 ```
 
-If you prefer, you can change the code shown above so that the sprite `waits`{:class="block3control"} a `random`{:class="block3operators"} amount of time between costume changes.
+Als je wilt, kun je de bovenstaande code wijzigen zodat de sprite `wacht`{:class="block3control"} gedurende een `willekeurig`{:class="block3operators"} bepaalde hoeveelheid tijd tussen het wisselen van uiterlijk.
 
 \--- /task \---
 
-\--- taak \---
+\--- task \---
 
-Finally, add code to your laser sprite so that the laser sprite broadcasts a 'hit' message when it touches the character sprite.
+Voeg ten slotte code toe aan de lasersprite zodat deze een signaal 'raak' verstuurt wanneer het de personage sprite raakt.
 
 \--- hints \---
 
 \--- hint \---
 
-This code should be very similar to the code you added to your ball sprite.
+Deze code zal erg lijken op de code die je aan je balsprite hebt toegevoegd.
 
 \--- /hint \---
 
 \--- hint \---
 
-Copy the code you add to the ball sprite to make this sprite `broadcast 'hit'`{:class="block3control"} when it is `touching your character`{:class="block3sensing"}.
+Kopieer de code van de balsprite naar deze sprite om een `zend signaal raak`{:class="block3control"} te laten sturen wanneer een `raak ik het personage `{:class="block3sensing"} plaatsvindt.
 
 \--- /hint \---
 
 \--- hint \---
 
-This is the code you should add:
+Dit is de code die je moet toevoegen:
 
 ![laser sprite](images/laser_sprite.png)
 
 ```blocks3
-when green flag clicked
-forever 
-  if <touching (Pico walking v) ?> then 
-    broadcast (hit v)
+wanneer groene vlag wordt aangeklikt
+herhaal 
+  als <touching (Pico walking v) ?> dan 
+    zend signaal (raak v)
   end
 end
 ```
@@ -77,12 +77,12 @@ end
 
 \--- /hints \---
 
-You don't need to add any extra code to your characters sprite, because the character sprite already knows what to do when it receives the `broadcast 'hit'`{:class="block3control"}!
+Je hoeft geen extra code toe te voegen aan je personage sprite, omdat het personage sprite al weet wat het moet doen wanneer het de `zend signaal 'raak'`{:class="block3control"} ontvangt!
 
 \--- /task \---
 
 \--- task \----
 
-Test out your game to see if you can move the character past the laser. If the laser is too easy or too hard to avoid, change the `wait`{:class="block3control"} times in the code for the laser sprite.
+Test je spel om te zien of je voorbij de laser kunt komen. Als de laser te makkelijk of te moeilijk te vermijden is, verander dan de `wacht`{:class="block3control"}-tijd in de code voor de laser sprite.
 
 \--- /task \---
