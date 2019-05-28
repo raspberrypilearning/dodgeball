@@ -104,7 +104,7 @@ end
 
 De code voor jouw bal sprite klonen zou er zo moeten uitzien:
 
-![bal sprite](images/ball_sprite.png)
+![balsprite](images/ball_sprite.png)
 
 ```blocks3
 wanneer ik als kloon start
