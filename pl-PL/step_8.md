@@ -14,7 +14,7 @@ Add a new sprite to your game and call it `laser`. It should have two costumes: 
 
 \--- task \---
 
-Place your new laser sprite between two platforms.
+Umieść nowy laser pomiędzy dwoma platformami.
 
 ![zrzut ekranu](images/dodge-lasers-position.png)
 
@@ -22,7 +22,7 @@ Place your new laser sprite between two platforms.
 
 \--- task \---
 
-Add code to your laser sprite to make it switch between its two costumes.
+Dodaj kod do lasera, by przełączał się pomiędzy dwoma kostiumami.
 
 ![laser sprite](images/laser_sprite.png)
 
@@ -48,7 +48,7 @@ Finally, add code to your laser sprite so that the laser sprite broadcasts a 'hi
 
 \--- hint \---
 
-This code should be very similar to the code you added to your ball sprite.
+Ten kod powinien być bardzo podobny do kodu który dodałeś do duszka piłki.
 
 \--- /wskazówka \---
 
