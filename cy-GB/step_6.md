@@ -25,29 +25,29 @@ Ychwanega'r côd yma i'r corlun pêl:
 ![corlun pêl](images/ball_sprite.png)
 
 ```blocks3
-when green flag clicked
-hide
-forever 
-  wait (3) seconds
-  create clone of (myself v)
+pan fo'r flag werdd yn cael ei glicio
+cuddio
+am byth 
+  aros (3) eiliad
+  creu clôn o (myself v)
 end
 ```
 
 ```blocks3
-when I start as a clone
-go to x: (160) y: (160)
-show
-repeat (22) 
-  change y by (-4)
+pan rwy'n dechrau fel clôn
+mynd i x: (160) y: (160)
+dangos
+ailadrodd (22) 
+  newid y gan (-4)
 end
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
+ailadrodd (170) 
+  newid x gan (-2)
+  troi (6) gradd i'r chwith
 end
-repeat (30) 
-  change y by (-4)
+ailadrodd (30) 
+  newid y gan (-4)
 end
-delete this clone
+dileu y clôn hw
 ```
 
 Mae’r côd yma yn creu pêl newydd bob 3 eiliad. Mae pob pêl newydd yn symud ar draws top y platfform yna yn disgyn.
@@ -83,18 +83,18 @@ Dyma'r blociau côd rwyt ti eu hangen. Gwna'n siŵr dy fod yn eu hychwanegu yn y
 ![corlun pêl](images/ball_sprite.png)
 
 ```blocks3
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
+ailadrodd (170) 
+  newid x gan (-2)
+  troi (6) gradd i'r chwith
 end
 
-repeat (180) 
-  change x by (2)
-  turn cw (6) degrees
+ailadrodd (180) 
+  newid x gan (2)
+  troi (6) gradd i'r dde
 end
 
-repeat (30) 
-  change y by (-4)
+ailadrodd (30) 
+  newid y gan (-4)
 end
 ```
 
@@ -107,31 +107,31 @@ Fe ddylai'r cloniau pêl edrych fel hyn:
 ![corlun pêl](images/ball_sprite.png)
 
 ```blocks3
-when I start as a clone
-go to x: (160) y: (160)
-show
-repeat (22) 
-  change y by (-4)
+pan rwy'n dechrau fel clôn
+mynd i x: (160) y: (160)
+dangos
+ailadrodd (22) 
+  newid y gan (-4)
 end
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
+ailadrodd (170) 
+  newid x gan (-2)
+  troi (6) gradd i'r chwith
 end
-repeat (30) 
-  change y by (-4)
+ailadrodd (30) 
+  newid y gan (-4)
 end
-repeat (180) 
-  change x by (2)
-  turn cw (6) degrees
+ailadrodd (180) 
+  newid x gan (2)
+  troi (6) gradd i'r dde
 end
-repeat (30) 
-  change y by (-4)
+ailadrodd (30) 
+  newid y gan (-4)
 end
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
+ailadrodd (170) 
+  newid x gan (-2)
+  troi (6) gradd i'r chwith
 end
-delete this clone
+dileu y clôn hwn
 ```
 
 \--- /hint \---
@@ -149,12 +149,14 @@ Ychwanega'r côd yma i'r corlun pêl:
 ![corlun pêl](images/ball_sprite.png)
 
 ```blocks3
-    when I start as a clone
-    forever
-        if < touching (Pico walking v)? > then
-            broadcast (hit v)
-        end
-    end
+    pan rwy'n dechrau fel clôn
+am byth 
+  os yna
+  darlledu (hit v)
+end > then
+darlledu (hit v)
+end
+end
 ```
 
 \--- /task \---
@@ -166,9 +168,9 @@ Yn olaf, ychwanega flociau côd i'r cymeriad fel ei fod yn symud yn ôl i'r man 
 ![corlun cerdded pico](images/pico_walking_sprite.png)
 
 ```blocks3
-    when I receive [hit v]
-    point in direction (90)
-    go to x: (-210) y: (-120)
+    pan rwy'n derbyn [hit v]
+pwyntio i gyfeiriad (90)
+mynd i x: (-210) y: (-120
 ```
 
 \--- /task \---
