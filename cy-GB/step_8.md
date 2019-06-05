@@ -27,13 +27,13 @@ Ychwanega’r côd i dy laser, i wneud iddo newid rhwng y 2 wisg.
 ![corlun laser](images/laser_sprite.png)
 
 ```blocks3
-    when flag clicked
-    forever
-        switch costume to (on v)
-        wait (2) seconds
-        switch costume to (off v)
-        wait (2) seconds
-    end
+    pan fo'r flag werdd yn cael ei glicio
+am byth 
+  newid gwisg i (ymlaen v)
+  aros (2) eiliad
+  newid gwisg i (i ffwrdd v)
+  aros (2) eiliad
+end
 ```
 
 Os oes well gyda ti, mae modd i ti `aros`{:class="block3control"} cyfanswm `ar hap`{:class="block3operators"} o amser rhwng newid gwisg.
@@ -65,10 +65,10 @@ Dyma'r côd sydd angen ei ychwanegu:
 ![corlun laser](images/laser_sprite.png)
 
 ```blocks3
-when green flag clicked
-forever 
-  if <touching (Pico walking v) ?> then 
-    broadcast (hit v)
+pan fo'r flag werdd yn cael ei glicio
+am byth 
+  os <cyffwrdd (Pico walking v) ?> yna 
+    darlledu (hit v)
   end
 end
 ```
