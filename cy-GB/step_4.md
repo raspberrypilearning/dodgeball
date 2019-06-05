@@ -29,11 +29,11 @@ Ychwanega’r bloc côd yma, sydd yn gosod y `disgyrchiant` i rif negatif ac yna
 ![corlun cerdded pico](images/pico_walking_sprite.png)
 
 ```blocks3
-    when flag clicked
-    set [gravity v] to [-4]
-    forever
-        change y by (gravity)
-    end
+    pan fo'r flag werdd yn cael ei glicio
+gosod [disgyrchiant v] i [-4]
+am byth 
+  newid y gan (disgyrchiant)
+end
 ```
 
 \--- /task \---
@@ -53,13 +53,15 @@ Ni ddylai disgyrchiant symud dy gymeriad trwy blatfform neu ysgol! Ychwanega blo
 ![corlun cerdded pico](images/pico_walking_sprite.png)
 
 ```blocks3
-    when flag clicked
-    set [gravity v] to [-4]
-    forever
-        if < not < <touching color [#0000FF]?> or <touching color [#FF69B4]?> > > then
-            change y by (gravity)
-        end
-    end
+    pan fo'r flag werdd yn cael ei glicio
+gosod [disgyrchiant v] i [-4]
+am byth 
+  os <nid <<cyffwrdd lliw [#0000FF] ?> neu <cyffwrdd lliw [#FF69B4] ?>>> yna 
+    newid y gan (disgyrchiant)
+  end
+end
+
+disgyrchiant
 ```
 
 \--- /task \---
@@ -79,10 +81,10 @@ Fe wnawn ni hefyd wneud i dy gymeriad neidio pan mae’r chwareuwr yn gwasgu’r
 ![corlun cerdded pico](images/pico_walking_sprite.png)
 
 ```blocks3
-    when [space v] key pressed
-    repeat (10)
-        change y by (4)
-    end
+    pan fo bysell [space v] wedi ei wasgu
+ailadrodd (10) 
+  newid y gan (4)
+end
 ```
 
 Gan fod disgyrchiant yn gyson yn gwthio dy gymeriad i lawr 4 picsel, mae angen i ti ddewis rhif yn fwy na `4` yn dy floc `newid y gan (4)`{:class="block3motion"}. Newida’r rhif yma tan dy fod yn hapus gyda uchder neidio dy gymeriad.
@@ -108,12 +110,12 @@ Dileua’r côd neidio wnes di ychwanegu i dy gymeriad, a gosod y côd yma yn ei
 ![corlun cerdded pico](images/pico_walking_sprite.png)
 
 ```blocks3
-    when [space v] key pressed
-    set [jump height v] to [8]
-    repeat until < (jump height) = [0] >
-        change y by (jump height)
-        change [jump height v] by (-0.5)
-    end
+    pan fo bysell [space v] wedi ei wasgu
+gosod [uchder neidio v] i [8]
+ailadrodd hyd at <(uchder neidio) = [0]> 
+  newid y gan (uchder neidio)
+  newid [uchder neidio v] gan (-0.5)
+end
 ```
 
 Mae’r côd yma yn symud dy gymeriad fyny wrth 8 picsel, yna 7.5 picsel, yna 7 picsel, ac ati, tan fod dy gymeriad wedi gorffen neidio. Mae hyn yn gwneud i’r neidio edrych yn llawer llyfnach.
