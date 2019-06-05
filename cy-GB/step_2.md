@@ -8,21 +8,21 @@ Agora y prosiect cychwynnol Scratch 'Osgoi'r bêl'.
 
 **Arlein:** agora brosiect Scratch newydd yma [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Os oes ganddot ti gyfrif Scratch galli di wneud copi drwy glicio ar ** Remix **.
 
-**Offline:** download the starter project from [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) and then open it using the offline editor.
+** All-lein: ** lawrlwytha'r prosiect cychwynnol o [ rpf.io/p/en/dodgeball-get ](http://rpf.io/p/en/dodgeball-get) ac yna ei agor gan ddefnyddio'r golygydd all-lein.
 
 \--- /task \---
 
-The project contains a backdrop with platforms:
+Mae'r prosiect yn cynnwys cefndir gyda llwyfannau:
 
-![dodgeball project background](images/dodge-background.png)
+![cefndir prosiect dodgeball](images/dodge-background.png)
 
 \--- task \---
 
-Choose a new sprite as the character the player will control, and add it to your project. It's best if you choose a sprite with multiple costumes, so that you can make it look as though it's walking.
+Dewisa gorlun newydd fel y cymeriad y bydd y chwaraewr yn ei reoli, a'i ychwanegu at eich prosiect. Mae'n well os wyt ti'n dewis corlun gyda gwisgoedd lluosog, fel y galli di wneud iddo edrych fel petai'n cerdded.
 
-![pick a sprite](images/dodge-characters.png)
+![dewis corlun](images/dodge-characters.png)
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -30,18 +30,18 @@ Choose a new sprite as the character the player will control, and add it to your
 
 \--- task \---
 
-Add code blocks to your character sprite so that the player can use the arrow keys to move the character around. When the player presses the right arrow, the character should point right, move a few steps, and change to the next costume:
+Ychwanega flociau côd i dy gymeriad fel bod y chwareuwr yn gallu defnyddio'r bysellau saeth i symud y cymeriad o gwmpas. Pan fydd y chwaraewr yn gwasgu'r saeth dde, dylai'r cymeriad bwyntio i'r dde, symud ychydig o risiau, a newid i'r wisg nesaf:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![corlun cerdded pico](images/pico_walking_sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (right arrow v) pressed? > then
-        point in direction (90 v)
-        move (3) steps
-        next costume
-    end
+pan fo'r flag werdd yn cael ei glicio
+am byth 
+  os <bysell (right arrow v) wedi ei phwyso? > yna 
+    pwyntio i gyfeiriad (90 v)
+    symud (3) cam
+    gwisg nesaf
+  end
 end
 ```
 
@@ -49,41 +49,41 @@ end
 
 \--- task \---
 
-If your sprite doesn't fit, adjust its size.
+Os nad yw'r corlun yn ffitio, addasa ei faint.
 
-![set sprite size so it fits](images/dodge-sprite-size-annotated.png)
-
-\--- /task \---
-
-\--- task \---
-
-Test out your character by clicking the flag and then holding down the right arrow key. Does your character move to the right? Does your character look like it is walking?
-
-![screenshot](images/dodge-walking.png)
+![gosod maint corlun fel ei fod yn ffitio](images/dodge-sprite-size-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code blocks to the character sprite's `forever`{:class="block3control"} loop so that it walks left if the left arrow key is pressed.
+Profa dy gymeriad drwy glicio ar y faner ac yna dal y fysell dde i lawr. Ydy dy gymeriad yn symud i'r dde? Ydy dy gymeriad yn edrych fel ei fod yn cerdded?
+
+![sgrinlun](images/dodge-walking.png)
+
+\--- /task \---
+
+\--- task \---
+
+Ychwanega blociau côd i ddolen `am byth`{:class="block3control"} dy gorlun, fel ei fod yn cerdded i'r chwith pan fo'r saeth chwith yn cael ei gwasgu.
 
 \--- hints \---
 
 \--- hint \---
 
-So that your character can move to the left, you'll need to add another `if`{:class="block3control"} block inside the `forever`{:class="block3control"} loop. In this new `if`{:class="block3control"} block, add code to make your character sprite `move`{:class="block3motion"} to the left.
+Fel bod y cymeriad yn gallu symud i'r chwith, bydd angen ychwanegu bloc arall `os`{:class="block3control"} o fewn y ddolen `am byth`{:class="block3control"}. Yn y bloc newydd `os`{:class="block3control"} ychwanega gôd i wneud i dy gorlun `symud`{:class="block3motion"} i'r chwith.
 
 \--- /hint \---
 
 \--- hint \---
 
-Copy the code you created to make the character walk to the right. Then set the `key pressed`{:class="block3sensing"} to the `left arrow`{:class="block3sensing"}, and change the `direction`{:class="block3motion"} to `-90`.
+Copïa'r côd rwyt ti wedi ei greu i wneud i'r cymeriad gerdded i'r dde. Yna gosoda yr `bysell wedi ei wasgu`{:class="block3sensing"} i'r `chwith`{:class="block3sensing"}, a newid `cyfeiriad`{:class="block3motion"} i `-90`.
 
 ```blocks3
-if <key (right arrow v) pressed? > then
-    point in direction (90 v)
-    move (3) steps
-    next costume
+os <bysell (right arrow v) wedi ei phwyso? > yna 
+  pwyntio i gyfeiriad (90 v)
+  symud (3) cam
+  gwisg nesaf
 end
 ```
 
@@ -91,22 +91,22 @@ end
 
 \--- hint \---
 
-Your code should look like this now:
+Fe ddylai dy gôd edrych fel hyn:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![corlun cerdded pico](images/pico_walking_sprite.png)
 
 ```blocks3
-when green flag clicked
-forever 
-  if <key (right arrow v) pressed?> then 
-    point in direction (90 v)
-    move (3) steps
-    next costume
+pan fo'r flag werdd yn cael ei glicio
+am byth 
+  os <bysell (right arrow v) wedi ei phwyso?> yna 
+    pwyntio i gyfeiriad (90 v)
+    symud (3) cam
+    gwisg nesaf
   end
-  if <key (left arrow v) pressed?> then 
-    point in direction (-90 v)
-    move (3) steps
-    next costume
+  os <bysell (left arrow v) wedi ei phwyso?> yna 
+    pwyntio i gyfeiriad (-90 v)
+    symud (3) cam
+    gwisg nesaf
   end
 end
 ```
@@ -119,42 +119,42 @@ end
 
 \--- task \---
 
-Test your new code to make sure that it works. Does your character turn upside-down when walking to the left?
+Profa dy gôd newydd i sicrhau ei fod yn gweithio. Ydy dy gymeriad yn troi wyneb i waered wrth gerdded i'r chwith?
 
-![screenshot](images/dodge-upside-down.png)
+![sgrinlun](images/dodge-upside-down.png)
 
-If so, you can fix this by clicking on the **direction** of your character sprite, and then clicking on the left-right arrow.
+Os felly, fe alli di drwsio hyn trwy glicio y **cyfeiriad** ar gymeriad dy giplun, ac yn clicio y saeth chwith-dde.
 
-![screenshot](images/dodge-left-right-annotated.png)
+![sgrinlun](images/dodge-left-right-annotated.png)
 
-Or if you prefer, you can also fix the problem by adding this block to the start of your character's script:
+Neu, os oes well gyda ti ychwanegu y bloc yma i ddechrau sgript dy gymeriad:
 
 ```blocks3
-set rotation style [left-right v]
+gosod steil cylchdroi [left-right v]
 ```
 
 \--- /task \---
 
 \--- task \---
 
-To climb a pink ladder, your character sprite should move a few steps upwards on the Stage whenever the up arrow is pressed **and** the character is touching the correct colour.
+I ddringo’r ysgol binc, fe ddylai’r cymeriad symud ychydig yn uwch bob tro mae’r saeth fyny yn cael ei wasgu **ac** mae’n cyffwrdd y lliw cywir.
 
-Add inside your character's `forever`{:class="block3control"} loop to `change`{:class="block3motion"} the character's `y` (vertical) position `if`{:class="block3control"} the `up arrow is pressed`{:class="block3sensing"} and the character is `touching the colour pink`{:class="block3sensing"}.
+Ychwanega o fewn y ddolen `am byth`{:class="block3control"} i `newid`{:class="block3motion"} safle `y` y cymeriad `os`{:class="block3control"} yw `bysell y saeth i fyny wedi ei gwasgu`{:class="block3sensing"} a bod y cymeriad yn `cyffwrdd y lliw pinc`{:class="block3sensing"}.
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![corlun cerdded pico](images/pico_walking_sprite.png)
 
 ```blocks3
-    if < <key (up arrow v) pressed?> and <touching color [#FF69B4]?> > then
-        change y by (4)
-    end
+    os <<bysell (up arrow v) wedi ei phwyso?> a <cyffwrdd lliw [#FF69B4] ?>> yna 
+  newid y gan (4)
+end
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code. Can you make the character climb the pink ladders and get to the end of the level?
+Rhowch brawf ar eich cod. Alli di wneud i'r cymeriad ddringo'r ysgolion pinc a chyrraedd diwedd y lefel?
 
-![screenshot](images/dodge-test-character.png)
+![sgrinlun](images/dodge-test-character.png)
 
 \--- /task \---
