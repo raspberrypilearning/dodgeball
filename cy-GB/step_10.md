@@ -11,13 +11,13 @@ I drwsio hyn, bydd angen i ti roi trowsus lliw gwahanol i dy gymeriad (i **bob**
 Yna newid y bloc côd yma:
 
 ```blocks3
-    < touching color [#0000FF]? >
+    <cyffwrdd lliw [#0000FF] ?> &gt;
 ```
 
 gyda'r bloc côd yma:
 
 ```blocks3
-    < color [#00FF00] is touching [#0000FF]? >
+    <lliw [#00FF00] yn cyffwrdd [#0000FF] ?> &gt;
 ```
 
 Cofia brofi dy gêm i wneud yn siwr ei fod wedi ei drwsio!
