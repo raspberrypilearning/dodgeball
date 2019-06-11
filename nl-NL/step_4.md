@@ -1,33 +1,59 @@
 ## Zwaartekracht en springen
 
-Laten we het personage realistischer laten bewegen door zwaartekracht toe te voegen en het te laten springen.
+Je gaat nu jouw personage realistischer laten bewegen: je gaat zwaartekracht aan je spel toevoegen en het personage de mogelijkheid geven om te springen.
 
-+ Je hebt misschien gemerkt dat je personage van een platform in de lucht kan lopen. Probeer van een platform af te lopen en kijk wat er gebeurt.
-    
-    ![screenshot](images/dodge-no-gravity.png)
+--- task ---
 
-+ Om dit te verhelpen, voegen we zwaartekracht toe aan je spel. Maak een nieuwe variabele met de naam `zwaartekracht`{:class="blockdata"}. Je kunt deze variabele verbergen als je dat wilt.
-    
-    ![screenshot](images/dodge-gravity.png)
+Verplaats in het spel je personage zodat het van een platform afloopt. Zie je dat het in de lege ruimte kan lopen?
 
-+ Voeg dit nieuwe codeblok toe waarin de zwaartekracht een negatief getal krijgt en gebruik dit om de y-coördinaat van het personage steeds weer te veranderen.
-    
-```blocks
-wanneer groene vlag wordt aangeklikt
+![screenshot](images/dodge-no-gravity.png)
+
+--- /task ---
+
+--- task ---
+
+Om dit te verhelpen, voegen we zwaartekracht toe aan je spel. Maak hiervoor een nieuwe variabele met de naam `zwaartekracht`{:class="block3variables"}.
+
+[[[generic-scratch3-add-variable]]]
+
+Je kunt deze variabele verbergen als je dat wilt.
+
+![screenshot](images/dodge-gravity-annotated.png)
+
+--- /task ---
+
+--- task ---
+
+Voeg deze nieuwe codeblokken toe die de `zwaartekracht` instelt op een negatief getal en daarna de waarde `zwaartekracht` gebruikt om de y-coördinaat van je personage herhaaldelijk te veranderen:
+
+![pico walking sprite](images/pico_walking_sprite.png)
+
+```blocks3
+    wanneer groene vlag wordt aangeklikt
 maak [zwaartekracht v] [-4]
 herhaal 
   verander y met (zwaartekracht)
 end
 ```
 
-+ Klik op de vlag en sleep het personage naar de bovenkant van het werkgebied. Wat gebeurt er? Werkt de zwaartekracht zoals je had verwacht?
-    
-    ![screenshot](images/dodge-gravity-drag.png)
+--- /task ---
 
-+ Zwaartekracht zou je personage niet door een platform of een ladder moeten laten gaan! Voeg een `als`{:class="blockcontrol"} -blok toe aan je code zodat de zwaartekracht alleen werkt wanneer je personage in de lucht is. De zwaartekrachtcode zou er nu als volgt uit moeten zien:
-    
-```blocks
-wanneer groene vlag wordt aangeklikt
+--- task ---
+
+Klik op de vlag en sleep het personage naar de bovenkant van het werkgebied. Wat gebeurt er? Werkt de zwaartekracht zoals je had verwacht?
+
+![screenshot](images/dodge-gravity-drag.png)
+
+--- /task ---
+
+--- task ---
+
+Zwaartekracht zou je personage niet door een platform of een ladder moeten laten gaan! Voeg een `als`{:class="block3control"} -blok toe aan je code zodat de zwaartekracht alleen werkt wanneer je personage in de lucht is. De zwaartekrachtcode zou er nu als volgt uit moeten zien:
+
+![pico walking sprite](images/pico_walking_sprite.png)
+
+```blocks3
+    wanneer groene vlag wordt aangeklikt
 maak [zwaartekracht v] [-4]
 herhaal 
   als <niet <<raak ik kleur [#003fff] ?> of <raak ik kleur [#ff00bf] ?>>> dan 
@@ -36,29 +62,53 @@ herhaal
 end
 ```
 
-+ Test de zwaartekracht opnieuw. Stopt het personage als die op een platform of ladder staat? Kun je vanaf de rand van de platforms naar het onderliggende niveau lopen?
-    
-    ![screenshot](images/dodge-gravity-test.png)
+--- /task ---
 
-+ We gaan ook je personage laten springen wanneer de speler op de spatiebalk drukt. Een erg makkelijke manier om dit te doen, is door je personage een paar keer omhoog te bewegen met behulp van deze code:
-    
-```blocks
-wanneer [spatiebalk v] wordt ingedrukt
+--- task ---
+
+Test het spel opnieuw om te zien of de zwaartekracht nu correct werkt. Stopt je personage met vallen wanneer het een platform of een ladder raakt? Kun je het personage van de rand van de platforms laten lopen en op het onderliggende niveau laten vallen?
+
+![screenshot](images/dodge-gravity-test.png)
+
+--- /task ---
+
+--- task ---
+
+Voeg nu code toe om er voor te zorgen dat je personage springt wanneer de speler op de <kbd>spatiebalk</kbd> drukt. Een heel eenvoudige manier om dit te doen is je personage een paar keer omhoog te bewegen:
+
+![pico walking sprite](images/pico_walking_sprite.png)
+
+```blocks3
+    wanneer [spatiebalk v] wordt ingedrukt
 herhaal (10) keer 
   verander y met (4)
 end
 ```
 
-Omdat de zwaartekracht je personage steeds met 4 pixels omlaag duwt, moet je een getal groter dan 4 kiezen in het blok `verander y met (4)`{:class="blockmotion"}. Pas dit getal aan tot je tevreden bent met de hoogte waarmee je personage springt.
+Omdat de zwaartekracht je personage steeds met 4 pixels omlaag duwt, moet je een getal groter dan `4` kiezen in het blok `verander y met (4)`{:class="block3motion"}. Wijzig het nummer totdat je tevreden bent met de hoogte die het personage springt.
 
-+ Als je deze code test, zul je merken dat het wel werkt maar niet erg soepel gaat. Om het springen soepeler te laten lijken, moet je het personage in steeds kleinere stapjes verplaatsen, totdat het niet meer springt.
+--- /task ---
 
-+ Maak daarvoor een andere variabele met de naam `springhoogte`{:class="blockdata"}. Je kunt deze variabele weer verbergen als je dat wilt.
+--- task ---
 
-+ Verwijder de springcode die je aan je personage hebt toegevoegd en vervang die door deze code:
-    
-```blocks
-wanneer [spatiebalk v] wordt ingedrukt
+Test je code. Merk op dat de sprongbeweging niet erg soepel verloopt. Om het springen soepeler te laten lijken, moet je het personage in steeds kleinere stapjes verplaatsen, totdat het niet meer springt.
+
+--- /task ---
+
+--- task ---
+
+Maak hiervoor een andere variabele met de naam `springhoogte`{:class="block3variables"} aan. Je kunt deze variabele weer verbergen als je dat wilt.
+
+--- /task ---
+
+--- task ---
+
+Verwijder de springcode die je aan je personage hebt toegevoegd en vervang die door deze code:
+
+![pico walking sprite](images/pico_walking_sprite.png)
+
+```blocks3
+    wanneer [spatiebalk v] wordt ingedrukt
 maak [springhoogte v] [8]
 herhaal tot <(springhoogte) = [0]> 
   verander y met (springhoogte)
@@ -66,6 +116,14 @@ herhaal tot <(springhoogte) = [0]>
 end
 ```
 
-Deze code verplaatst je personage met 8 pixels, dan met 7,5 pixels, dan 7 pixels, enzovoorts, totdat het personage klaar is met springen. Hierdoor ziet springen er veel soepeler uit.
+Deze code verplaatst je personage omhoog, eerst met 8 pixels, dan met 7,5 pixels, dan 7 pixels, enzovoorts, totdat het personage klaar is met springen. Hierdoor ziet springen er veel soepeler uit.
 
-+ Wijzig de beginwaarde van de `springhoogte`{:class="blockdata"} -variabele en test het tot je tevreden bent met hoe hoog het personage springt.
+--- /task ---
+
+--- task ---
+
+Wijzig de waarde van de `springhoogte`{:class="block3variables"} variabele die vóór de `herhaal`{:class="block3control"}-lus is ingesteld. Test je spel.
+
+Herhaal deze twee stappen totdat je tevreden bent met hoe hoog het personage springt.
+
+--- /task ---
