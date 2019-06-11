@@ -1,13 +1,9 @@
---- challenge ---
-
 ## Uitdaging: willekeurige ballen
 
-De ballen die je personage moet ontwijken, zien er allemaal hetzelfde uit en verschijnen altijd elke 3 seconden. Kun je ze verbeteren, zodat ze:
+De ballen die je personage moet ontwijken lijken allemaal hetzelfde en ze verschijnen steeds om de drie seconden. Kun je code aan je spel toevoegen zodat de ballen:
 
-+ niet allemaal op elkaar lijken?
-+ verschijnen na een willekeurige hoeveelheid tijd?
-+ een willekeurige grootte hebben?
++ Niet allemaal op elkaar lijken?
++ Verschijnen na een `willekeurige`{:class="block3operators"} hoeveelheid tijd?
++ Een willekeurige grootte hebben?
 
 ![screenshot](images/dodge-ball-random.png)
-
---- /challenge ---
