@@ -6,7 +6,7 @@ Dit is de **Scratch 3** versie van het project. Er is ook een [Scratch 2 versie 
 
 ## Inleiding
 
-Je leert hoe je een platformgame maakt waarin de speler bewegende ballen moet ontwijken om het einde van het level te bereiken.
+In dit project leer je hoe je je eigen platformgame maakt waarin de speler bewegende ballen moet ontwijken om het einde van het level te bereiken.
 
 \--- no-print \---
 
