@@ -48,7 +48,7 @@ Klik op de vlag en sleep het personage naar de bovenkant van het werkgebied. Wat
 
 \--- task \----
 
-Zwaartekracht zou je personage niet door een platform of een ladder moeten laten gaan! Voeg een `als`{:class="block3control"} -blok toe aan je code zodat de zwaartekracht alleen werkt wanneer je personage in de lucht is. De zwaartekrachtcode zou er nu als volgt uit moeten zien:
+Zwaartekracht zou je personage niet door een platform of een ladder moeten laten gaan! Voeg een `als`{:class="block3control"} blok toe aan je code zodat de zwaartekracht alleen werkt wanneer je personage in de lucht is. De zwaartekrachtcode zou er nu als volgt uit moeten zien:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
