@@ -67,7 +67,7 @@ Dit is de code die je moet toevoegen:
 ```blocks3
 wanneer groene vlag wordt aangeklikt
 herhaal 
-  als <touching (Pico walking v) ?> dan 
+  als <raak ik (Pico lopend v) ?>  dan 
     zend signaal (raak v)
   end
 end
@@ -83,6 +83,6 @@ Je hoeft geen extra code toe te voegen aan je personage sprite, omdat het person
 
 \--- task \----
 
-Test je spel om te zien of je voorbij de laser kunt komen. Als de laser te makkelijk of te moeilijk te vermijden is, verander dan de `wacht`{:class="block3control"}-tijd in de code voor de laser sprite.
+Test je spel om te zien of je voorbij de laser kunt komen. Als de laser te makkelijk of te moeilijk te vermijden is, verander dan de `wacht`{:class="block3control"}tijd in de code voor de laser sprite.
 
 \--- /task \---
