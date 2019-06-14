@@ -28,8 +28,8 @@ Voeg deze code toe aan je balsprite:
 wanneer groene vlag wordt aangeklikt
 verdwijn
 herhaal 
-  wacht (3) seconden
-  maak kloon van (ikzelf v)
+  wacht (3) sec.
+  maak een kloon van (mijzelf v)
 end
 ```
 
