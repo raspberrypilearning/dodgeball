@@ -98,12 +98,12 @@ Je code zou er als volgt uit moeten zien:
 ```blocks3
 wanneer groene vlag wordt aangeklikt
 herhaal 
-  als <key (right arrow v) pressed?> dan 
+  als <toets (pijltje rechts v) ingedrukt?> dan 
     richt naar (90 v) graden
     neem (3) stappen
     volgend uiterlijk
   end
-  als <key (left arrow v) pressed?> dan 
+  als <toets (pijltje links v) ingedrukt?>  dan 
     richt naar (-90 v) graden
     neem (3) stappen
     volgend uiterlijk
@@ -144,7 +144,7 @@ Voeg deze code toe aan de `herhaal`{:class="block3control"} -lus van je personag
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    als < <key (up arrow v) pressed?> en <touching color [#FF69B4]?> > dan
+    als < <toets (pijltje omhoog v) ingedrukt?> en <raak ik kleur [#FF69B4]?> > dan
         verander y met (4)
 end
 ```
