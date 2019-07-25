@@ -6,9 +6,9 @@ Start by creating a character that can move left and right, and can climb up lad
 
 Open the 'Dodgeball' Scratch starter project.
 
-**Online:** open the starter project at [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}.
+** Online: ** abra o projeto inicial em [ rpf.io/dodgeball-on ](http://rpf.io/dodgeball-on) {: target = "_ blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Se você tiver uma conta do Scratch, pode fazer uma cópia clicando em ** Remix **.
 
 **Offline:** download the starter project from [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) and then open it using the offline editor.
 
@@ -57,7 +57,7 @@ If your sprite doesn't fit, adjust its size.
 
 \--- task \---
 
-Test out your character by clicking the flag and then holding down the right arrow key. Does your character move to the right? Does your character look like it is walking?
+Teste seu personagem clicando no sinalizador e, em seguida, mantendo pressionada a tecla de seta para a direita. Does your character move to the right? Does your character look like it is walking?
 
 ![screenshot](images/dodge-walking.png)
 
@@ -67,7 +67,7 @@ Test out your character by clicking the flag and then holding down the right arr
 
 Add code blocks to the character sprite's `forever`{:class="block3control"} loop so that it walks left if the left arrow key is pressed.
 
-\--- hints \---
+\--- dica \---
 
 \--- hint \---
 
@@ -119,7 +119,7 @@ end
 
 \--- task \---
 
-Test your new code to make sure that it works. Does your character turn upside-down when walking to the left?
+Teste seu novo código para ter certeza de que funciona. Seu personagem vira de cabeça para baixo quando caminha para a esquerda?
 
 ![screenshot](images/dodge-upside-down.png)
 
