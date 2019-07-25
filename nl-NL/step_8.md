@@ -12,7 +12,7 @@ Voeg een nieuwe sprite toe aan je spel en noem hem `laser`. Het moet twee uiterl
 
 \--- /task \---
 
-\--- task \----
+\--- task \---
 
 Zet je nieuwe laser tussen twee platforms.
 
@@ -33,7 +33,7 @@ Voeg code aan je laser toe, zodat die kan wisselen tussen de twee uiterlijken.
     wacht (2) sec.
     verander uiterlijk naar (uit v)
     wacht (2) sec.
-  end
+einde
 ```
 
 Als je wilt, kun je de bovenstaande code wijzigen zodat de sprite `wacht`{:class="block3control"} gedurende een `willekeurig`{:class="block3operators"} bepaalde hoeveelheid tijd tussen het wisselen van uiterlijk.
@@ -69,8 +69,8 @@ wanneer groene vlag wordt aangeklikt
 herhaal 
   als <raak ik (Pico lopend v) ?>  dan 
     zend signaal (raak v)
-  end
-end
+  einde
+einde
 ```
 
 \--- /hint \---
@@ -81,7 +81,7 @@ Je hoeft geen extra code toe te voegen aan je personage sprite, omdat het person
 
 \--- /task \---
 
-\--- task \----
+\--- task \---
 
 Test je spel om te zien of je voorbij de laser kunt komen. Als de laser te makkelijk of te moeilijk te vermijden is, verander dan de `wacht`{:class="block3control"}tijd in de code voor de laser sprite.
 
