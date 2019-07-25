@@ -8,11 +8,11 @@ Deschideți proiectul Starter Scratch "Dodgeball".
 
 **Online:** deschideți proiectul starter la [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){: target = "_ blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Dacă ai un cont Scratch, poți să creezi o copie dând click pe **Remix**.
 
 **Offline:** download the starter project from [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) and then open it using the offline editor.
 
-\--- /task \---
+\--- /proba\---
 
 The project contains a backdrop with platforms:
 
@@ -57,9 +57,9 @@ If your sprite doesn't fit, adjust its size.
 
 \--- task \---
 
-Test out your character by clicking the flag and then holding down the right arrow key. Does your character move to the right? Does your character look like it is walking?
+Testați caracterul dvs. făcând clic pe steag și apoi ținând apăsată tasta săgeată dreapta. Does your character move to the right? Does your character look like it is walking?
 
-![screenshot](images/dodge-walking.png)
+![captură de ecran](images/dodge-walking.png)
 
 \--- /task \---
 
@@ -67,15 +67,15 @@ Test out your character by clicking the flag and then holding down the right arr
 
 Add code blocks to the character sprite's `forever`{:class="block3control"} loop so that it walks left if the left arrow key is pressed.
 
-\--- hints \---
+\--- sugestii \---
 
-\--- hint \---
+\--- indiciu \---
 
 So that your character can move to the left, you'll need to add another `if`{:class="block3control"} block inside the `forever`{:class="block3control"} loop. In this new `if`{:class="block3control"} block, add code to make your character sprite `move`{:class="block3motion"} to the left.
 
-\--- /hint \---
+\--- / indiciu \---
 
-\--- hint \---
+\--- indiciu \---
 
 Copy the code you created to make the character walk to the right. Then set the `key pressed`{:class="block3sensing"} to the `left arrow`{:class="block3sensing"}, and change the `direction`{:class="block3motion"} to `-90`.
 
@@ -87,9 +87,9 @@ dacă apăsați tasta <(săgeata dreapta v)? > apoi
 capăt
 ```
 
-\--- /hint \---
+\--- / indiciu \---
 
-\--- hint \---
+\--- indiciu \---
 
 Your code should look like this now:
 
@@ -111,21 +111,21 @@ pentru totdeauna
 sfârșitul
 ```
 
-\--- /hint \---
+\--- / indiciu \---
 
-\--- /hints \---
+\--- / sugestii \---
 
 \--- /task \---
 
 \--- task \---
 
-Test your new code to make sure that it works. Does your character turn upside-down when walking to the left?
+Testați noul cod pentru a vă asigura că funcționează. Personajul tău se răstoarnă când merge la stânga?
 
-![screenshot](images/dodge-upside-down.png)
+![captură de ecran](images/dodge-upside-down.png)
 
 If so, you can fix this by clicking on the **direction** of your character sprite, and then clicking on the left-right arrow.
 
-![screenshot](images/dodge-left-right-annotated.png)
+![captură de ecran](images/dodge-left-right-annotated.png)
 
 Or if you prefer, you can also fix the problem by adding this block to the start of your character's script:
 
@@ -155,6 +155,6 @@ Add inside your character's `forever`{:class="block3control"} loop to `change`{:
 
 Test your code. Can you make the character climb the pink ladders and get to the end of the level?
 
-![screenshot](images/dodge-test-character.png)
+![captură de ecran](images/dodge-test-character.png)
 
 \--- /task \---
