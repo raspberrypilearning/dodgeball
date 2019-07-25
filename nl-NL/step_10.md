@@ -11,7 +11,7 @@ Om de fout te repareren moet je de personage sprite een nieuwe broek geven die e
 Vervang vervolgens dit codeblok:
 
 ```blocks3
-    <raak ik kleur [#0000FF] ?> &gt;
+    < raak ik kleur [#0000FF]? >
 ```
 
 door dit codeblok:
