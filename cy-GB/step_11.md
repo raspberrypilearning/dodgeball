@@ -1,13 +1,7 @@
---- challenge ---
-## Her: Mwy o fywydau 
+## Her: mwy o fywydau
 
-Wyt ti'n gallu rhoi 3 'bywyd' {.blockdata} i dy chwareuwr, yn lle eu hanfon nhw nol i'r dechrau bob tro? Dyma sut ddylai'r gêm weithio:
+Ar hyn o bryd, mae dy gymeriad yn mynd yn ôl i'r man cychwyn bob tro mae'n cael ei daro. Wyt ti’n gallu rhoi 3 `bywyd`{:class="block3variables"} i dy chwareuwr, yn lle eu hanfon nhw nol i’r dechrau bob tro? Dyma sut all dy gêm weithio:
 
-+ Bydd dy chwareuwr yn dechrau gyda 3 bywyd: 
-+ Pryd bynnag fydd dy chwareuwr yn cael ei daro, bydd yn colli un bywyd ac yn mynd nôl i'r dechrau; 
-+ Os nad oes unrhyw fywydau ar ôl, bydd y gêm yn dod i ben. 
-
-
-
-
---- /challenge ---
++ Mae'r gêm yn dechrau gyda thri bywyd i'r cymeriad
++ Pryd bynnag fydd dy chwareuwr yn cael ei daro, bydd yn colli un bywyd **ac** yn mynd nôl i’r dechrau
++ Os nad oes bywydau ar ôl, daw'r gêm i ben
