@@ -65,10 +65,10 @@ Je kunt [de downloads hier vinden](http://rpf.io/p/en/dodgeball-go).
 
 \--- no-print \---
 
-Als je dit project wilt afdrukken, gebruik dan de [ printvriendelijke versie ](https://projects.raspberrypi.org/en/projects/dodgeball/print) {:target="_ blank"}.
+Als je dit project wilt afdrukken, gebruik dan de [ printervriendelijke versie ](https://projects.raspberrypi.org/en/projects/dodgeball/print) {:target="_ blank"}.
 
 \--- /no-print \---
 
-Als je de oplossing voor dit project nodig hebt, [kun je die hier vinden](http://rpf.io/p/en/dodgeball-get).
+You can find the [completed project here](http://rpf.io/p/en/dodgeball-get).
 
 \--- /collapse \---
