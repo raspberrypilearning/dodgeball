@@ -10,7 +10,7 @@ In the game, move your character so that it walks off a platform. Do you see tha
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
 To fix this, add gravity to your game. To do this, create a new variable called `gravity`{:class="block3variables"}.
 
