@@ -11,4 +11,6 @@ Rho gynnig ar y [Gêm Ymennydd](https://projects.raspberrypi.org/cy-GB/projects/
 
 --- /no-print ---
 
---- print-only --- ![Brain Game](images/brain-final.png) --- /print-only ---
+--- print-only --- 
+![Brain Game](images/brain-final.png) 
+--- /print-only ---
