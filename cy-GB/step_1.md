@@ -69,6 +69,6 @@ Os oes angen i chi argraffu y prosiect, defnyddiwch [fersiwn i'w argraffu](https
 
 \--- /no-print \---
 
-Os ydych chi angen yr ateb i'r prosiect hwn, gallwch ddod o hyd iddo [yma ](http://rpf.io/p/en/dodgeball-get).
+You can find the [completed project here](http://rpf.io/p/en/dodgeball-get).
 
 \--- /collapse \---
