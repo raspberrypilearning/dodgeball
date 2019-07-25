@@ -1,21 +1,21 @@
 ## Reto: Más obstáculos
 
-If you think your game is still too easy, you can add more obstacles to it. The obstacles can be anything you like! Aquí tienes algunas sugerencias:
+Si crees que tu juego es demasiado fácil, puedes agregarle más obstáculos. ¡Los obstáculos pueden ser lo que quieras! Aquí tienes algunas sugerencias:
 
-+ A dangerous butterfly
-+ Platforms that appear and disappear
-+ Falling tennis balls that must be avoided
++ Una mariposa peligrosa
++ Plataformas que aparecen y desaparecen.
++ Pelotas de tenis en caída que deben evitarse.
 
 ![captura de pantalla](images/dodge-obstacles.png)
 
-You could even design another backdrop to create the next level. Then add code so that, when your character reaches the green door, the game switches to the new background:
+Incluso podrías diseñar otro fondo para crear el siguiente nivel. Luego agrega código para que, cuando tu personaje llegue a la puerta verde, el juego cambie al nuevo fondo:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![pico caminando sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    if <touching color [#00FF00]?> then
-        switch backdrop to (next backdrop v)
-        go to x: (-210) y: (-120)
-        wait (1) seconds
-    end
+    si <touching color [#00FF00]?> entonces
+        cambia el telón de fondo a (el siguiente telón de fondo v)
+        va a x: (-210) y: (-120)
+        espera (1) segundos
+    fin
 ```
