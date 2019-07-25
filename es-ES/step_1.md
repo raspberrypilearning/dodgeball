@@ -6,11 +6,11 @@ Esta es una versión de **Scratch 3** del proyecto. También hay una [versión d
 
 ## Introducción
 
-You'll learn how to create a platform game in which the player has to dodge moving balls to reach the end of the level.
+Aprenderás cómo crear un juego de plataformas en el que el jugador tenga que esquivar las bolas en movimiento para llegar al final del nivel.
 
 \--- no-print \---
 
-Click the green flag to start, and then use the arrow keys to move and the <kbd>space</kbd> key to jump.
+Haga clic en la bandera verde para comenzar, y luego use las teclas de flecha para moverse y la tecla <kbd>espacio</kbd> para saltar.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/251809924/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,7 +21,7 @@ Click the green flag to start, and then use the arrow keys to move and the <kbd>
 
 \--- print-only \---
 
-![dodgeball game being played](images/dodgeball-showcase.png)
+![juego de dodgeball siendo jugado](images/dodgeball-showcase.png)
 
 \--- /print-only \---
 
@@ -41,7 +41,7 @@ Click the green flag to start, and then use the arrow keys to move and the <kbd>
 
 ### Descargas
 
-You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
+Puede [encontrar las descargas aquí](http://rpf.io/p/en/dodgeball-go).
 
 \--- /collapse \---
 
@@ -51,9 +51,9 @@ You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 ## title: Lo que vas a aprender
 
-+ How to use the keyboard to control a sprite
-+ How to use the `if, then, else`{:class="block3control"} Scratch block
-+ How to clone a sprite
++ Cómo utilizar el teclado para controlar un sprite.
++ Cómo usar el `si, entonces, de lo contrario`{: class = "block3control"} Scratch block
++ Cómo clonar un sprite
 
 \--- /collapse \---
 
@@ -61,7 +61,7 @@ You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 * * *
 
-## title: Additional notes for educators
+## Título: Notas adicionales para educadores.
 
 \--- no-print \---
 
@@ -69,6 +69,6 @@ Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://pro
 
 \--- /no-print \---
 
-If you need the solution to this project, [you can find it here](http://rpf.io/p/en/dodgeball-get).
+You can find the [completed project here](http://rpf.io/p/en/dodgeball-get).
 
 \--- /collapse \---
