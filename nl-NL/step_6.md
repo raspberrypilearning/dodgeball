@@ -2,7 +2,7 @@
 
 Je personage kan nu bewegen en springen, dus het is tijd om ballen toe te voegen die het personage moet ontwijken.
 
-\--- task \----
+\--- task \---
 
 Maak een nieuwe balsprite. Je kunt elke soort bal kiezen die je leuk vindt.
 
@@ -18,7 +18,7 @@ Verklein de balsprite zodat het personage eroverheen kan springen. Probeer het p
 
 \--- /task \---
 
-\--- task \----
+\--- task \---
 
 Voeg deze code toe aan je balsprite:
 
@@ -28,9 +28,9 @@ Voeg deze code toe aan je balsprite:
 wanneer groene vlag wordt aangeklikt
 verdwijn
 herhaal 
-  wacht (3) sec.
-  maak een kloon van (mijzelf v)
-end
+  wacht (3) seconden
+  maak kloon van (mijzelf v)
+einde
 ```
 
 ```blocks3
@@ -39,14 +39,14 @@ ga naar x: (160) y: (160)
 verschijn
 herhaal (22) 
   verander y met (-4)
-end
+einde
 herhaal (170) 
   verander x met (-2)
   draai tegen de klok in (6) graden
-end
+einde
 herhaal (30) 
   verander y met (-4)
-end
+einde
 verwijder deze kloon
 ```
 
@@ -54,7 +54,7 @@ Deze code maakt om de drie seconden een nieuwe kloon van de balsprite. Elke nieu
 
 \--- /task \---
 
-\--- task \----
+\--- task \---
 
 Klik op de vlag om het spel te testen.
 
@@ -86,16 +86,16 @@ Dit zijn de blokken die je nodig hebt. Zorg ervoor dat je ze in de juiste volgor
 herhaal (170) 
   verander x met (-2)
   draai tegen de klok in (6) graden
-end
+einde
 
 herhaal (180) 
   verander x met (2)
   draai met de klok mee (6) graden
-end
+einde
 
 herhaal (30) 
   verander y met (-4)
-end
+einde
 ```
 
 \--- /hint \---
@@ -112,25 +112,25 @@ ga naar x: (160) y: (160)
 verschijn
 herhaal (22) 
   verander y met (-4)
-end
+einde
 herhaal (170) 
   verander x met (-2)
   draai tegen de klok in (6) graden
-end
+einde
 herhaal (30) 
   verander y met (-4)
-end
+einde
 herhaal (180) 
   verander x met (2)
   draai met de klok mee (6) graden
-end
+einde
 herhaal (30) 
   verander y met (-4)
-end
+einde
 herhaal (170) 
   verander x met (-2)
   draai tegen de klok in (6) graden
-end
+einde
 verwijder deze kloon
 ```
 
@@ -140,7 +140,7 @@ verwijder deze kloon
 
 \--- /task \---
 
-\--- task \----
+\--- task \---
 
 Voeg nu een aantal codeblokken toe om een bericht te verzenden als je personage wordt geraakt door een bal!
 
@@ -153,8 +153,8 @@ Voeg deze code toe aan je balsprite:
   herhaal 
     als < raak ik (Pico loopt v)? > dan
             zend signaal (raak v)
-        end
-    end
+        einde
+    einde
 ```
 
 \--- /task \---
@@ -173,7 +173,7 @@ Voeg ten slotte code-blokken toe aan jouw personagesprite om terug te gaan naar 
 
 \--- /task \---
 
-\--- task \----
+\--- task \---
 
 Test je code. Controleer of het personage teruggaat naar de start na het aanraken van een bal.
 
