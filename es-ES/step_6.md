@@ -1,10 +1,10 @@
 ## Esquivar los balones
 
-Your character can move and jump now, so it's time to add some balls that the character has to avoid.
+Tu personaje puede moverse y saltar ahora, así que es hora de agregar algunas bolas que el personaje debe evitar.
 
 \--- task \---
 
-Create a new ball sprite. You can choose any type of ball you like.
+Crea un nuevo sprite de bolas. Puedes elegir cualquier tipo de balón que te guste.
 
 ![captura de pantalla](images/dodge-balls.png)
 
@@ -12,7 +12,7 @@ Create a new ball sprite. You can choose any type of ball you like.
 
 \--- task \---
 
-Resize the ball sprite so that the character can jump over it. Try making the character jump over the ball to test whether the ball is the right size.
+Cambiar el tamaño de la bola sprite para que el personaje puede saltar sobre él. Intenta hacer que el personaje salte sobre la bola para comprobar si la bola tiene el tamaño correcto.
 
 ![captura de pantalla](images/dodge-ball-resize.png)
 
@@ -20,43 +20,43 @@ Resize the ball sprite so that the character can jump over it. Try making the ch
 
 \--- task \---
 
-Add this code to your ball sprite:
+Añade este código a tu bola sprite:
 
-![ball sprite](images/ball_sprite.png)
+![bola sprite](images/ball_sprite.png)
 
 ```blocks3
-when green flag clicked
-hide
-forever 
-  wait (3) seconds
-  create clone of (myself v)
-end
+cuando se hace clic en la bandera verde
+ocultar
+para siempre 
+  espere (3) segundos
+  cree un clon de (yo v)
+final
 ```
 
 ```blocks3
-when I start as a clone
-go to x: (160) y: (160)
-show
-repeat (22) 
-  change y by (-4)
-end
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
-end
-repeat (30) 
-  change y by (-4)
-end
-delete this clone
+cuando comience como un clon
+vaya a x: (160) y: (160)
+muestre
+repetición (22) 
+  cambie y por (-4)
+final
+repita (170) 
+  cambie x por (-2)
+  gire ccw (6) grados
+fin
+repita (30) 
+  cambie y por (-4)
+fin
+borre este clon
 ```
 
-This code creates a new clone of the ball sprite every three seconds. Each new clone moves along the top platform and then drops.
+Este código crea un nuevo clon del sprite de bola cada tres segundos. Cada nuevo clon se mueve a lo largo de la plataforma superior y luego cae.
 
 \--- /task \---
 
 \--- task \---
 
-Click the flag to test the game.
+Haga clic en la bandera para probar el juego.
 
 ![captura de pantalla](images/dodge-ball-test.png)
 
@@ -64,7 +64,7 @@ Click the flag to test the game.
 
 \--- task \---
 
-Add more code to your ball sprite so that clones of it move across all three platforms.
+Agrega más código a tu sprit de bola para que los clones se muevan a través de las tres plataformas.
 
 ![captura de pantalla](images/dodge-ball-more-motion.png)
 
@@ -72,66 +72,66 @@ Add more code to your ball sprite so that clones of it move across all three pla
 
 \--- hint \---
 
-Repeat the code blocks you used to move the ball sprite clone across the first platform. You need to change the `x`{:class="block3motion"}, `y`{:class="block3motion"}, and `repeat`{:class="block3control"} numbers so that the clones follow the platforms correctly.
+Repita los bloques de código que utilizó para mover el clon de sprite de bola a través de la primera plataforma. Debe cambiar los números `x`{: class = "block3motion"}, `y`{: class = "block3motion"}, y `repetir`{: class = "block3control"} para que los clones sigan las plataformas correctamente .
 
 \--- /hint \---
 
 \--- hint \---
 
-These are the blocks you need. Make sure you add them in the correct order.
+Estos son los bloques que necesitas. Asegúrate de agregarlos en el orden correcto.
 
-![ball sprite](images/ball_sprite.png)
+![bola sprite](images/ball_sprite.png)
 
 ```blocks3
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
-end
+repetir (170) 
+  cambiar x por (-2)
+  giro ccw (6) grados
+finalizar
 
-repeat (180) 
-  change x by (2)
-  turn cw (6) degrees
-end
+repetir (180) 
+  cambiar x por (2)
+  girar cw (6) grados
+finalizar
 
-repeat (30) 
-  change y by (-4)
-end
+repetir (30) 
+  cambiar y por (-4)
+final
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-The code for your ball sprite clones should look like this:
+El código para tus clones de sprites de bola debería verse así:
 
-![ball sprite](images/ball_sprite.png)
+![bola sprite](images/ball_sprite.png)
 
 ```blocks3
-when I start as a clone
-go to x: (160) y: (160)
-show
-repeat (22) 
-  change y by (-4)
-end
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
-end
-repeat (30) 
-  change y by (-4)
-end
-repeat (180) 
-  change x by (2)
-  turn cw (6) degrees
-end
-repeat (30) 
-  change y by (-4)
-end
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
-end
-delete this clone
+cuando comience como un clon
+vaya a x: (160) y: (160)
+muestre
+repetición (22) 
+  cambie y por (-4)
+final
+repita (170) 
+  cambie x por (-2)
+  gire ccw (6) grados
+final
+repita (30) 
+  cambie y por (-4)
+final
+repita (180) 
+  cambie x por (2)
+  gire cw (6) grados
+final
+repita (30) 
+  cambia y por (-4)
+final
+repite (170) 
+  cambia x por (-2)
+  gira ccw (6) grados
+final
+borra este clon
 ```
 
 \--- /hint \---
@@ -142,39 +142,39 @@ delete this clone
 
 \--- task \---
 
-Now add some code blocks to broadcast (send) a message if your character gets hit by a ball!
+¡Ahora agregue algunos bloques de código para transmitir (enviar) un mensaje si su personaje es golpeado por una bola!
 
-Add this code to your ball sprite:
+Añade este código a tu bola sprite:
 
-![ball sprite](images/ball_sprite.png)
+![bola sprite](images/ball_sprite.png)
 
 ```blocks3
-    when I start as a clone
-    forever
-        if < touching (Pico walking v)? > then
-            broadcast (hit v)
-        end
-    end
+    cuando comienzo como clon
+    para siempre
+        si < tocan (Pico walking v)? > luego
+            transmisión (hit v)
+        final
+    final
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Finally, add code blocks to your character sprite to make it move back to its starting position when it receives the `hit` message:
+Finalmente, agregue bloques de código a su sprite de personaje para que vuelva a su posición inicial cuando reciba el mensaje `hit`:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![pico caminando sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    when I receive [hit v]
-    point in direction (90)
-    go to x: (-210) y: (-120)
+    cuando recibo [golpe v]
+    puntos en la dirección (90)
+    vaya a x: (-210) y: (-120)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test out your code. Check whether the character moves back to the start after touching a ball.
+Prueba tu código. Comprueba si el personaje vuelve al inicio después de tocar una bola.
 
 \--- /task \---
