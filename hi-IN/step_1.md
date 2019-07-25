@@ -69,6 +69,6 @@ You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 \--- /no-print \---
 
-If you need the solution to this project, [you can find it here](http://rpf.io/p/en/dodgeball-get).
+You can find the [completed project here](http://rpf.io/p/en/dodgeball-get).
 
 \--- /collapse \---
