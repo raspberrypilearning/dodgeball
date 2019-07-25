@@ -1,71 +1,131 @@
 ## Disgyrchiant a neidio
 
-Fe wnawn ni wneud dy gymeriad i symud yn fwy realistig, wrth ychwanegu disgyrchiant a gadael iddynt neidio.
+Nawr rwyt ti am wneud dy gymeriad i symud yn fwy realistig, wrth ychwanegu disgyrchiant i'r gêm a gadael i'r cymeriad allu neidio.
 
-+ Mae'n bosib dy fod wedi sylwi bod dy gymeriad yn gallu cerdded i ffwrdd o'r platfform i ganol yr awyr. Ceisia gerdded i ffwrdd o'r platfform a gweld beth sy'n digwydd.
+--- task ---
 
-	![screenshot](images/dodge-no-gravity.png)
+Yn y gêm, ceisia gerdded dy gymeriad i ffwrdd o’r platfform. Alli di ei weld e'n cerdded i le gwag?
 
-+ I drwsio hyn, fe wnawn ni ychwanegu disgyrchiant i'r gêm.  Mae angen creu newidyn newydd o'r enw `disgyrchiant`{:class="blockdata"}.  Mae modd i ti guddio'r newidyn yma o'r llwyfan os wyt ti eisiau.
+![sgrinlun](images/dodge-no-gravity.png)
 
-	![screenshot](images/dodge-gravity.png)
+--- /task ---
 
-+ Ychwanega'r bloc côd yma, sydd yn gosod y disgyrchiant i rif negatif ac yna yn defnyddio hyn i newid cyfesur-y y cymeriad.
+--- task ---
 
-	```blocks
-		pan fo ⚑ wedi ei glicio
-		gosod [disgyrchiant v] i [-4]
-		am byth
-   			newid y gan (disgyrchiant)
-		end
-	```
+I drwsio hyn, ychwanega ddisgyrchiant i dy gêm. I wneud hyn, byddwn yn creu newidyn newydd o'r enw `disgyrchiant`{:class="block3variables"}.
 
-+ Clicia'r faner a llusga'r cymeriad i dop y dudalen.  Beth sy'n digwydd? Ydy'r disgyrchiant yn gweithio fel oeddet ti'n ei ddisgwyl?
+[[[generic-scratch3-add-variable]]]
 
-	![screenshot](images/dodge-gravity-drag.png)
+Mae modd i ti guddio’r newidyn yma o’r llwyfan os wyt ti eisiau.
 
-+ Ni ddylai disgyrchiant symud dy gymeriad trwy platfform neu ysgol! Ychwanega bloc `os`{:class="blockcontrol"} i dy gôd, fel bod y disgyrchiant ond yn gweithio pan mae'r cymeriad yn yr aer.  Fe ddylai côd y disgyrchiant edrych fel hyn:
+![sgrinlun](images/dodge-gravity-annotated.png)
 
-	```blocks
-		pan fo ⚑ wedi ei glicio
-			gosod [disgyrchiant v] i [-4]
-			am byth
-   		os <dim <<cyffwrdd lliw [#0000FF]?> neu <cyffwrdd lliw [#FF69B4]?>>> wedyn
-        newid y gan (disgyrchiant)
-   		end
-		end
-	```
+--- /task ---
 
-+ Profa'r disgyrchiant eto. Ydy dy gymeriad yn stopio pan mae ar blatfform neu ysgol? Wyt ti'n gallu cerdded oddi ar ochr y platfform i'r lefel is?
+--- task ---
 
-	![screenshot](images/dodge-gravity-test.png)
+Ychwanega’r bloc côd yma, sydd yn gosod y `disgyrchiant` i rif negatif ac yna yn defnyddio hyn i newid cyfesur-y y cymeriad:
 
-+  Fe wnawn ni hefyd wneud i dy gymeriad neidio pan mae'r chwareuwr yn gwasgu'r bylchwr. Un ffordd syml iawn o wneud hyn yw symud dy gymeriad ychydig o weithiau yn defnyddio'r côd yma:
+![corlun cerdded pico](images/pico_walking_sprite.png)
 
-	```blocks
-		pan fo bysell [bylchwr v] wedi ei wasgu
-			ailwna (10)
-   			newid y gan (4)
-		end
-	```
+```blocks3
+    pan fo'r flag werdd yn cael ei glicio
+gosod [disgyrchiant v] i [-4]
+am byth 
+  newid y gan (disgyrchiant)
+end
+```
 
-	Gan fod disgyrchiant yn gyson yn gwthio dy gymeriad i lawr 4 picsel, mae angen i ti ddewis rhif yn fwy na 4 yn dy floc `newid y gan (4)`{:class="blockmotion"}.  Newida'r rhif yma tan dy fod yn hapus gyda uchder neidio dy gymeriad.
+--- /task ---
 
-+ Os wyt ti'n profi'r côd yma, fe wnei di sylwi ei fod yn gweithio ond nad yw'n llyfn iawn. I wneud y neidio edrych yn fwy llyfn, bydd angen i ti symud dy gymeriad llai a llai nes nad yw'n neidio rhagor.
+--- task ---
 
-+ I wneud hyn, bydd angen creu newidyn arall o'r enw `uchder neidio`{:class="blockdata"}.  Eto, mae modd newid y newidyn yma os oes well gyda ti. 
+Clicia’r faner a llusga’r cymeriad i dop y llwyfan. Beth sy'n digwydd? Ydy’r disgyrchiant yn gweithio fel oeddet ti’n ei ddisgwyl?
 
-+ Dileua'r côd neidio wnes di ychwanegu i dy gymeriad, a gosod y côd yma yn ei le:
+![sgrinlun](images/dodge-gravity-drag.png)
 
-	```blocks
-		pan fo bysell [bylchwr v] wedi ei wasgu
-		gosod [uchder neidio v] i [8]
-		ailwna hyd at <(uchder neidio) = [0]>
-   			newid y gan (uchder neidio)
-   			newid [uchder neidio v] gan (-0.5)
-		end
-	```
+--- /task ---
 
-	Mae'r côd yma yn symud dy gymeriad fyny wrth 8 picsel, yna 7.5 picsel, yna 7 picsel, ac ati, tan fod dy gymeriad wedi gorffen neidio.  Mae hyn yn gwneud i'r neidio edrych yn llawer llyfnach.
+--- task ---
 
-+ Newida gwerth dechrau y newidyn `uchder neidio`{:class="blockdata"} a profa fe tan dy fod yn hapus gydag uchder neidio dy gymeriad.
+Ni ddylai disgyrchiant symud dy gymeriad trwy blatfform neu ysgol! Ychwanega bloc `os`{:class="block3control"} i dy gôd, fel bod y disgyrchiant ond yn gweithio pan mae’r cymeriad yn yr aer. Fe ddylai côd y disgyrchiant edrych fel hyn:
+
+![corlun cerdded pico](images/pico_walking_sprite.png)
+
+```blocks3
+    pan fo'r flag werdd yn cael ei glicio
+gosod [disgyrchiant v] i [-4]
+am byth 
+  os <nid <<cyffwrdd lliw [#0000FF] ?> neu <cyffwrdd lliw [#FF69B4] ?>>> yna 
+    newid y gan (disgyrchiant)
+  end
+end
+
+disgyrchiant
+```
+
+--- /task ---
+
+--- task ---
+
+Profa dy gêm eto i weld a yw'r disgyrchiant yn gweithio'n gywir nawr. Ydy dy gymeriad yn stopio pan mae ar blatfform neu ysgol? Wyt ti’n gallu cerdded oddi ar ochr y platfform i’r lefel is?
+
+![sgrinlun](images/dodge-gravity-test.png)
+
+--- /task ---
+
+--- task ---
+
+Fe wnawn ni hefyd wneud i dy gymeriad neidio pan mae’r chwareuwr yn gwasgu’r <kbd>bylchwr</kbd>. Un ffordd syml iawn o wneud hyn yw symud dy gymeriad fyny ychydig o weithiau:
+
+![corlun cerdded pico](images/pico_walking_sprite.png)
+
+```blocks3
+    pan fo bysell [bwlch v] wedi ei wasgu
+ailadrodd (10) 
+  newid y gan (4)
+end
+```
+
+Gan fod disgyrchiant yn gyson yn gwthio dy gymeriad i lawr 4 picsel, mae angen i ti ddewis rhif yn fwy na `4` yn dy floc `newid y gan (4)`{:class="block3motion"}. Newida’r rhif yma tan dy fod yn hapus gyda uchder neidio dy gymeriad.
+
+--- /task ---
+
+--- task ---
+
+Profa dy gôd. Sylwa nad yw'r symudiad neidio yn llyfn iawn. I wneud i'r neidio edrych yn fwy llyfn, bydd angen i ti symud dy gymeriad llai a llai, tan nad yw’n neidio rhagor.
+
+--- /task ---
+
+--- task ---
+
+I wneud hyn, bydd angen creu newidyn arall o’r enw `uchder neidio`{:class="block3variables"}. Eto, mae modd newid y newidyn yma os oes well gyda ti.
+
+--- /task ---
+
+--- task ---
+
+Dileua’r côd neidio wnes di ychwanegu i dy gymeriad, a gosod y côd yma yn ei le:
+
+![corlun cerdded pico](images/pico_walking_sprite.png)
+
+```blocks3
+    pan fo bysell [bwlch v] wedi ei wasgu
+gosod [uchder neidio v] i [8]
+ailadrodd hyd at <(uchder neidio) = [0]> 
+  newid y gan (uchder neidio)
+  newid [uchder neidio v] gan (-0.5)
+end
+```
+
+Mae’r côd yma yn symud dy gymeriad fyny wrth 8 picsel, yna 7.5 picsel, yna 7 picsel, ac ati, tan fod dy gymeriad wedi gorffen neidio. Mae hyn yn gwneud i’r neidio edrych yn llawer llyfnach.
+
+--- /task ---
+
+--- task ---
+
+Newida gwerth dechrau y newidyn `uchder neidio`{:class="block3variables"} a'i osod cyn i'r `ail-adrodd`{:class="block3control"} gychwyn. Yna profa dy gêm.
+
+Ail-adrodda'r camau yma tan dy fod yn hapus gydag uchder neidio dy gymeriad.
+
+--- /task ---

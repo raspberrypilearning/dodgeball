@@ -1,14 +1,9 @@
---- challenge ---
-## Her: Peli ar hap 
-Mae'r peli mae'n rhaid i dy gymeriad osgoi yn edrych yr un peth, ac yn ymddangos bob 3 eiliad. Wyt ti'n gallu ey gwella, fel eu bod:
+## Her: peli ar hap
 
-+ ddim yn edrych yr un peth? 
-+ yn ymddangos ar ôl amser ar hap?
-+ yn faint ar hap?
+Mae’r peli mae’n rhaid i dy gymeriad osgoi yn edrych yr un peth, ac yn ymddangos bob 3 eiliad. Wyt ti’n gallu ychwanegu côd i dy gêm fel bod y peli yn:
 
-![screenshot](images/dodge-ball-random.png)
++ Ddim yn edrych yr un peth?
++ Yn ymddangos ar ôl amser `ar hap`{:class="block3operators"}?
++ Yn faint ar hap?
 
-
-
-
---- /challenge ---
+![sgrinlun](images/dodge-ball-random.png)

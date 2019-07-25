@@ -1,26 +1,23 @@
---- challenge ---
-## Her: Gwella'r disgyrchiant 
-Mae 'na un broblem fach arall yn dy gêm: dyw'r disgyrchiant ddim yn tynnu dy gymeriad lawr os yw _unrhyw_ ran ohono yn cyffwrdd y platfform glas - hyd yn oed ei ben! Mae modd profi hyn trwy ddringo rhan fwyaf o'r ffordd fyny'r ysgol ac yna symud i'r chwith.
+## Her: gwell disgyrchiant
 
-![screenshot](images/dodge-gravity-bug.png)
+Mae ‘na un broblem fach arall yn dy gêm: dyw’r disgyrchiant ddim yn tynnu dy gymeriad lawr **os** yw unrhyw ran ohono yn cyffwrdd y platfform glas. Felly os yw pen y corlun yn cyffwrdd y platfform, ni fydd yn cwympo! Mae modd profi hyn trwy ddringo rhan fwyaf o’r ffordd fyny’r ysgol ac yna symud i’r chwith o dan y platfform:
 
-Alli di drwsio hyn? I wneud hyn, bydd angen i ti roi trowsus lliw gwahanol i dy gymeriad (i_bob_gwisg)...
-![screenshot](images/dodge-trousers.png)
+![sgrinlun](images/dodge-gravity-bug.png)
 
-...ac yna ei newid gyda'r côd yma: 
+I drwsio hyn, bydd angen i ti roi trowsus lliw gwahanol i dy gymeriad (i **bob** gwisg).
 
-```blocks
-	cyffwrdd lliw [#0000FF]?
+![sgrinlun](images/dodge-trousers.png)
+
+Yna newid y bloc côd yma:
+
+```blocks3
+    <cyffwrdd lliw [#0000FF] ?> &gt;
 ```
 
-gyda:
+gyda'r bloc côd yma:
 
-```blocks
-	lliw [#00FF00] yn cyffwrdd [#0000FF]?
+```blocks3
+    <lliw [#00FF00] yn cyffwrdd [#0000FF] ?> &gt;
 ```
 
-Cofia brofi dy welliannau i wneud yn siwr ei fod wedi ei drwsio!
-
-
-
---- /challenge ---
+Cofia brofi dy gêm i wneud yn siwr ei fod wedi ei drwsio!
