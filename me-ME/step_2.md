@@ -57,7 +57,7 @@ If your sprite doesn't fit, adjust its size.
 
 \--- task \---
 
-Test out your character by clicking the flag and then holding down the right arrow key. Does your character move to the right? Does your character look like it is walking?
+Isprobaj svog karaktera tako što ćeš kliknuti na zastavicu, a zatim držati pritisnut taster sa strelicom udesno. Does your character move to the right? Does your character look like it is walking?
 
 ![screenshot](images/dodge-walking.png)
 
@@ -67,15 +67,15 @@ Test out your character by clicking the flag and then holding down the right arr
 
 Add code blocks to the character sprite's `forever`{:class="block3control"} loop so that it walks left if the left arrow key is pressed.
 
-\--- hints \---
+\--- pomoć \---
 
-\--- hint \---
+\--- pomoć \---
 
 So that your character can move to the left, you'll need to add another `if`{:class="block3control"} block inside the `forever`{:class="block3control"} loop. In this new `if`{:class="block3control"} block, add code to make your character sprite `move`{:class="block3motion"} to the left.
 
 \--- /hint \---
 
-\--- hint \---
+\--- pomoć \---
 
 Copy the code you created to make the character walk to the right. Then set the `key pressed`{:class="block3sensing"} to the `left arrow`{:class="block3sensing"}, and change the `direction`{:class="block3motion"} to `-90`.
 
@@ -89,7 +89,7 @@ end
 
 \--- /hint \---
 
-\--- hint \---
+\--- pomoć \---
 
 Your code should look like this now:
 
@@ -119,7 +119,7 @@ end
 
 \--- task \---
 
-Test your new code to make sure that it works. Does your character turn upside-down when walking to the left?
+Isprobaj svoj novi kôd da provjeriš da li funkcioniše. Da li se tvoj karakter okreće naglavačke kada ide ulijevo?
 
 ![screenshot](images/dodge-upside-down.png)
 
