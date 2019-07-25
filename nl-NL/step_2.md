@@ -41,8 +41,8 @@ herhaal
     richt naar (90 v) graden
     neem (3) stappen
     volgend uiterlijk
-  end
-end
+  einde
+einde
 ```
 
 \--- /task \---
@@ -65,7 +65,7 @@ Test je personage door op de vlag te klikken en de toets pijl naar rechts ingedr
 
 \--- task \---
 
-Voeg code blokken toe aan de personage-sprite's `herhaal`{:class="block3control"} lus zodat het naar links loopt als de pijltjestoets naar links wordt ingedrukt.
+Voeg code blokken toe aan de personage-sprite's `herhaal`{:class="block3control"}-lus zodat het naar links loopt als de pijltjestoets naar links wordt ingedrukt.
 
 \--- hints \---
 
@@ -84,7 +84,7 @@ als <toets (pijltje rechts v) ingedrukt? > dan
     richt naar (90 v) graden
     neem (3) stappen
     volgend uiterlijk
-end
+einde
 ```
 
 \--- /hint \---
@@ -102,13 +102,13 @@ herhaal
     richt naar (90 v) graden
     neem (3) stappen
     volgend uiterlijk
-  end
+  einde
   als <toets (pijltje links v) ingedrukt?>  dan 
     richt naar (-90 v) graden
     neem (3) stappen
     volgend uiterlijk
-  end
-end
+  einde
+einde
 ```
 
 \--- /hint \---
@@ -146,7 +146,7 @@ Voeg deze code toe aan de `herhaal`{:class="block3control"} -lus van je personag
 ```blocks3
     als < <toets (pijltje omhoog v) ingedrukt?> en <raak ik kleur [#FF69B4]?> > dan
         verander y met (4)
-end
+einde
 ```
 
 \--- /task \---
