@@ -69,6 +69,6 @@ Dacă doriți să printați acest proiect, folosiți[printer-friendly version](h
 
 \--- /no-print \---
 
-Dacă aveți nevoie de soluția la acest proiect, [o puteți găsi aici](http://rpf.io/p/en/dodgeball-get).
+You can find the [completed project here](http://rpf.io/p/en/dodgeball-get).
 
 \--- /collapse \---
