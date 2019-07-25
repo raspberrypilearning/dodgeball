@@ -13,9 +13,9 @@ Je zou zelfs een andere achtergrond kunnen ontwerpen voor het volgende niveau. V
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    als <touching color [#00FF00]?> dan
+    als <raak ik kleur [#00FF00]?> dan
         verander achtergrond naar (volgende achtergrond v)
         ga naar x: (-210) y: (-120)
         wacht (1) sec.
-    end
+einde
 ```
