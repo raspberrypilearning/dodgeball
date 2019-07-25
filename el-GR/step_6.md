@@ -10,7 +10,7 @@ Create a new ball sprite. You can choose any type of ball you like.
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
 Resize the ball sprite so that the character can jump over it. Try making the character jump over the ball to test whether the ball is the right size.
 
