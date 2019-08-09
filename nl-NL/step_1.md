@@ -69,6 +69,6 @@ Als je dit project wilt afdrukken, gebruik dan de [ printervriendelijke versie ]
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/dodgeball-get).
+Hier kun je het [voltooide project](http://rpf.io/p/en/dodgeball-get) downloaden.
 
 \--- /collapse \---
