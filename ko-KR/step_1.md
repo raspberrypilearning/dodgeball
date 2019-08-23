@@ -1,16 +1,16 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2).
+이것은 **스크래치 3** 버전으로 진행되는 프로젝트입니다. [스크래치 2](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2) 버전으로 진행되는 프로젝트도 있습니다.
 
 \--- /no-print \---
 
 ## 들어가며
 
-You'll learn how to create a platform game in which the player has to dodge moving balls to reach the end of the level.
+레벨을 클리어하기 위해 플레이어가 움직이는 공을 피해야 하는 플랫폼 게임의 제작 방법을 배웁니다.
 
 \--- no-print \---
 
-Click the green flag to start, and then use the arrow keys to move and the <kbd>space</kbd> key to jump.
+시작하려면 녹색 플래그를 클릭 한 다음 화살표 키를 사용해서 이동하세요. <kbd>Space</kbd> 키를 눌러 점프가 가능합니다.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/251809924/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,7 +21,7 @@ Click the green flag to start, and then use the arrow keys to move and the <kbd>
 
 \--- print-only \---
 
-![dodgeball game being played](images/dodgeball-showcase.png)
+![게임이 실행되고 있는 모습](images/dodgeball-showcase.png)
 
 \--- /print-only \---
 
@@ -39,9 +39,9 @@ Click the green flag to start, and then use the arrow keys to move and the <kbd>
 
 + 스크래치 3 ([온라인](https://scratch.mit.edu/projects/editor/) 또는 [오프라인](https://scratch.mit.edu/download/))
 
-### Downloads
+### 다운로드 목록
 
-You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
+[여기](http://rpf.io/p/en/dodgeball-go) 서 다운로드할 것들의 목록을 확인할 수 있습니다.
 
 \--- /collapse \---
 
@@ -51,9 +51,9 @@ You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 ## title: 배우게 될 것
 
-+ How to use the keyboard to control a sprite
++ 키보드를 이용해 스프라이트를 조작하는 방법
 + How to use the `if, then, else`{:class="block3control"} Scratch block
-+ How to clone a sprite
++ 스프라이트를 복제하는 방법
 
 \--- /collapse \---
 
@@ -61,7 +61,7 @@ You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 * * *
 
-## title: Additional notes for educators
+## title: 교육자를 위한 참고사항
 
 \--- no-print \---
 
@@ -69,6 +69,6 @@ You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/dodgeball-get).
+[여기](http://rpf.io/p/en/dodgeball-get)서 완성된 프로젝트를 확인할 수 있습니다.
 
 \--- /collapse \---
