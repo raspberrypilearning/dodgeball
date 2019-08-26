@@ -13,17 +13,17 @@ steps:
   - 
     title: Sterowanie postacią
   - 
-    title: "Challenge: completing the level"
+    title: "Wyzwanie: ukończenie poziomu"
     challenge: true
   - 
     title: Grawitacja i skakanie
   - 
-    title: 'Challenge: improved jumping'
+    title: 'Wyzwanie: poprawione skakanie'
     challenge: true
   - 
     title: Unikanie piłek
   - 
-    title: 'Challenge: random balls'
+    title: 'Wyzwanie: losowe piłki'
     challenge: true
   - 
     title: Lasery!
@@ -31,10 +31,10 @@ steps:
     title: 'Wyzwanie: więcej przeszkód'
     challenge: true
   - 
-    title: 'Challenge: improved gravity'
+    title: 'Wyzwanie: poprawiona grawitacja'
     challenge: true
   - 
-    title: 'Challenge: more lives'
+    title: 'Wyzwanie: więcej żyć'
     challenge: true
   - 
     title: Co następne?
