@@ -6,11 +6,11 @@ To jest wersja projektu korzystająca z **Scratch 3**. Istnieje również [wersj
 
 ## Wprowadzenie
 
-W tym projekcie nauczysz się jak stworzyć grę platformową, w której będziesz musiał unikać poruszających się piłek i ukończyć poziom.
+W tym projekcie nauczysz się jak stworzyć grę platformową, w której będziesz musiał unikać poruszających się piłek żeby ukończyć poziom.
 
 \--- no-print \---
 
-Click the green flag to start, and then use the arrow keys to move and the <kbd>space</kbd> key to jump.
+Kliknij zieloną flagę, aby rozpocząć, a następnie użyj klawiszy strzałek, aby się przesuwać i <kbd>klawisza spacji</kbd>, żeby skoczyć.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/251809924/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -41,7 +41,7 @@ Click the green flag to start, and then use the arrow keys to move and the <kbd>
 
 ### Pliki do pobrania
 
-You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
+Możesz znaleźć [pliki do pobrania tutaj](http://rpf.io/p/en/dodgeball-go).
 
 \--- /collapse \---
 
@@ -51,9 +51,9 @@ You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 ## title: Czego się nauczysz
 
-+ How to use the keyboard to control a sprite
-+ How to use the `if, then, else`{:class="block3control"} Scratch block
-+ How to clone a sprite
++ Jak używać klawiatury do kontrolowania duszka
++ Jak korzystać z bloku Scratch `jeżeli, to, w przeciwnym razie`{:class="block3control"}
++ Jak sklonować duszka
 
 \--- /collapse \---
 
