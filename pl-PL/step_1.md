@@ -21,7 +21,7 @@ Kliknij zieloną flagę, aby rozpocząć, a następnie użyj klawiszy strzałek,
 
 \--- print-only \---
 
-![dodgeball game being played](images/dodgeball-showcase.png)
+![gra w dwa ognie](images/dodgeball-showcase.png)
 
 \--- /print-only \---
 
@@ -69,6 +69,6 @@ Jeśli chcesz wydrukować ten projekt, użyj [wersji do druku](https://projects.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/dodgeball-get).
+Możesz znaleźć [ukończoną wersję projektu tutaj](http://rpf.io/p/en/dodgeball-get).
 
 \--- /collapse \---
