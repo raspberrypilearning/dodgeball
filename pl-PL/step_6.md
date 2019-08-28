@@ -34,29 +34,29 @@ koniec
 ```
 
 ```blocks3
-when I start as a clone
-go to x: (160) y: (160)
-show
-repeat (22) 
-  change y by (-4)
-end
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
-end
-repeat (30) 
-  change y by (-4)
-end
-delete this clone
+gdy zaczynam jako klon
+idź do x: (160) y: (160)
+pokaż
+powtarzaj (22) 
+  zmień y o (-4)
+koniec
+powtarzaj (170) 
+  zmień x o (-2)
+  obróć ccw o (6) stopni
+koniec
+powtarzaj (30) 
+  zmień y o (-4)
+koniec
+usuń tego klona
 ```
 
-This code creates a new clone of the ball sprite every three seconds. Each new clone moves along the top platform and then drops.
+Ten kod tworzy nowy klon duszka piłki co trzy sekundy. Każdy nowy klon porusza się wzdłuż górnej platformy, a następnie spada.
 
 \--- /task \---
 
 \--- task \---
 
-Click the flag to test the game.
+Kliknij flagę, aby przetestować grę.
 
 ![zrzut ekranu](images/dodge-ball-test.png)
 
@@ -64,7 +64,7 @@ Click the flag to test the game.
 
 \--- task \---
 
-Add more code to your ball sprite so that clones of it move across all three platforms.
+Dodaj więcej kodu do swojego duszka piłki, aby jej klony poruszały się po wszystkich trzech platformach.
 
 ![zrzut ekranu](images/dodge-ball-more-motion.png)
 
@@ -72,13 +72,13 @@ Add more code to your ball sprite so that clones of it move across all three pla
 
 \--- hint \---
 
-Repeat the code blocks you used to move the ball sprite clone across the first platform. You need to change the `x`{:class="block3motion"}, `y`{:class="block3motion"}, and `repeat`{:class="block3control"} numbers so that the clones follow the platforms correctly.
+Powtórz bloki kodu, których użyłaś, aby przesuwać klon duszka piłki po pierwszej platformie. Musisz zmienić `x`{:class="block3motion"}, `y`{:class="block3motion"} i `powtarzaj`{:class="block3control"} liczby, aby klony poprawnie podążały za platformami.
 
 \--- /wskazówka \---
 
 \--- hint \---
 
-These are the blocks you need. Make sure you add them in the correct order.
+Oto bloki, których potrzebujesz. Upewnij się, że dodałaś je we właściwej kolejności.
 
 ![ball sprite](images/ball_sprite.png)
 
