@@ -85,25 +85,25 @@ Teraz dodaj kod, aby twoja postać podskakiwała za każdym razem, gdy gracz nac
         end
 ```
 
-Because gravity is constantly pushing your character down by 4 pixels, you need to choose a number greater than `4` in your `change y by (4)`{:class="block3motion"} block. Change the number until you're happy with the height the character jumps.
+Ponieważ grawitacja nieustannie przesuwa twoją postać w dół o 4 piksele, musisz wybrać liczbę większą niż `4` w bloku `zmień y o (4)`{:class="block3motion"}. Zmieniaj liczbę, aż będziesz zadowolona z wysokości, na jaką skacze Twoja postać.
 
 \--- /task \---
 
 \--- task \---
 
-Test out your code. Notice that the jumping movement isn't very smooth. To make jumping look smoother, you need to move your character sprite by smaller and smaller amounts, until it is not rising any higher.
+Przetestuj swój kod. Zauważ, że ruch skakania nie jest zbyt płynny. Aby skakanie wyglądało płynniej, musisz przesuwać duszka postaci o coraz mniejsze wartości, dopóki nie będzie podnosił się wyżej.
 
 \--- /task \---
 
 \--- task \---
 
-To do this, create a new variable called `jump height`{:class="block3variables"}. Ponownie, jeśli chcesz możesz ukryć tę zmienną.
+Żeby to zrobić, utwórz nową zmienną o nazwie `wysokość skoku`{:class="block3variables"}. Ponownie, jeśli chcesz możesz ukryć tę zmienną.
 
 \--- /task \---
 
 \--- task \---
 
-Delete the jumping code you added to your character sprite, and add this code instead:
+Usuń kod odpowiedzialny za skoki który dodałaś do Twojej postaci i dodaj ten kod:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
