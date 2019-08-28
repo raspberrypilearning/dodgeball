@@ -24,7 +24,7 @@ Możesz ukryć tą zmienną na scenie jeśli chcesz.
 
 \--- task \---
 
-Add these new code blocks that set `gravity` to a negative number and use the value of `gravity` to repeatedly change your character's y-coordinate:
+Dodaj te nowe bloki kodu, które ustawiają `grawitację` na liczbę ujemną i użyj wartości `grawitacja` aby wielokrotnie zmieniać współrzędną y twojej postaci:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -40,7 +40,7 @@ Add these new code blocks that set `gravity` to a negative number and use the va
 
 \--- task \---
 
-Click the flag, and then drag your character to the top of the Stage. What happens? Does the gravity work as you expect?
+Kliknij flagę, a następnie przesuń Twoją postać na szczyt sceny. Co się wtedy stanie? Czy grawitacja działa tak jak się spodziewałaś?
 
 ![zrzut ekranu](images/dodge-gravity-drag.png)
 
@@ -48,7 +48,7 @@ Click the flag, and then drag your character to the top of the Stage. What happe
 
 \--- task \---
 
-Gravity shouldn't move the character sprite through a platform or a ladder! Add an `if`{:class="block3control"} block to your code to only let the gravity work when the character is in mid-air. The gravity code should then look like this:
+Grawitacja nie powinna pozwalać na przesuwanie Twojej postaci przez platformy lub drabinę! Dodaj blok `jeżeli`{:class="block3control"} do swojego kodu, aby grawitacja działała tylko wtedy, gdy postać jest w powietrzu. Kod odpowiedzialny za grawitację powinien wyglądać teraz w ten sposób:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -66,7 +66,7 @@ Gravity shouldn't move the character sprite through a platform or a ladder! Add 
 
 \--- task \---
 
-Test the game again to see whether gravity works correctly now. Does your character sprite stop falling when it touches a platform or a ladder? Can you make the character walk off the edge of platforms and fall onto the level below?
+Przetestuj grę ponownie, aby sprawdzić, czy grawitacja działa teraz poprawnie. Czy duszek Twojej postaci przestaje spadać, gdy dotknie platformy lub drabiny? Czy potrafisz sprawić, że postać zejdzie z krawędzi platform i spadnie na niższy poziom?
 
 ![zrzut ekranu](images/dodge-gravity-test.png)
 
@@ -74,7 +74,7 @@ Test the game again to see whether gravity works correctly now. Does your charac
 
 \--- task \---
 
-Now add code to make your character jump whenever the player presses the <kbd>space</kbd> key. One very easy way to do this is to move your character up a few times:
+Teraz dodaj kod, aby twoja postać podskakiwała za każdym razem, gdy gracz naciśnie klawisz <kbd>spacja</kbd>. Jednym z bardzo łatwych sposobów jest przesunięcie swojej postaci kilka razy w górę:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
