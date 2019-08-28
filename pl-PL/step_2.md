@@ -96,19 +96,19 @@ Twój kod powinien wyglądać teraz tak:
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-when green flag clicked
-forever 
-  if <key (right arrow v) pressed?> then 
-    point in direction (90 v)
-    move (3) steps
-    next costume
-  end
-  if <key (left arrow v) pressed?> then 
-    point in direction (-90 v)
-    move (3) steps
-    next costume
-  end
-end
+kiedy flaga kliknięta
+zawsze 
+  jeżeli < klawisz (strzałka w prawo v) naciśnięty? > to
+    ustaw kierunek na (90 v)
+    przesuń o (3) kroki
+    następny kostium
+  koniec
+  jeżeli < klawisz (strzałka w prawo v) naciśnięty? > to 
+    ustaw kierunek na (-90 v)
+    przesuń o (3) kroki
+    następny kostium
+  koniec
+koniec
 ```
 
 \--- /hint \---
@@ -119,7 +119,7 @@ end
 
 \--- task \---
 
-Test your new code to make sure that it works. Does your character turn upside-down when walking to the left?
+Przetestuj Twój nowy kod, by mieć pewność że działa. Czy Twoja postać obraca się do góry nogami idąc w lewo?
 
 ![screenshot](images/dodge-upside-down.png)
 
