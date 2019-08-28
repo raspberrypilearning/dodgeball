@@ -22,7 +22,7 @@ Zmień rozmiar piłki, tak by Twoja postać mogła ją przeskoczyć. Postaraj si
 
 Dodaj poniższy kod do duszka piłki:
 
-![ball sprite](images/ball_sprite.png)
+![duszek piłki](images/ball_sprite.png)
 
 ```blocks3
 kiedy flaga kliknięta
@@ -80,58 +80,58 @@ Powtórz bloki kodu, których użyłaś, aby przesuwać klon duszka piłki po pi
 
 Oto bloki, których potrzebujesz. Upewnij się, że dodałaś je we właściwej kolejności.
 
-![ball sprite](images/ball_sprite.png)
+![duszek piłki](images/ball_sprite.png)
 
 ```blocks3
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
-end
+powtarzaj (170) 
+  zmień x o (-2)
+  obróć ccw o (6) stopni
+koniec
 
-repeat (180) 
-  change x by (2)
-  turn cw (6) degrees
-end
+powtarzaj (180) 
+  zmień x o (2)
+  obróć cw o (6) stopni
+koniec
 
-repeat (30) 
-  change y by (-4)
-end
+powtarzaj (30) 
+  zmień y o (-4)
+koniec
 ```
 
 \--- /wskazówka \---
 
 \--- hint \---
 
-The code for your ball sprite clones should look like this:
+Kod twoich klonów duszka piłki powinien wyglądać następująco:
 
-![ball sprite](images/ball_sprite.png)
+![duszek piłki](images/ball_sprite.png)
 
 ```blocks3
-when I start as a clone
-go to x: (160) y: (160)
-show
-repeat (22) 
-  change y by (-4)
-end
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
-end
-repeat (30) 
-  change y by (-4)
-end
-repeat (180) 
-  change x by (2)
-  turn cw (6) degrees
-end
-repeat (30) 
-  change y by (-4)
-end
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
-end
-delete this clone
+gdy zaczynam jako klon
+idź do x: (160) y: (160)
+pokaż
+powtórz (22) 
+  zmień y o (-4)
+koniec
+powtarzaj (170) 
+  zmień x o (-2)
+  obróć ccw o (6) stopni
+koniec
+powtarzaj (30) 
+  zmień y o (-4)
+koniec
+powtarzaj (180) 
+  zmień x o (2)
+  obróć cw o (6) stopni
+koniec
+powtarzaj (30) 
+  zmień y o (-4)
+koniec
+powtarzaj (170) 
+  zmień x o (-2)
+  obróć ccw o (6) stopni
+koniec
+usuń tego klona
 ```
 
 \--- /wskazówka \---
@@ -142,39 +142,39 @@ delete this clone
 
 \--- task \---
 
-Now add some code blocks to broadcast (send) a message if your character gets hit by a ball!
+Teraz dodaj kilka bloków kodu, aby nadawać (wysłać) wiadomość, jeśli twoja postać zostanie trafiona piłką!
 
 Dodaj poniższy kod do duszka piłki:
 
-![ball sprite](images/ball_sprite.png)
+![duszek piłki](images/ball_sprite.png)
 
 ```blocks3
-    when I start as a clone
-    forever
-        if < touching (Pico walking v)? > then
-            broadcast (hit v)
-        end
-    end
+    gdy zaczynam jako klon
+    zawsze
+        jeżeli < dotyka (Pico walking v)? > to
+            nadaj komunikat (trafienie v)
+        koniec
+    koniec
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Finally, add code blocks to your character sprite to make it move back to its starting position when it receives the `hit` message:
+Na koniec dodaj bloki kodu do duszka postaci, aby powrócił do swojej pozycji początkowej kiedy dostaje komunikat `trafienie`:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![duszek Pico walking](images/pico_walking_sprite.png)
 
 ```blocks3
-    when I receive [hit v]
-    point in direction (90)
-    go to x: (-210) y: (-120)
+    kiedy otrzymam [trafienie v]
+    ustaw kierunek na (90)
+    idź do x: (-210) y: (-120)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test out your code. Check whether the character moves back to the start after touching a ball.
+Przetestuj swój kod. Sprawdź, czy po dotknięciu piłki postać wraca na początek.
 
 \--- /task \---
