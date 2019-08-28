@@ -123,11 +123,11 @@ Przetestuj Twój nowy kod, by mieć pewność że działa. Czy Twoja postać obr
 
 ![screenshot](images/dodge-upside-down.png)
 
-If so, you can fix this by clicking on the **direction** of your character sprite, and then clicking on the left-right arrow.
+Jeśli tak, możesz to naprawić, klikając **Kierunek** swojego duszka postaci, a następnie klikając strzałkę lewo-prawo.
 
 ![screenshot](images/dodge-left-right-annotated.png)
 
-Or if you prefer, you can also fix the problem by adding this block to the start of your character's script:
+Lub jeśli wolisz, możesz również rozwiązać ten problem, dodając ten blok na początku kodu swojej postaci:
 
 ```blocks3
 ustaw styl obrotu [lewo-prawo v]
@@ -137,7 +137,7 @@ ustaw styl obrotu [lewo-prawo v]
 
 \--- task \---
 
-To climb a pink ladder, your character sprite should move a few steps upwards on the Stage whenever the up arrow is pressed **and** the character is touching the correct colour.
+Aby wspiąć się na różową drabinę, duszek postaci powinien przesuwać się o kilka kroków w górę na scenie za każdym razem, gdy zostanie naciśnięta strzałka w górę **i** postać dotyka właściwego koloru.
 
 Add inside your character's `forever`{:class="block3control"} loop to `change`{:class="block3motion"} the character's `y` (vertical) position `if`{:class="block3control"} the `up arrow is pressed`{:class="block3sensing"} and the character is `touching the colour pink`{:class="block3sensing"}.
 
