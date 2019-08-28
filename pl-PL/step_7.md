@@ -1,9 +1,9 @@
 ## Wyzwanie: losowe piłki
 
-The balls that your character has to dodge all look the same, and they appear at regular three-second intervals. Can you add code to your game so that the balls:
+Piłki, których twoja postać musi unikać, wyglądają tak samo i pojawiają się w regularnych odstępach trzysekundowych. Czy możesz dodać kod do swojej gry, aby piłki:
 
 + Nie wyglądały tak samo?
-+ Appear after a `random`{:class="block3operators"} amount of time?
++ Pojawiały się po `losowej`{:class="block3operators"} ilości czasu?
 + Były w losowych rozmiarach?
 
 ![screenshot](images/dodge-ball-random.png)
