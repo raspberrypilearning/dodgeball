@@ -77,21 +77,21 @@ Aby Twoja postać mogła poruszyć się w lewo, będziesz musiała dodać kolejn
 
 \--- hint \---
 
-Skopiuj utworzony kod, aby spowodować, żeby postać poszła w prawo. Następnie ustaw w bloku `klawisz naciśnięty`{:class="block3sensing"} `strzałka w lewo`{:class="block3sensing"} i zmień `kierunek`{:class="block3motion"} na `-90`.
+Skopiuj utworzony kod ruchu postaci w prawo. Następnie ustaw w bloku `klawisz naciśnięty`{:class="block3sensing"} `strzałka w lewo`{:class="block3sensing"} i zmień `kierunek`{:class="block3motion"} na `-90`.
 
 ```blocks3
-if <key (right arrow v) pressed? > then
-    point in direction (90 v)
-    move (3) steps
-    next costume
-end
+jeżeli <klawisz (strzałka w prawo v) naciśnięty? > to
+    ustaw kierunek na (-90 v)
+    przesuń o (3) kroki
+    następny kostium
+koniec
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Your code should look like this now:
+Twój kod powinien wyglądać teraz tak:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
