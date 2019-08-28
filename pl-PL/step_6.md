@@ -1,6 +1,6 @@
 ## Unikanie piłek
 
-Your character can move and jump now, so it's time to add some balls that the character has to avoid.
+Twoja postać może się teraz poruszać i skakać, więc czas dodać kilka piłek, których postać musi unikać.
 
 \--- task \---
 
@@ -12,7 +12,7 @@ Utwórz nowego duszka piłkę. Możesz wybrać dowolny typ piłki który chcesz.
 
 \--- task \---
 
-Resize the ball sprite so that the character can jump over it. Try making the character jump over the ball to test whether the ball is the right size.
+Zmień rozmiar piłki, tak by Twoja postać mogła ją przeskoczyć. Postaraj się, aby postać przeskoczyła nad piłką, aby sprawdzić, czy piłka ma odpowiedni rozmiar.
 
 ![zrzut ekranu](images/dodge-ball-resize.png)
 
@@ -25,12 +25,12 @@ Dodaj poniższy kod do duszka piłki:
 ![ball sprite](images/ball_sprite.png)
 
 ```blocks3
-when green flag clicked
-hide
-forever 
-  wait (3) seconds
-  create clone of (myself v)
-end
+kiedy flaga kliknięta
+ukryj
+zawsze 
+  czekaj (3) sekund
+  utwórz klona z (siebie v)
+koniec
 ```
 
 ```blocks3
