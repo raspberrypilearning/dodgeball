@@ -26,7 +26,7 @@ Możesz ukryć tą zmienną na scenie jeśli chcesz.
 
 Dodaj te nowe bloki kodu, które ustawiają `grawitację` na liczbę ujemną i użyj wartości `grawitacja` aby wielokrotnie zmieniać współrzędną y twojej postaci:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![duszek Pico walking](images/pico_walking_sprite.png)
 
 ```blocks3
     kiedy kliknięto flagę
@@ -50,7 +50,7 @@ Kliknij flagę, a następnie przesuń Twoją postać na szczyt sceny. Co się wt
 
 Grawitacja nie powinna pozwalać na przesuwanie Twojej postaci przez platformy lub drabinę! Dodaj blok `jeżeli`{:class="block3control"} do swojego kodu, aby grawitacja działała tylko wtedy, gdy postać jest w powietrzu. Kod odpowiedzialny za grawitację powinien wyglądać teraz w ten sposób:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![duszek Pico walking](images/pico_walking_sprite.png)
 
 ```blocks3
     kiedy kliknięto flagę
@@ -76,7 +76,7 @@ Przetestuj grę ponownie, aby sprawdzić, czy grawitacja działa teraz poprawnie
 
 Teraz dodaj kod, aby twoja postać podskakiwała za każdym razem, gdy gracz naciśnie klawisz <kbd>spacja</kbd>. Jednym z bardzo łatwych sposobów jest przesunięcie swojej postaci kilka razy w górę:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![duszek Pico walking](images/pico_walking_sprite.png)
 
 ```blocks3
     kiedy klawisz [spacja v] naciśnięty
@@ -91,7 +91,7 @@ Ponieważ grawitacja nieustannie przesuwa twoją postać w dół o 4 piksele, mu
 
 \--- task \---
 
-Przetestuj swój kod. Zauważ, że ruch skakania nie jest zbyt płynny. Aby skakanie wyglądało płynniej, musisz przesuwać duszka postaci o coraz mniejsze wartości, dopóki nie będzie podnosił się wyżej.
+Przetestuj swój kod. Zauważ, że ruch skakania nie jest zbyt płynny. Aby skakanie wyglądało płynniej, musisz przesuwać duszka postaci o coraz mniejsze wartości, dopóki postać nie będzie podnosiła się.
 
 \--- /task \---
 
@@ -105,7 +105,7 @@ Przetestuj swój kod. Zauważ, że ruch skakania nie jest zbyt płynny. Aby skak
 
 Usuń kod odpowiedzialny za skoki który dodałaś do Twojej postaci i dodaj ten kod:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![duszek Pico walking](images/pico_walking_sprite.png)
 
 ```blocks3
     kiedy klawisz [spacja v] naciśnięty
@@ -116,14 +116,14 @@ Usuń kod odpowiedzialny za skoki który dodałaś do Twojej postaci i dodaj ten
         end
 ```
 
-This code moves your character up by 8 pixels, then 7.5 pixels, then 7 pixels, and so on, until it does not rise any higher. To uczyni wygląd skoków bardziej płynnym.
+Ten kod przesuwa twoją postać w górę o 8 pikseli, następnie 7.5 pikseli, następnie 7 pikseli i tak dalej, aż postać nie podniesie się. To uczyni wygląd skoków bardziej płynnym.
 
 \--- /task \---
 
 \--- task \---
 
-Change the value of the `jump height`{:class="block3variables"} variable that is set before the `repeat`{:class="block3control"} starts. Then test your game.
+Zmień wartość zmiennej `wysokość skoku`{:class="block3variables"}, ustawionej przed rozpoczęciem pętli `powtarzaj`{:class="block3control"}. Następnie przetestuj swoją grę.
 
-Repeat these two steps until you're happy with how high the character jumps.
+Powtarzaj te dwa kroki, aż będziesz zadowolona z wysokości skoku Twojej postaci.
 
 \--- /task \---
