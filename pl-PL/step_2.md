@@ -65,19 +65,19 @@ Przetestuj Twoją postać, klikając na flagę i przytrzymując klawisz prawej s
 
 \--- task \---
 
-Add code blocks to the character sprite's `forever`{:class="block3control"} loop so that it walks left if the left arrow key is pressed.
+Dodaj bloki kodu do pętli `zawsze`{:class="block3control"} duszka postaci, w taki sposób, żeby postać poruszała się w lewo po naciśnięciu klawisza lewej strzałki.
 
 \--- hints \---
 
 \--- hint \---
 
-So that your character can move to the left, you'll need to add another `if`{:class="block3control"} block inside the `forever`{:class="block3control"} loop. In this new `if`{:class="block3control"} block, add code to make your character sprite `move`{:class="block3motion"} to the left.
+Aby Twoja postać mogła poruszyć się w lewo, będziesz musiała dodać kolejny blok `jeżeli`{:class="block3control"} wewnątrz pętli `zawsze`{:class="block3control"}. W tym nowym bloku `jeżeli`{:class="block3control"}, dodaj kod, aby twój duszek postaci `poruszył się`{:class="block3motion"} w lewo.
 
 \--- /hint \---
 
 \--- hint \---
 
-Copy the code you created to make the character walk to the right. Then set the `key pressed`{:class="block3sensing"} to the `left arrow`{:class="block3sensing"}, and change the `direction`{:class="block3motion"} to `-90`.
+Skopiuj utworzony kod, aby spowodować, żeby postać poszła w prawo. Następnie ustaw w bloku `klawisz naciśnięty`{:class="block3sensing"} `strzałka w lewo`{:class="block3sensing"} i zmień `kierunek`{:class="block3motion"} na `-90`.
 
 ```blocks3
 if <key (right arrow v) pressed? > then
