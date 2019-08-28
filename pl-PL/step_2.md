@@ -49,7 +49,7 @@ koniec
 
 \--- task \---
 
-If your sprite doesn't fit, adjust its size.
+Jeśli Twój duszek nie pasuje, dostosuj jego rozmiar.
 
 ![set sprite size so it fits](images/dodge-sprite-size-annotated.png)
 
