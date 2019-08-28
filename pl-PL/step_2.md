@@ -57,7 +57,7 @@ Jeśli Twój duszek nie pasuje, dostosuj jego rozmiar.
 
 \--- task \---
 
-Test out your character by clicking the flag and then holding down the right arrow key. Does your character move to the right? Does your character look like it is walking?
+Przetestuj Twoją postać, klikając na flagę i przytrzymując klawisz prawej strzałki. Czy Twoja postać porusza się w prawo? Czy Twoja postać wygląda jakby się poruszała?
 
 ![screenshot](images/dodge-walking.png)
 
