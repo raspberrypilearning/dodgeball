@@ -16,13 +16,13 @@ Jeśli masz konto Scratch, możesz wykonać kopię klikając **Remiks**.
 
 Projekt zawiera tło z platformami:
 
-![dodgeball project background](images/dodge-background.png)
+![tło projektu dwa ognie](images/dodge-background.png)
 
 \--- task \---
 
 Wybierz nowego duszka jako postać, którą gracz będzie kontrolować i dodaj go do swojego projektu. Będzie najlepiej, jeśli wybierzesz duszka z wieloma kostiumami, wtedy będziesz mógł sprawić, że będzie wyglądać jakby chodził.
 
-![pick a sprite](images/dodge-characters.png)
+![wybierz duszka](images/dodge-characters.png)
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -32,7 +32,7 @@ Wybierz nowego duszka jako postać, którą gracz będzie kontrolować i dodaj g
 
 Dodaj bloki kodu do duszka postaci, aby gracz mógł używać klawiszy strzałek do poruszania się postacią. Gdy gracz naciśnie prawą strzałkę, Twoja postać powinna ustawić się w prawo, poruszyć się kilka kroków i zmienić kostium na następny:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![duszek Pico walking](images/pico_walking_sprite.png)
 
 ```blocks3
 kiedy flaga kliknięta
@@ -51,7 +51,7 @@ koniec
 
 Jeśli Twój duszek nie pasuje, dostosuj jego rozmiar.
 
-![set sprite size so it fits](images/dodge-sprite-size-annotated.png)
+![ustaw rozmiar duszka, aby pasował](images/dodge-sprite-size-annotated.png)
 
 \--- /task \---
 
@@ -59,7 +59,7 @@ Jeśli Twój duszek nie pasuje, dostosuj jego rozmiar.
 
 Przetestuj Twoją postać, klikając na flagę i przytrzymując klawisz prawej strzałki. Czy Twoja postać porusza się w prawo? Czy Twoja postać wygląda jakby się poruszała?
 
-![screenshot](images/dodge-walking.png)
+![zrzut ekranu](images/dodge-walking.png)
 
 \--- /task \---
 
@@ -93,7 +93,7 @@ koniec
 
 Twój kod powinien wyglądać teraz tak:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![duszek Pico walking](images/pico_walking_sprite.png)
 
 ```blocks3
 kiedy flaga kliknięta
@@ -121,11 +121,11 @@ koniec
 
 Przetestuj Twój nowy kod, by mieć pewność że działa. Czy Twoja postać obraca się do góry nogami idąc w lewo?
 
-![screenshot](images/dodge-upside-down.png)
+![zrzut ekranu](images/dodge-upside-down.png)
 
 Jeśli tak, możesz to naprawić, klikając **Kierunek** swojego duszka postaci, a następnie klikając strzałkę lewo-prawo.
 
-![screenshot](images/dodge-left-right-annotated.png)
+![zrzut ekranu](images/dodge-left-right-annotated.png)
 
 Lub jeśli wolisz, możesz również rozwiązać ten problem, dodając ten blok na początku kodu swojej postaci:
 
@@ -139,9 +139,9 @@ ustaw styl obrotu [lewo-prawo v]
 
 Aby wspiąć się na różową drabinę, duszek postaci powinien przesuwać się o kilka kroków w górę na scenie za każdym razem, gdy zostanie naciśnięta strzałka w górę **i** postać dotyka właściwego koloru.
 
-Add inside your character's `forever`{:class="block3control"} loop to `change`{:class="block3motion"} the character's `y` (vertical) position `if`{:class="block3control"} the `up arrow is pressed`{:class="block3sensing"} and the character is `touching the colour pink`{:class="block3sensing"}.
+Dodaj wewnątrz pętli `zawsze`{:class="block3control"} dla twojej postaci blok `zmień`{:class="block3motion"} pozycję postaci `y` (pionowa) `jeżeli`{:class="block3control"} `klawisz strzałka w górę naciśnięty`{:class="block3sensing"} i postać `dotyka kolor różowy`{:class="block3sensing"}.
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![duszek Pico walking](images/pico_walking_sprite.png)
 
 ```blocks3
     jeżeli <<key (up arrow v) pressed?> i <touching color [#FF69B4]?> > to
@@ -153,8 +153,8 @@ Add inside your character's `forever`{:class="block3control"} loop to `change`{:
 
 \--- task \---
 
-Test your code. Can you make the character climb the pink ladders and get to the end of the level?
+Przetestuj swój kod. Czy potrafisz sprawić, by postać wspinała się po różowych drabinach i dotarła do końca poziomu?
 
-![screenshot](images/dodge-test-character.png)
+![zrzut ekranu](images/dodge-test-character.png)
 
 \--- /task \---
