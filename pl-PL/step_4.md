@@ -1,10 +1,10 @@
 ## Grawitacja i skakanie
 
-Now you're going to make your character move more realistically: you're going to add gravity to your game and give the character the ability to jump.
+Teraz sprawisz, że Twoja postać będzie poruszać się bardziej realistycznie: dodasz grawitację do swojej gry i dasz postaci umiejętność skakania.
 
 \--- task \---
 
-In the game, move your character so that it walks off a platform. Do you see that it can walk into empty space?
+W grze poruszaj swoją postacią tak, aby zeszła z platformy. Czy widzisz, że może wejść w puste miejsce?
 
 ![zrzut ekranu](images/dodge-no-gravity.png)
 
@@ -12,11 +12,11 @@ In the game, move your character so that it walks off a platform. Do you see tha
 
 \--- task \---
 
-To fix this, add gravity to your game. To do this, create a new variable called `gravity`{:class="block3variables"}.
+Aby to naprawić, dodaj grawitację do swojej gry. Żeby to zrobić, utwórz nową zmienną o nazwie `grawitacja`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
-You can hide this variable from your Stage if you want to.
+Możesz ukryć tą zmienną na scenie jeśli chcesz.
 
 ![zrzut ekranu](images/dodge-gravity-annotated.png)
 
