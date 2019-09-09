@@ -47,7 +47,7 @@ end
 ailadrodd (30) 
   newid y gan (-4)
 end
-dileu y clôn hw
+dileu y clôn hwn
 ```
 
 Mae’r côd yma yn creu pêl newydd bob 3 eiliad. Mae pob pêl newydd yn symud ar draws top y platfform yna yn disgyn.
@@ -150,13 +150,11 @@ Ychwanega'r côd yma i'r corlun pêl:
 ![corlun pêl](images/ball_sprite.png)
 
 ```blocks3
-    pan rwy'n dechrau fel clôn
-am byth 
-  os yna
-  darlledu (taro v)
-end > then
-darlledu (taro v)
-end
+  pan rwy'n dechrau fel clôn
+  am byth 
+    os <cyffwrdd (Pico walking v) ?> yna
+     darlledu (taro v)
+  end
 end
 ```
 

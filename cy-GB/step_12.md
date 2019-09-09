@@ -1,6 +1,6 @@
 ## Beth nesaf?
 
-Rho gynnig ar y [Gêm Ymennydd](https://projects.raspberrypi.org/cy-GB/projects/brain-game?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), lle gei di gyfle i greu cwis mathemateg.
+Rho gynnig ar y [Gêm i'r Ymennydd](https://projects.raspberrypi.org/cy-GB/projects/brain-game?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), lle gei di gyfle i greu cwis mathemateg.
 
 --- no-print --- Clicia'r faner werdd i gychwyn.
 
