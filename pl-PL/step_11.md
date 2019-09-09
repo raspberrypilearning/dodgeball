@@ -1,7 +1,7 @@
-## Challenge: more lives
+## Wyzwanie: więcej żyć
 
-Right now, your character goes back to its starting position when it gets hit. Can you also give the character sprite three `lives`{:class="block3variables"}, and make it lose one life when it gets hit? Tak powinna działać twoja gra:
+W tej chwili Twoja postać wraca spowrotem do pozycji startowej, gdy zostaje trafiona. Czy możesz również dać duszkowi postaci trzy `życia`{:class="block3variables"} i spowodować, że straci jedno życie, kiedy zostanie trafiony? Tak powinna działać twoja gra:
 
-+ The game starts with three lives for the character
-+ Whenever the character gets hit, it loses one life **and** moves back to the start
++ Gra rozpoczyna się z trzeba życiami dla postaci
++ Kiedy postać zostaje trafiona, traci jedno życie **oraz** wraca na początek
 + Jeśli nie ma więcej żyć, gra się kończy
