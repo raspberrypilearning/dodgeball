@@ -1,23 +1,23 @@
-## Wyzwanie: poprawiona grawitacji
+## Wyzwanie: poprawiona grawitacja
 
-There's one other small bug in your game: gravity doesn't pull the character sprite downwards if **any** part of the sprite is touching a blue platform. So even if the sprites head touches a platform, the sprite doesn't fall! You can test this yourself: make your character climb most of the way up a ladder, and then move the character sideways beneath a platform:
+Istnieje jeden mały błąd w Twojej grze: grawitacja nie ciągnie Twojego charakteru w dół jeżeli **jakakolwiek** część duszka dotyka niebieskiej platformy. Więc nawet jeśli głowa duszka dotknie platformy, duszek nie spada! Możesz to przetestować sama: spraw, by Twoja postać wspięła się po drabinie o znaczną odległość, a następnie przesuwaj ją na boki pod platformą:
 
 ![screenshot](images/dodge-gravity-bug.png)
 
-To fix the bug, you first need to give your character sprite new trousers that have a different colour (on **all** costumes).
+Aby naprawić ten błąd, musisz najpierw dać duszkowi postaci nowe spodnie, które mają różny kolor (na **wszystkich** kostiumach).
 
 ![zrzut ekranu](images/dodge-trousers.png)
 
-Then replace this code block:
+Następnie zamień ten blok kodu:
 
 ```blocks3
     < czy dotyka koloru [#00FF00]? >
 ```
 
-with this code block:
+z tym blokiem kodu:
 
 ```blocks3
     < czy kolor [#00FF00] dotyka [#0000FF]? >
 ```
 
-To make sure you've fixed the bug, test the game after you've made these changes!
+Aby upewnić się, że naprawiłeś błąd, przetestuj grę po wprowadzeniu tych zmian!
