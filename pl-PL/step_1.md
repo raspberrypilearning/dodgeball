@@ -52,7 +52,7 @@ Możesz znaleźć [pliki do pobrania tutaj](http://rpf.io/p/en/dodgeball-go).
 ## title: Czego się nauczysz
 
 + Jak używać klawiatury do kontrolowania duszka
-+ Jak korzystać z bloku Scratch `jeżeli, to, w przeciwnym razie`{:class="block3control"}
++ Jak korzystać z bloku Scratch `jeżeli...to, w przeciwnym razie`{:class="block3control"}
 + Jak sklonować duszka
 
 \--- /collapse \---
