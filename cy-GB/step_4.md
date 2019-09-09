@@ -60,8 +60,6 @@ am byth
     newid y gan (disgyrchiant)
   end
 end
-
-disgyrchiant
 ```
 
 --- /task ---
