@@ -35,10 +35,9 @@ Dodaj bloki kodu do duszka postaci, aby gracz mógł używać klawiszy strzałek
 ![duszek Pico walking](images/pico_walking_sprite.png)
 
 ```blocks3
-kiedy flaga kliknięta
+kiedy kliknięto zieloną flagę
 zawsze
-    jeżeli <klawisz (strzałka w prawo v) naciśnięty? > to
-        ustaw kierunek na (90 v)
+    jeżeli <klawisz (strzałka w prawo v) naciśnięty?> to         ustaw kierunek na (90 v)
         przesuń o (3) kroki
         następny kostium
     koniec
@@ -80,8 +79,7 @@ Aby Twoja postać mogła poruszyć się w lewo, będziesz musiała dodać kolejn
 Skopiuj utworzony kod ruchu postaci w prawo. Następnie ustaw w bloku `klawisz naciśnięty`{:class="block3sensing"} `strzałka w lewo`{:class="block3sensing"} i zmień `kierunek`{:class="block3motion"} na `-90`.
 
 ```blocks3
-jeżeli <klawisz (strzałka w prawo v) naciśnięty? > to
-    ustaw kierunek na (-90 v)
+jeżeli <klawisz (strzałka w prawo v) naciśnięty?> to     ustaw kierunek na (-90 v)
     przesuń o (3) kroki
     następny kostium
 koniec
@@ -96,14 +94,14 @@ Twój kod powinien wyglądać teraz tak:
 ![duszek Pico walking](images/pico_walking_sprite.png)
 
 ```blocks3
-kiedy flaga kliknięta
+kiedy kliknięto zieloną flagę
 zawsze 
-  jeżeli < klawisz (strzałka w prawo v) naciśnięty? > to
+  jeżeli <klawisz (strzałka w prawo v) naciśnięty ?> to
     ustaw kierunek na (90 v)
     przesuń o (3) kroki
     następny kostium
   koniec
-  jeżeli < klawisz (strzałka w prawo v) naciśnięty? > to 
+  jeżeli <klawisz (strzałka w lewo) naciśnięty ?> to
     ustaw kierunek na (-90 v)
     przesuń o (3) kroki
     następny kostium
