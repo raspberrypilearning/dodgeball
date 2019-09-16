@@ -1,6 +1,6 @@
-## Dodging balls
+## Αποφεύγοντας τις μπάλες
 
-Your character can move and jump now, so it's time to add some balls that the character has to avoid.
+Ο χαρακτήρας σας μπορεί να μετακινηθεί και να πηδήσει τώρα, οπότε ήρθε η ώρα να προσθέσετε μερικές μπάλες που ο χαρακτήρας πρέπει να αποφύγει.
 
 \--- task \---
 
