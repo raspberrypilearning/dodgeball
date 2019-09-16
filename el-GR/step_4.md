@@ -79,13 +79,13 @@ Now add code to make your character jump whenever the player presses the <kbd>sp
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    when [space v] key pressed
-    repeat (10)
-        change y by (4)
-    end
+    όταν πατηθεί το πλήκτρο [space v]
+    επαναλάβετε (10)
+        αλλάξετε y κάτα (4)
+    τέλος
 ```
 
-Because gravity is constantly pushing your character down by 4 pixels, you need to choose a number greater than `4` in your `change y by (4)`{:class="block3motion"} block. Change the number until you're happy with the height the character jumps.
+Επειδή η βαρύτητα πιέζει συνεχώς τον χαρακτήρα σας κατά 4 pixels, πρέπει να επιλέξετε έναν αριθμό μεγαλύτερο από το ` 4 ` στην αλλαγή ` y από (4) ` {block: block3motion}}. Change the number until you're happy with the height the character jumps.
 
 \--- /task \---
 
@@ -116,14 +116,14 @@ Delete the jumping code you added to your character sprite, and add this code in
     end
 ```
 
-This code moves your character up by 8 pixels, then 7.5 pixels, then 7 pixels, and so on, until it does not rise any higher. This makes jumping look much smoother.
+Αυτός ο κώδικας μετακινεί τον χαρακτήρα σας κατά 8 pixel, έπειτα 7,5 pixel, έπειτα 7 pixel και ούτω καθεξής, μέχρις ότου δεν αυξηθεί. Αυτό κάνει το άλμα να φαίνεται πολύ πιο ομαλό.
 
 \--- /task \---
 
 \--- task \---
 
-Change the value of the `jump height`{:class="block3variables"} variable that is set before the `repeat`{:class="block3control"} starts. Then test your game.
+Αλλάξτε την τιμή του `ύψους άλματος ` {: class = "block3variables"} που έχει οριστεί πριν από την ` επανάληψη` {: class = "block3control"} ξεκινά. Στη συνέχεια, δοκιμάστε το παιχνίδι σας.
 
-Repeat these two steps until you're happy with how high the character jumps.
+Επαναλάβετε αυτά τα δύο βήματα μέχρι να είστε ικανοποιημένοι με το πόσο ψηλά ο χαρακτήρας μεταπηδά.
 
 \--- /task \---
