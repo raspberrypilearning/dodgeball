@@ -1,10 +1,10 @@
 ## Gravity and jumping
 
-Now you're going to make your character move more realistically: you're going to add gravity to your game and give the character the ability to jump.
+Τώρα θα κάνετε τον χαρακτήρα σας να κινείται πιο ρεαλιστικά: πρόκειται να προσθέσετε τη βαρύτητα στο παιχνίδι σας και να δώσετε στον χαρακτήρα τη δυνατότητα να πηδήσει.
 
 \--- task \---
 
-In the game, move your character so that it walks off a platform. Do you see that it can walk into empty space?
+Στο παιχνίδι, μετακινήστε το χαρακτήρα σας έτσι ώστε να περπατά από μια πλατφόρμα. Βλέπετε ότι μπορεί να περπατήσει σε κενό χώρο;
 
 ![screenshot](images/dodge-no-gravity.png)
 
@@ -12,7 +12,7 @@ In the game, move your character so that it walks off a platform. Do you see tha
 
 \--- task --
 
-To fix this, add gravity to your game. To do this, create a new variable called `gravity`{:class="block3variables"}.
+Για να διορθώσετε αυτό, προσθέστε βαρύτητα στο παιχνίδι σας. To do this, create a new variable called `gravity`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
