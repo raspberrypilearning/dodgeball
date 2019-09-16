@@ -137,11 +137,11 @@ set rotation style [left-right v]
 
 \--- task \---
 
-To climb a pink ladder, your character sprite should move a few steps upwards on the Stage whenever the up arrow is pressed **and** the character is touching the correct colour.
+Για να ανεβείτε σε μια ροζ σκάλα, ο χαρακτήρας σας θα πρέπει να μετακινηθεί μερικά βήματα προς τα πάνω στο Στάδιο κάθε φορά που πατιέται το βέλος προς τα πάνω ** και ** ο χαρακτήρας αγγίζει το σωστό χρώμα.
 
 Add inside your character's `forever`{:class="block3control"} loop to `change`{:class="block3motion"} the character's `y` (vertical) position `if`{:class="block3control"} the `up arrow is pressed`{:class="block3sensing"} and the character is `touching the colour pink`{:class="block3sensing"}.
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![χαρακτηρας περπάτηματος pico](images/pico_walking_sprite.png)
 
 ```blocks3
     if < <key (up arrow v) pressed?> and <touching color [#FF69B4]?> > then
@@ -153,7 +153,7 @@ Add inside your character's `forever`{:class="block3control"} loop to `change`{:
 
 \--- task \---
 
-Test your code. Can you make the character climb the pink ladders and get to the end of the level?
+Δοκίμασε τον κώδικά σου. Μπορείτε να κάνετε τον χαρακτήρα να ανέβει στις ροζ σκάλες και να φτάσετε στο τέλος του επιπέδου;
 
 ![screenshot](images/dodge-test-character.png)
 
