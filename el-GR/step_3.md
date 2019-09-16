@@ -1,5 +1,5 @@
-## Challenge: completing the level
+## Πρόκληση: ολοκλήρωση της πίστας
 
-Can you add more code blocks to your character sprite to make the sprite say something `if`{:class="block3control"} it gets to the green door?
+Μπορείτε να προσθέσετε περισσότερα μπλοκ κώδικα στον sprite χαρακτήρα σας για να κάνετε το sprite να λέει κάτι ` αν ` {: class = "block3control"} φτάνει στην πράσινη πόρτα;
 
 ![screenshot](images/dodge-win.png)
