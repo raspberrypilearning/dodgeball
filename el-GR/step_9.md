@@ -1,4 +1,4 @@
-## Challenge: more obstacles
+## Challenge: περισσότερα εμπόδια
 
 If you think your game is still too easy, you can add more obstacles to it. The obstacles can be anything you like! Here are some ideas:
 
@@ -8,9 +8,9 @@ If you think your game is still too easy, you can add more obstacles to it. The 
 
 ![screenshot](images/dodge-obstacles.png)
 
-You could even design another backdrop to create the next level. Then add code so that, when your character reaches the green door, the game switches to the new background:
+Θα μπορούσατε ακόμη να σχεδιάσετε ένα άλλο σκηνικό για να δημιουργήσετε το επόμενο επίπεδο. Στη συνέχεια, προσθέστε τον κώδικα έτσι ώστε, όταν ο χαρακτήρας σας φτάσει στην πράσινη πόρτα, το παιχνίδι μεταβαίνει στο νέο φόντο:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![χαρακτηρας περπάτηματος pico](images/pico_walking_sprite.png)
 
 ```blocks3
     if <touching color [#00FF00]?> then
