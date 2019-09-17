@@ -139,7 +139,7 @@ set rotation style [left-right v]
 
 Για να ανεβείτε σε μια ροζ σκάλα, ο χαρακτήρας σας θα πρέπει να μετακινηθεί μερικά βήματα προς τα πάνω στο Στάδιο κάθε φορά που πατιέται το βέλος προς τα πάνω ** και ** ο χαρακτήρας αγγίζει το σωστό χρώμα.
 
-Add inside your character's `forever`{:class="block3control"} loop to `change`{:class="block3motion"} the character's `y` (vertical) position `if`{:class="block3control"} the `up arrow is pressed`{:class="block3sensing"} and the character is `touching the colour pink`{:class="block3sensing"}.
+Πρόσθεσε κώδικα στο βρόχο του χαρακτήρα σου `για πάντα`{:class="block3control"} ώστε να `αλλάξει`{:class="block3motion"} την (κάθετη) θέση `y` του χαρακτήρα `εάν`{:class="block3control"} το `πάνω βέλος είναι πατημένο`{:class="block3sensing"} και ο χαρακτήρας `αγγίζει το ροζ χρώμα`{:class="block3sensing"}.
 
 ![χαρακτηρας περπάτηματος pico](images/pico_walking_sprite.png)
 
