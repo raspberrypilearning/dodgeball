@@ -1,9 +1,9 @@
-## Challenge: random balls
+## 挑战：随机小球
 
-The balls that your character has to dodge all look the same, and they appear at regular three-second intervals. Can you add code to your game so that the balls:
+您的角色必须躲避的球看起来都一样，并且每隔三秒钟就会出现一次。 您能否在游戏中添加代码，以便使球：
 
-+ Don't all look the same?
-+ Appear after a `random`{:class="block3operators"} amount of time?
-+ Are a random size?
++ 看起来不一样吗？
++ `随机出现` {：class =“ block3operators”}多长时间？
++ 是随机大小吗？
 
 ![screenshot](images/dodge-ball-random.png)
