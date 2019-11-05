@@ -1,9 +1,9 @@
-## Herqusforderung: Willkürliche Bälle
+## Herausforderung: zufällige Bälle
 
-The balls that your character has to dodge all look the same, and they appear at regular three-second intervals. Can you add code to your game so that the balls:
+Die Kugeln, den dein Charakter ausweichen muss, sehen alle gleich aus und erscheinen in regelmäßigen Abständen von drei Sekunden. Du kannst Codes zu deinem Spiel hinzufügen, damit die Kugeln:
 
-+ Don't all look the same?
-+ Appear after a `random`{:class="block3operators"} amount of time?
-+ Are a random size?
++ Nicht alle gleich aus sehen?
++ Nach einer Zufalls ` random` {: class = "block3operators"} Zeitdauer erscheinen?
++ Eine zufällige Größe haben?
 
 ![Screenshot](images/dodge-ball-random.png)
