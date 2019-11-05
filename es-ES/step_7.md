@@ -1,9 +1,9 @@
-## Reto: Balones aleatorios
+## Desafío: Pelotas aleatorias
 
-Las bolas que tu personaje tiene para esquivar se ven iguales, y aparecen a intervalos regulares de tres segundos. ¿Puedes agregar código a tu juego para que las bolas:
+Las pelotas que tu personaje tiene para esquivar son todas iguales y aparecen en intervalos regulares de tres segundos. ¿Puedes añadir código a tu juego para que las pelotas:
 
-+ ¿No todos parecen iguales?
-+ Aparece después de un `al azar`{: class = "block3operators"} cantidad de tiempo?
-+ ¿Son de un tamaño aleatorio?
++ ¿No sean todas iguales?
++ ¿Aparezcan después de una cantidad de tiempo `aleatoria`{:class="block3operators"}?
++ ¿Tengan un tamaño aleatorio?
 
 ![captura de pantalla](images/dodge-ball-random.png)
