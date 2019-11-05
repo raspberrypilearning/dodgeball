@@ -1,12 +1,12 @@
 \--- no-print \---
 
-Esta es una versión de **Scratch 3** del proyecto. También hay una [versión del proyecto en Scratch 2](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2).
+Ésta es una versión de **Scratch 3** del proyecto. También hay una [versión del proyecto en Scratch 2](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2).
 
 \--- /no-print \---
 
 ## Introducción
 
-Aprenderás cómo crear un juego de plataformas en el que el jugador tenga que esquivar las bolas en movimiento para llegar al final del nivel.
+Aprenderás cómo crear un juego de plataformas en el que el jugador tenga que esquivar unas pelotas en movimiento para llegar al final del nivel.
 
 \--- no-print \---
 
@@ -21,7 +21,7 @@ Haga clic en la bandera verde para comenzar, y luego use las teclas de flecha pa
 
 \--- print-only \---
 
-![juego de dodgeball siendo jugado](images/dodgeball-showcase.png)
+![partida de esquiva-pelotas en curso](images/dodgeball-showcase.png)
 
 \--- /print-only \---
 
@@ -33,7 +33,7 @@ Haga clic en la bandera verde para comenzar, y luego use las teclas de flecha pa
 
 ### Hardware
 
-+ Una computadora capaz de hacer correr Scratch 3
++ Un ordenador capaz de ejecutar Scratch 3
 
 ### Software
 
@@ -41,7 +41,7 @@ Haga clic en la bandera verde para comenzar, y luego use las teclas de flecha pa
 
 ### Descargas
 
-Puede [encontrar las descargas aquí](http://rpf.io/p/en/dodgeball-go).
+Puedes [encontrar las descargas aquí](http://rpf.io/p/en/dodgeball-go).
 
 \--- /collapse \---
 
@@ -51,9 +51,9 @@ Puede [encontrar las descargas aquí](http://rpf.io/p/en/dodgeball-go).
 
 ## title: Lo que vas a aprender
 
-+ Cómo utilizar el teclado para controlar un sprite.
-+ Cómo usar el `si, entonces, de lo contrario`{: class = "block3control"} Scratch block
-+ Cómo clonar un sprite
++ Cómo utilizar el teclado para controlar un objeto
++ Cómo usar el bloque `si, entonces, si no`{:class="block3control"} de Scratch
++ Cómo clonar un objeto
 
 \--- /collapse \---
 
@@ -61,7 +61,7 @@ Puede [encontrar las descargas aquí](http://rpf.io/p/en/dodgeball-go).
 
 * * *
 
-## Título: Notas adicionales para educadores.
+## title: Información adicional para educadores
 
 \--- no-print \---
 
@@ -69,6 +69,6 @@ Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://pro
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/dodgeball-get).
+Puedes encontrar el [proyecto completado aquí](http://rpf.io/p/en/dodgeball-get).
 
 \--- /collapse \---
