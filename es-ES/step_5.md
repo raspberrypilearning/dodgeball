@@ -1,5 +1,5 @@
-## Desafío: mejor saltando.
+## Desafío: Mejores saltos
 
-Incluso si el personaje ya está en el aire, salta cada vez que el jugador pulsa el <kbd>espacio de</kbd> bar. Puede ver este comportamiento si mantiene presionada la barra de <kbd>espacio</kbd>.
+El personaje salta cada vez que el jugador pulsa el <kbd>espacio</kbd>. Incluso si está en el aire. Puedes observar este comportamiento si mantienes presionada la tecla <kbd>espacio</kbd>.
 
-¿Puedes cambiar el código del sprite de carácter para saltar de modo que tu personaje solo pueda saltar `si`{: class = "block3control"} toca una plataforma azul?
+¿Puedes cambiar el código de salto del objeto de personaje de modo que tu personaje solo pueda saltar `si`{:class="block3control"} está tocando una plataforma azul?
