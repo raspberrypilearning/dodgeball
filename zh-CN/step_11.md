@@ -1,7 +1,7 @@
-## Challenge: more lives
+## 挑战：更多生命
 
-Right now, your character goes back to its starting position when it gets hit. Can you also give the character sprite three `lives`{:class="block3variables"}, and make it lose one life when it gets hit? Here's how your game could work:
+现在，角色被击中时会返回其初始位置。 您还可以给角色精灵三个生命吗？ </code> {：class =“ block3variables”}，并使其在受到打击时失去生命？ 现在你的代码应如图所示：
 
-+ The game starts with three lives for the character
-+ Whenever the character gets hit, it loses one life **and** moves back to the start
-+ If there are no lives left, the game ends
++ 游戏从角色的三个生命开始
++ 每当角色被击中时，它就会失去一条生命**并且**回到起点
++ 如果没有生命，游戏结束
