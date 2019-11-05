@@ -24,7 +24,7 @@ Możesz ukryć tą zmienną na scenie jeśli chcesz.
 
 \--- task \---
 
-Dodaj te nowe bloki kodu, które ustawiają `grawitację` na liczbę ujemną i użyj wartości `grawitacja` aby wielokrotnie zmieniać współrzędną y twojej postaci:
+Dodaj te nowe bloki kodu, które ustawiają `grawitację` na liczbę ujemną i użyj wartości zmiennej `grawitacja` aby wielokrotnie zmieniać współrzędną y twojej postaci:
 
 ![duszek Pico walking](images/pico_walking_sprite.png)
 
