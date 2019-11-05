@@ -1,16 +1,16 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2).
+这是项目的**Scratch 3** 版本。 该项目还有一个[ Scratch 2版本](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2) 。
 
 \--- /no-print \---
 
-## Introduction
+## 介绍
 
-You'll learn how to create a platform game in which the player has to dodge moving balls to reach the end of the level.
+您将学习如何创建一个平台游戏，在该游戏中玩家必须躲避移动球才能到达关卡的尽头。
 
 \--- no-print \---
 
-Click the green flag to start, and then use the arrow keys to move and the <kbd>space</kbd> key to jump.
+单击绿色标志开始，然后使用箭头键移动，使用<kbd>空格</kbd>键跳跃。
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/251809924/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,7 +21,7 @@ Click the green flag to start, and then use the arrow keys to move and the <kbd>
 
 \--- print-only \---
 
-![dodgeball game being played](images/dodgeball-showcase.png)
+![玩躲避球游戏](images/dodgeball-showcase.png)
 
 \--- /print-only \---
 
@@ -29,31 +29,19 @@ Click the green flag to start, and then use the arrow keys to move and the <kbd>
 
 * * *
 
-## title: What you will need
+## 标题: 你需要准备什么
 
-### Hardware
+### 硬件
 
-+ A computer capable of running Scratch 3
++ 一台能够运行Scratch 3的电脑
 
-### Software
+### 软件
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/download/))
++ Scratch 3（[在线版](https://scratch.mit.edu/projects/editor/)或[离线版](https://scratch.mit.edu/download/)）
 
-### Downloads
+### 下载
 
-You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
-
-\--- /collapse \---
-
-\--- collapse \---
-
-* * *
-
-## title: What you will learn
-
-+ How to use the keyboard to control a sprite
-+ How to use the `if, then, else`{:class="block3control"} Scratch block
-+ How to clone a sprite
+您可以在这里[找到下载](http://rpf.io/p/en/dodgeball-go)。
 
 \--- /collapse \---
 
@@ -61,14 +49,26 @@ You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 * * *
 
-## title: Additional notes for educators
+## 标题：你将学到
+
++ 如何使用键盘控制精灵
++ 如何使用`if,then,else`{:class="block3control"} Scratch 块
++ 如何克隆精灵
+
+\--- /collapse \---
+
+\--- collapse \---
+
+* * *
+
+## 为教育者提供的额外信息
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
+如果您需要打印本项目文件，请使用[适合打印版本](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}。
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/dodgeball-get).
+你可以在这里找到[完整的项目](http://rpf.io/p/en/dodgeball-get).
 
 \--- /collapse \---
