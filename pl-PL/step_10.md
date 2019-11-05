@@ -1,6 +1,6 @@
 ## Wyzwanie: poprawiona grawitacja
 
-Istnieje jeden mały błąd w Twojej grze: grawitacja nie ciągnie Twojego charakteru w dół jeżeli **jakakolwiek** część duszka dotyka niebieskiej platformy. Więc nawet jeśli głowa duszka dotknie platformy, duszek nie spada! Możesz to przetestować sama: spraw, by Twoja postać wspięła się po drabinie o znaczną odległość, a następnie przesuwaj ją na boki pod platformą:
+Istnieje jeden mały błąd w Twojej grze: grawitacja nie ciągnie Twojego charakteru w dół jeżeli **jakakolwiek** część duszka dotyka niebieskiej platformy. Więc nawet jeśli głowa duszka dotknie platformy, duszek nie spada! Możesz to przetestować sama: spraw, by Twoja postać wspięła się po drabinie powyżej połowy, a następnie przesuwaj ją na boki pod platformą:
 
 ![screenshot](images/dodge-gravity-bug.png)
 
