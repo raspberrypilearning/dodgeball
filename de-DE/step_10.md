@@ -1,23 +1,23 @@
 ## Herausforderung: Verbesserte Schwerkraft
 
-There's one other small bug in your game: gravity doesn't pull the character sprite downwards if **any** part of the sprite is touching a blue platform. So even if the sprites head touches a platform, the sprite doesn't fall! You can test this yourself: make your character climb most of the way up a ladder, and then move the character sideways beneath a platform:
+Es gibt einen anderen kleinen Fehler in deinem Spiel: die Schwerkraft zieht den Charakter nicht nach unten, wenn ** irgendein** Teil des Objektes eine blaue Plattform berührt. Selbst wenn der Kopf des Objektes eine Plattform berührt, fällt das Objekt nicht! Du kannst dies selbst testen: Lass deinen Charakter am meisten auf eine Leiter hinauf klettern und dann die Charaktere unter einer Plattform bewegen:
 
-![Screenshot](images/dodge-gravity-bug.png)
+![screenshot](images/dodge-gravity-bug.png)
 
-To fix the bug, you first need to give your character sprite new trousers that have a different colour (on **all** costumes).
+Um den Fehler zu beheben, musst du zuerst deinem Charakter neue Hosen mit einer anderen Farbe geben (auf **allen** Kostüme).
 
 ![screenshot](images/dodge-trousers.png)
 
-Then replace this code block:
+Ersetze diesen Code-Block:
 
 ```blocks3
     < touching color [#0000FF]? >
 ```
 
-with this code block:
+mit diesem Codeblock:
 
 ```blocks3
     < color [#00FF00] is touching [#0000FF]? >
 ```
 
-To make sure you've fixed the bug, test the game after you've made these changes!
+Um sicherzustellen, dass du den Fehler behoben hast, teste das Spiel, nachdem du diese Änderungen vorgenommen hast!
