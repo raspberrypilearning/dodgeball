@@ -72,7 +72,7 @@ Dodaj więcej kodu do swojego duszka piłki, aby jej klony poruszały się po ws
 
 \--- hint \---
 
-Powtórz bloki kodu, których użyłaś, aby przesuwać klon duszka piłki po pierwszej platformie. Musisz zmienić `x`{:class="block3motion"}, `y`{:class="block3motion"} i `powtarzaj`{:class="block3control"} liczby, aby klony poprawnie podążały za platformami.
+Powtórz bloki kodu, których użyłaś, aby przesuwać klon duszka piłki po pierwszej platformie. Musisz zmienić liczby `x`{:class="block3motion"}, `y`{:class="block3motion"} i `powtarzaj`{:class="block3control"} liczby, aby klony poprawnie podążały za platformami.
 
 \--- /wskazówka \---
 
@@ -98,7 +98,7 @@ powtarzaj (30)
 koniec
 ```
 
-\--- /wskazówka \---
+\--- /hint \---
 
 \--- hint \---
 
