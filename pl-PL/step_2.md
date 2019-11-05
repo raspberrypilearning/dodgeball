@@ -10,7 +10,7 @@ Otwórz projekt startowy Scratch „Dwa ognie”.
 
 Jeśli masz konto Scratch, możesz wykonać kopię klikając **Remiks**.
 
-**Offline:** pobierz projekt początkowy z [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get), i otwórz w programie Scratch Desktop.
+**Offline:** pobierz projekt początkowy z [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) i otwórz w programie Scratch Desktop.
 
 \--- /task \---
 
@@ -35,9 +35,10 @@ Dodaj bloki kodu do duszka postaci, aby gracz mógł używać klawiszy strzałek
 ![duszek Pico walking](images/pico_walking_sprite.png)
 
 ```blocks3
-kiedy kliknięto zieloną flagę
+kiedy flaga kliknięta
 zawsze
-    jeżeli <klawisz (strzałka w prawo v) naciśnięty?> to         ustaw kierunek na (90 v)
+    jeżeli <klawisz (strzałka w prawo v) naciśnięty? > to
+        ustaw kierunek na (90 v)
         przesuń o (3) kroki
         następny kostium
     koniec
@@ -70,16 +71,17 @@ Dodaj bloki kodu do pętli `zawsze`{:class="block3control"} duszka postaci, w ta
 
 \--- hint \---
 
-Aby Twoja postać mogła poruszyć się w lewo, będziesz musiała dodać kolejny blok `jeżeli`{:class="block3control"} wewnątrz pętli `zawsze`{:class="block3control"}. W tym nowym bloku `jeżeli`{:class="block3control"}, dodaj kod, aby twój duszek postaci `poruszył się`{:class="block3motion"} w lewo.
+Aby Twoja postać mogła poruszyć się w lewo, będziesz musiała dodać kolejny blok `jeżeli`{:class="block3control"} wewnątrz pętli `zawsze`{:class="block3control"}. Dodaj kod w tym nowym bloku `jeżeli`{:class="block3control"}, aby twój duszek postaci `poruszył się`{:class="block3motion"} w lewo.
 
 \--- /hint \---
 
 \--- hint \---
 
-Skopiuj utworzony kod ruchu postaci w prawo. Następnie ustaw w bloku `klawisz naciśnięty`{:class="block3sensing"} `strzałka w lewo`{:class="block3sensing"} i zmień `kierunek`{:class="block3motion"} na `-90`.
+Skopiuj utworzony kod, aby sprawić, żeby postać poruszała się w prawo. Następnie ustaw w bloku `klawisz naciśnięty`{:class="block3sensing"} `strzałka w lewo`{:class="block3sensing"} i zmień `kierunek`{:class="block3motion"} na `-90`.
 
 ```blocks3
-jeżeli <klawisz (strzałka w prawo v) naciśnięty?> to     ustaw kierunek na (-90 v)
+jeżeli <klawisz (strzałka w prawo v) naciśnięty? > to
+    ustaw kierunek na (-90 v)
     przesuń o (3) kroki
     następny kostium
 koniec
@@ -94,14 +96,14 @@ Twój kod powinien wyglądać teraz tak:
 ![duszek Pico walking](images/pico_walking_sprite.png)
 
 ```blocks3
-kiedy kliknięto zieloną flagę
+kiedy flaga kliknięta
 zawsze 
-  jeżeli <klawisz (strzałka w prawo v) naciśnięty ?> to
+  jeżeli <klawisz (strzałka w prawo v) naciśnięty> to
     ustaw kierunek na (90 v)
     przesuń o (3) kroki
     następny kostium
   koniec
-  jeżeli <klawisz (strzałka w lewo) naciśnięty ?> to
+  jeżeli <klawisz (strzałka w prawo v) naciśnięty> to 
     ustaw kierunek na (-90 v)
     przesuń o (3) kroki
     następny kostium
@@ -144,7 +146,7 @@ Dodaj wewnątrz pętli `zawsze`{:class="block3control"} dla twojej postaci blok 
 ```blocks3
     jeżeli <<key (up arrow v) pressed?> i <touching color [#FF69B4]?> > to
         zmień y o (4)
-    end
+    koniec
 ```
 
 \--- /task \---
