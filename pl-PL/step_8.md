@@ -14,7 +14,7 @@ Dodaj nowego duszka do swojej gry i nazwij go `laser`. Powinien mieć dwa kostiu
 
 \--- task \---
 
-Umieść nowy laser pomiędzy dwiema platformami.
+Umieść nowy laser pomiędzy dwoma platformami.
 
 ![zrzut ekranu](images/dodge-lasers-position.png)
 
@@ -44,19 +44,19 @@ Jeśli chcesz, możesz zmienić kod pokazany powyżej, aby duszek `czekał`{:cla
 
 Na koniec dodaj kod do duszka lasera, aby nadawał on komunikat „trafiony”, gdy dotknie duszka postaci.
 
-\--- wskazówka \---
+\--- hints \---
 
 \--- hint \---
 
 Ten kod powinien być bardzo podobny do kodu który dodałeś do duszka piłki.
 
-\--- /wskazówka \---
+\--- /hint \---
 
 \--- hint \---
 
 Skopiuj kod poprzednio dodany do duszka piłki, aby ten duszek lasera`nadawał 'trafiony'`{:class="block3control"}, kiedy `dotyka Twojej postaci`{:class="block3sensing"}.
 
-\--- /wskazówka \---
+\--- /hint \---
 
 \--- hint \---
 
@@ -73,9 +73,9 @@ zawsze
 koniec
 ```
 
-\--- /wskazówka \---
+\--- /hint \---
 
-\--- /wskazówka \---
+\--- /hints \---
 
 Nie musisz dodawać żadnego dodatkowego kodu do Twojego duszka postaci, ponieważ duszek postaci już wie co zrobić, gdy otrzyma `komunikat 'trafiony'`{:class="block3control"}!
 
