@@ -1,16 +1,16 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2).
+Dies ist die **Scratch 3** Version des Projekts. Es gibt auch eine [Scratch 2 Version des Projekts](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2).
 
 \--- /no-print \---
 
 ## Einleitung
 
-You'll learn how to create a platform game in which the player has to dodge moving balls to reach the end of the level.
+Du wirst lernen, wie du ein Plattform-Spiel erstellen kannst, in dem der Spieler bewegende Kugeln ausweichen muss, um das Ende des Levels zu erreichen.
 
 \--- no-print \---
 
-Click the green flag to start, and then use the arrow keys to move and the <kbd>space</kbd> key to jump.
+Klicke zum Starten auf die grüne Flagge und verwende dann die Pfeiltasten zum Bewegen und die <kbd>Leertaste</kbd>zum Springen.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/251809924/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -41,7 +41,7 @@ Click the green flag to start, and then use the arrow keys to move and the <kbd>
 
 ### Downloads
 
-You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
+Die [Downloads findest Du hier](http://rpf.io/p/en/dodgeball-go).
 
 \--- /collapse \---
 
@@ -51,9 +51,9 @@ You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 ## title: Was du lernen wirst
 
-+ How to use the keyboard to control a sprite
-+ How to use the `if, then, else`{:class="block3control"} Scratch block
-+ How to clone a sprite
++ Wie man die Tastatur benutzt, um ein Objekt (Sprit) zu steuern
++ Wie man den `wenn, dann, sonst`{:class="block3control"} Scratch Block benutzt
++ Wie man ein Sprit klonen kann
 
 \--- /collapse \---
 
@@ -69,6 +69,6 @@ Wenn du dieses Projekt ausdrucken möchtest, verwende die [druckerfreundliche Ve
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/dodgeball-get).
+Du findest das [abgeschlossene Projekt hier](http://rpf.io/p/en/dodgeball-get).
 
 \--- /collapse \---
