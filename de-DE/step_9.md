@@ -1,14 +1,14 @@
 ## Herausforderung: Mehr Hindernisse
 
-If you think your game is still too easy, you can add more obstacles to it. The obstacles can be anything you like! Hier sind ein paar Vorschläge:
+Wenn du denkst, dass dein Spiel noch zu einfach ist, kannst du mehr Hindernisse hierfür hinzufügen. Die Hindernisse können alles sein, was du willst! Hier sind ein paar Vorschläge:
 
-+ A dangerous butterfly
-+ Platforms that appear and disappear
-+ Falling tennis balls that must be avoided
++ Ein gefährlicher Schmetterling
++ Plattformen, die erscheinen und verschwinden
++ Fallende Tennisbälle, die vermieden werden müssen
 
 ![Screenshot](images/dodge-obstacles.png)
 
-You could even design another backdrop to create the next level. Then add code so that, when your character reaches the green door, the game switches to the new background:
+Du kannst sogar einen anderen Hintergrund entwerfen, um das nächste Level zu erstellen. Füge dann einen Code hinzu, sodass das Spiel in den neuen Hintergrund wechselt, wenn dein Charakter die grüne Tür erreicht:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
