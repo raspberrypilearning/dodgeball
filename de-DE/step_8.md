@@ -1,10 +1,10 @@
 ## Laser!
 
-To your game a little harder to complete, you are going to add lasers!
+Um dein Spiel ein wenig schwieriger beenden zu lassen, wirst du Laser hinzufügen!
 
 \--- task \---
 
-Add a new sprite to your game and call it `laser`. It should have two costumes: one called 'on', and one called 'off'.
+Füge ein neues Sprit zu deinem Spiel hinzu und nenne es `laser`. Es sollte zwei Kostüme haben: eins mit Ein 'on' und eins mit Aus 'off'.
 
 ![screenshot](images/dodge-lasers-costume1.png)
 
@@ -14,7 +14,7 @@ Add a new sprite to your game and call it `laser`. It should have two costumes: 
 
 \--- task \---
 
-Place your new laser sprite between two platforms.
+Platziere dein neues Lasersprit zwischen zwei Plattformen.
 
 ![Screenshot](images/dodge-lasers-position.png)
 
@@ -22,7 +22,7 @@ Place your new laser sprite between two platforms.
 
 \--- task \---
 
-Add code to your laser sprite to make it switch between its two costumes.
+Füge diesen Code zu deinem Lasersprit hinzu, um ihn zwischen den beiden Kostümen wechseln zu lassen.
 
 ![laser sprite](images/laser_sprite.png)
 
@@ -36,31 +36,31 @@ Add code to your laser sprite to make it switch between its two costumes.
     end
 ```
 
-If you prefer, you can change the code shown above so that the sprite `waits`{:class="block3control"} a `random`{:class="block3operators"} amount of time between costume changes.
+Wenn du möchtest, kannst du den oben gezeigten Code so ändern, dass das Sprite eine Zufalls `random` {: class = "block3operators"} Zeitspanne zwischen den Kostümwechseln wartet `waits` {: class = "block3control"}.
 
 \--- /task \---
 
 \--- task \---
 
-Finally, add code to your laser sprite so that the laser sprite broadcasts a 'hit' message when it touches the character sprite.
+Anschließend fügst du Code zu deinem Lasersprit hinzu, sodass der Lasersprit eine Treffer 'hit'-Nachricht sendet, wenn es den Charakter Sprite berührt.
 
 \--- hints \---
 
 \--- hint \---
 
-This code should be very similar to the code you added to your ball sprite.
+Dieser Code sollte sehr ähnlich sein wie der Code, den du zu deinem Kugelsprite hinzugefügt hast.
 
 \--- /hint \---
 
 \--- hint \---
 
-Copy the code you add to the ball sprite to make this sprite `broadcast 'hit'`{:class="block3control"} when it is `touching your character`{:class="block3sensing"}.
+Kopier den Code, den du dem Ball-Objekt hinzufügst hast, um dieses Objekt Treffer zu senden `broadcast 'hit'` {: class = "block3control"}, wenn es deinen Charakter berührt `touching your character`{:class="block3sensing"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-This is the code you should add:
+Dies ist der Code, den du dafür hinzufügen sollst:
 
 ![laser sprite](images/laser_sprite.png)
 
@@ -77,12 +77,12 @@ end
 
 \---/hints\---
 
-You don't need to add any extra code to your characters sprite, because the character sprite already knows what to do when it receives the `broadcast 'hit'`{:class="block3control"}!
+Du musst keinen zusätzlichen Code zu deinem Charakterobjekt hinzufügen, da das Charakterobjekt bereits weiß, was es zu tun hat, wenn es Treffer senden`broadcast 'hit'`{:class="block3control"} erhält!
 
 \--- /task \---
 
 \--- task \---
 
-Test out your game to see if you can move the character past the laser. If the laser is too easy or too hard to avoid, change the `wait`{:class="block3control"} times in the code for the laser sprite.
+Teste dein Spiel, um festzustellen, ob du den Charakter am Laser vorbeibewegen kannst. Wenn der Laser zu leicht oder zu schwer zu meiden ist, ändere die Wartezeit `wait` {: class = "block3control"} im Code für das Laserobjet.
 
 \--- /task \---
