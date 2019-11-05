@@ -1,26 +1,26 @@
 ## Bewegung der Spielfigur
 
-Start by creating a character that can move left and right, and can climb up ladders.
+Erstelle als Erstes einen Charakter, der sich nach links und rechts bewegen und auf Leitern klettern kann.
 
 \--- task \---
 
-Open the 'Dodgeball' Scratch starter project.
+Öffne das Scratch-Startprojekt 'Dodgeball'.
 
-**Online:** open the starter project at [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}.
+**Online:** Öffne das Basisprojekt auf [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Wenn du bereits einen Scratch-Account besitzt, kannst du dir durch Klick auf **Remix** eine Kopie anlegen.
 
-**Offline:** download the starter project from [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) and then open it using the offline editor.
+**Offline:** Lade das Basisprojekt von [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get){:target="_blank"} herunter und öffne es dann mit dem Scratch Offline-Editor.
 
 \--- /task \---
 
-The project contains a backdrop with platforms:
+Das Projekt enthält einen Hintergrund mit Plattformen:
 
 ![dodgeball project background](images/dodge-background.png)
 
-\--- task \---
+\--- /task \---
 
-Choose a new sprite as the character the player will control, and add it to your project. It's best if you choose a sprite with multiple costumes, so that you can make it look as though it's walking.
+Wähle ein neues Sprite als Charakter, den der Spieler steuern wird, und füge es zu deinem Projekt hinzu. Es ist am besten, wenn du ein Sprit mit mehreren Kostümen wählst, damit du es so aussehen lässt, als ob es geht.
 
 ![pick a sprite](images/dodge-characters.png)
 
@@ -28,9 +28,9 @@ Choose a new sprite as the character the player will control, and add it to your
 
 \--- /task \---
 
-\--- task \---
+\--- /task \---
 
-Add code blocks to your character sprite so that the player can use the arrow keys to move the character around. When the player presses the right arrow, the character should point right, move a few steps, and change to the next costume:
+Füge Code-Blöcke zu deinem Zeichen Sprite hinzu, damit der Spieler die Pfeiltasten verwenden kann, um den Charakter umher zu bewegen. Wenn der Spieler den Rechtspfeil drückt, sollte der Charakter nach rechts zeigen, ein paar Schritte gehen und zum nächsten Kostüm wechseln:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -47,37 +47,37 @@ end
 
 \--- /task \---
 
-\--- task \---
+\--- /task \---
 
-If your sprite doesn't fit, adjust its size.
+Wenn dein Sprite nicht passt, passe die Größe an.
 
 ![set sprite size so it fits](images/dodge-sprite-size-annotated.png)
 
 \--- /task \---
 
-\--- task \---
+\--- /task \---
 
-Test out your character by clicking the flag and then holding down the right arrow key. Does your character move to the right? Does your character look like it is walking?
+Teste die Figur deines Spielers, indem du auf die Flagge klickst und dann den Pfeil nach oben gedrückt hältst. Bewegt sich dein Charakter nach rechts? Sieht dein Charakter so aus, als würde er laufen?
 
 ![screenshot](images/dodge-walking.png)
 
 \--- /task \---
 
-\--- task \---
+\--- /task \---
 
-Add code blocks to the character sprite's `forever`{:class="block3control"} loop so that it walks left if the left arrow key is pressed.
+Füge Code-Blöcke zu den Zeichensprite `forever`{:class="block3control"} Schleife hinzu, so dass es links geht, wenn die linke Pfeiltaste gedrückt wird.
 
-\--- hints \---
+\--- /task \---
 
-\--- hint \---
+\--- /task \---
 
-So that your character can move to the left, you'll need to add another `if`{:class="block3control"} block inside the `forever`{:class="block3control"} loop. In this new `if`{:class="block3control"} block, add code to make your character sprite `move`{:class="block3motion"} to the left.
+Damit sich dein Charakter nach links bewegen kann, musst du einen weiteren `if`{:class="block3control"} Block in der `forever`{:class ="block3control"} (fortlaufend wiederholend) Schleife hinzufügen. In diesen neuen ` if ` {: class = "block3control"} Block, füge einen Code hinzu, um deinen Sprite Charakter nach links zu `zu bewegen` {: class = "block3motion"}.
 
-\--- /hint \---
+\--- /task \---
 
-\--- hint \---
+\--- /task \---
 
-Copy the code you created to make the character walk to the right. Then set the `key pressed`{:class="block3sensing"} to the `left arrow`{:class="block3sensing"}, and change the `direction`{:class="block3motion"} to `-90`.
+Kopiere den Code, den du erstellt hast, um den Charakter nach rechts laufen zu lassen. Stelle dann die gedrückte Taste `key pressed` {: class = "block3sensing"} auf Links-Pfeil`left arrow` {: class = "block3sensing"}, und ändere die Richtung `direction` {: class = "block3motion"} auf `-90`.
 
 ```blocks3
 if <key (right arrow v) pressed? > then
@@ -87,11 +87,11 @@ if <key (right arrow v) pressed? > then
 end
 ```
 
-\--- /hint \---
+\--- /task \---
 
-\--- hint \---
+\--- /task \---
 
-Your code should look like this now:
+Dein Code sollte so aussehen:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -117,17 +117,17 @@ end
 
 \--- /task \---
 
-\--- task \---
+\--- /task \---
 
-Test your new code to make sure that it works. Does your character turn upside-down when walking to the left?
+Teste den neuen Code, um sicherzustellen, dass er funktioniert. Stellt sich dein Charakter auf den Kopf, wenn du nach links gehst?
 
 ![screenshot](images/dodge-upside-down.png)
 
-If so, you can fix this by clicking on the **direction** of your character sprite, and then clicking on the left-right arrow.
+Wenn ja, kannst du dies beheben, indem du auf die Richtung **direction** von deinen Charakter Sprite klickst und dann auf den Pfeil nach links und rechts klickst.
 
 ![screenshot](images/dodge-left-right-annotated.png)
 
-Or if you prefer, you can also fix the problem by adding this block to the start of your character's script:
+Wenn du möchtest, kannst du das Problem auch beheben, indem du diesen Block am Anfang des Skripts deines Charakters einfügst:
 
 ```blocks3
 set rotation style [left-right v]
@@ -135,11 +135,11 @@ set rotation style [left-right v]
 
 \--- /task \---
 
-\--- task \---
+\--- /task \---
 
-To climb a pink ladder, your character sprite should move a few steps upwards on the Stage whenever the up arrow is pressed **and** the character is touching the correct colour.
+Um eine rosafarbene Leiter zu besteigen, sollte sich dein Charakter-Sprite auf dem Spielfeld ein paar Schritte nach oben bewegen, wenn der Aufwärtspfeil gedrückt wird **und ** der Charakter die richtige Farbe berührt.
 
-Add inside your character's `forever`{:class="block3control"} loop to `change`{:class="block3motion"} the character's `y` (vertical) position `if`{:class="block3control"} the `up arrow is pressed`{:class="block3sensing"} and the character is `touching the colour pink`{:class="block3sensing"}.
+Füge zu der fortlaufend wiederholend `forever`{:class="block3control"} Schleife deines Charakters, um die ` y ` (vertikale) Position des Charakters zu verändern ` change ` {: class = "block3motion"}, wenn `if` {: class = "block3control"} der Aufwärtspfeil gedrückt ist `up arrow is pressed`{:class="block3sensing"} und der Charakter die pinke Farbe' berührt `touching the colour pink`{:class="block3sensing"}, hinzu.
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -151,9 +151,9 @@ Add inside your character's `forever`{:class="block3control"} loop to `change`{:
 
 \--- /task \---
 
-\--- task \---
+\--- /task \---
 
-Test your code. Can you make the character climb the pink ladders and get to the end of the level?
+Teste deinen Code. Schaffst du es, dass der Charakter die rosafarbenen Leitern erklimmt und das Ende des Levels erreicht?
 
 ![screenshot](images/dodge-test-character.png)
 
