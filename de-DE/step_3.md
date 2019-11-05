@@ -1,5 +1,5 @@
 ## Herausforderung: Das Level abschließen
 
-Can you add more code blocks to your character sprite to make the sprite say something `if`{:class="block3control"} it gets to the green door?
+Kannst du zu deinem Charakter-Sprite weitere Codeblöcke hinzufügen, damit das Sprite etwas sagt, wenn `if` {: class = "block3control"} es zur grünen Tür kommt?
 
-![Screenshot](images/dodge-win.png)
+![screenshot](images/dodge-win.png)
