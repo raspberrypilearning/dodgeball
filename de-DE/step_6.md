@@ -1,10 +1,10 @@
 ## Springende Bälle
 
-Your character can move and jump now, so it's time to add some balls that the character has to avoid.
+Dein Charakter kann sich jetzt bewegen und springen, also ist es Zeit, ein paar Bälle hinzuzufügen, die der Charakter meiden muss.
 
 \--- task \---
 
-Create a new ball sprite. You can choose any type of ball you like.
+Erstelle ein neues Kugel-Sprite. Du kannst jede Art von Ball nehmen, die du möchtest.
 
 ![screenshot](images/dodge-balls.png)
 
@@ -12,7 +12,7 @@ Create a new ball sprite. You can choose any type of ball you like.
 
 \--- task \---
 
-Resize the ball sprite so that the character can jump over it. Try making the character jump over the ball to test whether the ball is the right size.
+Ändere die Größe des Ball-Sprites, damit der Charakter darüber springen kann. Versuche den Charakter über den Ball springen zu lassen, um zu testen, ob der Ball die richtige Größe hat.
 
 ![Screenshot](images/dodge-ball-resize.png)
 
@@ -20,7 +20,7 @@ Resize the ball sprite so that the character can jump over it. Try making the ch
 
 \--- task \---
 
-Add this code to your ball sprite:
+Füge diesen Code deinem Ballsprite hinzu:
 
 ![ball sprite](images/ball_sprite.png)
 
@@ -50,13 +50,13 @@ end
 delete this clone
 ```
 
-This code creates a new clone of the ball sprite every three seconds. Each new clone moves along the top platform and then drops.
+Dieser Code erstellt alle drei Sekunden einen neuen Klon des Ball-Sprites. Jeder neue Klon bewegt sich auf der obersten Plattform und fällt dann.
 
 \--- /task \---
 
 \--- task \---
 
-Click the flag to test the game.
+Klicke auf die Flagge, um das Spiel zu testen.
 
 ![Screenshot](images/dodge-ball-test.png)
 
@@ -64,7 +64,7 @@ Click the flag to test the game.
 
 \--- task \---
 
-Add more code to your ball sprite so that clones of it move across all three platforms.
+Füge deinem Kugelsprit mehr Codes hinzu, damit Klone von ihm sich über alle drei Plattformen hinweg bewegen.
 
 ![Screenshot](images/dodge-ball-more-motion.png)
 
@@ -72,18 +72,18 @@ Add more code to your ball sprite so that clones of it move across all three pla
 
 \--- hint \---
 
-Repeat the code blocks you used to move the ball sprite clone across the first platform. You need to change the `x`{:class="block3motion"}, `y`{:class="block3motion"}, and `repeat`{:class="block3control"} numbers so that the clones follow the platforms correctly.
+Wiederhole die Codeblöcke, mit denen du den Ball-Sprite-Klon über die erste Plattform bewegt hast. Du musst die `x`{:class="block3motion"}, `y`{:class="block3motion"}, und `repeat`{:class="block3control"} Zahlen ändern, damit die Klone den Plattformen korrekt folgen.
 
 \--- /hint \---
 
 \--- hint \---
 
-These are the blocks you need. Make sure you add them in the correct order.
+Hier sind die Codeblöcke die du brauchst. Stelle sicher, dass du sie in der richtigen Reihenfolge hinzufügst.
 
 ![ball sprite](images/ball_sprite.png)
 
 ```blocks3
-repeat (170) 
+epeat (170) 
   change x by (-2)
   turn ccw (6) degrees
 end
@@ -102,7 +102,7 @@ end
 
 \--- hint \---
 
-The code for your ball sprite clones should look like this:
+Der Code für deine Kugelsprite Klone sollte wie folgt aussehen:
 
 ![ball sprite](images/ball_sprite.png)
 
@@ -142,9 +142,9 @@ delete this clone
 
 \--- task \---
 
-Now add some code blocks to broadcast (send) a message if your character gets hit by a ball!
+Füge nun einige Code-Blöcke hinzu, um eine Nachricht zu übertragen (senden), wenn dein Charakter von einem Ball getroffen wird!
 
-Add this code to your ball sprite:
+Füge diesen Code deinem Ballsprite hinzu:
 
 ![ball sprite](images/ball_sprite.png)
 
@@ -161,7 +161,7 @@ Add this code to your ball sprite:
 
 \--- task \---
 
-Finally, add code blocks to your character sprite to make it move back to its starting position when it receives the `hit` message:
+Füge schließlich Code-Blöcke zu deinem Zeichensprite hinzu, um es zu seiner Startposition zurückzuziehen, wenn es die Treffer `hit` Nachricht erhält:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -175,6 +175,6 @@ Finally, add code blocks to your character sprite to make it move back to its st
 
 \--- task \---
 
-Test out your code. Check whether the character moves back to the start after touching a ball.
+Teste deinen Code. Überprüfe, ob der Charakter nach dem Berühren eines Balls zum Start zurückkehrt.
 
 \--- /task \---
