@@ -1,20 +1,20 @@
 ## ¡Láseres!
 
-A tu juego, un poco más difícil de completar, ¡vas a agregar láseres!
+¡Vamos a añadir láseres para que tu juego sea un poco más difícil!
 
 \--- task \---
 
-Agrega un nuevo sprite a tu juego y llámalo `láser`. Debe tener dos disfraces: uno llamado 'on' y otro llamado 'off'.
+Agrega un nuevo objeto a tu juego y llámalo `láser`. Debe tener dos disfraces: uno llamado 'encendido' y otro llamado 'apagado'.
 
 ![captura de pantalla](images/dodge-lasers-costume1.png)
 
-![screenshot](images/dodge-lasers-costume1.png)
+![captura de pantalla](images/dodge-lasers-costume1.png)
 
 \--- /task \---
 
 \--- task \---
 
-Coloca tu nuevo sprite láser entre dos plataformas.
+Coloca tu nuevo objeto láser entre dos plataformas.
 
 ![captura de pantalla](images/dodge-lasers-position.png)
 
@@ -22,53 +22,53 @@ Coloca tu nuevo sprite láser entre dos plataformas.
 
 \--- task \---
 
-Agrega código a tu sprite láser para que cambie entre sus dos disfraces.
+Añade código a tu objeto láser para que cambie entre sus dos disfraces.
 
-![sprite láser](images/laser_sprite.png)
+![objeto láser](images/laser_sprite.png)
 
 ```blocks3
-    cuando la bandera haga clic en
-    para siempre
-        cambie el traje a (en v)
-        espere (2) segundos
-        cambie el traje a (apagado v)
-        espere (2) segundos
-    fin
+    al hacer clic en la bandera verde
+    por siempre
+        cambiar disfraz a (encendido v)
+        esperar (2) segundos
+        cambie disfraz a (apagado v)
+        esperar (2) segundos
+    final
 ```
 
-Si lo prefieres, puedes cambiar el código que se muestra arriba para que el sprite `espere`{: class = "block3control"} a `aleatorios`{: class = "block3operators"} de tiempo entre los cambios de vestuario.
+Puedes cambiar el código que se muestra arriba para que el sprite `espere`{:class="block3control"} una cantidad de tiempo `aleatoria`{:class="block3operators"} entre los cambios de disfraz.
 
 \--- /task \---
 
 \--- task \---
 
-Finalmente, agregue código a su sprite láser para que el sprite láser emita un mensaje de "éxito" cuando toque el sprite de carácter.
+Finalmente, añade código a tu objeto láser para que emita el mensaje "tocado" cuando toque el obejto de personaje.
 
-\--- consejos \---
+\--- hints \---
 
 \--- hint \---
 
-Este código debe ser muy similar al código que agregó a su sprite ball.
+Este código debe ser muy parecido al código que añadiste al objeto pelota.
 
 \--- /hint \---
 
 \--- hint \---
 
-Copia el código que agregas a la bola sprite para hacer que la transmisión de este sprite `'hit'`{: class = "block3control"} cuando es `tocar tu personaje`{: class = "block3sensing"}.
+Copia el código que añadiste a la pelota para hacer que el obejto `enviara`{:class="block3control"} el mensaje `'tocado'`{:class="block3control"} cuando <0>tocara a tu personaje</0>{:class="block3sensing"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Este es el código que debes agregar:
+Este es el código que debes incluir:
 
-![sprite láser](images/laser_sprite.png)
+![objeto láser](images/laser_sprite.png)
 
 ```blocks3
-cuando la bandera verde hizo clic en
-para siempre 
-  si <touching (Pico walking v) ?> luego 
-    emitió (golpeó v)
+al hacer clic en la bandera verde
+por siempre 
+  si <touching (Pico walking v) ?> entonces 
+    enviar (tocado v)
   final
 final
 ```
@@ -77,12 +77,12 @@ final
 
 \--- /hints \---
 
-No es necesario que agregue ningún código adicional a su sprite de caracteres, porque el sprite de caracteres ya sabe qué hacer cuando recibe la emisión `'hit'`{: class = "block3control"}!
+No tienes que añadir ningún bloque adicional a tu objeto de personaje porque ¡ya sabe qué hacer cuando recibe el mensaje `'tocado'`{:class="block3control"}!
 
 \--- /task \---
 
 \--- task \---
 
-Prueba tu juego para ver si puedes mover al personaje más allá del láser. Si el láser es demasiado fácil o demasiado difícil de evitar, cambiar las `de espera`{: class = "block3control"} veces en el código para el sprite láser.
+Prueba tu juego para ver si puedes mover al personaje más allá del láser. Si el láser es demasiado fácil o difícil de evitar, cambiar el tiempo de `espera`{:class="block3control"} en el código del objeto láser.
 
 \--- /task \---
