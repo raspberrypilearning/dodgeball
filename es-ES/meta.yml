@@ -3,9 +3,9 @@ hero_image: images/banner.png
 listed: true
 ingredient: false
 copyedit: false
-title: Alón Prisionero
-description: Crea un juego de plataforma en el que tengas que esquivar pelotas y llegar al final del nivel.
-version: 3
+title: Esquiva-pelotas
+description: Crea un juego de plataformas en el que tengas que esquivar pelotas y llegar al final del nivel
+version: 4.0.0
 last_tested: 2018-10-10
 steps:
   - 
@@ -18,23 +18,23 @@ steps:
   - 
     title: Gravedad y saltos
   - 
-    title: 'Reto: Salto mejorado'
+    title: 'Desafío: Mejores saltos'
     challenge: true
   - 
-    title: Esquivar los balones
+    title: Esquivando las pelotas
   - 
-    title: 'Reto: Balones aleatorios'
+    title: 'Desafío: Pelotas aleatorias'
     challenge: true
   - 
     title: '¡Láseres!'
   - 
-    title: 'Desafío: ¡más obstáculos'
+    title: 'Desafío: ¡Más obstáculos'
     challenge: true
   - 
-    title: 'Reto: Gravedad mejorada'
+    title: 'Desafío: Mejorando la gravedad'
     challenge: true
   - 
-    title: 'Reto: Más vidas'
+    title: 'Desafío: Más vidas'
     challenge: true
   - 
-    title: 'Reto: Otro disfraz'
+    title: Y ahora ¿qué?
