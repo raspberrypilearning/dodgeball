@@ -3,7 +3,7 @@ hero_image: images/banner.png
 listed: true
 ingredient: false
 copyedit: false
-title: Treffball
+title: Völkerball
 description: In diesem Projekt lernst Du, wie Du ein Plattform-Spiel erstellst, in dem Du sich bewegenden Bällen ausweichen und das Ende des Levels erreichen musst.
 version: 3
 last_tested: 2018-10-10
@@ -18,17 +18,17 @@ steps:
   - 
     title: Schwerkraft und springen
   - 
-    title: 'Herausforderung: Vernessertes Springen'
+    title: 'Herausforderung: Verbessertes Springen'
     challenge: true
   - 
-    title: Springende Bälle
+    title: Bälle ausweichen
   - 
-    title: 'Herqusforderung: Willkürliche Bälle'
+    title: 'Herausforderung: zufällige Bälle'
     challenge: true
   - 
     title: Laser!
   - 
-    title: 'Challenge: Noch mehr Hindernisse'
+    title: 'Herausforderung: Mehr Hindernisse'
     challenge: true
   - 
     title: 'Herausforderung: Verbesserte Schwerkraft'
@@ -37,4 +37,4 @@ steps:
     title: 'Herausforderung: Mehr Leben'
     challenge: true
   - 
-    title: 'Zusatzaufgabe: mehr Stifte'
+    title: Wie geht es weiter?
