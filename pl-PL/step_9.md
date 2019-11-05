@@ -1,6 +1,6 @@
 ## Wyzwanie: więcej przeszkód
 
-Jeżeli myślisz że Twoja gra wciąż jest zbyt łatwa, możesz do niej dodać więcej przeszkód. Przeszkody mogą być czymkolwiek co lubisz! Oto kilka pomysłów:
+Jeżeli myślisz że Twoja gra wciąż jest zbyt łatwa, możesz do niej dodać więcej przeszkód. Przeszkody mogą być czymkolwiek zechcesz! Oto kilka pomysłów:
 
 + Groźny motyl
 + Platformy które pojawiając się i znikają
