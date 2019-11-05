@@ -1,6 +1,6 @@
 ## Wyzwanie: losowe piłki
 
-Piłki, których twoja postać musi unikać, wyglądają tak samo i pojawiają się w regularnych odstępach trzysekundowych. Czy możesz dodać kod do swojej gry, aby piłki:
+Piłki, których twoja postać musi unikać, wyglądają tak samo i pojawiają się w regularnych odstępach trzy sekundowych. Czy możesz dodać kod do swojej gry, aby piłki:
 
 + Nie wyglądały tak samo?
 + Pojawiały się po `losowej`{:class="block3operators"} ilości czasu?
