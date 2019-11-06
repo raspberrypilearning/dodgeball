@@ -25,7 +25,7 @@ Dodaj poniższy kod do duszka piłki:
 ![duszek piłki](images/ball_sprite.png)
 
 ```blocks3
-kiedy flaga kliknięta
+kiedy kliknięto zieloną flagę
 ukryj
 zawsze 
   czekaj (3) sekund
@@ -42,7 +42,7 @@ powtarzaj (22)
 koniec
 powtarzaj (170) 
   zmień x o (-2)
-  obróć ccw o (6) stopni
+  obróć w lewo o (6) stopni
 koniec
 powtarzaj (30) 
   zmień y o (-4)
@@ -85,12 +85,12 @@ Oto bloki, których potrzebujesz. Upewnij się, że dodałaś je we właściwej 
 ```blocks3
 powtarzaj (170) 
   zmień x o (-2)
-  obróć ccw o (6) stopni
+  obróć w lewo o (6) stopni
 koniec
 
 powtarzaj (180) 
   zmień x o (2)
-  obróć cw o (6) stopni
+  obróć w prawo o (6) stopni
 koniec
 
 powtarzaj (30) 
@@ -110,26 +110,26 @@ Kod twoich klonów duszka piłki powinien wyglądać następująco:
 gdy zaczynam jako klon
 idź do x: (160) y: (160)
 pokaż
-powtórz (22) 
+powtarzaj (22) 
   zmień y o (-4)
 koniec
 powtarzaj (170) 
   zmień x o (-2)
-  obróć ccw o (6) stopni
+  obróć w lewo o (6) stopni
 koniec
 powtarzaj (30) 
   zmień y o (-4)
 koniec
 powtarzaj (180) 
   zmień x o (2)
-  obróć cw o (6) stopni
+  obróć w prawo o (6) stopni
 koniec
 powtarzaj (30) 
   zmień y o (-4)
 koniec
 powtarzaj (170) 
   zmień x o (-2)
-  obróć ccw o (6) stopni
+  obróć w lewo o (6) stopni
 koniec
 usuń tego klona
 ```

@@ -29,8 +29,8 @@ Dodaj te nowe bloki kodu, które ustawiają `grawitację` na liczbę ujemną i u
 ![duszek Pico walking](images/pico_walking_sprite.png)
 
 ```blocks3
-    kiedy kliknięto flagę
-    ustaw [gravity v] na [-4]
+    kiedy kliknięto zieloną flagę
+    ustaw [grawitacja v] na [-4]
     zawsze
         zmień y o (grawitacja)
     end
@@ -53,10 +53,10 @@ Grawitacja nie powinna pozwalać na przesuwanie Twojej postaci przez platformy l
 ![duszek Pico walking](images/pico_walking_sprite.png)
 
 ```blocks3
-    kiedy kliknięto flagę
+    kiedy kliknięto zieloną flagę
         ustaw [grawitacja v] na [-4]
         zawsze
-            jeżeli < nie < <touching color [#0000FF]?> lub <touching color [#FF69B4]?> > > to
+            jeżeli < nie < <touching color [#FF69B4]?> lub <touching color [#0000FF]?> > > to
                 zmień y o (grawitacja)
             end
         end
@@ -79,10 +79,10 @@ Teraz dodaj kod, aby twoja postać podskakiwała za każdym razem, gdy gracz nac
 ![duszek Pico walking](images/pico_walking_sprite.png)
 
 ```blocks3
-    kiedy klawisz [spacja v] naciśnięty
-        powtórz (10) razy
-            zmień y o (4)
-        end
+kiedy klawisz [spacja v] naciśnięty
+powtarzaj (10) 
+  zmień y o (4)
+end
 ```
 
 Ponieważ grawitacja nieustannie przesuwa twoją postać w dół o 4 piksele, musisz wybrać liczbę większą niż `4` w bloku `zmień y o (4)`{:class="block3motion"}. Zmieniaj liczbę, aż będziesz zadowolona z wysokości, na jaką skacze Twoja postać.
@@ -108,12 +108,12 @@ Usuń kod odpowiedzialny za skoki który dodałaś do Twojej postaci i dodaj ten
 ![duszek Pico walking](images/pico_walking_sprite.png)
 
 ```blocks3
-    kiedy klawisz [spacja v] naciśnięty
-        ustaw [wysokość skoku v] na [8]
-        powtarzaj aż < (wysokość skoku) = [0] >
-            zmień y o (wysokość skoku)
-            zmień [wysokość skoku v] o (-0,5)
-        end
+kiedy klawisz [spacja v] naciśnięty
+ustaw [wysokość skoku v] na [8]
+powtarzaj aż <(wysokość skoku) = [0]> 
+  zmień y o (wysokość skoku)
+  zmień [wysokość skoku v] o (-0.5)
+koniec
 ```
 
 Ten kod przesuwa twoją postać w górę o 8 pikseli, następnie 7.5 pikseli, następnie 7 pikseli i tak dalej, aż postać nie podniesie się. To uczyni wygląd skoków bardziej płynnym.

@@ -27,13 +27,13 @@ Dodaj kod do lasera, by przełączał się pomiędzy dwoma kostiumami.
 ![duszek lasera](images/laser_sprite.png)
 
 ```blocks3
-    kiedy flaga kliknięta
-    zawsze
-        przełącz kostium na (włączony v)
-        czekaj (2) sek
-        przełącz kostium na (wyłączony v)
-        czekaj (2) sek
-    koniec
+kiedy kliknięto zieloną flagę
+zawsze 
+  zmień kostium na (włączony v)
+  czekaj (2) sekund
+  zmień kostium na (wyłączony v)
+  czekaj (2) sekund
+koniec
 ```
 
 Jeśli chcesz, możesz zmienić kod pokazany powyżej, aby duszek `czekał`{:class="block3control"} `losową`{:class="block3operators"} ilość czasu pomiędzy zmianami kostiumów.
@@ -66,7 +66,7 @@ Oto kod, który powinnaś dodać:
 ![duszek lasera](images/laser_sprite.png)
 
 ```blocks3
-kiedy flaga kliknięta
+kiedy kliknięto zieloną flagę
 zawsze 
   jeżeli <touching (Pico walking v) ?> to 
     nadaj komunikat (trafiony v)

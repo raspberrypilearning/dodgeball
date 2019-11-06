@@ -35,14 +35,14 @@ Dodaj bloki kodu do duszka postaci, aby gracz mógł używać klawiszy strzałek
 ![duszek Pico walking](images/pico_walking_sprite.png)
 
 ```blocks3
-kiedy flaga kliknięta
-zawsze
-    jeżeli <klawisz (strzałka w prawo v) naciśnięty? > to
-        ustaw kierunek na (90 v)
-        przesuń o (3) kroki
-        następny kostium
-    koniec
-koniec
+kiedy kliknięto zieloną flagę
+zawsze 
+  jeżeli <klawisz (strzałka w prawo v) naciśnięty ?> to 
+    ustaw kierunek na (90 v)
+    przesuń o (3) kroków
+    następny kostium
+  end
+end
 ```
 
 --- /task ---
@@ -81,10 +81,10 @@ Aby Twoja postać mogła poruszyć się w lewo, będziesz musiała dodać kolejn
 Skopiuj utworzony kod, aby sprawić, żeby postać poruszała się w prawo. Następnie ustaw w bloku `klawisz naciśnięty`{:class="block3sensing"} `strzałka w lewo`{:class="block3sensing"} i zmień `kierunek`{:class="block3motion"} na `-90`.
 
 ```blocks3
-jeżeli <klawisz (strzałka w prawo v) naciśnięty? > to
-    ustaw kierunek na (-90 v)
-    przesuń o (3) kroki
-    następny kostium
+jeżeli <klawisz (strzałka w prawo v) naciśnięty ?> to 
+  ustaw kierunek na (90 v)
+  przesuń o (3) kroków
+  następny kostium
 koniec
 ```
 
@@ -97,16 +97,16 @@ Twój kod powinien wyglądać teraz tak:
 ![duszek Pico walking](images/pico_walking_sprite.png)
 
 ```blocks3
-kiedy flaga kliknięta
+kiedy kliknięto zieloną flagę
 zawsze 
-  jeżeli <klawisz (strzałka w prawo v) naciśnięty> to
+  jeżeli <klawisz (strzałka w prawo v) naciśnięty ?> to 
     ustaw kierunek na (90 v)
-    przesuń o (3) kroki
+    przesuń o (3) kroków
     następny kostium
-  koniec
-  jeżeli <klawisz (strzałka w prawo v) naciśnięty> to 
+  end
+  jeżeli <klawisz (strzałka w lewo v) naciśnięty ?> to 
     ustaw kierunek na (-90 v)
-    przesuń o (3) kroki
+    przesuń o (3) kroków
     następny kostium
   koniec
 koniec
@@ -131,7 +131,7 @@ Jeśli tak, możesz to naprawić, klikając **Kierunek** swojego duszka postaci,
 Lub jeśli wolisz, możesz również rozwiązać ten problem, dodając ten blok na początku kodu swojej postaci:
 
 ```blocks3
-ustaw styl obrotu [lewo-prawo v]
+ustaw styl obrotu na [lewo-prawo v]
 ```
 
 --- /task ---
