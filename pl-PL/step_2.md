@@ -145,7 +145,7 @@ Dodaj wewnątrz pętli `zawsze`{:class="block3control"} dla twojej postaci blok 
 ![duszek Pico walking](images/pico_walking_sprite.png)
 
 ```blocks3
-    jeżeli <<key (up arrow v) pressed?> i <touching color [#FF69B4]?> > to
+    jeżeli < <key (strzałka w górę v) pressed?> i <dotyka koloru [#FF69B4]?> > to
         zmień y o (4)
     koniec
 ```

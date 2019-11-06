@@ -56,7 +56,7 @@ Grawitacja nie powinna pozwalać na przesuwanie Twojej postaci przez platformy l
     kiedy kliknięto zieloną flagę
         ustaw [grawitacja v] na [-4]
         zawsze
-            jeżeli < nie < <touching color [#FF69B4]?> lub <touching color [#0000FF]?> > > to
+            jeżeli < nie < <dotyka koloru [#FF69B4]?> lub <dotyka koloru [#0000FF]?> > > to
                 zmień y o (grawitacja)
             end
         end

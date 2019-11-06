@@ -68,7 +68,7 @@ Oto kod, który powinnaś dodać:
 ```blocks3
 kiedy kliknięto zieloną flagę
 zawsze 
-  jeżeli <touching (Pico walking v) ?> to 
+  jeżeli <dotyka (Pico walking v) ?> to 
     nadaj komunikat (trafiony v)
   koniec
 koniec
