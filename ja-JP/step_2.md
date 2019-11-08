@@ -30,26 +30,26 @@ If you have a Scratch account you can make a copy by clicking **Remix**.
 
 \--- task \---
 
-プレイヤーが矢印キーでキャラクターを移動できるように、キャラクタースプライトにコードブロックを追加します。 プレイヤーが右矢印を押すと、キャラクターは右を指し、数歩移動して次のコスチュームに変更します。
+プレイヤーが矢印キーでキャラクターを移動できるように、キャラクタースプライトにコードブロックを追加します。 プレイヤーが右矢印を押すと、キャラクターは右を向き、数歩移動して次のコスチュームに変更します。
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (right arrow v) pressed? > then
-        point in direction (90 v)
-        move (3) steps
-        next costume
-    end
-end
+フラグが押されたとき
+ずっと
+　<  (右向き矢印v) キーが押された > なら
+       (90 v) 度に向ける 
+       (3) 歩動かす
+        次のコスチュームにする
+    終了
+終了
 ```
 
 \--- /task \---
 
 \--- task \---
 
-If your sprite doesn't fit, adjust its size.
+スプライトが収まらない場合は、サイズを調整します。
 
 ![set sprite size so it fits](images/dodge-sprite-size-annotated.png)
 
@@ -57,7 +57,7 @@ If your sprite doesn't fit, adjust its size.
 
 \--- task \---
 
-Test out your character by clicking the flag and then holding down the right arrow key. Does your character move to the right? Does your character look like it is walking?
+フラグをクリックしてから右矢印キーを押して、キャラクターをテストします。 キャラクターは右に移動しますか？ キャラクターは歩いているように見えますか？
 
 ![screenshot](images/dodge-walking.png)
 
@@ -65,13 +65,13 @@ Test out your character by clicking the flag and then holding down the right arr
 
 \--- task \---
 
-Add code blocks to the character sprite's `forever`{:class="block3control"} loop so that it walks left if the left arrow key is pressed.
+キャラクタースプライトに`ずっと` {:class="block3control"}ループ加えたので、左矢印キーが押されると左に移動します。
 
 \--- hints \---
 
 \--- hint \---
 
-So that your character can move to the left, you'll need to add another `if`{:class="block3control"} block inside the `forever`{:class="block3control"} loop. In this new `if`{:class="block3control"} block, add code to make your character sprite `move`{:class="block3motion"} to the left.
+キャラクターが左に移動できるようにするには、 ` forever` {:class="block3control"}ループの内側に、別の` if`{:class="block3control"}ブロックを追加する必要があります。 In this new `if`{:class="block3control"} block, add code to make your character sprite `move`{:class="block3motion"} to the left.
 
 \--- /hint \---
 
