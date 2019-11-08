@@ -137,7 +137,7 @@ If you have a Scratch account you can make a copy by clicking **Remix**.
 
 \--- task \---
 
-To climb a pink ladder, your character sprite should move a few steps upwards on the Stage whenever the up arrow is pressed **and** the character is touching the correct colour.
+ピンクのはしごを登るには、上向き矢印がを押された時にはいつもキャラクタースプライトが数歩ステージの上方へ移動する必要があります、**そして**キャラクターは正しい色に触れています。
 
 Add inside your character's `forever`{:class="block3control"} loop to `change`{:class="block3motion"} the character's `y` (vertical) position `if`{:class="block3control"} the `up arrow is pressed`{:class="block3sensing"} and the character is `touching the colour pink`{:class="block3sensing"}.
 
