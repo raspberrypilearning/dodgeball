@@ -1,16 +1,16 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2).
+これはプロジェクトの**Scratch 3**バージョンです。 [Scratch 2バージョンのプロジェクト](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2)もあります。
 
 \--- /no-print \---
 
 ## はじめに
 
-You'll learn how to create a platform game in which the player has to dodge moving balls to reach the end of the level.
+レベルの最後に到達するために動くボールをかわすプラットフォームゲームを作成する方法を学びます。
 
 \--- no-print \---
 
-Click the green flag to start, and then use the arrow keys to move and the <kbd>space</kbd> key to jump.
+緑色のフラグを押して開始し、矢印キーを使用して移動し、<kbd>スペース</kbd>キーを使用してジャンプする。
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/251809924/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -39,9 +39,9 @@ Click the green flag to start, and then use the arrow keys to move and the <kbd>
 
 + Scratch 3 ([オンライン](https://scratch.mit.edu/projects/editor/)または[オフライン](https://scratch.mit.edu/download/))
 
-### Downloads
+### ダウンロード
 
-You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
+[ここでダウンロードを見つけること](http://rpf.io/p/en/dodgeball-go)ができます 。
 
 \--- /collapse \---
 
@@ -51,9 +51,9 @@ You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 ## title: 学習すること
 
-+ How to use the keyboard to control a sprite
-+ How to use the `if, then, else`{:class="block3control"} Scratch block
-+ How to clone a sprite
++ キーボードを使用してスプライトを制御する方法
++ ` if、then、else` {:class="block3control"}スクラッチブロックを使用する方法
++ スプライトのクローンを作成する方法
 
 \--- /collapse \---
 
@@ -61,7 +61,7 @@ You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 * * *
 
-## title: Additional notes for educators
+## title: 教育者向けの追加情報
 
 \--- no-print \---
 
