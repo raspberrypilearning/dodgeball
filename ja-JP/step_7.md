@@ -1,9 +1,9 @@
-## Challenge: random balls
+## Challenge: ランダムボール
 
-The balls that your character has to dodge all look the same, and they appear at regular three-second intervals. Can you add code to your game so that the balls:
+キャラクターがかわす必要のあるボールはすべて同じように見え、通常3秒間隔で表示されます。 ゲームにコードを追加して、ボールが次のようになるかどうかを確認してください:
 
-+ Don't all look the same?
-+ Appear after a `random`{:class="block3operators"} amount of time?
-+ Are a random size?
++ すべて同じに見えませんか？
++ `ランダム` {:class="block3operators"}な時間の長さの後に表示されます？
++ ランダムなサイズですか？
 
 ![スクリーンショット](images/dodge-ball-random.png)
