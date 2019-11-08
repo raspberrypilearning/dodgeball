@@ -1,10 +1,10 @@
 ## ボールをよける
 
-Your character can move and jump now, so it's time to add some balls that the character has to avoid.
+キャラクターは移動してジャンプできるので、キャラクターが避けなければならないボールを追加します。
 
 \--- task \---
 
-Create a new ball sprite. You can choose any type of ball you like.
+新しいボールスプライトを作成。 好きなタイプのボールを選択できます。
 
 ![スクリーンショット](images/dodge-balls.png)
 
@@ -12,7 +12,7 @@ Create a new ball sprite. You can choose any type of ball you like.
 
 \--- task \---
 
-Resize the ball sprite so that the character can jump over it. Try making the character jump over the ball to test whether the ball is the right size.
+キャラクターがジャンプできるようにボールスプライトのサイズを変更します。 キャラクターがボールを飛び越えて、ボールが正しいサイズかどうかをテストしてみてください。
 
 ![スクリーンショット](images/dodge-ball-resize.png)
 
@@ -20,7 +20,7 @@ Resize the ball sprite so that the character can jump over it. Try making the ch
 
 \--- task \---
 
-Add this code to your ball sprite:
+このコードをボールスプライトに追加します。
 
 ![ball sprite](images/ball_sprite.png)
 
