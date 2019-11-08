@@ -10,21 +10,21 @@
 
 If you have a Scratch account you can make a copy by clicking **Remix**.
 
-**Offline:** download the starter project from [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) and then open it using the offline editor.
+**Offline:** [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get)からスタータープロジェクトをダウンロードして、オフラインエディターで開きます。
 
 \--- /task \---
 
-The project contains a backdrop with platforms:
+プロジェクトには、プラットフォームのある背景が含まれています。
 
 ![dodgeball project background](images/dodge-background.png)
 
 \--- task \---
 
-Choose a new sprite as the character the player will control, and add it to your project. It's best if you choose a sprite with multiple costumes, so that you can make it look as though it's walking.
+プレーヤーが制御するキャラクターとして新しいスプライトを選択し、プロジェクトに追加します。 複数のコスチュームを持つスプライトを選択すると、歩いているように見せることができます。
 
 ![pick a sprite](images/dodge-characters.png)
 
-[[[generic-scratch3-sprite-from-library]]]
+[generic-scratch3-sprite-from-library]]]
 
 \--- /task \---
 
