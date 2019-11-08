@@ -26,7 +26,7 @@
 
 `重力`にマイナスの値にし、この`重力`の値を使ってキャラクターのy座標を繰り返し変更する新しいコードブロックを追加します:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![ピコウォーキングスプライト](images/pico_walking_sprite.png)
 
 ```blocks3
     when flag clicked
@@ -50,7 +50,7 @@
 
 重力は、キャラクタースプライトをプラットフォームやはしごの中では動かしてはいけません！ ` もし` {:class="block3control"}ブロックをコードに追加し、キャラクターが空中にあるときにのみ重力が機能するようにします。 重力コードは次のようになります。
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![ピコウォーキングスプライト](images/pico_walking_sprite.png)
 
 ```blocks3
     when flag clicked
@@ -76,7 +76,7 @@
 
 プレーヤーが<kbd>スペース</kbd>キーを押すたびにキャラクターをジャンプさせるコードを追加します これを行う非常に簡単な方法の1つは、キャラクターを数回上に移動することです。
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![ピコウォーキングスプライト](images/pico_walking_sprite.png)
 
 ```blocks3
     [スペース v] キーが押されたとき
@@ -105,7 +105,7 @@
 
 キャラクタースプライトに追加したジャンプコードを削除し、代わりにこのコードを追加します。
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![ピコウォーキングスプライト](images/pico_walking_sprite.png)
 
 ```blocks3
     [space v] キーが押されたとき
@@ -122,8 +122,8 @@
 
 \--- task \---
 
-Change the value of the `jump height`{:class="block3variables"} variable that is set before the `repeat`{:class="block3control"} starts. Then test your game.
+`繰り返し` {:class="block3control"} のはじまる前にある`ジャンプ高さ`{:class="block3variables"} 変数の値を変更します。 次に、ゲームをテストします。
 
-Repeat these two steps until you're happy with how high the character jumps.
+キャラクターがジャンプする高さに満足するまでこの2つのステップを繰り返します。
 
 \--- /task \---
