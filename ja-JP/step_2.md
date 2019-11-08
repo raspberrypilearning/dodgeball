@@ -77,21 +77,21 @@ If you have a Scratch account you can make a copy by clicking **Remix**.
 
 \--- hint \---
 
-キャラクターが右に歩くよう作成したコードをコピーします。 Then set the `key pressed`{:class="block3sensing"} to the `left arrow`{:class="block3sensing"}, and change the `direction`{:class="block3motion"} to `-90`.
+キャラクターが右に歩くよう作成したコードをコピーします。 さらに、`左向き矢印` {:class="block3sensing"}の`キーが押された` {:class="block3sensing"}ら、`向き` {:class="block3motion"} を` -90 `度に変更するするようにセットします。
 
 ```blocks3
-if <key (right arrow v) pressed? > then
-    point in direction (90 v)
-    move (3) steps
-    next costume
-end
+もし < (右向き矢印 v) キーが押された > なら
+    (90 v) 度に向ける
+    (3) 歩動かす
+    次のコスチュームにする
+終了
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Your code should look like this now:
+コードは以下のようになります:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
