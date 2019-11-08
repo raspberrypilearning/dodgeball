@@ -21,7 +21,7 @@
 
 \--- print-only \---
 
-![dodgeball game being played](images/dodgeball-showcase.png)
+![ドッジボールゲームがプレイされています](images/dodgeball-showcase.png)
 
 \--- /print-only \---
 
@@ -69,6 +69,6 @@
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/dodgeball-get).
+[ここで完成したプロジェクト](http://rpf.io/p/en/dodgeball-get)を見ることができます 。
 
 \--- /collapse \---
