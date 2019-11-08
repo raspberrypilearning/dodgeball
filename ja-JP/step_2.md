@@ -123,14 +123,14 @@ If you have a Scratch account you can make a copy by clicking **Remix**.
 
 ![screenshot](images/dodge-upside-down.png)
 
-If so, you can fix this by clicking on the **direction** of your character sprite, and then clicking on the left-right arrow.
+その場合、>キャラクタースプライトの**向き**をクリックして、さらに左右反転をクリックして修正できます
 
 ![screenshot](images/dodge-left-right-annotated.png)
 
-Or if you prefer, you can also fix the problem by adding this block to the start of your character's script:
+または、必要に応じて、このブロックをキャラクターのスクリプトの先頭に追加して問題を修正することもできます。
 
 ```blocks3
-set rotation style [left-right v]
+回転方法を [左右のみ v] にする
 ```
 
 \--- /task \---
