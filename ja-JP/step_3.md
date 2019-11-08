@@ -1,5 +1,5 @@
-## Challenge: completing the level
+## Challenge: レベルを完了する
 
-Can you add more code blocks to your character sprite to make the sprite say something `if`{:class="block3control"} it gets to the green door?
+` もし` {:class="block3control"}緑のドアに到達したら、キャラクタースプライトにさらにコードブロックを追加して、何か何か言うようにできますか？
 
 ![スクリーンショット](images/dodge-win.png)
