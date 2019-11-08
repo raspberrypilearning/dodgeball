@@ -30,7 +30,7 @@ If you have a Scratch account you can make a copy by clicking **Remix**.
 
 \--- task \---
 
-Add code blocks to your character sprite so that the player can use the arrow keys to move the character around. When the player presses the right arrow, the character should point right, move a few steps, and change to the next costume:
+プレイヤーが矢印キーでキャラクターを移動できるように、キャラクタースプライトにコードブロックを追加します。 プレイヤーが右矢印を押すと、キャラクターは右を指し、数歩移動して次のコスチュームに変更します。
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
