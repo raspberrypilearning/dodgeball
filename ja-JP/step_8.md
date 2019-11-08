@@ -1,10 +1,10 @@
-## Lasers!
+## レーザー！
 
-To your game a little harder to complete, you are going to add lasers!
+ゲームを完成させるのが少し難しくするために、レーザーを追加します！
 
 \--- task \---
 
-Add a new sprite to your game and call it `laser`. It should have two costumes: one called 'on', and one called 'off'.
+新しいスプライトをゲームに追加し、それを` laser` と呼びます。 2つのコスチュームが必要です: 1つは「オン」、もう1つは「オフ」です。
 
 ![スクリーンショット](images/dodge-lasers-costume1.png)
 
@@ -14,7 +14,7 @@ Add a new sprite to your game and call it `laser`. It should have two costumes: 
 
 \--- task \---
 
-Place your new laser sprite between two platforms.
+2つのプラットフォームの間に新しいレーザースプライトを配置します。
 
 ![スクリーンショット](images/dodge-lasers-position.png)
 
@@ -22,18 +22,18 @@ Place your new laser sprite between two platforms.
 
 \--- task \---
 
-Add code to your laser sprite to make it switch between its two costumes.
+レーザースプライトにコードを追加して、2つのコスチュームを切り替えます。
 
 ![laser sprite](images/laser_sprite.png)
 
 ```blocks3
-    when flag clicked
-    forever
-        switch costume to (on v)
-        wait (2) seconds
-        switch costume to (off v)
-        wait (2) seconds
-    end
+    フラグが押されたとき
+    ずっと
+        コスチュームを(オン v) にする
+        (2) 秒待つ
+        コスチュームを(オフ v) にする
+        (2) 秒待つ
+    終了
 ```
 
 If you prefer, you can change the code shown above so that the sprite `waits`{:class="block3control"} a `random`{:class="block3operators"} amount of time between costume changes.
