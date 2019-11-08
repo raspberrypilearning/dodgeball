@@ -96,19 +96,19 @@ If you have a Scratch account you can make a copy by clicking **Remix**.
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-when green flag clicked
-forever 
-  if <key (right arrow v) pressed?> then 
-    point in direction (90 v)
-    move (3) steps
-    next costume
-  end
-  if <key (left arrow v) pressed?> then 
-    point in direction (-90 v)
-    move (3) steps
-    next costume
-  end
-end
+緑のフラグが押されたとき
+ずっと
+  もし <key (right arrow v) pressed?> なら
+    (90 v) 度に向ける
+    (3) 歩動かす
+    次のコスチュームにする
+  終了
+  もし<key (left arrow v) pressed?> なら 
+    (-90 v) 度に向ける
+    (3) 歩動かす
+    次のコスチュームにする
+  終了
+終了
 ```
 
 \--- /hint \---
@@ -119,7 +119,7 @@ end
 
 \--- task \---
 
-Test your new code to make sure that it works. Does your character turn upside-down when walking to the left?
+新しいコードをテストして、動作することを確認します。 キャラクターは左に歩いているときに逆さまになりますか？
 
 ![screenshot](images/dodge-upside-down.png)
 
