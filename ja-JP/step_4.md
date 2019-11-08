@@ -91,32 +91,32 @@
 
 \--- task \---
 
-コードをテストしましょう。 Notice that the jumping movement isn't very smooth. To make jumping look smoother, you need to move your character sprite by smaller and smaller amounts, until it is not rising any higher.
+コードをテストしましょう。 ジャンプの動きがあまり滑らかではないことに注意してください。 ジャンプをより滑らかに見せるためには、キャラクタースプライトを少しずつ小さな数で動かして、高くならないようにする必要があります。
 
 \--- /task \---
 
 \--- task \---
 
-To do this, create a new variable called `jump height`{:class="block3variables"}. Again, you can hide this variable if you prefer.
+これを行うには、` ジャンプの高さ` {:class="block3variables"}という新しい変数を作成します。 繰り返しますが、必要に応じてこの変数を非表示にできます。
 
 \--- /task \---
 
 \--- task \---
 
-Delete the jumping code you added to your character sprite, and add this code instead:
+キャラクタースプライトに追加したジャンプコードを削除し、代わりにこのコードを追加します。
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    when [space v] key pressed
-    set [jump height v] to [8]
-    repeat until < (jump height) = [0] >
-        change y by (jump height)
-        change [jump height v] by (-0.5)
-    end
+    [space v] キーが押されたとき
+    [ジャンプの高さ v] を[8] にする
+    < (ジャンプの高さ) = [0] > まで繰り返す
+        y座標を(ジャンプの高さ) ずつ変える
+        [ジャンプの高さ v] を(-0.5) ずつ変える
+    終了
 ```
 
-This code moves your character up by 8 pixels, then 7.5 pixels, then 7 pixels, and so on, until it does not rise any higher. This makes jumping look much smoother.
+このコードは、キャラクターを8ピクセルずつ上に移動し、7.5ピクセル、次に7ピクセル、というように、それ以上高くならなくなるまで行います。 これにより、ジャンプがより滑らかになります。
 
 \--- /task \---
 
