@@ -22,7 +22,7 @@
 
 このコードをボールスプライトに追加します。
 
-![ball sprite](images/ball_sprite.png)
+![ボールスプライト](images/ball_sprite.png)
 
 ```blocks3
 グリーンフラグが押されたとき
@@ -80,7 +80,7 @@ Repeat the code blocks you used to move the ball sprite clone across the first p
 
 これらが必要なブロックです。 必ず正しい順序で追加してください。
 
-![ball sprite](images/ball_sprite.png)
+![ボールスプライト](images/ball_sprite.png)
 
 ```blocks3
 (170) 回繰り返す 
@@ -104,7 +104,7 @@ Repeat the code blocks you used to move the ball sprite clone across the first p
 
 ボールスプライトクローンのコードは次のようになります。
 
-![ball sprite](images/ball_sprite.png)
+![ボールスプライト](images/ball_sprite.png)
 
 ```blocks3
 クローンされたとき
@@ -146,35 +146,35 @@ x座標を(160) 、y座標を(160) にする
 
 このコードをボールスプライトに追加します。
 
-![ball sprite](images/ball_sprite.png)
+![ボールスプライト](images/ball_sprite.png)
 
 ```blocks3
     クローンされたとき
     ずっと
-        もし < (歩いているピコ v) に触れた > then
-            broadcast (hit v)
-        end
-    end
+        もし < (歩いているピコ v) に触れた > なら
+            ブロードキャスト(ヒット v)
+      　 終了
+    終了
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Finally, add code blocks to your character sprite to make it move back to its starting position when it receives the `hit` message:
+最後に、キャラクタースプライトにコードブロックを追加して、`ヒット`メッセージを受け取ったときに開始位置に戻るようにします:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![歩いているピコスプライト](images/pico_walking_sprite.png)
 
 ```blocks3
-    when I receive [hit v]
-    point in direction (90)
-    go to x: (-210) y: (-120)
+    [ヒット v] を受取ったとき
+    (90) 度に向ける
+    x座標を(-210) 、y座標を(-120) にする
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test out your code. Check whether the character moves back to the start after touching a ball.
+コードをテストしましょう。 ボールに触れた後、キャラクターが最初に戻るかどうかを確認します。
 
 \--- /task \---
