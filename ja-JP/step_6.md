@@ -1,4 +1,4 @@
-## Dodging balls
+## ボールをよける
 
 Your character can move and jump now, so it's time to add some balls that the character has to avoid.
 
