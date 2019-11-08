@@ -1,12 +1,12 @@
 ## Character movement
 
-Start by creating a character that can move left and right, and can climb up ladders.
+左右に移動でき、はしごを登ることができるキャラクターを作成することから始めます。
 
 \--- task \---
 
-Open the 'Dodgeball' Scratch starter project.
+'Dodgeball' スクラッチスタータープロジェクトを開きます。
 
-**Online:** open the starter project at [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}.
+**Online:** [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}にあるスタータープロジェクトを開きます。
 
 If you have a Scratch account you can make a copy by clicking **Remix**.
 
