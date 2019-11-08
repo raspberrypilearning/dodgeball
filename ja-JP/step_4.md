@@ -40,7 +40,7 @@
 
 \--- task \---
 
-フラグをクリックし、キャラクターをステージの上部にドラッグします。 何が起こった？ Does the gravity work as you expect?
+フラグをクリックし、キャラクターをステージの上部にドラッグします。 何が起こった？ 重力は期待どおりに機能しますか？
 
 ![スクリーンショット](images/dodge-gravity-drag.png)
 
@@ -48,7 +48,7 @@
 
 \--- task \---
 
-Gravity shouldn't move the character sprite through a platform or a ladder! Add an `if`{:class="block3control"} block to your code to only let the gravity work when the character is in mid-air. The gravity code should then look like this:
+重力は、キャラクタースプライトをプラットフォームやはしごの中では動かしてはいけません！ ` もし` {:class="block3control"}ブロックをコードに追加し、キャラクターが空中にあるときにのみ重力が機能するようにします。 重力コードは次のようになります。
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -66,7 +66,7 @@ Gravity shouldn't move the character sprite through a platform or a ladder! Add 
 
 \--- task \---
 
-Test the game again to see whether gravity works correctly now. Does your character sprite stop falling when it touches a platform or a ladder? Can you make the character walk off the edge of platforms and fall onto the level below?
+ゲームをもう一度テストして、重力が正しく機能するかどうかを確認してください。 キャラクタースプライトがプラットフォームまたははしごに触れると、落下しなくなりますか？ キャラクターをプラットフォームの端から歩いて落とし、下のレベルに落とすことができますか？
 
 ![スクリーンショット](images/dodge-gravity-test.png)
 
@@ -74,24 +74,24 @@ Test the game again to see whether gravity works correctly now. Does your charac
 
 \--- task \---
 
-Now add code to make your character jump whenever the player presses the <kbd>space</kbd> key. One very easy way to do this is to move your character up a few times:
+プレーヤーが<kbd>スペース</kbd>キーを押すたびにキャラクターをジャンプさせるコードを追加します これを行う非常に簡単な方法の1つは、キャラクターを数回上に移動することです。
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    when [space v] key pressed
-    repeat (10)
-        change y by (4)
-    end
+    [スペース v] キーが押されたとき
+    (10) 回繰り返す
+        y座標を (4) ずつ変える
+    終了
 ```
 
-Because gravity is constantly pushing your character down by 4 pixels, you need to choose a number greater than `4` in your `change y by (4)`{:class="block3motion"} block. Change the number until you're happy with the height the character jumps.
+重力がキャラクターを常に4ピクセル押し下げているため、y座標で`(4) ずつ変わる ` {:class="block3motion"} ブロックの中で、` 4 `より大きい数を選択する必要があります 。 キャラクターがジャンプする高さに満足するまで数を変更します。
 
 \--- /task \---
 
 \--- task \---
 
-Test out your code. Notice that the jumping movement isn't very smooth. To make jumping look smoother, you need to move your character sprite by smaller and smaller amounts, until it is not rising any higher.
+コードをテストしましょう。 Notice that the jumping movement isn't very smooth. To make jumping look smoother, you need to move your character sprite by smaller and smaller amounts, until it is not rising any higher.
 
 \--- /task \---
 
