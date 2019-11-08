@@ -4,12 +4,12 @@ listed: true
 ingredient: false
 copyedit: false
 title: ドッジボール
-description: レベルの最後に到達するために移動するボールをかわすプラットフォームゲームを作成します
+description: レベルの最後に到達するために動くボールをかわすプラットフォームゲームを作成します
 version: 4.0.0
 last_tested: 2018-10-10
 steps:
   - 
-    title: 前書き
+    title: はじめに
   - 
     title: キャラクターの動き
   - 
@@ -34,7 +34,7 @@ steps:
     title: 'Challenge: 重力をより良くする'
     challenge: true
   - 
-    title: 'Challenge: more lives'
+    title: 'Challenge: 命を増やす'
     challenge: true
   - 
     title: 次は何をしますか？
