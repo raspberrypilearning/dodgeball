@@ -137,9 +137,9 @@ If you have a Scratch account you can make a copy by clicking **Remix**.
 
 \--- task \---
 
-ピンクのはしごを登るには、上向き矢印がを押された時にはいつもキャラクタースプライトが数歩ステージの上方へ移動する必要があります、**そして**キャラクターは正しい色に触れています。
+ピンクのはしごを登るには、上向き矢印がを押され**そして**キャラクターが正しい色に触れている時にいつも、キャラクタースプライトは数歩ステージの上方へ移動します。
 
-Add inside your character's `forever`{:class="block3control"} loop to `change`{:class="block3motion"} the character's `y` (vertical) position `if`{:class="block3control"} the `up arrow is pressed`{:class="block3sensing"} and the character is `touching the colour pink`{:class="block3sensing"}.
+`もし` {:class="block3control"} `上向きの矢印が押され` {:class="block3sensing"}そして、キャラクタが`ピンクに触れている`{:class="block3sensing"}場合に、 キャラクターの`ずっと` {:class="block3control"}ループの内側に追加し、キャラクターの`y`位置 (縦方向)を`変えます` {:class="block3motion"}
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
