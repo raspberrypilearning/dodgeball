@@ -1,10 +1,10 @@
 ## Gravity and jumping
 
-Now you're going to make your character move more realistically: you're going to add gravity to your game and give the character the ability to jump.
+次に、キャラクターをよりリアルに動かします: ゲームに重力を加えて、キャラクターにジャンプする能力を与えます。
 
 \--- task \---
 
-In the game, move your character so that it walks off a platform. Do you see that it can walk into empty space?
+ゲーム内でキャラクターを動かして、プラットフォームから離れるようにします。 Do you see that it can walk into empty space?
 
 ![スクリーンショット](images/dodge-no-gravity.png)
 
