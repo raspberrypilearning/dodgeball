@@ -4,7 +4,7 @@
 
 \--- task \---
 
-ゲーム内でキャラクターを動かして、プラットフォームから離れるようにします。 Do you see that it can walk into empty space?
+ゲーム内でキャラクターを動かして、プラットフォームから離れるようにします。 空の空間に足を踏み入れることができると思いますか？
 
 ![スクリーンショット](images/dodge-no-gravity.png)
 
@@ -12,11 +12,11 @@
 
 \--- task \---
 
-To fix this, add gravity to your game. To do this, create a new variable called `gravity`{:class="block3variables"}.
+これを修正するには、ゲームに重力を追加します。 これを行うには、` 重力` {:class="block3variables"}という新しい変数を作成します。
 
 [[[generic-scratch3-add-variable]]]
 
-You can hide this variable from your Stage if you want to.
+必要に応じて、この変数をステージから非表示にできます。
 
 ![スクリーンショット](images/dodge-gravity-annotated.png)
 
@@ -24,7 +24,7 @@ You can hide this variable from your Stage if you want to.
 
 \--- task \---
 
-Add these new code blocks that set `gravity` to a negative number and use the value of `gravity` to repeatedly change your character's y-coordinate:
+`重力`にマイナスの値にし、この`重力`の値を使ってキャラクターのy座標を繰り返し変更する新しいコードブロックを追加します:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -40,7 +40,7 @@ Add these new code blocks that set `gravity` to a negative number and use the va
 
 \--- task \---
 
-Click the flag, and then drag your character to the top of the Stage. What happens? Does the gravity work as you expect?
+フラグをクリックし、キャラクターをステージの上部にドラッグします。 何が起こった？ Does the gravity work as you expect?
 
 ![スクリーンショット](images/dodge-gravity-drag.png)
 
