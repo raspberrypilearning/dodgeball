@@ -25,38 +25,38 @@
 ![ball sprite](images/ball_sprite.png)
 
 ```blocks3
-when green flag clicked
-hide
-forever 
-  wait (3) seconds
-  create clone of (myself v)
-end
+グリーンフラグが押されたとき
+隠す
+ずっと
+  (3) 秒間待つ
+  (自分自身 v) のクローンを作る
+終了
 ```
 
 ```blocks3
-when I start as a clone
-go to x: (160) y: (160)
-show
-repeat (22) 
-  change y by (-4)
-end
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
-end
-repeat (30) 
-  change y by (-4)
-end
-delete this clone
+クローンされたとき
+x座標を(160) y座標を (160) にする
+表示する
+(22) 回繰り返す
+  y座標を(-4) ずつ変える
+終了
+(170) 回繰り返す 
+  x座標を (-2) ずつ変える
+  反時計回りに(6) 度回す
+終了
+(30) 回繰り返す 
+  y座標を(-4) ずつ変える
+終了
+このクローンを削除する
 ```
 
-This code creates a new clone of the ball sprite every three seconds. Each new clone moves along the top platform and then drops.
+このコードは、ボールスプライトの新しいクローンを3秒ごとに作成します。 新しいクローンはそれぞれ、一番上のプラットフォームに沿って移動してから落ちます。
 
 \--- /task \---
 
 \--- task \---
 
-Click the flag to test the game.
+フラグをクリックして、ゲームをテストします。
 
 ![スクリーンショット](images/dodge-ball-test.png)
 
@@ -64,17 +64,17 @@ Click the flag to test the game.
 
 \--- task \---
 
-Add more code to your ball sprite so that clones of it move across all three platforms.
+ボールスプライトにコードを追加して、3つのすべてのプラットフォーム間でそのクローンを移動します。
 
 ![スクリーンショット](images/dodge-ball-more-motion.png)
 
-\--- ヒント \---
+\--- hints \---
 
 \--- hint \---
 
-Repeat the code blocks you used to move the ball sprite clone across the first platform. You need to change the `x`{:class="block3motion"}, `y`{:class="block3motion"}, and `repeat`{:class="block3control"} numbers so that the clones follow the platforms correctly.
+Repeat the code blocks you used to move the ball sprite clone across the first platform. `x` {:class="block3motion"}、`y ` {:class="block3motion"}を変更し、数を`繰り返し` {:class="block3control"}使用して、クローンがプラットフォームに正しく追従するように変更する必要があります。
 
-\--- /ヒント \---
+\--- /hint \---
 
 \--- hint \---
 
