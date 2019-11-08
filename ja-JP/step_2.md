@@ -16,13 +16,13 @@ If you have a Scratch account you can make a copy by clicking **Remix**.
 
 プロジェクトには、プラットフォームのある背景が含まれています。
 
-![dodgeball project background](images/dodge-background.png)
+![ドッジボールプロジェクトの背景](images/dodge-background.png)
 
 \--- task \---
 
 プレーヤーが制御するキャラクターとして新しいスプライトを選択し、プロジェクトに追加します。 複数のコスチュームを持つスプライトを選択すると、歩いているように見せることができます。
 
-![pick a sprite](images/dodge-characters.png)
+![スプライトを選ぶ](images/dodge-characters.png)
 
 [generic-scratch3-sprite-from-library]]]
 
@@ -32,7 +32,7 @@ If you have a Scratch account you can make a copy by clicking **Remix**.
 
 プレイヤーが矢印キーでキャラクターを移動できるように、キャラクタースプライトにコードブロックを追加します。 プレイヤーが右矢印を押すと、キャラクターは右を向き、数歩移動して次のコスチュームに変更します。
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![ピコウォーキングスプライト](images/pico_walking_sprite.png)
 
 ```blocks3
 フラグが押されたとき
@@ -51,7 +51,7 @@ If you have a Scratch account you can make a copy by clicking **Remix**.
 
 スプライトが収まらない場合は、サイズを調整します。
 
-![set sprite size so it fits](images/dodge-sprite-size-annotated.png)
+![収まるようにスプライトのサイズを設定します](images/dodge-sprite-size-annotated.png)
 
 \--- /task \---
 
@@ -59,7 +59,7 @@ If you have a Scratch account you can make a copy by clicking **Remix**.
 
 フラグをクリックしてから右矢印キーを押して、キャラクターをテストします。 キャラクターは右に移動しますか？ キャラクターは歩いているように見えますか？
 
-![screenshot](images/dodge-walking.png)
+![スクリーンショット](images/dodge-walking.png)
 
 \--- /task \---
 
@@ -93,7 +93,7 @@ If you have a Scratch account you can make a copy by clicking **Remix**.
 
 コードは以下のようになります:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![ピコウォーキングスプライト](images/pico_walking_sprite.png)
 
 ```blocks3
 緑のフラグが押されたとき
@@ -121,11 +121,11 @@ If you have a Scratch account you can make a copy by clicking **Remix**.
 
 新しいコードをテストして、動作することを確認します。 キャラクターは左に歩いているときに逆さまになりますか？
 
-![screenshot](images/dodge-upside-down.png)
+![スクリーンショット](images/dodge-upside-down.png)
 
 その場合、>キャラクタースプライトの**向き**をクリックして、さらに左右反転をクリックして修正できます
 
-![screenshot](images/dodge-left-right-annotated.png)
+![スクリーンショット](images/dodge-left-right-annotated.png)
 
 または、必要に応じて、このブロックをキャラクターのスクリプトの先頭に追加して問題を修正することもできます。
 
@@ -141,20 +141,20 @@ If you have a Scratch account you can make a copy by clicking **Remix**.
 
 `もし` {:class="block3control"} `上向きの矢印が押され` {:class="block3sensing"}そして、キャラクタが`ピンクに触れている`{:class="block3sensing"}場合に、 キャラクターの`ずっと` {:class="block3control"}ループの内側に追加し、キャラクターの`y`位置 (縦方向)を`変えます` {:class="block3motion"}
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![ピコウォーキングスプライト](images/pico_walking_sprite.png)
 
 ```blocks3
-    if < <key (up arrow v) pressed?> and <touching color [#FF69B4]?> > then
-        change y by (4)
-    end
+    もし < <key (up arrow v) pressed?> と <touching color [#FF69B4]?> > なら
+        yを(4) づつ変える
+    終了
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code. Can you make the character climb the pink ladders and get to the end of the level?
+コードをテストしましょう。 キャラクターをピンクのはしごに登らせて、レベルの最後まで到達させることができますか？
 
-![screenshot](images/dodge-test-character.png)
+![スクリーンショット](images/dodge-test-character.png)
 
 \--- /task \---
