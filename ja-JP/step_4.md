@@ -1,4 +1,4 @@
-## Gravity and jumping
+## 重力とジャンプ
 
 次に、キャラクターをよりリアルに動かします: ゲームに重力を加えて、キャラクターにジャンプする能力を与えます。
 
@@ -29,11 +29,11 @@
 ![ピコウォーキングスプライト](images/pico_walking_sprite.png)
 
 ```blocks3
-    when flag clicked
-    set [gravity v] to [-4]
-    forever
-        change y by (gravity)
-    end
+    フラグが押されたとき
+    [重力 v] を[-4] にする
+    ずっと
+        y座標を (gravity) ずつ変える
+    終了
 ```
 
 \--- /task \---
@@ -53,13 +53,13 @@
 ![ピコウォーキングスプライト](images/pico_walking_sprite.png)
 
 ```blocks3
-    when flag clicked
-    set [gravity v] to [-4]
-    forever
-        if < not < <touching color [#0000FF]?> or <touching color [#FF69B4]?> > > then
-            change y by (gravity)
-        end
-    end
+    フラグが押されたとき
+    [重力 v] を[-4] にする
+    ずっと
+        もし <  <touching color [#0000FF]?> または<touching color [#FF69B4]?> > でない < > なら
+            y座標を(重力) にする
+        終了
+   終了
 ```
 
 \--- /task \---
