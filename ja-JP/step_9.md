@@ -1,21 +1,21 @@
-## Challenge: more obstacles
+## Challenge: 障害物の追加
 
-If you think your game is still too easy, you can add more obstacles to it. The obstacles can be anything you like! 例えば：
+ゲームがまだ簡単すぎると思われる場合は、さらに障害を追加できます。 障害物は何でも可能です 例えば:
 
-+ A dangerous butterfly
-+ Platforms that appear and disappear
-+ Falling tennis balls that must be avoided
++ 危険な蝶
++ 現れたり消えたりするプラットフォーム
++ 避けなければならない落ちてくるテニスボール
 
 ![スクリーンショット](images/dodge-obstacles.png)
 
-You could even design another backdrop to create the next level. Then add code so that, when your character reaches the green door, the game switches to the new background:
+別の背景を設計して、次のレベルを作成することもできます。 次に、コードを追加して、キャラクターが緑のドアに到達すると、ゲームが新しい背景に切り替わるようにします。
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![歩いているピコスプライト](images/pico_walking_sprite.png)
 
 ```blocks3
-    if <touching color [#00FF00]?> then
-        switch backdrop to (next backdrop v)
-        go to x: (-210) y: (-120)
-        wait (1) seconds
-    end
+    もし <touching color [#00FF00]?> なら
+        背景を(次の背景 v) に切り替える
+        x座標を(-210) 、y座標を(-120) にする
+        (1) 秒待つ
+    終了
 ```
