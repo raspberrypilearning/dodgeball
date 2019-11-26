@@ -4,18 +4,18 @@ Wenn du denkst, dass dein Spiel noch zu einfach ist, kannst du mehr Hindernisse 
 
 + Ein gefährlicher Schmetterling
 + Plattformen, die erscheinen und verschwinden
-+ Fallende Tennisbälle, die vermieden werden müssen
++ Fallende Tennisbälle, denen ausgewichen werden muss
 
 ![Screenshot](images/dodge-obstacles.png)
 
 Du kannst sogar einen anderen Hintergrund entwerfen, um das nächste Level zu erstellen. Füge dann einen Code hinzu, sodass das Spiel in den neuen Hintergrund wechselt, wenn dein Charakter die grüne Tür erreicht:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![Pico-Walking Sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    if <touching color [#00FF00]?> then
-        switch backdrop to (next backdrop v)
-        go to x: (-210) y: (-120)
-        wait (1) seconds
-    end
+    falls <touching color [#00FF00]?> , dann 
+  wechsle zu Bühnenbild (nächstes Bühnenbild v)
+  gehe zu x: (-210) y: (-120)
+  warte (1) Sekunden
+end
 ```
