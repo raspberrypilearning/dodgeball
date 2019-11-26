@@ -1,18 +1,18 @@
 ## Schwerkraft und springen
 
-Jetzt bringstdue deinen Charakter dazu, sich realistischer zu bewegen: Du wirst deinem Spiel Schwerkraft verleihen und dem Charakter die Möglichkeit zum Springen geben.
+Jetzt bringst du deinen Charakter dazu, sich realistischer zu bewegen: Du wirst deinem Spiel Schwerkraft verleihen und dem Charakter die Möglichkeit zum Springen geben.
 
 \--- task \---
 
 Im Spiel bewegt sich dein Charakter, als ob er von einer Plattform geht. Siehst du, dass er in leeren Raum gehen kann?
 
-![screenshot](images/dodge-no-gravity.png)
+![Screenshot](images/dodge-no-gravity.png)
 
 \--- /task \---
 
 \--- task \---
 
-Um dies zu beheben, füge dem Spiel Schwerkraft hinzu. Erstelle eine neue Variable namens Schwerkraft `gravity`{:class="block3variables"}.
+Um dies zu beheben, füge dem Spiel Schwerkraft hinzu. Erstelle eine neue Variable namens `Schwerkraft`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -24,16 +24,16 @@ Du kannst diese Variable aus deinem Spielfeld ausblenden, wenn du möchtest.
 
 \--- task \---
 
-Füge diese neuen Codeblöcke hinzu, um die `gravity` auf eine negative Zahl festzulegen und verwende den Wert von `gravity`, um die y-Koordinate deines Charakters fortlaufend zu ändern:
+Füge diese neuen Codeblöcke hinzu, um die `Schwerkraft` auf eine negative Zahl festzulegen und verwende den Wert von `Schwerkraft`, um die y-Koordinate deines Charakters fortlaufend zu ändern:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![Pico-Walking Sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    when flag clicked
-    set [gravity v] to [-4]
-    forever
-        change y by (gravity)
-    end
+    Wenn die grüne Flagge angeklickt
+setze [Schwerkraft v] auf [-4]
+wiederhole fortlaufend 
+ändere y um (Schwerkraft)
+end
 ```
 
 \--- /task \---
@@ -48,18 +48,18 @@ Klicke auf die Flagge und ziehe deinen Charakter an den oberen Rand des Spielfel
 
 \--- task \---
 
-Die Schwerkraft sollte das Sprite des Charakters nicht über eine Plattform oder eine Leiter bewegen! Füge einen `if`{:class="block3control"} Baustein zu deinen Code hinzu, um die Schwerkraft nur dann funktionieren zu lassen, wenn das Zeichen in der Mitte ist. Der Schwerkraftcode sollte dann so aussehen:
+Die Schwerkraft sollte das Sprite des Charakters nicht durch eine Plattform oder eine Leiter bewegen! Füge einen `falls`{:class="block3control"} Baustein zu deinen Code hinzu, um die Schwerkraft nur dann funktionieren zu lassen, wenn das Zeichen in der Mitte ist. Der Schwerkraftcode sollte dann so aussehen:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![Pico-Walking Sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    when flag clicked
-    set [gravity v] to [-4]
-    forever
-        if < not < <touching color [#0000FF]?> or <touching color [#FF69B4]?> > > then
-            change y by (gravity)
-        end
-    end
+    Wenn die grüne Flagge angeklickt
+setze [Schwerkraft v] auf [-4]
+wiederhole fortlaufend 
+  falls < nicht < <touching color [#0000FF]?> oder <touching color [#FF69B4]?> > > , dann 
+    ändere y um (Schwerkraft)
+  end
+end
 ```
 
 \--- /task \---
@@ -74,18 +74,18 @@ Teste das Spiel erneut, um zu sehen, ob die Schwerkraft jetzt korrekt funktionie
 
 \--- task \---
 
-Füge nun einen Code hinzu, um deinen Charakter springen zu lassen, wenn der Spieler die Leertaste<kbd>space</kbd> drückt. Eine sehr einfache Möglichkeit, dies zu tun, besteht darin, deinen Charakter ein paar Mal nach oben zu bewegen:
+Füge nun einen Code hinzu, um deinen Charakter springen zu lassen, wenn der Spieler die <kbd>Leertaste</kbd> drückt. Eine sehr einfache Möglichkeit, dies zu tun, besteht darin, deinen Charakter ein paar Mal nach oben zu bewegen:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![Pico-Walking Sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    when [space v] key pressed
-    repeat (10)
-        change y by (4)
-    end
+    Wenn Taste [Leertaste v] gedrückt wird
+wiederhole (10) mal 
+  ändere y um (4)
+end
 ```
 
-Da die Schwerkraft Ihren Charakter ständig 4 Pixel nach unten drückt, musst du eine Zahl größer als `4 ` wählen in deinen `change y by (4)`{:class="block3motion"} Block. Ändere die Zahl, bis du mit der Höhe, in der der Charakter springt, zufrieden bist.
+Da die Schwerkraft Ihren Charakter ständig 4 Pixel nach unten drückt, musst du eine Zahl größer als `4` wählen in deinen `ändere y um (4)`{:class="block3motion"} Block. Ändere die Zahl, bis du mit der Höhe, in der der Charakter springt, zufrieden bist.
 
 \--- /task \---
 
@@ -97,23 +97,23 @@ Teste deinen Code. Beachte, dass die Sprungbewegung nicht sehr flüssig ist. Dam
 
 \--- task \---
 
-Hierzu erstelle eine neue Variable namens Sprunghöhe `jump height`{:class="block3variables"}. Auch diese Variable kannst du ausblenden, wenn du möchtest.
+Hierzu erstelle eine neue Variable namens `Sprunghöhe`{:class="block3variables"}. Auch diese Variable kannst du ausblenden, wenn du möchtest.
 
 \--- /task \---
 
 \--- task \---
 
-Lösche den Sprungcode, den du deinem Zeichensprite hinzugefügt hast, und füge stattdessen diesen Code hinzu:
+Lösche den Sprungcode, den du deinem Charakter-Sprite hinzugefügt hast, und füge stattdessen diesen Code hinzu:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![Pico-Walking Sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    when [space v] key pressed
-    set [jump height v] to [8]
-    repeat until < (jump height) = [0] >
-        change y by (jump height)
-        change [jump height v] by (-0.5)
-    end
+    Wenn Taste [Leertaste v] gedrückt wird
+setze [Sprunghöhe v] auf [8]
+wiederhole bis <(Sprunghöhe) = [0]> 
+  ändere y um (Sprunghöhe)
+  ändere [Sprunghöhe v] um (-0.5)
+end
 ```
 
 Dieser Code verschiebt deinen Charakter um 8 Pixel, dann um 7,5 Pixel, dann um 7 Pixel usw., bis er nicht mehr höher steigt. Das macht das Springen viel geschmeidiger.
@@ -122,7 +122,7 @@ Dieser Code verschiebt deinen Charakter um 8 Pixel, dann um 7,5 Pixel, dann um 7
 
 \--- task \---
 
-Ändere den Wert der Sprunghöhe `jump height` {: class = "block3variables"} Variablen, welche vor dem Starten der Wiederholung `repeat` {: class = "block3control"} gesetzt wird. Teste nun dein Spiel.
+Ändere den Wert der `Sprunghöhe`{:class="block3variables"} Variable, welche vor dem Starten der Wiederholung `wiederhohle`{:class="block3control"} gesetzt wird. Teste nun dein Spiel.
 
 Wiederhole diese beiden Schritte, bis du mit der Höhe des springenden Charakters zufrieden bist.
 
