@@ -1,12 +1,12 @@
-## Springende Bälle
+## Bällen ausweichen
 
 Dein Charakter kann sich jetzt bewegen und springen, also ist es Zeit, ein paar Bälle hinzuzufügen, die der Charakter meiden muss.
 
 \--- task \---
 
-Erstelle ein neues Kugel-Sprite. Du kannst jede Art von Ball nehmen, die du möchtest.
+Erstelle ein neues Ball-Sprite. Du kannst jede Art von Ball nehmen, die du möchtest.
 
-![screenshot](images/dodge-balls.png)
+![Screenshot](images/dodge-balls.png)
 
 \--- /task \---
 
@@ -20,34 +20,34 @@ Erstelle ein neues Kugel-Sprite. Du kannst jede Art von Ball nehmen, die du möc
 
 \--- task \---
 
-Füge diesen Code deinem Ballsprite hinzu:
+Füge diesen Code deinem Ball-Sprite hinzu:
 
-![ball sprite](images/ball_sprite.png)
+![Ball-Sprite](images/ball_sprite.png)
 
 ```blocks3
-when green flag clicked
-hide
-forever 
-  wait (3) seconds
-  create clone of (myself v)
+Wenn die grüne Flagge angeklickt
+verstecke dich
+wiederhole fortlaufend 
+  warte (3) Sekunden
+  erzeuge Klon von (mir selbst v)
 end
 ```
 
 ```blocks3
-when I start as a clone
-go to x: (160) y: (160)
-show
-repeat (22) 
-  change y by (-4)
+Wenn ich als Klon entstehe
+gehe zu x: (160) y: (160)
+zeige dich
+wiederhole (22) mal 
+  ändere y um (-4)
 end
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
+wiederhole (170) mal 
+  ändere x um (-2)
+  drehe dich nach links um (6) Grad
 end
-repeat (30) 
-  change y by (-4)
+wiederhole (30) mal 
+  ändere y um (-4)
 end
-delete this clone
+lösche diesen Klon
 ```
 
 Dieser Code erstellt alle drei Sekunden einen neuen Klon des Ball-Sprites. Jeder neue Klon bewegt sich auf der obersten Plattform und fällt dann.
@@ -64,7 +64,7 @@ Klicke auf die Flagge, um das Spiel zu testen.
 
 \--- task \---
 
-Füge deinem Kugelsprit mehr Codes hinzu, damit Klone von ihm sich über alle drei Plattformen hinweg bewegen.
+Füge deinem Ball-Sprite mehr Code hinzu, damit Klone von ihm sich über alle drei Plattformen hinweg bewegen.
 
 ![Screenshot](images/dodge-ball-more-motion.png)
 
@@ -72,7 +72,7 @@ Füge deinem Kugelsprit mehr Codes hinzu, damit Klone von ihm sich über alle dr
 
 \--- hint \---
 
-Wiederhole die Codeblöcke, mit denen du den Ball-Sprite-Klon über die erste Plattform bewegt hast. Du musst die `x`{:class="block3motion"}, `y`{:class="block3motion"}, und `repeat`{:class="block3control"} Zahlen ändern, damit die Klone den Plattformen korrekt folgen.
+Wiederhole die Codeblöcke, mit denen du den Ball-Sprite-Klon über die erste Plattform bewegt hast. Du musst die `x`{:class="block3motion"}, `y`{:class="block3motion"}, und `wiederhohle`{:class="block3control"} Zahlen ändern, damit die Klone den Plattformen korrekt folgen.
 
 \--- /hint \---
 
@@ -80,21 +80,21 @@ Wiederhole die Codeblöcke, mit denen du den Ball-Sprite-Klon über die erste Pl
 
 Hier sind die Codeblöcke die du brauchst. Stelle sicher, dass du sie in der richtigen Reihenfolge hinzufügst.
 
-![ball sprite](images/ball_sprite.png)
+![Ball-Sprite](images/ball_sprite.png)
 
 ```blocks3
-epeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
+wiederhole (170) mal 
+  ändere x um (-2)
+  drehe dich nach links um (6) Grad
 end
 
-repeat (180) 
-  change x by (2)
-  turn cw (6) degrees
+wiederhole (180) mal 
+  ändere x um (2)
+  drehe dich nach rechts um (6) Grad
 end
 
-repeat (30) 
-  change y by (-4)
+wiederhole (30) mal 
+  ändere y um (-4)
 end
 ```
 
@@ -102,36 +102,36 @@ end
 
 \--- hint \---
 
-Der Code für deine Kugelsprite Klone sollte wie folgt aussehen:
+Der Code für deine Ball-Sprite Klone sollte wie folgt aussehen:
 
-![ball sprite](images/ball_sprite.png)
+![Ball-Sprite](images/ball_sprite.png)
 
 ```blocks3
-when I start as a clone
-go to x: (160) y: (160)
-show
-repeat (22) 
-  change y by (-4)
+Wenn ich als Klon entstehe
+gehe zu x: (160) y: (160)
+zeige dich
+wiederhole (22) mal 
+  ändere y um (-4)
 end
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
+wiederhole (170) mal 
+  ändere x um (-2)
+  drehe dich nach links um (6) Grad
 end
-repeat (30) 
-  change y by (-4)
+wiederhole (30) mal 
+  ändere y um (-4)
 end
-repeat (180) 
-  change x by (2)
-  turn cw (6) degrees
+wiederhole (180) mal 
+  ändere x um (2)
+  drehe dich nach rechts um (6) Grad
 end
-repeat (30) 
-  change y by (-4)
+wiederhole (30) mal 
+  ändere y um (-4)
 end
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
+wiederhole (170) mal 
+  ändere x um (-2)
+  drehe dich nach links um (6) Grad
 end
-delete this clone
+lösche diesen Klon
 ```
 
 \--- /hint \---
@@ -144,31 +144,31 @@ delete this clone
 
 Füge nun einige Code-Blöcke hinzu, um eine Nachricht zu übertragen (senden), wenn dein Charakter von einem Ball getroffen wird!
 
-Füge diesen Code deinem Ballsprite hinzu:
+Füge diesen Code deinem Ball-Sprite hinzu:
 
-![ball sprite](images/ball_sprite.png)
+![Ball-Sprite](images/ball_sprite.png)
 
 ```blocks3
-    when I start as a clone
-    forever
-        if < touching (Pico walking v)? > then
-            broadcast (hit v)
-        end
-    end
+    Wenn ich als Klon entstehe
+wiederhole fortlaufend 
+  falls <wird (Pico walking v) berührt? > dann 
+    sende (Treffer v) an alle
+  end
+end
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Füge schließlich Code-Blöcke zu deinem Zeichensprite hinzu, um es zu seiner Startposition zurückzuziehen, wenn es die Treffer `hit` Nachricht erhält:
+Füge schließlich Code-Blöcke zu deinem Charakter-Sprite hinzu, um es zu seiner Startposition zurückzuziehen, wenn es die `Treffer` Nachricht erhält:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![Pico-Walking Sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    when I receive [hit v]
-    point in direction (90)
-    go to x: (-210) y: (-120)
+    Wenn ich [Treffer v] empfange
+setze Richtung auf (90) Grad
+gehe zu x: (-210) y: (-120)
 ```
 
 \--- /task \---
