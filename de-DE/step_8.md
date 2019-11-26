@@ -4,9 +4,9 @@ Um dein Spiel ein wenig schwieriger beenden zu lassen, wirst du Laser hinzufüge
 
 \--- task \---
 
-Füge ein neues Sprit zu deinem Spiel hinzu und nenne es `laser`. Es sollte zwei Kostüme haben: eins mit Ein 'on' und eins mit Aus 'off'.
+Füge ein neues Sprite zu deinem Spiel hinzu und nenne es `laser`. Es sollte zwei Kostüme haben: eins mit 'an' und eins mit 'aus'.
 
-![screenshot](images/dodge-lasers-costume1.png)
+![Screenshot](images/dodge-lasers-costume1.png)
 
 ![Screenshot](images/dodge-lasers-costume1.png)
 
@@ -14,7 +14,7 @@ Füge ein neues Sprit zu deinem Spiel hinzu und nenne es `laser`. Es sollte zwei
 
 \--- task \---
 
-Platziere dein neues Lasersprit zwischen zwei Plattformen.
+Platziere dein neues Lasersprite zwischen zwei Plattformen.
 
 ![Screenshot](images/dodge-lasers-position.png)
 
@@ -22,39 +22,39 @@ Platziere dein neues Lasersprit zwischen zwei Plattformen.
 
 \--- task \---
 
-Füge diesen Code zu deinem Lasersprit hinzu, um ihn zwischen den beiden Kostümen wechseln zu lassen.
+Füge diesen Code zu deinem Lasersprite hinzu, um ihn zwischen den beiden Kostümen wechseln zu lassen.
 
-![laser sprite](images/laser_sprite.png)
+![Laser-Sprite](images/laser_sprite.png)
 
 ```blocks3
-    when flag clicked
-    forever
-        switch costume to (on v)
-        wait (2) seconds
-        switch costume to (off v)
-        wait (2) seconds
-    end
+    Wenn die grüne Flagge angeklickt
+wiederhole fortlaufend 
+  wechsle zu Kostüm (an v)
+  warte (2) Sekunden
+  wechsle zu Kostüm (aus v)
+  warte (2) Sekunden
+end
 ```
 
-Wenn du möchtest, kannst du den oben gezeigten Code so ändern, dass das Sprite eine Zufalls `random` {: class = "block3operators"} Zeitspanne zwischen den Kostümwechseln wartet `waits` {: class = "block3control"}.
+Wenn du möchtest, kannst du den oben gezeigten Code so ändern, dass das Sprite eine `zufällige`{:class="block3operators"} Zeitspanne zwischen den Kostümwechseln `wartet`{:class="block3control"}.
 
 \--- /task \---
 
 \--- task \---
 
-Anschließend fügst du Code zu deinem Lasersprit hinzu, sodass der Lasersprit eine Treffer 'hit'-Nachricht sendet, wenn es den Charakter Sprite berührt.
+Anschließend fügst du Code zu deinem Lasersprite hinzu, sodass der Lasersprite eine Treffer-Nachricht sendet, wenn es den Charakter Sprite berührt.
 
 \--- hints \---
 
 \--- hint \---
 
-Dieser Code sollte sehr ähnlich sein wie der Code, den du zu deinem Kugelsprite hinzugefügt hast.
+Dieser Code sollte sehr ähnlich sein wie der Code, den du zu deinem Ball-Sprite hinzugefügt hast.
 
 \--- /hint \---
 
 \--- hint \---
 
-Kopier den Code, den du dem Ball-Objekt hinzufügst hast, um dieses Objekt Treffer zu senden `broadcast 'hit'` {: class = "block3control"}, wenn es deinen Charakter berührt `touching your character`{:class="block3sensing"}.
+Kopier den Code, den du dem Ball-Sprite hinzufügst hast, damit das Sprite `sende 'Terffer'`{:class="block3control"} ausführt, wenn `es deinen Charakter berührt`{:class="block3sensing"}.
 
 \--- /hint \---
 
@@ -62,13 +62,13 @@ Kopier den Code, den du dem Ball-Objekt hinzufügst hast, um dieses Objekt Treff
 
 Dies ist der Code, den du dafür hinzufügen sollst:
 
-![laser sprite](images/laser_sprite.png)
+![Laser-Sprite](images/laser_sprite.png)
 
 ```blocks3
-when green flag clicked
-forever 
-  if <touching (Pico walking v) ?> then 
-    broadcast (hit v)
+Wenn die grüne Flagge angeklickt
+wiederhole fortlaufend 
+  falls <touching (Pico walking v) ?> , dann 
+    sende (Treffer v) an alle
   end
 end
 ```
@@ -77,12 +77,12 @@ end
 
 \---/hints\---
 
-Du musst keinen zusätzlichen Code zu deinem Charakterobjekt hinzufügen, da das Charakterobjekt bereits weiß, was es zu tun hat, wenn es Treffer senden`broadcast 'hit'`{:class="block3control"} erhält!
+Du musst keinen zusätzlichen Code zu deinem Charakter-Sprite hinzufügen, da das Charakter-Sprite bereits weiß, was es zu tun hat, wenn es `sende 'Treffer'`{:class="block3control"} erhält!
 
 \--- /task \---
 
 \--- task \---
 
-Teste dein Spiel, um festzustellen, ob du den Charakter am Laser vorbeibewegen kannst. Wenn der Laser zu leicht oder zu schwer zu meiden ist, ändere die Wartezeit `wait` {: class = "block3control"} im Code für das Laserobjet.
+Teste dein Spiel, um festzustellen, ob du den Charakter am Laser vorbeibewegen kannst. Wenn der Laser zu leicht oder zu schwer zu meiden ist, ändere die `Wartezeit `{:class="block3control"} im Code für das Laser-Sprite.
 
 \--- /task \---
