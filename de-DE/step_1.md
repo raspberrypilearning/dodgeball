@@ -6,11 +6,11 @@ Dies ist die **Scratch 3** Version des Projekts. Es gibt auch eine [Scratch 2 Ve
 
 ## Einleitung
 
-Du wirst lernen, wie du ein Plattform-Spiel erstellen kannst, in dem der Spieler bewegende Kugeln ausweichen muss, um das Ende des Levels zu erreichen.
+Du wirst lernen, wie du ein Plattform-Spiel erstellen kannst, in dem der Spieler bewegenden Bällen ausweichen muss, um das Ende des Levels zu erreichen.
 
 \--- no-print \---
 
-Klicke zum Starten auf die grüne Flagge und verwende dann die Pfeiltasten zum Bewegen und die <kbd>Leertaste</kbd>zum Springen.
+Klicke zum Starten auf die grüne Flagge und verwende dann die Pfeiltasten zum Bewegen und die <kbd>Leertaste</kbd> zum Springen.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/251809924/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,7 +21,7 @@ Klicke zum Starten auf die grüne Flagge und verwende dann die Pfeiltasten zum B
 
 \--- print-only \---
 
-![dodgeball game being played](images/dodgeball-showcase.png)
+![Völkerball wird gespielt](images/dodgeball-showcase.png)
 
 \--- /print-only \---
 
@@ -51,9 +51,9 @@ Die [Downloads findest Du hier](http://rpf.io/p/en/dodgeball-go).
 
 ## title: Was du lernen wirst
 
-+ Wie man die Tastatur benutzt, um ein Objekt (Sprit) zu steuern
-+ Wie man den `wenn, dann, sonst`{:class="block3control"} Scratch Block benutzt
-+ Wie man ein Sprit klonen kann
++ Wie man die Tastatur benutzt, um ein Objekt (Sprite) zu steuern
++ Wie man den `falls, dann, sonst`{:class="block3control"} Scratch Block benutzt
++ Wie man ein Sprite klonen kann
 
 \--- /collapse \---
 
