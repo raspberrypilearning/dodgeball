@@ -1,23 +1,21 @@
---- challenge ---
-## Herausforderung: Mehr Hindernisse 
-Wenn Du findest, dass Dein Spiel immer noch zu einfach ist, kannst Du Deinem Level mehr Hindernisse hinzufügen. Du kannst alles hinzufügen, was Du möchtest. Hier sind jedoch einige Ideen:
+## Herausforderung: Mehr Hindernisse
 
-+ Einen Killer-Schmetterling;
-+ Plattformen, die auftauchen und ver;
-+ Falling tennis balls that must be avoided.
+Wenn du denkst, dass dein Spiel noch zu einfach ist, kannst du mehr Hindernisse hierfür hinzufügen. Die Hindernisse können alles sein, was du willst! Hier sind ein paar Vorschläge:
 
-![screenshot](images/dodge-obstacles.png)
++ Ein gefährlicher Schmetterling
++ Plattformen, die erscheinen und verschwinden
++ Fallende Tennisbälle, denen ausgewichen werden muss
 
-Du könntest sogar mehr als einen Hintergund erstellen und zum nächsten Level übergehen, sobald Deine Spielfigur die Tür erreicht hat:
+![Screenshot](images/dodge-obstacles.png)
 
-```blocks
-		falls <wird Farbe [#714300] berührt?> dann
-		   wechsle zu Bühnenbild [nächstes Bühnenbild v]
-		   gehe zu x:(-210) y:(-120)
-		   warte (1) Sek.
-		Ende
+Du kannst sogar einen anderen Hintergrund entwerfen, um das nächste Level zu erstellen. Füge dann einen Code hinzu, sodass das Spiel in den neuen Hintergrund wechselt, wenn dein Charakter die grüne Tür erreicht:
+
+![Pico-Walking Sprite](images/pico_walking_sprite.png)
+
+```blocks3
+    falls <touching color [#00FF00]?> , dann 
+  wechsle zu Bühnenbild (nächstes Bühnenbild v)
+  gehe zu x: (-210) y: (-120)
+  warte (1) Sekunden
+end
 ```
-
-
-
---- /challenge ---

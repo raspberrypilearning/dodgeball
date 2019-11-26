@@ -1,14 +1,9 @@
---- challenge ---
-## Herqusforderung: Willkürliche Bälle 
-Die Bälle, die Deine Figur umgehen muss, sehen alle gleich aus und tauchen alle 3 Sekunden auf. Kannst Du sie verbessern, damit sie:
+## Herausforderung: zufällige Bälle
 
-+ nicht alle gleich aussehen?
-+ nach einer willkürlichen WZeit erscheinen?
-+ eine willkürliche Grüße haben?
+Die Bälle, denen dein Charakter ausweichen muss, sehen alle gleich aus und erscheinen in regelmäßigen Abständen von drei Sekunden. Kannst du Code zu deinem Spiel hinzufügen, damit die Bälle:
 
-![screenshot](images/dodge-ball-random.png)
++ Nicht alle gleich aussehen?
++ Nach einer `zufälligen`{:class="block3operators"} Zeitdauer erscheinen?
++ Eine zufällige Größe haben?
 
-
-
-
---- /challenge ---
+![Screenshot](images/dodge-ball-random.png)
