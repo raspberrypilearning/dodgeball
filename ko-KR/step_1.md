@@ -10,7 +10,7 @@
 
 \--- no-print \---
 
-시작하려면 녹색 플래그를 클릭 한 다음 화살표 키를 사용해서 이동하세요. <kbd>Space</kbd> 키를 눌러 점프가 가능합니다.
+시작하려면 녹색 깃발를 클릭 한 다음 화살표 키를 사용해서 이동하세요. <kbd>Space</kbd> 키를 눌러 점프가 가능합니다.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/251809924/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,7 +21,7 @@
 
 \--- print-only \---
 
-![게임이 실행되고 있는 모습](images/dodgeball-showcase.png)
+![피구 게임이 실행되고 있는 모습](images/dodgeball-showcase.png)
 
 \--- /print-only \---
 
@@ -51,9 +51,9 @@
 
 ## title: 배우게 될 것
 
-+ 키보드를 이용해 스프라이트를 조작하는 방법
-+ How to use the `if, then, else`{:class="block3control"} Scratch block
-+ 스프라이트를 복제하는 방법
++ 키보드를 이용해 스프라이트(캐릭터)를 조작하는 방법
++ 스크래치 블록에서 `if, then, else`{:class="block3control"}를 사용하는 방법
++ 스프라이트(캐릭터)를 복제하는 방법
 
 \--- /collapse \---
 
@@ -65,7 +65,7 @@
 
 \--- no-print \---
 
-이 프로젝트를 인쇄한다면 [프린트용 버전](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}을 사용해 주십시오.
+이 프로젝트를 인쇄하려면 [프린트용 버전](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}을 사용해 주십시오.
 
 \--- /no-print \---
 
