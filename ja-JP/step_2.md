@@ -1,14 +1,14 @@
-## Character movement
+## キャラクターの動き
 
 左右に移動でき、はしごを登ることができるキャラクターを作成することから始めます。
 
 \--- task \---
 
-'Dodgeball' スクラッチスタータープロジェクトを開きます。
+「ドッジボール」 スクラッチスタータープロジェクトを開きます。
 
 **Online:** [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}にあるスタータープロジェクトを開きます。
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+スクラッチアカウントをお持ちの場合は**リミックス**をクリックしてコピーを作成できます。
 
 **Offline:** [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get)からスタータープロジェクトをダウンロードして、オフラインエディターで開きます。
 
