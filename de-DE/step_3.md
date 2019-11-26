@@ -1,10 +1,5 @@
---- challenge ---
-## Herausforderung: Das Level abschließen 
-Kannst Du Deiner Spielfigur mehr Code hinzufügen, so dass Sie etwas sagen, `wenn`{:class="blockcontrol"} Sie die braune Tür erreicht haben?
+## Herausforderung: Das Level abschließen
 
-![screenshot](images/dodge-win.png)
+Kannst du zu deinem Charakter-Sprite weitere Codeblöcke hinzufügen, damit das Sprite etwas sagt, `falls`{:class="block3control"} es zur grünen Tür kommt?
 
-
-
-
---- /challenge ---
+![Screenshot](images/dodge-win.png)

@@ -1,28 +1,23 @@
---- challenge ---
 ## Herausforderung: Verbesserte Schwerkraft
-Es gibt einen kleinen Bug in Deinem Spiel: die Schwerkraft zieht Deine Figur nicht nach unten wenn irgendein Teil (if _any_ part) dessen, die blaue Plattform berührt - sogar wenn es sein Kopf ist!  Du kannst es testen, indem Du irgendeinen Mast heraufkletterst und die Figur dann nach links bewegst.
 
-![screenshot](images/dodge-gravity-bug.png)
+Es gibt einen anderen kleinen Fehler in deinem Spiel: die Schwerkraft zieht den Charakter nicht nach unten, wenn **irgendein** Teil des Charakters eine blaue Plattform berührt. Selbst wenn der Kopf des Charakters eine Plattform berührt, fällt der Charakter nicht! Du kannst dies selbst testen: Lass deinen Charakter weit auf einer Leiter hinauf klettern und bewege dann deinen Charakter unter eine Plattform:
 
-Kannst Du den Bug beseitigen? Um dies zu tun, musst Du Deiner Spielfigur unterschiedlich farbige Hosen geben (für allen Kostüme (on _all_ costumes))...
+![Screenshot](images/dodge-gravity-bug.png)
 
-![screenshot](images/dodge-trousers.png)
+Um den Fehler zu beheben, musst du zuerst deinem Charakter neue Hosen mit einer anderen Farbe geben (auf **allen** Kostümen).
 
-...und dann diesen Code ersetzen: 
+![Screenshot](images/dodge-trousers.png)
 
-```blocks
-	wird Farbe [#0000FF] berührt?
+Ersetze diesen Code-Block:
+
+```blocks3
+    < wird Farbe [#0000FF] berührt? >
 ```
 
-mit:
+mit diesem Codeblock:
 
-```blocks
-	Farbe [#00FF00] berührt [#0000FF]?
+```blocks3
+    < Farbe [#00FF00] berührt [#0000FF]? >
 ```
 
-Denke daran die Verbesserung auszuprobieren, um zu testen, ob der Bug tatsächlich entfernt ist!
-
-
-
-
---- /challenge ---
+Um sicherzustellen, dass du den Fehler behoben hast, teste das Spiel, nachdem du diese Änderungen vorgenommen hast!

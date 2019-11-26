@@ -1,7 +1,5 @@
---- challenge ---
-## Herausforderung: Vernessertes Springen 
-Deine Figur springt immer dann, wenn die ENTER-Taste gedrückt wird, auch dann, wenn sie sich noch in der Luft befindet. Du kannst es testen, indem Du einfach die ENTER-Taste gedrückt hältst. Kannst Du dies verbessern, so dass Deine Figur nur dann springt, `wenn`{:class="blockcontrol"} sie eine blaue Plattform berührt?
+## Herausforderung: Verbessertes Springen
 
+Selbst wenn sich der Charakter bereits in der Luft befindet, springt er immer dann, wenn der Spieler die Leertaste <kbd>space</kbd> drückt. Du kannst dieses Verhalten sehen, wenn du die Leertaste <kbd>space</kbd> gedrückt hältst.
 
-
---- /challenge ---
+Kannst du den Sprite-Code des Charakters für das Springen so ändern, dass dein Charakter nur springen kann, `falls`{:class="block3control"} es eine blaue Plattform berührt?
