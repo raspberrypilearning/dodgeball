@@ -72,7 +72,7 @@ x座標を(160) y座標を (160) にする
 
 \--- hint \---
 
-Repeat the code blocks you used to move the ball sprite clone across the first platform. `x` {:class="block3motion"}、`y ` {:class="block3motion"}を変更し、数を`繰り返し` {:class="block3control"}使用して、クローンがプラットフォームに正しく追従するように変更する必要があります。
+ボールスプライトクローンを最初のプラットフォームに移動するために使用したコードブロックを繰り返します。 `x` {:class="block3motion"}、`y ` {:class="block3motion"}を変更し、数を`繰り返し` {:class="block3control"}使用して、クローンがプラットフォームに正しく追従するように変更する必要があります。
 
 \--- /hint \---
 
