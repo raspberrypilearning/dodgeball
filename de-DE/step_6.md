@@ -151,7 +151,7 @@ Füge diesen Code deinem Ball-Sprite hinzu:
 ```blocks3
     Wenn ich als Klon entstehe
 wiederhole fortlaufend 
-  falls <wird (Pico walking v) berührt? > dann 
+  falls <wird (Pico walking v) berührt?> , dann 
     sende (Treffer v) an alle
   end
 end
