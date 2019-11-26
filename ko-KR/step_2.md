@@ -1,4 +1,4 @@
-## Character movement
+## 캐릭터 이동
 
 Start by creating a character that can move left and right, and can climb up ladders.
 
