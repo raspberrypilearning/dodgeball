@@ -1,4 +1,4 @@
-## Zusatzaufgabe: mehr Stifte
+## Wie geht es weiter?
 
 Probiere unser Gehirnspiel [Brain game](https://projects.raspberrypi.org/en/projects/brain-game?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) aus, in dem du dein eigenes Mathe-Quiz erstellen kannst.
 
