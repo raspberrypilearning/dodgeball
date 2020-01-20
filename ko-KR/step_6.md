@@ -1,10 +1,10 @@
-## Dodging balls
+## 공들 피하기
 
-Your character can move and jump now, so it's time to add some balls that the character has to avoid.
+이제 캐릭터가 움직이고 점프도 할 수 있으므로, 캐릭터가 피해야 할 공을 추가해야 합니다.
 
 \--- task \---
 
-Create a new ball sprite. You can choose any type of ball you like.
+새 공 스프라이트를 만드십시오. 원하는 공의 종류를 선택할 수 있습니다.
 
 ![스크린샷](images/dodge-balls.png)
 
@@ -12,7 +12,7 @@ Create a new ball sprite. You can choose any type of ball you like.
 
 \--- task \---
 
-Resize the ball sprite so that the character can jump over it. Try making the character jump over the ball to test whether the ball is the right size.
+캐릭터가 뛰어 넘을 수 있도록 공 스프라이트의 크기를 조정하십시오. 공이 올바른 크기인지 테스트하기 위해 공 위로 캐릭터 점프를 시도하십시오.
 
 ![스크린샷](images/dodge-ball-resize.png)
 
@@ -20,43 +20,43 @@ Resize the ball sprite so that the character can jump over it. Try making the ch
 
 \--- task \---
 
-Add this code to your ball sprite:
+이 코드를 공 스프라이트에 추가 해 보세요:
 
-![ball sprite](images/ball_sprite.png)
+![공 스프라이트](images/ball_sprite.png)
 
 ```blocks3
-when green flag clicked
-hide
-forever 
-  wait (3) seconds
-  create clone of (myself v)
+⚑ 클릭했을 때
+숨기기
+무한 반복하기 
+  (3) 초 기다리기
+  (myself v) 복제하기
 end
 ```
 
 ```blocks3
-when I start as a clone
-go to x: (160) y: (160)
-show
-repeat (22) 
-  change y by (-4)
+복제되었을 때
+x: (160) y: (160) \(으\)로 이동하기
+보이기
+(22) 번 반복하기 
+  y 좌표를 (-4) 만큼 바꾸기
 end
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
+(170) 번 반복하기 
+  x 좌표를 (-2) 만큼 바꾸기
+  ↺ 방향으로 (6) 도 회전하기
 end
-repeat (30) 
-  change y by (-4)
+(30) 번 반복하기 
+  y 좌표를 (-4) 만큼 바꾸기
 end
-delete this clone
+이 복제본 삭제하기
 ```
 
-This code creates a new clone of the ball sprite every three seconds. Each new clone moves along the top platform and then drops.
+이 코드는 3초마다 새로운 공 스프라이트 복제본을 만듭니다. 각각의 새로운 복제본은 가장 위의 플랫폼을 따라 이동한 다음 떨어집니다.
 
 \--- /task \---
 
 \--- task \---
 
-Click the flag to test the game.
+게임을 테스트하려면 깃발을 클릭하십시오.
 
 ![스크린샷](images/dodge-ball-test.png)
 
@@ -64,95 +64,97 @@ Click the flag to test the game.
 
 \--- task \---
 
-Add more code to your ball sprite so that clones of it move across all three platforms.
+공 스프라이트에 더 많은 코드를 추가하여 복제본이 세 가지 플랫폼 모두에서 움직이도록 합니다.
 
 ![스크린샷](images/dodge-ball-more-motion.png)
 
-\--- 힌트 \---
+\--- hints \---
 
 \--- hint \---
 
-Repeat the code blocks you used to move the ball sprite clone across the first platform. You need to change the `x`{:class="block3motion"}, `y`{:class="block3motion"}, and `repeat`{:class="block3control"} numbers so that the clones follow the platforms correctly.
+첫 번째 플랫폼에서 공 스프라이트 복제본을 이동하는 데 사용한 코드 블록을 반복하십시오. 복제본이 플랫폼을 올바르게 따라가도록 하려면 `x`{: class = "block3motion"}, `y`{: class = "block3motion"}를 바꾸고 숫자를 `반복하기`{: class = "block3control"} 해야 합니다.
 
-\--- /귀뜸말 \---
+\--- /hint \---
 
 \--- hint \---
 
-These are the blocks you need. Make sure you add them in the correct order.
+필요한 코드 블록은 다음과 같습니다. 반드시 올바른 순서로 추가하십시오.
 
-![ball sprite](images/ball_sprite.png)
+![공 스프라이트](images/ball_sprite.png)
 
 ```blocks3
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
+(170) 번 반복하기 
+  x 좌표를 (-2) 만큼 바꾸기
+  ↺ 방향으로 (6) 도 회전하기
 end
 
-repeat (180) 
-  change x by (2)
-  turn cw (6) degrees
+(180) 번 반복하기 
+  x 좌표를 (2) 만큼 바꾸기
+  ↻ 방향으로 (6) 도 회전하기
 end
 
-repeat (30) 
-  change y by (-4)
+(30) 번 반복하기 
+  y 좌표를 (-4) 만큼 바꾸기
 end
 ```
 
-\--- /귀뜸말 \---
+\--- /hint \---
 
 \--- hint \---
 
-The code for your ball sprite clones should look like this:
+공 스프라이트 복제본을 위한 코드는 다음과 같아야 합니다:
 
-![ball sprite](images/ball_sprite.png)
+![공 스프라이트](images/ball_sprite.png)
 
 ```blocks3
-when I start as a clone
-go to x: (160) y: (160)
-show
-repeat (22) 
-  change y by (-4)
+복제되었을 때
+x: (160) y: (160) \(으\)로 이동하기
+보이기
+(22) 번 반복하기 
+  y 좌표를 (-4) 만큼 바꾸기
 end
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
+(170) 번 반복하기 
+  x 좌표를 (-2) 만큼 바꾸기
+  ↺ 방향으로 (6) 도 회전하기
 end
-repeat (30) 
-  change y by (-4)
+(30) 번 반복하기 
+  y 좌표를 (-4) 만큼 바꾸기
 end
-repeat (180) 
-  change x by (2)
-  turn cw (6) degrees
+(180) 번 반복하기 
+  x 좌표를 (2) 만큼 바꾸기
+  ↻ 방향으로 (6) 도 회전하기
 end
-repeat (30) 
-  change y by (-4)
+(30) 번 반복하기 
+  y 좌표를 (-4) 만큼 바꾸기
 end
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
+(170) 번 반복하기 
+  x 좌표를 (-2) 만큼 바꾸기
+  ↺ 방향으로 (6) 도 회전하기
 end
-delete this clone
+이 복제본 삭제하기
 ```
 
-\--- /귀뜸말 \---
+\--- /hint \---
 
-\--- / 귀뜸말 \---
+\--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Now add some code blocks to broadcast (send) a message if your character gets hit by a ball!
+캐릭터가 공에 맞으면 메시지를 방송 (보내기) 하기 위해 몇 가지 코드 블록을 추가하십시오!
 
-Add this code to your ball sprite:
+이 코드를 공 스프라이트에 추가 해 보세요:
 
-![ball sprite](images/ball_sprite.png)
+![공 스프라이트](images/ball_sprite.png)
 
 ```blocks3
-    when I start as a clone
-    forever
-        if < touching (Pico walking v)? > then
-            broadcast (hit v)
+    복제되었을 때
+무한 반복하기 
+  if <touching (걷는 피코 v) ?>
+  end
+end > then
+            (hit v) 신호 보내기
         end
     end
 ```
@@ -161,20 +163,20 @@ Add this code to your ball sprite:
 
 \--- task \---
 
-Finally, add code blocks to your character sprite to make it move back to its starting position when it receives the `hit` message:
+마지막으로, 캐릭터 스프라이트에 코드 블록을 추가하여 `hit` 메시지를 받았을 때 시작 위치로 돌아가도록 합니다. 
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![걷는 피코 스프라이트](images/pico_walking_sprite.png)
 
 ```blocks3
-    when I receive [hit v]
-    point in direction (90)
-    go to x: (-210) y: (-120)
+    [hit v] 신호를 받았을 때
+    (90) 도 방향 보기
+    x: (-210) y: (-120) \(으\)로 이동하기
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test out your code. Check whether the character moves back to the start after touching a ball.
+코드를 테스트해 보세요. 공을 터치하면 캐릭터가 처음 위치로 돌아오는지 확인하십시오.
 
 \--- /task \---
