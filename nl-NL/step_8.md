@@ -8,7 +8,7 @@ Voeg een nieuwe sprite toe aan je spel en noem hem `laser`. Het moet twee uiterl
 
 ![screenshot](images/dodge-lasers-costume1.png)
 
-![screenshot](images/dodge-lasers-costume1.png)
+![screenshot](images/dodge-lasers-costume2.png)
 
 \--- /task \---
 
