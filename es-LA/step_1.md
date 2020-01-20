@@ -25,11 +25,9 @@ Click the green flag to start, and then use the arrow keys to move and the <kbd>
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## título: Lo que necesitará
+## title: What you will need
 
 ### Hardware
 
@@ -45,11 +43,9 @@ You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## título: Lo que aprenderá
+## title: What you will learn
 
 + How to use the keyboard to control a sprite
 + How to use the `if, then, else`{:class="block3control"} Scratch block
@@ -57,17 +53,15 @@ You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 \--- /collapse \---
 
-\--- collapse \---
-
-* * *
+## \--- collapse \---
 
 ## title: Additional notes for educators
 
-\--- no imprimir \---
+\--- no-print \---
 
-En caso que necesite imprimir este proyecto, utilice [la versión para impresión](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
 
-\--- no imprimir \---
+\--- /no-print \---
 
 You can find the [completed project here](http://rpf.io/p/en/dodgeball-get).
 
