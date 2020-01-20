@@ -1,10 +1,10 @@
 ## Esquivando das bolas
 
-Your character can move and jump now, so it's time to add some balls that the character has to avoid.
+Seu personagem pode se mover e pular agora, então é hora de adicionar algumas bolas que o personagem tem que evitar.
 
 \--- task \---
 
-Create a new ball sprite. You can choose any type of ball you like.
+Crie um novo sprite. Você pode escolher qualquer tipo de bola que quiser.
 
 ![screenshot](images/dodge-balls.png)
 
@@ -12,7 +12,7 @@ Create a new ball sprite. You can choose any type of ball you like.
 
 \--- task \---
 
-Resize the ball sprite so that the character can jump over it. Try making the character jump over the ball to test whether the ball is the right size.
+Redimensionar o sprite de bola para que o personagem possa pular sobre ele. Tente fazer o personagem pular sobre a bola para testar se a bola é do tamanho certo.
 
 ![screenshot](images/dodge-ball-resize.png)
 
@@ -20,9 +20,9 @@ Resize the ball sprite so that the character can jump over it. Try making the ch
 
 \--- task \---
 
-Add this code to your ball sprite:
+Adicione este código ao seu sprite:
 
-![ball sprite](images/ball_sprite.png)
+![sprite de bola](images/ball_sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -50,13 +50,13 @@ end
 delete this clone
 ```
 
-This code creates a new clone of the ball sprite every three seconds. Each new clone moves along the top platform and then drops.
+Este código cria um novo clone da bola a cada três segundos. Cada novo clone se move ao longo da plataforma superior e então cai.
 
 \--- /task \---
 
 \--- task \---
 
-Click the flag to test the game.
+Clique na bandeira para testar o jogo.
 
 ![screenshot](images/dodge-ball-test.png)
 
@@ -64,23 +64,23 @@ Click the flag to test the game.
 
 \--- task \---
 
-Add more code to your ball sprite so that clones of it move across all three platforms.
+Adicione mais códigos ao seu sprite para que os clones se movam entre as três plataformas.
 
 ![screenshot](images/dodge-ball-more-motion.png)
 
-\--- dica \---
+\--- hints \---
 
 \--- hint \---
 
-Repeat the code blocks you used to move the ball sprite clone across the first platform. You need to change the `x`{:class="block3motion"}, `y`{:class="block3motion"}, and `repeat`{:class="block3control"} numbers so that the clones follow the platforms correctly.
+Repita os blocos de código que você usou para mover o clone do sprite através da primeira plataforma. Você precisa alterar o `x`{:class="block3motion"}, `y`{:class="block3motion"}, e `repetir`{:class="block3control"} números para que os clones sigam as plataformas corretamente.
 
 \--- /hint \---
 
 \--- hint \---
 
-These are the blocks you need. Make sure you add them in the correct order.
+Estes são os blocos que você precisa. Certifique-se de adicioná-los na ordem correta.
 
-![ball sprite](images/ball_sprite.png)
+![sprite de bola](images/ball_sprite.png)
 
 ```blocks3
 repeat (170) 
@@ -102,9 +102,9 @@ end
 
 \--- hint \---
 
-The code for your ball sprite clones should look like this:
+O código para o seu sprite de bola clonado deve se parecer com isso:
 
-![ball sprite](images/ball_sprite.png)
+![sprite de bola](images/ball_sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -142,11 +142,11 @@ delete this clone
 
 \--- task \---
 
-Now add some code blocks to broadcast (send) a message if your character gets hit by a ball!
+Agora adicione alguns blocos de código para transmitir (enviar) uma mensagem se seu personagem for atingido por uma bola!
 
-Add this code to your ball sprite:
+Adicione este código ao seu sprite:
 
-![ball sprite](images/ball_sprite.png)
+![sprite de bola](images/ball_sprite.png)
 
 ```blocks3
     when I start as a clone
@@ -161,9 +161,9 @@ Add this code to your ball sprite:
 
 \--- task \---
 
-Finally, add code blocks to your character sprite to make it move back to its starting position when it receives the `hit` message:
+Finalmente, adicione blocos de código ao seu personagem sprite para torná-lo de volta à sua posição inicial quando receber a mensagem `hit`:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![pancada no sprite](images/pico_walking_sprite.png)
 
 ```blocks3
     when I receive [hit v]
@@ -175,6 +175,6 @@ Finally, add code blocks to your character sprite to make it move back to its st
 
 \--- task \---
 
-Test out your code. Check whether the character moves back to the start after touching a ball.
+Teste seu código. Verifique se o personagem volta ao início depois de tocar uma bola.
 
 \--- /task \---
