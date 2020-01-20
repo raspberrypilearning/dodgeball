@@ -8,7 +8,7 @@ Add a new sprite to your game and call it `laser`. It should have two costumes: 
 
 ![captura de pantalla](images/dodge-lasers-costume1.png)
 
-![captura de pantalla](images/dodge-lasers-costume1.png)
+![captura de pantalla](images/dodge-lasers-costume2.png)
 
 \--- función \---
 
