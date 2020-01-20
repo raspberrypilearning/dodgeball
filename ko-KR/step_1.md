@@ -25,11 +25,9 @@
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: 준비물
+## title: What you will need
 
 ### 하드웨어
 
@@ -41,15 +39,13 @@
 
 ### 다운로드 목록
 
-[여기](http://rpf.io/p/en/dodgeball-go) 서 다운로드할 것들의 목록을 확인할 수 있습니다.
+You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: 배우게 될 것
+## title: What you will learn
 
 + 키보드를 이용해 스프라이트(캐릭터)를 조작하는 방법
 + 스크래치 블록에서 `if, then, else`{:class="block3control"}를 사용하는 방법
@@ -57,18 +53,16 @@
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: 교육자를 위한 참고사항
+## title: Additional notes for educators
 
 \--- no-print \---
 
-이 프로젝트를 인쇄하려면 [프린트용 버전](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}을 사용해 주십시오.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
 
 \--- /no-print \---
 
-[여기](http://rpf.io/p/en/dodgeball-get)서 완성된 프로젝트를 확인할 수 있습니다.
+You can find the [completed project here](http://rpf.io/p/en/dodgeball-get).
 
 \--- /collapse \---
