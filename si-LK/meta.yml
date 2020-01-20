@@ -3,38 +3,38 @@ hero_image: images / banner.png
 listed: true
 ingredient: false
 copyedit: false
-title: Dodgeball
-description: Create a platform game in which you dodge moving balls to reach the end of the level
+title: ඩොජ්බෝල්(Dodgeball)
+description: වේදිකාවක්මත චලනයවන බෝල මතින් පැනයමින්(doge) ක්‍රීඩාවේ ඊළඟ මට්ටම(level) කරා යාහැකි ක්‍රීඩාවක් නිර්මණය කිරීම.
 version: 4.0.0
 last_tested: 2018-10-10
 steps:
   - 
     title: හැදින්වීම
   - 
-    title: Character movement
+    title: චරිත(character) චලනය(movement)
   - 
-    title: "Challenge: completing the level"
+    title: "Challenge: මට්ටම සම්පූර්ණ කිරීම"
     challenge: true
   - 
-    title: Gravity and jumping
+    title: ගුරුත්වාකර්ෂණය සහ උඩ පැනීම
   - 
-    title: 'Challenge: improved jumping'
+    title: 'Challenge: තවත් උඩ පැනීම '
     challenge: true
   - 
-    title: Dodging balls
+    title: බෝල වලින් පනීම(Doge balls)
   - 
-    title: 'Challenge: random balls'
+    title: 'Challenge:  අහඹු(random) බෝල'
     challenge: true
   - 
-    title: Lasers!
+    title: ලේසර්(Lasers)!
   - 
-    title: 'Challenge: more obstacles'
+    title: 'Challenge:  තවත් බාධක'
     challenge: true
   - 
-    title: 'Challenge: improved gravity'
+    title: 'Challenge: වැඩි දියුණු කළ ගුරුත්වාකර්ෂණය'
     challenge: true
   - 
-    title: 'Challenge: more lives'
+    title: 'Challenge: තවත් ජීවිත'
     challenge: true
   - 
     title: ඊලඟට කුමක්ද?
