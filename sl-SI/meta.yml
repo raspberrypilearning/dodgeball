@@ -3,38 +3,38 @@ hero_image: images/banner.png
 listed: true
 ingredient: false
 copyedit: false
-title: Dodgeball
-description: Create a platform game in which you dodge moving balls to reach the end of the level
+title: Pazi, žoga!
+description: Ustvari ploščadno igro, v kateri se moraš izmikati žogam in priti do konca stopnje
 version: 4.0.0
 last_tested: 2018-10-10
 steps:
   - 
     title: Uvod
   - 
-    title: Character movement
+    title: Gibanje likov
   - 
-    title: "Challenge: completing the level"
+    title: "Izziv: Dokončana stopnja"
     challenge: true
   - 
-    title: Gravity and jumping
+    title: Gravitacija in skoki
   - 
-    title: 'Challenge: improved jumping'
+    title: 'Izziv: izboljšani skoki'
     challenge: true
   - 
-    title: Dodging balls
+    title: Izmikanje žogam
   - 
-    title: 'Challenge: random balls'
+    title: 'Izziv: naključne žoge'
     challenge: true
   - 
-    title: Lasers!
+    title: Laserji!
   - 
-    title: 'Izziv: Več ovir'
+    title: 'Izziv: več ovir'
     challenge: true
   - 
-    title: 'Challenge: improved gravity'
+    title: 'Izziv: izboljšana gravitacija'
     challenge: true
   - 
-    title: 'Challenge: more lives'
+    title: 'Izziv: več življenj'
     challenge: true
   - 
     title: Kaj sledi?
