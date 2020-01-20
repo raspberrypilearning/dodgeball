@@ -1,74 +1,74 @@
 ## Lasers!
 
-To your game a little harder to complete, you are going to add lasers!
+Pour votre jeu un peu plus difficile à compléter, vous allez ajouter des lasers!
 
 \--- task \---
 
-Add a new sprite to your game and call it `laser`. It should have two costumes: one called 'on', and one called 'off'.
+Ajoutez un nouveau sprite à votre jeu et appelez-le `laser`. Il devrait avoir deux costumes: l'un appelé "on" et l'autre appelé "off".
 
-![screenshot](images/dodge-lasers-costume1.png)
+![capture d'écran](images/dodge-lasers-costume1.png)
 
-![screenshot](images/dodge-lasers-costume1.png)
+![capture d'écran](images/dodge-lasers-costume2.png)
 
 \--- /task \---
 
 \--- task \---
 
-Place your new laser sprite between two platforms.
+Placez votre nouveau sprite laser entre deux plates-formes.
 
-![screenshot](images/dodge-lasers-position.png)
+![capture d'écran](images/dodge-lasers-position.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your laser sprite to make it switch between its two costumes.
+Ajoutez du code à votre sprite laser pour le faire basculer entre ses deux costumes.
 
-![laser sprite](images/laser_sprite.png)
+![sprite laser](images/laser_sprite.png)
 
 ```blocks3
-    when flag clicked
-    forever
-        switch costume to (on v)
-        wait (2) seconds
-        switch costume to (off v)
-        wait (2) seconds
-    end
+    lorsque le drapeau est cliqué
+    pour toujours
+        changer de costume en (sur v)
+        attendre (2) secondes
+        changer de costume en (off v)
+        attendre (2)
+    secondes
 ```
 
-If you prefer, you can change the code shown above so that the sprite `waits`{:class="block3control"} a `random`{:class="block3operators"} amount of time between costume changes.
+Si vous préférez, vous pouvez modifier le code présenté ci-dessus de sorte que l'image-objet `attend`{: class = "block3control"} un `aléatoire`{: class = "block3operators"} durée entre les changements de costume.
 
 \--- /task \---
 
 \--- task \---
 
-Finally, add code to your laser sprite so that the laser sprite broadcasts a 'hit' message when it touches the character sprite.
+Enfin, ajoutez du code à votre image-objet laser afin que celle-ci diffuse un message de «hit» lorsqu'elle touche l'image-objet du personnage.
 
 \--- hints \---
 
 \--- hint \---
 
-This code should be very similar to the code you added to your ball sprite.
+Ce code doit être très similaire au code que vous avez ajouté à votre sprite boule.
 
 \--- /hint \---
 
 \--- hint \---
 
-Copy the code you add to the ball sprite to make this sprite `broadcast 'hit'`{:class="block3control"} when it is `touching your character`{:class="block3sensing"}.
+Copiez le code que vous avez ajouté à l'image-objet balle pour que cette image-objet `diffuse 'hit'`': {class = "block3control"} lorsqu'il touche `à votre personnage`{: class = "block3sensing"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-This is the code you should add:
+C'est le code que vous devriez ajouter:
 
-![laser sprite](images/laser_sprite.png)
+![sprite laser](images/laser_sprite.png)
 
 ```blocks3
-when green flag clicked
-forever 
-  if <touching (Pico walking v) ?> then 
-    broadcast (hit v)
+lorsque le drapeau vert a cliqué sur
+pour toujours 
+  si <touching (Pico walking v) ?> puis 
+    diffusion (hit v)
   end
 end
 ```
@@ -77,12 +77,12 @@ end
 
 \--- /hints \---
 
-You don't need to add any extra code to your characters sprite, because the character sprite already knows what to do when it receives the `broadcast 'hit'`{:class="block3control"}!
+Vous n'avez pas besoin d'ajouter de code supplémentaire au sprite de votre personnage, car celui-ci sait déjà quoi faire lorsqu'il reçoit la diffusion `diffusion 'hit'`{: class = "block3control"}!
 
 \--- /task \---
 
 \--- task \---
 
-Test out your game to see if you can move the character past the laser. If the laser is too easy or too hard to avoid, change the `wait`{:class="block3control"} times in the code for the laser sprite.
+Testez votre jeu pour voir si vous pouvez déplacer le personnage au-delà du laser. Si le laser est trop facile ou trop difficile à éviter, changez les temps d'attente `{`: class = "block3control"} dans le code de l'image-objet laser.
 
 \--- /task \---
