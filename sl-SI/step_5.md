@@ -1,5 +1,5 @@
-## Challenge: better jumping
+## Izziv: izboljšani skoki
 
-Even if the character is already in mid-air, it jumps whenever the player presses the <kbd>space</kbd> bar. You can see this behaviour if you hold down the <kbd>space</kbd> bar.
+Čeprav je lik že sredi zraka, še vedno skoči, kadarkoli igralec pritisne na tipko <kbd>presledek</kbd>. To lahko vidiš, če pritiskaš tipko <kbd>presledek</kbd>.
 
-Can you change the character sprite's code for jumping so that your character can only jump `if`{:class="block3control"} it touches a blue platform?
+Ali lahko spremeniš svojo kodo, tako da bo lik lahko skočil le `če`{:class="block3control"} se dotika modre ploščadi?
