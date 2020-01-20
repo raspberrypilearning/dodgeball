@@ -25,11 +25,9 @@
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## 标题: 你需要准备什么
+## title: What you will need
 
 ### 硬件
 
@@ -41,15 +39,13 @@
 
 ### 下载
 
-您可以在这里[找到下载](http://rpf.io/p/en/dodgeball-go)。
+You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## 标题：你将学到
+## title: What you will learn
 
 + 如何使用键盘控制精灵
 + 如何使用`if,then,else`{:class="block3control"} Scratch 块
@@ -57,18 +53,16 @@
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## 为教育者提供的额外信息
+## title: Additional notes for educators
 
 \--- no-print \---
 
-如果您需要打印本项目文件，请使用[适合打印版本](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}。
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
 
 \--- /no-print \---
 
-你可以在这里找到[完整的项目](http://rpf.io/p/en/dodgeball-get).
+You can find the [completed project here](http://rpf.io/p/en/dodgeball-get).
 
 \--- /collapse \---
