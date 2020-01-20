@@ -1,10 +1,10 @@
 ## Bällen ausweichen
 
-Dein Charakter kann sich jetzt bewegen und springen, also ist es Zeit, ein paar Bälle hinzuzufügen, die der Charakter meiden muss.
+Dein Charakter kann sich jetzt bewegen und springen, also ist es Zeit, ein paar Bälle hinzuzufügen, denen der Charakter auweichen muss.
 
 \--- task \---
 
-Erstelle ein neues Ball-Sprite. Du kannst jede Art von Ball nehmen, die du möchtest.
+Erstelle eine neue Ball-Figur. Du kannst jede Art von Ball nehmen, die du möchtest.
 
 ![Screenshot](images/dodge-balls.png)
 
@@ -12,7 +12,7 @@ Erstelle ein neues Ball-Sprite. Du kannst jede Art von Ball nehmen, die du möch
 
 \--- task \---
 
-Ändere die Größe des Ball-Sprites, damit der Charakter darüber springen kann. Versuche den Charakter über den Ball springen zu lassen, um zu testen, ob der Ball die richtige Größe hat.
+Ändere die Größe der Ball-Figur, damit der Charakter darüber springen kann. Versuche den Charakter über den Ball springen zu lassen, um zu testen, ob der Ball die richtige Größe hat.
 
 ![Screenshot](images/dodge-ball-resize.png)
 
@@ -20,7 +20,7 @@ Erstelle ein neues Ball-Sprite. Du kannst jede Art von Ball nehmen, die du möch
 
 \--- task \---
 
-Füge diesen Code deinem Ball-Sprite hinzu:
+Füge diesen Code deiner Ball-Figur hinzu:
 
 ![Ball-Sprite](images/ball_sprite.png)
 
@@ -50,7 +50,7 @@ end
 lösche diesen Klon
 ```
 
-Dieser Code erstellt alle drei Sekunden einen neuen Klon des Ball-Sprites. Jeder neue Klon bewegt sich auf der obersten Plattform und fällt dann.
+Dieser Code erstellt alle drei Sekunden einen neuen Klon der Ball-Figur. Jeder neue Klon bewegt sich auf der obersten Plattform und fällt dann.
 
 \--- /task \---
 
@@ -64,7 +64,7 @@ Klicke auf die Flagge, um das Spiel zu testen.
 
 \--- task \---
 
-Füge deinem Ball-Sprite mehr Code hinzu, damit Klone von ihm sich über alle drei Plattformen hinweg bewegen.
+Füge deiner Ball-Figur mehr Code hinzu, damit Klone von ihr sich über alle drei Plattformen hinweg bewegen.
 
 ![Screenshot](images/dodge-ball-more-motion.png)
 
@@ -72,7 +72,7 @@ Füge deinem Ball-Sprite mehr Code hinzu, damit Klone von ihm sich über alle dr
 
 \--- hint \---
 
-Wiederhole die Codeblöcke, mit denen du den Ball-Sprite-Klon über die erste Plattform bewegt hast. Du musst die `x`{:class="block3motion"}, `y`{:class="block3motion"}, und `wiederhohle`{:class="block3control"} Zahlen ändern, damit die Klone den Plattformen korrekt folgen.
+Wiederhole die Codeblöcke, mit denen du den Ball-Figur-Klon über die erste Plattform bewegt hast. Du musst die `x`{:class="block3motion"}, `y`{:class="block3motion"}, und `wiederhohle`{:class="block3control"} Zahlen ändern, damit die Klone den Plattformen korrekt folgen.
 
 \--- /hint \---
 
@@ -102,7 +102,7 @@ end
 
 \--- hint \---
 
-Der Code für deine Ball-Sprite Klone sollte wie folgt aussehen:
+Der Code für deine Ball-Figur Klone sollte wie folgt aussehen:
 
 ![Ball-Sprite](images/ball_sprite.png)
 
@@ -136,22 +136,22 @@ lösche diesen Klon
 
 \--- /hint \---
 
-\---/hints\---
+\--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Füge nun einige Code-Blöcke hinzu, um eine Nachricht zu übertragen (senden), wenn dein Charakter von einem Ball getroffen wird!
+Füge nun einige Code-Blöcke hinzu, um eine Nachricht zu senden, wenn dein Charakter von einem Ball getroffen wird!
 
-Füge diesen Code deinem Ball-Sprite hinzu:
+Füge diesen Code deiner Ball-Figur hinzu:
 
 ![Ball-Sprite](images/ball_sprite.png)
 
 ```blocks3
     Wenn ich als Klon entstehe
 wiederhole fortlaufend 
-  falls <wird (Pico walking v) berührt? > dann 
+  falls < wird (Pico walking v) berührt? > dann 
     sende (Treffer v) an alle
   end
 end
@@ -161,7 +161,7 @@ end
 
 \--- task \---
 
-Füge schließlich Code-Blöcke zu deinem Charakter-Sprite hinzu, um es zu seiner Startposition zurückzuziehen, wenn es die `Treffer` Nachricht erhält:
+Füge schließlich Code-Blöcke zu deiner Charakter-Figur hinzu, um sie zu ihrer Startposition zurückzuziehen, wenn sie die `Treffer` Nachricht erhält:
 
 ![Pico-Walking Sprite](images/pico_walking_sprite.png)
 
