@@ -1,23 +1,23 @@
-## Challenge: improved gravity
+## Défi : gravité améliorée
 
-There's one other small bug in your game: gravity doesn't pull the character sprite downwards if **any** part of the sprite is touching a blue platform. So even if the sprites head touches a platform, the sprite doesn't fall! You can test this yourself: make your character climb most of the way up a ladder, and then move the character sideways beneath a platform:
+Il y a un autre petit bug dans votre jeu: la gravité ne tire pas les bas du personnage si **tout** partie de l'image - objet est en contact avec une plate - forme bleue. Donc, même si la tête du sprite touche une plate-forme, le sprite ne tombe pas! Vous pouvez le tester vous-même: faites grimper votre personnage le plus haut possible, puis déplacez-le latéralement sous une plate-forme:
 
-![screenshot](images/dodge-gravity-bug.png)
+![capture d'écran](images/dodge-gravity-bug.png)
 
-To fix the bug, you first need to give your character sprite new trousers that have a different colour (on **all** costumes).
+Pour résoudre ce problème, vous devez d’abord donner à votre personnage un nouveau pantalon de couleur différente (sur **costumes**).
 
-![screenshot](images/dodge-trousers.png)
+![capture d'écran](images/dodge-trousers.png)
 
-Then replace this code block:
-
-```blocks3
-    < touching color [#0000FF]? >
-```
-
-with this code block:
+Puis remplacez ce bloc de code:
 
 ```blocks3
-    < color [#00FF00] is touching [#0000FF]? >
+    < couleur touchante [# 0000FF]? >
 ```
 
-To make sure you've fixed the bug, test the game after you've made these changes!
+avec ce bloc de code:
+
+```blocks3
+    < couleur [# 00FF00] est en contact avec [# 0000FF]? >
+```
+
+Pour vous assurer que vous avez corrigé le bogue, testez le jeu après avoir apporté ces modifications!
