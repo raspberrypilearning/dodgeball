@@ -1,16 +1,16 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2).
+Esta é a versão **Scratch 3** do projeto. Há também um [Scratch 2 do projeto](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2).
 
 \--- /no-print \---
 
 ## Introdução
 
-You'll learn how to create a platform game in which the player has to dodge moving balls to reach the end of the level.
+Nesse Projeto você vai aprender a criar um jogo de plataforma, Na qual você terá que se esquivar das bolas em movimento e chegar no final do nível.
 
 \--- no-print \---
 
-Click the green flag to start, and then use the arrow keys to move and the <kbd>space</kbd> key to jump.
+Clique na bandeira verde para começar, em seguida use as setas para andar e a tecla <kbd>espaço</kbd> para saltar.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/251809924/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,15 +21,13 @@ Click the green flag to start, and then use the arrow keys to move and the <kbd>
 
 \--- print-only \---
 
-![dodgeball game being played](images/dodgeball-showcase.png)
+![jogo de queimada sendo jogado](images/dodgeball-showcase.png)
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: O que você vai precisar
+## title: What you will need
 
 ### Hardware
 
@@ -45,27 +43,23 @@ You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
+## title: What you will learn
 
-## title: O que você vai aprender
-
-+ How to use the keyboard to control a sprite
-+ How to use the `if, then, else`{:class="block3control"} Scratch block
-+ How to clone a sprite
++ Como usar o teclado para controlar a sprite
++ Como usar o bloco `se, então, senão`{:class="block3control"} Scratch
++ Como clonar um sprite
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## título: Notas adicionais para educadores
+## title: Additional notes for educators
 
 \--- no-print \---
 
-Se você precisar imprimir este projeto, por favor, use a [versão para impressão](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
 
 \--- /no-print \---
 
