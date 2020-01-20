@@ -2,7 +2,9 @@
 
 Prueba nuestro proyecto [Juego Mental](https://projects.raspberrypi.org/en/projects/brain-game?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), en el que puedes crear tu propio test de matemáticas.
 
-\--- no-print \--- Haz clic en el botón para comenzar. Escribe la respuesta a la pregunta y luego pulsa <kbd>Enter</kbd>.
+\--- no-print \---
+
+Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -11,4 +13,8 @@ Prueba nuestro proyecto [Juego Mental](https://projects.raspberrypi.org/en/proje
 
 \--- /no-print \---
 
-\--- print-only \--- ![Brain Game](images/brain-final.png) \--- /print-only \---
+\--- print-only \---
+
+![Brain Game](images/brain-final.png)
+
+\--- /print-only \---
