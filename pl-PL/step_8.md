@@ -8,7 +8,7 @@ Dodaj nowego duszka do swojej gry i nazwij go `laser`. Powinien mieć dwa kostiu
 
 ![zrzut ekranu](images/dodge-lasers-costume1.png)
 
-![zrzut ekranu](images/dodge-lasers-costume1.png)
+![zrzut ekranu](images/dodge-lasers-costume2.png)
 
 \--- /task \---
 
