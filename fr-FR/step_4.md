@@ -1,38 +1,38 @@
-## Gravity and jumping
+## Gravité et saut
 
-Now you're going to make your character move more realistically: you're going to add gravity to your game and give the character the ability to jump.
+Vous allez maintenant faire bouger votre personnage de façon plus réaliste: vous allez ajouter de la gravité à votre jeu et lui donner la possibilité de sauter.
 
 \--- task \---
 
-In the game, move your character so that it walks off a platform. Do you see that it can walk into empty space?
+Dans le jeu, déplacez votre personnage pour qu’il sorte d’une plate-forme. Voyez-vous qu'il peut marcher dans un espace vide?
 
-![screenshot](images/dodge-no-gravity.png)
+![capture d'écran](images/dodge-no-gravity.png)
 
 \--- /task \---
 
 \--- task \---
 
-To fix this, add gravity to your game. To do this, create a new variable called `gravity`{:class="block3variables"}.
+Pour résoudre ce problème, ajoutez de la gravité à votre jeu. Pour ce faire, créez une nouvelle variable appelée `gravity`{: class = "block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
-You can hide this variable from your Stage if you want to.
+Vous pouvez masquer cette variable de votre scène si vous le souhaitez.
 
-![screenshot](images/dodge-gravity-annotated.png)
+![capture d'écran](images/dodge-gravity-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add these new code blocks that set `gravity` to a negative number and use the value of `gravity` to repeatedly change your character's y-coordinate:
+Ajoutez ces nouveaux blocs de code qui définissent `gravité` sur un nombre négatif et utilisez la valeur `gravité` pour modifier de manière répétée les coordonnées y de votre personnage:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![pico marche sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    when flag clicked
-    set [gravity v] to [-4]
-    forever
-        change y by (gravity)
+    Lorsque le drapeau a cliqué sur
+    réglez [gravité v] sur [-4]
+    pour toujours
+        changez y par (gravité)
     end
 ```
 
@@ -40,90 +40,90 @@ Add these new code blocks that set `gravity` to a negative number and use the va
 
 \--- task \---
 
-Click the flag, and then drag your character to the top of the Stage. What happens? Does the gravity work as you expect?
+Cliquez sur le drapeau, puis faites glisser votre personnage vers le haut de la scène. Ce qui se produit? La gravité fonctionne-t-elle comme prévu?
 
-![screenshot](images/dodge-gravity-drag.png)
+![capture d'écran](images/dodge-gravity-drag.png)
 
 \--- /task \---
 
 \--- task \---
 
-Gravity shouldn't move the character sprite through a platform or a ladder! Add an `if`{:class="block3control"} block to your code to only let the gravity work when the character is in mid-air. The gravity code should then look like this:
+La gravité ne devrait pas déplacer le personnage du personnage à travers une plate-forme ou une échelle! Ajoutez un bloc `si`{: class = "block3control"} à votre code pour que la gravité ne fonctionne que lorsque le personnage est en plein vol. Le code de gravité devrait alors ressembler à ceci:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![pico marche sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    when flag clicked
-    set [gravity v] to [-4]
-    forever
-        if < not < <touching color [#0000FF]?> or <touching color [#FF69B4]?> > > then
-            change y by (gravity)
-        end
-    end
+    lorsque le drapeau a cliqué sur
+    réglez [gravité v] sur [-4]
+    pour toujours
+        si < pas < <touching color [#0000FF]?> ou <touching color [#FF69B4]?> > > puis
+            changez y par (gravité)
+        fin
+    fin
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test the game again to see whether gravity works correctly now. Does your character sprite stop falling when it touches a platform or a ladder? Can you make the character walk off the edge of platforms and fall onto the level below?
+Testez à nouveau le jeu pour voir si la gravité fonctionne correctement maintenant. Votre personnage de sprite cesse-t-il de tomber lorsqu'il touche une plate-forme ou une échelle? Pouvez-vous obliger le personnage à sortir du bord des plates-formes et à tomber au niveau inférieur?
 
-![screenshot](images/dodge-gravity-test.png)
+![capture d'écran](images/dodge-gravity-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-Now add code to make your character jump whenever the player presses the <kbd>space</kbd> key. One very easy way to do this is to move your character up a few times:
+Ajoutez maintenant du code pour que votre personnage saute chaque fois que le joueur appuie sur la touche <kbd>espace</kbd>. Un moyen très simple de faire cela est de déplacer votre personnage plusieurs fois:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![pico marche sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    when [space v] key pressed
-    repeat (10)
-        change y by (4)
-    end
+    lorsque la touche [espace v] est enfoncée
+    répétition (10)
+        modifie y par (4)
+    fin
 ```
 
-Because gravity is constantly pushing your character down by 4 pixels, you need to choose a number greater than `4` in your `change y by (4)`{:class="block3motion"} block. Change the number until you're happy with the height the character jumps.
+Comme la gravité pèse constamment sur votre personnage de 4 pixels, vous devez choisir un nombre supérieur à `4` dans votre bloc `changements y de (4)`{: class = "block3motion"}. Changez le nombre jusqu'à ce que vous soyez satisfait de la hauteur à laquelle le personnage saute.
 
 \--- /task \---
 
 \--- task \---
 
-Test out your code. Notice that the jumping movement isn't very smooth. To make jumping look smoother, you need to move your character sprite by smaller and smaller amounts, until it is not rising any higher.
+Testez votre code. Notez que le mouvement de saut n'est pas très lisse. Pour rendre le saut plus fluide, vous devez déplacer votre sprite de personnage de plus en plus petit, jusqu'à ce qu'il n'augmente plus.
 
 \--- /task \---
 
 \--- task \---
 
-To do this, create a new variable called `jump height`{:class="block3variables"}. Again, you can hide this variable if you prefer.
+Pour ce faire, créez une nouvelle variable appelée `saut hauteur`{: class = "block3variables"}. Encore une fois, vous pouvez masquer cette variable si vous préférez.
 
 \--- /task \---
 
 \--- task \---
 
-Delete the jumping code you added to your character sprite, and add this code instead:
+Supprimez le code de saut que vous avez ajouté à l'image-objet de votre personnage et ajoutez ce code à la place:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![pico marche sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    when [space v] key pressed
-    set [jump height v] to [8]
-    repeat until < (jump height) = [0] >
-        change y by (jump height)
-        change [jump height v] by (-0.5)
-    end
+    lorsque la touche [espace v] est enfoncée
+    réglez [hauteur du saut v] sur [8]
+    répétez jusqu'à ce que < (hauteur du saut) = [0] >
+        modifie y par (hauteur du saut)
+        modifie [hauteur du saut v] de (-0,5)
+    fin
 ```
 
-This code moves your character up by 8 pixels, then 7.5 pixels, then 7 pixels, and so on, until it does not rise any higher. This makes jumping look much smoother.
+Ce code déplace votre personnage de 8 pixels, puis de 7,5 pixels, puis de 7 pixels, et ainsi de suite, jusqu'à ce qu'il ne monte plus. Cela rend le saut plus lisse.
 
 \--- /task \---
 
 \--- task \---
 
-Change the value of the `jump height`{:class="block3variables"} variable that is set before the `repeat`{:class="block3control"} starts. Then test your game.
+Modifiez la valeur du `hauteur de saut`{: class = "block3variables"} variable définie avant que les `répétitions`{: class = "block3control"} commence. Puis testez votre jeu.
 
-Repeat these two steps until you're happy with how high the character jumps.
+Répétez ces deux étapes jusqu'à ce que vous soyez satisfait de la hauteur du personnage.
 
 \--- /task \---
