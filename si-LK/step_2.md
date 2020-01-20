@@ -1,28 +1,28 @@
-## Character movement
+## චරිත(character) චලනය(movement)
 
-Start by creating a character that can move left and right, and can climb up ladders.
+වමට සහ දකුණට ගමන් කළ හැකි සහ ඉණිමගක නැඟිය හැකි චරිතයක්(character එකක්) නිර්මාණය කිරීමෙන් අරඹන්න.
 
 \--- task \---
 
-Open the 'Dodgeball' Scratch starter project.
+'ඩොජ්බෝල්' Scratch ආරම්භක(starter) ව්‍යාපෘතිය(project එක) විවෘත කරන්න.
 
-**අන්තර්ජාල මාර්ගගත(Online):** [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"} හි අන්තර්ජාල මාර්ගගතව නව Scratch ව්‍යාපෘතියක් විවෘත කරන්න.
+**අන්තර්ජාල මාර්ගගත(Online):** [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"} හි ආරම්භක(starter) ව්‍යාපෘතියක්(project එකක්) විවෘත කරන්න.
 
 ඔබට Scratch ගිණුමක්(account එකක්) තිබේ නම් **රීමික්ස්(Remix)** ක්ලික් කිරීමෙන් පිටපතක් සාදාගත හැකිය.
 
-**Offline:** download the starter project from [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) and then open it using the offline editor.
+**නොබැඳි(offline):** [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) {:target="_blank"} වෙතින් ආරම්භක(starter) ව්‍යාපෘතිය(project) බාගන්න(download කර) ඉන්පසු නොබැඳි(offline) සංස්කාරකය(editor එක) භාවිතයෙන් එය විවෘත කරන්න.
 
 \--- /task \---
 
-The project contains a backdrop with platforms:
+ව්යාපෘතියේ(project) පසුබිමක්(backdrop එකක්) සහිත වේදිකාවක් අඩංගු වේ:
 
-![dodgeball project background](images/dodge-background.png)
+![ඩොජ්බෝල්(dogeball) ව්‍යාපෘති(project) පසුබිම(background)](images/dodge-background.png)
 
 \--- task \---
 
-Choose a new sprite as the character the player will control, and add it to your project. It's best if you choose a sprite with multiple costumes, so that you can make it look as though it's walking.
+ක්‍රීඩකයා විසින් පාලනය(control) කරනු ලබන චරිතය(character එක) ලෙස නව sprite එකක් තෝරාගෙන, එය ඔබේ ව්‍යාපෘතියට(project එකට) එක් කරන්න. ඔබ නානාවිධ(multiple) ඇදුම්(costumes) සහිත sprite එකක් තෝරා ගන්නේ නම් වඩාත් සුදුසුය, එවිට ඔබට එය ඇවිදින බවක් පෙනෙන්නට සැලැස්විය හැක.
 
-![pick a sprite](images/dodge-characters.png)
+![sprite එකක් තෝරන්න](images/dodge-characters.png)
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -30,13 +30,12 @@ Choose a new sprite as the character the player will control, and add it to your
 
 \--- task \---
 
-Add code blocks to your character sprite so that the player can use the arrow keys to move the character around. When the player presses the right arrow, the character should point right, move a few steps, and change to the next costume:
+ක්‍රීඩකයාට ඊතල(arrow) යතුරු(keys) භාවිතා කර චරිතය(character එක) එහා මෙහා ගෙන යා හැකි පරිදි ඔබේ sprite චරිතයට කේත(code) කට්ටි(blocks) එකතු කරන්න. ක්‍රීඩකයා දකුණු(right) ඊතල(arrow) යතුර(key එක) එබූ විට, චරිතය(character එක) දකුණට යොමුවී, පියවර කිහිපයක් ගොස් ඊළඟ ඇඳුමට(costume එකට) මාරු විය යුතුය:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![පිකෝ(pico) ඇවිදීමේ(walking) sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-when flag clicked
-forever
+when flag clicked forever
     if <key (right arrow v) pressed? > then
         point in direction (90 v)
         move (3) steps
@@ -49,15 +48,15 @@ end
 
 \--- task \---
 
-If your sprite doesn't fit, adjust its size.
+ඔබේ sprite එකේ ප්‍රමාණය(size එක) නොගැලපේ නම්, එහි ප්‍රමාණය(size එක) වෙනස් කරන්න.
 
-![set sprite size so it fits](images/dodge-sprite-size-annotated.png)
+![ගැලපෙන පරිදි sprite එකේ ප්‍රමාණය(size එක) සකසන්න](images/dodge-sprite-size-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-Test out your character by clicking the flag and then holding down the right arrow key. Does your character move to the right? Does your character look like it is walking?
+කොඩිය මත ක්ලික් කර දකුණු(right) ඊතල(arrow) යතුර(key) ඔබාගෙන සිටීමෙන් ඔබේ චරිතය(character එක) පරීක්ෂා(test) කරන්න. ඔබේ චරිතය(character එක) දකුණට ගමන් කරයිද? ඔබේ චරිතය(character එක) ඇවිදින ආකාරයක් පෙන්නුම්කරයිද?
 
 ![තිර රුව(screenshot)](images/dodge-walking.png)
 
@@ -65,19 +64,19 @@ Test out your character by clicking the flag and then holding down the right arr
 
 \--- task \---
 
-Add code blocks to the character sprite's `forever`{:class="block3control"} loop so that it walks left if the left arrow key is pressed.
+වම් ඊතල යතුර එබුවහොත් චරිතය(character එක) වමට ගමන් කරන පරිදි, sprite චරිතයෙහි(character's) `සදහටම(forever)`{:class="block3control"} ලුපයට කේත(code) කට්ටි(blocks) එක් කරන්න.
 
 \--- hints \---
 
 \--- hints \---
 
-So that your character can move to the left, you'll need to add another `if`{:class="block3control"} block inside the `forever`{:class="block3control"} loop. In this new `if`{:class="block3control"} block, add code to make your character sprite `move`{:class="block3motion"} to the left.
+ඔබේ චරිතයට(character එකට) වමට ගමන් කළ හැකි වන පරිදි, ඔබ `සදහටම(forever)`{:class="block3control"} ලූපය ඇතුළත තවත් `නම්(if)`{:class="block3control"} කට්ටියක්(block එකක්) එකතු කළ යුතුයි. මෙම නව `නම්(if)`{:class="block3control"} කට්ටිය(block එක) තුළ, ඔබේ sprite චරිතය `චලනය(move)`{:class="block3motion"} කරවීමට කේතයක්(code එකක්) එක් කරන්න.
 
 \--- /hint \---
 
 \--- hints \---
 
-Copy the code you created to make the character walk to the right. Then set the `key pressed`{:class="block3sensing"} to the `left arrow`{:class="block3sensing"}, and change the `direction`{:class="block3motion"} to `-90`.
+චරිතය(character එක) දකුණට ගමන් කරවීම සඳහා ඔබ නිර්මාණය කළ කේතය(code එක) අනුපිටපත්(copy) කරන්න. ඉන්පසු `යතුර එබූ(key pressed)`{:class="block3sensing"} යන්න `වම් ඊතලය(left arrow)`{:class="block3sensing"} ලෙස සකසන්න, දැන් `දිශාව(direction එක)`{:class="block3motion"} `-90` ට වෙනස් කරන්න.
 
 ```blocks3
 if <key (right arrow v) pressed? > then
@@ -91,20 +90,19 @@ end
 
 \--- hints \---
 
-Your code should look like this now:
+ඔබේ කේතය(code එක) මේ ආකාරයේ එකක් විය යුතුය:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![පිකෝ(pico) ඇවිදීමේ(walking) sprite](images/pico_walking_sprite.png)
 
 ```blocks3
 when green flag clicked
-forever 
-  if <key (right arrow v) pressed?> then 
+forever
+  if <key (right arrow v) pressed?> then
     point in direction (90 v)
     move (3) steps
     next costume
   end
-  if <key (left arrow v) pressed?> then 
-    point in direction (-90 v)
+  if <key (left arrow v) pressed?> then     point in direction (-90 v)
     move (3) steps
     next costume
   end
@@ -119,15 +117,15 @@ end
 
 \--- task \---
 
-Test your new code to make sure that it works. Does your character turn upside-down when walking to the left?
+ඔබගේ නව(new) කේතය(code එක) නිවැරදිව ක්‍රියාත්මක වන්නේදැයි පරික්ෂා(test) කරන්න. වමට ඇවිදින විට ඔබේ චරිතය(character එක) උඩු යටිකුරු වේද?
 
 ![තිර රුව(screenshot)](images/dodge-upside-down.png)
 
-If so, you can fix this by clicking on the **direction** of your character sprite, and then clicking on the left-right arrow.
+එසේ නම්, ඔබේ sprite චරිතයේ(character එකේ) **දිශාව(direction එක)** ක්ලික් කිරීමෙන් පසුව වම්-දකුණු ඊතලය මත ක්ලික් කිරීමෙන්, ඔබට මෙය නිවැරදි කළ හැකියි.
 
 ![තිර රුව(screenshot)](images/dodge-left-right-annotated.png)
 
-Or if you prefer, you can also fix the problem by adding this block to the start of your character's script:
+නැතහොත් ඔබ කැමති නම්, ඔබේ චරිතයේ(character) ස්ක්‍රිප්ට්(script) එකේ ආරම්භයට මෙම කට්ටිය(block එක) එකතු කිරීමෙන් ද මෙම ගැටළුව විසඳා ගත හැකියි:
 
 ```blocks3
 set rotation style [left-right v]
@@ -137,11 +135,11 @@ set rotation style [left-right v]
 
 \--- task \---
 
-To climb a pink ladder, your character sprite should move a few steps upwards on the Stage whenever the up arrow is pressed **and** the character is touching the correct colour.
+රෝස ඉණිමඟක(ladder එකක) නැගීමට, ඔබේ sprite චරිතය(character එක) නිවැරදි වර්ණය ස්පර්ශ කරන විට **සහ(and)** උඩු ඊතලය එබූ සෑම අවස්ථාවකම වේදිකාවේ පියවර කිහිපයක් ඉහළට ගමන් කළ යුතුයි.
 
-Add inside your character's `forever`{:class="block3control"} loop to `change`{:class="block3motion"} the character's `y` (vertical) position `if`{:class="block3control"} the `up arrow is pressed`{:class="block3sensing"} and the character is `touching the colour pink`{:class="block3sensing"}.
+ඔබගේ චරිතයේ `සදහටම(forever)`{:class="block3control"} ලූපය තුළට `ඉහළ ඊතලය එබීම (up arrow is pressed)`{:class="block3sensing"} සහ චරිතය `රෝස පැහැය ස්පර්ශ කිරීම(touching the colour pink)`{:class="block3sensing"} සිදු කරයි `නම්(if)`{:class="block3control"} චරිතයේ `y` සිරස්(vertical) පිහිටීම(position එක) `වෙනස් කරන්න(change)`{:class="block3motion"} යන්න එක් කරන්න. 
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![පිකෝ(pico) ඇවිදීමේ(walking) sprite](images/pico_walking_sprite.png)
 
 ```blocks3
     if < <key (up arrow v) pressed?> and <touching color [#FF69B4]?> > then
@@ -153,7 +151,7 @@ Add inside your character's `forever`{:class="block3control"} loop to `change`{:
 
 \--- task \---
 
-ඔබේ කේතය(code එක) පරීක්ෂා(test) කරන්න. Can you make the character climb the pink ladders and get to the end of the level?
+ඔබේ කේතය(code එක) පරීක්ෂා(test) කරන්න. ඔබට චරිතය(character එක) රෝස ඉණිමඟ නග්ගවා මට්ටමමේ(level එකේ) අවසානය කරා පැමිණිය හැකිද?
 
 ![තිර රුව(screenshot)](images/dodge-test-character.png)
 
