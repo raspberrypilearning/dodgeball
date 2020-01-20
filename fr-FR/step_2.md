@@ -1,28 +1,28 @@
-## Character movement
+## Mouvement du personnage
 
-Start by creating a character that can move left and right, and can climb up ladders.
+Commencez par créer un personnage qui peut se déplacer à gauche et à droite, et qui peut gravir des échelles.
 
 \--- task \---
 
-Open the 'Dodgeball' Scratch starter project.
+Ouvrez le projet de démarrage 'Dodgeball' Scratch.
 
-**Online:** open the starter project at [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}.
+**En ligne:** ouvre le projet de démarrage à [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_ blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Si tu as un compte Scratch, tu peux en créer une copie en cliquant sur **Remix**.
 
-**Offline:** download the starter project from [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) and then open it using the offline editor.
+**Offline:** téléchargez le projet de démarrage à partir de [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) , puis ouvrez-le à l'aide de l'éditeur hors ligne.
 
 \--- /task \---
 
-The project contains a backdrop with platforms:
+Le projet contient un fond avec des plateformes:
 
-![dodgeball project background](images/dodge-background.png)
+![fond de projet dodgeball](images/dodge-background.png)
 
 \--- task \---
 
-Choose a new sprite as the character the player will control, and add it to your project. It's best if you choose a sprite with multiple costumes, so that you can make it look as though it's walking.
+Choisissez un nouveau sprite en tant que personnage que le joueur contrôlera et ajoutez-le à votre projet. Il est préférable que vous choisissiez un sprite avec plusieurs costumes, afin de lui donner l’impression de marcher.
 
-![pick a sprite](images/dodge-characters.png)
+![choisir un sprite](images/dodge-characters.png)
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -30,85 +30,85 @@ Choose a new sprite as the character the player will control, and add it to your
 
 \--- task \---
 
-Add code blocks to your character sprite so that the player can use the arrow keys to move the character around. When the player presses the right arrow, the character should point right, move a few steps, and change to the next costume:
+Ajoutez des blocs de code à votre image-objet afin que le joueur puisse utiliser les touches fléchées pour déplacer le personnage. Lorsque le joueur appuie sur la flèche droite, le personnage doit pointer vers la droite, faire quelques pas et passer au costume suivant:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![pico marche sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (right arrow v) pressed? > then
-        point in direction (90 v)
-        move (3) steps
-        next costume
-    end
-end
+lorsque le drapeau a cliqué sur
+pour toujours
+    si la touche <(flèche droite v) est enfoncée? > puis
+        point en direction (90 v)
+        déplacer (3) étapes
+        costume suivant
+    fin
+fin
 ```
 
 \--- /task \---
 
 \--- task \---
 
-If your sprite doesn't fit, adjust its size.
+Si votre sprite ne correspond pas, ajustez sa taille.
 
-![set sprite size so it fits](images/dodge-sprite-size-annotated.png)
-
-\--- /task \---
-
-\--- task \---
-
-Test out your character by clicking the flag and then holding down the right arrow key. Does your character move to the right? Does your character look like it is walking?
-
-![screenshot](images/dodge-walking.png)
+![définir la taille de l'image-objet pour qu'elle tienne](images/dodge-sprite-size-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code blocks to the character sprite's `forever`{:class="block3control"} loop so that it walks left if the left arrow key is pressed.
+Testez votre personnage en cliquant sur le drapeau, puis en maintenant la touche flèche droite. Votre personnage se déplace-t-il vers la droite? Votre personnage a-t-il l'air de marcher?
+
+![capture d'écran](images/dodge-walking.png)
+
+\--- /task \---
+
+\--- task \---
+
+Ajoutez des blocs de code à la boucle `pour toujours`{: class = "block3control"} de l'image-objet du personnage de sorte qu'elle se déplace vers la gauche si vous appuyez sur la touche fléchée gauche.
 
 \--- hints \---
 
 \--- hint \---
 
-So that your character can move to the left, you'll need to add another `if`{:class="block3control"} block inside the `forever`{:class="block3control"} loop. In this new `if`{:class="block3control"} block, add code to make your character sprite `move`{:class="block3motion"} to the left.
+Pour que votre personnage puisse se déplacer vers la gauche, vous devrez ajouter un autre bloc `si`{: class = "block3control"} à l'intérieur de la boucle `forever`{: class = "block3control"}. Dans ce nouveau bloc `if`{: class = "block3control"}, ajoutez du code pour que votre sprite de personnage `déplace de`{: class = "block3motion"} vers la gauche.
 
 \--- /hint \---
 
 \--- hint \---
 
-Copy the code you created to make the character walk to the right. Then set the `key pressed`{:class="block3sensing"} to the `left arrow`{:class="block3sensing"}, and change the `direction`{:class="block3motion"} to `-90`.
+Copiez le code que vous avez créé pour faire marcher le personnage à droite. Définissez ensuite la touche `appuyée`{: class = "block3sensing"} sur la flèche `gauche`{: class = "block3sensing"}, puis modifiez le `sens`{: class = "block3motion"} en `-90`.
 
 ```blocks3
-if <key (right arrow v) pressed? > then
-    point in direction (90 v)
-    move (3) steps
-    next costume
-end
+si la touche <(flèche droite v) est enfoncée? > puis
+    point en direction (90 v)
+    déplacer (3) étapes
+    costume suivant
+fin
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Your code should look like this now:
+Votre code devrait ressembler à ceci maintenant:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![pico marche sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-when green flag clicked
-forever 
-  if <key (right arrow v) pressed?> then 
-    point in direction (90 v)
-    move (3) steps
-    next costume
-  end
-  if <key (left arrow v) pressed?> then 
-    point in direction (-90 v)
-    move (3) steps
-    next costume
-  end
-end
+lorsque le drapeau vert a cliqué
+pour toujours 
+  si <key (right arrow v) pressed?> puis 
+    points dans la direction (90 v)
+    déplacements (3) étapes
+    suivant costume
+  fin
+  si <key (left arrow v) pressed?> puis 
+    points dans la direction (-90 v)
+    déplacements (3) étapes
+    suivants costume
+  fin
+fin
 ```
 
 \--- /hint \---
@@ -119,42 +119,42 @@ end
 
 \--- task \---
 
-Test your new code to make sure that it works. Does your character turn upside-down when walking to the left?
+Testez votre nouveau code pour vous assurer qu'il fonctionne. Votre personnage se retourne-t-il en marchant vers la gauche?
 
-![screenshot](images/dodge-upside-down.png)
+![capture d'écran](images/dodge-upside-down.png)
 
-If so, you can fix this by clicking on the **direction** of your character sprite, and then clicking on the left-right arrow.
+Si c'est le cas, vous pouvez résoudre ce problème en cliquant sur **direction** de votre sprite de personnage, puis en cliquant sur la flèche gauche-droite.
 
-![screenshot](images/dodge-left-right-annotated.png)
+![capture d'écran](images/dodge-left-right-annotated.png)
 
-Or if you prefer, you can also fix the problem by adding this block to the start of your character's script:
+Ou si vous préférez, vous pouvez également résoudre le problème en ajoutant ce bloc au début du script de votre personnage:
 
 ```blocks3
-set rotation style [left-right v]
+définir le style de rotation [gauche-droite v]
 ```
 
 \--- /task \---
 
 \--- task \---
 
-To climb a pink ladder, your character sprite should move a few steps upwards on the Stage whenever the up arrow is pressed **and** the character is touching the correct colour.
+Pour gravir une échelle rose, l’image-objet de votre personnage doit faire quelques pas vers le haut sur la scène chaque fois que vous appuyez sur les flèches vers le haut **et** le personnage touche la bonne couleur.
 
-Add inside your character's `forever`{:class="block3control"} loop to `change`{:class="block3motion"} the character's `y` (vertical) position `if`{:class="block3control"} the `up arrow is pressed`{:class="block3sensing"} and the character is `touching the colour pink`{:class="block3sensing"}.
+Ajoutez à l'intérieur du `pour toujours votre personnage`{: class = "block3control"} boucle en `change`{: class = "block3motion"} les `y` (verticales) positions du personnage `si`{: class = "block3control"} les `la flèche vers le haut est enfoncée`{: class = "block3sensing"} et le caractère correspond à `touche la couleur rose`{: class = "block3sensing"}.
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![pico marche sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    if < <key (up arrow v) pressed?> and <touching color [#FF69B4]?> > then
-        change y by (4)
-    end
+    si < <key (up arrow v) pressed?> et <touching color [#FF69B4]?> > alors
+        changent y de (4)
+    fin
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code. Can you make the character climb the pink ladders and get to the end of the level?
+Teste ton code. Pouvez-vous faire monter le personnage sur les échelles roses et atteindre la fin du niveau?
 
-![screenshot](images/dodge-test-character.png)
+![capture d'écran](images/dodge-test-character.png)
 
 \--- /task \---
