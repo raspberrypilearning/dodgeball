@@ -1,10 +1,10 @@
-## Dodging balls
+## Izmikanje žogam
 
-Your character can move and jump now, so it's time to add some balls that the character has to avoid.
+Tvoj lik se lahko zdaj premika in skače, zato je čas, da dodaš nekaj žog, ki se jim mora lik izogibati.
 
 \--- task \---
 
-Create a new ball sprite. You can choose any type of ball you like.
+Ustvari novo figuro žoge. Po želji lahko izbereš kakršnokoli žogo.
 
 ![posnetek zaslona](images/dodge-balls.png)
 
@@ -12,7 +12,7 @@ Create a new ball sprite. You can choose any type of ball you like.
 
 \--- task \---
 
-Resize the ball sprite so that the character can jump over it. Try making the character jump over the ball to test whether the ball is the right size.
+Spremeni velikost žoge, tako da bo mogoče skočiti preko nje. Poskusi z likom skočiti preko žoge, da preizkusiš, ali je žoga prave velikosti.
 
 ![posnetek zaslona](images/dodge-ball-resize.png)
 
@@ -20,43 +20,43 @@ Resize the ball sprite so that the character can jump over it. Try making the ch
 
 \--- task \---
 
-Add this code to your ball sprite:
+Svoji figuri žoge dodaj to kodo:
 
-![ball sprite](images/ball_sprite.png)
+![figura žoge](images/ball_sprite.png)
 
 ```blocks3
-when green flag clicked
-hide
-forever 
-  wait (3) seconds
-  create clone of (myself v)
+ko kliknemo na zastavo
+skrij
+ponavljaj 
+  počakaj (3) sekund
+  ustvari dvojnika (myself v)
 end
 ```
 
 ```blocks3
-when I start as a clone
-go to x: (160) y: (160)
-show
-repeat (22) 
-  change y by (-4)
+ko začnem kot dvojnik
+pojdi na x: (160) y: (160)
+pokaži
+ponovi (22) krat 
+  spremeni y za (-4)
 end
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
+ponovi (170) krat 
+  spremeni x za (-2)
+  obrni se za (6) stopinj v levo
 end
-repeat (30) 
-  change y by (-4)
+ponovi (30) krat 
+  spremeni y za (-4)
 end
-delete this clone
+zbriši tega dvojnika
 ```
 
-This code creates a new clone of the ball sprite every three seconds. Each new clone moves along the top platform and then drops.
+Ta koda ustvari dvojnika figure žoge na vsake tri sekunde. Vsak nov dvojnik se pojavi na vrhu ploščadi in potem pada.
 
 \--- /task \---
 
 \--- task \---
 
-Click the flag to test the game.
+Klikni na zastavo, da preizkusiš igro.
 
 ![posnetek zaslona](images/dodge-ball-test.png)
 
@@ -64,7 +64,7 @@ Click the flag to test the game.
 
 \--- task \---
 
-Add more code to your ball sprite so that clones of it move across all three platforms.
+Dodaj še več kode svoji figuri, tako da se bodo njeni dvojniki premikali preko vseh treh ploščadi.
 
 ![posnetek zaslona](images/dodge-ball-more-motion.png)
 
@@ -72,29 +72,29 @@ Add more code to your ball sprite so that clones of it move across all three pla
 
 \--- hint \---
 
-Repeat the code blocks you used to move the ball sprite clone across the first platform. You need to change the `x`{:class="block3motion"}, `y`{:class="block3motion"}, and `repeat`{:class="block3control"} numbers so that the clones follow the platforms correctly.
+Ponovi bloke kode, ki si jih uporabil za premikanje žoge preko prve ploščadi. Spremeniti moraš številke za `x`{:class="block3motion"}, `y`{:class="block3motion"}, in `ponovi`{:class="block3control"}, da bodo dvojniki pravilno sledili ploščadim.
 
 \--- /hint \---
 
 \--- hint \---
 
-These are the blocks you need. Make sure you add them in the correct order.
+To so potrebni bloki. Poskrbi, da bodo dodani v pravilnem vrstnem redu.
 
-![ball sprite](images/ball_sprite.png)
+![figura žoge](images/ball_sprite.png)
 
 ```blocks3
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
+ponovi (170) krat 
+  spremeni x za (-2)
+  obrni se za (6) stopinj v levo
 end
 
-repeat (180) 
-  change x by (2)
-  turn cw (6) degrees
+ponovi (180) krat 
+  spremeni x za (2)
+  obrni se za (6) stopinj v desno
 end
 
-repeat (30) 
-  change y by (-4)
+ponovi (30) krat 
+  spremeni y za (-4)
 end
 ```
 
@@ -102,36 +102,36 @@ end
 
 \--- hint \---
 
-The code for your ball sprite clones should look like this:
+Koda za dvojnike figure žoge mora izgledati tako:
 
-![ball sprite](images/ball_sprite.png)
+![figura žoge](images/ball_sprite.png)
 
 ```blocks3
-when I start as a clone
-go to x: (160) y: (160)
-show
-repeat (22) 
-  change y by (-4)
+ko začnem kot dvojnik
+pojdi na x: (160) y: (160)
+pokaži
+ponovi (22) krat 
+  spremeni y za (-4)
 end
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
+ponovi (170) krat 
+  spremeni x za (-2)
+  obrni se za (6) stopinj v levo
 end
-repeat (30) 
-  change y by (-4)
+ponovi (30) krat 
+  spremeni y za (-4)
 end
-repeat (180) 
-  change x by (2)
-  turn cw (6) degrees
+ponovi (180) krat 
+  spremeni x za (2)
+  obrni se za (6) stopinj v desno
 end
-repeat (30) 
-  change y by (-4)
+ponovi (30) krat 
+  spremeni y za (-4)
 end
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
+ponovi (170) krat 
+  spremeni x za (-2)
+  obrni se za (6) stopinj v levo
 end
-delete this clone
+zbriši tega dvojnika
 ```
 
 \--- /hint \---
@@ -142,39 +142,39 @@ delete this clone
 
 \--- task \---
 
-Now add some code blocks to broadcast (send) a message if your character gets hit by a ball!
+Zdaj dodaj kodo, ki bo objavila (poslala) sporočilo, kadar žoga zadane tvoj lik!
 
-Add this code to your ball sprite:
+Figuri žoge dodaj to kodo:
 
-![ball sprite](images/ball_sprite.png)
+![figura žoge](images/ball_sprite.png)
 
 ```blocks3
-    when I start as a clone
-    forever
-        if < touching (Pico walking v)? > then
-            broadcast (hit v)
-        end
-    end
+    ko začnem kot dvojnik
+ponavljaj 
+  če <se dotika (Pico walking v)>  potem 
+    objavi (hit v)
+  end
+end
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Finally, add code blocks to your character sprite to make it move back to its starting position when it receives the `hit` message:
+Na koncu dodaj figuri lika še bloke kode, da se bo premaknila nazaj na začetni položaj, ko bo prejela sporočilo `zadet`:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![piko hodeča figura](images/pico_walking_sprite.png)
 
 ```blocks3
-    when I receive [hit v]
-    point in direction (90)
-    go to x: (-210) y: (-120)
+    ko prejmem [zadet v]
+obrni se v smer (90)
+pojdi na x: (-210) y: (-120)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test out your code. Check whether the character moves back to the start after touching a ball.
+Preizkusi svojo kodo. Preveri, ali se lik premakne nazaj na začetek, potem ko se dotakne žoge.
 
 \--- /task \---
