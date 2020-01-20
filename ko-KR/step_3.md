@@ -1,5 +1,5 @@
-## Challenge: completing the level
+## 도전 과제: 레벨 완료하기
 
-Can you add more code blocks to your character sprite to make the sprite say something `if`{:class="block3control"} it gets to the green door?
+캐릭터 스프라이트에 더 많은 코드 블록을 추가하여 스프라이트가 `만약`{: class = "block3control"} 무언가를 하면 녹색 문에 도착하게 할 수 있습니까?
 
-![screenshot](images/dodge-win.png)
+![스크린샷](images/dodge-win.png)
