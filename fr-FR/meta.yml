@@ -6,7 +6,7 @@ copyedit: false
 title: Ballon chasseur
 description: Apprends à programmer ton propre jeu de plateforme!
 version: 3
-last_tested: 2017-01-01
+last_tested: 2018-10-10
 steps:
   - 
     title: Introduction
@@ -28,7 +28,7 @@ steps:
   - 
     title: Lasers!
   - 
-    title: 'Défi : Plus d''obstacles'
+    title: 'Défi: plus d''obstacles'
     challenge: true
   - 
     title: 'Défi : gravité améliorée'
@@ -37,4 +37,4 @@ steps:
     title: 'Défi : Plus de vies'
     challenge: true
   - 
-    title: What next?
+    title: Que faire ensuite ?
