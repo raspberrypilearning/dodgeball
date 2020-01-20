@@ -25,11 +25,9 @@ Click the green flag to start, and then use the arrow keys to move and the <kbd>
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Trebat ćeš
+## title: What you will need
 
 ### Hardver
 
@@ -45,11 +43,9 @@ You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Naučit ćeš
+## title: What you will learn
 
 + How to use the keyboard to control a sprite
 + How to use the `if, then, else`{:class="block3control"} Scratch block
@@ -57,15 +53,13 @@ You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 \--- /collapse \---
 
-\--- collapse \---
-
-* * *
+## \--- collapse \---
 
 ## title: Additional notes for educators
 
 \--- no-print \---
 
-Ako trebate ispisati ovaj projekt, koristite [printer-friendly version](https://projects.raspberrypi.org/en/projects/dodgeball/print){:Target="_ blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
 
 \--- /no-print \---
 
