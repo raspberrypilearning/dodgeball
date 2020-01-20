@@ -1,21 +1,21 @@
 ## Izziv: Več ovir
 
-If you think your game is still too easy, you can add more obstacles to it. The obstacles can be anything you like! Here are some ideas:
+Če meniš, da je tvoja igra še vedno preveč enostavna, ji lahko dodaš še več ovir. Ovire so lahko karkoli želiš! Tu je nekaj idej:
 
-+ A dangerous butterfly
-+ Platforms that appear and disappear
-+ Falling tennis balls that must be avoided
++ Nevaren metulj
++ Ploščadi, ki se pojavijo in izginejo
++ Padajoče teniške žogice, ki se jih je potrebno izogibati
 
-![screenshot](images/dodge-obstacles.png)
+![posnetek zaslona](images/dodge-obstacles.png)
 
-You could even design another backdrop to create the next level. Then add code so that, when your character reaches the green door, the game switches to the new background:
+Lahko ustvariš tudi drugo ozadje in ustvariš naslednjo stopnjo. V tem primeru dodaj kodo, ki bo povzročila, da se, ko igralec doseže zelena vrata, zamenja ozadje:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![piko hodeča figura](images/pico_walking_sprite.png)
 
 ```blocks3
-    if <touching color [#00FF00]?> then
-        switch backdrop to (next backdrop v)
-        go to x: (-210) y: (-120)
-        wait (1) seconds
-    end
+    če <se dotika barve [#00FF00]?> potem 
+  zamenjaj ozadje na (naslednje ozadje v)
+  pojdi na x: (-210) y: (-120)
+  počakaj (1) sekund
+end
 ```
