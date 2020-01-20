@@ -25,11 +25,9 @@ Haga clic en la bandera verde para comenzar, y luego use las teclas de flecha pa
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Lo que necesitarás
+## title: What you will need
 
 ### Hardware
 
@@ -41,15 +39,13 @@ Haga clic en la bandera verde para comenzar, y luego use las teclas de flecha pa
 
 ### Descargas
 
-Puedes [encontrar las descargas aquí](http://rpf.io/p/en/dodgeball-go).
+You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Lo que vas a aprender
+## title: What you will learn
 
 + Cómo utilizar el teclado para controlar un objeto
 + Cómo usar el bloque `si, entonces, si no`{:class="block3control"} de Scratch
@@ -57,18 +53,16 @@ Puedes [encontrar las descargas aquí](http://rpf.io/p/en/dodgeball-go).
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Información adicional para educadores
+## title: Additional notes for educators
 
 \--- no-print \---
 
-Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
 
 \--- /no-print \---
 
-Puedes encontrar el [proyecto completado aquí](http://rpf.io/p/en/dodgeball-get).
+You can find the [completed project here](http://rpf.io/p/en/dodgeball-get).
 
 \--- /collapse \---
