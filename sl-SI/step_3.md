@@ -1,5 +1,5 @@
-## Challenge: completing the level
+## Izziv: Dokončana stopnja
 
-Can you add more code blocks to your character sprite to make the sprite say something `if`{:class="block3control"} it gets to the green door?
+Ali lahko dodaš figuri lika več blokov kode, da bo figura rekla nekaj `če`{:class="block3control"} pride do zelenih vrat?
 
-![screenshot](images/dodge-win.png)
+![posnetek zaslona](images/dodge-win.png)
