@@ -1,28 +1,28 @@
-## Character movement
+## Gibanje likov
 
-Start by creating a character that can move left and right, and can climb up ladders.
+Začni s tem, da ustvariš lik, ki se lahko premika levo in desno in ki lahko pleza po lestvah.
 
 \--- task \---
 
-Open the 'Dodgeball' Scratch starter project.
+Odpri začetni projekt 'Pazi, žoga!'.
 
 **Spletno:** Odpri začetni projekt na [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){: target = "_ blank"}.
 
 Če imaš Scratch uporabniški račun, lahko ustvariš kopijo s klikom na **Predelaj**.
 
-**Offline:** download the starter project from [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) and then open it using the offline editor.
+** Brez povezave: ** prenesi začetni projekt iz [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) {: target = "_ blank"} in ga nato odpri s pomočjo namiznega urejevalnika.
 
 \--- /task \---
 
-The project contains a backdrop with platforms:
+Projekt vsebuje ozadje s ploščadmi:
 
-![dodgeball project background](images/dodge-background.png)
+![ozadje projekta](images/dodge-background.png)
 
 \--- task \---
 
-Choose a new sprite as the character the player will control, and add it to your project. It's best if you choose a sprite with multiple costumes, so that you can make it look as though it's walking.
+Izberi novo figuro za lik, ki ga bo igralec upravljal in ga dodaj v tvoj projekt. Najbolje je, da izbereš figuro, ki ima več videzov, da bo videti, kot da tvoja figura hodi.
 
-![pick a sprite](images/dodge-characters.png)
+![izberi figuro](images/dodge-characters.png)
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -30,34 +30,34 @@ Choose a new sprite as the character the player will control, and add it to your
 
 \--- task \---
 
-Add code blocks to your character sprite so that the player can use the arrow keys to move the character around. When the player presses the right arrow, the character should point right, move a few steps, and change to the next costume:
+Figuri lika dodaj kodo, da bo lahko igralec uporabljal smerne tipke za premikanje lika. Ko igralec pritisne desno tipko, bi lik moral gledati v desno, se premakniti nekaj korakov in zamenjati videz v naslednjega:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![piko hodeča figura](images/pico_walking_sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (right arrow v) pressed? > then
-        point in direction (90 v)
-        move (3) steps
-        next costume
-    end
-end
+ko kliknemo na zastavico
+ponavljaj
+  če <je pritisnjena tipka (puščica desno v)? > potem
+        obrni se v smer (90 v)
+        pojdi (3) korakov
+        naslednji videz
+    konec
+konec
 ```
 
 \--- /task \---
 
 \--- task \---
 
-If your sprite doesn't fit, adjust its size.
+Če tvoja figura ni primerne velikosti, jo spremeni.
 
-![set sprite size so it fits](images/dodge-sprite-size-annotated.png)
+![določi velikost figure, da bo ustrezna](images/dodge-sprite-size-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-Test out your character by clicking the flag and then holding down the right arrow key. Does your character move to the right? Does your character look like it is walking?
+Preizkusi svoj lik s klikom na zastavo in pritisnjeno desno smerno tipko. Ali se lik premika v desno? Ali je videti, kot da bi hodil?
 
 ![posnetek zaslona](images/dodge-walking.png)
 
@@ -65,95 +65,96 @@ Test out your character by clicking the flag and then holding down the right arr
 
 \--- task \---
 
-Add code blocks to the character sprite's `forever`{:class="block3control"} loop so that it walks left if the left arrow key is pressed.
+Liku figure dodaj kodo v zanko `ponavljaj`{:class="block3control"}, da bo hodil v levo, kadar je pritisnjena leva smerna tipka.
 
 \--- hints \---
 
 \--- hint \---
 
-So that your character can move to the left, you'll need to add another `if`{:class="block3control"} block inside the `forever`{:class="block3control"} loop. In this new `if`{:class="block3control"} block, add code to make your character sprite `move`{:class="block3motion"} to the left.
+Da bi se tvoj lik lahko premikal v levo, je potrebno dodati še en blok `če`{:class="block3control"} v zanko `ponavljaj`{:class="block3control"}. V ta novi blok `če`{:class="block3control"} dodaj kodo, ki bo poskrbela, da se bo lik tvoje figure `premikal`{:class="block3motion"} v levo.
 
 \--- /hint \---
 
 \--- hint \---
 
-Copy the code you created to make the character walk to the right. Then set the `key pressed`{:class="block3sensing"} to the `left arrow`{:class="block3sensing"}, and change the `direction`{:class="block3motion"} to `-90`.
+Skopiraj kodo, ki si jo ustvaril za gibanje lika v desno. Potem nastavi `pritisnjeno tipko`{:class="block3sensing"} na `puščico levo`{:class="block3sensing"}, in obrni `smer`{:class="block3motion"} na `-90`.
 
 ```blocks3
-if <key (right arrow v) pressed? > then
-    point in direction (90 v)
-    move (3) steps
-    next costume
-end
+če <je pritisnjena tipka (puščica levo v)? > potem
+        obrni se v smer (-90 v)
+        pojdi (3) korakov
+        naslednji videz
+    konec
+konec
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Your code should look like this now:
+Tvoja koda bo izgledala nekako tako:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![piko hodeča figura](images/pico_walking_sprite.png)
 
 ```blocks3
-when green flag clicked
-forever 
-  if <key (right arrow v) pressed?> then 
-    point in direction (90 v)
-    move (3) steps
-    next costume
-  end
-  if <key (left arrow v) pressed?> then 
-    point in direction (-90 v)
-    move (3) steps
-    next costume
-  end
-end
+ko kliknemo na zastavico
+ponavljaj
+  če < je pritisnjena tipka (puščica desno v)? > potem
+        obrni se v smer (90 v)
+        pojdi (3) korakov
+        naslednji videz
+    konec
+    če < je pritisnjena tipka (puščica levo v)? > potem
+        obrni se v smer (-90 v)
+        pojdi (3) korakov
+        naslednji videz
+    konec
+konec
 ```
 
 \--- /hint \---
 
-\--- /namigi \---
+\--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Test your new code to make sure that it works. Does your character turn upside-down when walking to the left?
+Preizkusi svojo novo kodo in se prepričaj, da deluje. Ali se tvoj lik postavi na glavo, kadar hodi v levo?
 
 ![posnetek zaslona](images/dodge-upside-down.png)
 
-If so, you can fix this by clicking on the **direction** of your character sprite, and then clicking on the left-right arrow.
+Če je temu tako, to popravi tako, da klikneš na **smer** figure lika in potem klikneš na dvojno puščico levo-desno.
 
 ![posnetek zaslona](images/dodge-left-right-annotated.png)
 
-Or if you prefer, you can also fix the problem by adding this block to the start of your character's script:
+Lahko pa težavo popraviš tudi tako, da dodaš ta blok kode na začetek svojega programa:
 
 ```blocks3
-set rotation style [left-right v]
+Način vrtenja [levo-desno v]
 ```
 
 \--- /task \---
 
 \--- task \---
 
-To climb a pink ladder, your character sprite should move a few steps upwards on the Stage whenever the up arrow is pressed **and** the character is touching the correct colour.
+Da bi plezal po roza lestvah mora tvoja figura lika iti nekaj korakov navzgor, vsakič ko je pritisnjena smerna tipka za gor **in** se lik dotika prave barve.
 
-Add inside your character's `forever`{:class="block3control"} loop to `change`{:class="block3motion"} the character's `y` (vertical) position `if`{:class="block3control"} the `up arrow is pressed`{:class="block3sensing"} and the character is `touching the colour pink`{:class="block3sensing"}.
+Znotraj zanke `ponavljaj`{:class="block3control"} v liku dodaj `spremeni`{:class="block3motion"} figurin `y` (navpični) položaj `če`{:class="block3control"} `je pritisnjena puščica gor`{:class="block3sensing"} in se lik `dotika roza barve`{:class="block3sensing"}.
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![piko hodeča figura](images/pico_walking_sprite.png)
 
 ```blocks3
-    if < <key (up arrow v) pressed?> and <touching color [#FF69B4]?> > then
-        change y by (4)
-    end
+    če <<je pritisnjena tipka (puščica gor)?> in <se dotika barve (FF69B4)?>>
+  spremeni y za (4)
+konec
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Preveri svojo kodo. Can you make the character climb the pink ladders and get to the end of the level?
+Preveri svojo kodo. Ali lahko povedeš svoj lik po roza lestvah in prideš do konca stopnje?
 
 ![posnetek zaslona](images/dodge-test-character.png)
 
