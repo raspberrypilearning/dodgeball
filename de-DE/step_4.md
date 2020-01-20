@@ -4,7 +4,7 @@ Jetzt bringst du deinen Charakter dazu, sich realistischer zu bewegen: Du wirst 
 
 \--- task \---
 
-Im Spiel bewegt sich dein Charakter, als ob er von einer Plattform geht. Siehst du, dass er in leeren Raum gehen kann?
+Bewege deinen Charakter, im Spiel, so dass er von einer Plattform geht. Siehst du, dass er im leeren Raum gehen kann?
 
 ![Screenshot](images/dodge-no-gravity.png)
 
@@ -40,7 +40,7 @@ end
 
 \--- task \---
 
-Klicke auf die Flagge und ziehe deinen Charakter an den oberen Rand des Spielfeldes. Was ist passiert? Funktioniert die Schwerkraft wie erwartet?
+Klicke auf die Flagge und ziehe deinen Charakter an den oberen Rand des Spielfeldes. Was passiert? Funktioniert die Schwerkraft wie du erwartet hast?
 
 ![Screenshot](images/dodge-gravity-drag.png)
 
@@ -48,7 +48,7 @@ Klicke auf die Flagge und ziehe deinen Charakter an den oberen Rand des Spielfel
 
 \--- task \---
 
-Die Schwerkraft sollte das Sprite des Charakters nicht durch eine Plattform oder eine Leiter bewegen! Füge einen `falls`{:class="block3control"} Baustein zu deinen Code hinzu, um die Schwerkraft nur dann funktionieren zu lassen, wenn das Zeichen in der Mitte ist. Der Schwerkraftcode sollte dann so aussehen:
+Die Schwerkraft sollte die Charakter-Figur nicht durch eine Plattform oder eine Leiter bewegen! Füge einen `falls`{:class="block3control"} Baustein zu deinem Skript hinzu, um die Schwerkraft nur dann funktionieren zu lassen, wenn der Charakter in der Luft ist. Der Schwerkraftcode sollte dann so aussehen:
 
 ![Pico-Walking Sprite](images/pico_walking_sprite.png)
 
@@ -56,7 +56,7 @@ Die Schwerkraft sollte das Sprite des Charakters nicht durch eine Plattform oder
     Wenn die grüne Flagge angeklickt
 setze [Schwerkraft v] auf [-4]
 wiederhole fortlaufend 
-  falls < nicht < <touching color [#0000FF]?> oder <touching color [#FF69B4]?> > > , dann 
+  falls <nicht<<wird Farbe [#0000FF] berührt?> oder <wird Farbe [#FF69B4] berührt?>>> , dann 
     ändere y um (Schwerkraft)
   end
 end
@@ -66,7 +66,7 @@ end
 
 \--- task \---
 
-Teste das Spiel erneut, um zu sehen, ob die Schwerkraft jetzt korrekt funktioniert. Fällt dein Charakter-Sprit nicht mehr, wenn er eine Plattform oder eine Leiter berührt? Kannst du den Charakter dazu bringen, von den Rändern der Plattformen zu laufen und auf das Level darunter zu fallen?
+Teste das Spiel erneut, um zu sehen, ob die Schwerkraft jetzt korrekt funktioniert. Fällt deine Charakter-Figur nicht mehr, wenn er eine Plattform oder eine Leiter berührt? Kannst du den Charakter dazu bringen, von den Rändern der Plattformen zu laufen und auf die Ebene darunter zu fallen?
 
 ![Screenshot](images/dodge-gravity-test.png)
 
@@ -74,7 +74,7 @@ Teste das Spiel erneut, um zu sehen, ob die Schwerkraft jetzt korrekt funktionie
 
 \--- task \---
 
-Füge nun einen Code hinzu, um deinen Charakter springen zu lassen, wenn der Spieler die <kbd>Leertaste</kbd> drückt. Eine sehr einfache Möglichkeit, dies zu tun, besteht darin, deinen Charakter ein paar Mal nach oben zu bewegen:
+Füge nun Code hinzu, um deinen Charakter springen zu lassen, wenn der Spieler die <kbd>Leertaste</kbd> drückt. Eine sehr einfache Möglichkeit, dies zu tun, besteht darin, deinen Charakter ein paar Mal nach oben zu bewegen:
 
 ![Pico-Walking Sprite](images/pico_walking_sprite.png)
 
@@ -85,13 +85,13 @@ wiederhole (10) mal
 end
 ```
 
-Da die Schwerkraft Ihren Charakter ständig 4 Pixel nach unten drückt, musst du eine Zahl größer als `4` wählen in deinen `ändere y um (4)`{:class="block3motion"} Block. Ändere die Zahl, bis du mit der Höhe, in der der Charakter springt, zufrieden bist.
+Da die Schwerkraft deinen Charakter ständig 4 Pixel nach unten drückt, musst du in deinem `ändere y um (4)`{:class="block3motion"} Block, eine Zahl größer als `4` wählen. Ändere die Zahl, bis du mit der Höhe, in der der Charakter springt, zufrieden bist.
 
 \--- /task \---
 
 \--- task \---
 
-Teste deinen Code. Beachte, dass die Sprungbewegung nicht sehr flüssig ist. Damit das Springen flüssiger aussieht, musst du deinen Sprite Charakter immer in kleiner und kleiner werdende Mengen bewegen, bis es nicht mehr höher steigt.
+Teste deinen Code. Beachte, dass die Sprungbewegung nicht sehr flüssig ist. Damit das Springen flüssiger aussieht, musst du deine Charakter-Figur immer in kleiner und kleiner werdenden Schritten bewegen, bis sie nicht mehr höher steigt.
 
 \--- /task \---
 
@@ -122,7 +122,7 @@ Dieser Code verschiebt deinen Charakter um 8 Pixel, dann um 7,5 Pixel, dann um 7
 
 \--- task \---
 
-Ändere den Wert der `Sprunghöhe`{:class="block3variables"} Variable, welche vor dem Starten der Wiederholung `wiederhohle`{:class="block3control"} gesetzt wird. Teste nun dein Spiel.
+Ändere den Wert der `Sprunghöhe`{:class="block3variables"} Variable, welcher vor dem Starten der `Wiederholung `{:class="block3control"} gesetzt wird. Teste nun dein Spiel.
 
 Wiederhole diese beiden Schritte, bis du mit der Höhe des springenden Charakters zufrieden bist.
 
