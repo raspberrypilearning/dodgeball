@@ -6,10 +6,10 @@ copyedit: false
 title: Dodgeball
 description: Create a platform game in which you dodge moving balls to reach the end of the level
 version: 4.0.0
-last_tested: 2018-10-10
+last_tested: 10-10-2018
 steps:
   - 
-    title: Introduction
+    title: Введение
   - 
     title: Character movement
   - 
@@ -28,7 +28,7 @@ steps:
   - 
     title: Lasers!
   - 
-    title: 'Challenge: more obstacles'
+    title: 'Попробуй сам: больше препятствий'
     challenge: true
   - 
     title: 'Challenge: improved gravity'
@@ -37,4 +37,4 @@ steps:
     title: 'Challenge: more lives'
     challenge: true
   - 
-    title: What next?
+    title: Что дальше?
