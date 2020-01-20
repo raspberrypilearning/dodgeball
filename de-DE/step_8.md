@@ -4,17 +4,17 @@ Um dein Spiel ein wenig schwieriger beenden zu lassen, wirst du Laser hinzufüge
 
 \--- task \---
 
-Füge ein neues Sprite zu deinem Spiel hinzu und nenne es `laser`. Es sollte zwei Kostüme haben: eins mit 'an' und eins mit 'aus'.
+Füge eine neue Figur zu deinem Spiel hinzu und nenne sie `laser`. Sie sollte zwei Kostüme haben: eins das 'an' heißt und eins das 'aus' heißt.
 
 ![Screenshot](images/dodge-lasers-costume1.png)
 
-![Screenshot](images/dodge-lasers-costume1.png)
+![Screenshot](images/dodge-lasers-costume2.png)
 
 \--- /task \---
 
 \--- task \---
 
-Platziere dein neues Lasersprite zwischen zwei Plattformen.
+Platziere deine neue Laser-Figur zwischen zwei Plattformen.
 
 ![Screenshot](images/dodge-lasers-position.png)
 
@@ -22,7 +22,7 @@ Platziere dein neues Lasersprite zwischen zwei Plattformen.
 
 \--- task \---
 
-Füge diesen Code zu deinem Lasersprite hinzu, um ihn zwischen den beiden Kostümen wechseln zu lassen.
+Füge diesen Code zu deiner Laser-Figur hinzu, um sie zwischen den beiden Kostümen wechseln zu lassen.
 
 ![Laser-Sprite](images/laser_sprite.png)
 
@@ -36,25 +36,25 @@ wiederhole fortlaufend
 end
 ```
 
-Wenn du möchtest, kannst du den oben gezeigten Code so ändern, dass das Sprite eine `zufällige`{:class="block3operators"} Zeitspanne zwischen den Kostümwechseln `wartet`{:class="block3control"}.
+Wenn du möchtest, kannst du den oben gezeigten Code so ändern, dass die Figur eine `zufällige`{:class="block3operators"} Zeitspanne zwischen den Kostümwechseln `wartet`{:class="block3control"}.
 
 \--- /task \---
 
 \--- task \---
 
-Anschließend fügst du Code zu deinem Lasersprite hinzu, sodass der Lasersprite eine Treffer-Nachricht sendet, wenn es den Charakter Sprite berührt.
+Anschließend fügst du Code zu deinem Lasersprite hinzu, sodass die Laser-Figur eine Treffer-Nachricht sendet, wenn die die Charakter Figur berührt.
 
 \--- hints \---
 
 \--- hint \---
 
-Dieser Code sollte sehr ähnlich sein wie der Code, den du zu deinem Ball-Sprite hinzugefügt hast.
+Dieser Code sollte sehr ähnlich sein wie der Code, den du zu deiner Ball-Figur hinzugefügt hast.
 
 \--- /hint \---
 
 \--- hint \---
 
-Kopier den Code, den du dem Ball-Sprite hinzufügst hast, damit das Sprite `sende 'Terffer'`{:class="block3control"} ausführt, wenn `es deinen Charakter berührt`{:class="block3sensing"}.
+Kopiere den Code, den du der Ball-Figur hinzufügst hast, damit die Figur `'Terffer' sendet`{:class="block3control"}, falls `es deinen Charakter berührt`{:class="block3sensing"}.
 
 \--- /hint \---
 
@@ -67,7 +67,7 @@ Dies ist der Code, den du dafür hinzufügen sollst:
 ```blocks3
 Wenn die grüne Flagge angeklickt
 wiederhole fortlaufend 
-  falls <touching (Pico walking v) ?> , dann 
+  falls <wird (Pico walking v) berührt?> , dann 
     sende (Treffer v) an alle
   end
 end
@@ -75,14 +75,14 @@ end
 
 \--- /hint \---
 
-\---/hints\---
+\--- /hints \---
 
-Du musst keinen zusätzlichen Code zu deinem Charakter-Sprite hinzufügen, da das Charakter-Sprite bereits weiß, was es zu tun hat, wenn es `sende 'Treffer'`{:class="block3control"} erhält!
+Du musst keinen zusätzlichen Code zu deiner Charakter-Figur hinzufügen, da die Charakter-Figur bereits weiß, was sie zu tun hat, wenn sie die `Nachricht 'Treffer'`{:class="block3control"} erhält!
 
 \--- /task \---
 
 \--- task \---
 
-Teste dein Spiel, um festzustellen, ob du den Charakter am Laser vorbeibewegen kannst. Wenn der Laser zu leicht oder zu schwer zu meiden ist, ändere die `Wartezeit `{:class="block3control"} im Code für das Laser-Sprite.
+Teste dein Spiel, um festzustellen, ob du den Charakter am Laser vorbeibewegen kannst. Falls es zu leicht oder zu schwer ist dem Laser auszuweichen, ändere die `Wartezeit`{:class="block3control"} im Code für die Laser-Figur.
 
 \--- /task \---
