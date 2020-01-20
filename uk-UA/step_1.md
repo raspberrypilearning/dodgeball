@@ -25,9 +25,7 @@ Click the green flag to start, and then use the arrow keys to move and the <kbd>
 
 \--- /print-only \---
 
-\--- collapse \---
-
-* * *
+## \--- collapse \---
 
 ## title: What you will need
 
@@ -43,11 +41,9 @@ Click the green flag to start, and then use the arrow keys to move and the <kbd>
 
 You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
--- /collapse \---
+\--- /collapse \---
 
-\--- collapse \---
-
-* * *
+## \--- collapse \---
 
 ## title: What you will learn
 
@@ -55,17 +51,15 @@ You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 + How to use the `if, then, else`{:class="block3control"} Scratch block
 + How to clone a sprite
 
-\--- / колапс \---
+-- /collapse \---
 
-\--- collapse \---
-
-* * *
+## \--- collapse \---
 
 ## title: Additional notes for educators
 
 \--- no-print \---
 
-Якщо вам потрібно роздрукувати цей проект, будь ласка скористайтеся [ версією для друку ](https://projects.raspberrypi.org/en/projects/dodgeball/print) {: target = "_ blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
 
 \--- /no-print \---
 
