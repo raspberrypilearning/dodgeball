@@ -33,6 +33,7 @@ Choose a new sprite as the character the player will control, and add it to your
 Add code blocks to your character sprite so that the player can use the arrow keys to move the character around. When the player presses the right arrow, the character should point right, move a few steps, and change to the next costume:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
+
 ```blocks3
 when flag clicked
 forever
@@ -93,6 +94,7 @@ end
 Your code should look like this now:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
+
 ```blocks3
 when green flag clicked
 forever 
