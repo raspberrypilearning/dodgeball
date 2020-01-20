@@ -25,11 +25,9 @@ Klicke zum Starten auf die grüne Flagge und verwende dann die Pfeiltasten zum B
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Was du brauchen wirst
+## title: What you will need
 
 ### Hardware
 
@@ -41,34 +39,30 @@ Klicke zum Starten auf die grüne Flagge und verwende dann die Pfeiltasten zum B
 
 ### Downloads
 
-Die [Downloads findest Du hier](http://rpf.io/p/en/dodgeball-go).
+You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
+## title: What you will learn
 
-## title: Was du lernen wirst
-
-+ Wie man die Tastatur benutzt, um ein Objekt (Sprite) zu steuern
++ Wie man die Tastatur benutzt, um eine Figur (engl.: Sprite) zu steuern
 + Wie man den `falls, dann, sonst`{:class="block3control"} Scratch Block benutzt
-+ Wie man ein Sprite klonen kann
++ Wie man eine Figur klonen kann
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Zusätzliche Hinweise für Pädagogen
+## title: Additional notes for educators
 
 \--- no-print \---
 
-Wenn du dieses Projekt ausdrucken möchtest, verwende die [druckerfreundliche Version](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
 
 \--- /no-print \---
 
-Du findest das [abgeschlossene Projekt hier](http://rpf.io/p/en/dodgeball-get).
+You can find the [completed project here](http://rpf.io/p/en/dodgeball-get).
 
 \--- /collapse \---
