@@ -1,9 +1,9 @@
-## Challenge: random balls
+## Défi : balles aléatoires
 
-The balls that your character has to dodge all look the same, and they appear at regular three-second intervals. Can you add code to your game so that the balls:
+Les balles que votre personnage doit esquiver se ressemblent toutes et elles apparaissent toutes les trois secondes. Pouvez-vous ajouter du code à votre jeu pour que les balles:
 
-+ Don't all look the same?
-+ Appear after a `random`{:class="block3operators"} amount of time?
-+ Are a random size?
++ Ne sont-ils pas tous pareils?
++ Apparaître après un `aléatoire`{: class = "block3operators"} quantité de temps?
++ Sont une taille aléatoire?
 
-![screenshot](images/dodge-ball-random.png)
+![capture d'écran](images/dodge-ball-random.png)
