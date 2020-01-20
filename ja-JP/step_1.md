@@ -25,11 +25,9 @@
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: 必要なもの
+## title: What you will need
 
 ### ハードウェア
 
@@ -41,15 +39,13 @@
 
 ### ダウンロード
 
-[ここでダウンロードを見つけること](http://rpf.io/p/en/dodgeball-go)ができます 。
+You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: 学習すること
+## title: What you will learn
 
 + キーボードを使用してスプライトを制御する方法
 + ` if、then、else` {:class="block3control"}スクラッチブロックを使用する方法
@@ -57,18 +53,16 @@
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: 教育者向けの追加情報
+## title: Additional notes for educators
 
 \--- no-print \---
 
-このプロジェクトを印刷する必要がある場合は、 [印刷用バージョン](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_ blank"}を使用してください。
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
 
 \--- /no-print \---
 
-[ここで完成したプロジェクト](http://rpf.io/p/en/dodgeball-get)を見ることができます 。
+You can find the [completed project here](http://rpf.io/p/en/dodgeball-get).
 
 \--- /collapse \---
