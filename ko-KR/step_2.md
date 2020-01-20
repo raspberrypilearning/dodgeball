@@ -1,28 +1,28 @@
 ## 캐릭터 이동
 
-Start by creating a character that can move left and right, and can climb up ladders.
+왼쪽과 오른쪽으로 움직일 수 있고 사다리를 올라갈 수 있는 캐릭터를 만드는 것으로 시작합니다.
 
 \--- task \---
 
-Open the 'Dodgeball' Scratch starter project.
+'피구 게임' 스크래치 스타터 프로젝트를 여십시오.
 
-**Online:** open the starter project at [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}.
+** 온라인: ** [ rpf.io/dodgeball-on ](http://rpf.io/dodgeball-on) {: target = "_ blank"}에서 새로운 스타터 프로젝트 열기.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+스크래치 계정이 있는 경우 ** Remix를 클릭 ** 하여 사본을 만들 수 있습니다.
 
-**Offline:** download the starter project from [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) and then open it using the offline editor.
+**오프라인:** 스타터 프로젝트를 [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get){:target="_blank"} 에서 다운로드하고, 오프라인 에디터로 파일을 엽니다.
 
 \--- /task \---
 
-The project contains a backdrop with platforms:
+이 프로젝트에는 플랫폼이 그려진 배경이 포함되어 있습니다.
 
-![dodgeball project background](images/dodge-background.png)
+![피구 프로젝트 배경](images/dodge-background.png)
 
 \--- task \---
 
-Choose a new sprite as the character the player will control, and add it to your project. It's best if you choose a sprite with multiple costumes, so that you can make it look as though it's walking.
+플레이어가 제어할 캐릭터로 새로운 스프라이트를 선택하고 프로젝트에 추가하십시오. 모양이 여러개인 스프라이트를 선택하면 걷는 것처럼 보이게 할 수 있습니다.
 
-![pick a sprite](images/dodge-characters.png)
+![스프라이트를 고르기](images/dodge-characters.png)
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -30,18 +30,18 @@ Choose a new sprite as the character the player will control, and add it to your
 
 \--- task \---
 
-Add code blocks to your character sprite so that the player can use the arrow keys to move the character around. When the player presses the right arrow, the character should point right, move a few steps, and change to the next costume:
+플레이어가 화살표 키를 사용하여 캐릭터를 움직일 수 있도록, 캐릭터 스프라이트에 코드 블록을 추가하십시오. 플레이어가 오른쪽 화살표를 누르면 캐릭터가 오른쪽을 가리키고 몇 단계 이동 한 후 다음 모양으로 변경해야합니다.
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![걷는 피코 스프라이트](images/pico_walking_sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (right arrow v) pressed? > then
-        point in direction (90 v)
-        move (3) steps
-        next costume
-    end
+⚑ 클릭했을 때
+무한 반복하기 
+  만약 <(오른쪽 화살표 v) 키를 눌렸는가? > \(이\)라면 
+    (90 v) 도 방향 보기
+    (3) 만큼 움직이기
+    다음 모양으로 바꾸기
+  end
 end
 ```
 
@@ -49,41 +49,41 @@ end
 
 \--- task \---
 
-If your sprite doesn't fit, adjust its size.
+스프라이트가 맞지 않으면 크기를 조정하십시오.
 
-![set sprite size so it fits](images/dodge-sprite-size-annotated.png)
-
-\--- /task \---
-
-\--- task \---
-
-Test out your character by clicking the flag and then holding down the right arrow key. Does your character move to the right? Does your character look like it is walking?
-
-![screenshot](images/dodge-walking.png)
+![스프라이트 크기 맞추기](images/dodge-sprite-size-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code blocks to the character sprite's `forever`{:class="block3control"} loop so that it walks left if the left arrow key is pressed.
+깃발을 클릭 한 다음 오른쪽 화살표 키를 눌러 캐릭터를 테스트하십시오. 캐릭터가 오른쪽으로 이동합니까? 캐릭터가 걷고있는 것처럼 보입니까?
+
+![스크린샷](images/dodge-walking.png)
+
+\--- /task \---
+
+\--- task \---
+
+캐릭터 스프라이트에 `무한 반복` {: class = "block3control"} 코드 블록을 추가해서 왼쪽 화살표 키를 누르면 왼쪽으로 걷도록 하십시오.
 
 \--- hints \---
 
 \--- hint \---
 
-So that your character can move to the left, you'll need to add another `if`{:class="block3control"} block inside the `forever`{:class="block3control"} loop. In this new `if`{:class="block3control"} block, add code to make your character sprite `move`{:class="block3motion"} to the left.
+캐릭터가 왼쪽으로 이동할 수 있게 하려면 다른 `만약` {: class = "block3control"} 코드 블록을 ` 무한 반복 {: class = "block3control"} 코드 블록 ` 안에 추가해야 합니다.<0> 이 새로운 ` 만약 ` {: class = "block3control"} 코드 블록 안에서는, 캐릭터 스프라이트를 왼쪽으로 ` 움직이기 `{: class = "block3motion"} 코드를 추가합니다.
 
 \--- /hint \---
 
 \--- hint \---
 
-Copy the code you created to make the character walk to the right. Then set the `key pressed`{:class="block3sensing"} to the `left arrow`{:class="block3sensing"}, and change the `direction`{:class="block3motion"} to `-90`.
+캐릭터가 오른쪽으로 걸어가도록 만든 코드를 복사하십시오. 그런 다음, ` 키를 눌렀을 때`{: class = "block3sensing"} 블록을 `왼쪽 화살표`{: class = "block3sensing"}로 설정하고 `방향`{: class = "block3motion"}을 ` -90 `으로 변경합니다.
 
 ```blocks3
-if <key (right arrow v) pressed? > then
-    point in direction (90 v)
-    move (3) steps
-    next costume
+만약 <(오른쪽 화살표 v) 키를 눌렸는가? > \(이\)라면 
+  (90 v) 도 방향 보기
+  (3) 만큼 움직이기
+  다음 모양으로 바꾸기
 end
 ```
 
@@ -91,22 +91,22 @@ end
 
 \--- hint \---
 
-Your code should look like this now:
+다음과 같은 코드가 될 것입니다:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![걷는 피코 스프라이트](images/pico_walking_sprite.png)
 
 ```blocks3
-when green flag clicked
-forever 
-  if <key (right arrow v) pressed?> then 
-    point in direction (90 v)
-    move (3) steps
-    next costume
+⚑ 클릭했을 때
+무한 반복하기 
+  만약 <(오른쪽 화살표 v) 키를 눌렸는가?> \(이\)라면 
+    (90 v) 도 방향 보기
+    (3) 만큼 움직이기
+    다음 모양으로 바꾸기
   end
-  if <key (left arrow v) pressed?> then 
-    point in direction (-90 v)
-    move (3) steps
-    next costume
+  만약 <(왼쪽 화살표 v) 키를 눌렸는가?> \(이\)라면 
+    (-90 v) 도 방향 보기
+    (3) 만큼 움직이기
+    다음 모양으로 바꾸기
   end
 end
 ```
@@ -119,33 +119,33 @@ end
 
 \--- task \---
 
-Test your new code to make sure that it works. Does your character turn upside-down when walking to the left?
+새 코드를 테스트하여 작동하는지 확인하십시오. 왼쪽으로 걸어 갈 때 캐릭터가 거꾸로 되어 있습니까?
 
-![screenshot](images/dodge-upside-down.png)
+![스크린샷](images/dodge-upside-down.png)
 
-If so, you can fix this by clicking on the **direction** of your character sprite, and then clicking on the left-right arrow.
+그렇다면 캐릭터 스프라이트의**방향**을 클릭한 뒤, 왼쪽-오른쪽 화살표를 클릭해서 이 문제를 해결할 수 있습니다.
 
-![screenshot](images/dodge-left-right-annotated.png)
+![스크린샷](images/dodge-left-right-annotated.png)
 
-Or if you prefer, you can also fix the problem by adding this block to the start of your character's script:
+또는 원하는 경우 캐릭터의 스크립트 시작 부분에 이 블록을 추가하여 문제를 해결할 수도 있습니다.
 
 ```blocks3
-set rotation style [left-right v]
+회전 스타일 설정 [왼쪽-오른쪽 v]
 ```
 
 \--- /task \---
 
 \--- task \---
 
-To climb a pink ladder, your character sprite should move a few steps upwards on the Stage whenever the up arrow is pressed **and** the character is touching the correct colour.
+분홍색 사다리를 오르기 위해, 위쪽 화살표가 **눌린 채로** 캐릭터 스프라이트가 올바른 색상에 닿을 때마다 스테이지에서 좀 더 위로 움직여야 합니다.
 
-Add inside your character's `forever`{:class="block3control"} loop to `change`{:class="block3motion"} the character's `y` (vertical) position `if`{:class="block3control"} the `up arrow is pressed`{:class="block3sensing"} and the character is `touching the colour pink`{:class="block3sensing"}.
+캐릭터의 `무한 반복`{: class = "block3control"} 코드 블록에 `만약`{: class = "block3control"} `위쪽 화살표가 눌렸고` {: class = "block3sensing"} 캐릭터가 ` 분홍색에 닿았다면` {: class = "block3sensing"} 캐릭터의 `y` (수직) 위치를 `변경`{: class = "block3motion"} 하는 코드를 추가합니다.
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![걷는 피코 스프라이트](images/pico_walking_sprite.png)
 
 ```blocks3
-    if < <key (up arrow v) pressed?> and <touching color [#FF69B4]?> > then
-        change y by (4)
+    만약 <<(위쪽 화살표 v) 키가 눌렸는가?> 그리고 <[#FF69B4] 색에 닿았는가?>> 라면
+        y 좌표를 (4) 만큼 바꾸기
     end
 ```
 
@@ -153,8 +153,8 @@ Add inside your character's `forever`{:class="block3control"} loop to `change`{:
 
 \--- task \---
 
-Test your code. Can you make the character climb the pink ladders and get to the end of the level?
+코드를 테스트해 보세요. 캐릭터가 분홍색 사다리를 타고 레벨의 끝까지 갈 수 있습니까?
 
-![screenshot](images/dodge-test-character.png)
+![스크린샷](images/dodge-test-character.png)
 
 \--- /task \---
