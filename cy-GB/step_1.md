@@ -25,11 +25,9 @@ Clicia'r faner werdd i ddechrau, yna defnyddio'r saethau ar y bysellfwrdd i symu
 
 \--- /print-only \---
 
-\---collapse\---
+## \--- collapse \---
 
-* * *
-
-## title: Beth fydd ei angen arno ti
+## title: What you will need
 
 ### Caledwedd
 
@@ -41,15 +39,13 @@ Clicia'r faner werdd i ddechrau, yna defnyddio'r saethau ar y bysellfwrdd i symu
 
 ### Lawrlwythiadau
 
-Gallwch chi ddod o hyd i'r [lawrlwythiadau yma](http://rpf.io/p/en/dodgeball-go).
+You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 \--- /collapse \---
 
-\---collapse\---
+## \--- collapse \---
 
-* * *
-
-## title: Yr hyn byddi di'n ei ddysgu
+## title: What you will learn
 
 + Sut i ddefnyddio'r bysellfwrdd i reoli corlun
 + Sut i ddefnyddio'r bloc Scratch `os, wedyn, fel arall`{:class="block3control"}
@@ -57,18 +53,16 @@ Gallwch chi ddod o hyd i'r [lawrlwythiadau yma](http://rpf.io/p/en/dodgeball-go)
 
 \--- /collapse \---
 
-\---collapse\---
+## \--- collapse \---
 
-* * *
-
-## title: Gwybodaeth ychwanegol i addysgwyr
+## title: Additional notes for educators
 
 \--- no-print \---
 
-Os oes angen i chi argraffu y prosiect, defnyddiwch [fersiwn i'w argraffu](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
 
 \--- /no-print \---
 
-Gallwch ddod o hyd i'r prosiect gorffenedig [yma](http://rpf.io/p/en/dodgeball-get).
+You can find the [completed project here](http://rpf.io/p/en/dodgeball-get).
 
 \--- /collapse \---
