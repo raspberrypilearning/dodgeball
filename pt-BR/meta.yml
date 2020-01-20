@@ -13,17 +13,17 @@ steps:
   - 
     title: Movimento do personagem
   - 
-    title: "Challenge: completing the level"
+    title: "Desafio: completar o nível"
     challenge: true
   - 
     title: Gravidade e Salto
   - 
-    title: 'Challenge: improved jumping'
+    title: 'Desafio: salto melhorado'
     challenge: true
   - 
     title: Esquivando das bolas
   - 
-    title: 'Challenge: random balls'
+    title: 'Desafio: bolas aleatórias'
     challenge: true
   - 
     title: Lasers!
@@ -31,10 +31,10 @@ steps:
     title: 'Desafio: mais obstáculos'
     challenge: true
   - 
-    title: 'Challenge: improved gravity'
+    title: 'Desafio: Gravidade melhorada'
     challenge: true
   - 
-    title: 'Challenge: more lives'
+    title: 'Desafio: mais vidas'
     challenge: true
   - 
     title: O que vem depois?
