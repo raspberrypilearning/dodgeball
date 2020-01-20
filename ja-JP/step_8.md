@@ -8,7 +8,7 @@
 
 ![スクリーンショット](images/dodge-lasers-costume1.png)
 
-![スクリーンショット](images/dodge-lasers-costume1.png)
+![スクリーンショット](images/dodge-lasers-costume2.png)
 
 \--- /task \---
 
