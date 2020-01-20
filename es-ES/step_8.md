@@ -8,7 +8,7 @@ Agrega un nuevo objeto a tu juego y llámalo `láser`. Debe tener dos disfraces:
 
 ![captura de pantalla](images/dodge-lasers-costume1.png)
 
-![captura de pantalla](images/dodge-lasers-costume1.png)
+![captura de pantalla](images/dodge-lasers-costume2.png)
 
 \--- /task \---
 
