@@ -6,11 +6,11 @@ To je ** Scratch 3 ** različica projekta. Obstaja tudi [Scratch 2](https://proj
 
 ## Uvod
 
-You'll learn how to create a platform game in which the player has to dodge moving balls to reach the end of the level.
+Nauči se ustvariti ploščadno (platformsko) igro, v kateri se moa igralec izogibati žogam in priti do konca stopnje.
 
 \--- no-print \---
 
-Click the green flag to start, and then use the arrow keys to move and the <kbd>space</kbd> key to jump.
+Klikni na zeleno zastavico, da začneš in uporabljaj smerne tipke za premikanje in <kbd>preslednico</kbd> za skok.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/251809924/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,15 +21,13 @@ Click the green flag to start, and then use the arrow keys to move and the <kbd>
 
 \--- print-only \---
 
-![dodgeball game being played](images/dodgeball-showcase.png)
+![igranje igre izmikanje žogam](images/dodgeball-showcase.png)
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Kaj boš potreboval?
+## title: What you will need
 
 ### Strojna oprema
 
@@ -39,36 +37,32 @@ Click the green flag to start, and then use the arrow keys to move and the <kbd>
 
 + Scratch 3 ( [spletna različica](https://scratch.mit.edu/projects/editor/) ali [različica brez povezave](https://scratch.mit.edu/download/))
 
-### Downloads
+### Prenosi
 
 You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
+## title: What you will learn
 
-## title: Kaj se boš naučil?
-
-+ How to use the keyboard to control a sprite
-+ How to use the `if, then, else`{:class="block3control"} Scratch block
-+ How to clone a sprite
++ Kako uporabljati tipkovnico za upravljanje figure
++ Kako uporabljati Scratch bloke `če, potem, sicer`
++ Kako podvojiti figuro
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Dodatne informacije za izobraževalce
+## title: Additional notes for educators
 
 \--- no-print \---
 
-Če želite natisniti ta projekt, uporabite [tiskalniku prijazno različico](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
 
 \--- /no-print \---
 
-Dokončan projekt lahko najdete [tukaj](http://rpf.io/p/en/dodgeball-get).
+You can find the [completed project here](http://rpf.io/p/en/dodgeball-get).
 
 \--- /collapse \---
