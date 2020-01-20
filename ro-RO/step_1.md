@@ -6,7 +6,7 @@ Aceasta este versiunea **Scratch 3** a proiectului. Există, de asemenea, o vers
 
 ## Introducere
 
-Veți învăța cum să creați un joc de platformă în care jucătorul trebuie să evite baloanele în mișcare pentru a ajunge la sfârșitul nivelului.
+Veți învăța cum să creezi un joc în care jucătorul trebuie să evite mingile în mișcare pentru a ajunge la sfârșitul nivelului.
 
 \--- no-print \---
 
@@ -21,15 +21,13 @@ Faceți clic pe steagul verde pentru a începe, apoi utilizați tastele săgeat�
 
 \--- print-only \---
 
-![jocul dodgeball fiind jucat](images/dodgeball-showcase.png)
+![Jocul Rațele și vânătorii fiind jucat](images/dodgeball-showcase.png)
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## titlu: Ce veți avea nevoie
+## title: What you will need
 
 ### Dispozitive
 
@@ -41,15 +39,13 @@ Faceți clic pe steagul verde pentru a începe, apoi utilizați tastele săgeat�
 
 ### Descărcări
 
-Puteți [găsi descărcări aici](http://rpf.io/p/en/dodgeball-go).
+You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## titlu: Ce veți învăța
+## title: What you will learn
 
 + Cum se utilizează tastatura pentru a controla o sprite
 + Cum se folosește `dacă, atunci, altceva`{: class = "block3control"} Blocaj Scratch
@@ -57,15 +53,13 @@ Puteți [găsi descărcări aici](http://rpf.io/p/en/dodgeball-go).
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## titlu: note suplimentare pentru educatori
+## title: Additional notes for educators
 
 \--- no-print \---
 
-Dacă doriți să printați acest proiect, folosiți[printer-friendly version](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
 
 \--- /no-print \---
 
