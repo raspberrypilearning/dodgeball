@@ -8,7 +8,7 @@ Ychwanega gorlun newydd i dy gêm, o’r enw `laser`. Fe ddylai gael 2 wisg, o�
 
 ![sgrinlun](images/dodge-lasers-costume1.png)
 
-![sgrinlun](images/dodge-lasers-costume1.png)
+![sgrinlun](images/dodge-lasers-costume2.png)
 
 \--- /task \---
 
