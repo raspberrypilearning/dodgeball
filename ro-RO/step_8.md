@@ -8,7 +8,7 @@ Adăugați un nou sprite la joc și numiți-l `laser`. Ar trebui să aibă două
 
 ![captură de ecran](images/dodge-lasers-costume1.png)
 
-![captură de ecran](images/dodge-lasers-costume1.png)
+![captură de ecran](images/dodge-lasers-costume2.png)
 
 \--- /task \---
 
