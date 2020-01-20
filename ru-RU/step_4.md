@@ -6,7 +6,7 @@ Now you're going to make your character move more realistically: you're going to
 
 In the game, move your character so that it walks off a platform. Do you see that it can walk into empty space?
 
-![screenshot](images/dodge-no-gravity.png)
+![снимок экрана](images/dodge-no-gravity.png)
 
 \--- /task \---
 
@@ -18,7 +18,7 @@ To fix this, add gravity to your game. To do this, create a new variable called 
 
 You can hide this variable from your Stage if you want to.
 
-![screenshot](images/dodge-gravity-annotated.png)
+![скриншот](images/dodge-gravity-annotated.png)
 
 \--- /task \---
 
@@ -42,7 +42,7 @@ Add these new code blocks that set `gravity` to a negative number and use the va
 
 Click the flag, and then drag your character to the top of the Stage. What happens? Does the gravity work as you expect?
 
-![screenshot](images/dodge-gravity-drag.png)
+![снимок экрана](images/dodge-gravity-drag.png)
 
 \--- /task \---
 
@@ -68,7 +68,7 @@ Gravity shouldn't move the character sprite through a platform or a ladder! Add 
 
 Test the game again to see whether gravity works correctly now. Does your character sprite stop falling when it touches a platform or a ladder? Can you make the character walk off the edge of platforms and fall onto the level below?
 
-![screenshot](images/dodge-gravity-test.png)
+![снимок экрана](images/dodge-gravity-test.png)
 
 \--- /task \---
 
