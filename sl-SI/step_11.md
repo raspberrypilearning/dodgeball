@@ -1,7 +1,7 @@
-## Challenge: more lives
+## Izziv: več življenj
 
-Right now, your character goes back to its starting position when it gets hit. Can you also give the character sprite three `lives`{:class="block3variables"}, and make it lose one life when it gets hit? Here's how your game could work:
+Trenutno se tvoj lik, kadar je zadet, vrača na začetni položaj. Ali lahko figuri lika določiš tri `življenja`{:class="block3variables"}, ki jih izgublja, kadar se zaleti v oviro? Tvoja igra naj deluje tako:
 
-+ The game starts with three lives for the character
-+ Whenever the character gets hit, it loses one life **and** moves back to the start
-+ If there are no lives left, the game ends
++ Igra se začne s tremi življenji za lik
++ Kadarkoli se lik zaleti, izgubi eno življenje **in** se premakne na začetni položaj
++ Če zmanjka življenj, se igra konča
