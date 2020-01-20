@@ -25,11 +25,9 @@ Click the green flag to start, and then use the arrow keys to move and the <kbd>
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: आपको किन चीजों की आवश्यकता होगी
+## title: What you will need
 
 ### हार्डवेयर
 
@@ -45,11 +43,9 @@ You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: आप क्या सीखेंगे
+## title: What you will learn
 
 + How to use the keyboard to control a sprite
 + How to use the `if, then, else`{:class="block3control"} Scratch block
@@ -57,15 +53,13 @@ You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: शिक्षकों के लिए अतिरिक्त टिप्पणियाँ
+## title: Additional notes for educators
 
 \--- no-print \---
 
-अगर आपको इस प्रोजेक्ट को प्रिंट करने की आवश्यकता है, तो कृप्या [प्रिंटर-अनुकूल संस्करण](https://projects.raspberrypi.org/en/projects/dodgeball/print){: target = "_ blank"} का उपयोग करें।
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
 
 \--- /no-print \---
 
