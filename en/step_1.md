@@ -26,7 +26,6 @@ Click the green flag to start, and then use the arrow keys to move and the <kbd>
 --- /print-only ---
 
 --- collapse ---
-
 ---
 title: What you will need
 ---
@@ -46,7 +45,6 @@ You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 --- /collapse ---
 
 --- collapse ---
-
 ---
 title: What you will learn
 ---
@@ -58,7 +56,6 @@ title: What you will learn
 --- /collapse ---
 
 --- collapse ---
-
 ---
 title: Additional notes for educators
 ---
