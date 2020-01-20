@@ -1,7 +1,7 @@
-## Challenge: more lives
+## 도전 과제: 더 많은 생명 
 
-Right now, your character goes back to its starting position when it gets hit. Can you also give the character sprite three `lives`{:class="block3variables"}, and make it lose one life when it gets hit? Here's how your game could work:
+지금의 캐릭터는 장애물 등에 닿았을 때 시작 위치로 돌아갑니다. 캐릭터 스프라이트에게 3개의 `생명` {: class = "block3variables"}을 주고, 장애물에 닿으면 하나를 잃게 할 수 있습니까? 게임은 다음과 같이 설계되어야 합니다:
 
-+ The game starts with three lives for the character
-+ Whenever the character gets hit, it loses one life **and** moves back to the start
-+ If there are no lives left, the game ends
++ 게임은 세 개의 생명을 가진 캐릭터로 시작합니다.
++ 캐릭터가 장애물에 닿을 때마다 생명이 하나 **사라지고** 다시 시작 위치로 돌아갑니다.
++ 남은 생명이 없으면 게임이 종료됩니다.
