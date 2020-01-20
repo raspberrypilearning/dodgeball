@@ -25,11 +25,9 @@ Klik om te beginnen op de groene vlag en gebruik vervolgens de pijltjestoetsen o
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Wat heb je nodig
+## title: What you will need
 
 ### Hardware
 
@@ -41,15 +39,13 @@ Klik om te beginnen op de groene vlag en gebruik vervolgens de pijltjestoetsen o
 
 ### Downloads
 
-Je kunt [de downloads hier vinden](http://rpf.io/p/en/dodgeball-go).
+You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Wat ga je leren
+## title: What you will learn
 
 + Hoe het toetsenbord te gebruiken om een sprite te besturen
 + Hoe gebruik je het `als, dan, anders`{:class="block3control"} Scratch blok
@@ -57,18 +53,16 @@ Je kunt [de downloads hier vinden](http://rpf.io/p/en/dodgeball-go).
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Aanvullende informatie voor docenten
+## title: Additional notes for educators
 
 \--- no-print \---
 
-Als je dit project wilt afdrukken, gebruik dan de [ printervriendelijke versie ](https://projects.raspberrypi.org/en/projects/dodgeball/print) {:target="_ blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
 
 \--- /no-print \---
 
-Hier kun je het [voltooide project](http://rpf.io/p/en/dodgeball-get) downloaden.
+You can find the [completed project here](http://rpf.io/p/en/dodgeball-get).
 
 \--- /collapse \---
