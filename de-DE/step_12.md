@@ -15,8 +15,10 @@ Probiere unser Gehirnspiel [Brain game](https://projects.raspberrypi.org/de-DE/p
 
 ***
 
-## Von der Community übersetzt 
+Dieses Projekt wurde von freiwilligen Helfern übersetzt:
 
-Dieses Projekt wurde von **Dennis Weber** übersetzt und von **Tim** überprüft. 
+Dennis Weber
 
-Unsere großartigen Freiwilligen helfen uns, Kindern auf der ganzen Welt die Möglichkeit zu geben, coden zu lernen. Sie können uns helfen, mehr Kinder zu erreichen, indem Sie unsere Projekte übersetzen - lesen Sie mehr unter [rpf.io/translate](https://rpf.io/translate).
+Tim
+
+Dank freiwilliger Helfer können wir Menschen auf der ganzen Welt die Möglichkeit geben, in ihrer eigenen Sprache zu lernen. Du kannst uns helfen, mehr Menschen zu erreichen, indem Du dich freiwillig zum Übersetzen meldest - weitere Informationen unter [rpf.io/translate](https://rpf.io/translate).
