@@ -2,21 +2,21 @@
 
 Your character can move and jump now, so it's time to add some balls that the character has to avoid.
 
-\--- función \---
+\--- task \---
 
 Create a new ball sprite. You can choose any type of ball you like.
 
-![captura de pantalla](images/dodge-balls.png)
+![screenshot](images/dodge-balls.png)
 
-\--- función \---
+\--- /task \---
 
 \--- task \---
 
 Resize the ball sprite so that the character can jump over it. Try making the character jump over the ball to test whether the ball is the right size.
 
-![captura de pantalla](images/dodge-ball-resize.png)
+![screenshot](images/dodge-ball-resize.png)
 
-\--- función \---
+\--- /task \---
 
 \--- task \---
 
@@ -52,21 +52,21 @@ delete this clone
 
 This code creates a new clone of the ball sprite every three seconds. Each new clone moves along the top platform and then drops.
 
-\--- función \---
+\--- /task \---
 
 \--- task \---
 
 Click the flag to test the game.
 
-![captura de pantalla](images/dodge-ball-test.png)
+![screenshot](images/dodge-ball-test.png)
 
-\--- función \---
+\--- /task \---
 
 \--- task \---
 
 Add more code to your ball sprite so that clones of it move across all three platforms.
 
-![captura de pantalla](images/dodge-ball-more-motion.png)
+![screenshot](images/dodge-ball-more-motion.png)
 
 \--- hints \---
 
@@ -138,7 +138,7 @@ delete this clone
 
 \--- /hints \---
 
-\--- función \---
+\--- /task \---
 
 \--- task \---
 
@@ -157,7 +157,7 @@ Add this code to your ball sprite:
     end
 ```
 
-\--- función \---
+\--- /task \---
 
 \--- task \---
 
@@ -171,10 +171,10 @@ Finally, add code blocks to your character sprite to make it move back to its st
     go to x: (-210) y: (-120)
 ```
 
-\--- función \---
+\--- /task \---
 
 \--- task \---
 
 Test out your code. Check whether the character moves back to the start after touching a ball.
 
-\--- función \---
+\--- /task \---
