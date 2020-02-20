@@ -6,7 +6,7 @@ Your character can move and jump now, so it's time to add some balls that the ch
 
 Create a new ball sprite. You can choose any type of ball you like.
 
-![स्क्रीनशॉट](images/dodge-balls.png)
+![screenshot](images/dodge-balls.png)
 
 \--- /task \---
 
@@ -14,7 +14,7 @@ Create a new ball sprite. You can choose any type of ball you like.
 
 Resize the ball sprite so that the character can jump over it. Try making the character jump over the ball to test whether the ball is the right size.
 
-![स्क्रीनशॉट](images/dodge-ball-resize.png)
+![screenshot](images/dodge-ball-resize.png)
 
 \--- /task \---
 
@@ -58,7 +58,7 @@ This code creates a new clone of the ball sprite every three seconds. Each new c
 
 Click the flag to test the game.
 
-![स्क्रीनशॉट](images/dodge-ball-test.png)
+![screenshot](images/dodge-ball-test.png)
 
 \--- /task \---
 
@@ -66,7 +66,7 @@ Click the flag to test the game.
 
 Add more code to your ball sprite so that clones of it move across all three platforms.
 
-![स्क्रीनशॉट](images/dodge-ball-more-motion.png)
+![screenshot](images/dodge-ball-more-motion.png)
 
 \--- hints \---
 
@@ -175,6 +175,6 @@ Finally, add code blocks to your character sprite to make it move back to its st
 
 \--- task \---
 
-अपने कोड का परीक्षण करें। Check whether the character moves back to the start after touching a ball.
+Test out your code. Check whether the character moves back to the start after touching a ball.
 
 \--- /task \---
