@@ -1,10 +1,10 @@
-## Challenge: більше перешкод
+## Challenge: more obstacles
 
-If you think your game is still too easy, you can add more obstacles to it. The obstacles can be anything you like! Ось деякі ідеї:
+If you think your game is still too easy, you can add more obstacles to it. The obstacles can be anything you like! Here are some ideas:
 
 + A dangerous butterfly
-+ Платформи, що з'являються і зникають
-+ Тенісні м'ячі, які падають і від них потрібно ухилятись
++ Platforms that appear and disappear
++ Falling tennis balls that must be avoided
 
 ![screenshot](images/dodge-obstacles.png)
 
