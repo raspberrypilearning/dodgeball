@@ -3,13 +3,13 @@ hero_image: images/banner.png
 listed: true
 ingredient: false
 copyedit: false
-title: Høvdingebold
-description: I dette projekt skal du lære, hvordan du laver et platformsspil, hvor du skal undgå at blive ramt af boldene og nå til slutningen af niveauet.
-version: 3
-last_tested: 2017-01-01
+title: Dodgeball
+description: Create a platform game in which you dodge moving balls to reach the end of the level
+version: 4.0.0
+last_tested: 2018-10-10
 steps:
   - 
-    title: Høvdingebold
+    title: Introduction
   - 
     title: Character movement
   - 
