@@ -1,129 +1,129 @@
-## Gravitacija in skoki
+## Gravity and jumping
 
-Sedaj poskrbi, da se bo tvoj lik premikal bolj realistično: igri dodaj gravitacijo in liku omogoči, da lahko skače.
+Now you're going to make your character move more realistically: you're going to add gravity to your game and give the character the ability to jump.
 
 \--- task \---
 
-V igri pojdi s svojim likom tako daleč, da bo šel preko ploščadi. Kot vidiš lahko hodi po praznem prostoru.
+In the game, move your character so that it walks off a platform. Do you see that it can walk into empty space?
 
-![posnetek zaslona](images/dodge-no-gravity.png)
+![screenshot](images/dodge-no-gravity.png)
 
 \--- /task \---
 
 \--- task \---
 
-Popravi to tako, da igri dodaš gravitacijo. V ta namen ustvari novo spremenljivko imenovano `gravitacija`{:class="block3variables"}.
+To fix this, add gravity to your game. To do this, create a new variable called `gravity`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
-To spremenljivko lahko po želji skriješ, da se ne vidi na odru.
+You can hide this variable from your Stage if you want to.
 
-![posnetek zaslona](images/dodge-gravity-annotated.png)
+![screenshot](images/dodge-gravity-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-Dodaj nove bloke kode, ki nastavijo `gravitacijo` na negativno vrednost in uporabi vrednost `gravitacije`, da ponavljaš spremembo y-položaja lika:
+Add these new code blocks that set `gravity` to a negative number and use the value of `gravity` to repeatedly change your character's y-coordinate:
 
-![piko hodeča figura](images/pico_walking_sprite.png)
+![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    ko kliknemo na zastavo
-  nastavi [gravitacija v] na [-4]
-  ponavljaj
-    spremni y za (gravitacija)
-  konec
+    when flag clicked
+    set [gravity v] to [-4]
+    forever
+        change y by (gravity)
+    end
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Klikni na zastavo in povleci svoj lik na vrh odra. Kaj se zgodi? Ali gravitacija deluje po pričakovanju?
+Click the flag, and then drag your character to the top of the Stage. What happens? Does the gravity work as you expect?
 
-![posnetek zaslona](images/dodge-gravity-drag.png)
+![screenshot](images/dodge-gravity-drag.png)
 
 \--- /task \---
 
 \--- task \---
 
-Gravitacija ne bi smela premakniti figure lika skozi ploščad ali lestev! Dodaj blok `če`{:class="block3control"}, ki bo omogočal delovanje gravitacije le ladar je lik v zraku. Koda gravitacija naj bo videti tako:
+Gravity shouldn't move the character sprite through a platform or a ladder! Add an `if`{:class="block3control"} block to your code to only let the gravity work when the character is in mid-air. The gravity code should then look like this:
 
-![piko hodeča figura](images/pico_walking_sprite.png)
+![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    ko kliknemo na zastavo
-  nastavi [gravitacija v] na [-4]
-  ponavljaj
-    če < ne <<se dotika barve [#0000FF]?> ali <se dotika barve [#FF69B4]?>>> potem
-      spremni y za (gravitacija)
-    konec
-  konec
+    when flag clicked
+    set [gravity v] to [-4]
+    forever
+        if < not < <touching color [#0000FF]?> or <touching color [#FF69B4]?> > > then
+            change y by (gravity)
+        end
+    end
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Ponovno preizkusi igro, da vidiš, če sedaj gravitacija deluje pravilno. Ali tvoja tvoja figura lika preneha padati, ko se dotakne ploščadi ali lestve? Lahko narediš, da lik pade en nivo nižje, kadar gre preko roba ploščadi?
+Test the game again to see whether gravity works correctly now. Does your character sprite stop falling when it touches a platform or a ladder? Can you make the character walk off the edge of platforms and fall onto the level below?
 
-![posnetek zaslona](images/dodge-gravity-test.png)
+![screenshot](images/dodge-gravity-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-Sedaj dodaj kodo, ki bo poskrbela, da bo tvoj lik skočil, kadar bo igralec pritisnil tipko <kbd>presledek</kbd>. Enostaven način za to je, da svoj lik nekajkrat pomakneš navzgor:
+Now add code to make your character jump whenever the player presses the <kbd>space</kbd> key. One very easy way to do this is to move your character up a few times:
 
-![piko hodeča figura](images/pico_walking_sprite.png)
+![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    ko je pritisnjena tipka [presledek v]
-  ponovi (10) krat
-    spremeni y za (4)
-  konec
+    when [space v] key pressed
+    repeat (10)
+        change y by (4)
+    end
 ```
 
-Ker gravitacija neprestano sili lik za 4 piksle navzdol, moraš izbrati številko, ki je večja od `4` v bloku `spremeni y za (4)`{:class="block3motion"}. Spreminjaj številko, dokler ti višina skoka ne ustreza.
+Because gravity is constantly pushing your character down by 4 pixels, you need to choose a number greater than `4` in your `change y by (4)`{:class="block3motion"} block. Change the number until you're happy with the height the character jumps.
 
 \--- /task \---
 
 \--- task \---
 
-Preizkusi svojo kodo. Premikanje med skokom ni preveč mehko. Da bi skok bil videti bolj mehak, je potrebno tvoj lik premikati za vedno manjše korake, dokler se sploh več ne dviguje.
+Test out your code. Notice that the jumping movement isn't very smooth. To make jumping look smoother, you need to move your character sprite by smaller and smaller amounts, until it is not rising any higher.
 
 \--- /task \---
 
 \--- task \---
 
-V ta namen ustvari novo spremenljivko `višina skoka`{:class="block3variables"}. Če hočeš, lahko tudi to spremenljivko skriješ.
+To do this, create a new variable called `jump height`{:class="block3variables"}. Again, you can hide this variable if you prefer.
 
 \--- /task \---
 
 \--- task \---
 
-Izbriši kodo za skok, ki si jo dodal figuri lika in namesto nje dodaj to kodo:
+Delete the jumping code you added to your character sprite, and add this code instead:
 
-![piko hodeča figura](images/pico_walking_sprite.png)
+![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    ko je pritisnjena tipka [presledke v]
-  nastavi [višina skoka v] na [8]
-  ponavljaj do < (višina skoka) = [0] >
-    spremeni y za (višina skoka)
-    spremeni [višina skoka v] za (-0.5)
-  konec
+    when [space v] key pressed
+    set [jump height v] to [8]
+    repeat until < (jump height) = [0] >
+        change y by (jump height)
+        change [jump height v] by (-0.5)
+    end
 ```
 
-Ta koda premakne tvoj lik za 8 pikslov navzgor, nato za 7,5 pikslov, nato za 7 pikslov in tako dalje, dokler se več ne dviguje. Tako bo skok videti veliko bolj mehak.
+This code moves your character up by 8 pixels, then 7.5 pixels, then 7 pixels, and so on, until it does not rise any higher. This makes jumping look much smoother.
 
 \--- /task \---
 
 \--- task \---
 
-Spremeni vrednost spremenljivke `višina skoka`{:class="block3variables"}, ki se nastavi preden se izvede zanka `ponavljaj do`{:class="block3control"}. Nato preizkusi svojo igro.
+Change the value of the `jump height`{:class="block3variables"} variable that is set before the `repeat`{:class="block3control"} starts. Then test your game.
 
-Ponovi ta dva koraka, dokler ti višina skoka ne ustreza.
+Repeat these two steps until you're happy with how high the character jumps.
 
 \--- /task \---
