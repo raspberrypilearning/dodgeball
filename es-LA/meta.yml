@@ -9,7 +9,7 @@ version: 4.0.0
 last_tested: 2018-10-10
 steps:
   - 
-    title: Robot parlanchín
+    title: Introduction
   - 
     title: Character movement
   - 
@@ -37,4 +37,4 @@ steps:
     title: 'Challenge: more lives'
     challenge: true
   - 
-    title: '¿Qué sigue?'
+    title: What next?
