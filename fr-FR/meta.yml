@@ -3,9 +3,9 @@ hero_image: images/banner.png
 listed: true
 ingredient: false
 copyedit: false
-title: Ballon chasseur
-description: Apprends à programmer ton propre jeu de plateforme!
-version: 3
+title: La balle au prisonnier
+description: Crée un jeu de plate-forme dans lequel tu esquives des balles en mouvement pour atteindre la fin du niveau
+version: 4.0.0
 last_tested: 2018-10-10
 steps:
   - 
@@ -13,12 +13,12 @@ steps:
   - 
     title: Mouvement du personnage
   - 
-    title: "Défi : Achèvement du niveau"
+    title: "Défi: terminer le niveau"
     challenge: true
   - 
     title: Gravité et saut
   - 
-    title: 'Défi : Bond Amélioré'
+    title: 'Défi : saut amélioré'
     challenge: true
   - 
     title: Esquive des balles
@@ -26,7 +26,7 @@ steps:
     title: 'Défi : balles aléatoires'
     challenge: true
   - 
-    title: Lasers!
+    title: Lasers !
   - 
     title: 'Défi: plus d''obstacles'
     challenge: true
@@ -34,7 +34,7 @@ steps:
     title: 'Défi : gravité améliorée'
     challenge: true
   - 
-    title: 'Défi : Plus de vies'
+    title: 'Défi : plus de vies'
     challenge: true
   - 
-    title: Que faire ensuite ?
+    title: Et ensuite ?
