@@ -1,16 +1,16 @@
 \--- no-print \---
 
-이것은 **스크래치 3** 버전으로 진행되는 프로젝트입니다. [스크래치 2](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2) 버전으로 진행되는 프로젝트도 있습니다.
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2).
 
 \--- /no-print \---
 
-## 들어가며
+## Introduction
 
-레벨을 클리어하기 위해 플레이어가 움직이는 공을 피해야 하는 플랫폼 게임의 제작 방법을 배웁니다.
+You'll learn how to create a platform game in which the player has to dodge moving balls to reach the end of the level.
 
 \--- no-print \---
 
-시작하려면 녹색 깃발를 클릭 한 다음 화살표 키를 사용해서 이동하세요. <kbd>Space</kbd> 키를 눌러 점프가 가능합니다.
+Click the green flag to start, and then use the arrow keys to move and the <kbd>space</kbd> key to jump.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/251809924/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,7 +21,7 @@
 
 \--- print-only \---
 
-![피구 게임이 실행되고 있는 모습](images/dodgeball-showcase.png)
+![dodgeball game being played](images/dodgeball-showcase.png)
 
 \--- /print-only \---
 
@@ -29,15 +29,15 @@
 
 ## title: What you will need
 
-### 하드웨어
+### Hardware
 
-+ 스크래치 3을 실행할 수 있는 컴퓨터
++ A computer capable of running Scratch 3
 
-### 소프트웨어
+### Software
 
-+ 스크래치 3 ([온라인](https://scratch.mit.edu/projects/editor/) 또는 [오프라인](https://scratch.mit.edu/download/))
++ Scratch 3 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/download/))
 
-### 다운로드 목록
+### Downloads
 
 You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
@@ -47,9 +47,9 @@ You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 ## title: What you will learn
 
-+ 키보드를 이용해 스프라이트(캐릭터)를 조작하는 방법
-+ 스크래치 블록에서 `if, then, else`{:class="block3control"}를 사용하는 방법
-+ 스프라이트(캐릭터)를 복제하는 방법
++ How to use the keyboard to control a sprite
++ How to use the `if, then, else`{:class="block3control"} Scratch block
++ How to clone a sprite
 
 \--- /collapse \---
 
