@@ -3,38 +3,38 @@ hero_image: images/banner.png
 listed: true
 ingredient: false
 copyedit: false
-title: Rațele și vânătorii
-description: În acest proiect vei învăța cum să creezi un joc în care va trebui să te ferești de mingile care se mișcă pentru a ajunge la sfârșitul nivelului.
-version: 3
+title: Dodgeball
+description: Create a platform game in which you dodge moving balls to reach the end of the level
+version: 4.0.0
 last_tested: 2018-10-10
 steps:
   - 
-    title: Introducere
+    title: Introduction
   - 
-    title: Mișcarea personajului
+    title: Character movement
   - 
-    title: "Provocare: completarea nivelului"
+    title: "Challenge: completing the level"
     challenge: true
   - 
-    title: Gravitație și sărituri
+    title: Gravity and jumping
   - 
-    title: 'Provocare: sărituri îmbunătățite'
+    title: 'Challenge: improved jumping'
     challenge: true
   - 
-    title: Evitarea mingilor
+    title: Dodging balls
   - 
-    title: 'Provocare: mingi diferite'
+    title: 'Challenge: random balls'
     challenge: true
   - 
-    title: Lasere!
+    title: Lasers!
   - 
-    title: 'Provocare: mai multe obstacole'
+    title: 'Challenge: more obstacles'
     challenge: true
   - 
-    title: 'Provocare: îmbunătățirea gravitației'
+    title: 'Challenge: improved gravity'
     challenge: true
   - 
-    title: 'Provocare: mai multe vieți'
+    title: 'Challenge: more lives'
     challenge: true
   - 
-    title: Ce urmează?
+    title: What next?
