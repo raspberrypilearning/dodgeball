@@ -1,5 +1,5 @@
-## Provocare: completarea nivelului
+## Challenge: completing the level
 
-Puteți adăuga mai multe blocuri de cod la caracterul dvs. sprite pentru a face sprite să spună ceva `dacă`{: class = "block3control"} ajunge la ușa verde?
+Can you add more code blocks to your character sprite to make the sprite say something `if`{:class="block3control"} it gets to the green door?
 
-![captură de ecran](images/dodge-win.png)
+![screenshot](images/dodge-win.png)
