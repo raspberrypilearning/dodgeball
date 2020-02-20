@@ -6,9 +6,9 @@ Start by creating a character that can move left and right, and can climb up lad
 
 Open the 'Dodgeball' Scratch starter project.
 
-**Онлайн:** открой стартовый проект по адресу [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}.
+**Online:** open the starter project at [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}.
 
-Если у тебя есть учетная запись в Скретч, то ты можешь сделать копию, нажав **Ремикс**.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
 **Offline:** download the starter project from [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) and then open it using the offline editor.
 
@@ -59,7 +59,7 @@ If your sprite doesn't fit, adjust its size.
 
 Test out your character by clicking the flag and then holding down the right arrow key. Does your character move to the right? Does your character look like it is walking?
 
-![снимок экрана](images/dodge-walking.png)
+![screenshot](images/dodge-walking.png)
 
 \--- /task \---
 
@@ -121,11 +121,11 @@ end
 
 Test your new code to make sure that it works. Does your character turn upside-down when walking to the left?
 
-![снимок экрана](images/dodge-upside-down.png)
+![screenshot](images/dodge-upside-down.png)
 
 If so, you can fix this by clicking on the **direction** of your character sprite, and then clicking on the left-right arrow.
 
-![снимок экрана](images/dodge-left-right-annotated.png)
+![screenshot](images/dodge-left-right-annotated.png)
 
 Or if you prefer, you can also fix the problem by adding this block to the start of your character's script:
 
@@ -153,8 +153,8 @@ Add inside your character's `forever`{:class="block3control"} loop to `change`{:
 
 \--- task \---
 
-Проверь свою программу. Can you make the character climb the pink ladders and get to the end of the level?
+Test your code. Can you make the character climb the pink ladders and get to the end of the level?
 
-![снимок экрана](images/dodge-test-character.png)
+![screenshot](images/dodge-test-character.png)
 
 \--- /task \---
