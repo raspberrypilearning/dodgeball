@@ -1,5 +1,5 @@
-## 挑战：完成关卡
+## Challenge: completing the level
 
-您是否可以向精灵添加更多代码块，以使精灵说些什么`，如果` {：class =“ block3control”}它到达绿色的门？
+Can you add more code blocks to your character sprite to make the sprite say something `if`{:class="block3control"} it gets to the green door?
 
 ![screenshot](images/dodge-win.png)
