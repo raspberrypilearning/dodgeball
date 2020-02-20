@@ -1,7 +1,7 @@
-## Challenge: 命を増やす
+## Challenge: more lives
 
-たった今、ヒットするとキャラクターは開始位置に戻ります。 キャラクターのスプライトに3つの`命` {:class="block3variables"}を与え、そしてヒットしたときに1つのライフを失うようにできますか？ ゲームの仕組みは次のとおりです。
+Right now, your character goes back to its starting position when it gets hit. Can you also give the character sprite three `lives`{:class="block3variables"}, and make it lose one life when it gets hit? Here's how your game could work:
 
-+ ゲームはキャラクターに3つの命を与えて始まります
-+ キャラクターがヒットするたびに、ライフが1つ失われ、** そして**最初に戻る
-+ 命が残っていない場合、ゲームは終了します
++ The game starts with three lives for the character
++ Whenever the character gets hit, it loses one life **and** moves back to the start
++ If there are no lives left, the game ends
