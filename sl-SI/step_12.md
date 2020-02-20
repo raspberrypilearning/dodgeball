@@ -1,6 +1,6 @@
-## Kaj sledi?
+## What next?
 
-Pojdi na projekt [Možganska igra](https://projects.raspberrypi.org/en/projects/brain-game?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), v katerem lahko ustvariš svoj lastni matematični kviz.
+Have a go at our [Brain game](https://projects.raspberrypi.org/en/projects/brain-game?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, in which you can create your own maths quiz.
 
 \--- no-print \---
 
