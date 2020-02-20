@@ -1,4 +1,4 @@
-## Рухи персонажа
+## Character movement
 
 Start by creating a character that can move left and right, and can climb up ladders.
 
