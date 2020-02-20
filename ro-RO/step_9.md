@@ -1,21 +1,21 @@
-## Provocarea: Mai multe obstacole
+## Challenge: more obstacles
 
-Dacă credeți că jocul dvs. este încă prea ușor, puteți adăuga mai multe obstacole în calea acestuia. Obstacolele pot fi orice îți place! Iată câteva idei:
+If you think your game is still too easy, you can add more obstacles to it. The obstacles can be anything you like! Here are some ideas:
 
-+ Un fluture periculos
-+ Platforme care apar și dispar
-+ Mingii de tenis care cad si care trebuiesc evitate
++ A dangerous butterfly
++ Platforms that appear and disappear
++ Falling tennis balls that must be avoided
 
-![captură de ecran](images/dodge-obstacles.png)
+![screenshot](images/dodge-obstacles.png)
 
-Puteți crea chiar și un alt fundal pentru a crea nivelul următor. Apoi adăugați codul astfel încât, atunci când personajul tău atinge ușa verde, jocul trece la noul fundal:
+You could even design another backdrop to create the next level. Then add code so that, when your character reaches the green door, the game switches to the new background:
 
-![pictori de mers pe jos pico](images/pico_walking_sprite.png)
+![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    dacă <touching color [#00FF00]?> atunci
-        fundal comutator la (următorul fundal v)
-        mergeți la x: (-210) y: (-120)
-        așteptați (1) secunde
-    sfârșit
+    if <touching color [#00FF00]?> then
+        switch backdrop to (next backdrop v)
+        go to x: (-210) y: (-120)
+        wait (1) seconds
+    end
 ```
