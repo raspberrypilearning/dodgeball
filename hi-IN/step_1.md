@@ -1,10 +1,10 @@
 \--- no-print \---
 
-यह इस प्रोजेक्ट का **Scratch 3** संस्करण है। [इस प्रोजेक्ट का Scratch 2 संस्करण](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2) भी है।
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2).
 
 \--- /no-print \---
 
-## परिचय
+## Introduction
 
 You'll learn how to create a platform game in which the player has to dodge moving balls to reach the end of the level.
 
@@ -29,15 +29,15 @@ Click the green flag to start, and then use the arrow keys to move and the <kbd>
 
 ## title: What you will need
 
-### हार्डवेयर
+### Hardware
 
-+ Scratch 3 चलाने में सक्षम कंप्यूटर
++ A computer capable of running Scratch 3
 
-### सॉफ्टवेयर
+### Software
 
-+ Scratch 3 (या तो [ऑनलाइन](https://scratch.mit.edu/projects/editor/) या [ऑफ़लाइन](https://scratch.mit.edu/download/))
++ Scratch 3 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/download/))
 
-### डाउनलोड
+### Downloads
 
 You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
