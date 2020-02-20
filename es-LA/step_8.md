@@ -2,23 +2,23 @@
 
 To your game a little harder to complete, you are going to add lasers!
 
-\--- función \---
+\--- task \---
 
 Add a new sprite to your game and call it `laser`. It should have two costumes: one called 'on', and one called 'off'.
 
-![captura de pantalla](images/dodge-lasers-costume1.png)
+![screenshot](images/dodge-lasers-costume1.png)
 
-![captura de pantalla](images/dodge-lasers-costume2.png)
+![screenshot](images/dodge-lasers-costume2.png)
 
-\--- función \---
+\--- /task \---
 
 \--- task \---
 
 Place your new laser sprite between two platforms.
 
-![captura de pantalla](images/dodge-lasers-position.png)
+![screenshot](images/dodge-lasers-position.png)
 
-\--- función \---
+\--- /task \---
 
 \--- task \---
 
@@ -38,7 +38,7 @@ Add code to your laser sprite to make it switch between its two costumes.
 
 If you prefer, you can change the code shown above so that the sprite `waits`{:class="block3control"} a `random`{:class="block3operators"} amount of time between costume changes.
 
-\--- función \---
+\--- /task \---
 
 \--- task \---
 
@@ -79,10 +79,10 @@ end
 
 You don't need to add any extra code to your characters sprite, because the character sprite already knows what to do when it receives the `broadcast 'hit'`{:class="block3control"}!
 
-\--- función \---
+\--- /task \---
 
 \--- task \---
 
 Test out your game to see if you can move the character past the laser. If the laser is too easy or too hard to avoid, change the `wait`{:class="block3control"} times in the code for the laser sprite.
 
-\--- función \---
+\--- /task \---
