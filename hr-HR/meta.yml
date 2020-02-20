@@ -3,13 +3,13 @@ hero_image: images/banner.png
 listed: true
 ingredient: false
 copyedit: false
-title: Preskakanje lopti
-description: U ovom projektu ćeš naučiti napraviti igru u kojoj igrač treba izbjegavati lopte koje se kreću i stići do kraja nivoa.
-version: 3
+title: Dodgeball
+description: Create a platform game in which you dodge moving balls to reach the end of the level
+version: 4.0.0
 last_tested: 2018-10-10
 steps:
   - 
-    title: Sretan rođendan
+    title: Introduction
   - 
     title: Character movement
   - 
@@ -28,7 +28,7 @@ steps:
   - 
     title: Lasers!
   - 
-    title: 'Izazov: više prepreka'
+    title: 'Challenge: more obstacles'
     challenge: true
   - 
     title: 'Challenge: improved gravity'
