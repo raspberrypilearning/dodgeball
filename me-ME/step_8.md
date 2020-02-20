@@ -1,4 +1,4 @@
-## Laseri!
+## Lasers!
 
 To your game a little harder to complete, you are going to add lasers!
 
@@ -44,21 +44,21 @@ If you prefer, you can change the code shown above so that the sprite `waits`{:c
 
 Finally, add code to your laser sprite so that the laser sprite broadcasts a 'hit' message when it touches the character sprite.
 
-\--- pomoć \---
+\--- hints \---
 
-\--- pomoć \---
+\--- hint \---
 
 This code should be very similar to the code you added to your ball sprite.
 
 \--- /hint \---
 
-\--- pomoć \---
+\--- hint \---
 
 Copy the code you add to the ball sprite to make this sprite `broadcast 'hit'`{:class="block3control"} when it is `touching your character`{:class="block3sensing"}.
 
 \--- /hint \---
 
-\--- pomoć \---
+\--- hint \---
 
 This is the code you should add:
 
