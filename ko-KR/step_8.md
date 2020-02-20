@@ -1,74 +1,74 @@
-## 레이저!
+## Lasers!
 
-게임을 완료하기가 조금 더 어려워지게 하려면, 레이저를 추가하면 됩니다!
+To your game a little harder to complete, you are going to add lasers!
 
 \--- task \---
 
-게임에 `레이저`라는 이름의 새로운 스프라이트를 추가합니다. 모양은 '켜짐'과 '꺼짐'이라는 두 가지 모양이 있어야 합니다.
+Add a new sprite to your game and call it `laser`. It should have two costumes: one called 'on', and one called 'off'.
 
-![스크린샷](images/dodge-lasers-costume1.png)
+![screenshot](images/dodge-lasers-costume1.png)
 
-![스크린샷](images/dodge-lasers-costume2.png)
+![screenshot](images/dodge-lasers-costume2.png)
 
 \--- /task \---
 
 \--- task \---
 
-두 개의 플랫폼 사이에 새로운 레이저 스프라이트를 배치하십시오.
+Place your new laser sprite between two platforms.
 
-![스크린샷](images/dodge-lasers-position.png)
+![screenshot](images/dodge-lasers-position.png)
 
 \--- /task \---
 
 \--- task \---
 
-레이저 스프라이트에 코드를 추가하여 두 모양 사이를 전환하십시오.
+Add code to your laser sprite to make it switch between its two costumes.
 
-![레이저 스프라이트](images/laser_sprite.png)
+![laser sprite](images/laser_sprite.png)
 
 ```blocks3
-    ⚑ 클릭했을 때
-    무한 반복하기 
-        모양을 (켜짐 v) \(으\)로 바꾸기
-        (2) 초 기다리기
-        모양을 (꺼짐 v) \(으\)로 바꾸기
-        (2) 초 기다리기
+    when flag clicked
+    forever
+        switch costume to (on v)
+        wait (2) seconds
+        switch costume to (off v)
+        wait (2) seconds
     end
 ```
 
-원하는 경우 스프라이트가 모양 변경 사이에 `무작위`{: class = "block3operators"} 시간 동안 `기다리도록`{: class = "block3control"} 위에 표시된 코드로 변경할 수 있습니다.
+If you prefer, you can change the code shown above so that the sprite `waits`{:class="block3control"} a `random`{:class="block3operators"} amount of time between costume changes.
 
 \--- /task \---
 
 \--- task \---
 
-마지막으로, 레이저 스프라이트가 캐릭터 스프라이트에 닿을 때 'hit' 메시지를 내보내도록 레이저 스프라이트에 코드를 추가하십시오.
+Finally, add code to your laser sprite so that the laser sprite broadcasts a 'hit' message when it touches the character sprite.
 
 \--- hints \---
 
 \--- hint \---
 
-이 코드는 공 스프라이트에 추가한 코드와 매우 비슷해야 합니다.
+This code should be very similar to the code you added to your ball sprite.
 
 \--- /hint \---
 
 \--- hint \---
 
-공 스프라이트에 추가 한 코드를 복사하여 이 스프라이트에 `캐릭터에 닿았을 때`{: class = "block3sensing"} `'hit' 신호 보내기`{: class = "block3control"}로 만듭니다.
+Copy the code you add to the ball sprite to make this sprite `broadcast 'hit'`{:class="block3control"} when it is `touching your character`{:class="block3sensing"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-다음은 추가해야 할 코드입니다:
+This is the code you should add:
 
-![레이저 스프라이트](images/laser_sprite.png)
+![laser sprite](images/laser_sprite.png)
 
 ```blocks3
-⚑ 클릭했을 때
-무한 반복하기 
-  만약 <touching (Pico walking v) ?> \(이\)라면 
-    (hit v) 신호 보내기
+when green flag clicked
+forever 
+  if <touching (Pico walking v) ?> then 
+    broadcast (hit v)
   end
 end
 ```
@@ -77,12 +77,12 @@ end
 
 \--- /hints \---
 
-캐릭터 스프라이트는 `'hit' 신호 보내기 `{: class = "block3control"}를 받을 때 수행할 작업을 이미 알고 있으므로, 캐릭터 스프라이트에 다른 코드를 추가 할 필요가 없습니다!
+You don't need to add any extra code to your characters sprite, because the character sprite already knows what to do when it receives the `broadcast 'hit'`{:class="block3control"}!
 
 \--- /task \---
 
 \--- task \---
 
-게임을 테스트하여 캐릭터가 레이저를 지나 움직일 수 있는지 확인하십시오. 레이저를 피하기 너무 쉽거나 어려운 경우, 레이저 스프라이트 코드에서 `기다리기` {: class = "block3control"} 시간을 수정합니다.
+Test out your game to see if you can move the character past the laser. If the laser is too easy or too hard to avoid, change the `wait`{:class="block3control"} times in the code for the laser sprite.
 
 \--- /task \---
