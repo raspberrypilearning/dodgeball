@@ -6,9 +6,9 @@ To your game a little harder to complete, you are going to add lasers!
 
 Add a new sprite to your game and call it `laser`. It should have two costumes: one called 'on', and one called 'off'.
 
-![स्क्रीनशॉट](images/dodge-lasers-costume1.png)
+![screenshot](images/dodge-lasers-costume1.png)
 
-![स्क्रीनशॉट](images/dodge-lasers-costume2.png)
+![screenshot](images/dodge-lasers-costume2.png)
 
 \--- /task \---
 
@@ -16,7 +16,7 @@ Add a new sprite to your game and call it `laser`. It should have two costumes: 
 
 Place your new laser sprite between two platforms.
 
-![स्क्रीनशॉट](images/dodge-lasers-position.png)
+![screenshot](images/dodge-lasers-position.png)
 
 \--- /task \---
 
