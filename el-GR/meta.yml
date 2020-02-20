@@ -1,0 +1,28 @@
+---
+hero_image: images/banner.png
+listed: true
+ingredient: false
+copyedit: false
+title: Dodgeball (Τα μήλα)
+description: Δημιούργησε ένα παιχνίδι στο οποίο αποφεύγεις κινούμενες μπάλες για να φτάσεις στο τέλος του επιπέδου
+version: 4.0.0
+last_tested: 2018-10-10
+steps:
+  - title: Εισαγωγή
+  - title: Κινηση χαρακτήρων
+  - title: "Δοκιμασία: ολοκλήρωση του επιπέδου"
+    challenge: true
+  - title: Βαρύτητα και άλματα
+  - title: 'Δοκιμασία: βελτιωμένα άλματα'
+    challenge: true
+  - title: Αποφεύγοντας τις μπάλες
+  - title: 'Δοκιμασία: τυχαίες μπάλες'
+    challenge: true
+  - title: Λέιζερ!
+  - title: 'Δοκιμασία: περισσότερα εμπόδια'
+    challenge: true
+  - title: 'Δοκιμασία: βελτιωμένη βαρύτητα'
+    challenge: true
+  - title: 'Δοκιμασία: περισσότερες ζωές'
+    challenge: true
+  - title: Και τώρα τι;
