@@ -1,10 +1,10 @@
-## Και τώρα;
+## Τι υπάρχει στη συνέχεια;
 
-Πήγαινε στο παιχνίδι εγκεφάλου [ ](https://projects.raspberrypi.org/en/projects/brain-game?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) στο οποίο μπορείτε να δημιουργήσετε το δικό σας μαθηματικό κουίζ.
+Ρίξε μια ματιά στο [Παιχνίδι σκέψης](https://projects.raspberrypi.org/en/projects/brain-game?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) στο οποίο μπορείς να δημιουργήσεις το δικό σου μαθηματικό κουίζ.
 
 \--- no-print \---
 
-Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
+Κάνε κλικ στο κουμπί για να ξεκινήσεις. Πληκτρολόγησε την απάντηση στην ερώτηση και στη συνέχεια πάτα το πλήκτρο <kbd>Enter</kbd>.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -15,6 +15,6 @@ Click the button to start. Type in the answer to the question, and then press th
 
 \--- print-only \---
 
-![Brain Game](images/brain-final.png)
+![Παιχνίδι σκέψης](images/brain-final.png)
 
 \--- /print-only \---
