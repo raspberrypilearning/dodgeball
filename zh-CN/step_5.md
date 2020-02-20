@@ -1,5 +1,5 @@
-## 挑战：改进的跳跃
+## Challenge: better jumping
 
-即使角色已经处于空中，只要玩家按下<kbd>空格，角色就会跳转</kbd>酒吧。 如果按住<kbd>空格，则可以看到此行为</kbd>酒吧。
+Even if the character is already in mid-air, it jumps whenever the player presses the <kbd>space</kbd> bar. You can see this behaviour if you hold down the <kbd>space</kbd> bar.
 
-您是否可以更改角色精灵的跳跃代码，以便角色只能跳跃` ` {：class =“ block3control”}它触动了一个蓝色平台？
+Can you change the character sprite's code for jumping so that your character can only jump `if`{:class="block3control"} it touches a blue platform?
