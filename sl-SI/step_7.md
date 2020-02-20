@@ -1,9 +1,9 @@
-## Izziv: naključne žoge
+## Challenge: random balls
 
-Žoge, ki se jim mora tvoj lik izogibati, so videti enake, pojavljajo pa se točno na tri sekunde. Ali lahko svoji igri dodaš kodo, da:
+The balls that your character has to dodge all look the same, and they appear at regular three-second intervals. Can you add code to your game so that the balls:
 
-+ Žoge ne bodo izgledale enako?
-+ Se žoge pojavijo po `naključnem`{:class="block3operators"} času?
-+ So žoge naključne velikosti?
++ Don't all look the same?
++ Appear after a `random`{:class="block3operators"} amount of time?
++ Are a random size?
 
-![posnetek zaslona](images/dodge-ball-random.png)
+![screenshot](images/dodge-ball-random.png)
