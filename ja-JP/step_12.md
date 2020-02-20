@@ -1,6 +1,6 @@
-## 次は何をしますか？
+## What next?
 
-数学クイズが作れる、[脳ゲーム](https://projects.raspberrypi.org/en/projects/brain-game?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects)プロジェクトをお試しください。
+Have a go at our [Brain game](https://projects.raspberrypi.org/en/projects/brain-game?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, in which you can create your own maths quiz.
 
 \--- no-print \---
 
