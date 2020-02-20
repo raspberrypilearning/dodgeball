@@ -1,23 +1,23 @@
-## 挑战：改进的重力
+## Challenge: improved gravity
 
-您的游戏中还有另外一个小错误：**，重力不会将角色精灵向下拉**精灵的一部分正在触摸蓝色平台。 因此，即使精灵头部接触平台，精灵也不会掉落！ 您可以自己进行测试：使角色大部分爬上梯子，然后将角色在平台下横向移动：
+There's one other small bug in your game: gravity doesn't pull the character sprite downwards if **any** part of the sprite is touching a blue platform. So even if the sprites head touches a platform, the sprite doesn't fall! You can test this yourself: make your character climb most of the way up a ladder, and then move the character sideways beneath a platform:
 
 ![screenshot](images/dodge-gravity-bug.png)
 
-要修复该错误，您首先需要给角色精灵提供一条具有不同颜色的新裤子（在**全部**服饰）。
+To fix the bug, you first need to give your character sprite new trousers that have a different colour (on **all** costumes).
 
 ![screenshot](images/dodge-trousers.png)
 
-然后替换此代码块：
+Then replace this code block:
 
 ```blocks3
     < touching color [#0000FF]? >
 ```
 
-使用以下代码块：
+with this code block:
 
 ```blocks3
     < color [#00FF00] is touching [#0000FF]? >
 ```
 
-为确保已修复该错误，请在进行这些更改后测试游戏！
+To make sure you've fixed the bug, test the game after you've made these changes!
