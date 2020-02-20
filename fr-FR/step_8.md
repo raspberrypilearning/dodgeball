@@ -1,10 +1,10 @@
-## Lasers!
+## Lasers !
 
-Pour votre jeu un peu plus difficile à compléter, vous allez ajouter des lasers!
+Pour que ton jeu soit un peu plus difficile à terminer, tu vas ajouter des lasers !
 
 \--- task \---
 
-Ajoutez un nouveau sprite à votre jeu et appelez-le `laser`. Il devrait avoir deux costumes: l'un appelé "on" et l'autre appelé "off".
+Ajoute un nouveau sprite à ton jeu et appelle-le `laser`. Il devrait avoir deux costumes: l'un appelé « allumé » et l'autre appelé « éteint ».
 
 ![capture d'écran](images/dodge-lasers-costume1.png)
 
@@ -14,7 +14,7 @@ Ajoutez un nouveau sprite à votre jeu et appelez-le `laser`. Il devrait avoir d
 
 \--- task \---
 
-Placez votre nouveau sprite laser entre deux plates-formes.
+Place ton nouveau sprite laser entre deux plates-formes.
 
 ![capture d'écran](images/dodge-lasers-position.png)
 
@@ -22,67 +22,67 @@ Placez votre nouveau sprite laser entre deux plates-formes.
 
 \--- task \---
 
-Ajoutez du code à votre sprite laser pour le faire basculer entre ses deux costumes.
+Ajoute du code à ton sprite laser pour le faire basculer entre ses deux costumes.
 
 ![sprite laser](images/laser_sprite.png)
 
 ```blocks3
-    lorsque le drapeau est cliqué
-    pour toujours
-        changer de costume en (sur v)
+    quand le drapeau vert est cliqué
+    répéter indéfiniment
+        basculer sur le costume (allumé v)
         attendre (2) secondes
-        changer de costume en (off v)
-        attendre (2)
-    secondes
+        basculer sur le costume (éteint v)
+        attendre (2) secondes
+    fin
 ```
 
-Si vous préférez, vous pouvez modifier le code présenté ci-dessus de sorte que l'image-objet `attend`{: class = "block3control"} un `aléatoire`{: class = "block3operators"} durée entre les changements de costume.
+Si tu préfères, tu peux modifier le code présenté ci-dessus de sorte que le sprite `attend`{:class="block3control"} une durée `aléatoire`{:class="block3operators"} entre les changements de costume.
 
 \--- /task \---
 
 \--- task \---
 
-Enfin, ajoutez du code à votre image-objet laser afin que celle-ci diffuse un message de «hit» lorsqu'elle touche l'image-objet du personnage.
+Enfin, ajoute du code à ton sprite laser afin que le sprite laser diffuse un message « touché » lorsqu'il touche le sprite du personnage.
 
 \--- hints \---
 
 \--- hint \---
 
-Ce code doit être très similaire au code que vous avez ajouté à votre sprite boule.
+Ce code doit être très similaire au code que tu as ajouté à ton sprite de balle.
 
 \--- /hint \---
 
 \--- hint \---
 
-Copiez le code que vous avez ajouté à l'image-objet balle pour que cette image-objet `diffuse 'hit'`': {class = "block3control"} lorsqu'il touche `à votre personnage`{: class = "block3sensing"}.
+Copie le code que tu as ajouté au sprite de balle pour que ce sprite `envoie à tous « touché »` {:class="block3control"} lorsqu'il touche `ton personnage`{:class="block3sensing"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-C'est le code que vous devriez ajouter:
+Voici le code que tu dois ajouter :
 
 ![sprite laser](images/laser_sprite.png)
 
 ```blocks3
-lorsque le drapeau vert a cliqué sur
-pour toujours 
-  si <touching (Pico walking v) ?> puis 
-    diffusion (hit v)
-  end
-end
+quand le drapeau vert est cliqué
+répéter indéfiniment 
+  si <touching (Pico walking v) ?> alors
+    envoyer à tous (touché v)
+  fin
+fin
 ```
 
 \--- /hint \---
 
 \--- /hints \---
 
-Vous n'avez pas besoin d'ajouter de code supplémentaire au sprite de votre personnage, car celui-ci sait déjà quoi faire lorsqu'il reçoit la diffusion `diffusion 'hit'`{: class = "block3control"}!
+Tu n'as pas besoin d'ajouter de code supplémentaire au sprite de ton personnage, car celui-ci sait déjà quoi faire lorsqu'il reçoit le `envoyer à tous « touché »`{:class="block3control"} !
 
 \--- /task \---
 
 \--- task \---
 
-Testez votre jeu pour voir si vous pouvez déplacer le personnage au-delà du laser. Si le laser est trop facile ou trop difficile à éviter, changez les temps d'attente `{`: class = "block3control"} dans le code de l'image-objet laser.
+Teste ton jeu pour voir si tu peux déplacer le personnage au-delà du laser. Si le laser est trop facile ou trop difficile à éviter, change les temps `d'attente`{:class="block3control"} dans le code du sprite laser.
 
 \--- /task \---
