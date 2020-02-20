@@ -1,14 +1,14 @@
-\--- no imprimir \---
+\--- no-print \---
 
 This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2).
 
-\--- no imprimir \---
+\--- /no-print \---
 
-## Introducción
+## Introduction
 
 You'll learn how to create a platform game in which the player has to dodge moving balls to reach the end of the level.
 
-\--- no imprimir \---
+\--- no-print \---
 
 Click the green flag to start, and then use the arrow keys to move and the <kbd>space</kbd> key to jump.
 
@@ -17,7 +17,7 @@ Click the green flag to start, and then use the arrow keys to move and the <kbd>
   <img src="images/dodge-final.png">
 </div>
 
-\--- no imprimir \---
+\--- /no-print \---
 
 \--- print-only \---
 
@@ -31,13 +31,13 @@ Click the green flag to start, and then use the arrow keys to move and the <kbd>
 
 ### Hardware
 
-+ Una computadora capáz de hacer funcionar el Scratch 3
++ A computer capable of running Scratch 3
 
 ### Software
 
-+ Scratch 3 ([online](https://scratch.mit.edu/projects/editor/){: target="_blank"} o bien [offline](https://scratch.mit.edu/download/){: target="_blank)
++ Scratch 3 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/download/))
 
-### Descargas
+### Downloads
 
 You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
