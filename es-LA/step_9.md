@@ -6,7 +6,7 @@ If you think your game is still too easy, you can add more obstacles to it. The 
 + Platforms that appear and disappear
 + Falling tennis balls that must be avoided
 
-![captura de pantalla](images/dodge-obstacles.png)
+![screenshot](images/dodge-obstacles.png)
 
 You could even design another backdrop to create the next level. Then add code so that, when your character reaches the green door, the game switches to the new background:
 
