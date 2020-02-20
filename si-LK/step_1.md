@@ -1,16 +1,16 @@
 \--- no-print \---
 
-මෙය **Scratch 3** අනුවාදයේ ව්‍යාපෘතියක් වේ . මෙම ව්‍යාපෘතියේ [Scratch 2 අනුවාදයක් ද ඇත](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2).
 
 \--- /no-print \---
 
-## හැදින්වීම
+## Introduction
 
-මෙම මට්ටම අවසානයේදී ක්‍රීඩකයා වේදිකාවේ අවසානය කරා ළඟා වීමට චලනය වන බෝල මගහැර ගමන් කළ යුතු ආකාරයේ ක්‍රීඩාවක් නිර්මාණය කරන්නේ කෙසේදැයි ඔබ ඉගෙන ගනු ඇත.
+You'll learn how to create a platform game in which the player has to dodge moving balls to reach the end of the level.
 
 \--- no-print \---
 
-ක්‍රීඩාව ආරම්භ කිරීමට කොළ(green) කොඩිය(flag එක) ක්ලික් කරන්න, ඉන්පසු ගමන්කිරීමට ඊතල(arrow) යතුරු(keys) සහ පැනීමට <kbd>ඉඩ(space)</kbd> යතුර(key) භාවිතා කරන්න.
+Click the green flag to start, and then use the arrow keys to move and the <kbd>space</kbd> key to jump.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/251809924/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,7 +21,7 @@
 
 \--- print-only \---
 
-![ඩොජ්බෝල්(dogeball) ක්‍රීඩාව ක්‍රීඩා කරනලදී](images/dodgeball-showcase.png)
+![dodgeball game being played](images/dodgeball-showcase.png)
 
 \--- /print-only \---
 
@@ -29,15 +29,15 @@
 
 ## title: What you will need
 
-### දෘඩාංග(Hardware)
+### Hardware
 
-+ Scratch 3 ධාවනය(run) කළ හැකි පරිගණකයක්
++ A computer capable of running Scratch 3
 
-### මෘදුකාංග(Software)
+### Software
 
-+ Scratch 3 ([අන්තර්ජාල ගතව(online)](https://scratch.mit.edu/projects/editor/) හෝ [අන්තර්ජාලයට නොබැඳිව(offline)](https://scratch.mit.edu/download/))
++ Scratch 3 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/download/))
 
-### බාගන්න(Downloads)
+### Downloads
 
 You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
@@ -47,9 +47,9 @@ You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 ## title: What you will learn
 
-+ sprite එක පාලනය(control) කිරීමට යතුරු(key) පුවරුව(board) භාවිතා කරන ආකාරය.
-+ `එසේ(if), නම්(then), නැත්නම්(else)`{:class="block3control"} Scratch කට්ටි(block) භාවිතා කරන්නේ කෙසේද යන්න.
-+ sprite එකක් ක්ලෝන(clone) කරන්නේ කෙසේද යන්න
++ How to use the keyboard to control a sprite
++ How to use the `if, then, else`{:class="block3control"} Scratch block
++ How to clone a sprite
 
 \--- /collapse \---
 
