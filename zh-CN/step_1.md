@@ -1,16 +1,16 @@
 \--- no-print \---
 
-这是项目的**Scratch 3** 版本。 该项目还有一个[ Scratch 2版本](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2) 。
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2).
 
 \--- /no-print \---
 
-## 介绍
+## Introduction
 
-您将学习如何创建一个平台游戏，在该游戏中玩家必须躲避移动球才能到达关卡的尽头。
+You'll learn how to create a platform game in which the player has to dodge moving balls to reach the end of the level.
 
 \--- no-print \---
 
-单击绿色标志开始，然后使用箭头键移动，使用<kbd>空格</kbd>键跳跃。
+Click the green flag to start, and then use the arrow keys to move and the <kbd>space</kbd> key to jump.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/251809924/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,7 +21,7 @@
 
 \--- print-only \---
 
-![玩躲避球游戏](images/dodgeball-showcase.png)
+![dodgeball game being played](images/dodgeball-showcase.png)
 
 \--- /print-only \---
 
@@ -29,15 +29,15 @@
 
 ## title: What you will need
 
-### 硬件
+### Hardware
 
-+ 一台能够运行Scratch 3的电脑
++ A computer capable of running Scratch 3
 
-### 软件
+### Software
 
-+ Scratch 3（[在线版](https://scratch.mit.edu/projects/editor/)或[离线版](https://scratch.mit.edu/download/)）
++ Scratch 3 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/download/))
 
-### 下载
+### Downloads
 
 You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
@@ -47,9 +47,9 @@ You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 ## title: What you will learn
 
-+ 如何使用键盘控制精灵
-+ 如何使用`if,then,else`{:class="block3control"} Scratch 块
-+ 如何克隆精灵
++ How to use the keyboard to control a sprite
++ How to use the `if, then, else`{:class="block3control"} Scratch block
++ How to clone a sprite
 
 \--- /collapse \---
 
