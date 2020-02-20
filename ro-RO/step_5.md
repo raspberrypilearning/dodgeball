@@ -1,5 +1,5 @@
-## Provocare: sărituri mai bune
+## Challenge: better jumping
 
-Chiar dacă personajul este deja în mijlocul aerului, el sare ori de câte ori jucătorul apasă pe bara <kbd>spațiu</kbd> bar. Puteți vedea acest comportament dacă țineți apăsată tasta <kbd>spațiul</kbd>.
+Even if the character is already in mid-air, it jumps whenever the player presses the <kbd>space</kbd> bar. You can see this behaviour if you hold down the <kbd>space</kbd> bar.
 
-Puteți modifica codul sprite al caracterului pentru sărituri, astfel încât personajul dvs. să poată sări doar `dacă`{: class = "block3control"} atinge o platformă albastră?
+Can you change the character sprite's code for jumping so that your character can only jump `if`{:class="block3control"} it touches a blue platform?
