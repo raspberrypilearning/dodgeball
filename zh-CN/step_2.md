@@ -1,28 +1,28 @@
-## 角色移动
+## Character movement
 
-首先创建一个可以左右移动并可以爬上梯子的角色。
+Start by creating a character that can move left and right, and can climb up ladders.
 
 \--- task \---
 
-打开 'Dodgeball' Scratch 启动项目。
+Open the 'Dodgeball' Scratch starter project.
 
-**在线：** 在 [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target =“_ blank”}打开初始项目。
+**Online:** open the starter project at [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}.
 
-如果您有一个Scratch帐户，您可以通过点击**Remix**复制。
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-**离线：** 从 [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) 下载初始项目，然后使用Scratch离线编辑器打开它。
+**Offline:** download the starter project from [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) and then open it using the offline editor.
 
 \--- /task \---
 
-该项目包含一个背景平台：
+The project contains a backdrop with platforms:
 
-![躲避球项目背景](images/dodge-background.png)
+![dodgeball project background](images/dodge-background.png)
 
 \--- task \---
 
-选择一个新的精灵作为玩家将控制的角色，并将其添加到您的项目中。 最好选择带有多个服装的精灵，这样可以使其看起来好像正在行走。
+Choose a new sprite as the character the player will control, and add it to your project. It's best if you choose a sprite with multiple costumes, so that you can make it look as though it's walking.
 
-![选择一个精灵](images/dodge-characters.png)
+![pick a sprite](images/dodge-characters.png)
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -30,7 +30,7 @@
 
 \--- task \---
 
-向您的角色精灵添加代码块，以便玩家可以使用箭头键来移动角色。 当玩家按下向右箭头时，角色应指向右侧，移动几步，然后换成下一个造型：
+Add code blocks to your character sprite so that the player can use the arrow keys to move the character around. When the player presses the right arrow, the character should point right, move a few steps, and change to the next costume:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -49,7 +49,7 @@ end
 
 \--- task \---
 
-如果您的精灵不适合，请调整其大小。
+If your sprite doesn't fit, adjust its size.
 
 ![set sprite size so it fits](images/dodge-sprite-size-annotated.png)
 
@@ -57,7 +57,7 @@ end
 
 \--- task \---
 
-通过单击标志并按住向右箭头键来测试您的角色。 您的角色是否向右移动？ 您的角色看起来像走路吗？
+Test out your character by clicking the flag and then holding down the right arrow key. Does your character move to the right? Does your character look like it is walking?
 
 ![screenshot](images/dodge-walking.png)
 
@@ -65,19 +65,19 @@ end
 
 \--- task \---
 
-将代码块添加到字符精灵的`永久`{:class="block3control"}循环，这样当左箭头按下时，它就可以行走了。
+Add code blocks to the character sprite's `forever`{:class="block3control"} loop so that it walks left if the left arrow key is pressed.
 
 \--- hints \---
 
 \--- hint \---
 
-为了你的角色能够移动到左边，你需要在``{:class="block3control"} 循环中添加另一个`<0>{:class="block3control"} 块。 在这个新的<code>if`{:class="block3control"}模块中，添加代码使你的角色精灵`move`{:class="block3motion"} 左边。
+So that your character can move to the left, you'll need to add another `if`{:class="block3control"} block inside the `forever`{:class="block3control"} loop. In this new `if`{:class="block3control"} block, add code to make your character sprite `move`{:class="block3motion"} to the left.
 
 \--- /hint \---
 
 \--- hint \---
 
-复制您创建的代码，使角色向右走。 然后按`键` {：class =“ block3sensing”}到`左箭头` {：class =“ block3sensing”}，然后更改`方向` {：class =“ block3motion”}到` -90 ` 。
+Copy the code you created to make the character walk to the right. Then set the `key pressed`{:class="block3sensing"} to the `left arrow`{:class="block3sensing"}, and change the `direction`{:class="block3motion"} to `-90`.
 
 ```blocks3
 if <key (right arrow v) pressed? > then
@@ -91,7 +91,7 @@ end
 
 \--- hint \---
 
-你的代码应该像这样：
+Your code should look like this now:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -119,15 +119,15 @@ end
 
 \--- task \---
 
-测试您的新代码，以确保它可以工作。 向左走时，角色会颠倒过来吗？
+Test your new code to make sure that it works. Does your character turn upside-down when walking to the left?
 
 ![screenshot](images/dodge-upside-down.png)
 
-如果是这样，您可以通过单击**方向来解决此问题**角色精灵，然后单击左右箭头。
+If so, you can fix this by clicking on the **direction** of your character sprite, and then clicking on the left-right arrow.
 
 ![screenshot](images/dodge-left-right-annotated.png)
 
-或者如果您喜欢，您也可以通过将此块添加到您角色脚本的开头来解决问题：
+Or if you prefer, you can also fix the problem by adding this block to the start of your character's script:
 
 ```blocks3
 set rotation style [left-right v]
@@ -137,9 +137,9 @@ set rotation style [left-right v]
 
 \--- task \---
 
-要爬粉红色的梯子，每当按下向上箭头**时，角色精灵应在舞台上向上移动几步，然后**字符触摸正确的颜色。
+To climb a pink ladder, your character sprite should move a few steps upwards on the Stage whenever the up arrow is pressed **and** the character is touching the correct colour.
 
-在你的角色中添加`永久`{:class="block3control"} 循环到`change`{:class="block3motion"}字符`y` (垂直)位置`if`{:class="block3controll"}, 并且角色是 `触摸彩色粉红色`{:class="block3sing"}。
+Add inside your character's `forever`{:class="block3control"} loop to `change`{:class="block3motion"} the character's `y` (vertical) position `if`{:class="block3control"} the `up arrow is pressed`{:class="block3sensing"} and the character is `touching the colour pink`{:class="block3sensing"}.
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -153,7 +153,7 @@ set rotation style [left-right v]
 
 \--- task \---
 
-测试您的代码。 您可以让角色爬上粉红色的梯子并到达关卡的尽头吗？
+Test your code. Can you make the character climb the pink ladders and get to the end of the level?
 
 ![screenshot](images/dodge-test-character.png)
 
