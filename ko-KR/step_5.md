@@ -1,5 +1,5 @@
-## 도전 과제 : 더 나은 점프
+## Challenge: better jumping
 
-캐릭터가 이미 공중에 있더라도 플레이어가 <kbd> 스페이스</kbd>를 누를 때마다 점프합니다. <kbd>스페이스</kbd> 키를 계속 누르고 있으면 이 동작을 볼 수 있습니다 
+Even if the character is already in mid-air, it jumps whenever the player presses the <kbd>space</kbd> bar. You can see this behaviour if you hold down the <kbd>space</kbd> bar.
 
-`만약`{: class = "block3control"} 블록을 사용해 캐릭터가 파란색 플랫폼에 닿았을 때만 점프 할 수 있도록 캐릭터 스프라이트 코드를 변경할 수 있습니까?
+Can you change the character sprite's code for jumping so that your character can only jump `if`{:class="block3control"} it touches a blue platform?
