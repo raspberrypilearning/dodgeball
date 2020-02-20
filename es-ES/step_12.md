@@ -1,6 +1,6 @@
-## Y ahora ¿qué?
+## What next?
 
-Prueba nuestro proyecto [Juego Mental](https://projects.raspberrypi.org/en/projects/brain-game?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), en el que puedes crear tu propio test de matemáticas.
+Have a go at our [Brain game](https://projects.raspberrypi.org/en/projects/brain-game?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, in which you can create your own maths quiz.
 
 \--- no-print \---
 
