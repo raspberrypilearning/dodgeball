@@ -1,10 +1,10 @@
 ## Esquive des balles
 
-Votre personnage peut maintenant se déplacer et sauter, il est donc temps d'ajouter quelques balles que le personnage doit éviter.
+Ton personnage peut maintenant se déplacer et sauter, il est donc temps d'ajouter quelques balles que le personnage doit éviter.
 
 \--- task \---
 
-Créer un nouveau sprite de balle. Vous pouvez choisir n'importe quel type de balle que vous aimez.
+Créer un nouveau sprite de balle. Tu peux choisir n'importe quel type de balle que tu aimes.
 
 ![capture d'écran](images/dodge-balls.png)
 
@@ -12,51 +12,51 @@ Créer un nouveau sprite de balle. Vous pouvez choisir n'importe quel type de ba
 
 \--- task \---
 
-Redimensionnez le sprite de la balle afin que le personnage puisse sauter par-dessus. Essayez de faire sauter le personnage par-dessus le ballon pour vérifier si le ballon a la bonne taille.
+Redimensionne le sprite de la balle afin que le personnage puisse sauter par-dessus. Essaie de faire sauter le personnage par-dessus le ballon pour vérifier si le ballon a la bonne taille.
 
-![screenshot](images/dodge-ball-resize.png)
+![capture d'écran](images/dodge-ball-resize.png)
 
 \--- /task \---
 
 \--- task \---
 
-Ajoutez ce code à votre sprite boule:
+Ajoute ce code à ton sprite de balle :
 
-![balle sprite](images/ball_sprite.png)
+![sprite de balle](images/ball_sprite.png)
 
 ```blocks3
-lorsque le drapeau vert a cliqué
-masquer
-pour toujours 
+quand le drapeau vert est cliqué
+cacher
+répéter indéfiniment 
   attendre (3) secondes
-  créer un clone de (moi v)
+  créer un clone de (moi-même v)
 fin
 ```
 
 ```blocks3
-quand je commence comme clone
+quand je commence comme un clone
 aller à x: (160) y: (160)
 montrer
-répéter (22) 
-  changer y par (-4)
+répéter (22) fois
+  ajouter (-4) à y
 fin
-répéter (170) 
-  changer x par (-2)
-  tourner ccw (6) degrés
+répéter (170) fois 
+  ajouter (-2) à x
+  tourner à gauche de (6) degrés
 fin
-répétition (30) 
-  changer y par (-4)
+répéter (30) fois
+  ajouter (-4) à y
 fin
 supprimer ce clone
 ```
 
-Ce code crée un nouveau clone du sprite balle toutes les trois secondes. Chaque nouveau clone se déplace le long de la plate-forme supérieure, puis tombe.
+Ce code crée un nouveau clone du sprite de balle toutes les trois secondes. Chaque nouveau clone se déplace le long de la plate-forme supérieure, et ensuite tombe.
 
 \--- /task \---
 
 \--- task \---
 
-Cliquez sur le drapeau pour tester le jeu.
+Clique sur le drapeau pour tester le jeu.
 
 ![capture d'écran](images/dodge-ball-test.png)
 
@@ -64,7 +64,7 @@ Cliquez sur le drapeau pour tester le jeu.
 
 \--- task \---
 
-Ajoutez plus de code à votre image-objet balle afin que ses clones se déplacent sur les trois plates-formes.
+Ajoute plus de code à ton sprite de balle afin que ces clones se déplacent sur les trois plates-formes.
 
 ![capture d'écran](images/dodge-ball-more-motion.png)
 
@@ -72,29 +72,29 @@ Ajoutez plus de code à votre image-objet balle afin que ses clones se déplacen
 
 \--- hint \---
 
-Répétez les blocs de code que vous avez utilisés pour déplacer le clone de sprite boule sur la première plate-forme. Vous devez modifier les nombres `x`{: class = "block3motion"}, `y`{: class = "block3motion"} et `répéter`{: class = "block3control"} pour que les clones suivent correctement les plates-formes. .
+Répète les blocs de code que tu as utilisés pour déplacer le clone de sprite de balle sur la première plate-forme. Tu dois modifier les nombres `x`{:class="block3motion"}, `y`{:class="block3motion"} et `répéter`{:class="block3control"} les nombres pour que les clones suivent correctement les plates-formes.
 
 \--- /hint \---
 
 \--- hint \---
 
-Ce sont les blocs dont vous avez besoin. Assurez-vous de les ajouter dans le bon ordre.
+Ce sont les blocs dont tu as besoin. Assure-toi de les ajouter dans le bon ordre.
 
-![balle sprite](images/ball_sprite.png)
+![sprite de balle](images/ball_sprite.png)
 
 ```blocks3
-répéter (170) 
-  changer x par (-2)
-  tour par tour (6)
+répéter (170) fois
+  ajouter (-2) à x
+  tourner à gauche de (6) degrés
 fin
 
-répéter (180) 
-  changer x par (2)
-  tourner de gauche à droite (6) degrés
+répéter (180) fois
+  ajouter (2) à x
+  tourner à droite de (6) degrés
 fin
 
-répéter (30) 
-  changer y par (-4)
+répéter (30) fois 
+  ajouter (-4) à y
 fin
 ```
 
@@ -102,34 +102,34 @@ fin
 
 \--- hint \---
 
-Le code de votre clone de sprite balle devrait ressembler à ceci:
+Le code de ton clone du sprite de balle devrait ressembler à ceci :
 
-![balle sprite](images/ball_sprite.png)
+![sprite de balle](images/ball_sprite.png)
 
 ```blocks3
-quand je commence en tant que clone
+quand je commence comme un clone
 aller à x: (160) y: (160)
 montrer
-répéter (22) 
-  changer y par (-4)
+répéter (22) fois
+  ajouter (-4) à y 
 fin
-répéter (170) 
-  changer x par (-2)
-  tournez ccw (6)
+répéter (170) fois 
+  ajouter (-2) à x 
+  tournez à gauche de (6) degrés
 fin
-répétez (30) 
-  changez y par (-4)
+répétez (30) fois
+  ajouter (-4) à y
 fin
-répétez (180) 
-  changez x (2)
-  tournez (6) degrés
+répétez (180) fois
+  ajouter (2) à x
+  tournez à droite de (6) degrés
 fin
-répétez (30) 
-  changer y de (-4)
+répétez (30) fois
+  ajouter (-4) à y
 fin
-répéter (170) 
-  changer x de (-2)
-  virage ccw (6) degrés
+répéter (170) fois 
+  ajouter (-2) à x 
+  tourner à gauche de (6) degrés
 fin
 supprimer ce clone
 ```
@@ -142,32 +142,32 @@ supprimer ce clone
 
 \--- task \---
 
-Ajoutez maintenant quelques blocs de code pour diffuser (envoyer) un message si votre personnage est touché par une balle!
+Ajoute maintenant quelques blocs de code pour diffuser (envoyer) un message si ton personnage est touché par une balle !
 
-Ajoutez ce code à votre sprite boule:
+Ajoute ce code à ton sprite de balle :
 
-![balle sprite](images/ball_sprite.png)
+![sprite de balle](images/ball_sprite.png)
 
 ```blocks3
     quand je commence comme un clone
-    pour toujours
-        si < touchants (Pico walking v)? > puis
-            diffusion (hit v)
-        end
-    end
+    répéter indéfiniment
+        si < touche le (Pico walking v) ? > alors
+            envoyer à tous (touché v)
+        fin
+    fin
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Enfin, ajoutez des blocs de code au sprite de votre personnage pour le ramener à sa position de départ lorsqu'il reçoit le message `hit`:
+Enfin, ajoute des blocs de code au sprite de ton personnage pour le ramener à sa position de départ lorsqu'il reçoit le message `touché` :
 
-![pico marche sprite](images/pico_walking_sprite.png)
+![sprite pico walking](images/pico_walking_sprite.png)
 
 ```blocks3
-    quand je reçois [hit v]
-    point en direction (90)
+    quand je reçois [touché v]
+    s'orienter à (90)
     aller à x: (-210) y: (-120)
 ```
 
@@ -175,6 +175,6 @@ Enfin, ajoutez des blocs de code au sprite de votre personnage pour le ramener �
 
 \--- task \---
 
-Testez votre code. Vérifiez si le personnage revient au début après avoir touché une balle.
+Teste ton code. Vérifie si le personnage revient au début après avoir touché une balle.
 
 \--- /task \---
