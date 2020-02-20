@@ -1,23 +1,23 @@
-## Provocare: îmbunătățirea gravitației
+## Challenge: improved gravity
 
-Există încă un bug mic în joc: gravitatea nu trage caracterul sprite în jos dacă **orice** parte a sprite atinge o platformă albastră. Deci, chiar dacă capul sprites atinge o platformă, sprite nu cădea! Puteți încerca singuri acest lucru: faceți ca personajul să urce mai mult pe o scară și apoi mutați caracterul lateral sub o platformă:
+There's one other small bug in your game: gravity doesn't pull the character sprite downwards if **any** part of the sprite is touching a blue platform. So even if the sprites head touches a platform, the sprite doesn't fall! You can test this yourself: make your character climb most of the way up a ladder, and then move the character sideways beneath a platform:
 
-![captură de ecran](images/dodge-gravity-bug.png)
+![screenshot](images/dodge-gravity-bug.png)
 
-Pentru a rezolva bug - ul, trebuie mai întâi pentru a da sprite personaj pantaloni noi , care au o culoare diferită (pe **toate** costume).
+To fix the bug, you first need to give your character sprite new trousers that have a different colour (on **all** costumes).
 
-![captură de ecran](images/dodge-trousers.png)
+![screenshot](images/dodge-trousers.png)
 
-Apoi înlocuiți acest bloc de cod:
+Then replace this code block:
 
 ```blocks3
     < touching color [#0000FF]? >
 ```
 
-cu acest bloc de cod:
+with this code block:
 
 ```blocks3
     < color [#00FF00] is touching [#0000FF]? >
 ```
 
-Pentru a vă asigura că ați rezolvat problema, încercați jocul după ce ați făcut aceste modificări!
+To make sure you've fixed the bug, test the game after you've made these changes!
