@@ -3,38 +3,38 @@ hero_image: images/banner.png
 listed: true
 ingredient: false
 copyedit: false
-title: Između dvije vatre
-description: Kreiraj platformsku igru u kojoj treba da izbjegavaš lopte koje se kreću i dođeš do kraja nivoa.
-version: 3
+title: Dodgeball
+description: Create a platform game in which you dodge moving balls to reach the end of the level
+version: 4.0.0
 last_tested: 2018-10-10
 steps:
   - 
-    title: Uvod
+    title: Introduction
   - 
-    title: Kretanje karaktera
+    title: Character movement
   - 
-    title: "Izazov: Dovršavanje nivoa"
+    title: "Challenge: completing the level"
     challenge: true
   - 
-    title: Gravitacija i skokovi
+    title: Gravity and jumping
   - 
-    title: 'Izazov: Poboljšan skok'
+    title: 'Challenge: improved jumping'
     challenge: true
   - 
-    title: Izbjegavanje lopti
+    title: Dodging balls
   - 
-    title: 'Izazov: Slučajne lopte'
+    title: 'Challenge: random balls'
     challenge: true
   - 
-    title: Laseri!
+    title: Lasers!
   - 
-    title: 'Izazov: više prepreka'
+    title: 'Challenge: more obstacles'
     challenge: true
   - 
-    title: 'Izazov: Poboljšana gravitacija'
+    title: 'Challenge: improved gravity'
     challenge: true
   - 
-    title: 'Izazov: Više života'
+    title: 'Challenge: more lives'
     challenge: true
   - 
-    title: 'Izazov: više olovaka'
+    title: What next?
