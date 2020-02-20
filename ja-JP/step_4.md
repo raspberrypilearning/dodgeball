@@ -1,129 +1,129 @@
-## 重力とジャンプ
+## Gravity and jumping
 
-次に、キャラクターをよりリアルに動かします: ゲームに重力を加えて、キャラクターにジャンプする能力を与えます。
+Now you're going to make your character move more realistically: you're going to add gravity to your game and give the character the ability to jump.
 
 \--- task \---
 
-ゲーム内でキャラクターを動かして、プラットフォームから離れるようにします。 空の空間に足を踏み入れることができると思いますか？
+In the game, move your character so that it walks off a platform. Do you see that it can walk into empty space?
 
-![スクリーンショット](images/dodge-no-gravity.png)
+![screenshot](images/dodge-no-gravity.png)
 
 \--- /task \---
 
 \--- task \---
 
-これを修正するには、ゲームに重力を追加します。 これを行うには、` 重力` {:class="block3variables"}という新しい変数を作成します。
+To fix this, add gravity to your game. To do this, create a new variable called `gravity`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
-必要に応じて、この変数をステージから非表示にできます。
+You can hide this variable from your Stage if you want to.
 
-![スクリーンショット](images/dodge-gravity-annotated.png)
+![screenshot](images/dodge-gravity-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-`重力`にマイナスの値にし、この`重力`の値を使ってキャラクターのy座標を繰り返し変更する新しいコードブロックを追加します:
+Add these new code blocks that set `gravity` to a negative number and use the value of `gravity` to repeatedly change your character's y-coordinate:
 
-![ピコウォーキングスプライト](images/pico_walking_sprite.png)
+![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    フラグが押されたとき
-    [重力 v] を[-4] にする
-    ずっと
-        y座標を (gravity) ずつ変える
-    終了
+    when flag clicked
+    set [gravity v] to [-4]
+    forever
+        change y by (gravity)
+    end
 ```
 
 \--- /task \---
 
 \--- task \---
 
-フラグをクリックし、キャラクターをステージの上部にドラッグします。 何が起こった？ 重力は期待どおりに機能しますか？
+Click the flag, and then drag your character to the top of the Stage. What happens? Does the gravity work as you expect?
 
-![スクリーンショット](images/dodge-gravity-drag.png)
+![screenshot](images/dodge-gravity-drag.png)
 
 \--- /task \---
 
 \--- task \---
 
-重力は、キャラクタースプライトをプラットフォームやはしごの中では動かしてはいけません！ ` もし` {:class="block3control"}ブロックをコードに追加し、キャラクターが空中にあるときにのみ重力が機能するようにします。 重力コードは次のようになります。
+Gravity shouldn't move the character sprite through a platform or a ladder! Add an `if`{:class="block3control"} block to your code to only let the gravity work when the character is in mid-air. The gravity code should then look like this:
 
-![ピコウォーキングスプライト](images/pico_walking_sprite.png)
+![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    フラグが押されたとき
-    [重力 v] を[-4] にする
-    ずっと
-        もし <  <touching color [#0000FF]?> または<touching color [#FF69B4]?> > でない < > なら
-            y座標を(重力) にする
-        終了
-   終了
+    when flag clicked
+    set [gravity v] to [-4]
+    forever
+        if < not < <touching color [#0000FF]?> or <touching color [#FF69B4]?> > > then
+            change y by (gravity)
+        end
+    end
 ```
 
 \--- /task \---
 
 \--- task \---
 
-ゲームをもう一度テストして、重力が正しく機能するかどうかを確認してください。 キャラクタースプライトがプラットフォームまたははしごに触れると、落下しなくなりますか？ キャラクターをプラットフォームの端から歩いて落とし、下のレベルに落とすことができますか？
+Test the game again to see whether gravity works correctly now. Does your character sprite stop falling when it touches a platform or a ladder? Can you make the character walk off the edge of platforms and fall onto the level below?
 
-![スクリーンショット](images/dodge-gravity-test.png)
+![screenshot](images/dodge-gravity-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-プレーヤーが<kbd>スペース</kbd>キーを押すたびにキャラクターをジャンプさせるコードを追加します これを行う非常に簡単な方法の1つは、キャラクターを数回上に移動することです。
+Now add code to make your character jump whenever the player presses the <kbd>space</kbd> key. One very easy way to do this is to move your character up a few times:
 
-![ピコウォーキングスプライト](images/pico_walking_sprite.png)
+![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    [スペース v] キーが押されたとき
-    (10) 回繰り返す
-        y座標を (4) ずつ変える
-    終了
+    when [space v] key pressed
+    repeat (10)
+        change y by (4)
+    end
 ```
 
-重力がキャラクターを常に4ピクセル押し下げているため、y座標で`(4) ずつ変わる ` {:class="block3motion"} ブロックの中で、` 4 `より大きい数を選択する必要があります 。 キャラクターがジャンプする高さに満足するまで数を変更します。
+Because gravity is constantly pushing your character down by 4 pixels, you need to choose a number greater than `4` in your `change y by (4)`{:class="block3motion"} block. Change the number until you're happy with the height the character jumps.
 
 \--- /task \---
 
 \--- task \---
 
-コードをテストしましょう。 ジャンプの動きがあまり滑らかではないことに注意してください。 ジャンプをより滑らかに見せるためには、キャラクタースプライトを少しずつ小さな数で動かして、高くならないようにする必要があります。
+Test out your code. Notice that the jumping movement isn't very smooth. To make jumping look smoother, you need to move your character sprite by smaller and smaller amounts, until it is not rising any higher.
 
 \--- /task \---
 
 \--- task \---
 
-これを行うには、` ジャンプの高さ` {:class="block3variables"}という新しい変数を作成します。 繰り返しますが、必要に応じてこの変数を非表示にできます。
+To do this, create a new variable called `jump height`{:class="block3variables"}. Again, you can hide this variable if you prefer.
 
 \--- /task \---
 
 \--- task \---
 
-キャラクタースプライトに追加したジャンプコードを削除し、代わりにこのコードを追加します。
+Delete the jumping code you added to your character sprite, and add this code instead:
 
-![ピコウォーキングスプライト](images/pico_walking_sprite.png)
+![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    [space v] キーが押されたとき
-    [ジャンプの高さ v] を[8] にする
-    < (ジャンプの高さ) = [0] > まで繰り返す
-        y座標を(ジャンプの高さ) ずつ変える
-        [ジャンプの高さ v] を(-0.5) ずつ変える
-    終了
+    when [space v] key pressed
+    set [jump height v] to [8]
+    repeat until < (jump height) = [0] >
+        change y by (jump height)
+        change [jump height v] by (-0.5)
+    end
 ```
 
-このコードは、キャラクターを8ピクセルずつ上に移動し、7.5ピクセル、次に7ピクセル、というように、それ以上高くならなくなるまで行います。 これにより、ジャンプがより滑らかになります。
+This code moves your character up by 8 pixels, then 7.5 pixels, then 7 pixels, and so on, until it does not rise any higher. This makes jumping look much smoother.
 
 \--- /task \---
 
 \--- task \---
 
-`繰り返し` {:class="block3control"} のはじまる前にある`ジャンプ高さ`{:class="block3variables"} 変数の値を変更します。 次に、ゲームをテストします。
+Change the value of the `jump height`{:class="block3variables"} variable that is set before the `repeat`{:class="block3control"} starts. Then test your game.
 
-キャラクターがジャンプする高さに満足するまでこの2つのステップを繰り返します。
+Repeat these two steps until you're happy with how high the character jumps.
 
 \--- /task \---
