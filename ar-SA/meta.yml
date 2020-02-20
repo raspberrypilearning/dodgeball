@@ -4,7 +4,7 @@ listed: true
 ingredient: false
 copyedit: false
 title: تفادي الكرات
-description: اصنع لعبة منصات تتفادى فيها الكرات المتحركة لتصل إلى نهاية المستوى.
+description: Create a platform game in which you dodge moving balls to reach the end of the level
 version: 4.0.0
 last_tested: 2018-10-10
 steps:
@@ -13,28 +13,28 @@ steps:
   - 
     title: حركة الشخصية
   - 
-    title: "التحدي: إنهاء المستوى"
+    title: "Challenge: completing the level"
     challenge: true
   - 
     title: الجاذبية و القفز
   - 
-    title: 'التحدي: تحسين القفز'
+    title: 'Challenge: improved jumping'
     challenge: true
   - 
     title: تفادي الكرات
   - 
-    title: 'التحدي: كرات عشوائية'
+    title: 'Challenge: random balls'
     challenge: true
   - 
     title: أشعة الليزر!
   - 
-    title: 'التحدي: عوائق أخرى'
+    title: 'Challenge: more obstacles'
     challenge: true
   - 
-    title: 'التحدي: تحسين الجاذبية'
+    title: 'Challenge: improved gravity'
     challenge: true
   - 
-    title: 'التحدي: محاولات أخرى'
+    title: 'Challenge: more lives'
     challenge: true
   - 
     title: ماذا بعد؟
