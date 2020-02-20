@@ -1,74 +1,74 @@
-## Laserji!
+## Lasers!
 
-Da bo tvoja igra težja, dodaj še laserje!
+To your game a little harder to complete, you are going to add lasers!
 
 \--- task \---
 
-Igri dodaj novo figuro in jo poimenuj `laser`. Imeti mora dva videza: enega, ki se imenuje 'vklopi' in drugega z imenom 'izklopi'.
+Add a new sprite to your game and call it `laser`. It should have two costumes: one called 'on', and one called 'off'.
 
-![posnetek zaslona](images/dodge-lasers-costume1.png)
+![screenshot](images/dodge-lasers-costume1.png)
 
-![posnetek zaslona](images/dodge-lasers-costume2.png)
+![screenshot](images/dodge-lasers-costume2.png)
 
 \--- /task \---
 
 \--- task \---
 
-Namesti svoj laser med dve ploščadi.
+Place your new laser sprite between two platforms.
 
-![posnetek zaslona](images/dodge-lasers-position.png)
+![screenshot](images/dodge-lasers-position.png)
 
 \--- /task \---
 
 \--- task \---
 
-Figuri laserja dodaj kodo, ki bo preklapljala med obema videzoma.
+Add code to your laser sprite to make it switch between its two costumes.
 
-![figura laser](images/laser_sprite.png)
+![laser sprite](images/laser_sprite.png)
 
 ```blocks3
-    ko je kliknjena zelena zastavica
-ponavljaj 
-  zamenjaj videz na (vklopi v)
-  počakaj (2) sekund
-  zamenjaj videz na (izklopi v)
-  počakaj (2) sekund
-end
+    when flag clicked
+    forever
+        switch costume to (on v)
+        wait (2) seconds
+        switch costume to (off v)
+        wait (2) seconds
+    end
 ```
 
-Če hočeš, lahko spremeniš zgornjo kodo, tako da figura `počaka`{:class="block3control"} `nakljkučno`{:class="block3operators"} časa med spremembo videza.
+If you prefer, you can change the code shown above so that the sprite `waits`{:class="block3control"} a `random`{:class="block3operators"} amount of time between costume changes.
 
 \--- /task \---
 
 \--- task \---
 
-Zdaj dodaj figuri laserja še kodo, da bo objavila sporočilo 'zadet', ko se dotakne lika figure.
+Finally, add code to your laser sprite so that the laser sprite broadcasts a 'hit' message when it touches the character sprite.
 
 \--- hints \---
 
 \--- hint \---
 
-Ta koda je zelo podobna kodi, ki si jo dodal-a figuri žoge.
+This code should be very similar to the code you added to your ball sprite.
 
 \--- /hint \---
 
 \--- hint \---
 
-Skopiraj kodo, ki si jo doda-al figuri žoge, da `objavi 'zadet'`{:class="block3control"}, kadar `se dotika tvojega lika`{:class="block3sensing"}.
+Copy the code you add to the ball sprite to make this sprite `broadcast 'hit'`{:class="block3control"} when it is `touching your character`{:class="block3sensing"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-To je koda, ki jo moraš dodati:
+This is the code you should add:
 
-![figura laser](images/laser_sprite.png)
+![laser sprite](images/laser_sprite.png)
 
 ```blocks3
-ko je kliknjena zelena zastavica
-ponavljaj 
-  če <se dotika (Pico walking v) ?> potem 
-    objavi (zadet v)
+when green flag clicked
+forever 
+  if <touching (Pico walking v) ?> then 
+    broadcast (hit v)
   end
 end
 ```
@@ -77,12 +77,12 @@ end
 
 \--- /hints \---
 
-Tvoja figura lika ne potrebuje dodatne kode, ker že ve, kaj mora storiti, ko prejme `objavo 'zadet'`{:class="block3control"}!
+You don't need to add any extra code to your characters sprite, because the character sprite already knows what to do when it receives the `broadcast 'hit'`{:class="block3control"}!
 
 \--- /task \---
 
 \--- task \---
 
-Preizkusi igro, da vidiš ali lahko greš z likom mimo laserja. Če je izogibanje laserju preenostavno ali pretežko, spremeni čas za kodo `počakaj`{:class="block3control"} v figuri laserja.
+Test out your game to see if you can move the character past the laser. If the laser is too easy or too hard to avoid, change the `wait`{:class="block3control"} times in the code for the laser sprite.
 
 \--- /task \---
