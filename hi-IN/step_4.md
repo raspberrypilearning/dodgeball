@@ -6,7 +6,7 @@ Now you're going to make your character move more realistically: you're going to
 
 In the game, move your character so that it walks off a platform. Do you see that it can walk into empty space?
 
-![स्क्रीनशॉट](images/dodge-no-gravity.png)
+![screenshot](images/dodge-no-gravity.png)
 
 \--- /task \---
 
@@ -18,7 +18,7 @@ To fix this, add gravity to your game. To do this, create a new variable called 
 
 You can hide this variable from your Stage if you want to.
 
-![स्क्रीनशॉट](images/dodge-gravity-annotated.png)
+![screenshot](images/dodge-gravity-annotated.png)
 
 \--- /task \---
 
@@ -40,9 +40,9 @@ Add these new code blocks that set `gravity` to a negative number and use the va
 
 \--- task \---
 
-Click the flag, and then drag your character to the top of the Stage. क्या होता है? Does the gravity work as you expect?
+Click the flag, and then drag your character to the top of the Stage. What happens? Does the gravity work as you expect?
 
-![स्क्रीनशॉट](images/dodge-gravity-drag.png)
+![screenshot](images/dodge-gravity-drag.png)
 
 \--- /task \---
 
@@ -68,7 +68,7 @@ Gravity shouldn't move the character sprite through a platform or a ladder! Add 
 
 Test the game again to see whether gravity works correctly now. Does your character sprite stop falling when it touches a platform or a ladder? Can you make the character walk off the edge of platforms and fall onto the level below?
 
-![स्क्रीनशॉट](images/dodge-gravity-test.png)
+![screenshot](images/dodge-gravity-test.png)
 
 \--- /task \---
 
@@ -91,7 +91,7 @@ Because gravity is constantly pushing your character down by 4 pixels, you need 
 
 \--- task \---
 
-अपने कोड का परीक्षण करें। Notice that the jumping movement isn't very smooth. To make jumping look smoother, you need to move your character sprite by smaller and smaller amounts, until it is not rising any higher.
+Test out your code. Notice that the jumping movement isn't very smooth. To make jumping look smoother, you need to move your character sprite by smaller and smaller amounts, until it is not rising any higher.
 
 \--- /task \---
 
