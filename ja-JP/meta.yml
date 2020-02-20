@@ -3,38 +3,38 @@ hero_image: images/banner.png
 listed: true
 ingredient: false
 copyedit: false
-title: ドッジボール
-description: レベルの最後に到達するために動くボールをかわすプラットフォームゲームを作成します
+title: Dodgeball
+description: Create a platform game in which you dodge moving balls to reach the end of the level
 version: 4.0.0
 last_tested: 2018-10-10
 steps:
   - 
-    title: はじめに
+    title: Introduction
   - 
-    title: キャラクターの動き
+    title: Character movement
   - 
-    title: "Challenge: レベルを完了する"
+    title: "Challenge: completing the level"
     challenge: true
   - 
-    title: 重力とジャンプ
+    title: Gravity and jumping
   - 
-    title: 'Challenge: ジャンプをより良くする'
+    title: 'Challenge: improved jumping'
     challenge: true
   - 
-    title: ボールをよける
+    title: Dodging balls
   - 
-    title: 'Challenge: ランダムボール'
+    title: 'Challenge: random balls'
     challenge: true
   - 
-    title: レーザー！
+    title: Lasers!
   - 
-    title: 'Challenge: 障害物の追加'
+    title: 'Challenge: more obstacles'
     challenge: true
   - 
-    title: 'Challenge: 重力をより良くする'
+    title: 'Challenge: improved gravity'
     challenge: true
   - 
-    title: 'Challenge: 命を増やす'
+    title: 'Challenge: more lives'
     challenge: true
   - 
-    title: 次は何をしますか？
+    title: What next?
