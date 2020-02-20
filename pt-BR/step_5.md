@@ -1,5 +1,5 @@
-## Desafio: salto melhorado
+## Challenge: better jumping
 
-Mesmo que o personagem já esteja em meados do ar, pula sempre que o jogador pressiona a barra <kbd>espaço</kbd>. Você pode ver este comportamento se você pressionar a barra <kbd>espaço</kbd>.
+Even if the character is already in mid-air, it jumps whenever the player presses the <kbd>space</kbd> bar. You can see this behaviour if you hold down the <kbd>space</kbd> bar.
 
-Você pode mudar o código do spriate do personagem por pular para que seu personagem só possa pular `se`{:class="block3control"} encostar na plataforma azul?
+Can you change the character sprite's code for jumping so that your character can only jump `if`{:class="block3control"} it touches a blue platform?
