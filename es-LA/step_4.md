@@ -2,13 +2,13 @@
 
 Now you're going to make your character move more realistically: you're going to add gravity to your game and give the character the ability to jump.
 
-\--- función \---
+\--- task \---
 
 In the game, move your character so that it walks off a platform. Do you see that it can walk into empty space?
 
-![captura de pantalla](images/dodge-no-gravity.png)
+![screenshot](images/dodge-no-gravity.png)
 
-\--- función \---
+\--- /task \---
 
 \--- task \---
 
@@ -18,9 +18,9 @@ To fix this, add gravity to your game. To do this, create a new variable called 
 
 You can hide this variable from your Stage if you want to.
 
-![captura de pantalla](images/dodge-gravity-annotated.png)
+![screenshot](images/dodge-gravity-annotated.png)
 
-\--- función \---
+\--- /task \---
 
 \--- task \---
 
@@ -36,15 +36,15 @@ Add these new code blocks that set `gravity` to a negative number and use the va
     end
 ```
 
-\--- función \---
+\--- /task \---
 
 \--- task \---
 
 Click the flag, and then drag your character to the top of the Stage. What happens? Does the gravity work as you expect?
 
-![captura de pantalla](images/dodge-gravity-drag.png)
+![screenshot](images/dodge-gravity-drag.png)
 
-\--- función \---
+\--- /task \---
 
 \--- task \---
 
@@ -62,15 +62,15 @@ Gravity shouldn't move the character sprite through a platform or a ladder! Add 
     end
 ```
 
-\--- función \---
+\--- /task \---
 
 \--- task \---
 
 Test the game again to see whether gravity works correctly now. Does your character sprite stop falling when it touches a platform or a ladder? Can you make the character walk off the edge of platforms and fall onto the level below?
 
-![captura de pantalla](images/dodge-gravity-test.png)
+![screenshot](images/dodge-gravity-test.png)
 
-\--- función \---
+\--- /task \---
 
 \--- task \---
 
@@ -87,19 +87,19 @@ Now add code to make your character jump whenever the player presses the <kbd>sp
 
 Because gravity is constantly pushing your character down by 4 pixels, you need to choose a number greater than `4` in your `change y by (4)`{:class="block3motion"} block. Change the number until you're happy with the height the character jumps.
 
-\--- función \---
+\--- /task \---
 
 \--- task \---
 
 Test out your code. Notice that the jumping movement isn't very smooth. To make jumping look smoother, you need to move your character sprite by smaller and smaller amounts, until it is not rising any higher.
 
-\--- función \---
+\--- /task \---
 
 \--- task \---
 
 To do this, create a new variable called `jump height`{:class="block3variables"}. Again, you can hide this variable if you prefer.
 
-\--- función \---
+\--- /task \---
 
 \--- task \---
 
@@ -118,7 +118,7 @@ Delete the jumping code you added to your character sprite, and add this code in
 
 This code moves your character up by 8 pixels, then 7.5 pixels, then 7 pixels, and so on, until it does not rise any higher. This makes jumping look much smoother.
 
-\--- función \---
+\--- /task \---
 
 \--- task \---
 
@@ -126,4 +126,4 @@ Change the value of the `jump height`{:class="block3variables"} variable that is
 
 Repeat these two steps until you're happy with how high the character jumps.
 
-\--- función \---
+\--- /task \---
