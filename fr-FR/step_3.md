@@ -1,5 +1,5 @@
-## Défi : Achèvement du niveau
+## Défi: terminer le niveau
 
-Pouvez-vous ajouter plus de blocs de code au sprite de votre personnage pour que le sprite dise quelque chose de `si`{: class = "block3control"} passe à la porte verte?
+Peux-tu ajouter plus de blocs de code au sprite de ton personnage pour que le sprite dise quelque chose `si`{:class="block3control"} il passe la porte verte ?
 
 ![capture d'écran](images/dodge-win.png)
