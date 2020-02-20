@@ -4,37 +4,37 @@ listed: true
 ingredient: false
 copyedit: false
 title: Dodgeball
-description: Crea un gioco a piattaforme in cui dovrai schivare le palle in movimento e raggiungere la fine del livello.
-version: 3
-last_tested: 2017-01-01
+description: Create a platform game in which you dodge moving balls to reach the end of the level
+version: 4.0.0
+last_tested: 2018-10-10
 steps:
   - 
-    title: Introduzione
+    title: Introduction
   - 
-    title: Movimento del personaggio
+    title: Character movement
   - 
-    title: "Sfida: Completare il livello"
+    title: "Challenge: completing the level"
     challenge: true
   - 
-    title: Gravità e salti
+    title: Gravity and jumping
   - 
-    title: 'Sfida: Salto migliorato'
+    title: 'Challenge: improved jumping'
     challenge: true
   - 
-    title: Palle da schivare
+    title: Dodging balls
   - 
-    title: 'Sfida: Palle a caso'
+    title: 'Challenge: random balls'
     challenge: true
   - 
-    title: Laser!
+    title: Lasers!
   - 
-    title: 'Sfida: Altri ostacoli'
+    title: 'Challenge: more obstacles'
     challenge: true
   - 
-    title: 'Sfida: Salto migliorato'
+    title: 'Challenge: improved gravity'
     challenge: true
   - 
-    title: 'Sfida: Altre vite'
+    title: 'Challenge: more lives'
     challenge: true
   - 
     title: What next?
