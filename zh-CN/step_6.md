@@ -1,10 +1,10 @@
-## 躲避球
+## Dodging balls
 
-您的角色现在可以移动和跳跃，因此是时候添加一些角色必须避免的球了。
+Your character can move and jump now, so it's time to add some balls that the character has to avoid.
 
 \--- task \---
 
-创建一个新的球精灵。 你可以选择你喜欢的任何类型的球。
+Create a new ball sprite. You can choose any type of ball you like.
 
 ![screenshot](images/dodge-balls.png)
 
@@ -12,7 +12,7 @@
 
 \--- task \---
 
-调整球形精灵的大小，以便角色可以越过球形精灵。 尝试使角色跳过球以测试球的尺寸是否正确。
+Resize the ball sprite so that the character can jump over it. Try making the character jump over the ball to test whether the ball is the right size.
 
 ![screenshot](images/dodge-ball-resize.png)
 
@@ -20,7 +20,7 @@
 
 \--- task \---
 
-将下面的代码添加到球精灵角色中：
+Add this code to your ball sprite:
 
 ![ball sprite](images/ball_sprite.png)
 
@@ -50,13 +50,13 @@ end
 delete this clone
 ```
 
-此代码每三秒钟创建一个新的球形精灵克隆。 每个新克隆都沿着顶部平台移动，然后掉落。
+This code creates a new clone of the ball sprite every three seconds. Each new clone moves along the top platform and then drops.
 
 \--- /task \---
 
 \--- task \---
 
-单击标志以测试游戏。
+Click the flag to test the game.
 
 ![screenshot](images/dodge-ball-test.png)
 
@@ -64,7 +64,7 @@ delete this clone
 
 \--- task \---
 
-向您的球形精灵添加更多代码，以便其副本在所有三个平台上移动。
+Add more code to your ball sprite so that clones of it move across all three platforms.
 
 ![screenshot](images/dodge-ball-more-motion.png)
 
@@ -72,13 +72,13 @@ delete this clone
 
 \--- hint \---
 
-重复您用来在第一个平台上移动球形精灵克隆的代码块。 您需要更改` x ` {：class =“ block3motion”}，` y ` {：class =“ block3motion”}，然后`重复` {：class =“ block3control”}数字，以便克隆正确遵循平台。
+Repeat the code blocks you used to move the ball sprite clone across the first platform. You need to change the `x`{:class="block3motion"}, `y`{:class="block3motion"}, and `repeat`{:class="block3control"} numbers so that the clones follow the platforms correctly.
 
 \--- /hint \---
 
 \--- hint \---
 
-以下是你需要的代码块： 确保以正确的顺序添加它们。
+These are the blocks you need. Make sure you add them in the correct order.
 
 ![ball sprite](images/ball_sprite.png)
 
@@ -102,7 +102,7 @@ end
 
 \--- hint \---
 
-您的球精灵克隆的代码应如下所示：
+The code for your ball sprite clones should look like this:
 
 ![ball sprite](images/ball_sprite.png)
 
@@ -142,9 +142,9 @@ delete this clone
 
 \--- task \---
 
-现在，如果您的角色被球击中，请添加一些代码块以广播（发送）消息！
+Now add some code blocks to broadcast (send) a message if your character gets hit by a ball!
 
-将下面的代码添加到球精灵角色中：
+Add this code to your ball sprite:
 
 ![ball sprite](images/ball_sprite.png)
 
@@ -161,7 +161,7 @@ delete this clone
 
 \--- task \---
 
-最后，在您的角色精灵上添加代码块，以使其在收到`命中时返回其初始位置`信息：
+Finally, add code blocks to your character sprite to make it move back to its starting position when it receives the `hit` message:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -175,6 +175,6 @@ delete this clone
 
 \--- task \---
 
-测试您的代码。 触摸球后，检查角色是否回到起始位置。
+Test out your code. Check whether the character moves back to the start after touching a ball.
 
 \--- /task \---
