@@ -1,5 +1,5 @@
-## Challenge: ジャンプをより良くする
+## Challenge: better jumping
 
-キャラクターがすでに空中にいる場合でも、プレイヤーが<kbd>スペース</kbd>バーを押すたびにジャンプします。 <kbd>スペース</kbd>バーを押し続けると、この動作を見ることができます。
+Even if the character is already in mid-air, it jumps whenever the player presses the <kbd>space</kbd> bar. You can see this behaviour if you hold down the <kbd>space</kbd> bar.
 
-キャラクタースプライトのジャンプするコードを変更して、キャラクターが`もし` {:class="block3control"}青いプラットフォームに触れているときだけジャンプできるように変更できますか？
+Can you change the character sprite's code for jumping so that your character can only jump `if`{:class="block3control"} it touches a blue platform?
