@@ -1,4 +1,4 @@
-## ඊලඟට කුමක්ද?
+## What next?
 
 Have a go at our [Brain game](https://projects.raspberrypi.org/en/projects/brain-game?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, in which you can create your own maths quiz.
 
