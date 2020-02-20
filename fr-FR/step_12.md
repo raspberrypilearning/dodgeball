@@ -1,10 +1,10 @@
-## Quelle est l'étape suivante ?
+## Et ensuite ?
 
-Essayez notre projet [Brain game](https://projects.raspberrypi.org/en/projects/brain-game?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) , dans lequel vous pouvez créer votre propre quiz mathématique.
+Essaie notre projet [Jeu d'ingéniosité](https://projects.raspberrypi.org/en/projects/brain-game?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) , dans lequel tu peux créer ton propre quiz mathématique.
 
 \--- no-print \---
 
-Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
+Clique sur le bouton pour démarrer. Tape la réponse à la question, puis appuie sur la touche <kbd>Entrée</kbd>.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -15,6 +15,6 @@ Click the button to start. Type in the answer to the question, and then press th
 
 \--- print-only \---
 
-![Brain Game](images/brain-final.png)
+![Jeu d'ingéniosité](images/brain-final.png)
 
 \--- /print-only \---
