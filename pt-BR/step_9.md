@@ -1,6 +1,6 @@
-## Desafio: mais obstáculos
+## Challenge: more obstacles
 
-If you think your game is still too easy, you can add more obstacles to it. The obstacles can be anything you like! Aqui estão algumas idéias:
+If you think your game is still too easy, you can add more obstacles to it. The obstacles can be anything you like! Here are some ideas:
 
 + A dangerous butterfly
 + Platforms that appear and disappear
