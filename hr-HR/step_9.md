@@ -1,4 +1,4 @@
-## Izazov: više prepreka
+## Challenge: more obstacles
 
 If you think your game is still too easy, you can add more obstacles to it. The obstacles can be anything you like! Here are some ideas:
 
