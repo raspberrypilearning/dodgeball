@@ -1,6 +1,6 @@
-## 더 나아가기
+## What next?
 
-여러분만의 수학 문제를 만들 수 있는 [두뇌 게임](https://projects.raspberrypi.org/en/projects/brain-game?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) 프로젝트를 해보세요.
+Have a go at our [Brain game](https://projects.raspberrypi.org/en/projects/brain-game?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, in which you can create your own maths quiz.
 
 \--- no-print \---
 
