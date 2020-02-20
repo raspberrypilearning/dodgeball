@@ -1,16 +1,16 @@
 \--- no-print \---
 
-To je ** Scratch 3 ** različica projekta. Obstaja tudi [Scratch 2](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2) različica projekta.
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2).
 
 \--- /no-print \---
 
-## Uvod
+## Introduction
 
-Nauči se ustvariti ploščadno (platformsko) igro, v kateri se moa igralec izogibati žogam in priti do konca stopnje.
+You'll learn how to create a platform game in which the player has to dodge moving balls to reach the end of the level.
 
 \--- no-print \---
 
-Klikni na zeleno zastavico, da začneš in uporabljaj smerne tipke za premikanje in <kbd>preslednico</kbd> za skok.
+Click the green flag to start, and then use the arrow keys to move and the <kbd>space</kbd> key to jump.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/251809924/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,7 +21,7 @@ Klikni na zeleno zastavico, da začneš in uporabljaj smerne tipke za premikanje
 
 \--- print-only \---
 
-![igranje igre izmikanje žogam](images/dodgeball-showcase.png)
+![dodgeball game being played](images/dodgeball-showcase.png)
 
 \--- /print-only \---
 
@@ -29,15 +29,15 @@ Klikni na zeleno zastavico, da začneš in uporabljaj smerne tipke za premikanje
 
 ## title: What you will need
 
-### Strojna oprema
+### Hardware
 
-+ Računalnik, ki lahko poganja Scratch 3
++ A computer capable of running Scratch 3
 
-### Programsko opremo
+### Software
 
-+ Scratch 3 ( [spletna različica](https://scratch.mit.edu/projects/editor/) ali [različica brez povezave](https://scratch.mit.edu/download/))
++ Scratch 3 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/download/))
 
-### Prenosi
+### Downloads
 
 You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
@@ -47,9 +47,9 @@ You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 ## title: What you will learn
 
-+ Kako uporabljati tipkovnico za upravljanje figure
-+ Kako uporabljati Scratch bloke `če, potem, sicer`
-+ Kako podvojiti figuro
++ How to use the keyboard to control a sprite
++ How to use the `if, then, else`{:class="block3control"} Scratch block
++ How to clone a sprite
 
 \--- /collapse \---
 
