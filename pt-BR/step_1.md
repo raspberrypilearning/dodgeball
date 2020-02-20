@@ -1,16 +1,16 @@
 \--- no-print \---
 
-Esta é a versão **Scratch 3** do projeto. Há também um [Scratch 2 do projeto](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2).
 
 \--- /no-print \---
 
-## Introdução
+## Introduction
 
-Nesse Projeto você vai aprender a criar um jogo de plataforma, Na qual você terá que se esquivar das bolas em movimento e chegar no final do nível.
+You'll learn how to create a platform game in which the player has to dodge moving balls to reach the end of the level.
 
 \--- no-print \---
 
-Clique na bandeira verde para começar, em seguida use as setas para andar e a tecla <kbd>espaço</kbd> para saltar.
+Click the green flag to start, and then use the arrow keys to move and the <kbd>space</kbd> key to jump.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/251809924/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,7 +21,7 @@ Clique na bandeira verde para começar, em seguida use as setas para andar e a t
 
 \--- print-only \---
 
-![jogo de queimada sendo jogado](images/dodgeball-showcase.png)
+![dodgeball game being played](images/dodgeball-showcase.png)
 
 \--- /print-only \---
 
@@ -31,11 +31,11 @@ Clique na bandeira verde para começar, em seguida use as setas para andar e a t
 
 ### Hardware
 
-+ Um computador capaz de executar o Scratch 3
++ A computer capable of running Scratch 3
 
 ### Software
 
-+ Scratch 3 ([ online ](https://scratch.mit.edu/projects/editor/) ou [ off-line ](https://scratch.mit.edu/download/))
++ Scratch 3 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/download/))
 
 ### Downloads
 
@@ -47,9 +47,9 @@ You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 ## title: What you will learn
 
-+ Como usar o teclado para controlar a sprite
-+ Como usar o bloco `se, então, senão`{:class="block3control"} Scratch
-+ Como clonar um sprite
++ How to use the keyboard to control a sprite
++ How to use the `if, then, else`{:class="block3control"} Scratch block
++ How to clone a sprite
 
 \--- /collapse \---
 
