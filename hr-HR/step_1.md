@@ -4,7 +4,7 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /no-print \---
 
-## Uvod
+## Introduction
 
 You'll learn how to create a platform game in which the player has to dodge moving balls to reach the end of the level.
 
@@ -29,13 +29,13 @@ Click the green flag to start, and then use the arrow keys to move and the <kbd>
 
 ## title: What you will need
 
-### Hardver
+### Hardware
 
-+ Računalo koje može pokrenuti Scratch 3
++ A computer capable of running Scratch 3
 
-### Softver
+### Software
 
-+ Scratch 3 (za korištenje [online](https://scratch.mit.edu/projects/editor/) ili [offline](https://scratch.mit.edu/download/))
++ Scratch 3 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/download/))
 
 ### Downloads
 
