@@ -1,40 +1,40 @@
 ---
-hero_image: images / banner.png
+hero_image: images/banner.png
 listed: true
 ingredient: false
 copyedit: false
-title: 피구
-description: 레벨이 끝날 때까지 움직이는 공들을 피하는 플랫폼 게임을 만듭니다.
+title: Dodgeball
+description: Create a platform game in which you dodge moving balls to reach the end of the level
 version: 4.0.0
 last_tested: 2018-10-10
 steps:
   - 
-    title: 들어가며
+    title: Introduction
   - 
-    title: 캐릭터 이동
+    title: Character movement
   - 
-    title: "도전 과제 : 레벨 완료하기"
+    title: "Challenge: completing the level"
     challenge: true
   - 
-    title: 중력과 점프
+    title: Gravity and jumping
   - 
-    title: '도전 과제 : 개선된 점프'
+    title: 'Challenge: improved jumping'
     challenge: true
   - 
-    title: 공들 피하기
+    title: Dodging balls
   - 
-    title: '도전 과제 : 무작위의 공'
+    title: 'Challenge: random balls'
     challenge: true
   - 
-    title: 레이저!
+    title: Lasers!
   - 
-    title: '도전 과제: 더 많은 장애물'
+    title: 'Challenge: more obstacles'
     challenge: true
   - 
-    title: '도전 과제 : 개선된 중력'
+    title: 'Challenge: improved gravity'
     challenge: true
   - 
-    title: '도전과제: 더 많은 생명 '
+    title: 'Challenge: more lives'
     challenge: true
   - 
-    title: 더 나아가기
+    title: What next?
