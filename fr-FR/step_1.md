@@ -6,11 +6,11 @@ Ceci est la version **Scratch 3** du projet. Il existe également une version [S
 
 ## Introduction
 
-Vous apprendrez à créer un jeu de plateforme dans lequel le joueur doit esquiver les boules en mouvement pour atteindre la fin du niveau.
+Tu apprendras à créer un jeu de plate-forme dans lequel le joueur doit esquiver les balles en mouvement pour atteindre la fin du niveau.
 
 \--- no-print \---
 
-Cliquez sur le drapeau vert pour commencer, puis utilisez les touches fléchées pour se déplacer et <kbd>espace</kbd> pour sauter.
+Clique sur le drapeau vert pour commencer, puis utilise les touches fléchées pour te déplacer et la touche <kbd>espace</kbd> pour sauter.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/251809924/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,13 +21,13 @@ Cliquez sur le drapeau vert pour commencer, puis utilisez les touches fléchées
 
 \--- print-only \---
 
-![Dodgeball en cours de lecture](images/dodgeball-showcase.png)
+![le jeu de la balle au prisonnier en cours de jeu](images/dodgeball-showcase.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Ce que tu auras besoin
 
 ### Matériel informatique
 
@@ -35,34 +35,34 @@ Cliquez sur le drapeau vert pour commencer, puis utilisez les touches fléchées
 
 ### Logiciel
 
-+ Scratch 3 (soit [en ligne](https://scratch.mit.edu/projects/editor/) ou [hors ligne](https://scratch.mit.edu/download/))
++ Scratch 3 (soit [en ligne](https://scratch.mit.edu/projects/editor/) ou [hors-ligne](https://scratch.mit.edu/download/))
 
 ### Téléchargements
 
-You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
+[Trouve les téléchargements ici](http://rpf.io/p/en/dodgeball-go).
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Ce que tu vas apprendre
 
 + Comment utiliser le clavier pour contrôler un sprite
-+ Comment utiliser le `si, alors, sinon`{: class = "block3control"} bloc Scratch
++ Comment utiliser le bloc Scratch `si, alors, sinon`{:class="block3control"}
 + Comment cloner un sprite
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: Informations supplémentaires pour les éducateurs
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
+Si vous besoin d'imprimer ce projet, utilisez la [ version imprimable. ](https://projects.raspberrypi.org/en/projects/dodgeball/print) {:target="_blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/dodgeball-get).
+Vous pouvez trouver le [projet terminé ici](http://rpf.io/p/en/dodgeball-get) .
 
 \--- /collapse \---
