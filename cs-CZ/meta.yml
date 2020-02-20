@@ -4,12 +4,12 @@ listed: true
 ingredient: false
 copyedit: false
 title: Dodgeball
-description: V tomto projektu se naučíš, jak vytvořit plošinovku, kde se musíš vyhýbat pohybujicím se míčům a dostat se až na konec levelu (úrovně).
-version: 3
-last_tested: 2017-01-01
+description: Create a platform game in which you dodge moving balls to reach the end of the level
+version: 4.0.0
+last_tested: 2018-10-10
 steps:
   - 
-    title: Dodgeball
+    title: Introduction
   - 
     title: Character movement
   - 
