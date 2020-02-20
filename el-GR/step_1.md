@@ -21,13 +21,13 @@
 
 \--- print-only \---
 
-![το παιχνίδι "τα μήλα" σε εξέλιξη](images/dodgeball-showcase.png)
+![το παιχνίδι 'Dodgeball'σε εξέλιξη](images/dodgeball-showcase.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Τι θα χρειαστείς
 
 ### Υλικό
 
@@ -39,13 +39,13 @@
 
 ### Λήψεις
 
-You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
+Μπορείς να [βρεις τις λήψεις εδώ](http://rpf.io/p/en/dodgeball-go).
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Τι θα μάθεις
 
 + Πώς να χρησιμοποιήσεις το πληκτρολόγιο για να ελέγξεις μία κινούμενη εικόνα
 + Πώς να χρησιμοποιήσεις το ` if, then, else`{: class = "block3control"} Scratch τουβλάκι
@@ -55,14 +55,14 @@ You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: Πρόσθετες σημειώσεις για εκπαιδευτικούς
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
+Αν χρειαστεί να εκτυπώσεις αυτό το έργο, χρησιμοποίησε την [εκτυπώσιμη έκδοση](https://projects.raspberrypi.org/en/projects/dodgeball/print)"{:target="_blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/dodgeball-get).
+Μπορείς να βρεις το [ολοκληρωμένο έργο εδώ](http://rpf.io/p/en/dodgeball-get).
 
 \--- /collapse \---
