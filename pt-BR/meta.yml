@@ -1,40 +1,40 @@
 ---
-hero_image: imagens/banner.png
+hero_image: images/banner.png
 listed: true
 ingredient: false
 copyedit: false
-title: EsquivaBol
-description: Neste projeto você vai aprender como fazer um jogo de plataforma, em que você tem que se esquivar das bolas em movimento e chegar ao final do nível.
-version: 3
+title: Dodgeball
+description: Create a platform game in which you dodge moving balls to reach the end of the level
+version: 4.0.0
 last_tested: 2018-10-10
 steps:
   - 
-    title: Introdução
+    title: Introduction
   - 
-    title: Movimento do personagem
+    title: Character movement
   - 
-    title: "Desafio: completar o nível"
+    title: "Challenge: completing the level"
     challenge: true
   - 
-    title: Gravidade e Salto
+    title: Gravity and jumping
   - 
-    title: 'Desafio: salto melhorado'
+    title: 'Challenge: improved jumping'
     challenge: true
   - 
-    title: Esquivando das bolas
+    title: Dodging balls
   - 
-    title: 'Desafio: bolas aleatórias'
+    title: 'Challenge: random balls'
     challenge: true
   - 
     title: Lasers!
   - 
-    title: 'Desafio: mais obstáculos'
+    title: 'Challenge: more obstacles'
     challenge: true
   - 
-    title: 'Desafio: Gravidade melhorada'
+    title: 'Challenge: improved gravity'
     challenge: true
   - 
-    title: 'Desafio: mais vidas'
+    title: 'Challenge: more lives'
     challenge: true
   - 
-    title: O que vem depois?
+    title: What next?
