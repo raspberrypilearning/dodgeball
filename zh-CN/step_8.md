@@ -1,10 +1,10 @@
-## 激光！
+## Lasers!
 
-为了让您的游戏更难完成，您将添加激光！
+To your game a little harder to complete, you are going to add lasers!
 
 \--- task \---
 
-在游戏中添加新的精灵，并将其命名为` laser ` 。 它应该有两种造型：一种叫做“开”，另一种叫做“关”。
+Add a new sprite to your game and call it `laser`. It should have two costumes: one called 'on', and one called 'off'.
 
 ![screenshot](images/dodge-lasers-costume1.png)
 
@@ -14,7 +14,7 @@
 
 \--- task \---
 
-将新的激光精灵放置在两个平台之间。
+Place your new laser sprite between two platforms.
 
 ![screenshot](images/dodge-lasers-position.png)
 
@@ -22,7 +22,7 @@
 
 \--- task \---
 
-向您的激光精灵添加代码，以使其在其两个造型之间切换。
+Add code to your laser sprite to make it switch between its two costumes.
 
 ![laser sprite](images/laser_sprite.png)
 
@@ -36,31 +36,31 @@
     end
 ```
 
-如果愿意，可以更改上面显示的代码，以便精灵`等待` {：class =“ block3control”} `随机` {：class =“ block3operators”}两次造型更换之间的时间间隔。
+If you prefer, you can change the code shown above so that the sprite `waits`{:class="block3control"} a `random`{:class="block3operators"} amount of time between costume changes.
 
 \--- /task \---
 
 \--- task \---
 
-最后，向您的激光精灵添加代码，以便激光精灵碰到角色精灵时会广播“ hit”消息。
+Finally, add code to your laser sprite so that the laser sprite broadcasts a 'hit' message when it touches the character sprite.
 
 \--- hints \---
 
 \--- hint \---
 
-该代码应与您添加到球精灵中的代码非常相似。
+This code should be very similar to the code you added to your ball sprite.
 
 \--- /hint \---
 
 \--- hint \---
 
-复制您添加到球精灵的代码，以使该精灵`广播“命中” ` {：class =“ block3control”}当它`碰到您的角色时` {：class =“ block3sensing”}。
+Copy the code you add to the ball sprite to make this sprite `broadcast 'hit'`{:class="block3control"} when it is `touching your character`{:class="block3sensing"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-这是您应该添加的代码：
+This is the code you should add:
 
 ![laser sprite](images/laser_sprite.png)
 
@@ -77,12 +77,12 @@ end
 
 \--- /hints \---
 
-您无需在角色精灵上添加任何额外的代码，因为角色精灵在接收到`广播“ hit”后就已经知道该怎么做了。 ` {：class =“ block3control”}！
+You don't need to add any extra code to your characters sprite, because the character sprite already knows what to do when it receives the `broadcast 'hit'`{:class="block3control"}!
 
 \--- /task \---
 
 \--- task \---
 
-测试您的游戏，看看是否可以将角色移过激光。 If the laser is too easy or too hard to avoid, change the `wait`{:class="block3control"} times in the code for the laser sprite.
+Test out your game to see if you can move the character past the laser. If the laser is too easy or too hard to avoid, change the `wait`{:class="block3control"} times in the code for the laser sprite.
 
 \--- /task \---
