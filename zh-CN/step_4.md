@@ -1,10 +1,10 @@
-## 重力和跳跃
+## Gravity and jumping
 
-现在，您将使角色更加逼真地移动：将为游戏增加重力，并使角色具有跳跃的能力。
+Now you're going to make your character move more realistically: you're going to add gravity to your game and give the character the ability to jump.
 
 \--- task \---
 
-在游戏中，移动您的角色，使其离开平台。 您看到它可以进入空白空间吗？
+In the game, move your character so that it walks off a platform. Do you see that it can walk into empty space?
 
 ![screenshot](images/dodge-no-gravity.png)
 
@@ -12,11 +12,11 @@
 
 \--- task \---
 
-要解决此问题，请在游戏中添加重力。 创建一个新的名为`gravity`{:class="block3variables"}的变量
+To fix this, add gravity to your game. To do this, create a new variable called `gravity`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
-您可以根据需要在舞台中隐藏此变量。
+You can hide this variable from your Stage if you want to.
 
 ![screenshot](images/dodge-gravity-annotated.png)
 
@@ -24,7 +24,7 @@
 
 \--- task \---
 
-添加这些新的设置`重力的代码块`为负数，并使用` gravity的值`重复更改角色的y坐标：
+Add these new code blocks that set `gravity` to a negative number and use the value of `gravity` to repeatedly change your character's y-coordinate:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -40,7 +40,7 @@
 
 \--- task \---
 
-单击标志，然后将您的角色拖动到舞台的顶部。 发生了什么? 引力是否如您所愿？
+Click the flag, and then drag your character to the top of the Stage. What happens? Does the gravity work as you expect?
 
 ![screenshot](images/dodge-gravity-drag.png)
 
@@ -48,7 +48,7 @@
 
 \--- task \---
 
-重力不应该使角色精灵穿过平台或梯子！ 添加` ` {：class =“ block3control”}阻止您的代码，仅在角色处于空中时才使重力起作用。 重力代码应如下所示：
+Gravity shouldn't move the character sprite through a platform or a ladder! Add an `if`{:class="block3control"} block to your code to only let the gravity work when the character is in mid-air. The gravity code should then look like this:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -66,7 +66,7 @@
 
 \--- task \---
 
-再次测试游戏，看看现在重力是否正常工作。 当角色精灵接触平台或梯子时，它会不会停止下落？ 您可以使角色走出平台边缘并掉入下面的水平面吗？
+Test the game again to see whether gravity works correctly now. Does your character sprite stop falling when it touches a platform or a ladder? Can you make the character walk off the edge of platforms and fall onto the level below?
 
 ![screenshot](images/dodge-gravity-test.png)
 
@@ -74,7 +74,7 @@
 
 \--- task \---
 
-现在添加代码以使您的角色在玩家按下<kbd>空格时跳转</kbd>键。 一种非常简单的方法是将角色向上移动几次：
+Now add code to make your character jump whenever the player presses the <kbd>space</kbd> key. One very easy way to do this is to move your character up a few times:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -85,25 +85,25 @@
     end
 ```
 
-由于重力不断将您的角色向下推4个像素，因此您需要选择一个大于` 4的数字`在您的`更改y中将（4） ` {：class =“ block3motion”}块。 更改数字，直到您对角色跳跃的高度满意为止。
+Because gravity is constantly pushing your character down by 4 pixels, you need to choose a number greater than `4` in your `change y by (4)`{:class="block3motion"} block. Change the number until you're happy with the height the character jumps.
 
 \--- /task \---
 
 \--- task \---
 
-测试您的代码。 请注意，跳跃动作不是很平滑。 为了使跳跃看起来更平滑，您需要将角色精灵移动的越来越少，直到不再升高为止。
+Test out your code. Notice that the jumping movement isn't very smooth. To make jumping look smoother, you need to move your character sprite by smaller and smaller amounts, until it is not rising any higher.
 
 \--- /task \---
 
 \--- task \---
 
-为此，请创建一个名为` jump height的新变量。 ` {：class =“ block3variables”}。 同样，您可以根据需要隐藏此变量。
+To do this, create a new variable called `jump height`{:class="block3variables"}. Again, you can hide this variable if you prefer.
 
 \--- /task \---
 
 \--- task \---
 
-删除添加到角色精灵中的跳转代码，然后添加以下代码：
+Delete the jumping code you added to your character sprite, and add this code instead:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -116,14 +116,14 @@
     end
 ```
 
-这段代码将您的字符上移8个像素，然后是7.5个像素，然后是7个像素，依此类推，直到它不再升高为止。 这使跳跃看起来更加平滑。
+This code moves your character up by 8 pixels, then 7.5 pixels, then 7 pixels, and so on, until it does not rise any higher. This makes jumping look much smoother.
 
 \--- /task \---
 
 \--- task \---
 
-更改`跳跃高度的值` {：class =“ block3variables”}变量，该变量在`重复之前设置` {：class =“ block3control”}开始。 然后测试您的游戏。
+Change the value of the `jump height`{:class="block3variables"} variable that is set before the `repeat`{:class="block3control"} starts. Then test your game.
 
-重复这两个步骤，直到您对角色跳跃的高度感到满意为止。
+Repeat these two steps until you're happy with how high the character jumps.
 
 \--- /task \---
