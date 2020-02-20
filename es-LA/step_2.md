@@ -2,7 +2,7 @@
 
 Start by creating a character that can move left and right, and can climb up ladders.
 
-\--- función \---
+\--- task \---
 
 Open the 'Dodgeball' Scratch starter project.
 
