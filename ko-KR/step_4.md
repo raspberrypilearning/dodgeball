@@ -1,38 +1,38 @@
-## 중력과 점프
+## Gravity and jumping
 
-이제 캐릭터를 더 사실적으로 움직일 것입니다: 게임에 중력을 추가하고 캐릭터에게 점프 할 수 있는 능력을 부여할 것입니다.
+Now you're going to make your character move more realistically: you're going to add gravity to your game and give the character the ability to jump.
 
 \--- task \---
 
-게임 안에서 캐릭터가 플랫폼에서 멀어지도록 움직입니다. 빈 공간으로 들어갈 수 있다는 것을 알고 있습니까?
+In the game, move your character so that it walks off a platform. Do you see that it can walk into empty space?
 
-![스크린샷](images/dodge-no-gravity.png)
+![screenshot](images/dodge-no-gravity.png)
 
 \--- /task \---
 
 \--- task \---
 
-이 문제를 해결하려면 게임에 중력을 추가하십시오. `중력`{:class="block3variables"}이라는 이름의 새 변수를 추가해보세요.
+To fix this, add gravity to your game. To do this, create a new variable called `gravity`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
-원하는 경우 스테이지에서 이 변수를 숨길 수 있습니다.
+You can hide this variable from your Stage if you want to.
 
-![스크린샷](images/dodge-gravity-annotated.png)
+![screenshot](images/dodge-gravity-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-캐릭터의 y좌표를 반복적으로 변경하려면 `중력`을 음수로 설정하는 새 코드 블록을 추가해서 `중력`의 값을 사용하세요.
+Add these new code blocks that set `gravity` to a negative number and use the value of `gravity` to repeatedly change your character's y-coordinate:
 
-![걷는 피코 스프라이트](images/pico_walking_sprite.png)
+![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    ⚑ 클릭했을 때
-    [중력 v] 을\(를\) [-4] 로 정하기
-    무한 반복하기 
-        y 좌표를 (중력) 만큼 바꾸기
+    when flag clicked
+    set [gravity v] to [-4]
+    forever
+        change y by (gravity)
     end
 ```
 
@@ -40,24 +40,24 @@
 
 \--- task \---
 
-깃발을 클릭 한 다음, 캐릭터를 스테이지 맨 위로 드래그합니다. 어떤 일이 일어나나요? 중력이 예상대로 작동합니까?
+Click the flag, and then drag your character to the top of the Stage. What happens? Does the gravity work as you expect?
 
-![스크린샷](images/dodge-gravity-drag.png)
+![screenshot](images/dodge-gravity-drag.png)
 
 \--- /task \---
 
 \--- task \---
 
-중력이 캐릭터 스프라이트를 플랫폼이나 사다리를 통해 움직여서는 안 됩니다! 캐릭터가 공중에 있을 때만 중력이 작동하도록 `만약`{: class = "block3control"} 블록을 코드에 추가합니다. 그러면 중력 코드는 다음과 같아야 합니다.
+Gravity shouldn't move the character sprite through a platform or a ladder! Add an `if`{:class="block3control"} block to your code to only let the gravity work when the character is in mid-air. The gravity code should then look like this:
 
-![걷는 피코 스프라이트](images/pico_walking_sprite.png)
+![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    ⚑ 클릭했을 때
-    [중력 v] 을\(를\) [-4] 로 정하기
-    무한 반복하기 
-        만약 <<<touching color [#0000FF]?> 또는 <touching color [#FF69B4]?>> 이\(가\) 아니다> \(이\)라면 
-            y 좌표를 (중력) 만큼 바꾸기
+    when flag clicked
+    set [gravity v] to [-4]
+    forever
+        if < not < <touching color [#0000FF]?> or <touching color [#FF69B4]?> > > then
+            change y by (gravity)
         end
     end
 ```
@@ -66,64 +66,64 @@
 
 \--- task \---
 
-게임을 다시 테스트하여 중력이 올바르게 작동하는지 확인하십시오. 플랫폼이나 사다리에 닿을 때 캐릭터 스프라이트가 떨어지지 않습니까? 캐릭터를 플랫폼의 가장자리로 걸어도록 해서 아래 레벨로 떨어뜨릴 수 있습니까?
+Test the game again to see whether gravity works correctly now. Does your character sprite stop falling when it touches a platform or a ladder? Can you make the character walk off the edge of platforms and fall onto the level below?
 
-![스크린샷](images/dodge-gravity-test.png)
+![screenshot](images/dodge-gravity-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-이제 플레이어가 <kbd>스페이스</kbd> 키를 누를 때마다 캐릭터가 점프하도록 코드를 추가하십시오. 그렇게 하는 가장 쉬운 방법은 캐릭터를 몇 번 위로 올리는 것입니다.
+Now add code to make your character jump whenever the player presses the <kbd>space</kbd> key. One very easy way to do this is to move your character up a few times:
 
-![걷는 피코 스프라이트](images/pico_walking_sprite.png)
+![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    [스페이스] 키를 눌렀을 때
-    (10) 번 반복하기 
-        y 좌표를 (4) 만큼 바꾸기
+    when [space v] key pressed
+    repeat (10)
+        change y by (4)
     end
 ```
 
-중력은 캐릭터를 계속 4 픽셀씩 아래로 밀어내므로, `y를 (4)로 변경`{: class = "block3motion"} 블록에 `4`보다 큰 숫자를 선택해야 합니다. 캐릭터가 점프하는 높이가 맘에 들 때까지 숫자를 변경하십시오.
+Because gravity is constantly pushing your character down by 4 pixels, you need to choose a number greater than `4` in your `change y by (4)`{:class="block3motion"} block. Change the number until you're happy with the height the character jumps.
 
 \--- /task \---
 
 \--- task \---
 
-코드를 테스트해 보세요. 점프 동작이 별로 부드럽지 않다는 것을 알 수 있을 겁니다. 점프가 더 부드럽게 보이려면 캐릭터 스프라이트가 더 이상 올라가지 않을 때까지 더 작게 움직여야 합니다.
+Test out your code. Notice that the jumping movement isn't very smooth. To make jumping look smoother, you need to move your character sprite by smaller and smaller amounts, until it is not rising any higher.
 
 \--- /task \---
 
 \--- task \---
 
-그러기 위해선 `점프 높이`{:class="block3variables"}라는 이름의 새 변수를 추가해보세요. 이번에도 원하는 경우엔 이 변수를 숨길 수 있습니다.
+To do this, create a new variable called `jump height`{:class="block3variables"}. Again, you can hide this variable if you prefer.
 
 \--- /task \---
 
 \--- task \---
 
-캐릭터 스프라이트에 추가했던 점프 코드를 삭제하고, 대신 아래 코드를 추가하십시오.
+Delete the jumping code you added to your character sprite, and add this code instead:
 
-![걷는 피코 스프라이트](images/pico_walking_sprite.png)
+![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    [스페이스] 키를 눌렀을 때
-    [점프 높이] 을\(를\) [8] 로 정하기
-    <(점프 높이) = [0]> 까지 반복하기 
-        y 좌표를 (점프 높이) 만큼 바꾸기
-        [점프 높이] 을\(를\) (-0.5) 만큼 바꾸기
+    when [space v] key pressed
+    set [jump height v] to [8]
+    repeat until < (jump height) = [0] >
+        change y by (jump height)
+        change [jump height v] by (-0.5)
     end
 ```
 
-이 코드는 캐릭터가 더 이상 올라가지 않을 때까지 8픽셀, 7.5픽셀, 7픽셀 등으로 이동합니다. 이렇게하면 점프가 훨씬 매끄럽게 보입니다.
+This code moves your character up by 8 pixels, then 7.5 pixels, then 7 pixels, and so on, until it does not rise any higher. This makes jumping look much smoother.
 
 \--- /task \---
 
 \--- task \---
 
-`반복<code>{: class = "block3control"}블록이 시작되기 전에 <0>점프 높이`{:class="block3variables"}변수의 값을 바꾸십시오. 그런 다음 게임을 테스트하십시오.
+Change the value of the `jump height`{:class="block3variables"} variable that is set before the `repeat`{:class="block3control"} starts. Then test your game.
 
-캐릭터가 점프하는 높이가 맘에 들 때까지 이 두 단계를 반복하십시오.
+Repeat these two steps until you're happy with how high the character jumps.
 
 \--- /task \---
