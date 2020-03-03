@@ -1,10 +1,10 @@
-## What next?
+## Y ahora ¿qué?
 
-Have a go at our [Brain game](https://projects.raspberrypi.org/en/projects/brain-game?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, in which you can create your own maths quiz.
+Prueba nuestro proyecto [Juego Mental](https://projects.raspberrypi.org/en/projects/brain-game?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), en el que puedes crear tu propio test de matemáticas.
 
 \--- no-print \---
 
-Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
+Click the button to start. Escribe la respuesta a la pregunta y luego pulsa <kbd>Enter</kbd>.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -15,6 +15,6 @@ Click the button to start. Type in the answer to the question, and then press th
 
 \--- print-only \---
 
-![Brain Game](images/brain-final.png)
+![Juego mental](images/brain-final.png)
 
 \--- /print-only \---
