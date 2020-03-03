@@ -3,38 +3,38 @@ hero_image: images/banner.png
 listed: true
 ingredient: false
 copyedit: false
-title: Dodgeball
-description: Create a platform game in which you dodge moving balls to reach the end of the level
+title: Esquiva-pelotas
+description: Crea un juego de plataformas en el que tengas que esquivar pelotas y llegar al final del nivel
 version: 4.0.0
 last_tested: 2018-10-10
 steps:
   - 
-    title: Introduction
+    title: Introducción
   - 
-    title: Character movement
+    title: Movimientos del personaje
   - 
-    title: "Challenge: completing the level"
+    title: "Desafío: Acabar el nivel"
     challenge: true
   - 
-    title: Gravity and jumping
+    title: Gravedad y saltos
   - 
-    title: 'Challenge: improved jumping'
+    title: 'Desafío: Mejores saltos'
     challenge: true
   - 
-    title: Dodging balls
+    title: Esquivando las pelotas
   - 
-    title: 'Challenge: random balls'
+    title: 'Desafío: Pelotas aleatorias'
     challenge: true
   - 
-    title: Lasers!
+    title: '¡Láseres!'
   - 
-    title: 'Challenge: more obstacles'
+    title: 'Desafío: Más obstáculos'
     challenge: true
   - 
-    title: 'Challenge: improved gravity'
+    title: 'Desafío: Mejorando la gravedad'
     challenge: true
   - 
-    title: 'Challenge: more lives'
+    title: 'Desafío: Más vidas'
     challenge: true
   - 
-    title: What next?
+    title: Y ahora ¿qué?
