@@ -1,47 +1,49 @@
-## Character movement
+## キャラクターの動き
 
-Start by creating a character that can move left and right, and can climb up ladders.
+左右に移動でき、はしごを登ることができるキャラクターを作成することから始めます。
 
 \--- task \---
 
-Open the 'Dodgeball' Scratch starter project.
+「ドッジボール」 スクラッチスタータープロジェクトを開きます。
 
-**Online:** open the starter project at [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}.
+**オンラインの場合:** [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}にあるスタータープロジェクトを開きます。
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+スクラッチアカウントをお持ちの場合は**リミックス**をクリックしてコピーを作成できます。
 
-**Offline:** download the starter project from [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) and then open it using the offline editor.
+**オフラインの場合:** [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get)からスタータープロジェクトをダウンロードして、オフラインエディターで開きます。
 
 \--- /task \---
 
-The project contains a backdrop with platforms:
+プロジェクトには、床のある背景が含まれています。
 
-![dodgeball project background](images/dodge-background.png)
+![ドッジボールプロジェクトの背景](images/dodge-background.png)
 
 \--- task \---
 
-Choose a new sprite as the character the player will control, and add it to your project. It's best if you choose a sprite with multiple costumes, so that you can make it look as though it's walking.
+プレーヤーが制御するキャラクターとして新しいスプライトを選択し、プロジェクトに追加します。 複数のコスチュームを持つスプライトを選択すると、歩いているように見せることができます。
 
-![pick a sprite](images/dodge-characters.png)
+![スプライトを選ぶ](images/dodge-characters.png)
 
-[[[generic-scratch3-sprite-from-library]]]
+[generic-scratch3-sprite-from-library]]]
 
 \--- /task \---
 
 \--- task \---
 
-Add code blocks to your character sprite so that the player can use the arrow keys to move the character around. When the player presses the right arrow, the character should point right, move a few steps, and change to the next costume:
+プレイヤーが矢印キーでキャラクターを移動できるように、キャラクタースプライトにコードブロックを追加します。 プレイヤーが右矢印を押すと、キャラクターは右を向き、数歩移動して次のコスチュームに変更します。
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![ピコウォーキングスプライト](images/pico_walking_sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (right arrow v) pressed? > then
-        point in direction (90 v)
-        move (3) steps
-        next costume
-    end
+⚑ が押されたとき
+ずっと 
+  もし <(右向き矢印 v) キーが押された> なら
+  end
+end > なら
+(90 v) 度に向ける
+(3) 歩動かす
+次のコスチュームにする
+end
 end
 ```
 
@@ -49,41 +51,41 @@ end
 
 \--- task \---
 
-If your sprite doesn't fit, adjust its size.
+スプライトが収まらない場合は、サイズを調整します。
 
-![set sprite size so it fits](images/dodge-sprite-size-annotated.png)
-
-\--- /task \---
-
-\--- task \---
-
-Test out your character by clicking the flag and then holding down the right arrow key. Does your character move to the right? Does your character look like it is walking?
-
-![screenshot](images/dodge-walking.png)
+![収まるようにスプライトのサイズを設定します](images/dodge-sprite-size-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code blocks to the character sprite's `forever`{:class="block3control"} loop so that it walks left if the left arrow key is pressed.
+フラグをクリックしてから右矢印キーを押して、キャラクターをテストします。 キャラクターは右に移動しますか？ キャラクターは歩いているように見えますか？
+
+![スクリーンショット](images/dodge-walking.png)
+
+\--- /task \---
+
+\--- task \---
+
+キャラクタースプライトに`ずっと` {:class="block3control"}ループ加えたので、左矢印キーが押されると左に移動します。
 
 \--- hints \---
 
 \--- hint \---
 
-So that your character can move to the left, you'll need to add another `if`{:class="block3control"} block inside the `forever`{:class="block3control"} loop. In this new `if`{:class="block3control"} block, add code to make your character sprite `move`{:class="block3motion"} to the left.
+キャラクターが左に移動できるようにするには、 ` forever` {:class="block3control"}ループの内側に、別の` if`{:class="block3control"}ブロックを追加する必要があります。 この新しい` if ` {:class="block3control"}ブロックの中で、キャラクタースプライトを左側へ`移動`{:class="block3motion"}するようにコードを追加します。
 
 \--- /hint \---
 
 \--- hint \---
 
-Copy the code you created to make the character walk to the right. Then set the `key pressed`{:class="block3sensing"} to the `left arrow`{:class="block3sensing"}, and change the `direction`{:class="block3motion"} to `-90`.
+キャラクターが右に歩くよう作成したコードをコピーします。 さらに、`左向き矢印` {:class="block3sensing"}の`キーが押された` {:class="block3sensing"}ら、`向き` {:class="block3motion"} を` -90 `度に変更するするようにセットします。
 
 ```blocks3
-if <key (right arrow v) pressed? > then
-    point in direction (90 v)
-    move (3) steps
-    next costume
+もし < (右向き矢印 v) キーが押された > なら
+    (90 v) 度に向ける
+    (3) 歩動かす
+    次のコスチュームにする
 end
 ```
 
@@ -91,22 +93,22 @@ end
 
 \--- hint \---
 
-Your code should look like this now:
+コードは以下のようになります:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![ピコウォーキングスプライト](images/pico_walking_sprite.png)
 
 ```blocks3
-when green flag clicked
-forever 
-  if <key (right arrow v) pressed?> then 
-    point in direction (90 v)
-    move (3) steps
-    next costume
+⚑ が押されたとき
+ずっと 
+  もし <key (right arrow v) pressed?> なら 
+    (90 v) 度に向ける
+    (3) 歩動かす
+    次のコスチュームにする
   end
-  if <key (left arrow v) pressed?> then 
-    point in direction (-90 v)
-    move (3) steps
-    next costume
+  もし <key (left arrow v) pressed?> なら 
+    (-90 v) 度に向ける
+    (3) 歩動かす
+    次のコスチュームにする
   end
 end
 ```
@@ -119,42 +121,42 @@ end
 
 \--- task \---
 
-Test your new code to make sure that it works. Does your character turn upside-down when walking to the left?
+新しいコードをテストして、動作することを確認します。 キャラクターは左に歩いているときに逆さまになりますか？
 
-![screenshot](images/dodge-upside-down.png)
+![スクリーンショット](images/dodge-upside-down.png)
 
-If so, you can fix this by clicking on the **direction** of your character sprite, and then clicking on the left-right arrow.
+その場合、キャラクタースプライトの**向き**をクリックして、さらに左右反転をクリックして修正できます
 
-![screenshot](images/dodge-left-right-annotated.png)
+![スクリーンショット](images/dodge-left-right-annotated.png)
 
-Or if you prefer, you can also fix the problem by adding this block to the start of your character's script:
+または、必要に応じて、このブロックをキャラクターのスクリプトの先頭に追加して問題を修正することもできます。
 
 ```blocks3
-set rotation style [left-right v]
+回転方法を [左右のみ v] にする
 ```
 
 \--- /task \---
 
 \--- task \---
 
-To climb a pink ladder, your character sprite should move a few steps upwards on the Stage whenever the up arrow is pressed **and** the character is touching the correct colour.
+ピンクのはしごを登るには、上向き矢印がを押され**かつ**キャラクターが正しい色に触れている時にいつも、キャラクタースプライトは数歩ステージの上方へ移動します。
 
-Add inside your character's `forever`{:class="block3control"} loop to `change`{:class="block3motion"} the character's `y` (vertical) position `if`{:class="block3control"} the `up arrow is pressed`{:class="block3sensing"} and the character is `touching the colour pink`{:class="block3sensing"}.
+`もし` {:class="block3control"} `上向きの矢印が押され` {:class="block3sensing"}そして、キャラクタが`ピンクに触れている`{:class="block3sensing"}場合に、 キャラクターの`ずっと` {:class="block3control"}ループの内側に追加し、キャラクターの`y`位置 (縦方向)を`変えます` {:class="block3motion"}
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![ピコウォーキングスプライト](images/pico_walking_sprite.png)
 
 ```blocks3
-    if < <key (up arrow v) pressed?> and <touching color [#FF69B4]?> > then
-        change y by (4)
-    end
+    もし <<key (up arrow v) pressed?> かつ <touching color [#FF69B4]?>> なら 
+  y座標を (4) ずつ変える
+end
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code. Can you make the character climb the pink ladders and get to the end of the level?
+コードをテストしましょう。 キャラクターをピンクのはしごに登らせて、レベルの最後まで到達させることができますか？
 
-![screenshot](images/dodge-test-character.png)
+![スクリーンショット](images/dodge-test-character.png)
 
 \--- /task \---
