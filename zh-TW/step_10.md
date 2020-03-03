@@ -1,23 +1,23 @@
-## Challenge: improved gravity
+## 挑戰：改良重力
 
-There's one other small bug in your game: gravity doesn't pull the character sprite downwards if **any** part of the sprite is touching a blue platform. So even if the sprites head touches a platform, the sprite doesn't fall! You can test this yourself: make your character climb most of the way up a ladder, and then move the character sideways beneath a platform:
+你的遊戲還存在一個小小的 Bug：如果角色的**任何一個部位**碰到藍色的平台，就不會有重力。 也就是說，如果角色的頭部碰到這個平台，角色就會「掛」在半空中了！ 不相信的話你自己試試：讓你的角色爬到梯子上，然後往接近平台下方處跳躍或是移動角色。
 
-![screenshot](images/dodge-gravity-bug.png)
+![截圖](images/dodge-gravity-bug.png)
 
-To fix the bug, you first need to give your character sprite new trousers that have a different colour (on **all** costumes).
+要修復這個小小的錯誤，你先要為角色穿上一件不同顏色的褲子（注意：角色的**每個造型**都要這麼做）。
 
-![screenshot](images/dodge-trousers.png)
+![截圖](images/dodge-trousers.png)
 
-Then replace this code block:
-
-```blocks3
-    < touching color [#0000FF]? >
-```
-
-with this code block:
+然後找到以下的程式積木：
 
 ```blocks3
-    < color [#00FF00] is touching [#0000FF]? >
+    < 碰到顏色 [#0000FF]? >
 ```
 
-To make sure you've fixed the bug, test the game after you've made these changes!
+把上面的積木換成：
+
+```blocks3
+    < 顏色 (#00FF00) 碰到顏色 (#0000FF)？ >
+```
+
+檢查一下，bug 修好了嗎？
