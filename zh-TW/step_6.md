@@ -1,100 +1,100 @@
-## Dodging balls
+## 躲避的球
 
-Your character can move and jump now, so it's time to add some balls that the character has to avoid.
+你已經賦予了角色移動和跳躍的能力了，現在，我們來給角色製造一些麻煩吧。
 
 \--- task \---
 
-Create a new ball sprite. You can choose any type of ball you like.
+創建一個新的球角色。 你可以選擇任何你喜歡的球。你可以在角色範例庫中輸入關鍵字 ball（球）來篩選角色。
 
-![screenshot](images/dodge-balls.png)
+![截圖](images/dodge-balls.png)
 
 \--- /task \---
 
 \--- task \---
 
-Resize the ball sprite so that the character can jump over it. Try making the character jump over the ball to test whether the ball is the right size.
+調整球的尺寸，要讓玩家角色能跳的過去。 測試看看，如果跳不過去，就把球的尺寸縮小些，又或者，回到上個步驟，把跳躍的高度給修改一下。
 
-![screenshot](images/dodge-ball-resize.png)
+![截圖](images/dodge-ball-resize.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add this code to your ball sprite:
+為球角色編寫這個程式：
 
-![ball sprite](images/ball_sprite.png)
+![球角色](images/ball_sprite.png)
 
 ```blocks3
-when green flag clicked
-hide
-forever 
-  wait (3) seconds
-  create clone of (myself v)
+當 @greenflag 被點擊
+隱藏
+重複無限次
+  等待 (3) 秒
+  建立 (自己 v) 的分身
 end
 ```
 
 ```blocks3
-when I start as a clone
-go to x: (160) y: (160)
-show
-repeat (22) 
-  change y by (-4)
+當分身產生
+定位到 x:(160) y:(160)
+顯示
+重複 (22) 次
+  y 改變 (-4)
 end
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
+重複 (170) 次
+  x 改變 (-2)
+  左轉 @turnright (6) 度
 end
-repeat (30) 
-  change y by (-4)
+重複 (30) 次
+  y 改變 (-4)
 end
-delete this clone
+分身刪除
 ```
 
-This code creates a new clone of the ball sprite every three seconds. Each new clone moves along the top platform and then drops.
+這個程式是用來製造球角色的分身，每 3 秒建立一次， 每個新的球分身都會從舞台右上角開始掉落，然後在平台上滾動。
 
 \--- /task \---
 
 \--- task \---
 
-Click the flag to test the game.
+點擊綠旗開始測試遊戲。
 
-![screenshot](images/dodge-ball-test.png)
+![截圖](images/dodge-ball-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add more code to your ball sprite so that clones of it move across all three platforms.
+為你的球角色添加更多程式，讓它能在三個平台上移動。
 
-![screenshot](images/dodge-ball-more-motion.png)
+![截圖](images/dodge-ball-more-motion.png)
 
 \--- hints \---
 
 \--- hint \---
 
-Repeat the code blocks you used to move the ball sprite clone across the first platform. You need to change the `x`{:class="block3motion"}, `y`{:class="block3motion"}, and `repeat`{:class="block3control"} numbers so that the clones follow the platforms correctly.
+複製你用在第一個平台上移動球角色的程式， 只要修改 `x`{:class="block3motion"}、`y`{:class="block3motion"}，還有`重複`{:class="block3control"} 的值，讓分身能正確的順著平台移動。
 
 \--- /hint \---
 
 \--- hint \---
 
-These are the blocks you need. Make sure you add them in the correct order.
+這裡是你需要的程式積木， 想想看，怎麼安排順序才能讓球正確滾動？
 
-![ball sprite](images/ball_sprite.png)
+![球角色](images/ball_sprite.png)
 
 ```blocks3
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
+重複 (170) 次
+  x 改變 (-2)
+  左轉 @turnleft (6) 度
 end
 
-repeat (180) 
-  change x by (2)
-  turn cw (6) degrees
+重複 (180) 次
+  x 改變 (2)
+  右轉 @turnright (6) 度
 end
 
-repeat (30) 
-  change y by (-4)
+重複 (30) 次
+  y 改變 (-4)
 end
 ```
 
@@ -102,36 +102,36 @@ end
 
 \--- hint \---
 
-The code for your ball sprite clones should look like this:
+球角色的程式看起來會像這樣：
 
-![ball sprite](images/ball_sprite.png)
+![球角色](images/ball_sprite.png)
 
 ```blocks3
-when I start as a clone
-go to x: (160) y: (160)
-show
-repeat (22) 
-  change y by (-4)
+當分身產生
+定位到 x:(160) y:(160)
+顯示
+重複 (22) 次
+  y 改變 (-4)
 end
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
+重複 (170) 次
+  x 改變 (-2)
+  左轉 @turnleft (6) 度
 end
-repeat (30) 
-  change y by (-4)
+重複 (30) 次
+  y 改變 (-4)
 end
-repeat (180) 
-  change x by (2)
-  turn cw (6) degrees
+重複 (180) 次
+  x 改變 (2)
+  右轉 @turnright (6) 度
 end
-repeat (30) 
-  change y by (-4)
+重複 (30) 次
+  y 改變 (-4)
 end
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
+重複 (170) 次
+  x 改變 (-2)
+  左轉 @turnleft (6) 度
 end
-delete this clone
+分身刪除
 ```
 
 \--- /hint \---
@@ -142,17 +142,17 @@ delete this clone
 
 \--- task \---
 
-Now add some code blocks to broadcast (send) a message if your character gets hit by a ball!
+現在添加一些程式，讓玩家角色在撞到球時廣播一個訊息！
 
-Add this code to your ball sprite:
+要在球角色上添加的程式會像這樣：
 
-![ball sprite](images/ball_sprite.png)
+![球角色](images/ball_sprite.png)
 
 ```blocks3
-    when I start as a clone
-    forever
-        if < touching (Pico walking v)? > then
-            broadcast (hit v)
+    當分身產生
+    重複無限次
+        如果 <碰到 (Pico v)？ > 那麼
+            廣播訊息 (擊中了 v)
         end
     end
 ```
@@ -161,20 +161,20 @@ Add this code to your ball sprite:
 
 \--- task \---
 
-Finally, add code blocks to your character sprite to make it move back to its starting position when it receives the `hit` message:
+最後，在你的角色上再寫些程式，讓它在收到`擊中了`訊息時回到一開始的位置，重新再來一次。
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![正在走路的 Pico](images/pico_walking_sprite.png)
 
 ```blocks3
-    when I receive [hit v]
-    point in direction (90)
-    go to x: (-210) y: (-120)
+    當收到訊息 (擊中了 v)
+    面朝 (90) 度
+    定位到 x:(-210) y:(-120)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test out your code. Check whether the character moves back to the start after touching a ball.
+測試你的程式。 在球碰到角色後，看看角色是不是會回到起始位置。
 
 \--- /task \---
