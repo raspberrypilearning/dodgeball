@@ -1,23 +1,23 @@
-## Challenge: improved gravity
+## チャレンジ: 重力をより良くする
 
-There's one other small bug in your game: gravity doesn't pull the character sprite downwards if **any** part of the sprite is touching a blue platform. So even if the sprites head touches a platform, the sprite doesn't fall! You can test this yourself: make your character climb most of the way up a ladder, and then move the character sideways beneath a platform:
+ゲームにはもう1つの小さなバグがあります: スプライトの**どんな**一部が青い床に触れていても、重力がキャラクタースプライトを下のほうに引きません、 そのため、スプライトの頭が床に触れても、スプライトは落ちません！ これを自分でテストすることができます: キャラクターにはしごの大部分登らせてから、床の下でキャラクターを横に動かします：
 
-![screenshot](images/dodge-gravity-bug.png)
+![スクリーンショット](images/dodge-gravity-bug.png)
 
-To fix the bug, you first need to give your character sprite new trousers that have a different colour (on **all** costumes).
+バグを修正するには、最初にキャラクタースプライトに異なる色(**すべての**衣装について) の新しいズボンを与える必要があります。
 
-![screenshot](images/dodge-trousers.png)
+![スクリーンショット](images/dodge-trousers.png)
 
-Then replace this code block:
-
-```blocks3
-    < touching color [#0000FF]? >
-```
-
-with this code block:
+次に、このコードブロックに置き換えます:
 
 ```blocks3
-    < color [#00FF00] is touching [#0000FF]? >
+    < [#0000FF] 色に触れた >
 ```
 
-To make sure you've fixed the bug, test the game after you've made these changes!
+このコードブロックで:
+
+```blocks3
+    < [#00FF00] 色が [#0000FF] 色に触れた> >
+```
+
+バグを修正したことを確認するには、これらの変更を行った後にゲームをテストしてください！
