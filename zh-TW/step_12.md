@@ -1,10 +1,10 @@
-## What next?
+## 然後呢？
 
-Have a go at our [Brain game](https://projects.raspberrypi.org/en/projects/brain-game?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, in which you can create your own maths quiz.
+玩玩我們的[腦力遊戲](https://projects.raspberrypi.org/en/projects/brain-game?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects)，這個專案裡你會學到怎麼創建一個數學測驗遊戲，看看在 30 秒內玩家可以答對幾題。
 
 \--- no-print \---
 
-Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
+點擊按鈕開始。 輸入問題的答案，然後按下鍵盤的 <kbd>Enter</kbd> 按鍵。
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -15,6 +15,6 @@ Click the button to start. Type in the answer to the question, and then press th
 
 \--- print-only \---
 
-![Brain Game](images/brain-final.png)
+![腦力遊戲](images/brain-final.png)
 
 \--- /print-only \---
