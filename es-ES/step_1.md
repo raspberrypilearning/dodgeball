@@ -1,16 +1,16 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2).
+Ésta es una versión de **Scratch 3** del proyecto. También hay una [versión del proyecto en Scratch 2](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## Introducción
 
-You'll learn how to create a platform game in which the player has to dodge moving balls to reach the end of the level.
+Aprenderás cómo crear un juego de plataformas en el que el jugador tenga que esquivar unas pelotas en movimiento para llegar al final del nivel.
 
 \--- no-print \---
 
-Click the green flag to start, and then use the arrow keys to move and the <kbd>space</kbd> key to jump.
+Haz clic en la bandera verde para empezar, y luego utiliza las teclas de flecha para moverte y la tecla <kbd>espacio</kbd> para saltar.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/251809924/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,48 +21,48 @@ Click the green flag to start, and then use the arrow keys to move and the <kbd>
 
 \--- print-only \---
 
-![dodgeball game being played](images/dodgeball-showcase.png)
+![partida de esquiva-pelotas en curso](images/dodgeball-showcase.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Lo que necesitarás
 
-### Hardware
+### Equipo
 
-+ A computer capable of running Scratch 3
++ Un ordenador capaz de ejecutar Scratch 3
 
 ### Software
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/download/))
++ Scratch 3 ([en línea](https://scratch.mit.edu/projects/editor/) o [sin conexión](https://scratch.mit.edu/download/))
 
-### Downloads
+### Descargas
 
-You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: What you will learn
-
-+ How to use the keyboard to control a sprite
-+ How to use the `if, then, else`{:class="block3control"} Scratch block
-+ How to clone a sprite
+Puedes [encontrar las descargas aquí](http://rpf.io/p/en/dodgeball-go).
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: Lo que vas a aprender
+
++ Cómo utilizar el teclado para controlar un objeto
++ Cómo usar el bloque `si, entonces, si no`{:class="block3control"} de Scratch
++ Cómo clonar un objeto
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: Información adicional para educadores
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
+Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/dodgeball-get).
+Puedes encontrar el [proyecto terminado aquí](http://rpf.io/p/en/dodgeball-get).
 
 \--- /collapse \---
