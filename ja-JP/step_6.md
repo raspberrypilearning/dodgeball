@@ -1,100 +1,100 @@
-## Dodging balls
+## ボールをよける
 
-Your character can move and jump now, so it's time to add some balls that the character has to avoid.
+キャラクターは移動してジャンプできるので、キャラクターが避けなければならないボールを追加します。
 
 \--- task \---
 
-Create a new ball sprite. You can choose any type of ball you like.
+新しいボールスプライトを作成。 好きなタイプのボールを選択できます。
 
-![screenshot](images/dodge-balls.png)
+![スクリーンショット](images/dodge-balls.png)
 
 \--- /task \---
 
 \--- task \---
 
-Resize the ball sprite so that the character can jump over it. Try making the character jump over the ball to test whether the ball is the right size.
+キャラクターがジャンプできるようにボールスプライトのサイズを変更します。 キャラクターがボールを飛び越えて、ボールが正しいサイズかどうかをテストしてみてください。
 
-![screenshot](images/dodge-ball-resize.png)
+![スクリーンショット](images/dodge-ball-resize.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add this code to your ball sprite:
+このコードをボールスプライトに追加します。
 
-![ball sprite](images/ball_sprite.png)
+![ボールスプライト](images/ball_sprite.png)
 
 ```blocks3
-when green flag clicked
-hide
-forever 
-  wait (3) seconds
-  create clone of (myself v)
+⚑ が押されたとき
+隠す
+ずっと 
+  (3) 秒待つ
+  (自分自身 v) のクローンを作る
 end
 ```
 
 ```blocks3
-when I start as a clone
-go to x: (160) y: (160)
-show
-repeat (22) 
-  change y by (-4)
+クローンされたとき
+x座標を (160) 、y座標を (160) にする
+表示する
+(22) 回繰り返す 
+  y座標を (-4) ずつ変える
 end
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
+(170) 回繰り返す 
+  x座標を (-2) ずつ変える
+  ↺ (6) 度回す
 end
-repeat (30) 
-  change y by (-4)
+(30) 回繰り返す 
+  y座標を (-4) ずつ変える
 end
-delete this clone
+このクローンを削除する
 ```
 
-This code creates a new clone of the ball sprite every three seconds. Each new clone moves along the top platform and then drops.
+このコードは、ボールスプライトの新しいクローンを3秒ごとに作成します。 新しいクローンはそれぞれ、一番上の床に沿って移動してから落ちます。
 
 \--- /task \---
 
 \--- task \---
 
-Click the flag to test the game.
+フラグをクリックして、ゲームをテストします。
 
-![screenshot](images/dodge-ball-test.png)
+![スクリーンショット](images/dodge-ball-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add more code to your ball sprite so that clones of it move across all three platforms.
+ボールスプライトにコードを追加して、3つのすべての床の間でそのクローンを移動します。
 
-![screenshot](images/dodge-ball-more-motion.png)
+![スクリーンショット](images/dodge-ball-more-motion.png)
 
 \--- hints \---
 
 \--- hint \---
 
-Repeat the code blocks you used to move the ball sprite clone across the first platform. You need to change the `x`{:class="block3motion"}, `y`{:class="block3motion"}, and `repeat`{:class="block3control"} numbers so that the clones follow the platforms correctly.
+ボールスプライトクローンを最初の床に移動するために使用したコードブロックを繰り返します。 `x` {:class="block3motion"}、`y ` {:class="block3motion"}を変更し、数を`繰り返し` {:class="block3control"}使用して、クローンが床に正しく追従するように変更する必要があります。
 
 \--- /hint \---
 
 \--- hint \---
 
-These are the blocks you need. Make sure you add them in the correct order.
+これらが必要なブロックです。 必ず正しい順序で追加してください。
 
-![ball sprite](images/ball_sprite.png)
+![ボールスプライト](images/ball_sprite.png)
 
 ```blocks3
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
+(170) 回繰り返す 
+  x座標を (-2) ずつ変える
+  ↺ (6) 度回す
 end
 
-repeat (180) 
-  change x by (2)
-  turn cw (6) degrees
+(180) 回繰り返す 
+  x座標を (2) ずつ変える
+  ↻ (6) 度回す
 end
 
-repeat (30) 
-  change y by (-4)
+(30) 回繰り返す 
+  y座標を (-4) ずつ変える
 end
 ```
 
@@ -102,36 +102,36 @@ end
 
 \--- hint \---
 
-The code for your ball sprite clones should look like this:
+ボールスプライトクローンのコードは次のようになります。
 
-![ball sprite](images/ball_sprite.png)
+![ボールスプライト](images/ball_sprite.png)
 
 ```blocks3
-when I start as a clone
-go to x: (160) y: (160)
-show
-repeat (22) 
-  change y by (-4)
+クローンされたとき
+x座標を (160) 、y座標を (160) にする
+表示する
+(22) 回繰り返す 
+  y座標を (-4) ずつ変える
 end
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
+(170) 回繰り返す 
+  x座標を (-2) ずつ変える
+  ↺ (6) 度回す
 end
-repeat (30) 
-  change y by (-4)
+(30) 回繰り返す 
+  y座標を (-4) ずつ変える
 end
-repeat (180) 
-  change x by (2)
-  turn cw (6) degrees
+(180) 回繰り返す 
+  x座標を (2) ずつ変える
+  ↻ (6) 度回す
 end
-repeat (30) 
-  change y by (-4)
+(30) 回繰り返す 
+  y座標を (-4) ずつ変える
 end
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
+(170) 回繰り返す 
+  x座標を (-2) ずつ変える
+  ↺ (6) 度回す
 end
-delete this clone
+このクローンを削除する
 ```
 
 \--- /hint \---
@@ -142,39 +142,39 @@ delete this clone
 
 \--- task \---
 
-Now add some code blocks to broadcast (send) a message if your character gets hit by a ball!
+ここで、コードブロックを追加して、キャラクターがボールにぶつかった場合にメッセージをブロードキャスト(送信) します！
 
-Add this code to your ball sprite:
+このコードをボールスプライトに追加します。
 
-![ball sprite](images/ball_sprite.png)
+![ボールスプライト](images/ball_sprite.png)
 
 ```blocks3
-    when I start as a clone
-    forever
-        if < touching (Pico walking v)? > then
-            broadcast (hit v)
-        end
-    end
+    クローンされたとき
+    ずっと
+        もし < (歩いているピコ v) に触れた > なら
+ (ヒット v) を送る
+  end
+end
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Finally, add code blocks to your character sprite to make it move back to its starting position when it receives the `hit` message:
+最後に、キャラクタースプライトにコードブロックを追加して、`ヒット`メッセージを受け取ったときに開始位置に戻るようにします:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![歩いているピコスプライト](images/pico_walking_sprite.png)
 
 ```blocks3
-    when I receive [hit v]
-    point in direction (90)
-    go to x: (-210) y: (-120)
+    [ヒット v] を受取ったとき
+    (90) 度に向ける
+    x座標を(-210) 、y座標を(-120) にする
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test out your code. Check whether the character moves back to the start after touching a ball.
+コードをテストしましょう。 ボールに触れた後、キャラクターが最初に戻るかどうかを確認します。
 
 \--- /task \---
