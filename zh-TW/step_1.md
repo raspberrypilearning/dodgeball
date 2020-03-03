@@ -1,16 +1,16 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2).
+這個專案是 **Scratch 3** 版本。 另外還有 [Scratch 2](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2) 版本。
 
 \--- /no-print \---
 
-## Introduction
+## 介紹
 
-You'll learn how to create a platform game in which the player has to dodge moving balls to reach the end of the level.
+您將學習如何創建一個平台類型的遊戲（platform game），在該遊戲中玩家必須躲開迎面而來的球，抵達終點才能獲得勝利。
 
 \--- no-print \---
 
-Click the green flag to start, and then use the arrow keys to move and the <kbd>space</kbd> key to jump.
+點擊綠旗開始遊戲，用方向鍵移動，用<kbd>空白鍵</kbd>跳躍。
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/251809924/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,48 +21,48 @@ Click the green flag to start, and then use the arrow keys to move and the <kbd>
 
 \--- print-only \---
 
-![dodgeball game being played](images/dodgeball-showcase.png)
+![玩躲避球遊戲](images/dodgeball-showcase.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: 你會用到
 
-### Hardware
+### 硬體
 
-+ A computer capable of running Scratch 3
++ 可運行 Scratch 3 的電腦
 
-### Software
+### 軟體
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/download/))
++ Scratch 3 ([線上版](https://scratch.mit.edu/projects/editor/) 或 [離線版](https://scratch.mit.edu/download/))
 
-### Downloads
+### 下載
 
-You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: What you will learn
-
-+ How to use the keyboard to control a sprite
-+ How to use the `if, then, else`{:class="block3control"} Scratch block
-+ How to clone a sprite
+材料包可[由此下載](http://rpf.io/p/en/dodgeball-go)。
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: 你會學到
+
++ 如何讓玩家用鍵盤按鍵控制遊戲中的角色
++ 怎麼用 Scratch 中的判斷陳述式積木：`如果…那麼…否則`{:class="block3control"}
++ 角色分身的使用時機
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: 給教師的其它資訊
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
+如果你需要列印這個專案，可以先切換成[列印友好模式](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}。
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/dodgeball-get).
+你可以在這裡找到[已經完成的專案](http://rpf.io/p/en/dodgeball-get)。
 
 \--- /collapse \---
