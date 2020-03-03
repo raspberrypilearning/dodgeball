@@ -1,74 +1,74 @@
-## Lasers!
+## 動感光波！
 
-To your game a little harder to complete, you are going to add lasers!
+為了增加遊戲的難度，你將在遊戲中添加雷射槍！
 
 \--- task \---
 
-Add a new sprite to your game and call it `laser`. It should have two costumes: one called 'on', and one called 'off'.
+繪製一個新的角色，名為`雷射`。 給它兩種造型：一個是「開啟」，另一種是「關閉」。
 
-![screenshot](images/dodge-lasers-costume1.png)
+![截圖](images/dodge-lasers-costume1.png)
 
-![screenshot](images/dodge-lasers-costume2.png)
+![截圖](images/dodge-lasers-costume2.png)
 
 \--- /task \---
 
 \--- task \---
 
-Place your new laser sprite between two platforms.
+將新發明的雷射放在終點前面，來個出奇不意。
 
-![screenshot](images/dodge-lasers-position.png)
+![截圖](images/dodge-lasers-position.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your laser sprite to make it switch between its two costumes.
+為你的雷射編寫程式，讓它在遊戲過程中開開關關，也就是在兩個造型之間切換。
 
-![laser sprite](images/laser_sprite.png)
+![雷射角色](images/laser_sprite.png)
 
 ```blocks3
-    when flag clicked
-    forever
-        switch costume to (on v)
-        wait (2) seconds
-        switch costume to (off v)
-        wait (2) seconds
+    當 @greenflag 被點擊
+    重複無限次
+        造型換成 (開啟 v)
+        等待 (2) 秒
+        造型換成 (關閉v)
+        等待 (2) 秒
     end
 ```
 
-If you prefer, you can change the code shown above so that the sprite `waits`{:class="block3control"} a `random`{:class="block3operators"} amount of time between costume changes.
+如果你有辦法的話，就把程式中切換造型的`等待`{:class="block3control"}的時間改成`不固定`{:class="block3operators"}，這樣一來玩家就沒辦法預測雷射發出的時間，成為了名副其實的「動感」光波。
 
 \--- /task \---
 
 \--- task \---
 
-Finally, add code to your laser sprite so that the laser sprite broadcasts a 'hit' message when it touches the character sprite.
+最後，在雷射角色上再添加一些程式，讓玩家在碰到雷射後廣播「擊中了」的訊息。
 
 \--- hints \---
 
 \--- hint \---
 
-This code should be very similar to the code you added to your ball sprite.
+這個程式和玩家被球擊中時的程式很類似。
 
 \--- /hint \---
 
 \--- hint \---
 
-Copy the code you add to the ball sprite to make this sprite `broadcast 'hit'`{:class="block3control"} when it is `touching your character`{:class="block3sensing"}.
+找到你在球角色的這個程式，也就是如果`碰到角色`{:class="block3sensing"}就`廣播擊中了的訊息`{:class="block3control"}的那段程式。
 
 \--- /hint \---
 
 \--- hint \---
 
-This is the code you should add:
+這裡是你應該添加的程式：
 
-![laser sprite](images/laser_sprite.png)
+![雷射角色](images/laser_sprite.png)
 
 ```blocks3
-when green flag clicked
-forever 
-  if <touching (Pico walking v) ?> then 
-    broadcast (hit v)
+當 @greenflag 被點擊
+重複無限次
+  如果 <碰到 (Pico v)？> 那麼
+    廣播訊息 (擊中了 v)
   end
 end
 ```
@@ -77,12 +77,12 @@ end
 
 \--- /hints \---
 
-You don't need to add any extra code to your characters sprite, because the character sprite already knows what to do when it receives the `broadcast 'hit'`{:class="block3control"}!
+你不需要再為玩家角色編寫其它的程式，因為它已經知道在接收到`擊中了`{:class="block3control"}的訊息後要做些什麼！
 
 \--- /task \---
 
 \--- task \---
 
-Test out your game to see if you can move the character past the laser. If the laser is too easy or too hard to avoid, change the `wait`{:class="block3control"} times in the code for the laser sprite.
+測試你的遊戲，看看是否可以讓雷射槍發出動感光波！ 如果你覺得雷射太容易或太難躲過，你可以調整一下雷射開關的`等待時間`{:class="block3control"}。
 
 \--- /task \---
