@@ -1,5 +1,5 @@
-## Challenge: better jumping
+## 挑戰：改良跳躍動作
 
-Even if the character is already in mid-air, it jumps whenever the player presses the <kbd>space</kbd> bar. You can see this behaviour if you hold down the <kbd>space</kbd> bar.
+即使角色已經跳躍在半空中，只要玩家按下<kbd>空白</kbd>鍵，它還是會跳躍（踩著空氣嗎？）。 如果你按住<kbd>空白</kbd>鍵，你會看到更不可思議的事情發生！
 
-Can you change the character sprite's code for jumping so that your character can only jump `if`{:class="block3control"} it touches a blue platform?
+你能改善角色的程式嗎？`如果`{:class="block3control"}角色碰到平台的時候，它才能再跳起來。
