@@ -1,5 +1,5 @@
-## Challenge: better jumping
+## Desafío: Mejores saltos
 
-Even if the character is already in mid-air, it jumps whenever the player presses the <kbd>space</kbd> bar. You can see this behaviour if you hold down the <kbd>space</kbd> bar.
+El personaje salta cada vez que el jugador pulsa el <kbd>espacio</kbd>. Incluso si está en el aire. Puedes observar este comportamiento si mantienes presionada la tecla <kbd>espacio</kbd>.
 
-Can you change the character sprite's code for jumping so that your character can only jump `if`{:class="block3control"} it touches a blue platform?
+¿Puedes cambiar el código de salto del objeto de personaje de modo que tu personaje solo pueda saltar `si`{:class="block3control"} está tocando una plataforma azul?
