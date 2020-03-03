@@ -1,74 +1,74 @@
-## Lasers!
+## レーザー！
 
-To your game a little harder to complete, you are going to add lasers!
+ゲームを完成させるのが少し難しくするために、レーザーを追加します！
 
 \--- task \---
 
-Add a new sprite to your game and call it `laser`. It should have two costumes: one called 'on', and one called 'off'.
+新しいスプライトをゲームに追加し、それを` laser` と呼びます。 2つのコスチュームが必要です: 1つは「オン」、もう1つは「オフ」です。
 
-![screenshot](images/dodge-lasers-costume1.png)
+![スクリーンショット](images/dodge-lasers-costume1.png)
 
-![screenshot](images/dodge-lasers-costume2.png)
+![スクリーンショット](images/dodge-lasers-costume2.png)
 
 \--- /task \---
 
 \--- task \---
 
-Place your new laser sprite between two platforms.
+2つの床の間に新しいレーザースプライトを配置します。
 
-![screenshot](images/dodge-lasers-position.png)
+![スクリーンショット](images/dodge-lasers-position.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your laser sprite to make it switch between its two costumes.
+レーザースプライトにコードを追加して、2つのコスチュームを切り替えます。
 
-![laser sprite](images/laser_sprite.png)
+![レーザースプライト](images/laser_sprite.png)
 
 ```blocks3
-    when flag clicked
-    forever
-        switch costume to (on v)
-        wait (2) seconds
-        switch costume to (off v)
-        wait (2) seconds
-    end
+    ⚑ が押されたとき
+ずっと 
+  コスチュームを (on v) にする
+  (2) 秒待つ
+  コスチュームを (off v) にする
+  (2) 秒待つ
+end
 ```
 
-If you prefer, you can change the code shown above so that the sprite `waits`{:class="block3control"} a `random`{:class="block3operators"} amount of time between costume changes.
+必要に応じて、スプライトがコスチュームを変更する時間を`ランダム` {:class="block3operators"}な間隔で`待機する`{:class = "block3control"}ように、上記のコードを変更できます。
 
 \--- /task \---
 
 \--- task \---
 
-Finally, add code to your laser sprite so that the laser sprite broadcasts a 'hit' message when it touches the character sprite.
+最後に、レーザースプライトがキャラクタースプライトに触れると「ヒット」メッセージを送るように、レーザースプライトにコードを追加します。
 
 \--- hints \---
 
 \--- hint \---
 
-This code should be very similar to the code you added to your ball sprite.
+このコードは、ボールスプライトに追加したコードと非常に似ている必要があります。
 
 \--- /hint \---
 
 \--- hint \---
 
-Copy the code you add to the ball sprite to make this sprite `broadcast 'hit'`{:class="block3control"} when it is `touching your character`{:class="block3sensing"}.
+ボールスプライトに追加するコードをコピーして、` キャラクターに触れた` {:class="block3sensing"}ときに、このスプライトが`「ヒット」を送る` {:class="block3control"}ようにします。
 
 \--- /hint \---
 
 \--- hint \---
 
-This is the code you should add:
+これは、追加する必要があるコードです:
 
-![laser sprite](images/laser_sprite.png)
+![レーザースプライト](images/laser_sprite.png)
 
 ```blocks3
-when green flag clicked
-forever 
-  if <touching (Pico walking v) ?> then 
-    broadcast (hit v)
+⚑ が押されたとき
+ずっと 
+  もし <touching (Pico walking v) ?> なら 
+    (ヒット v) を送る
   end
 end
 ```
@@ -77,12 +77,12 @@ end
 
 \--- /hints \---
 
-You don't need to add any extra code to your characters sprite, because the character sprite already knows what to do when it receives the `broadcast 'hit'`{:class="block3control"}!
+キャラクタースプライトは`「ヒット」` {:class="block3control"}メッセージを受信したときに何をすべきかを既に知っているため、キャラクタースプライトにさらにコードを追加する必要はありません！
 
 \--- /task \---
 
 \--- task \---
 
-Test out your game to see if you can move the character past the laser. If the laser is too easy or too hard to avoid, change the `wait`{:class="block3control"} times in the code for the laser sprite.
+ゲームをテストして、キャラクターがレーザーを通過できるかどうかを確認してください。 レーザーを避けるのが簡単すぎたり、難しすぎる場合は、レーザースプライトのコードの中の`待機`{:class="block3control"}時間を変更します。
 
 \--- /task \---
