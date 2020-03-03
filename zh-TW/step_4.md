@@ -1,38 +1,38 @@
-## Gravity and jumping
+## 重力和跳躍
 
-Now you're going to make your character move more realistically: you're going to add gravity to your game and give the character the ability to jump.
+現在，你將讓角色的移動變得更逼真：你將為遊戲增加「重力」，還有給予角色「跳躍」的能力。
 
 \--- task \---
 
-In the game, move your character so that it walks off a platform. Do you see that it can walk into empty space?
+啟動遊戲，移動你的角色，試著讓它離開平台。 你看到了嗎？它竟然可以浮在半空中？！
 
-![screenshot](images/dodge-no-gravity.png)
+![截圖](images/dodge-no-gravity.png)
 
 \--- /task \---
 
 \--- task \---
 
-To fix this, add gravity to your game. To do this, create a new variable called `gravity`{:class="block3variables"}.
+這一點也不科學，所以我們要為遊戲空間製造重力。 我們先創建一個名為 `重力`{:class="block3variables"}的變數。
 
 [[[generic-scratch3-add-variable]]]
 
-You can hide this variable from your Stage if you want to.
+你可以視情況在舞台顯示或隱藏變數和它的值。
 
-![screenshot](images/dodge-gravity-annotated.png)
+![截圖](images/dodge-gravity-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add these new code blocks that set `gravity` to a negative number and use the value of `gravity` to repeatedly change your character's y-coordinate:
+添加這些程式積木來製造重力，先將`重力`設定為負數，並使用 `重力`的值重複改變角色的 y 座標：
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![正在走路的 Pico](images/pico_walking_sprite.png)
 
 ```blocks3
-    when flag clicked
-    set [gravity v] to [-4]
-    forever
-        change y by (gravity)
+    當 @greenflag 被點擊
+    變數 [重力 v] 設為 (-4)
+    重複無限次
+        y 改變 (重力)
     end
 ```
 
@@ -40,24 +40,24 @@ Add these new code blocks that set `gravity` to a negative number and use the va
 
 \--- task \---
 
-Click the flag, and then drag your character to the top of the Stage. What happens? Does the gravity work as you expect?
+點擊綠旗，把你的角色拖曳到舞台的頂部，然後放開滑鼠按鍵。 看到了嗎？ 你為遊戲空間創造出地心引力了！
 
-![screenshot](images/dodge-gravity-drag.png)
+![截圖](images/dodge-gravity-drag.png)
 
 \--- /task \---
 
 \--- task \---
 
-Gravity shouldn't move the character sprite through a platform or a ladder! Add an `if`{:class="block3control"} block to your code to only let the gravity work when the character is in mid-air. The gravity code should then look like this:
+角色有重力了，但也不能直接穿過平台或梯子吧！ 加入一個新的`如果`{:class="block3control"}積木到程式裡，讓角色的重力只有浮在半空中時才生效。 這個重力的程式看起來會像這樣：
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![正在走路的 Pico](images/pico_walking_sprite.png)
 
 ```blocks3
-    when flag clicked
-    set [gravity v] to [-4]
-    forever
-        if < not < <touching color [#0000FF]?> or <touching color [#FF69B4]?> > > then
-            change y by (gravity)
+    當 @greenflag 被點擊
+    變數 [重力 v] 設為 (-4)
+    重複無限次
+        如果 <<<碰到顏色 (#0000FF)？> 或 <碰到顏色 (#FF69B4)？>> 不成立> 那麼
+            y 改變 (重力)
         end
     end
 ```
@@ -66,64 +66,64 @@ Gravity shouldn't move the character sprite through a platform or a ladder! Add 
 
 \--- task \---
 
-Test the game again to see whether gravity works correctly now. Does your character sprite stop falling when it touches a platform or a ladder? Can you make the character walk off the edge of platforms and fall onto the level below?
+再測試遊戲一下，看看現在重力是否如你預期那樣的運作。 當你的角色接觸平台或梯子時，它會不會停止往下墜？ 不過有時候它會卡在平台或梯子裡，你能想到要怎麼樣讓角色「剛好」落在平面的上方嗎？
 
-![screenshot](images/dodge-gravity-test.png)
+![截圖](images/dodge-gravity-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-Now add code to make your character jump whenever the player presses the <kbd>space</kbd> key. One very easy way to do this is to move your character up a few times:
+現在，我們來添加一些程式，讓玩家在按下<kbd>空白鍵</kbd>時，遊戲角色會跳起來。 有個非常簡單的寫法，就是讓角色重複向上移動多次：
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![正在走路的 Pico](images/pico_walking_sprite.png)
 
 ```blocks3
-    when [space v] key pressed
-    repeat (10)
-        change y by (4)
+    當 [空白 v] 鍵被按下
+    重複 (10) 次
+        y 改變 (4)
     end
 ```
 
-Because gravity is constantly pushing your character down by 4 pixels, you need to choose a number greater than `4` in your `change y by (4)`{:class="block3motion"} block. Change the number until you're happy with the height the character jumps.
+由於重力導致角色不斷的被向下拉 `4` 個像素點，因此角色跳起來時，`y 改變`{:class="block3motion"} 的量必須要大於 4。 你可以試試不同的值，直到你對角色跳起來的高度滿意為止。
 
 \--- /task \---
 
 \--- task \---
 
-Test out your code. Notice that the jumping movement isn't very smooth. To make jumping look smoother, you need to move your character sprite by smaller and smaller amounts, until it is not rising any higher.
+測試你的程式。 你注意到了嗎，跳躍的動作看起來很不流暢。 為了讓跳的動作更像真的，你要把角色跳起來的距離愈縮愈短，直到跳到不能再高。
 
 \--- /task \---
 
 \--- task \---
 
-To do this, create a new variable called `jump height`{:class="block3variables"}. Again, you can hide this variable if you prefer.
+要做到這個，你要先創建一個新變數，將它命名為`彈跳力`{:class="block3variables"}。 你一樣可以視情況決定是不是要隱藏這個變數。
 
 \--- /task \---
 
 \--- task \---
 
-Delete the jumping code you added to your character sprite, and add this code instead:
+找到剛剛為角色寫的跳起來的程式，刪除它，改寫成這樣：
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![正在走路的 Pico](images/pico_walking_sprite.png)
 
 ```blocks3
-    when [space v] key pressed
-    set [jump height v] to [8]
-    repeat until < (jump height) = [0] >
-        change y by (jump height)
-        change [jump height v] by (-0.5)
+    當 [空白 v] 鍵被按下
+    變數 [彈跳力 v] 設為 (8)
+    重複直到 <(彈跳力) = (0)>
+        y 改變 (彈跳力)
+        變數 [彈跳力 v] 改變 (-0.5)
     end
 ```
 
-This code moves your character up by 8 pixels, then 7.5 pixels, then 7 pixels, and so on, until it does not rise any higher. This makes jumping look much smoother.
+這個程式會讓你的角色往上方移動 8 像素，然後變成 7.5 像素，再變成 7 像素…慢慢的移動間隔愈來愈短，直到間隔變成 0，也就是不再跳高。 這樣子做是為了讓跳躍的動作看起來更加的平順，更符合真實的情況。
 
 \--- /task \---
 
 \--- task \---
 
-Change the value of the `jump height`{:class="block3variables"} variable that is set before the `repeat`{:class="block3control"} starts. Then test your game.
+修改一下`重複`{:class="block3control"}迴圈前面的`彈跳力`{:class="block3variables"}的值，這個變數是彈跳力預設的值，值愈大，表示跳的愈高。 修改完後就測試一下。
 
-Repeat these two steps until you're happy with how high the character jumps.
+你可以任意的修改你想要的值，直到你滿意為止。
 
 \--- /task \---
