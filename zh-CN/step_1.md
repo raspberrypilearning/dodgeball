@@ -10,7 +10,7 @@
 
 \--- no-print \---
 
-Click the green flag to start, and then use the arrow keys to move and the <kbd>space</kbd> key to jump.
+单击绿色小旗标志开始游戏，使用方向键控制角色移动，使用<kbd>空格</kbd> 键跳跃。
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/251809924/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -27,15 +27,15 @@ Click the green flag to start, and then use the arrow keys to move and the <kbd>
 
 ## \--- collapse \---
 
-## title: What you will need
+## 标题: 你需要准备什么
 
-### Hardware
+### 硬件
 
-+ A computer capable of running Scratch 3
++ 一台能够运行 Scratch 3 的电脑
 
-### Software
+### 软件
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/download/))
++ Scratch 3 ([在线版](https://scratch.mit.edu/projects/editor/) 或 [离线版](https://scratch.mit.edu/download/))
 
 ### Downloads
 
