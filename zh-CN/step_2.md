@@ -1,14 +1,14 @@
-## Character movement
+## 角色移动
 
-Start by creating a character that can move left and right, and can climb up ladders.
+首先创建一个可以左右移动并可以爬上梯子的角色。
 
 \--- task \---
 
-Open the 'Dodgeball' Scratch starter project.
+打开 'Dodgeball' Scratch 启动项目。
 
-**Online:** open the starter project at [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}.
+**在线：** 在 [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target =“_ blank”}打开初始项目。
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+如果您有一个Scratch帐户，您可以通过点击 **Remix** 复制。
 
 **Offline:** download the starter project from [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) and then open it using the offline editor.
 
