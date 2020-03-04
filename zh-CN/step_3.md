@@ -1,5 +1,5 @@
-## Challenge: completing the level
+## 挑战：完成关卡
 
 Can you add more code blocks to your character sprite to make the sprite say something `if`{:class="block3control"} it gets to the green door?
 
-![screenshot](images/dodge-win.png)
+![截图](images/dodge-win.png)
