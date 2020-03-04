@@ -139,22 +139,22 @@
 
 想要实现爬粉红色的梯子的功能，只要在 上箭头被按下 **并且** 角色精灵刚好碰到了正确的颜色时，在舞台上把角色精灵向上移动几步就可以了。
 
-Add inside your character's `forever`{:class="block3control"} loop to `change`{:class="block3motion"} the character's `y` (vertical) position `if`{:class="block3control"} the `up arrow is pressed`{:class="block3sensing"} and the character is `touching the colour pink`{:class="block3sensing"}.
+在角色代码的 `重复执行`{:class="block3control"} 积木里添加 `如果`{:class="block3controll"} `按下上箭头键?`{:class="block3sensing"} 并且角色 `碰到颜色粉红色`{:class="block3sing"} 积木，然后添加 `将 y(垂直) 坐标增加`{:class="block3motion"} 积木
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    if < <key (up arrow v) pressed?> and <touching color [#FF69B4]?> > then
-        change y by (4)
-    end
+    如果 < <key (up arrow v) pressed?> 与 <touching color [#FF69B4]?> > 那么
+        将y坐标增加 (4)
+结束
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code. Can you make the character climb the pink ladders and get to the end of the level?
+测试您的代码。 您可以让角色爬上粉红色的梯子并到达关卡的尽头吗？
 
-![screenshot](images/dodge-test-character.png)
+![截图](images/dodge-test-character.png)
 
 \--- /task \---
