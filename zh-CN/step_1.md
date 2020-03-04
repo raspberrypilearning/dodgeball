@@ -1,12 +1,12 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2).
+这是该项目的 **Scratch 3** 版本。 该项目还有一个 [ Scratch 2版本](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2) 。
 
 \--- /no-print \---
 
-## Introduction
+## 介绍
 
-You'll learn how to create a platform game in which the player has to dodge moving balls to reach the end of the level.
+您将学习如何创建一个平台游戏，在该游戏中玩家必须躲避移动的球才能到达关卡的尽头。
 
 \--- no-print \---
 
