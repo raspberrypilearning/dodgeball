@@ -10,7 +10,7 @@
 
 如果您有一个Scratch帐户，您可以通过点击 **Remix** 复制。
 
-**Offline:** download the starter project from [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) and then open it using the offline editor.
+**离线：** 从 [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) 下载初始项目，然后使用 Scratch 离线编辑器打开它。
 
 \--- /task \---
 
