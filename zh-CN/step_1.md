@@ -21,7 +21,7 @@
 
 \--- print-only \---
 
-![dodgeball game being played](images/dodgeball-showcase.png)
+![玩躲避球游戏](images/dodgeball-showcase.png)
 
 \--- /print-only \---
 
@@ -59,7 +59,7 @@
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
+如果您需要打印本项目文件，请使用 [适合打印的版本](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}。
 
 \--- /no-print \---
 
