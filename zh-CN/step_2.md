@@ -96,19 +96,19 @@
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-when green flag clicked
-forever 
-  if <key (right arrow v) pressed?> then 
-    point in direction (90 v)
-    move (3) steps
-    next costume
-  end
-  if <key (left arrow v) pressed?> then 
-    point in direction (-90 v)
-    move (3) steps
-    next costume
-  end
-end
+当 绿旗 被点击
+重复执行
+  如果 <key (right arrow v) pressed?> 那么?
+    面向 (90) 方向
+    移动 (3) 步
+    下一个造型
+  结束
+  如果 <key (left arrow v) pressed?> 那么? 
+    面向 (-90) 方向
+    移动 (3) 步
+    下一个造型
+  结束
+结束
 ```
 
 \--- /hint \---
@@ -119,25 +119,25 @@ end
 
 \--- task \---
 
-Test your new code to make sure that it works. Does your character turn upside-down when walking to the left?
+测试您的新代码，以确保它可以工作。 向左走时，角色会颠倒过来吗？
 
-![screenshot](images/dodge-upside-down.png)
+![截图](images/dodge-upside-down.png)
 
-If so, you can fix this by clicking on the **direction** of your character sprite, and then clicking on the left-right arrow.
+如果是这样，您可以通过单击角色精灵的 **方向**，然后单击左右箭头来来解决此问题。
 
-![screenshot](images/dodge-left-right-annotated.png)
+![截图](images/dodge-left-right-annotated.png)
 
-Or if you prefer, you can also fix the problem by adding this block to the start of your character's script:
+您也可以通过把下面这个积木添加到角色代码的开头来解决此问题:
 
 ```blocks3
-set rotation style [left-right v]
+将旋转方式设为 [左右翻转]
 ```
 
 \--- /task \---
 
 \--- task \---
 
-To climb a pink ladder, your character sprite should move a few steps upwards on the Stage whenever the up arrow is pressed **and** the character is touching the correct colour.
+想要实现爬粉红色的梯子的功能，只要在 上箭头被按下 **并且** 角色精灵刚好碰到了正确的颜色时，在舞台上把角色精灵向上移动几步就可以了。
 
 Add inside your character's `forever`{:class="block3control"} loop to `change`{:class="block3motion"} the character's `y` (vertical) position `if`{:class="block3control"} the `up arrow is pressed`{:class="block3sensing"} and the character is `touching the colour pink`{:class="block3sensing"}.
 
