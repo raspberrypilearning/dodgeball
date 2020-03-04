@@ -1,6 +1,6 @@
 \--- no-print \---
 
-这是该项目的 **Scratch 3** 版本。 该项目还有一个 [ Scratch 2版本](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2) 。
+这是该项目的 **Scratch 3** 版本。 该项目还有一个 [Scratch 2版本](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2) 。
 
 \--- /no-print \---
 
@@ -37,25 +37,25 @@
 
 + Scratch 3 ([在线版](https://scratch.mit.edu/projects/editor/) 或 [离线版](https://scratch.mit.edu/download/))
 
-### Downloads
+### 下载
 
-You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: What you will learn
-
-+ How to use the keyboard to control a sprite
-+ How to use the `if, then, else`{:class="block3control"} Scratch block
-+ How to clone a sprite
+您可以从 [这里](http://rpf.io/p/en/dodgeball-go) 下载。
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## 你将学到什么
+
++ 如何使用键盘控制精灵
++ 如何使用 `if,then,else`{:class="block3control"} Scratch 积木
++ 如何克隆精灵
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: 教师附加说明
 
 \--- no-print \---
 
@@ -63,6 +63,6 @@ If you need to print this project, please use the [printer-friendly version](htt
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/dodgeball-get).
+你可以在 [这里](http://rpf.io/p/en/dodgeball-get) 查看完整的项目.
 
 \--- /collapse \---
