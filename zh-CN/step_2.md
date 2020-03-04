@@ -71,27 +71,27 @@
 
 \--- hint \---
 
-So that your character can move to the left, you'll need to add another `if`{:class="block3control"} block inside the `forever`{:class="block3control"} loop. In this new `if`{:class="block3control"} block, add code to make your character sprite `move`{:class="block3motion"} to the left.
+为了你的角色能够向左走，你需要在`重复执行`{:class="block3control"} 积木中添加另一个`如果`{:class="block3control"} 积木。 在这个新的 `如果`{:class="block3control"} 积木中，添加代码使你的角色精灵向左 `移动`{:class="block3motion"}。
 
 \--- /hint \---
 
 \--- hint \---
 
-Copy the code you created to make the character walk to the right. Then set the `key pressed`{:class="block3sensing"} to the `left arrow`{:class="block3sensing"}, and change the `direction`{:class="block3motion"} to `-90`.
+复制你刚创建的使角色向右走的代码。 然后设置 `按下` {：class =“ block3sensing”} `左箭头` {：class =“ block3sensing”} 键，然后更改`面向` {：class =“ block3motion”} 为 `-90` 方向。
 
 ```blocks3
-if <key (right arrow v) pressed? > then
-    point in direction (90 v)
-    move (3) steps
-    next costume
-end
+如果 <按下 (右箭头) 键? > 那么
+        面向 (90) 方向
+        移动 (3) 步
+        下一个造型
+结束
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Your code should look like this now:
+你的代码应该像这样：
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
