@@ -35,37 +35,37 @@
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (right arrow v) pressed? > then
-        point in direction (90 v)
-        move (3) steps
-        next costume
-    end
-end
+当 绿旗 被点击
+重复执行
+    如果 <按下 (右箭头) 键? > 那么
+        面向 (90) 方向
+        移动 (3) 步
+        下一个造型
+    结束
+结束
 ```
 
 \--- /task \---
 
 \--- task \---
 
-If your sprite doesn't fit, adjust its size.
+如果您的精灵不适合，请调整其大小。
 
-![set sprite size so it fits](images/dodge-sprite-size-annotated.png)
-
-\--- /task \---
-
-\--- task \---
-
-Test out your character by clicking the flag and then holding down the right arrow key. Does your character move to the right? Does your character look like it is walking?
-
-![screenshot](images/dodge-walking.png)
+![调整精灵到合适的大小](images/dodge-sprite-size-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code blocks to the character sprite's `forever`{:class="block3control"} loop so that it walks left if the left arrow key is pressed.
+通过单击绿旗并按住向右箭头键来测试您的角色。 您的角色是否向右移动？ 您的角色看起来像在走路吗？
+
+![截图](images/dodge-walking.png)
+
+\--- /task \---
+
+\--- task \---
+
+将代码块添加到精灵的 `重复执行`{:class="block3control"}循环，这样当左箭头按下时，它就可以向左走了。
 
 \--- hints \---
 
