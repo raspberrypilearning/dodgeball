@@ -24,7 +24,7 @@
 
 ![スプライトを選ぶ](images/dodge-characters.png)
 
-[generic-scratch3-sprite-from-library]]]
+[[[generic-scratch3-sprite-from-library]]]
 
 --- /task ---
 
@@ -35,15 +35,13 @@
 ![ピコウォーキングスプライト](images/pico_walking_sprite.png)
 
 ```blocks3
-⚑ が押されたとき
+⚑ がおされたとき
 ずっと 
-  もし <(右向き矢印 v) キーが押された> なら
+  もし <(右向き矢印 v) キーがおされた> なら 
+    (90 v) どにむける
+    (3) ほうごかす
+    つぎのコスチュームにする
   end
-end > なら
-(90 v) 度に向ける
-(3) 歩動かす
-次のコスチュームにする
-end
 end
 ```
 
@@ -101,12 +99,12 @@ end
 ```blocks3
 ⚑ が押されたとき
 ずっと 
-  もし <key (right arrow v) pressed?> なら 
+  もし < (右向き矢印 v) キーが押された > なら 
     (90 v) 度に向ける
     (3) 歩動かす
     次のコスチュームにする
   end
-  もし <key (left arrow v) pressed?> なら 
+  もし < (ひだりむきやじるし v) キーが押された > なら
     (-90 v) 度に向ける
     (3) 歩動かす
     次のコスチュームにする
@@ -147,8 +145,8 @@ end
 ![ピコウォーキングスプライト](images/pico_walking_sprite.png)
 
 ```blocks3
-    もし <<key (up arrow v) pressed?> かつ <touching color [#FF69B4]?>> なら 
-  y座標を (4) ずつ変える
+    もし <<(うわむきやじるし v) キーがおされた> かつ <[#FF69B4] いろにふれた>> なら 
+      yざひょうを (4) ずつかえる
 end
 ```
 
