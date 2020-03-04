@@ -3,38 +3,38 @@ hero_image: images/banner.png
 listed: true
 ingredient: false
 copyedit: false
-title: Dodgeball
-description: Create a platform game in which you dodge moving balls to reach the end of the level
+title: 躲避球
+description: 创建一个平台游戏，在游戏中，你必须躲避移动的球并到达关卡终点。
 version: 4.0.0
 last_tested: 2018-10-10
 steps:
   - 
-    title: Introduction
+    title: 介绍
   - 
-    title: Character movement
+    title: 角色移动
   - 
-    title: "Challenge: completing the level"
+    title: "挑战：通关"
     challenge: true
   - 
-    title: Gravity and jumping
+    title: 重力和跳跃
   - 
-    title: 'Challenge: improved jumping'
+    title: '挑战：改进跳跃体验'
     challenge: true
   - 
-    title: Dodging balls
+    title: 躲避球
   - 
-    title: 'Challenge: random balls'
+    title: '挑战：随机生成小球'
     challenge: true
   - 
-    title: Lasers!
+    title: 激光！
   - 
-    title: 'Challenge: more obstacles'
+    title: '挑战：更多的障碍'
     challenge: true
   - 
-    title: 'Challenge: improved gravity'
+    title: '挑战：改进重力体验'
     challenge: true
   - 
-    title: 'Challenge: more lives'
+    title: '挑战：更多生命'
     challenge: true
   - 
-    title: What next?
+    title: 接下来呢？
