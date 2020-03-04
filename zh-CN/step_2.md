@@ -6,23 +6,23 @@
 
 打开 'Dodgeball' Scratch 启动项目。
 
-**在线：** 在 [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target =“_ blank”}打开初始项目。
+**在线编辑:** 在 [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target =“_ blank”} 打开初始项目。
 
-如果您有一个Scratch帐户，您可以通过点击 **Remix** 复制。
+如果您有一个 Scratch 帐户，您可以通过点击 **改编** 复制该项目。
 
-**离线：** 从 [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) 下载初始项目，然后使用 Scratch 离线编辑器打开它。
+**离线编辑:** 从 [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) 下载初始项目，然后使用 Scratch 离线编辑器打开它。
 
 \--- /task \---
 
-The project contains a backdrop with platforms:
+该项目包含一个带有平台图案的背景：
 
-![dodgeball project background](images/dodge-background.png)
+![躲避球项目背景图案](images/dodge-background.png)
 
 \--- task \---
 
-Choose a new sprite as the character the player will control, and add it to your project. It's best if you choose a sprite with multiple costumes, so that you can make it look as though it's walking.
+选择一个新的精灵作为玩家将控制的角色，并将其添加到您的项目中。 最好选择带有走路动画的精灵，这样可以让它看起来更加自然
 
-![pick a sprite](images/dodge-characters.png)
+![选择一个精灵](images/dodge-characters.png)
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -30,7 +30,7 @@ Choose a new sprite as the character the player will control, and add it to your
 
 \--- task \---
 
-Add code blocks to your character sprite so that the player can use the arrow keys to move the character around. When the player presses the right arrow, the character should point right, move a few steps, and change to the next costume:
+向您的角色精灵添加代码块，以便玩家可以使用方向键来移动角色。 当玩家按下向右箭头时，角色应向右侧移动几步，然后换成下一个造型：
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
