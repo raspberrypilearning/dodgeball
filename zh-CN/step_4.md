@@ -1,10 +1,10 @@
-## Gravity and jumping
+## 重力和跳跃
 
-Now you're going to make your character move more realistically: you're going to add gravity to your game and give the character the ability to jump.
+现在，您将会把角色的移动做得更加逼真：为游戏增加重力，并使角色具有跳跃的能力。
 
 \--- task \---
 
-In the game, move your character so that it walks off a platform. Do you see that it can walk into empty space?
+在游戏中，移动您的角色，使其离开平台。 您看到它可以进入空白空间吗？
 
 ![screenshot](images/dodge-no-gravity.png)
 
