@@ -1,5 +1,5 @@
-## Challenge: better jumping
+## 挑战：改进的跳跃
 
-Even if the character is already in mid-air, it jumps whenever the player presses the <kbd>space</kbd> bar. You can see this behaviour if you hold down the <kbd>space</kbd> bar.
+即使角色已经在半空中，只要玩家继续按下 <kbd>空格</kbd>键，角色就会连续向上跳。 如果一直按住<kbd>空格</kbd> 键，您就会看到这种现象。
 
-Can you change the character sprite's code for jumping so that your character can only jump `if`{:class="block3control"} it touches a blue platform?
+您是否可以更改角色精灵的跳跃代码，使得角色 `如果`{:class="block3control"} 接触到蓝色平台的时候才能进行跳跃
