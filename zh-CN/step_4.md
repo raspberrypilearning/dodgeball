@@ -48,7 +48,7 @@
 
 \--- task \---
 
-Gravity shouldn't move the character sprite through a platform or a ladder! 添加一个 `如果`{:class="block3control"} 积木块到你的代码中，只有当角色处于空中时才让重力起作用。 重力代码应如下所示：
+重力不应该使角色精灵穿过平台或梯子！ 添加一个 `如果`{:class="block3control"} 积木块到你的代码中，只有当角色处于空中时才让重力起作用。 重力代码应如下所示：
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -122,8 +122,8 @@ Gravity shouldn't move the character sprite through a platform or a ladder! 添�
 
 \--- task \---
 
-记得要把 设置 `jump height`{:class="block3variables"} 积木块放在变量，该变量在 `重复执行`{:class="block3control"} 的积木块前面。 Then test your game.
+记得要把 设置 `jump height`{:class="block3variables"} 积木块放在变量，该变量在 `重复执行`{:class="block3control"} 的积木块前面。 然后测试您的游戏。
 
-Repeat these two steps until you're happy with how high the character jumps.
+重复这两个步骤，直到您对角色跳跃的高度感到满意为止。
 
 \--- /task \---
