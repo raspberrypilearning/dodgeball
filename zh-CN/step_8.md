@@ -1,30 +1,30 @@
-## Lasers!
+## 激光！
 
-To your game a little harder to complete, you are going to add lasers!
+为了让您的游戏更难完成，您将添加激光！
 
 \--- task \---
 
-Add a new sprite to your game and call it `laser`. It should have two costumes: one called 'on', and one called 'off'.
+在游戏中添加新的精灵，并将其命名为 `laser` 。 它应该有两种造型：一种叫做 “开”，另一种叫做 “关”。
 
-![screenshot](images/dodge-lasers-costume1.png)
+![截图](images/dodge-lasers-costume1.png)
 
-![screenshot](images/dodge-lasers-costume2.png)
+![截图](images/dodge-lasers-costume2.png)
 
 \--- /task \---
 
 \--- task \---
 
-Place your new laser sprite between two platforms.
+将新的激光精灵放置在两个平台之间。
 
-![screenshot](images/dodge-lasers-position.png)
+![截图](images/dodge-lasers-position.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your laser sprite to make it switch between its two costumes.
+向您的激光精灵添加代码，以使其在其两个造型之间切换。
 
-![laser sprite](images/laser_sprite.png)
+![激光精灵](images/laser_sprite.png)
 
 ```blocks3
     when flag clicked
