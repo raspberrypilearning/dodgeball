@@ -4,85 +4,85 @@
 
 \--- task \---
 
-在游戏中，移动您的角色，使其离开平台。 您看到它可以进入空白空间吗？
+在游戏中，移动您的角色，使其离开平台。 您看到它可以走到了空白的地方吗？
 
-![screenshot](images/dodge-no-gravity.png)
+![截图](images/dodge-no-gravity.png)
 
 \--- /task \---
 
 \--- task \---
 
-To fix this, add gravity to your game. To do this, create a new variable called `gravity`{:class="block3variables"}.
+要解决这个问题，需要在游戏中添加重力 创建一个新的名为 `gravity`{:class="block3variables"} 的变量
 
 [[[generic-scratch3-add-variable]]]
 
-You can hide this variable from your Stage if you want to.
+您可以根据需要在舞台中隐藏此变量。
 
-![screenshot](images/dodge-gravity-annotated.png)
+![截图](images/dodge-gravity-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add these new code blocks that set `gravity` to a negative number and use the value of `gravity` to repeatedly change your character's y-coordinate:
+添加下面这些设置 `gravity` 为负数的代码块，并使用 ` gravity` 的值反复更改角色的 y 坐标：
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    when flag clicked
-    set [gravity v] to [-4]
-    forever
-        change y by (gravity)
-    end
+    当 标志 被点击
+    将 [gravity v] 设置为 [-4]
+    重复执行
+        将 y 坐标增加 (gravity)
+    结束
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Click the flag, and then drag your character to the top of the Stage. What happens? Does the gravity work as you expect?
+单击标志，然后将您的角色拖动到舞台的顶部。 发生了什么? 这个重力效果是不是你想要的呢？
 
-![screenshot](images/dodge-gravity-drag.png)
+![截图](images/dodge-gravity-drag.png)
 
 \--- /task \---
 
 \--- task \---
 
-Gravity shouldn't move the character sprite through a platform or a ladder! Add an `if`{:class="block3control"} block to your code to only let the gravity work when the character is in mid-air. The gravity code should then look like this:
+Gravity shouldn't move the character sprite through a platform or a ladder! 添加一个 `如果`{:class="block3control"} 积木块到你的代码中，只有当角色处于空中时才让重力起作用。 重力代码应如下所示：
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    when flag clicked
-    set [gravity v] to [-4]
-    forever
-        if < not < <touching color [#0000FF]?> or <touching color [#FF69B4]?> > > then
-            change y by (gravity)
-        end
-    end
+    当 标志 被点击
+    将 [gravity v] 设置为 [-4]
+    重复执行
+        如果 < < <touching color [#0000FF]?> 或 <touching color [#FF69B4]?> > 不成立 > 那么
+            将 y 坐标增加 (gravity)
+        结束
+    结束
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test the game again to see whether gravity works correctly now. Does your character sprite stop falling when it touches a platform or a ladder? Can you make the character walk off the edge of platforms and fall onto the level below?
+再次测试游戏，看看现在重力是否正常工作。 当角色精灵接触到平台或梯子时，它会不会停止下落？ 您可以使角色走出平台边缘并掉到下面的平台吗？
 
-![screenshot](images/dodge-gravity-test.png)
+![截图](images/dodge-gravity-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-Now add code to make your character jump whenever the player presses the <kbd>space</kbd> key. One very easy way to do this is to move your character up a few times:
+现在添加代码以使您的角色在玩家按下<kbd>空格</kbd>键时跳起来。 一种非常简单的方法是将角色向上移动几次：
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    when [space v] key pressed
-    repeat (10)
-        change y by (4)
-    end
+    当按下 [空格 v] 键
+    重复执行 (10) 次
+        将 y 坐标增加 (4)
+    结束
 ```
 
 Because gravity is constantly pushing your character down by 4 pixels, you need to choose a number greater than `4` in your `change y by (4)`{:class="block3motion"} block. Change the number until you're happy with the height the character jumps.
