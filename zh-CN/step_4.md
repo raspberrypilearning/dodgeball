@@ -85,44 +85,44 @@ Gravity shouldn't move the character sprite through a platform or a ladder! 添�
     结束
 ```
 
-Because gravity is constantly pushing your character down by 4 pixels, you need to choose a number greater than `4` in your `change y by (4)`{:class="block3motion"} block. Change the number until you're happy with the height the character jumps.
+由于重力不断将您的角色向下推4个像素，因此您需要在 `将 y 坐标增加 (4)`{:class="block3motion"} 的积木块中选择一个大于 `4` 的数字。 更改数字，直到您对角色跳跃的高度满意为止。
 
 \--- /task \---
 
 \--- task \---
 
-Test out your code. Notice that the jumping movement isn't very smooth. To make jumping look smoother, you need to move your character sprite by smaller and smaller amounts, until it is not rising any higher.
+测试您的代码。 注意到跳跃动作不是很平滑。 为了使跳跃看起来更平滑，需要把角色精灵上升的幅度调整的越来越小，直到不再升高为止。
 
 \--- /task \---
 
 \--- task \---
 
-To do this, create a new variable called `jump height`{:class="block3variables"}. Again, you can hide this variable if you prefer.
+因此需要再创建一个名为 `jump height`{:class="block3variables"} 的新变量。 。 同样的，您可以根据需要隐藏此变量。
 
 \--- /task \---
 
 \--- task \---
 
-Delete the jumping code you added to your character sprite, and add this code instead:
+删除已经添加到角色精灵中的跳跃部分的代码，然后添加以下代码：
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    when [space v] key pressed
-    set [jump height v] to [8]
-    repeat until < (jump height) = [0] >
-        change y by (jump height)
-        change [jump height v] by (-0.5)
-    end
+    当按下 [空格 v] 键
+    将 [jump height v] 设置为 [8]
+    重复执行直到 < (jump height) = [0] >
+        将 y 坐标增加 (jump height)
+        将 jump height 坐标增加 (-0.5)
+    结束
 ```
 
-This code moves your character up by 8 pixels, then 7.5 pixels, then 7 pixels, and so on, until it does not rise any higher. This makes jumping look much smoother.
+这段代码将您的角色先上移 8 个像素，然后再上移 7.5 个像素，然后再上移 7 个像素，依此类推，直到它不再升高为止。 这样就使得跳跃看起来更加平滑。
 
 \--- /task \---
 
 \--- task \---
 
-Change the value of the `jump height`{:class="block3variables"} variable that is set before the `repeat`{:class="block3control"} starts. Then test your game.
+记得要把 设置 `jump height`{:class="block3variables"} 积木块放在变量，该变量在 `重复执行`{:class="block3control"} 的积木块前面。 Then test your game.
 
 Repeat these two steps until you're happy with how high the character jumps.
 
