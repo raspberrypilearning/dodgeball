@@ -27,62 +27,62 @@
 ![激光精灵](images/laser_sprite.png)
 
 ```blocks3
-    when flag clicked
-    forever
-        switch costume to (on v)
-        wait (2) seconds
-        switch costume to (off v)
-        wait (2) seconds
-    end
+    当 标志 被点击
+    重复执行
+        换成 (开 v) 造型
+        等待 (2) 秒
+        换成 (关 v) 造型
+        等待 (2) 秒
+    结束
 ```
 
-If you prefer, you can change the code shown above so that the sprite `waits`{:class="block3control"} a `random`{:class="block3operators"} amount of time between costume changes.
+您也可以更改上面显示的代码，以便精灵在两次造型更换之间`等待`{:class="block3control"} 一个 `随机` {:class="block3operators"} 的时间间隔 。
 
 \--- /task \---
 
 \--- task \---
 
-Finally, add code to your laser sprite so that the laser sprite broadcasts a 'hit' message when it touches the character sprite.
+最后，向您的激光精灵添加代码，以便激光精灵碰到角色精灵时广播 'hit' 消息。
 
 \--- hints \---
 
 \--- hint \---
 
-This code should be very similar to the code you added to your ball sprite.
+该代码应与您添加到小球精灵中的代码非常相似。
 
 \--- /hint \---
 
 \--- hint \---
 
-Copy the code you add to the ball sprite to make this sprite `broadcast 'hit'`{:class="block3control"} when it is `touching your character`{:class="block3sensing"}.
+复制您添加到小球精灵的代码，以使该精灵 `碰到角色精灵时`{:class="block3sensing"} `广播 'hit'` 消息{:class="block3control"} 。
 
 \--- /hint \---
 
 \--- hint \---
 
-This is the code you should add:
+这是您应该添加的代码：
 
 ![laser sprite](images/laser_sprite.png)
 
 ```blocks3
-when green flag clicked
-forever 
-  if <touching (Pico walking v) ?> then 
-    broadcast (hit v)
-  end
-end
+当 标志 被点击
+重复执行
+  如果 <touching (Pico walking v) ?> 那么
+    广播 (hit v)
+  结束
+结束
 ```
 
 \--- /hint \---
 
 \--- /hints \---
 
-You don't need to add any extra code to your characters sprite, because the character sprite already knows what to do when it receives the `broadcast 'hit'`{:class="block3control"}!
+您无需在角色精灵上添加任何额外的代码，因为角色精灵在接收到 `广播 'hit'`{:class="block3control"} 的逻辑我们之前已经实现了！
 
 \--- /task \---
 
 \--- task \---
 
-Test out your game to see if you can move the character past the laser. If the laser is too easy or too hard to avoid, change the `wait`{:class="block3control"} times in the code for the laser sprite.
+测试您的游戏，看看是否可以将角色移过激光。 如果激光躲避起来太容易或太困难，修改激光精灵代码中的 `等待`{:class="block3control"} 时间。
 
 \--- /task \---
