@@ -1,6 +1,6 @@
 ## 挑战：改进的重力
 
-There's one other small bug in your game: gravity doesn't pull the character sprite downwards if **any** part of the sprite is touching a blue platform. 因此，即使是精灵头部接触平台，精灵也不会掉落！ You can test this yourself: make your character climb most of the way up a ladder, and then move the character sideways beneath a platform:
+您的游戏中还有另外一个小 bug: 如果游戏精灵的 **任何** 部位接触到了蓝色的平台，那么角色精灵将不会下落 因此，即使是精灵头部接触平台，精灵也不会掉落！ 您可以测试一下：让角色精灵爬上梯子，但不是完全爬上梯子，然后将角色精灵移动到平台下方:
 
 ![截图](images/dodge-gravity-bug.png)
 
