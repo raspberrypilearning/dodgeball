@@ -4,7 +4,7 @@
 
 ![截图](images/dodge-gravity-bug.png)
 
-To fix the bug, you first need to give your character sprite new trousers that have a different colour (on **all** costumes).
+要修复该错误，首先需要给角色精灵换一条具有不同颜色的新裤子(需要在角色精灵的 **所有** 造型中都应用这一改变)。
 
 ![截图](images/dodge-trousers.png)
 
