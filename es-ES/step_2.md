@@ -98,16 +98,16 @@ Tu código debería verse así:
 
 ```blocks3
 when green flag clicked
-por siempre 
-  if <key (flecha derecha v) pressed?> entonces 
-    apuntar en dirección (90 v)
-    mover (3) pasos
-    siguiente disfraz
-  end
-  if <key (flecha izquierda v) pressed?> luego 
-    apuntar en dirección (-90 v)
+forever 
+  if <key (flecha derecha v) pressed?> then 
+    point in direction (90 v)
     move (3) steps
-    siguientes disfraz
+    next costume
+  end
+  if <key (flecha izquierda v) pressed?> then 
+    point in direction (-90 v)
+    move (3) steps
+    next costume
   end
 end
 ```
