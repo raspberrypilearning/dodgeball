@@ -1,24 +1,21 @@
---- challenge ---
-## Reto: Más obstáculos 
-Si todavía crees que el juego es demasiado fácil, puedes añadir más obstáculos al nivel. Puedes añadir cualquier cosa, pero te damos algunas ideas:
+## Desafío: Más obstáculos
 
-+ Una mariposa voladora asesina;
-+ Plataformas que aparecen y desaparecen;
-+ Pelotas de tenis que caen y que el personaje debe evitar.
+Si crees que tu juego es demasiado fácil puedes poner más obstáculos. ¡Los obstáculos pueden ser lo que quieras! Aquí tienes algunas sugerencias:
 
-![screenshot](images/dodge-obstacles.png)
++ Una mariposa peligrosa
++ Plataformas que aparecen y desaparecen
++ Pelotas de tenis cayendo que deben esquivarse
 
-Incluso podrías crear más de un fondo, y hacer que el personaje pase al siguiente nivel cuando llega a la puerta marrón:
+![captura de pantalla](images/dodge-obstacles.png)
 
-```blocks
-	si <¿tocando el color [#714300]?> entonces
-		cambiar fondo a [siguiente fondo v]
-		ir a x:(-210) y:(-120)
-		esperar (1) segundos
-	fin
+Incluso podrías diseñar otro fondo para crear el siguiente nivel. Después añade código para que cuando tu personaje llegue a la puerta verde el juego cambie al nuevo fondo:
+
+![objeto pico caminando](images/pico_walking_sprite.png)
+
+```blocks3
+    si <touching color [#00FF00]?> entonces
+        cambiar fondo a (siguiente fondo v)
+        ir a x: (-210) y: (-120)
+        esperar (1) segundos
+    final
 ```
-
-
-
-
---- /challenge ---

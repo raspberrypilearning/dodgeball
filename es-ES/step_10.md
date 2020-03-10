@@ -1,27 +1,23 @@
---- challenge ---
-## Reto: Gravedad mejorada 
-Hay otro pequeño error en el juego: la gravedad no funciona si _cualquier_ parte de tu personaje está tocando una plataforma azul, ¡incluso su cabeza!. Puedes comprobarlo si haces subir al personaje casi hasta arriba de un poste y después lo mueves hacia la izquierda.
+## Desafío: Mejorando la gravedad
 
-![screenshot](images/dodge-gravity-bug.png)
+Hay otro pequeño fallo en el juego: la gravedad no hace caer al personaje si **alguna** parte del objeto está tocando una plataforma azul. Así que incluso si la cabeza del objeto toca una plataforma, ¡no se cae! Puedes probarlo tú mismo: haz que tu personaje suba la mayor parte del camino por una escalera y luego mueve al personaje de lado debajo de una plataforma:
 
-¿Puedes arreglar este error? Para hacerlo, tienes que cambiar el color de los pantalones del personaje (en _todos_ los disfraces)...
+![captura de pantalla](images/dodge-gravity-bug.png)
 
-![screenshot](images/dodge-trousers.png)
+Para corregir el error primero debes darle a tu objeto de personaje unos nuevos pantalones que tengan un color diferente (en **todos** los disfraces).
 
-...y a continuación sustituir el código:
+![captura de pantalla](images/dodge-trousers.png)
 
-```blocks
-	< ¿tocando el color [#0000FF]? >
+Luego cambia este bloque de código:
+
+```blocks3
+    < tocando el color [# 0000FF]? >
 ```
 
-por:
+por éste:
 
-```blocks
-	< ¿color [#00FF00] tocando [#0000FF]? >
+```blocks3
+    < ¿color [# 00FF00] tocando [# 0000FF]? >
 ```
 
-¡Recuerda probar estas mejoras para asegurarte de que has arreglado el error!
-
-
-
---- /challenge ---
+¡Para asegurarte de haber solucionado el error prueba el juego después de haber hecho los cambios!

@@ -1,46 +1,181 @@
-## Esquivar los balones
+## Esquivando las pelotas
 
-Ahora que has conseguido que el personaje se mueva, vamos a añadir los balones que el personaje tendrá que esquivar.
+Tu personaje ya puede moverse y saltar, así que es hora de agregar algunas pelotas que el personaje debe evitar.
 
-+ Crea un nuevo objeto balón. Puedes escoger el tipo de balón que más te guste.
+--- task ---
 
-	![screenshot](images/dodge-balls.png)
+Crea un nuevo objeto para la pelota. Puedes elegir cualquier tipo de pelota que te guste.
 
-+ Cambia el tamaño del balón para que el personaje pueda saltar por encima de él. Intenta saltar sobre el balón para probarlo.
+![captura de pantalla](images/dodge-balls.png)
 
-	![screenshot](images/dodge-ball-resize.png)
+--- /task ---
 
-+ Añade este código al balón:
+--- task ---
 
-	![screenshot](images/dodge-ball-motion.png)
+Cambia el tamaño del objeto de la pelota para que el personaje puede saltar sobre ella. Intenta hacer que el personaje salte sobre la pelota para comprobar si tiene el tamaño correcto.
 
-	Este código crea un nuevo clon del balón cada 3 segundos. Cada nuevo balón se desplaza a lo largo de la plataforma superior.
+![captura de pantalla](images/dodge-ball-resize.png)
 
-+ Presiona la bandera para probar el código.
+--- /task ---
 
-	![screenshot](images/dodge-ball-test.png)
+--- task ---
 
-+ Añade más código al objeto balón para que los balones se muevan a lo largo de las tres plataformas.
+Añade este código al objeto pelota:
 
-	![screenshot](images/dodge-ball-more-motion.png)
+![objeto pelota](images/ball_sprite.png)
 
-+ Para terminar, ¡necesitarás código para cuando un balón toque al personaje! Añade este código al objeto balón:
+```blocks3
+al hacer clic en la bandera verde
+esconder
+por siempre 
+  esperar (3) segundos
+  crear un clon de (mí mismo v)
+final
+```
 
-	```blocks
-		al comenzar como clon
-		por siempre
-			si <¿tocando [Pico walking v]?> entonces
-				enviar [tocado v]
-			fin
-		fin
-	```
+```blocks3
+al comenzar como clon
+ir a x: (160) y: (160)
+mostrar
+repetir (22) 
+  sumar a y (-4)
+final
+repetir (170) 
+  sumar a x (-2)
+  girar en sentido antihorario (6) grados
+final
+repetir (30) 
+  sumar a y (-4)
+final
+eliminar este clon
+```
 
-+ También tendrás que añadir este código al personaje, para que vuelva al principio cuando un balón le toque:
+Este código crea un nuevo clon del objeto de la pelota cada tres segundos. Cada nuevo clon se mueve a lo largo de la plataforma superior y luego cae.
 
-	```blocks
-		al recibir [tocado v]
-		apuntar en dirección (90 v)
-		ir a x:(-210) y:(-120)
-	```
+--- /task ---
 
-+ Haz una prueba con el personaje para ver si vuelve al principio cuando un balón le toca.
+--- task ---
+
+Haz clic en la bandera verde para probar el juego.
+
+![captura de pantalla](images/dodge-ball-test.png)
+
+--- /task ---
+
+--- task ---
+
+Añade más código a tu objeto de pelota para que los clones se muevan por las tres plataformas.
+
+![captura de pantalla](images/dodge-ball-more-motion.png)
+
+--- hints ---
+
+
+--- hint ---
+
+Repite los bloques de código que has usado para mover el clon de la pelota por la primera plataforma. Debes cambiar los números `x`{:class="block3motion"}, `y`{:class="block3motion"} y `repetir`{:class="block3control"} para que los clones sigan las plataformas correctamente.
+
+--- /hint ---
+
+--- hint ---
+
+Éstos son los bloques que necesitas. Asegúrate de colocarlos en el orden correcto.
+
+![objeto pelota](images/ball_sprite.png)
+
+```blocks3
+repetir (170) 
+  sumar a x (-2)
+  girar en sentido antihorario (6) grados
+final
+
+repetir (180) 
+  sumar a x (2)
+  girar en sentido horario (6) grados
+final
+
+repetir (30) 
+  sumar a y (-4)
+final
+```
+
+--- /hint ---
+
+--- hint ---
+
+El código de tus clones del objeto de pelota debería ser algo así:
+
+![objeto pelota](images/ball_sprite.png)
+
+```blocks3
+al comenzar como clon
+ir a x: (160) y: (160)
+mostrar
+repetir (22) 
+  sumar a y (-4)
+final
+repetir (170) 
+  sumar a x (-2)
+  girar en sentido antihorario (6) grados
+final
+repetir (30) 
+  sumar a  y (-4)
+final
+repetir (180) 
+  sumar a x (2)
+  girar en sentido horario (6) grados
+final
+repetir (30) 
+  sumar a y (-4)
+final
+repetir (170) 
+  sumar a x (-2)
+  girar en sentido antihorario (6) grados
+final
+eliminar este clon
+```
+
+--- /hint ---
+
+--- /hints ---
+
+--- /task ---
+
+--- task ---
+
+¡Ahora añade algunos bloques de código para transmitir (enviar) un mensaje si tu personaje es golpeado por una bola!
+
+Añade este código a tu objeto pelota:
+
+![objeto pelota](images/ball_sprite.png)
+
+```blocks3
+    al comenzar como clon
+    por siempre
+        si < tocando (Pico caminando v)? > entonces
+            enviar (tocado v)
+        final
+    final
+```
+
+--- /task ---
+
+--- task ---
+
+Finalmente, añade bloques de código a tu objeto de personaje para que vuelva a su posición inicial cuando reciba el mensaje `tocado`:
+
+![objeto pico caminando](images/pico_walking_sprite.png)
+
+```blocks3
+    al recibir [tocado v]
+    apuntar en dirección (90)
+    ir a x: (-210) y: (-120)
+```
+
+--- /task ---
+
+--- task ---
+
+Prueba tu código. Comprueba si el personaje vuelve al inicio después de tocar una pelota.
+
+--- /task ---

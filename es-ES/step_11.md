@@ -1,12 +1,7 @@
---- challenge ---
-## Reto: Más vidas 
-¿Puedes dar al jugador 3 `vidas`{:class="blockdata"}, en lugar de simplemente devolverlo al principio cada vez? El juego podría funcionar así:
+## Desafío: Más vidas
 
-+ El jugador empieza con 3 vidas;
-+ Cuando algo toca al jugador, pierde una vida y vuelve al principio;
-+ Si no le quedan vidas, el juego acaba.
+En este momento, tu personaje vuelve a su posición inicial cuando le golpean. ¿Puedes darle al personaje tres `vidas`{:class="block3variables"} y hacer que pierda una vida cuando recibe un golpe? Así es como podría funcionar tu juego:
 
-
-
-
---- /challenge ---
++ El juego comienza con tres vidas para el personaje
++ Cada vez que el personaje es golpeado, pierde una vida **y** vuelve al inicio
++ Si no quedan vidas, el juego termina.

@@ -1,10 +1,5 @@
---- challenge ---
-## Reto: Acabar el nivel 
-¿Puedes añadir más código al personaje, para que diga algo `si`{:class="blockcontrol"} llega a la puerta marrón?
+## Desafío: Acabar el nivel
 
-![screenshot](images/dodge-win.png)
+¿Puedes añadir más bloques de código al objeto de tu personaje para hacer que el objeto diga algo `si`{:class="block3control"} al llegar a la puerta verde?
 
-
-
-
---- /challenge ---
+![captura de pantalla](images/dodge-win.png)

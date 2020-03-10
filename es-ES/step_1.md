@@ -1,48 +1,71 @@
+--- no-print ---
+
+Ésta es una versión de **Scratch 3** del proyecto. También hay una [versión del proyecto en Scratch 2](https://projects.raspberrypi.org/es-ES/projects/dodgeball-scratch2).
+
+--- /no-print ---
+
 ## Introducción
 
-En este proyecto aprenderás a crear un juego de plataformas en el que tendrás que esquivar balones en movimiento y llegar al final del nivel.
+Aprenderás cómo crear un juego de plataformas en el que el jugador tenga que esquivar unas pelotas en movimiento para llegar al final del nivel.
+
+--- no-print ---
+
+Haz clic en la bandera verde para empezar, y luego utiliza las teclas de flecha para moverte y la tecla <kbd>espacio</kbd> para saltar.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/39740618/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/251809924/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/dodge-final.png">
 </div>
 
+--- /no-print ---
+
+--- print-only ---
+
+![partida de esquiva-pelotas en curso](images/dodgeball-showcase.png)
+
+--- /print-only ---
 
 --- collapse ---
 ---
-title: Notas Para los Líderes del Club
+title: Lo que necesitarás
 ---
 
+### Equipo
 
-## Introducción:
-En este proyecto, los niños aprenderán a crear un juego de plataformas usando conceptos y habilidades de Scratch que han aprendido en proyectos anteriores.
++ Un ordenador capaz de ejecutar Scratch 3
 
-## Recursos
-Para este proyecto se debería utilizar Scratch 2. Scratch 2 se puede usar online en [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) o se puede descargar desde [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) para usarlo offline.
+### Software
 
-La versión completa de este proyecto se puede encontrar <a href="http://scratch.mit.edu/projects/39740618/#editor">online</a>, o se puede descargar haciendo clic en el enlace 'Descargar Materiales del Proyecto' que se encuentra en este proyecto, y que contiene:
++ Scratch 3 ([en línea](https://scratch.mit.edu/projects/editor/) o [sin conexión](https://scratch.mit.edu/download/))
 
-+ Dodgeball.sb2
+### Descargas
 
-También hay una versión de este proyecto con los recursos externos ya cargados. Esta versión está disponible online en [jumpto.cc/dodge-resources](http://jumpto.cc/dodge-resources), o en los materiales descargables del proyecto, que contienen:
+Puedes [encontrar las descargas aquí](http://rpf.io/p/es-ES/dodgeball-go).
 
-+ DodgeballResources.sb2 
+--- /collapse ---
 
-Este enlace también incluye una carpeta de 'Recursos del Proyecto', que contiene imágenes que los niños necesitarán para completar el proyecto. Todos los niños deberían tener acceso a una copia de estos recursos.
+--- collapse ---
+---
+title: Lo que vas a aprender
+---
 
-Recursos del Proyecto:
-+ background.png
++ Cómo utilizar el teclado para controlar un objeto
++ Cómo usar el bloque `si, entonces, si no`{:class="block3control"} de Scratch
++ Cómo clonar un objeto
 
-## Objetivos de aprendizaje
-+ Este proyecto consolida el aprendizaje de habilidades de programación aprendidas con anterioridad.
+--- /collapse ---
 
-## Retos
-+ "Salto mejorado" - usar un bloque adicional `si`{:class="blockcontrol"} para solucionar un error de salto múltiple;
-+ "Balones aleatorios" - usar el bloque `al azar`{:class="blockoperators"} para modificar el disfraz y el tamaño del balón y el intervalo entre clones;
-+ "Más obstáculos" - añadir más objetos al juego;
-+ "Gravedad mejorada" - usar un bloque adicional `si`{:class="blockcontrol"} para solucionar un error en la `gravedad`{:class="blockdata"};
-+ "Más vidas" - añadir una variable de `vidas`{:class="blockdata"}.
+--- collapse ---
+---
+title: Información adicional para educadores
+---
 
+--- no-print ---
 
+Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://projects.raspberrypi.org/es-ES/projects/dodgeball/print){:target="_blank"}.
+
+--- /no-print ---
+
+Puedes encontrar el [proyecto terminado aquí](http://rpf.io/p/es-ES/dodgeball-get).
 
 --- /collapse ---
