@@ -4,7 +4,7 @@ Prueba nuestro proyecto [Juego Mental](https://projects.raspberrypi.org/en/proje
 
 \--- no-print \---
 
-Click the button to start. Escribe la respuesta a la pregunta y luego pulsa <kbd>Enter</kbd>.
+Haz clic en el botón para iniciar el proceso de pago. Escribe la respuesta a la pregunta y luego pulsa <kbd>Enter</kbd>.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
