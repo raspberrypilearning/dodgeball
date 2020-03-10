@@ -1,71 +1,129 @@
 ## Gravedad y saltos
 
-Vamos a hacer que tu personaje se mueva de forma más realista añadiendo gravedad y haciendo que pueda saltar.
+Ahora vas a hacer que tu personaje se mueva de forma más realista: agregarás gravedad a tu juego y le darás al personaje la capacidad de saltar.
 
-+ Puede que te hayas fijado en que tu personaje puede salirse de las plataformas y quedarse suspendido en medio del aire. Intenta salirte de una plataforma a ver qué pasa.
+--- task ---
 
-	![screenshot](images/dodge-no-gravity.png)
+En el juego, mueve a tu personaje para que se caiga de una plataforma. ¿Ves que puede caminar sin tener nada bajo sus pies?
 
-+ Para arreglar esto, vamos a añadir gravedad al juego. Crea una nueva variable con el nombre `gravedad`{:class="blockdata"}. Si quieres, puedes esconder esta variable del escenario.
+![captura de pantalla](images/dodge-no-gravity.png)
 
-	![screenshot](images/dodge-gravity.png)
+--- /task ---
 
-+ Añade este nuevo bloque de código, que fija la gravedad en un número negativo, y de esta manera cambia la coordenada y del personaje continuamente.
+--- task ---
 
-	```blocks
-		al presionar bandera verde
-		fijar [gravedad v] a [-4]
-		por siempre
-			cambiar y por (gravedad)
-		fin
-	```
+Para arreglar esto, añade la gravedad a tu juego. Para hacerlo crea una nueva variable llamada `gravedad`{:class="block3variables"}.
 
-+ Presiona la bandera y arrastra a tu personaje hasta la parte superior del escenario. ¿Qué ocurre? ¿La gravedad funciona como esperabas?
+[[[generic-scratch3-add-variable]]]
 
-	![screenshot](images/dodge-gravity-drag.png)
+Puedes ocultar esta variable para que no salga en el escenario si quieres.
 
-+ ¡La gravedad no debería hacer caer a tu personaje de las plataformas o de un poste! Añade un bloque `si`{:class="blockcontrol"} al código para que la gravedad sólo funcione cuando el personaje esté en medio del aire. El código de gravedad debería ser así:
+![captura de pantalla](images/dodge-gravity-annotated.png)
 
-	```blocks
-		al presionar bandera verde
-		fijar [gravedad v] a [-4]
-		por siempre
-			si <no <<¿tocando el color [#0000FF]?> o <¿tocando el color [#FFFF00]?>>> entonces
-				cambiar y por (gravedad)
-			fin
-		fin
-	```
+--- /task ---
 
-+ Prueba la gravedad otra vez. ¿Se cae tu personaje cuando está en una plataforma o en un poste? ¿Puedes dejarte caer del borde de las plataformas al nivel inferior?
+--- task ---
 
-	![screenshot](images/dodge-gravity-test.png)
+Añade estos nuevos bloques de código que fijan la `gravedad` a un número negativo y usa el valor de `gravedad` para cambiar repetidamente la coordenada y de tu personaje:
 
-+  También vamos a hacer que tu personaje salte cuando el jugador pulse la tecla de espacio. Una forma muy sencilla de hacer esto es mover al personaje hacia arriba unas cuantas veces, usando este código:
+![objeto pico caminando](images/pico_walking_sprite.png)
 
-	```blocks
-		al presionar tecla [espacio v]
-		repetir (10)
-			cambiar y por (4)
-		fin
-	```
+```blocks3
+    when flag clicked
+    dar a [gravedad v] el valor [-4]
+    por siempre
+        sumar a y (gravedad)
+    end
+```
 
-	Como la gravedad está constantemente empujando a tu personaje 4 píxeles hacia abajo, necesitarás indicar un número superior a 4 en el bloque `cambiar y por (4)`{:class="blockmotion"}. Cambia el número hasta que te parezca bien la altura a la que el personaje salta.
+--- /task ---
 
-+ Si pruebas este código verás que funciona bien, pero el movimiento no es demasiado fluido. Para que los saltos parezcan más naturales, tendrás que mover al personaje en cantidades cada vez más pequeñas, hasta que deje de saltar.
+--- task ---
 
-+ Para conseguir esto, crea otra variable llamada `altura de salto`{:class="blockdata"}. De nuevo, puedes esconder esta variable si lo prefieres.
+Haz clic en la bandera y después arrastra al personaje a la parte superior del escenario. ¿Qué pasa? ¿Funciona la gravedad como esperabas?
 
-+ Elimina el código de salto que has añadido a tu personaje, y sustitúyelo por éste:
+![captura de pantalla](images/dodge-gravity-drag.png)
 
-	```blocks
-		al presionar tecla [espacio v]
-		fijar [altura de salto v] a [8]
-		repetir hasta que <(altura de salto) = [0]>
-			cambiar y por (altura de salto)
-			cambiar [altura de salto v] por (-0.5)
-		fin
-	```
+--- /task ---
 
-	Este código hace que el personaje se mueva hacia arriba 8 píxeles, después 7,5 píxeles, después 7 píxeles, y así hasta que el personaje acabe de saltar. Esto hará que el salto parezca mucho más fluido.
+--- task ---
 
-+ Cambia el valor de inicio de la variable `altura de salto`{:class="blockdata"} y prueba hasta que te parezca bien la altura a la que el personaje salta.
+¡La gravedad no debe mover al objeto de personaje a través de una plataforma o una escalera! Añade un bloque `si`{:class="block3control"} a tu código para que la gravedad solo funcione cuando el personaje esté en el aire. El código de gravedad debería parecerse a éste:
+
+![objeto pico caminando](images/pico_walking_sprite.png)
+
+```blocks3
+    when flag clicked
+    dar a [gravedad v] el valor [-4]
+    por siempre
+        if < not < <touching color [#0000FF]?> or <touching color [#FF69B4]?> > > then
+            sumar a y (gravedad)
+        end
+    end
+```
+
+--- /task ---
+
+--- task ---
+
+Prueba el juego de nuevo para ver si la gravedad funciona correctamente ahora. ¿Deja el personaje de caer cuando toca una plataforma o una escalera? ¿Puedes hacer que el personaje se salga del borde de las plataformas y caiga al nivel inferior?
+
+![captura de pantalla](images/dodge-gravity-test.png)
+
+--- /task ---
+
+--- task ---
+
+Ahora añade código para hacer que tu personaje salte cada vez que el jugador presione la tecla <kbd>espacio</kbd>. Una manera muy fácil de hacer esto es mover a tu personaje varias veces:
+
+![objeto pico caminando](images/pico_walking_sprite.png)
+
+```blocks3
+    when [espacio v] key pressed
+    repetir (10)
+        sumar a y (4)
+    end
+```
+
+Debido a que la gravedad empuja constantemente a tu personaje hacia abajo 4 píxeles, debes elegir un número mayor que `4` en tus bloques `sumar a y (4)`{:class="block3motion"}. Cambia el número hasta que estés satisfecho con la altura que salta el personaje.
+
+--- /task ---
+
+--- task ---
+
+Prueba tu código. Fíjate en que el movimiento de salto no es muy suave. Para hacer que los saltos sean más suaves, debes mover el objeto de personaje en cantidades cada vez más pequeñas hasta que no suba más.
+
+--- /task ---
+
+--- task ---
+
+Para hacerlo crea una nueva variable llamada `altura del salto`{:class="block3variables"}. Una vez más, puedes ocultarla si lo prefieres.
+
+--- /task ---
+
+--- task ---
+
+Elimina el código de salto que añadiste a tu personaje, y cámbialo por éste:
+
+![objeto pico caminando](images/pico_walking_sprite.png)
+
+```blocks3
+    when [espacio v] key pressed
+    dar a [altura de salto v] el valor [8]
+    repetir hasta que < (altura de salto) = [0] >
+        sumar a y (altura de salto)
+        sumar a [altura de salto v] (-0.5)
+    end
+```
+
+Este código hace que tu personaje suba 8 píxeles, luego 7.5 píxeles, luego 7 píxeles, y así sucesivamente, hasta que no suba más. Ésto hace que el salto sea mucho más suave.
+
+--- /task ---
+
+--- task ---
+
+Cambia el valor de la variable `altura del salto`{:class="block3variables"} que se fija antes de que comience el bloque `repetir`{:class="block3control"}. Después prueba tu juego.
+
+Repite estos dos pasos hasta que estés satisfecho con la altura con la que salta el personaje.
+
+--- /task ---

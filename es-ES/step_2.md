@@ -1,48 +1,161 @@
-## Movimientos del personaje
+## Movimiento del personaje
 
-Empezaremos por crear un personaje que pueda moverse hacia la derecha y la izquierda, y que pueda subirse a postes.
+Comienza por crear un personaje que pueda moverse hacia la izquierda, la derecha y que pueda subir escaleras.
 
-+ Crea un nuevo proyecto de Scratch y borra el objeto gato para que el proyecto esté vacío. Puedes encontrar el editor online de Scratch en <a href="http://jumpto.cc/scratch-new">jumpto.cc/scratch-new</a>.
+--- task ---
 
-+ Para este proyecto, deberías de tener una carpeta llamada 'Recursos del Proyecto', en la que encontrarás la imagen de fondo que necesitas. Asegúrate de que tienes esta carpeta, y pregunta al líder del Club si no la encuentras.
+Abre el proyecto inicial de Scratch 'Esquiva-pelotas'.
 
-	![screenshot](images/dodge-resources.png)
+**En línea:** abre el proyecto inicial en [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}.
 
-+ Carga la imagen 'background.png' como nuevo escenario. ¡También puedes añadir un dibujo que hayas hecho tú! Si vas a dibujar tu propio nivel, asegúrate de que los postes y las plataformas son de colores diferentes, y de que haya una puerta (o algo parecido) a la que el jugador tenga que llegar. Tu proyecto debería parecerse a éste:
+Si tienes una cuenta de Scratch puedes hacer una copia haciendo clic en **Remix**.
 
-	![screenshot](images/dodge-background.png)
+**Sin conexión:** descarga el proyecto inicial desde [rpf.io/p/es-ES/dodgeball-get](http://rpf.io/p/es-ES/dodgeball-get) y luego ábrelo con el editor de Scratch sin conexión.
 
-+ Añade un nuevo objeto, que será tu personaje. Es mejor que escojas un objeto que tenga varios disfraces, así podrás crear el efecto de que está caminando.
+--- /task ---
 
-	![screenshot](images/dodge-characters.png)
+El proyecto contiene un fondo con plataformas:
 
-+ Usaremos las flechas del teclado para que el personaje se mueva en diferentes direcciones. Cuando el jugador pulse la flecha derecha, queremos que el personaje mire hacia la derecha, dé unos pasos en esa dirección y cambie al siguiente disfraz:
+![fondo del proyecto Esquiva-pelotas](images/dodge-background.png)
 
-	```blocks
-		al presionar bandera verde
-		por siempre
-			si <¿tecla [flecha derecha v] presionada?> entonces
-				apuntar en dirección (90 v)
-				mover (3) pasos
-				siguiente disfraz
-			fin
-		fin
-	```
+--- task ---
 
-+ Haz una prueba presionando la bandera y a continuación manteniendo pulsada la tecla derecha. ¿Se mueve el personaje hacia la derecha? ¿Parece que el personaje está caminando?
+Elige un nuevo objeto como el personaje que controlará el jugador y añádelo a tu proyecto. Es mejor si eliges un objeto con varios disfraces de modo que puedas hacer que parezca que está caminando.
 
-	![screenshot](images/dodge-walking.png)
+![elige un objeto](images/dodge-characters.png)
 
-+ Para que el personaje se mueva hacia la izquierda, tendrás que añadir otro bloque `si`{:class="blockcontrol"} dentro del bucle `por siempre`{:class="blockcontrol"}. ¡Recuerda probar el nuevo código para asegurarte de que funciona!
+[[[generic-scratch3-sprite-from-library]]]
 
-+ Para subirse a un poste, tu personaje debería moverse un poco hacia arriba siempre que se pulse la flecha arriba y esté tocando el color correcto. Añade este código al bucle `por siempre`{:class="blockcontrol"} de tu personaje:
+--- /task ---
 
-	```blocks
-		si <<¿tecla [flecha arriba v] presionada?> y <¿tocando el color [#FFFF00]?>> entonces
-			cambiar y por (4)
-		fin
-	```
+--- task ---
 
-+ Prueba los movimientos de tu personaje: ¿Puedes subirte a los postes amarillos y llegar al final del nivel?
+Añade bloques de código a tu objeto de personaje para que el jugador pueda usar las teclas de dirección para mover al personaje. Cuando el jugador presiona la flecha derecha, el personaje debe apuntar a la derecha, moverse unos pasos y cambiar al siguiente disfraz:
 
-	![screenshot](images/dodge-test-character.png)
+![objeto pico caminando](images/pico_walking_sprite.png)
+
+```blocks3
+when flag clicked
+por siempre 
+  si <¿tecla (flecha derecha v) presionada? > entonces
+        apuntar en dirección (90 v)
+        mover (3) pasos
+        siguiente disfraz
+    end
+end
+```
+
+--- /task ---
+
+--- task ---
+
+Si tu objeto no encaja, ajusta su tamaño.
+
+![establece el tamaño del objeto para que quepa](images/dodge-sprite-size-annotated.png)
+
+--- /task ---
+
+--- task ---
+
+Prueba tu personaje haciendo clic en la bandera y luego pulsando la tecla de flecha derecha. ¿Se mueve tu personaje a la derecha? ¿Parece que tu personaje está caminando?
+
+![captura de pantalla](images/dodge-walking.png)
+
+--- /task ---
+
+--- task ---
+
+Añade bloques de código al bucle `por siempre`{:class="block3control"} del objeto de personaje para que se desplace hacia la izquierda si se pulsa la tecla de flecha izquierda.
+
+--- hints ---
+
+
+--- hint ---
+
+Para que tu personaje pueda moverse hacia la izquierda, deberás incluir otro bloque `si`{:class="block3control"} dentro del bucle `por siempre`{:class="block3control"}. Añade código al nuevo bloque `si`{:class="block3control"}, para hacer que el objeto de personaje se `mueva`{:class="block3motion"} hacia la izquierda.
+
+--- /hint ---
+
+--- hint ---
+
+Copia el código que creaste para que el personaje caminara hacia la derecha. Después, cambia la tecla del bloque `presionada`{:class="block3sensing"} a la `flecha izquierda`{:class="block3sensing"}, y establece una `dirección`{:class="block3motion"} de `-90`.
+
+```blocks3
+if <key (flecha derecha v) pressed? > then
+    apuntar en dirección (90 v)
+    mover (3) pasos
+    siguiente disfraz
+end
+```
+
+--- /hint ---
+
+--- hint ---
+
+Tu código debería verse así:
+
+![objeto pico caminando](images/pico_walking_sprite.png)
+
+```blocks3
+when green flag clicked
+forever 
+  if <key (flecha derecha v) pressed?> then 
+    point in direction (90 v)
+    move (3) steps
+    next costume
+  end
+  if <key (flecha izquierda v) pressed?> then 
+    point in direction (-90 v)
+    move (3) steps
+    next costume
+  end
+end
+```
+
+--- /hint ---
+
+--- /hints ---
+
+--- /task ---
+
+--- task ---
+
+Prueba tu nuevo código para asegurarte de que funciona. ¿Tu personaje se pone de cabeza al caminar hacia la izquierda?
+
+![captura de pantalla](images/dodge-upside-down.png)
+
+Si es así, puedes solucionarlo haciendo clic en la **dirección** de tu objeto de personaje y luego hacer clic en la flecha izquierda-derecha.
+
+![captura de pantalla](images/dodge-left-right-annotated.png)
+
+Si lo prefieres, también puedes solucionar el problema añadiendo este bloque al inicio del programa del personaje:
+
+```blocks3
+fijar estilo de rotación a [izquierda-derecha v]
+```
+
+--- /task ---
+
+--- task ---
+
+Para subir una escalera rosa, el objeto de tu personaje debe moverse unos pasos hacia arriba en el escenario cada vez que se presiona la flecha hacia arriba **y** el personaje está tocando el color correcto.
+
+Añade código dentro del bucle `por siempre`{:class="block3control"} del personaje para `cambiar`{:class="block3motion"} la posición `y` (vertical) del mismo `si`{:class="block3control"} `la flecha arriba está presionada`{:class="block3sensing"} y el personaje está `tocando el color rosa`{:class="block3sensing"}.
+
+![objeto pico caminando](images/pico_walking_sprite.png)
+
+```blocks3
+  if < <key (flecha arriba v) pressed?> and <touching color [#FF69B4]?> > then
+		change y by (4)
+	end
+```
+
+--- /task ---
+
+--- task ---
+
+Prueba tu código. ¿Puedes hacer que el personaje suba las escaleras rosas y llegue al final del nivel?
+
+![captura de pantalla](images/dodge-test-character.png)
+
+--- /task ---

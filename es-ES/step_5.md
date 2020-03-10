@@ -1,8 +1,5 @@
---- challenge ---
-## Reto: Salto mejorado
+## Desafío: mejores saltos
 
-Has conseguido que el personaje salte cada vez que se presiona la tecla de espacio, incluso si está en medio del aire. Puedes hacer una prueba manteniendo pulsada la tecla de espacio. ¿Puedes arreglar esto, para que el personaje sólo pueda saltar `si`{:class="blockcontrol"} está tocando una plataforma azul?
+El personaje salta cada vez que el jugador pulsa el <kbd>espacio</kbd>. Incluso si está en el aire. Puedes observar este comportamiento si mantienes presionada la tecla <kbd>espacio</kbd>.
 
-
-
---- /challenge ---
+¿Puedes cambiar el código de salto del objeto de personaje de modo que tu personaje solo pueda saltar `si`{:class="block3control"} está tocando una plataforma azul?
