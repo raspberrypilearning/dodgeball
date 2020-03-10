@@ -10,19 +10,19 @@ last_tested: 2018-10-10
 steps:
   - title: Introducción
   - title: Movimientos del personaje
-  - title: "Desafío: Acabar el nivel"
+  - title: "Desafío: acabar el nivel"
     challenge: true
   - title: Gravedad y saltos
-  - title: 'Desafío: Mejores saltos'
+  - title: 'Desafío: mejores saltos'
     challenge: true
   - title: Esquivando las pelotas
-  - title: 'Desafío: Pelotas aleatorias'
+  - title: 'Desafío: pelotas aleatorias'
     challenge: true
   - title: '¡Láseres!'
-  - title: 'Desafío: Más obstáculos'
+  - title: 'Desafío: más obstáculos'
     challenge: true
-  - title: 'Desafío: Mejorando la gravedad'
+  - title: 'Desafío: mejorando la gravedad'
     challenge: true
-  - title: 'Desafío: Más vidas'
+  - title: 'Desafío: más vidas'
     challenge: true
   - title: ¿Qué sigue?

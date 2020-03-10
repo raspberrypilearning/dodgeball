@@ -1,4 +1,4 @@
-## Desafío: Mejores saltos
+## Desafío: mejores saltos
 
 El personaje salta cada vez que el jugador pulsa el <kbd>espacio</kbd>. Incluso si está en el aire. Puedes observar este comportamiento si mantienes presionada la tecla <kbd>espacio</kbd>.
 

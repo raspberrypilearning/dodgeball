@@ -1,4 +1,4 @@
-## Desafío: Mejorando la gravedad
+## Desafío: mejorando la gravedad
 
 Hay otro pequeño fallo en el juego: la gravedad no hace caer al personaje si **alguna** parte del objeto está tocando una plataforma azul. Así que incluso si la cabeza del objeto toca una plataforma, ¡no se cae! Puedes probarlo tú mismo: haz que tu personaje suba la mayor parte del camino por una escalera y luego mueve al personaje de lado debajo de una plataforma:
 
@@ -11,7 +11,7 @@ Para corregir el error primero debes darle a tu objeto de personaje unos nuevos 
 Luego cambia este bloque de código:
 
 ```blocks3
-    < tocando el color [# 0000FF]? >
+    < touching color [#0000FF]? >
 ```
 
 por éste:

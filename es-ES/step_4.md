@@ -29,11 +29,11 @@ Añade estos nuevos bloques de código que fijan la `gravedad` a un número nega
 ![objeto pico caminando](images/pico_walking_sprite.png)
 
 ```blocks3
-    al hacer clic en la bandera verde
+    when flag clicked
     dar a [gravedad v] el valor [-4]
     por siempre
         sumar a y (gravedad)
-    final
+    end
 ```
 
 --- /task ---
@@ -53,13 +53,13 @@ Haz clic en la bandera y después arrastra al personaje a la parte superior del 
 ![objeto pico caminando](images/pico_walking_sprite.png)
 
 ```blocks3
-    al hacer clic en la bandera verde
+    when flag clicked
     dar a [gravedad v] el valor [-4]
     por siempre
-        si < no < <touching color [#0000FF]?> o <touching color [#FF69B4]?> > > entonces
+        if < not < <touching color [#0000FF]?> or <touching color [#FF69B4]?> > > then
             sumar a y (gravedad)
-        final
-    final
+        end
+    end
 ```
 
 --- /task ---
@@ -79,10 +79,10 @@ Ahora añade código para hacer que tu personaje salte cada vez que el jugador p
 ![objeto pico caminando](images/pico_walking_sprite.png)
 
 ```blocks3
-    cuando se presiona la tecla [espacio v]
+    when [espacio v] key pressed
     repetir (10)
         sumar a y (4)
-    final
+    end
 ```
 
 Debido a que la gravedad empuja constantemente a tu personaje hacia abajo 4 píxeles, debes elegir un número mayor que `4` en tus bloques `sumar a y (4)`{:class="block3motion"}. Cambia el número hasta que estés satisfecho con la altura que salta el personaje.
@@ -108,12 +108,12 @@ Elimina el código de salto que añadiste a tu personaje, y cámbialo por éste:
 ![objeto pico caminando](images/pico_walking_sprite.png)
 
 ```blocks3
-    cuando se presiona la tecla [espacio v]
+    when [espacio v] key pressed
     dar a [altura de salto v] el valor [8]
     repetir hasta que < (altura de salto) = [0] >
         sumar a y (altura de salto)
         sumar a [altura de salto v] (-0.5)
-    final
+    end
 ```
 
 Este código hace que tu personaje suba 8 píxeles, luego 7.5 píxeles, luego 7 píxeles, y así sucesivamente, hasta que no suba más. Ésto hace que el salto sea mucho más suave.

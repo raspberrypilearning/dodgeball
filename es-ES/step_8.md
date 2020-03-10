@@ -27,13 +27,13 @@ Añade código a tu objeto láser para que cambie entre sus dos disfraces.
 ![objeto láser](images/laser_sprite.png)
 
 ```blocks3
-    al hacer clic en la bandera verde
+    when flag clicked
     por siempre
         cambiar disfraz a (encendido v)
         esperar (2) segundos
-        cambie disfraz a (apagado v)
+        cambiar disfraz a (apagado v)
         esperar (2) segundos
-    final
+    end
 ```
 
 Puedes cambiar el código que se muestra arriba para que el objeto `espere`{:class="block3control"} una cantidad de tiempo `aleatoria`{:class="block3operators"} entre los cambios de disfraz.
@@ -55,7 +55,7 @@ Este código debe ser muy parecido al código que añadiste al objeto pelota.
 
 --- hint ---
 
-Copia el código que añadiste a la pelota para hacer que el objeto `enviara` el mensaje `'tocado'`{:class="block3control"} cuando `tocara a tu personaje`{:class="block3sensing"}.
+Copia el código que añadiste a la pelota para hacer que el objeto `enviara`{:class="block3control"} el mensaje `'tocado'`{:class="block3control"} cuando `tocara a tu personaje`{:class="block3sensing"}.
 
 --- /hint ---
 
@@ -66,12 +66,12 @@ Este es el código que debes incluir:
 ![objeto láser](images/laser_sprite.png)
 
 ```blocks3
-al hacer clic en la bandera verde
+when green flag clicked
 por siempre 
-  si <touching (Pico walking v) ?> entonces 
+  if <touching (Pico walking v) ?> then 
     enviar (tocado v)
-  final
-final
+  end
+end
 ```
 
 --- /hint ---

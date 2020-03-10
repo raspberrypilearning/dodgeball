@@ -25,12 +25,12 @@ Añade este código al objeto pelota:
 ![objeto pelota](images/ball_sprite.png)
 
 ```blocks3
-al hacer clic en la bandera verde
+when green flag clicked
 esconder
 por siempre 
   esperar (3) segundos
   crear un clon de (mí mismo v)
-final
+end
 ```
 
 ```blocks3
@@ -39,14 +39,14 @@ ir a x: (160) y: (160)
 mostrar
 repetir (22) 
   sumar a y (-4)
-final
+end
 repetir (170) 
   sumar a x (-2)
-  girar en sentido antihorario (6) grados
-final
+  turn ccw (6) degrees
+end
 repetir (30) 
   sumar a y (-4)
-final
+end
 eliminar este clon
 ```
 
@@ -84,19 +84,19 @@ Repite los bloques de código que has usado para mover el clon de la pelota por 
 ![objeto pelota](images/ball_sprite.png)
 
 ```blocks3
-repetir (170) 
-  sumar a x (-2)
-  girar en sentido antihorario (6) grados
-final
+repeat (170) 
+  change x by (-2)
+  turn ccw (6) degrees
+end
 
-repetir (180) 
-  sumar a x (2)
-  girar en sentido horario (6) grados
-final
+repeat (180) 
+  change x by (2)
+  turn cw (6) degrees
+end
 
-repetir (30) 
-  sumar a y (-4)
-final
+repeat (30) 
+  change y by (-4)
+end
 ```
 
 --- /hint ---
@@ -108,31 +108,31 @@ El código de tus clones del objeto de pelota debería ser algo así:
 ![objeto pelota](images/ball_sprite.png)
 
 ```blocks3
-al comenzar como clon
-ir a x: (160) y: (160)
-mostrar
-repetir (22) 
-  sumar a y (-4)
-final
-repetir (170) 
-  sumar a x (-2)
-  girar en sentido antihorario (6) grados
-final
-repetir (30) 
-  sumar a  y (-4)
-final
-repetir (180) 
-  sumar a x (2)
-  girar en sentido horario (6) grados
-final
-repetir (30) 
-  sumar a y (-4)
-final
-repetir (170) 
-  sumar a x (-2)
-  girar en sentido antihorario (6) grados
-final
-eliminar este clon
+when I start as a clone
+go to x: (160) y: (160)
+show
+repeat (22) 
+  change y by (-4)
+end
+repeat (170) 
+  change x by (-2)
+  turn ccw (6) degrees
+end
+repeat (30) 
+  change y by (-4)
+end
+repeat (180) 
+  change x by (2)
+  turn cw (6) degrees
+end
+repeat (30) 
+  change y by (-4)
+end
+repeat (170) 
+  change x by (-2)
+  turn ccw (6) degrees
+end
+delete this clone
 ```
 
 --- /hint ---
@@ -152,10 +152,10 @@ Añade este código a tu objeto pelota:
 ```blocks3
     al comenzar como clon
     por siempre
-        si < tocando (Pico caminando v)? > entonces
+        if < touching (Pico walking v)? > then
             enviar (tocado v)
-        final
-    final
+        end
+    end
 ```
 
 --- /task ---

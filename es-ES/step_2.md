@@ -35,14 +35,14 @@ Añade bloques de código a tu objeto de personaje para que el jugador pueda usa
 ![objeto pico caminando](images/pico_walking_sprite.png)
 
 ```blocks3
-al hacer clic en la bandera verde
+when flag clicked
 por siempre 
   si <¿tecla (flecha derecha v) presionada? > entonces
         apuntar en dirección (90 v)
         mover (3) pasos
         siguiente disfraz
-    final
-final
+    end
+end
 ```
 
 --- /task ---
@@ -81,11 +81,11 @@ Para que tu personaje pueda moverse hacia la izquierda, deberás incluir otro bl
 Copia el código que creaste para que el personaje caminara hacia la derecha. Después, cambia la tecla del bloque `presionada`{:class="block3sensing"} a la `flecha izquierda`{:class="block3sensing"}, y establece una `dirección`{:class="block3motion"} de `-90`.
 
 ```blocks3
-Si se presiona la tecla <(flecha derecha v)? > entonces
+if <key (flecha derecha v) pressed? > then
     apuntar en dirección (90 v)
     mover (3) pasos
     siguiente disfraz
-final
+end
 ```
 
 --- /hint ---
@@ -97,19 +97,19 @@ Tu código debería verse así:
 ![objeto pico caminando](images/pico_walking_sprite.png)
 
 ```blocks3
-al hacer clic en la bandera verde
+when green flag clicked
 por siempre 
-  si <key (right arrow v) pressed?> entonces 
+  if <key (flecha derecha v) pressed?> entonces 
     apuntar en dirección (90 v)
     mover (3) pasos
     siguiente disfraz
-  final
-  si <key (left arrow v) pressed?> luego 
+  end
+  if <key (flecha izquierda v) pressed?> luego 
     apuntar en dirección (-90 v)
-    mover (3) pasos
+    move (3) steps
     siguientes disfraz
-  final
-final
+  end
+end
 ```
 
 --- /hint ---
@@ -145,9 +145,9 @@ Añade código dentro del bucle `por siempre`{:class="block3control"} del person
 ![objeto pico caminando](images/pico_walking_sprite.png)
 
 ```blocks3
-    si < <key (up arrow v) pressed?> y <touching color [#FF69B4]?> > entonces
-        cambiar y por (4)
-    final
+  if < <key (flecha arriba v) pressed?> and <touching color [#FF69B4]?> > then
+		change y by (4)
+	end
 ```
 
 --- /task ---

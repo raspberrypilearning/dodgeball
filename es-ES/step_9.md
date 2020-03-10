@@ -1,4 +1,4 @@
-## Desafío: Más obstáculos
+## Desafío: más obstáculos
 
 Si crees que tu juego es demasiado fácil puedes poner más obstáculos. ¡Los obstáculos pueden ser lo que quieras! Aquí tienes algunas sugerencias:
 
@@ -13,9 +13,9 @@ Incluso podrías diseñar otro fondo para crear el siguiente nivel. Después añ
 ![objeto pico caminando](images/pico_walking_sprite.png)
 
 ```blocks3
-    si <touching color [#00FF00]?> entonces
+    if <touching color [#00FF00]?> then
         cambiar fondo a (siguiente fondo v)
         ir a x: (-210) y: (-120)
         esperar (1) segundos
-    final
+    end
 ```

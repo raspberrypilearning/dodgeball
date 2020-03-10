@@ -1,4 +1,4 @@
-## Desafío: Pelotas aleatorias
+## Desafío: pelotas aleatorias
 
 Las pelotas que tu personaje tiene para esquivar son todas iguales y aparecen en intervalos regulares de tres segundos. ¿Puedes añadir código a tu juego para que las pelotas:
 
