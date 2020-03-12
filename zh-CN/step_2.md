@@ -37,7 +37,7 @@
 ```blocks3
 when flag clicked
 forever
-	if <key (right arrow v) pressed? > then
+	if <key (→ v) pressed? > then
 		point in direction (90 v)
 		move (3) steps
 		next costume
@@ -81,7 +81,7 @@ end
 复制你刚创建的使角色向右走的代码。 然后设置 `按下`{:class="block3sensing"} `左箭头`{:class="block3sensing"} 键，然后更改`面向`{:class="block3motion"} 为 `-90` 方向。
 
 ```blocks3
-if <key (right arrow v) pressed? > then
+if <key (→ v) pressed? > then
 	point in direction (90 v)
 	move (3) steps
 	next costume
@@ -99,12 +99,12 @@ end
 ```blocks3
 when green flag clicked
 forever 
-  if <key (right arrow v) pressed?> then 
+  if <key (→ v) pressed?> then 
     point in direction (90 v)
     move (3) steps
     next costume
   end
-  if <key (left arrow v) pressed?> then 
+  if <key (← v) pressed?> then 
     point in direction (-90 v)
     move (3) steps
     next costume
@@ -131,7 +131,7 @@ end
 您也可以通过把下面这个积木添加到角色代码的开头来解决此问题:
 
 ```blocks3
-set rotation style [left-right v]
+set rotation style [左右翻转 v]
 ```
 
 --- /task ---
@@ -145,7 +145,7 @@ set rotation style [left-right v]
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    if < <key (up arrow v) pressed?> and <touching color [#FF69B4]?> > then
+    if < <key (↑ v) pressed?> and <touching color [#FF69B4]?> > then
 		  change y by (4)
 	  end
 ```

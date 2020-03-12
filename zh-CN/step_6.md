@@ -29,7 +29,7 @@ when green flag clicked
 hide
 forever 
   wait (3) seconds
-  create clone of (myself v)
+  create clone of (自己 v)
 end
 ```
 

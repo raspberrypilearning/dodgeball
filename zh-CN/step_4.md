@@ -79,7 +79,7 @@
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    when [space v] key pressed
+    when [空格 v] key pressed
 	repeat (10)
 		change y by (4)
 	end
@@ -108,7 +108,7 @@
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    when [space v] key pressed
+    when [空格 v] key pressed
 	set [jump height v] to [8]
 	repeat until < (jump height) = [0] >
 		change y by (jump height)

@@ -14,7 +14,7 @@
 
 ```blocks3
     if <touching color [#00FF00]?> then
-		switch backdrop to (next backdrop v)
+		switch backdrop to (下一个背景 v)
 		go to x: (-210) y: (-120)
 		wait (1) seconds
 	end

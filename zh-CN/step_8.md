@@ -4,7 +4,7 @@
 
 --- task ---
 
-在游戏中添加新的精灵，并将其命名为 `laser`。 它应该有两种造型：一种叫做 “开”，另一种叫做 “关”。
+在游戏中添加新的精灵，并将其命名为 `激光`。 它应该有两种造型：一种叫做 “开”，另一种叫做 “关”。
 
 ![截图](images/dodge-lasers-costume1.png)
 
@@ -29,9 +29,9 @@
 ```blocks3
   when flag clicked
 	forever
-		switch costume to (on v)
+		switch costume to (开 v)
 		wait (2) seconds
-		switch costume to (off v)
+		switch costume to (关 v)
 		wait (2) seconds
 	end
 ```
