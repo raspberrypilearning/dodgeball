@@ -1,10 +1,5 @@
---- challenge ---
-## 挑战：通关
-你能否向你的角色添加更多代码，这样 `如果`{:class="blockcontrol"}他们到达绿门，他们便会说一些什么？
+## 挑战：完成关卡
 
-![screenshot](images/dodge-win.png)
+向你的角色精灵添加更多的代码积木，`如果`{:class="block3control"} 它到达了绿色的门，让它说点什么吧
 
-
-
-
---- /challenge ---
+![截图](images/dodge-win.png)
