@@ -12,7 +12,7 @@
 
 --- task ---
 
-要解决这个问题，需要在游戏中添加重力 创建一个新的名为 `gravity`{:class="block3variables"} 的变量
+要解决这个问题，需要在游戏中添加重力 创建一个新的名为 `重力`{:class="block3variables"} 的变量
 
 [[[generic-scratch3-add-variable]]]
 
@@ -24,16 +24,16 @@
 
 --- task ---
 
-添加下面这些设置 `gravity` 为负数的代码块，并使用 ` gravity` 的值反复更改角色的 y 坐标：
+添加下面这些设置 `重力` 为负数的代码块，并使用 `重力` 的值反复更改角色的 y 坐标：
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    当 标志 被点击
-    将 [gravity v] 设置为 [-4]
-    重复执行
-        将 y 坐标增加 (gravity)
-    结束
+    when flag clicked
+	set [重力 v] to [-4]
+	forever
+		change y by (重力)
+	end
 ```
 
 --- /task ---
@@ -53,13 +53,13 @@
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    当 标志 被点击
-    将 [gravity v] 设置为 [-4]
-    重复执行
-        如果 < < <touching color [#0000FF]?> 或 <touching color [#FF69B4]?> > 不成立 > 那么
-            将 y 坐标增加 (gravity)
-        结束
-    结束
+    when flag clicked
+	set [重力 v] to [-4]
+	forever
+		if < not < <touching color [#0000FF]?> or <touching color [#FF69B4]?> > > then
+			change y by (重力)
+		end
+	end
 ```
 
 --- /task ---
@@ -79,10 +79,10 @@
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    当按下 [空格 v] 键
-    重复执行 (10) 次
-        将 y 坐标增加 (4)
-    结束
+    when [space v] key pressed
+	repeat (10)
+		change y by (4)
+	end
 ```
 
 由于重力不断将您的角色向下推4个像素，因此您需要在 `将 y 坐标增加 (4)`{:class="block3motion"} 的积木块中选择一个大于 `4` 的数字。 更改数字，直到您对角色跳跃的高度满意为止。
@@ -108,12 +108,12 @@
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    当按下 [空格 v] 键
-    将 [jump height v] 设置为 [8]
-    重复执行直到 < (jump height) = [0] >
-        将 y 坐标增加 (jump height)
-        将 jump height 坐标增加 (-0.5)
-    结束
+    when [space v] key pressed
+	set [jump height v] to [8]
+	repeat until < (jump height) = [0] >
+		change y by (jump height)
+		change [jump height v] by (-0.5)
+	end
 ```
 
 这段代码将您的角色先上移 8 个像素，然后再上移 7.5 个像素，然后再上移 7 个像素，依此类推，直到它不再升高为止。 这样就使得跳跃看起来更加平滑。

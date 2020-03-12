@@ -13,9 +13,9 @@
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    如果 <touching color [#00FF00]?> 那么
-        换成 (next backdrop v) 背景
-        移到 x: (-210) y: (-120)
-        等待 (1) 秒
-结束
+    if <touching color [#00FF00]?> then
+		switch backdrop to (next backdrop v)
+		go to x: (-210) y: (-120)
+		wait (1) seconds
+	end
 ```

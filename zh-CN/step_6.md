@@ -25,29 +25,29 @@
 ![小球精灵](images/ball_sprite.png)
 
 ```blocks3
-当 标志 被点击
-隐藏
-重复执行
-  等待 (3) 秒
-  克隆 (自己 v)
-结束
+when green flag clicked
+hide
+forever 
+  wait (3) seconds
+  create clone of (myself v)
+end
 ```
 
 ```blocks3
-当作为克隆体启动时
-移动到 x: (160) y: (160)
-显示
-重复执行 (22) 次
-  将 y 坐标增加 (-4)
-结束
-重复执行 (170) 次
-  将 x 坐标增加 (-2)
-  左转 (6) 度
-结束
-重复执行 (30) 次
-  将 y 坐标增加 (-4)
-结束
-删除此克隆体
+when I start as a clone
+go to x: (160) y: (160)
+show
+repeat (22) 
+  change y by (-4)
+end
+repeat (170) 
+  change x by (-2)
+  turn ccw (6) degrees
+end
+repeat (30) 
+  change y by (-4)
+end
+delete this clone
 ```
 
 此代码每三秒钟创建一个新的小球精灵克隆。 每个新克隆都沿着顶部平台移动，然后掉落。
@@ -84,19 +84,19 @@
 ![ball sprite](images/ball_sprite.png)
 
 ```blocks3
-重复执行 (170) 次
-  将 x 坐标增加 (-2)
-  左转 (6) 度
-结束
+repeat (170) 
+  change x by (-2)
+  turn ccw (6) degrees
+end
 
-重复执行 (180) 次
-  将 x 坐标增加 (2)
-  右转 (6) 度
-结束
+repeat (180) 
+  change x by (2)
+  turn cw (6) degrees
+end
 
-重复执行 (30) 次
-  将 y 坐标增加 (-4)
-结束
+repeat (30) 
+  change y by (-4)
+end
 ```
 
 --- /hint ---
@@ -108,31 +108,31 @@
 ![ball sprite](images/ball_sprite.png)
 
 ```blocks3
-当作为克隆体启动时
-移动到 x: (160) y: (160)
-显示
-重复执行 (22) 次
-  将 y 坐标增加 (-4)
-结束
-重复执行 (170) 次
-  将 x 坐标增加 (-2)
-  左转 (6) 度
-结束
-重复执行 (30) 次
-  将 y 坐标增加 (-4)
-结束
-重复执行 (180) 次
-  将 x 坐标增加 (2)
-  右转 (6) 度
-结束
-重复执行 (30) 次
-  将 y 坐标增加 (-4)
-结束
-重复执行 (170) 次
-  将 x 坐标增加 (-2)
-  左转 (6) 度
-结束
-删除此克隆体
+when I start as a clone
+go to x: (160) y: (160)
+show
+repeat (22) 
+  change y by (-4)
+end
+repeat (170) 
+  change x by (-2)
+  turn ccw (6) degrees
+end
+repeat (30) 
+  change y by (-4)
+end
+repeat (180) 
+  change x by (2)
+  turn cw (6) degrees
+end
+repeat (30) 
+  change y by (-4)
+end
+repeat (170) 
+  change x by (-2)
+  turn ccw (6) degrees
+end
+delete this clone
 ```
 
 --- /hint ---
@@ -150,12 +150,12 @@
 ![ball sprite](images/ball_sprite.png)
 
 ```blocks3
-    当作为克隆体启动时
-    重复执行
-        如果 < 碰到 (Pico walking v)? > 那么
-            广播 (hit v)
-        结束
-    结束
+  when I start as a clone
+	forever
+		if < touching (Pico walking v)? > then
+			broadcast (hit v)
+		end
+	end
 ```
 
 --- /task ---
@@ -167,9 +167,9 @@
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    当接收到 [hit v]
-    面向 (90) 方向
-    移到 x: (-210) y: (-120)
+  when I receive [hit v]
+	point in direction (90)
+	go to x: (-210) y: (-120)
 ```
 
 --- /task ---

@@ -27,13 +27,13 @@
 ![激光精灵](images/laser_sprite.png)
 
 ```blocks3
-    当 标志 被点击
-    重复执行
-        换成 (开 v) 造型
-        等待 (2) 秒
-        换成 (关 v) 造型
-        等待 (2) 秒
-    结束
+  when flag clicked
+	forever
+		switch costume to (on v)
+		wait (2) seconds
+		switch costume to (off v)
+		wait (2) seconds
+	end
 ```
 
 您也可以更改上面显示的代码，以便精灵在两次造型更换之间`等待`{:class="block3control"} 一个 `随机`{:class="block3operators"} 的时间间隔 。
@@ -66,12 +66,12 @@
 ![laser sprite](images/laser_sprite.png)
 
 ```blocks3
-当 标志 被点击
-重复执行
-  如果 <touching (Pico walking v) ?> 那么
-    广播 (hit v)
-  结束
-结束
+when green flag clicked
+forever 
+  if <touching (Pico walking v) ?> then 
+    broadcast (hit v)
+  end
+end
 ```
 
 --- /hint ---
