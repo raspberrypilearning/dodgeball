@@ -1,34 +1,89 @@
 ## 激光！
 
-让我们增加激光来使你的游戏更难通关！
+为了让您的游戏更难完成，您将添加激光！
+
+--- task ---
+
+在游戏中添加新的精灵，并将其命名为 `laser`。 它应该有两种造型：一种叫做 “开”，另一种叫做 “关”。
+
+![截图](images/dodge-lasers-costume1.png)
+
+![截图](images/dodge-lasers-costume2.png)
+
+--- /task ---
+
+--- task ---
+
+将新的激光精灵放置在两个平台之间。
+
+![截图](images/dodge-lasers-position.png)
+
+--- /task ---
+
+--- task ---
+
+向您的激光精灵添加代码，以使其在其两个造型之间切换。
+
+![激光精灵](images/laser_sprite.png)
+
+```blocks3
+    当 标志 被点击
+    重复执行
+        换成 (开 v) 造型
+        等待 (2) 秒
+        换成 (关 v) 造型
+        等待 (2) 秒
+    结束
+```
+
+您也可以更改上面显示的代码，以便精灵在两次造型更换之间`等待`{:class="block3control"} 一个 `随机`{:class="block3operators"} 的时间间隔 。
+
+--- /task ---
+
+--- task ---
+
+最后，向您的激光精灵添加代码，以便激光精灵碰到角色精灵时广播 'hit' 消息。
+
+--- hints ---
 
 
+--- hint ---
 
-+ 向你的游戏添加一个名为“激光”的新子图。它应该有 2 种造型，分别叫做“开”和“关”。
+该代码应与您添加到小球精灵中的代码非常相似。
 
-	![screenshot](images/dodge-lasers-costume.png)
+--- /hint ---
 
-+ 将你的新激光放置在 2 个平台之间任何你喜欢的位置。
+--- hint ---
 
-	![screenshot](images/dodge-lasers-position.png)
+复制您添加到小球精灵的代码，以使该精灵 `碰到角色精灵时`{:class="block3sensing"} `广播 'hit'`{:class="block3control"} 消息 。
 
-+ 向你的激光添加代码，使其在 2 种造型之间切换。
+--- /hint ---
 
-	```blocks
-		点击绿旗时
-    重复无限次 
-      造型换成 [开启 v]
-      等待 (2) 秒
-       造型换成 [关闭 v]
-      等待 (2) 秒
-    end
-	```
+--- hint ---
 
-	如果你愿意的话，你可以在造型变换之间 `等待`{:class="blockcontrol"}`随机`{:class="blockoperators"}时间。
+这是您应该添加的代码：
 
-+ 最后，向你的激光添加代码，使激光在碰到你的角色时广播“击中”消息。此代码与你向你的小球子图所添加的代码十分相似。
+![laser sprite](images/laser_sprite.png)
 
-	你不需要向你的角色添加更多代码 - 它已经知道在被击中时要做什么！
+```blocks3
+当 标志 被点击
+重复执行
+  如果 <touching (Pico walking v) ?> 那么
+    广播 (hit v)
+  结束
+结束
+```
 
-+ 测试你的游戏，看看你能否通过激光。如果激光太容易或太难通过，则更改你代码中的 `等待`{:class="blockcontrol"}时间。
+--- /hint ---
 
+--- /hints ---
+
+您无需在角色精灵上添加任何额外的代码，因为角色精灵在接收到 `广播 'hit'`{:class="block3control"} 的逻辑我们之前已经实现了！
+
+--- /task ---
+
+--- task ---
+
+测试您的游戏，看看是否可以将角色移过激光。 如果激光躲避起来太容易或太困难，修改激光精灵代码中的 `等待`{:class="block3control"} 时间。
+
+--- /task ---

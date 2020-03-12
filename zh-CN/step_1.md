@@ -1,77 +1,71 @@
+--- no-print ---
+
+这是该项目的 **Scratch 3** 版本。 该项目还有一个 [Scratch 2版本](https://projects.raspberrypi.org/zh-CN/projects/dodgeball-scratch2) 。
+
+--- /no-print ---
+
 ## 介绍
 
-你将在本项目中学习如何创建一个平台游戏，在游戏中，你必须躲避移动的小球并到达关卡终点。
+您将学习如何创建一个平台游戏，在该游戏中玩家必须躲避移动的球才能到达关卡的尽头。
+
+--- no-print ---
+
+单击绿色小旗标志开始游戏，使用方向键控制角色移动，使用 <kbd>空格</kbd> 键跳跃。
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/39740618/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/251809924/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/dodge-final.png">
 </div>
 
-### 更多俱乐部领导参考信息
+--- /no-print ---
 
-如果你需要打印本项目，请使用 [适合打印机的版本](https://projects.raspberrypi.org/en/projects/dodgeball/print)。
+--- print-only ---
 
+![玩躲避球游戏](images/dodgeball-showcase.png)
+
+--- /print-only ---
 
 --- collapse ---
 ---
-title: 俱乐部领导备注
+title: 你需要准备什么
 ---
 
+### 硬件
 
-## 介绍：
-孩子们将在本项目中学习如何使用在先前项目中学习的 Scratch 概念和技术制作一个平台游戏。
++ 一台能够运行 Scratch 3 的电脑
 
-## 资源
-本项目应使用 Scratch 2。Scratch 2 可在 [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) 上在线使用或从 [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) 下载并离线使用。
+### 软件
 
-本项目的“项目材料”链接包含以下资源：
++ Scratch 3 ([在线版](https://scratch.mit.edu/projects/editor/) 或 [离线版](https://scratch.mit.edu/download/))
 
-##### 俱乐部领导资源
+### 下载
 
-你可<a href="http://scratch.mit.edu/projects/39740618/#editor">在线</a>找到本项目的完整版本，或通过点击本项目的“项目材料”链接下载该项目，其中包括：
-
-+ Dodgeball.sb2
-
-##### 项目资源
-
-就本项目而言，俱乐部成员可使用无法从 Scratch 库中获取的外部资源：
-
-+ background.png.
-
-对于无法获取这些项目资源的俱乐部成员，有一个 Scratch 项目带有预先载入的外部资源。此项目可于 [jumpto.cc/dodge-resources](http://jumpto.cc/dodge-resources) 在线获取，或于可下载的项目材料中获取，其中包含：
-
-+ DodgeballResources.sb2 
-
-## 学习目标
-+ 本项目巩固了先前所学编程技术掌握的知识。
-
-本项目包括 [Raspberry Pi 数字制作课程](http://rpf.io/curriculum) 以下几个部分的元素：
-
-+ [结合编程结构解决问题。](https://www.raspberrypi.org/curriculum/programming/builder)
-
-## 挑战
-+ “改进的跳跃”- 使用一个额外的 `如果`{:class="blockcontrol"}代码块来修复多次跳跃的错误；
-+ “随机小球”- 使用 `随机`{:class="blockoperators"}代码块来变更小球的造型、大小以及克隆体之间的延迟时间；
-+ “更多障碍”- 向游戏添加更多子图；
-+ “改进的重力”- 使用一个额外的 `如果`{:class="blockcontrol"}代码块来修复​`重力`{:class="blockdata"}中的错误；
-+ “更多生命”- 添加一个 `生命`{:class="blockdata"}变量。
-
-
+您可以从 [这里](http://rpf.io/p/zh-CN/dodgeball-go) 下载。
 
 --- /collapse ---
 
+--- collapse ---
+---
+title: 你将学到什么
+---
+
++ 如何使用键盘控制精灵
++ 如何使用 `如果, 那么, 否则`{:class="block3control"} Scratch 积木
++ 如何克隆精灵
+
+--- /collapse ---
 
 --- collapse ---
 ---
-title: 项目材料
+title: 教师附加说明
 ---
-## 项目资源
-* [包含外部资源的在线 Scratch 2 项目](http://jumpto.cc/dodge-resources)
-* [包含外部资源的可下载 Scratch 2 项目](resources/DodgeballResources.sb2)
-* [background.png](resources/background.png)
 
-## 俱乐部领导资源
-* [在线完整 Scratch 2 项目](http://scratch.mit.edu/projects/39740618/#editor)
-* [可下载的完整 Scratch 2 项目](resources/Dodgeball.sb2)
+--- no-print ---
+
+如果您需要打印本项目文件，请使用 [适合打印的版本](https://projects.raspberrypi.org/zh-CN/projects/dodgeball/print){:target="_blank"}。
+
+--- /no-print ---
+
+你可以在 [这里](http://rpf.io/p/zh-CN/dodgeball-get) 查看完整的项目.
 
 --- /collapse ---

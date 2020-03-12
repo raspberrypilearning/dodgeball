@@ -1,76 +1,129 @@
 ## 重力和跳跃
 
-让我们通过添加重力并使他们跳跃来让你的角色移动得更加真实。
+现在，您将会把角色的移动做得更加逼真：为游戏增加重力，并使角色具有跳跃的能力。
 
+--- task ---
 
+在游戏中，移动您的角色，使其离开平台。 您看到它可以走到了空白的地方吗？
 
-+ 你可能注意到了，你的角色可走下平台并进入半空中。试着走下平台，看看会发生什么。
+![截图](images/dodge-no-gravity.png)
 
-	![screenshot](images/dodge-no-gravity.png)
+--- /task ---
 
-+ 为解决这个问题，我们要向你的游戏添加重力。创建一个被称作 `重力`{:class="blockdata"}的新变量。如果你愿意，你可以在工作区中隐藏此变量。
+--- task ---
 
-	![screenshot](images/dodge-gravity.png)
+要解决这个问题，需要在游戏中添加重力 创建一个新的名为 `gravity`{:class="block3variables"} 的变量
 
-+ 添加这个新的代码块，将重力设为负值，然后使用其来反复更改你角色的 y 坐标。
+[[[generic-scratch3-add-variable]]]
 
-	```blocks
-		点击绿旗时
-    变量 [gravity v] 设为 [-4]
-    重复无限次 
-      y 改变 (gravity)
-    end
-	```
+您可以根据需要在舞台中隐藏此变量。
 
-+ 点击旗帜，然后将你的角色拖到工作区顶部。发生了什么？重力是否按预期发挥作用？
+![截图](images/dodge-gravity-annotated.png)
 
-	![screenshot](images/dodge-gravity-drag.png)
+--- /task ---
 
-+ 重力不应该使你的角色穿过平台或梯子！向你的代码添加一个 `如果`{:class="blockcontrol"}代码块，使重力仅在你的角色处于半空时生效。重力代码现在应如下所示：
+--- task ---
 
-	```blocks
-		点击绿旗时
-    变量 [gravity v] 设为 [-4]
-    重复无限次 
-      如果 <<<碰到颜色 [#0000FF] ?> 或 <碰到颜色 [#FF69B4] ?>> 不成立> 那么 
-        y 改变 (gravity)
-      end
-    end
-	```
+添加下面这些设置 `gravity` 为负数的代码块，并使用 ` gravity` 的值反复更改角色的 y 坐标：
 
-+ 再次测试重力。你的角色在处于平台或梯子上时是否停止移动？你能否走下平台边缘到达下方的平面？
+![pico walking sprite](images/pico_walking_sprite.png)
 
-	![screenshot](images/dodge-gravity-test.png)
+```blocks3
+    当 标志 被点击
+    将 [gravity v] 设置为 [-4]
+    重复执行
+        将 y 坐标增加 (gravity)
+    结束
+```
 
-+ 此外，让我们使你的角色在玩家按下空格键时能跳跃。要做到这一点，一个非常简单的方法是使用以下代码，使你的角色多次上移：
+--- /task ---
 
-	```blocks
-		当 [空格 v] 键被按下
-    重复 (10) 次 
-      y 改变 (4)
-    end
-	```
+--- task ---
 
-	由于重力不断将你的角色向下推移 4 个像素，你需要在你的 `将 y 坐标增加 (4)`{:class="blockmotion"}代码块中选择一个大于 4 的数字。不断改变这个数字，直至你对角色跳跃的高度感到满意。
+单击标志，然后将您的角色拖动到舞台的顶部。 发生了什么? 这个重力效果是不是你想要的呢？
 
-+ 如果你测试此代码，你会注意到代码起作用了，但移动不是十分流畅。为使跳跃看起来更流畅，你需要使你角色移动的幅度越来越小，直至它们不再跳跃。
+![截图](images/dodge-gravity-drag.png)
 
-+ 为此，创建另一个名为 `跳跃高度`{:class="blockdata"}的变量。如果你愿意的话，你也可以隐藏该变量。
+--- /task ---
 
-+ 删除你向角色添加的跳跃代码，并替换为下列代码：
+--- task ---
 
-	```blocks
-		当 [空格 v] 键被按下
-    变量 [jump height v] 设为 [8]
-    重复直到 <(jump height) = [0]> 
-      y 改变 (jump height)
-      变量 [jump height v] 改变 (-0.5)
-    end
-	```
+重力不应该使角色精灵穿过平台或梯子！ 添加一个 `如果`{:class="block3control"} 积木块到你的代码中，只有当角色处于空中时才让重力起作用。 重力代码应如下所示：
 
-	此代码使你的角色上移 8 个像素，然后 7.5 个像素，再然后 7 个像素，以此类推，直至你的角色完成跳跃。这使跳跃看起来更加流畅。
+![pico walking sprite](images/pico_walking_sprite.png)
 
-+ 更改 `跳跃高度`{:class="blockdata"}变量的初始值并对其进行测试，直至你对角色跳跃的高度感到满意。
+```blocks3
+    当 标志 被点击
+    将 [gravity v] 设置为 [-4]
+    重复执行
+        如果 < < <touching color [#0000FF]?> 或 <touching color [#FF69B4]?> > 不成立 > 那么
+            将 y 坐标增加 (gravity)
+        结束
+    结束
+```
 
+--- /task ---
 
+--- task ---
 
+再次测试游戏，看看现在重力是否正常工作。 当角色精灵接触到平台或梯子时，它会不会停止下落？ 您可以使角色走出平台边缘并掉到下面的平台吗？
+
+![截图](images/dodge-gravity-test.png)
+
+--- /task ---
+
+--- task ---
+
+现在添加代码以使您的角色在玩家按下<kbd>空格</kbd>键时跳起来。 一种非常简单的方法是将角色向上移动几次：
+
+![pico walking sprite](images/pico_walking_sprite.png)
+
+```blocks3
+    当按下 [空格 v] 键
+    重复执行 (10) 次
+        将 y 坐标增加 (4)
+    结束
+```
+
+由于重力不断将您的角色向下推4个像素，因此您需要在 `将 y 坐标增加 (4)`{:class="block3motion"} 的积木块中选择一个大于 `4` 的数字。 更改数字，直到您对角色跳跃的高度满意为止。
+
+--- /task ---
+
+--- task ---
+
+测试您的代码。 注意到跳跃动作不是很平滑。 为了使跳跃看起来更平滑，需要把角色精灵上升的幅度调整的越来越小，直到不再升高为止。
+
+--- /task ---
+
+--- task ---
+
+因此需要再创建一个名为 `jump height`{:class="block3variables"} 的新变量。 同样的，您可以根据需要隐藏此变量。
+
+--- /task ---
+
+--- task ---
+
+删除已经添加到角色精灵中的跳跃部分的代码，然后添加以下代码：
+
+![pico walking sprite](images/pico_walking_sprite.png)
+
+```blocks3
+    当按下 [空格 v] 键
+    将 [jump height v] 设置为 [8]
+    重复执行直到 < (jump height) = [0] >
+        将 y 坐标增加 (jump height)
+        将 jump height 坐标增加 (-0.5)
+    结束
+```
+
+这段代码将您的角色先上移 8 个像素，然后再上移 7.5 个像素，然后再上移 7 个像素，依此类推，直到它不再升高为止。 这样就使得跳跃看起来更加平滑。
+
+--- /task ---
+
+--- task ---
+
+记得要把 设置 `jump height`{:class="block3variables"} 积木块放在变量，该变量在 `重复执行`{:class="block3control"} 的积木块前面。 然后测试您的游戏。
+
+重复这两个步骤，直到您对角色跳跃的高度感到满意为止。
+
+--- /task ---
