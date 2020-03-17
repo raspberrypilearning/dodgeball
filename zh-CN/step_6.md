@@ -25,29 +25,29 @@
 ![小球精灵](images/ball_sprite.png)
 
 ```blocks3
-when green flag clicked
-hide
-forever 
-  wait (3) seconds
-  create clone of (自己 v)
+当 ⚑ 被点击
+隐藏
+重复执行 
+  等待 (3) 秒
+  克隆 (自己 v)
 end
 ```
 
 ```blocks3
-when I start as a clone
-go to x: (160) y: (160)
-show
-repeat (22) 
-  change y by (-4)
+当作为克隆体启动时
+移到 x: (160) y: (160)
+显示
+重复执行 (22) 次 
+  将y坐标增加 (-4)
 end
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
+重复执行 (170) 次 
+  将x坐标增加 (-2)
+  左转 ↺ (6) 度
 end
-repeat (30) 
-  change y by (-4)
+重复执行 (30) 次 
+  将y坐标增加 (-4)
 end
-delete this clone
+删除此克隆体
 ```
 
 此代码每三秒钟创建一个新的小球精灵克隆。 每个新克隆都沿着顶部平台移动，然后掉落。
@@ -84,18 +84,18 @@ delete this clone
 ![ball sprite](images/ball_sprite.png)
 
 ```blocks3
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
+重复执行 (170) 次 
+  将x坐标增加 (-2)
+  左转 ↺ (6) 度
 end
 
-repeat (180) 
-  change x by (2)
-  turn cw (6) degrees
+重复执行 (180) 次 
+  将x坐标增加 (2)
+  右转 ↻ (6) 度
 end
 
-repeat (30) 
-  change y by (-4)
+重复执行 (30) 次 
+  将y坐标增加 (-4)
 end
 ```
 
@@ -108,31 +108,31 @@ end
 ![ball sprite](images/ball_sprite.png)
 
 ```blocks3
-when I start as a clone
-go to x: (160) y: (160)
-show
-repeat (22) 
-  change y by (-4)
+当作为克隆体启动时
+移到 x: (160) y: (160)
+显示
+重复执行 (22) 次 
+  将y坐标增加 (-4)
 end
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
+重复执行 (170) 次 
+  将x坐标增加 (-2)
+  左转 ↺ (6) 度
 end
-repeat (30) 
-  change y by (-4)
+重复执行 (30) 次 
+  将y坐标增加 (-4)
 end
-repeat (180) 
-  change x by (2)
-  turn cw (6) degrees
+重复执行 (180) 次 
+  将x坐标增加 (2)
+  右转 ↻ (6) 度
 end
-repeat (30) 
-  change y by (-4)
+重复执行 (30) 次 
+  将y坐标增加 (-4)
 end
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
+重复执行 (170) 次 
+  将x坐标增加 (-2)
+  左转 ↺ (6) 度
 end
-delete this clone
+删除此克隆体
 ```
 
 --- /hint ---
@@ -150,26 +150,26 @@ delete this clone
 ![ball sprite](images/ball_sprite.png)
 
 ```blocks3
-  when I start as a clone
-	forever
-		if < touching (Pico walking v)? > then
-			broadcast (hit v)
-		end
-	end
+当作为克隆体启动时
+重复执行 
+  如果 <碰到 (Pico walking v) ?> 那么 
+    广播 (打 v)
+  end
+end
 ```
 
 --- /task ---
 
 --- task ---
 
-最后，在您的角色精灵添加代码块，以使其在收到 `hit` 消息时返回起点位置：
+最后，在您的角色精灵添加代码块，以使其在收到 `打` 消息时返回起点位置：
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-  when I receive [hit v]
-	point in direction (90)
-	go to x: (-210) y: (-120)
+  当接收到 [打 v]
+  面向 (90) 方向
+  移到 x: (-210) y: (-120)
 ```
 
 --- /task ---
