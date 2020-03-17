@@ -29,10 +29,10 @@
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    when flag clicked
-	set [重力 v] to [-4]
-	forever
-		change y by (重力)
+    当 ⚑ 被点击
+	将 [重力 v] 设为 [-4]
+	重复执行 
+  		将y坐标增加 (重力)
 	end
 ```
 
@@ -53,13 +53,14 @@
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    when flag clicked
-	set [重力 v] to [-4]
-	forever
-		if < not < <touching color [#0000FF]?> or <touching color [#FF69B4]?> > > then
-			change y by (重力)
-		end
-	end
+
+当 ⚑ 被点击
+将 [重力 v] 设为 [-4]
+重复执行 
+  如果 <<<碰到颜色 [#0000FF] ?> 或 <碰到颜色 [#FF69B4] ?>> 不成立> 那么 
+    将y坐标增加 (重力)
+  end
+end
 ```
 
 --- /task ---
@@ -79,9 +80,9 @@
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    when [空格 v] key pressed
-	repeat (10)
-		change y by (4)
+    当按下 [空格 v] 键
+	重复执行 (10) 次 
+  		将y坐标增加 (4)
 	end
 ```
 
@@ -97,7 +98,7 @@
 
 --- task ---
 
-因此需要再创建一个名为 `jump height`{:class="block3variables"} 的新变量。 同样的，您可以根据需要隐藏此变量。
+因此需要再创建一个名为 `跳跃高度`{:class="block3variables"} 的新变量。 同样的，您可以根据需要隐藏此变量。
 
 --- /task ---
 
@@ -108,11 +109,11 @@
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    when [空格 v] key pressed
-	set [jump height v] to [8]
-	repeat until < (jump height) = [0] >
-		change y by (jump height)
-		change [jump height v] by (-0.5)
+    当按下 [空格 v] 键
+	将 [跳跃高度 v] 设为 [8]
+	重复执行直到 <(跳跃高度) = [0]> 
+  		将y坐标增加 (跳跃高度)
+  		将 [跳跃高度 v] 增加 (-0.5)
 	end
 ```
 
@@ -122,7 +123,7 @@
 
 --- task ---
 
-记得要把 设置 `jump height`{:class="block3variables"} 积木块放在变量，该变量在 `重复执行`{:class="block3control"} 的积木块前面。 然后测试您的游戏。
+记得要把 设置 `跳跃高度`{:class="block3variables"} 积木块放在变量，该变量在 `重复执行`{:class="block3control"} 的积木块前面。 然后测试您的游戏。
 
 重复这两个步骤，直到您对角色跳跃的高度感到满意为止。
 

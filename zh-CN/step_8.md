@@ -27,13 +27,13 @@
 ![激光精灵](images/laser_sprite.png)
 
 ```blocks3
-  when flag clicked
-	forever
-		switch costume to (开 v)
-		wait (2) seconds
-		switch costume to (关 v)
-		wait (2) seconds
-	end
+当 ⚑ 被点击
+ 重复执行 
+  	换成 (开 v) 造型
+  	等待 (2) 秒
+  	换成 (关 v) 造型
+  	等待 (2) 秒
+ end
 ```
 
 您也可以更改上面显示的代码，以便精灵在两次造型更换之间`等待`{:class="block3control"} 一个 `随机`{:class="block3operators"} 的时间间隔 。
@@ -42,7 +42,7 @@
 
 --- task ---
 
-最后，向您的激光精灵添加代码，以便激光精灵碰到角色精灵时广播 'hit' 消息。
+最后，向您的激光精灵添加代码，以便激光精灵碰到角色精灵时广播 '打' 消息。
 
 --- hints ---
 
@@ -55,7 +55,7 @@
 
 --- hint ---
 
-复制您添加到小球精灵的代码，以使该精灵 `碰到角色精灵时`{:class="block3sensing"} `广播 'hit'`{:class="block3control"} 消息 。
+复制您添加到小球精灵的代码，以使该精灵 `碰到角色精灵时`{:class="block3sensing"} `广播 '打'`{:class="block3control"} 消息 。
 
 --- /hint ---
 
@@ -66,10 +66,10 @@
 ![laser sprite](images/laser_sprite.png)
 
 ```blocks3
-when green flag clicked
-forever 
-  if <touching (Pico walking v) ?> then 
-    broadcast (hit v)
+当 ⚑ 被点击
+重复执行 
+  如果 <碰到 (Pico walking v) ?> 那么 
+    广播 (打 v)
   end
 end
 ```
@@ -78,7 +78,7 @@ end
 
 --- /hints ---
 
-您无需在角色精灵上添加任何额外的代码，因为角色精灵在接收到 `广播 'hit'`{:class="block3control"} 的逻辑我们之前已经实现了！
+您无需在角色精灵上添加任何额外的代码，因为角色精灵在接收到 `广播 '打'`{:class="block3control"} 的逻辑我们之前已经实现了！
 
 --- /task ---
 

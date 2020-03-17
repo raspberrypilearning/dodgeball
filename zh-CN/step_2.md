@@ -35,13 +35,13 @@
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-	if <key (→ v) pressed? > then
-		point in direction (90 v)
-		move (3) steps
-		next costume
-	end
+当 ⚑ 被点击
+重复执行 
+  如果 <按下 (→ v) 键?> 那么 
+    面向 (90 v) 方向
+    移动 (3) 步
+    下一个造型
+  end
 end
 ```
 
@@ -81,10 +81,10 @@ end
 复制你刚创建的使角色向右走的代码。 然后设置 `按下`{:class="block3sensing"} `左箭头`{:class="block3sensing"} 键，然后更改`面向`{:class="block3motion"} 为 `-90` 方向。
 
 ```blocks3
-if <key (→ v) pressed? > then
-	point in direction (90 v)
-	move (3) steps
-	next costume
+如果 <按下 (→ v) 键?> 那么 
+  面向 (90 v) 方向
+  移动 (3) 步
+  下一个造型
 end
 ```
 
@@ -97,17 +97,17 @@ end
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-when green flag clicked
-forever 
-  if <key (→ v) pressed?> then 
-    point in direction (90 v)
-    move (3) steps
-    next costume
+当 ⚑ 被点击
+重复执行 
+  如果 <按下 (→ v) 键?> 那么 
+    面向 (90 v) 方向
+    移动 (3) 步
+    下一个造型
   end
-  if <key (← v) pressed?> then 
-    point in direction (-90 v)
-    move (3) steps
-    next costume
+  如果 <按下 (← v) 键?> 那么 
+    面向 (-90 v) 方向
+    移动 (3) 步
+    下一个造型
   end
 end
 ```
@@ -131,7 +131,7 @@ end
 您也可以通过把下面这个积木添加到角色代码的开头来解决此问题:
 
 ```blocks3
-set rotation style [左右翻转 v]
+将旋转方式设为 [左右翻转 v]
 ```
 
 --- /task ---
@@ -145,9 +145,9 @@ set rotation style [左右翻转 v]
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    if < <key (↑ v) pressed?> and <touching color [#FF69B4]?> > then
-		  change y by (4)
-	  end
+    如果 <<按下 (↑ v) 键?> 与 <碰到颜色 [#FF69B4] ?>> 那么 
+      将y坐标增加 (4)
+    end
 ```
 
 --- /task ---
