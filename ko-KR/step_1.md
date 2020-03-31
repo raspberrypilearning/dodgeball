@@ -1,16 +1,16 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2).
+이것은 **스크래치 3** 버전으로 진행되는 프로젝트입니다. [스크래치 2](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2) 버전으로 진행되는 프로젝트도 있습니다.
 
 \--- /no-print \---
 
-## Introduction
+## 들어가며
 
-You'll learn how to create a platform game in which the player has to dodge moving balls to reach the end of the level.
+레벨을 클리어하기 위해 플레이어가 움직이는 공을 피해야 하는 플랫폼 게임의 제작 방법을 배울 것입니다.
 
 \--- no-print \---
 
-Click the green flag to start, and then use the arrow keys to move and the <kbd>space</kbd> key to jump.
+시작하려면 녹색 깃발을 클릭 한 다음 화살표 키를 사용해서 이동하세요. <kbd>스페이스</kbd> 키를 눌러 점프가 가능합니다.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/251809924/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,48 +21,48 @@ Click the green flag to start, and then use the arrow keys to move and the <kbd>
 
 \--- print-only \---
 
-![dodgeball game being played](images/dodgeball-showcase.png)
+![피구 게임이 실행되고 있는 모습](images/dodgeball-showcase.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: 준비물
 
-### Hardware
+### 하드웨어
 
-+ A computer capable of running Scratch 3
++ 스크래치 3을 실행할 수 있는 컴퓨터
 
-### Software
+### 소프트웨어
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/download/))
++ 스크래치 3 ([온라인](https://scratch.mit.edu/projects/editor/) 또는 [오프라인](https://scratch.mit.edu/download/))
 
-### Downloads
+### 다운로드 목록
 
-You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: What you will learn
-
-+ How to use the keyboard to control a sprite
-+ How to use the `if, then, else`{:class="block3control"} Scratch block
-+ How to clone a sprite
+[여기](http://rpf.io/p/en/dodgeball-go)서 다운로드할 것들의 목록을 확인할 수 있습니다.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: 이런 것들을 배우게 됩니다.
+
++ 키보드를 이용해 스프라이트(캐릭터)를 조작하는 방법
++ 스크래치 블록에서 `if, then, else`{:class="block3control"}를 사용하는 방법
++ 스프라이트(캐릭터)를 복제하는 방법
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: 교육자를 위한 추가 정보
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
+이 프로젝트를 인쇄하려면 [프린트용 버전](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}을 사용해 주십시오.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/dodgeball-get).
+여기서 [완성된 프로젝트](http://rpf.io/p/en/dodgeball-get)를 확인할 수 있습니다.
 
 \--- /collapse \---
