@@ -1,9 +1,9 @@
-## Challenge: random balls
+## 도전 과제: 무작위의 공
 
-The balls that your character has to dodge all look the same, and they appear at regular three-second intervals. Can you add code to your game so that the balls:
+캐릭터가 피해야 할 공은 모두 똑같이 보이고, 일정하게 3초 간격으로 나타납니다. 게임에 코드를 추가하여 공들을 만들 수 있습니까?
 
-+ Don't all look the same?
-+ Appear after a `random`{:class="block3operators"} amount of time?
-+ Are a random size?
++ 모두 똑같이 생기지 않았나요?
++ `무작위` {:class = "block3operators"} 시간 뒤에 나타납니까?
++ 임의의 크기입니까?
 
-![screenshot](images/dodge-ball-random.png)
+![스크린샷](images/dodge-ball-random.png)
