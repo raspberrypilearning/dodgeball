@@ -1,23 +1,23 @@
-## Challenge: improved gravity
+## 도전 과제: 개선된 중력
 
-There's one other small bug in your game: gravity doesn't pull the character sprite downwards if **any** part of the sprite is touching a blue platform. So even if the sprites head touches a platform, the sprite doesn't fall! You can test this yourself: make your character climb most of the way up a ladder, and then move the character sideways beneath a platform:
+게임에 또 하나의 작은 버그가 있습니다: 스프라이트의 **어느 곳이든** 일부가 파란색 플랫폼에 닿아 있을 때 중력이 캐릭터를 아래 쪽으로 끌어당기지 않습니다. 그래서 스프라이트의 머리가 플랫폼(장애물)에 닿아도 스프라이트가 떨어지지 않는 것입니다! 이것을 직접 테스트 해보십시오: 캐릭터가 사다리의 가장 위로 올라가도록 한 다음, 캐릭터를 플랫폼 아래 옆으로 움직입니다.
 
-![screenshot](images/dodge-gravity-bug.png)
+![스크린샷](images/dodge-gravity-bug.png)
 
-To fix the bug, you first need to give your character sprite new trousers that have a different colour (on **all** costumes).
+버그를 수정하려면 먼저 캐릭터 스프라이트의 (**모든** 모양에게) 다른 색상의 새로운 바지를 줘야 합니다.
 
-![screenshot](images/dodge-trousers.png)
+![스크린샷](images/dodge-trousers.png)
 
-Then replace this code block:
-
-```blocks3
-    < touching color [#0000FF]? >
-```
-
-with this code block:
+그런 다음, 이 코드 블록을 교체하십시오.
 
 ```blocks3
-    < color [#00FF00] is touching [#0000FF]? >
+    <[#0000FF] 색에 닿았는가? >
 ```
 
-To make sure you've fixed the bug, test the game after you've made these changes!
+아래의 코드 블록으로:
+
+```blocks3
+    <[#00FF00] 색이 [#0000FF] 색에 닿았는가? >
+```
+
+버그를 수정했는지 확인하려면 위와 같이 변경한 후 게임을 테스트하십시오!
