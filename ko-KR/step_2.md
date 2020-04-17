@@ -8,7 +8,7 @@
 
 **온라인:** [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}에서 새로운 스타터 프로젝트 열기.
 
-스크래치 계정이 있는 경우 ** Remix **를 클릭하여 사본을 만들 수 있습니다.
+스크래치 계정이 있는 경우 **리믹스**를 클릭하여 사본을 만들 수 있습니다.
 
 **오프라인:** 스타터 프로젝트를 [rpf.io/p/ko-KR/dodgeball-get](http://rpf.io/p/ko-KR/dodgeball-get){:target="_blank"} 에서 다운로드하고, 오프라인 편집기로 파일을 엽니다.
 
@@ -131,7 +131,7 @@ end
 또는 원하는 경우 캐릭터의 스크립트 시작 부분에 이 블록을 추가하여 문제를 해결할 수도 있습니다.
 
 ```blocks3
-회전 스타일 설정 [왼쪽-오른쪽 v]
+set rotation style [왼쪽-오른쪽 v]
 ```
 
 --- /task ---
@@ -145,9 +145,9 @@ end
 ![걷는 피코 스프라이트](images/pico_walking_sprite.png)
 
 ```blocks3
-    만약 <<(위쪽 화살표 v) 키가 눌렸는가?> 그리고 <[#FF69B4] 색에 닿았는가?>> 라면
-        y 좌표를 (4) 만큼 바꾸기
-    end
+    if < <key (위쪽 화살표 v) pressed?> and <touching color [#FF69B4]?> > then
+		  change y by (4)
+	  end
 ```
 
 --- /task ---

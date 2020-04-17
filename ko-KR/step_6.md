@@ -29,7 +29,7 @@
 숨기기
 무한 반복하기 
   (3) 초 기다리기
-  (myself v) 복제하기
+  (나 자신 v) 복제하기
 end
 ```
 
@@ -150,26 +150,24 @@ end
 ![공 스프라이트](images/ball_sprite.png)
 
 ```blocks3
-    복제되었을 때
-무한 반복하기 
-  if <touching (걷는 피코 v) ?>
-  end
-end > then
-            (hit v) 신호 보내기
-        end
-    end
+    when I start as a clone
+	  forever
+		  if < touching (Pico walking v)? > then
+			  broadcast (부딪음 v)
+		  end
+	  end
 ```
 
 --- /task ---
 
 --- task ---
 
-마지막으로, 캐릭터 스프라이트에 코드 블록을 추가하여 `hit` 메시지를 받았을 때 시작 위치로 돌아가도록 합니다.
+마지막으로, 캐릭터 스프라이트에 코드 블록을 추가하여 `부딪음` 메시지를 받았을 때 시작 위치로 돌아가도록 합니다.
 
 ![걷는 피코 스프라이트](images/pico_walking_sprite.png)
 
 ```blocks3
-    [hit v] 신호를 받았을 때
+    [부딪음 v] 신호를 받았을 때
     (90) 도 방향 보기
     x: (-210) y: (-120) \(으\)로 이동하기
 ```
