@@ -1,0 +1,28 @@
+---
+hero_image: images/banner.png
+listed: true
+ingredient: false
+copyedit: false
+title: 피구
+description: 레벨이 끝날 때까지 움직이는 공들을 피하는 플랫폼 게임을 만드세요.
+version: 4.0.0
+last_tested: 2018-10-10
+steps:
+  - title: 들어가며
+  - title: 캐릭터 이동
+  - title: "도전 과제: 레벨 완료하기"
+    challenge: true
+  - title: 중력과 점프
+  - title: '도전 과제: 개선된 점프'
+    challenge: true
+  - title: 공들 피하기
+  - title: '도전 과제: 무작위의 공'
+    challenge: true
+  - title: 레이저!
+  - title: '도전 과제: 더 많은 장애물'
+    challenge: true
+  - title: '도전 과제: 개선된 중력'
+    challenge: true
+  - title: '도전 과제: 더 많은 생명'
+    challenge: true
+  - title: 더 나아가기
