@@ -3,38 +3,38 @@ hero_image: images/banner.png
 listed: true
 ingredient: false
 copyedit: false
-title: Dodgeball
-description: Create a platform game in which you dodge moving balls to reach the end of the level
+title: Queimada
+description: Crie um jogo de plataforma no qual você esquiva das bolas em movimento para chegar ao final do nível
 version: 4.0.0
 last_tested: 2018-10-10
 steps:
   - 
-    title: Introduction
+    title: Introdução
   - 
-    title: Character movement
+    title: Movimento do personagem
   - 
-    title: "Challenge: completing the level"
+    title: "Desafio: completando o nível"
     challenge: true
   - 
-    title: Gravity and jumping
+    title: Gravidade e salto
   - 
-    title: 'Challenge: improved jumping'
+    title: 'Desafio: salto melhorado'
     challenge: true
   - 
-    title: Dodging balls
+    title: Esquivando das bolas
   - 
-    title: 'Challenge: random balls'
+    title: 'Desafio: bolas aleatórias'
     challenge: true
   - 
     title: Lasers!
   - 
-    title: 'Challenge: more obstacles'
+    title: 'Desafio: mais obstáculos'
     challenge: true
   - 
-    title: 'Challenge: improved gravity'
+    title: 'Desafio: gravidade melhorada'
     challenge: true
   - 
-    title: 'Challenge: more lives'
+    title: 'Desafio: mais vidas'
     challenge: true
   - 
-    title: What next?
+    title: E agora?
