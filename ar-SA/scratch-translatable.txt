@@ -1,9 +1,9 @@
-gravity
+جاذبية
 
-jump height
+ارتفاع القفزة
 
-hit
+ضربة
 
-on
+تشغيل
 
-off
+اطفاء
