@@ -1,9 +1,9 @@
-gravity
+gravidade
 
-jump height
+altura do salto
 
-hit
+atingido
 
-on
+ligado
 
-off
+desligado
