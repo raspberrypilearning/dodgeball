@@ -1,16 +1,16 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2).
+هذا هو إصدار ** Scratch 3 ** من المشروع. هناك أيضًا [ إصدار Scratch 2 للمشروع ](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2).
 
 \--- /no-print \---
 
 ## المقدمة
 
-You'll learn how to create a platform game in which the player has to dodge moving balls to reach the end of the level.
+سوف تتعلم كيفية إنشاء برنامج لعبة. حيث يجب على اللاعب تفادي (او مراوغة) الكرات المتحركة للوصول إلى خط النهاية.
 
 \--- no-print \---
 
-Click the green flag to start, and then use the arrow keys to move and the <kbd>space</kbd> key to jump.
+انقر على العلم الأخضر للبدء ، ثم استخدم مفاتيح الأسهم للتحرك و مفتاح <kbd>المسافة </kbd> للقفز.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/251809924/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,13 +21,13 @@ Click the green flag to start, and then use the arrow keys to move and the <kbd>
 
 \--- print-only \---
 
-![dodgeball game being played](images/dodgeball-showcase.png)
+![لعبة دودجبل التي لعبت](images/dodgeball-showcase.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: ما الذي ستحتاجه
 
 ### الأجهزة
 
@@ -37,32 +37,32 @@ Click the green flag to start, and then use the arrow keys to move and the <kbd>
 
 + برنامج Scratch 3 (سواء كان [عبر الإنترنت](https://scratch.mit.edu/projects/editor/) أو [دون اتصال بالإنترنت](https://scratch.mit.edu/download/))
 
-### Downloads
+### للتحميل
 
-You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: What you will learn
-
-+ How to use the keyboard to control a sprite
-+ How to use the `if, then, else`{:class="block3control"} Scratch block
-+ How to clone a sprite
+يمكنك [تحميل الملفات من هنا](http://rpf.io/p/en/dodgeball-go).
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: ما الذي ستتعلمه
+
++ كيفية استخدام لوحة المفاتيح للتحكم في كائن
++ كيف تستخدم الكتل البرمجية في سكراتش `if, then, else`{:class="block3control"}
++ كيفية استنساخ كائن
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: ملاحظات إضافية للمعلمين
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
+إذا كنت بحاجة إلى طباعة هذا المشروع ، فالرجاء استخدام الإصدار [الملائم للطابعة](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/dodgeball-get).
+يمكنك ايجاد [المشروع كامل هنا](http://rpf.io/p/en/dodgeball-get).
 
 \--- /collapse \---
