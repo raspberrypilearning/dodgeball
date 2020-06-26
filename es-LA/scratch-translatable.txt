@@ -1,9 +1,9 @@
-gravity
+gravedad
 
-jump height
+altura del salto
 
-hit
+golpe
 
-on
+encendido
 
-off
+apagado
