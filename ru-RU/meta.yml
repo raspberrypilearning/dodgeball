@@ -3,38 +3,38 @@ hero_image: images/banner.png
 listed: true
 ingredient: false
 copyedit: false
-title: Dodgeball
-description: Create a platform game in which you dodge moving balls to reach the end of the level
+title: Вышибалы
+description: Создай игру платформер, в котором ты будешь уклоняться от мячей, чтобы достичь конца уровня
 version: 4.0.0
-last_tested: 2018-10-10
+last_tested: 10-10-2018
 steps:
   - 
-    title: Introduction
+    title: Введение
   - 
-    title: Character movement
+    title: Движение персонажа
   - 
-    title: "Challenge: completing the level"
+    title: "Задание: заверши уровень"
     challenge: true
   - 
-    title: Gravity and jumping
+    title: Гравитация и прыжки
   - 
-    title: 'Challenge: improved jumping'
+    title: 'Задание: улучшить гравитацию'
     challenge: true
   - 
-    title: Dodging balls
+    title: Уклонение от мячей
   - 
-    title: 'Challenge: random balls'
+    title: 'Задание: случайные мячи'
     challenge: true
   - 
-    title: Lasers!
+    title: Лазеры!
   - 
-    title: 'Challenge: more obstacles'
+    title: 'Задание: больше препятствий'
     challenge: true
   - 
-    title: 'Challenge: improved gravity'
+    title: 'Задание: улучшить гравитацию'
     challenge: true
   - 
-    title: 'Challenge: more lives'
+    title: 'Задание: добавить жизни'
     challenge: true
   - 
-    title: What next?
+    title: Что дальше?
