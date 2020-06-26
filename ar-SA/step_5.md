@@ -1,5 +1,5 @@
-## Challenge: better jumping
+## التحدي: القفز بشكل أفضل
 
-Even if the character is already in mid-air, it jumps whenever the player presses the <kbd>space</kbd> bar. You can see this behaviour if you hold down the <kbd>space</kbd> bar.
+حتى إذا كانت الشخصية بالفعل في الهواء ، فإنها تقفز كلما يضغط اللاعب على زر <kbd>مساحة </kbd>. يمكنك رؤية هذا السلوك إذا قمت باستمرار الضغط على زر <kbd>مساحة </kbd>.
 
-Can you change the character sprite's code for jumping so that your character can only jump `if`{:class="block3control"} it touches a blue platform?
+هل يمكنك تغيير التعليمة البرمجية للكائن للقفز بحيث يمكن للشخصية أن تقفز فقط `عندما `{:class="block3control"} تلامس المنصة الزرقاء؟
