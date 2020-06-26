@@ -1,7 +1,7 @@
 ## التحدي: محاولات أخرى
 
-Right now, your character goes back to its starting position when it gets hit. Can you also give the character sprite three `lives`{:class="block3variables"}, and make it lose one life when it gets hit? هكذا يمكن أن تكون لعبتك:
+الان، تعود شخصيتك إلى نقطة البداية عندما يتم ضربها. هل يمكنك أيضًا إعطاء الكائن ثلاثة `أرواح`{:class="block3variables"}، وجعله يخسر حياة واحدة عندما يصطدم؟ هكذا يمكن أن تكون لعبتك:
 
-+ The game starts with three lives for the character
-+ Whenever the character gets hit, it loses one life **and** moves back to the start
++ تبدأ اللعبة بثلاثة أرواح للشخصية
++ كلما ضربت الشخصية او الكائن تفقد حياة واحدة ** و ** تعود إلى البداية
 + تنتهي اللعبة إذا نفدت المحاولات
