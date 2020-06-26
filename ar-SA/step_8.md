@@ -1,10 +1,10 @@
 ## أشعة الليزر!
 
-To your game a little harder to complete, you are going to add lasers!
+لجعل اللعبة الخاصة بك اصعب قليلاً، ستضيف اليها أشعة الليزر!
 
 \--- task \---
 
-Add a new sprite to your game and call it `laser`. It should have two costumes: one called 'on', and one called 'off'.
+أضف كائن جديد إلى لعبتك وسَمِّهِ `ليزر`. ويجب أن يكون لهذا الكائن مظهران، أحدهما 'تشغيل' والآخر 'إيقاف'.
 
 ![لقطة الشاشة](images/dodge-lasers-costume1.png)
 
@@ -14,7 +14,7 @@ Add a new sprite to your game and call it `laser`. It should have two costumes: 
 
 \--- task \---
 
-Place your new laser sprite between two platforms.
+ضَع كائن شعاع الليزر الجديد في أي مكان تختاره بين منصتين.
 
 ![لقطة الشاشة](images/dodge-lasers-position.png)
 
@@ -22,9 +22,9 @@ Place your new laser sprite between two platforms.
 
 \--- task \---
 
-Add code to your laser sprite to make it switch between its two costumes.
+أضف تعليمة برمجية إلى كائن الليزر الخاص بك لجعله يتغير بين المظهرين.
 
-![laser sprite](images/laser_sprite.png)
+![كائن الليزر](images/laser_sprite.png)
 
 ```blocks3
     when flag clicked
@@ -36,33 +36,33 @@ Add code to your laser sprite to make it switch between its two costumes.
     end
 ```
 
-If you prefer, you can change the code shown above so that the sprite `waits`{:class="block3control"} a `random`{:class="block3operators"} amount of time between costume changes.
+إذا اردت، يمكنك تغيير التعليمة البرمجية الموضحة أعلاه بحيث `ينتظر`{:class="block3control"} الكائن فترة `عشوائية`{:class="block3operators"} من الزمن بين تغيير المظهر.
 
 \--- /task \---
 
 \--- task \---
 
-Finally, add code to your laser sprite so that the laser sprite broadcasts a 'hit' message when it touches the character sprite.
+وأخيرا، أضف تعليمة برمجية إلى كائن الليزر بحيث يقوم كائن الليزر ببث رسالة 'ضرب' عندما يلمس كائن الشخصية.
 
 \--- hints \---
 
 \--- hint \---
 
-This code should be very similar to the code you added to your ball sprite.
+يجب أن تكون هذه التعليمات البرمجية مشابهة جداً للتعليمات البرمجية التي أضفتها إلى كائن الكرة الخاص بك.
 
 \--- hint/ \---
 
 \--- hint \---
 
-Copy the code you add to the ball sprite to make this sprite `broadcast 'hit'`{:class="block3control"} when it is `touching your character`{:class="block3sensing"}.
+انسخ التعليمات البرمجية التي تضيفها إلى كائن الكرة لجعل هذا الكائن `يبث 'ضرب'`{:class="block3control"} عندما `يلمس شخصيتك `{:class="block3sensing"}.
 
 \--- hint/ \---
 
 \--- hint \---
 
-This is the code you should add:
+هذا هي التعليمة البرمجية التي يجب أن تضيفها:
 
-![laser sprite](images/laser_sprite.png)
+![كائن الليزر](images/laser_sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -77,12 +77,12 @@ end
 
 \--- hints/ \---
 
-You don't need to add any extra code to your characters sprite, because the character sprite already knows what to do when it receives the `broadcast 'hit'`{:class="block3control"}!
+لا تحتاج إلى إضافة أي تعليمات برمجية إضافية إلى الكائن، لأن الكائن يعرف بالفعل ما يجب فعله عندما يتلقى `بث 'ضرب'`{:class="block3control"}!
 
 \--- /task \---
 
 \--- task \---
 
-Test out your game to see if you can move the character past the laser. If the laser is too easy or too hard to avoid, change the `wait`{:class="block3control"} times in the code for the laser sprite.
+اختبر لعبتك لمعرفة ما إذا كنت تستطيع تحريك الشخصية بعد الليزر. إذا كان تجنب الليزر سهلًا جدًا أو صعباً جدًا، غير اوقات ` الانتظار ` {: class = "block3control"} في التعليمات البرمجية لكائن الليزر.
 
 \--- /task \---
