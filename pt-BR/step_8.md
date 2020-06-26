@@ -1,74 +1,74 @@
 ## Lasers!
 
-To your game a little harder to complete, you are going to add lasers!
+Para seu jogo ficar um pouco mais difícil de completar, você vai adicionar lasers!
 
 \--- task \---
 
-Add a new sprite to your game and call it `laser`. It should have two costumes: one called 'on', and one called 'off'.
+Adicione um novo ator ao seu jogo e chame-o de `laser`. Deve ter duas fantasias: uma chamada "ligado" e outra chamada "desligado".
 
-![screenshot](images/dodge-lasers-costume1.png)
+![captura de tela](images/dodge-lasers-costume1.png)
 
-![screenshot](images/dodge-lasers-costume2.png)
+![captura de tela](images/dodge-lasers-costume2.png)
 
 \--- /task \---
 
 \--- task \---
 
-Place your new laser sprite between two platforms.
+Coloque seu novo ator laser entre duas plataformas.
 
-![screenshot](images/dodge-lasers-position.png)
+![captura de tela](images/dodge-lasers-position.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your laser sprite to make it switch between its two costumes.
+Adicione código ao seu ator laser para fazer que ele alterne entre suas duas fantasias.
 
-![laser sprite](images/laser_sprite.png)
+![ator laser](images/laser_sprite.png)
 
 ```blocks3
-    when flag clicked
-    forever
-        switch costume to (on v)
-        wait (2) seconds
-        switch costume to (off v)
-        wait (2) seconds
+    quando ⚑ for clicado
+    sempre
+        mude para a fantasia (ligado v)
+        espere (2) seg
+        mude para a fantasia (desligado v)
+        espere (2) seg
     end
 ```
 
-If you prefer, you can change the code shown above so that the sprite `waits`{:class="block3control"} a `random`{:class="block3operators"} amount of time between costume changes.
+Se você preferir, você pode alterar o código mostrado acima para que o ator possa `esperar`{:class="block3control"} um intervalo de tempo `aleatório`{:class="block3operators"} entre as trocas de fantasia.
 
 \--- /task \---
 
 \--- task \---
 
-Finally, add code to your laser sprite so that the laser sprite broadcasts a 'hit' message when it touches the character sprite.
+Finalmente, adicione código ao seu ator laser para que transmita a mensagem 'atingido' quando o ator laser tocar no ator personagem.
 
 \--- hints \---
 
 \--- hint \---
 
-This code should be very similar to the code you added to your ball sprite.
+Este código deve ser muito parecido com o código que você adicionou ao seu ator bola.
 
 \--- /hint \---
 
 \--- hint \---
 
-Copy the code you add to the ball sprite to make this sprite `broadcast 'hit'`{:class="block3control"} when it is `touching your character`{:class="block3sensing"}.
+Copie o código que você adicionou ao ator bola para fazer com que este ator `transmita 'atingido'`{:class="block3control"} quando ele estiver `tocando seu personagem`{:class="block3sensing"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-This is the code you should add:
+Este é o código que você deve adicionar:
 
-![laser sprite](images/laser_sprite.png)
+![ator laser](images/laser_sprite.png)
 
 ```blocks3
-when green flag clicked
-forever 
-  if <touching (Pico walking v) ?> then 
-    broadcast (hit v)
+quando ⚑ for clicado
+sempre 
+  se <touching (Pico walking v) ?> então 
+    transmita (atingido v)
   end
 end
 ```
@@ -77,12 +77,12 @@ end
 
 \--- /hints \---
 
-You don't need to add any extra code to your characters sprite, because the character sprite already knows what to do when it receives the `broadcast 'hit'`{:class="block3control"}!
+Você não precisa adicionar nenhum código extra aos seus atores personagens, porque o ator personagem já sabe o que fazer quando recebe o `transmita 'atingido'`{:class="block3control"}!
 
 \--- /task \---
 
 \--- task \---
 
-Test out your game to see if you can move the character past the laser. If the laser is too easy or too hard to avoid, change the `wait`{:class="block3control"} times in the code for the laser sprite.
+Teste seu jogo para ver se você consegue mover o personagem para além do laser. Se o laser for muito fácil ou muito difícil de evitar, altere o tempo de `espere`{:class="block3control"} no código para o ator laser.
 
 \--- /task \---
