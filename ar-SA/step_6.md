@@ -1,6 +1,6 @@
 ## تفادي الكرات
 
-Your character can move and jump now, so it's time to add some balls that the character has to avoid.
+يمكن لشخصيتك التحرك والقفز الآن، لذا حان الوقت لإضافة بعض الكرات التي يجب على الشخصية تجنبها.
 
 \--- task \---
 
@@ -12,7 +12,7 @@ Your character can move and jump now, so it's time to add some balls that the ch
 
 \--- task \---
 
-Resize the ball sprite so that the character can jump over it. Try making the character jump over the ball to test whether the ball is the right size.
+غير حجم كائن الكرة بحيث يمكن للشخصية أن تقفز فوقه. حاول جعل الشخصية تقفز فوق الكرة لاختبار ما إذا كانت الكرة بالحجم الصحيح.
 
 ![لقطة الشاشة](images/dodge-ball-resize.png)
 
@@ -22,7 +22,7 @@ Resize the ball sprite so that the character can jump over it. Try making the ch
 
 أضف هذه التعليمة البرمجية إلى كائن الكرة:
 
-![ball sprite](images/ball_sprite.png)
+![كائن الكرة](images/ball_sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -50,13 +50,13 @@ end
 delete this clone
 ```
 
-This code creates a new clone of the ball sprite every three seconds. Each new clone moves along the top platform and then drops.
+هذه التعليمة البرمجية تنشئ نسخة جديدة من كائن الكرة كل ثلاث ثوان. كل نسخة جديدة تتحرك على طول المنصة العليا ثم تسقط.
 
 \--- /task \---
 
 \--- task \---
 
-Click the flag to test the game.
+انقر فوق العلم لاختبار اللعبة.
 
 ![لقطة الشاشة](images/dodge-ball-test.png)
 
@@ -64,7 +64,7 @@ Click the flag to test the game.
 
 \--- task \---
 
-Add more code to your ball sprite so that clones of it move across all three platforms.
+أضف المزيد من التعليمات البرمجية إلى كائن الكرة الخاص بك بحيث تتحرك نسخ منه عبر المنصات الثلاث جميعها.
 
 ![لقطة الشاشة](images/dodge-ball-more-motion.png)
 
@@ -72,15 +72,15 @@ Add more code to your ball sprite so that clones of it move across all three pla
 
 \--- hint \---
 
-Repeat the code blocks you used to move the ball sprite clone across the first platform. You need to change the `x`{:class="block3motion"}, `y`{:class="block3motion"}, and `repeat`{:class="block3control"} numbers so that the clones follow the platforms correctly.
+كرر التعليمات البرمجية التي استخدمتها لنقل نسخة كائن الكرة عبر المنصة الأولى. تحتاج إلى تغيير قيم `x`{:class="block3motion"}, `y`{:class="block3motion"}, و`تكرار `{:class="block3control"} الارقام بحيث تتابع النسخ المنصات بشكل صحيح.
 
 \--- hint/ \---
 
 \--- hint \---
 
-These are the blocks you need. Make sure you add them in the correct order.
+هذه هي الكتل البرمجية التي تحتاجها. تأكد من إضافتها بالترتيب الصحيح.
 
-![ball sprite](images/ball_sprite.png)
+![كائن الكرة](images/ball_sprite.png)
 
 ```blocks3
 repeat (170) 
@@ -102,9 +102,9 @@ end
 
 \--- hint \---
 
-The code for your ball sprite clones should look like this:
+يجب أن تبدو التعليمات البرمجية لاستنساخ كائن الكرة كما يلي:
 
-![ball sprite](images/ball_sprite.png)
+![كائن الكرة](images/ball_sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -142,11 +142,11 @@ delete this clone
 
 \--- task \---
 
-Now add some code blocks to broadcast (send) a message if your character gets hit by a ball!
+الآن أضف بعض الكتل البرمجية لبث (إرسال) رسالة إذا تعرضت شخصيتك للضرب بالكرة!
 
 أضف هذه التعليمة البرمجية إلى كائن الكرة:
 
-![ball sprite](images/ball_sprite.png)
+![كائن الكرة](images/ball_sprite.png)
 
 ```blocks3
     when I start as a clone
@@ -161,9 +161,9 @@ Now add some code blocks to broadcast (send) a message if your character gets hi
 
 \--- task \---
 
-Finally, add code blocks to your character sprite to make it move back to its starting position when it receives the `hit` message:
+أخيرا، أضف كتل التعليمات البرمجية إلى الكائن الخاص بك لجعله ينتقل إلى موضع البداية عندما يتلقى الرسالة `ضربة`:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![كائن المشي بيكو](images/pico_walking_sprite.png)
 
 ```blocks3
     when I receive [hit v]
@@ -175,6 +175,6 @@ Finally, add code blocks to your character sprite to make it move back to its st
 
 \--- task \---
 
-Test out your code. Check whether the character moves back to the start after touching a ball.
+اختبر التعليمة البرمجية الخاصة بك. تحقق مما إذا كانت الشخصية تتحرك مرة أخرى إلى البداية بعد لمس الكرة.
 
 \--- /task \---
