@@ -1,28 +1,28 @@
-## حركة الشخصية
+## حركة الشخصية(او الكائن)
 
-Start by creating a character that can move left and right, and can climb up ladders.
+ابدأ بإنشاء شخصية او كائن يمكنه التحرك لليسار واليمين، ويمكنه أن يتسلق السلالم ايضا.
 
 \--- task \---
 
-Open the 'Dodgeball' Scratch starter project.
+افتح مشروع سكراتش مبدئي 'Dodgeball'.
 
-**Online:** open the starter project at [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}.
+**بالاتصال بالانترنت**: افتح المشروع المبدئي من هنا [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+اذا كنت تملك حساب على منصة السكراتش (Scratch) فيمكنك عمل نسخة بالضغط على **Remix**.
 
-**Offline:** download the starter project from [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) and then open it using the offline editor.
+**دون اتصال انترنيت:** قم بتنزيل المشروع المبدئي من [rpf.io/p/en/dodgeballget](http://rpf.io/p/en/dodgeball-get) ثم قم بفتحه باستخدام محرر سكراتش بدون اتصال انترنيت.
 
 \--- /task \---
 
-The project contains a backdrop with platforms:
+يحتوي المشروع على خلفية مع المنصات:
 
-![dodgeball project background](images/dodge-background.png)
+![خلفية مشروع Dodgeball](images/dodge-background.png)
 
 \--- task \---
 
-Choose a new sprite as the character the player will control, and add it to your project. It's best if you choose a sprite with multiple costumes, so that you can make it look as though it's walking.
+اختر كائن جديد ليكون الشخصية التي سيتحكم فيها اللاعب، وإضفه إلى مشروعك. من الأفضل أن تختار كائنا له مظاهر متعددة، بحيث يمكنك جعله يبدو كما لو أنه يمشي.
 
-![pick a sprite](images/dodge-characters.png)
+![إختر كائناً](images/dodge-characters.png)
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -30,9 +30,9 @@ Choose a new sprite as the character the player will control, and add it to your
 
 \--- task \---
 
-Add code blocks to your character sprite so that the player can use the arrow keys to move the character around. When the player presses the right arrow, the character should point right, move a few steps, and change to the next costume:
+أضف كتل التعليمات البرمجية إلى كائن الشخصية الخاص بك حتى يتمكن اللاعب من استخدام مفاتيح الأسهم لتحريك او التحكم بالشخصية. عندما يضغط اللاعب على السهم الأيمن، يجب على الشخصية أن تشير إلى اليمين، تحرك بضع خطوات، وغير المظهر إلى المظهر التالي:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![كائن المشي بيكو](images/pico_walking_sprite.png)
 
 ```blocks3
 when flag clicked
@@ -49,35 +49,35 @@ end
 
 \--- task \---
 
-If your sprite doesn't fit, adjust its size.
+إذا لم يكن حجم الكائن مناسبا ، قم بضبط حجمه.
 
-![set sprite size so it fits](images/dodge-sprite-size-annotated.png)
-
-\--- /task \---
-
-\--- task \---
-
-Test out your character by clicking the flag and then holding down the right arrow key. Does your character move to the right? Does your character look like it is walking?
-
-![screenshot](images/dodge-walking.png)
+![اضبط حجم الكائن ليكون متناسقاً](images/dodge-sprite-size-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code blocks to the character sprite's `forever`{:class="block3control"} loop so that it walks left if the left arrow key is pressed.
+اختبر الشخصية بالنقر فوق العلم ثم الضغط مطوَّلًا على مفتاح السهم اليمين. هل تتحرك الشخصية إلى اليمين؟ هل تبدو شخصيتك وكأنها تمشي ؟
+
+![لقطة الشاشة](images/dodge-walking.png)
+
+\--- /task \---
+
+\--- task \---
+
+أضف كتل التعليمات البرمجية إلى الكائن حلقة تكرار `للأبد`{:class="block3control"} بحيث تمشي إلى اليسار إذا تم الضغط على مفتاح السهم الأيسر.
 
 \--- hints \---
 
 \--- hint \---
 
-So that your character can move to the left, you'll need to add another `if`{:class="block3control"} block inside the `forever`{:class="block3control"} loop. In this new `if`{:class="block3control"} block, add code to make your character sprite `move`{:class="block3motion"} to the left.
+حتى تتمكن شخصيتك من الانتقال إلى اليسار، ستحتاج إلى إضافة كتلة أخرى `إذا `{:class="block3control"} داخل حلقة تكرار `للأبد`{:class="block3control"}. في هذه الكتلة الجديدة `if`{:class="block3control"}، أضف تعليمة برمجية لجعل الكائن او شخصيتك `يتحرك `{:class="block3motion"} إلى اليسار.
 
 \--- /hint \---
 
 \--- hint \---
 
-Copy the code you created to make the character walk to the right. Then set the `key pressed`{:class="block3sensing"} to the `left arrow`{:class="block3sensing"}, and change the `direction`{:class="block3motion"} to `-90`.
+إنسخ التعليمة البرمجية التي أنشأتها لجعل الشخصية تمشي إلى اليمين. ثم قم بضبط `المفتاح مضغوط`{:class="block3sensing"} إلى `السهم الأيسر `{:class="block3sensing"}، وغير `الاتجاه`{:class="block3motion"} إلى `-90`.
 
 ```blocks3
 if <key (right arrow v) pressed? > then
@@ -91,9 +91,9 @@ end
 
 \--- hint \---
 
-Your code should look like this now:
+يجب أن تبدو التعليمات البرمجية خاصتك بالشكل التالي:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![كائن المشي بيكو](images/pico_walking_sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -119,15 +119,15 @@ end
 
 \--- task \---
 
-Test your new code to make sure that it works. Does your character turn upside-down when walking to the left?
+اختبر التعليمة البرمجية الجديدة لتتأكد من أنها تعمل بالشكل المطلوب. هل تنقلب شخصيتك رأسًا على عقب عند المشي إلى اليسار؟
 
-![screenshot](images/dodge-upside-down.png)
+![لقطة الشاشة](images/dodge-upside-down.png)
 
-If so, you can fix this by clicking on the **direction** of your character sprite, and then clicking on the left-right arrow.
+إذا كان الأمر كذلك، يمكنك إصلاح هذا عن طريق النقر على **الاتجاه** لشخصية الكائن الخاص بك، ثم النقر على السهم اليسار-اليمين.
 
-![screenshot](images/dodge-left-right-annotated.png)
+![لقطة الشاشة](images/dodge-left-right-annotated.png)
 
-Or if you prefer, you can also fix the problem by adding this block to the start of your character's script:
+أو إذا كنت تفضل ، يمكنك أيضا إصلاح المشكلة عن طريق إضافة هذه الكتلة البرمجية إلى بداية البرنامج للشخصية الخاصة بك:
 
 ```blocks3
 اجعل نمط الدوران [يمين - يسار v]
@@ -137,11 +137,11 @@ Or if you prefer, you can also fix the problem by adding this block to the start
 
 \--- task \---
 
-To climb a pink ladder, your character sprite should move a few steps upwards on the Stage whenever the up arrow is pressed **and** the character is touching the correct colour.
+لتسلق السلم الوردي، يجب أن يتحرك الكائن بضع خطوات إلى الأعلى على المنصة كلما تم الضغط على السهم إلى الأعلى **و ** تلمس الشخصية اللون الصحيح.
 
-Add inside your character's `forever`{:class="block3control"} loop to `change`{:class="block3motion"} the character's `y` (vertical) position `if`{:class="block3control"} the `up arrow is pressed`{:class="block3sensing"} and the character is `touching the colour pink`{:class="block3sensing"}.
+أضف داخل حلقة `التكرار ` {:class="block3control"} الخاصة بالكائن ` لتغيير `{:class="block3motion"} موضع الكائن `y` (العمودي) `إذا `{:class="block3control"} تم الضغط على `السهم للأعلى `{:class="block3sensing"} و الكائن `لمس اللون الوردي`{:class="block3sensing"}.
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![كائن المشي بيكو](images/pico_walking_sprite.png)
 
 ```blocks3
     if < <key (up arrow v) pressed?> and <touching color [#FF69B4]?> > then
@@ -153,8 +153,8 @@ Add inside your character's `forever`{:class="block3control"} loop to `change`{:
 
 \--- task \---
 
-Test your code. Can you make the character climb the pink ladders and get to the end of the level?
+اختبر مشروعك. هل يمكنك جعل الشخصية تتسلق السلم الوردي وتصل إلى نهاية المستوى؟
 
-![screenshot](images/dodge-test-character.png)
+![لقطة الشاشة](images/dodge-test-character.png)
 
 \--- /task \---
