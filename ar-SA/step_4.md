@@ -1,10 +1,10 @@
 ## الجاذبية و القفز
 
-Now you're going to make your character move more realistically: you're going to add gravity to your game and give the character the ability to jump.
+الآن سوف تجعل شخصيتك تتحرك بصورة أكثر واقعية: سوف تضيف الجاذبية إلى لعبتك وتعطي الشخصية القدرة على القفز.
 
 \--- task \---
 
-In the game, move your character so that it walks off a platform. Do you see that it can walk into empty space?
+في اللعبة، حرك شخصيتك بحيث تخرج من المنصة. هل ترى أنه يمكن أن يمشي في مساحة فارغة؟
 
 ![لقطة الشاشة](images/dodge-no-gravity.png)
 
@@ -12,11 +12,11 @@ In the game, move your character so that it walks off a platform. Do you see tha
 
 \--- task \---
 
-To fix this, add gravity to your game. To do this, create a new variable called `gravity`{:class="block3variables"}.
+لإصلاح ذلك، أضف الجاذبية إلى لعبتك. للقيام بذلك، أنشئ متغير جديد يسمى `جاذبية`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
-You can hide this variable from your Stage if you want to.
+يمكنك إخفاء هذا المتغير من منصة أو مساحة العمل إذا أردت.
 
 ![لقطة الشاشة](images/dodge-gravity-annotated.png)
 
@@ -24,9 +24,9 @@ You can hide this variable from your Stage if you want to.
 
 \--- task \---
 
-Add these new code blocks that set `gravity` to a negative number and use the value of `gravity` to repeatedly change your character's y-coordinate:
+أضف هذه الكتل البرمجية الجديدة التي تجعل `الجاذبية` رقم سالب واستخدم قيمة `الجاذبية` لتغيير إحداثيات y لشخصيتك بشكل متكرر:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![كائن المشي بيكو](images/pico_walking_sprite.png)
 
 ```blocks3
     عند نقر ⚑
@@ -40,7 +40,7 @@ end
 
 \--- task \---
 
-Click the flag, and then drag your character to the top of the Stage. ماذا حدث؟ Does the gravity work as you expect?
+انقر فوق العلم، ثم اسحب شخصيتك إلى الجزء العلوي من المنصة. ماذا حدث؟ هل تعمل الجاذبية كما توقعت؟
 
 ![لقطة الشاشة](images/dodge-gravity-drag.png)
 
@@ -48,9 +48,9 @@ Click the flag, and then drag your character to the top of the Stage. ماذا �
 
 \--- task \---
 
-Gravity shouldn't move the character sprite through a platform or a ladder! Add an `if`{:class="block3control"} block to your code to only let the gravity work when the character is in mid-air. The gravity code should then look like this:
+الجاذبية لا ينبغي أن تحرك كائن الشخصية من خلال منصة أو سلم! أضف كتلة `if`{:class="block3control"} إلى التعليمة البرمجية الخاصة بك لجعل الجاذبية تعمل عندما تكون الشخصية في الهواء فقط. يجب أن تكون التعليمة البرمجية للجاذبية كما يلي:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![كائن المشي بيكو](images/pico_walking_sprite.png)
 
 ```blocks3
     عند نقر ⚑
@@ -66,7 +66,7 @@ end
 
 \--- task \---
 
-Test the game again to see whether gravity works correctly now. Does your character sprite stop falling when it touches a platform or a ladder? Can you make the character walk off the edge of platforms and fall onto the level below?
+اختبر اللعبة مرة أخرى لمعرفة ما إذا كانت الجاذبية تعمل بشكل صحيح الآن. هل يتوقف كائن شخصيتك عن السقوط عندما يلمس منصة أو سلم؟ هل يمكنك جعل الشخصية تمشي بعيدا عن حافة المنصات وتسقط على المستوى أدناه؟
 
 ![لقطة الشاشة](images/dodge-gravity-test.png)
 
@@ -74,9 +74,9 @@ Test the game again to see whether gravity works correctly now. Does your charac
 
 \--- task \---
 
-Now add code to make your character jump whenever the player presses the <kbd>space</kbd> key. One very easy way to do this is to move your character up a few times:
+الآن أضف تعليمة برمجية لجعل شخصيتك تقفز عندما يضغط اللاعب على زر <kbd>مساحة </kbd>. واحدة من الطرق السهلة جدا للقيام بذلك هي تحريك شخصيتك لأعلى عدة مرات:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![كائن المشي بيكو](images/pico_walking_sprite.png)
 
 ```blocks3
     عند ضغط مفتاح [المسافة v]
@@ -85,27 +85,27 @@ Now add code to make your character jump whenever the player presses the <kbd>sp
 end
 ```
 
-Because gravity is constantly pushing your character down by 4 pixels, you need to choose a number greater than `4` in your `change y by (4)`{:class="block3motion"} block. Change the number until you're happy with the height the character jumps.
+لأن الجاذبية تدفع شخصيتك باستمرار إلى أسفل بمقدار 4 بكسل، تحتاج إلى اختيار رقم أكبر من `4` في كتلة `تغيير y بمقدار (4)`{:class="block3motion"}. قم بتغيير الرقم حتى تكون سعيدا (او راضيا) بالارتفاع الذي تقفز به الشخصية.
 
 \--- /task \---
 
 \--- task \---
 
-Test out your code. Notice that the jumping movement isn't very smooth. To make jumping look smoother, you need to move your character sprite by smaller and smaller amounts, until it is not rising any higher.
+اختبر التعليمة البرمجية الخاص بك. لاحظ أن حركة القفز ليست سلسة جداً. لجعل القفز أكثر سلاسة، تحتاج إلى تحريك الكائن بقيم أصغر وأصغر، حتى لا يرتفع عشوائيا للأعلى.
 
 \--- /task \---
 
 \--- task \---
 
-To do this, create a new variable called `jump height`{:class="block3variables"}. ويمكنك إخفاء هذا المتغير أيضًا إذا أردت.
+للقيام بذلك ، قم بإنشاء متغير جديد يسمى ` ارتفاع القفزة ` {: class = "block3variables"}. مرة أخرى، يمكنك إخفاء هذا المتغير إذا كنت تفضل ذلك.
 
 \--- /task \---
 
 \--- task \---
 
-Delete the jumping code you added to your character sprite, and add this code instead:
+احذف التعليمة البرمجية الخاصة بالقفز التي أضفتها إلى الشخصية، واستخدم هذه التعليمة البرمجية بدلًا منها:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![كائن المشي بيكو](images/pico_walking_sprite.png)
 
 ```blocks3
     عند ضغط مفتاح [المسافة v]
@@ -116,14 +116,14 @@ Delete the jumping code you added to your character sprite, and add this code in
 end
 ```
 
-This code moves your character up by 8 pixels, then 7.5 pixels, then 7 pixels, and so on, until it does not rise any higher. وبذلك ستبدو القفزة اكثر سلاسة.
+هذه التعليمة البرمجية تحرك شخصيتك إلى أعلى بمقدار 8 بكسل، ثم 7.5 بكسل، ثم 7 بكسل، وهكذا، حتى لا ترتفع عشوائيا للأعلى. وبذلك ستبدو القفزة اكثر سلاسة.
 
 \--- /task \---
 
 \--- task \---
 
-Change the value of the `jump height`{:class="block3variables"} variable that is set before the `repeat`{:class="block3control"} starts. Then test your game.
+قم بتغيير قيمة المتغير `ارتفاع القفز`{:class="block3variables"} الذي يتم ضبطه قبل بدء تشغيل `كرر`{:class="block3control"}. ثم اختبر لعبتك.
 
-Repeat these two steps until you're happy with how high the character jumps.
+كرر هاتين الخطوتين حتى تكون سعيدا او راضيا بمدى ارتفاع قفزات الشخصية.
 
 \--- /task \---
