@@ -1,5 +1,5 @@
 ## التحدي: إنهاء المستوى
 
-Can you add more code blocks to your character sprite to make the sprite say something `if`{:class="block3control"} it gets to the green door?
+هل يمكنك إضافة المزيد من الكتل البرمجية لشخصية الكائن الخاص بك لجعل الكائن يقول شيئًا `إذا `{:class="block3control"} تصل إلى الباب الأخضر؟
 
 ![لقطة شاشة](images/dodge-win.png)
