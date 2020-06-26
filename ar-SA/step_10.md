@@ -1,23 +1,23 @@
 ## التحدي: تحسين الجاذبية
 
-There's one other small bug in your game: gravity doesn't pull the character sprite downwards if **any** part of the sprite is touching a blue platform. So even if the sprites head touches a platform, the sprite doesn't fall! You can test this yourself: make your character climb most of the way up a ladder, and then move the character sideways beneath a platform:
+يوجد خطأ بسيط آخر في لعبتك: الجاذبية لا تسحب الشخصية إلى أسفل إذا كان **أي** جزء من الشخصية يلامس منصة زرقاء - حتى لو كان هذا الجزء هو الرأس. حتى لو كان رأس الكائن يلامس المنصة، فإن الكائن لا يسقط! يمكنك اختبار هذا بنفسك: اجعل شخصيتك تتسلق معظم طريق السلم صعودًا ، ثم حرك الشخصية بشكل جانبي أسفل منصة:
 
 ![لقطة شاشة](images/dodge-gravity-bug.png)
 
-To fix the bug, you first need to give your character sprite new trousers that have a different colour (on **all** costumes).
+لإصلاح الخطأ، تحتاج أولاً إلى إعطاء الكائن الخاص بك سراويل جديدة ذات لون مختلف (على **جميع **المظاهر).
 
 ![لقطة الشاشة](images/dodge-trousers.png)
 
-Then replace this code block:
+ثم استبدل هذه الكتلة البرمجية:
 
 ```blocks3
     <ملامس للون [#0000FF] ؟ >
 ```
 
-with this code block:
+مع هذه الكتلة البرمجية:
 
 ```blocks3
     <اللون [#00FF00] يلامس اللون [#0000FF] ؟ >
 ```
 
-To make sure you've fixed the bug, test the game after you've made these changes!
+للتأكد من أنك قمت بإصلاح الخطأ، اختبر اللعبة بعد إجراء هذه التغييرات!
