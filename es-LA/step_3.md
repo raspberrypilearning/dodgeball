@@ -1,5 +1,5 @@
-## Challenge: completing the level
+## Desafío: Acabar el nivel
 
-Can you add more code blocks to your character sprite to make the sprite say something `if`{:class="block3control"} it gets to the green door?
+¿Puedes añadir más bloques de código a tu pesonaje para hacer que el objeto diga algo `if`{:class="block3control"} este llega a la puerta verde?
 
-![screenshot](images/dodge-win.png)
+![captura de pantalla](images/dodge-win.png)
