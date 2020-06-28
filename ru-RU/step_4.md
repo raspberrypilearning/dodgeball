@@ -1,32 +1,32 @@
-## Gravity and jumping
+## Гравитация и прыжки
 
-Now you're going to make your character move more realistically: you're going to add gravity to your game and give the character the ability to jump.
+Теперь ты сделаешь так, чтобы твой персонаж мог двигаться более реалистично: добавишь гравитацию и дашь персонажу возможность прыгать.
 
 \--- task \---
 
-In the game, move your character so that it walks off a platform. Do you see that it can walk into empty space?
+Перемести своего персонажа так, чтобы он сходил с платформы. Видишь, что он идет по пустому пространству?
 
-![screenshot](images/dodge-no-gravity.png)
+![снимок экрана](images/dodge-no-gravity.png)
 
 \--- /task \---
 
 \--- task \---
 
-To fix this, add gravity to your game. To do this, create a new variable called `gravity`{:class="block3variables"}.
+Чтобы это исправить, добавь гравитацию в игру. Создай новую переменную с именем `гравитация`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
-You can hide this variable from your Stage if you want to.
+Ты можешь скрыть эту переменную со Сцены.
 
-![screenshot](images/dodge-gravity-annotated.png)
+![снимок экрана](images/dodge-gravity-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add these new code blocks that set `gravity` to a negative number and use the value of `gravity` to repeatedly change your character's y-coordinate:
+Добавь эти новые блоки кода, которые задают отрицательное число `гравитации` и с помощью значения `гравитации` многократно меняй y-координату своего персонажа:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![спрайт Пико ходит](images/pico_walking_sprite.png)
 
 ```blocks3
     when flag clicked
@@ -40,17 +40,17 @@ Add these new code blocks that set `gravity` to a negative number and use the va
 
 \--- task \---
 
-Click the flag, and then drag your character to the top of the Stage. What happens? Does the gravity work as you expect?
+Нажми на флаг, а затем перетащи своего персонажа на вершину Сцены. Что происходит? Гравитация работает так, как ты ожидал?
 
-![screenshot](images/dodge-gravity-drag.png)
+![снимок экрана](images/dodge-gravity-drag.png)
 
 \--- /task \---
 
 \--- task \---
 
-Gravity shouldn't move the character sprite through a platform or a ladder! Add an `if`{:class="block3control"} block to your code to only let the gravity work when the character is in mid-air. The gravity code should then look like this:
+Гравитация не должна перемещать спрайт персонажа на платформе или лестнице! Добавь блок `если`{:class="block3control"} в свой код, чтобы гравитация работала только тогда, когда персонаж находится в воздухе. Код гравитации должен выглядеть следующим образом:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![спрайт Пико ходит](images/pico_walking_sprite.png)
 
 ```blocks3
     when flag clicked
