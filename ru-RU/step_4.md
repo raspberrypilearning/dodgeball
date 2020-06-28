@@ -66,9 +66,9 @@
 
 \--- task \---
 
-Test the game again to see whether gravity works correctly now. Does your character sprite stop falling when it touches a platform or a ladder? Can you make the character walk off the edge of platforms and fall onto the level below?
+Проверь игру еще раз, чтобы увидеть, работает ли гравитация правильно. Спрайт персонажа перестает падать, когда он касается платформы или лестницы? Можно ли заставить персонаж сойти с края платформы и упасть на уровень ниже?
 
-![screenshot](images/dodge-gravity-test.png)
+![снимок экрана](images/dodge-gravity-test.png)
 
 \--- /task \---
 
