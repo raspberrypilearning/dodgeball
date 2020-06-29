@@ -1,5 +1,5 @@
-## Challenge: better jumping
+## Задание: лучше прыгать
 
-Even if the character is already in mid-air, it jumps whenever the player presses the <kbd>space</kbd> bar. You can see this behaviour if you hold down the <kbd>space</kbd> bar.
+Даже если персонаж уже находится в воздухе, он прыгает каждый раз, когда игрок нажимает <kbd>пробел</kbd>. Ты можешь увидеть это, если будешь удерживать нажатым <kbd>пробел</kbd>.
 
-Can you change the character sprite's code for jumping so that your character can only jump `if`{:class="block3control"} it touches a blue platform?
+Можешь ли ты изменить код прыжка спрайта персонажа, чтобы персонаж мог прыгать, только `если`{:class="block3control"} он касается синей платформы?
