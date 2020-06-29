@@ -1,9 +1,9 @@
-## Challenge: random balls
+## Задание: случайные мячи
 
-The balls that your character has to dodge all look the same, and they appear at regular three-second intervals. Can you add code to your game so that the balls:
+Все мячи, от которых должен уклоняться персонаж, выглядят одинаково и появляются с одинаковым трехсекундным интервалом. Можно ли добавить код в игру, чтобы мячи:
 
-+ Don't all look the same?
-+ Appear after a `random`{:class="block3operators"} amount of time?
-+ Are a random size?
++ Не все выглядели одинаково?
++ Появлялись через `случайный`{:class="block3operators"} интервал времени?
++ Были случайного размера?
 
-![screenshot](images/dodge-ball-random.png)
+![снимок экрана](images/dodge-ball-random.png)
