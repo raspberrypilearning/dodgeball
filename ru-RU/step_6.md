@@ -1,137 +1,137 @@
-## Dodging balls
+## Уклонение от мячей
 
-Your character can move and jump now, so it's time to add some balls that the character has to avoid.
+Твой персонаж теперь может двигаться и прыгать, поэтому пришло время добавить несколько мячей, от которых персонаж должен уворачиваться.
 
 \--- task \---
 
-Create a new ball sprite. You can choose any type of ball you like.
+Создай спрайт новый мячик. Ты можешь выбрать любой тип мяча, который тебе нравится.
 
-![screenshot](images/dodge-balls.png)
+![снимок экрана](images/dodge-balls.png)
 
 \--- /task \---
 
 \--- task \---
 
-Resize the ball sprite so that the character can jump over it. Try making the character jump over the ball to test whether the ball is the right size.
+Измени размер спрайта мяча так, чтобы персонаж мог перепрыгнуть через него. Попробуй заставить персонаж перепрыгнуть через мяч, чтобы проверить, нужного ли размера мяч.
 
-![screenshot](images/dodge-ball-resize.png)
+![снимок экрана](images/dodge-ball-resize.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add this code to your ball sprite:
+Добавь этот код к спрайту мяча:
 
-![ball sprite](images/ball_sprite.png)
+![спрайт мяча](images/ball_sprite.png)
 
 ```blocks3
-when green flag clicked
-hide
-forever 
-  wait (3) seconds
-  create clone of (myself v)
-end
+когда щёлкнут по зелёному флагу
+спрятаться
+повторять всегда 
+  ждать (3) секунд
+  создать клон (себя v)
+конец
 ```
 
 ```blocks3
-when I start as a clone
-go to x: (160) y: (160)
-show
-repeat (22) 
-  change y by (-4)
-end
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
-end
-repeat (30) 
-  change y by (-4)
-end
-delete this clone
+когда я начинаю как клон
+перейти в x: (160) y: (160)
+показаться
+повторить (22) раз 
+  изменить y на (-4)
+конец
+повторить (170) раз 
+  изменить x на (-2)
+  повернуть влево на (6) градусов
+конец
+повторить (30) раз 
+  изменить y на (-4)
+конец
+удалить клон
 ```
 
-This code creates a new clone of the ball sprite every three seconds. Each new clone moves along the top platform and then drops.
+Этот код создаёт новый клон спрайта мяча каждые три секунды. Каждый новый клон движется вдоль верхней платформы, а затем падает.
 
 \--- /task \---
 
 \--- task \---
 
-Click the flag to test the game.
+Нажми на зелёный флаг, чтобы проверить игру.
 
-![screenshot](images/dodge-ball-test.png)
+![снимок экрана](images/dodge-ball-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add more code to your ball sprite so that clones of it move across all three platforms.
+Добавь код к спрайту мяча так, чтобы его клоны перемещались по всем трём платформам.
 
-![screenshot](images/dodge-ball-more-motion.png)
+![снимок экрана](images/dodge-ball-more-motion.png)
 
 \--- hints \---
 
 \--- hint \---
 
-Repeat the code blocks you used to move the ball sprite clone across the first platform. You need to change the `x`{:class="block3motion"}, `y`{:class="block3motion"}, and `repeat`{:class="block3control"} numbers so that the clones follow the platforms correctly.
+Скопируй блоки кода, которые ты использовал, чтобы перемещать клон спрайта шара на первой платформе. Тебе нужно изменить числа в `х`{:class="block3motion"}, `у`{:class="block3motion"} и `повторить`{:class="block3control"}, чтобы клоны правильно следовали по платформам.
 
 \--- /hint \---
 
 \--- hint \---
 
-These are the blocks you need. Make sure you add them in the correct order.
+Вот блоки, которые тебе понадобятся. Убедись, что ты добавил их в правильном порядке.
 
-![ball sprite](images/ball_sprite.png)
+![спрайт мяча](images/ball_sprite.png)
 
 ```blocks3
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
-end
+повторить (170) раз 
+  изменить x на (-2)
+  повернуть влево на (6) градусов
+конец
 
-repeat (180) 
-  change x by (2)
-  turn cw (6) degrees
-end
+повторить (180) раз 
+  изменить x на (2)
+  повернуть вправо на (6) градусов
+конец
 
-repeat (30) 
-  change y by (-4)
-end
+повторить (30) раз 
+  изменить y на (-4)
+конец
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-The code for your ball sprite clones should look like this:
+Код для клонов спрайтов мячей должен выглядеть так:
 
-![ball sprite](images/ball_sprite.png)
+![спрайт мяча](images/ball_sprite.png)
 
 ```blocks3
-when I start as a clone
-go to x: (160) y: (160)
-show
-repeat (22) 
-  change y by (-4)
-end
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
-end
-repeat (30) 
-  change y by (-4)
-end
-repeat (180) 
-  change x by (2)
-  turn cw (6) degrees
-end
-repeat (30) 
-  change y by (-4)
-end
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
-end
-delete this clone
+когда я начинаю как клон
+перейти в x: (160) y: (160)
+показаться
+повторить (22) раз 
+  изменить y на (-4)
+конец
+повторить (170) раз 
+  изменить x на (-2)
+  повернуть влево на (6) градусов
+конец
+повторить (30) раз 
+  изменить y на (-4)
+конец
+повторить (180) раз 
+  изменить x на (2)
+  повернуть вправо на (6) градусов
+конец
+повторить (30) раз 
+  изменить y на (-4)
+конец
+повторить (170) раз 
+  изменить x на (-2)
+  повернуть влево на (6) градусов
+конец
+удалить клон
 ```
 
 \--- /hint \---
@@ -142,11 +142,11 @@ delete this clone
 
 \--- task \---
 
-Now add some code blocks to broadcast (send) a message if your character gets hit by a ball!
+Теперь добавь несколько блоков кода для передачи (отправки) сообщения, если в твой персонаж попадёт мяч!
 
-Add this code to your ball sprite:
+Добавь этот код к спрайту мяча:
 
-![ball sprite](images/ball_sprite.png)
+![спрайт мяча](images/ball_sprite.png)
 
 ```blocks3
     when I start as a clone
@@ -161,9 +161,9 @@ Add this code to your ball sprite:
 
 \--- task \---
 
-Finally, add code blocks to your character sprite to make it move back to its starting position when it receives the `hit` message:
+Наконец, добавь блоки кода спрайту персонажа, чтобы он возвращался в исходное положение, когда он получает сообщение `удар`:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![спрайт Пико ходит](images/pico_walking_sprite.png)
 
 ```blocks3
     when I receive [hit v]
@@ -175,6 +175,6 @@ Finally, add code blocks to your character sprite to make it move back to its st
 
 \--- task \---
 
-Test out your code. Check whether the character moves back to the start after touching a ball.
+Проверь свой код. Проверь, возвращается ли персонаж обратно к началу после касания мяча.
 
 \--- /task \---
