@@ -29,11 +29,11 @@
 ![спрайт Пико ходит](images/pico_walking_sprite.png)
 
 ```blocks3
-    when flag clicked
-    set [gravity v] to [-4]
-    forever
-        change y by (gravity)
-    end
+    когда щёлкнут по зелёному флагу
+   задать [гравитация v] значение [-4]
+   повторять всегда 
+      изменить y на (гравитация)
+   конец
 ```
 
 \--- /task \---
@@ -116,14 +116,14 @@
     end
 ```
 
-This code moves your character up by 8 pixels, then 7.5 pixels, then 7 pixels, and so on, until it does not rise any higher. This makes jumping look much smoother.
+Этот код перемещает твой персонаж на 8 пикселей, затем на 7,5 пикселей, затем на 7 пикселей, и так далее, пока он не поднимется выше. Это делает прыжки более плавными.
 
 \--- /task \---
 
 \--- task \---
 
-Change the value of the `jump height`{:class="block3variables"} variable that is set before the `repeat`{:class="block3control"} starts. Then test your game.
+Измени значение переменной `высота прыжка`{:class="block3variables"}, которая задается перед `повторять`{:class="block3control"}. Затем протестируй игру.
 
-Repeat these two steps until you're happy with how high the character jumps.
+Повтори эти два шага, пока тебя не будет устраивать высота прыжка персонажа.
 
 \--- /task \---
