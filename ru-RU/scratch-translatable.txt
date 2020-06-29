@@ -1,9 +1,9 @@
-gravity
+гравитация
 
-jump height
+высота прыжка
 
-hit
+удар
 
-on
+вкл
 
-off
+выкл
