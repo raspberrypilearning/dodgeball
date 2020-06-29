@@ -74,9 +74,9 @@
 
 \--- task \---
 
-Now add code to make your character jump whenever the player presses the <kbd>space</kbd> key. One very easy way to do this is to move your character up a few times:
+Теперь добавь код, чтобы твой персонаж прыгал каждый раз, когда игрок нажимает <kbd>пробел</kbd>. Очень простой способ сделать это - передвинуть своего персонажа вверх несколько раз:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![спрайт Пико ходит](images/pico_walking_sprite.png)
 
 ```blocks3
     when [space v] key pressed
@@ -85,27 +85,27 @@ Now add code to make your character jump whenever the player presses the <kbd>sp
     end
 ```
 
-Because gravity is constantly pushing your character down by 4 pixels, you need to choose a number greater than `4` in your `change y by (4)`{:class="block3motion"} block. Change the number until you're happy with the height the character jumps.
+Поскольку гравитация постоянно передвигает твоего персонажа вниз на 4 пикселя, тебе нужно выбрать число больше, чем `4` в блоке `изменить y на (4)`{:class="block3motion"}. Измени число так, чтобы тебя устраивала высота прыжка персонажа.
 
 \--- /task \---
 
 \--- task \---
 
-Test out your code. Notice that the jumping movement isn't very smooth. To make jumping look smoother, you need to move your character sprite by smaller and smaller amounts, until it is not rising any higher.
+Проверь свой код. Обрати внимание, что движение прыжка не очень плавное. Чтобы прыжки выглядели более плавными, нужно перемещать персонаж спрайта на всё меньшее и меньшее расстояние до тех пор, пока он уже не поднимается выше.
 
 \--- /task \---
 
 \--- task \---
 
-To do this, create a new variable called `jump height`{:class="block3variables"}. Again, you can hide this variable if you prefer.
+Для этого создайте новую переменную с именем `высота прыжка`{:class="block3variables"}. Опять же, ты можешь скрыть эту переменную, если хочешь.
 
 \--- /task \---
 
 \--- task \---
 
-Delete the jumping code you added to your character sprite, and add this code instead:
+Удали код прыжка, который ты добавил к своему спрайту персонажа, и вместо этого добавь этот код:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![спрайт Пико ходит](images/pico_walking_sprite.png)
 
 ```blocks3
     when [space v] key pressed
