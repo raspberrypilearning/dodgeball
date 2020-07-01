@@ -1,21 +1,21 @@
-## Challenge: more obstacles
+## Задание: больше препятствий
 
-If you think your game is still too easy, you can add more obstacles to it. The obstacles can be anything you like! Here are some ideas:
+Если на твой взгляд игра всё ещё слишком проста, ты можешь добавить больше препятствий. Препятствиями может быть всё что угодно! Вот несколько идей:
 
-+ A dangerous butterfly
-+ Platforms that appear and disappear
-+ Falling tennis balls that must be avoided
++ Опасная бабочка
++ Платформы, которые появляются и исчезают
++ Падающие теннисные мячи, от которых нужно уворачиваться
 
-![screenshot](images/dodge-obstacles.png)
+![снимок экрана](images/dodge-obstacles.png)
 
-You could even design another backdrop to create the next level. Then add code so that, when your character reaches the green door, the game switches to the new background:
+Ты даже можешь создать другой фон для следующего уровня. Затем добавь код, чтобы, когда персонаж достигал зелёной двери, игра переключалась на новый фон:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![спрайт Пико ходит](images/pico_walking_sprite.png)
 
 ```blocks3
-    if <touching color [#00FF00]?> then
-        switch backdrop to (next backdrop v)
-        go to x: (-210) y: (-120)
-        wait (1) seconds
-    end
+    если <touching color [#00FF00]?>, то
+  переключить фон на (следующий фон v)
+  перейти в x: (-210) y: (-120)
+  ждать (1) секунд
+конец
 ```
