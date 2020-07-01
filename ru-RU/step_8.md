@@ -1,68 +1,68 @@
-## Lasers!
+## Лазеры!
 
-To your game a little harder to complete, you are going to add lasers!
+Давай сделаем игру сложнее и добавим в нее лазеры!
 
 \--- task \---
 
-Add a new sprite to your game and call it `laser`. It should have two costumes: one called 'on', and one called 'off'.
+Добавь новый спрайт в свою игру и назови его `лазер`. У него должно быть два костюма: с именами«вкл» и «выкл».
 
-![screenshot](images/dodge-lasers-costume1.png)
+![снимок экрана](images/dodge-lasers-costume1.png)
 
-![screenshot](images/dodge-lasers-costume2.png)
+![снимок экрана](images/dodge-lasers-costume2.png)
 
 \--- /task \---
 
 \--- task \---
 
-Place your new laser sprite between two platforms.
+Помести свой новый спрайт лазер между двумя платформами.
 
-![screenshot](images/dodge-lasers-position.png)
+![снимок экрана](images/dodge-lasers-position.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your laser sprite to make it switch between its two costumes.
+Добавь код к спрайту лазер так, чтобы он переключался между двумя костюмами.
 
-![laser sprite](images/laser_sprite.png)
+![спрайт лазер](images/laser_sprite.png)
 
 ```blocks3
-    when flag clicked
-    forever
-        switch costume to (on v)
-        wait (2) seconds
-        switch costume to (off v)
-        wait (2) seconds
-    end
+    когда щёлкнут по зелёному флагу
+  повторять всегда
+    изменить костюм на (вкл v)
+    ждать (2) секунд
+    изменить костюм на (выкл v)
+    ждать (2) секунд
+  конец
 ```
 
-If you prefer, you can change the code shown above so that the sprite `waits`{:class="block3control"} a `random`{:class="block3operators"} amount of time between costume changes.
+Если хочешь, можешь изменить код выше так, чтобы спрайт `ждал`{:class="block3control"} `случайный`{:class="block3operators"} промежуток времени для смены костюма.
 
 \--- /task \---
 
 \--- task \---
 
-Finally, add code to your laser sprite so that the laser sprite broadcasts a 'hit' message when it touches the character sprite.
+Наконец, добавь код в спрайт лазер так, чтобы спрайт передавал сообщение «удар», когда он касается спрайта персонажа.
 
 \--- hints \---
 
 \--- hint \---
 
-This code should be very similar to the code you added to your ball sprite.
+Этот код должен быть очень похож на код, который ты добавил для спрайта мяч.
 
 \--- /hint \---
 
 \--- hint \---
 
-Copy the code you add to the ball sprite to make this sprite `broadcast 'hit'`{:class="block3control"} when it is `touching your character`{:class="block3sensing"}.
+Скопируй код, который ты добавил в спрайт мяч, чтобы этот спрайт `передавал сообщение 'удар'`{:class="block3control"} когда `касается твоего персонажа`{:class="block3sensing"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-This is the code you should add:
+Нужно добавить такой код:
 
-![laser sprite](images/laser_sprite.png)
+![спрайт лазер](images/laser_sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -77,12 +77,12 @@ end
 
 \--- /hints \---
 
-You don't need to add any extra code to your characters sprite, because the character sprite already knows what to do when it receives the `broadcast 'hit'`{:class="block3control"}!
+Не нужно добавлять дополнительный код к твоему спрайту персонажа, потому что спрайт персонажа уже знает, что делать, когда получает `сообщение 'удар'`{:class="block3control"}!
 
 \--- /task \---
 
 \--- task \---
 
-Test out your game to see if you can move the character past the laser. If the laser is too easy or too hard to avoid, change the `wait`{:class="block3control"} times in the code for the laser sprite.
+Проверь свою игру, чтобы увидеть, можешь ли ты отодвинуть персонаж от лазера. Если от лазера слишком просто или слишком трудно уклониться, измени код блока `ждать`{:class="block3control"} спрайта лазер.
 
 \--- /task \---
