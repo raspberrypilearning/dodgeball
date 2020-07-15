@@ -3,38 +3,38 @@ hero_image: images/banner.png
 listed: true
 ingredient: false
 copyedit: false
-title: Dodgeball
-description: Create a platform game in which you dodge moving balls to reach the end of the level
+title: डॉजबॉल
+description: असा एक प्लॅटफॉर्म गेम तयार करा ज्यात पातळी च्या शेवटाला पोहोचण्याकरत हलणाऱ्या चेंडुंना चकवा द्यावा लागेल
 version: 4.0.0
 last_tested: 2018-10-10
 steps:
   - 
-    title: Introduction
+    title: परिचय
   - 
-    title: Character movement
+    title: पात्राची हालचाल
   - 
-    title: "Challenge: completing the level"
+    title: "आव्हान: स्तर पूर्ण करणे"
     challenge: true
   - 
-    title: Gravity and jumping
+    title: गुरुत्वाकर्षण आणि उडी मारणे
   - 
-    title: 'Challenge: improved jumping'
+    title: 'आव्हान: उडी सुधारणे'
     challenge: true
   - 
-    title: Dodging balls
+    title: चेंडुंना चकवा देणे
   - 
-    title: 'Challenge: random balls'
+    title: 'आव्हान: अनियत चेंडू'
     challenge: true
   - 
-    title: Lasers!
+    title: लेझर!
   - 
-    title: 'Challenge: more obstacles'
+    title: 'आव्हान: अधिक अडथळे'
     challenge: true
   - 
-    title: 'Challenge: improved gravity'
+    title: 'आव्हान: सुधारित गुरुत्वाकर्षण'
     challenge: true
   - 
-    title: 'Challenge: more lives'
+    title: 'आव्हान: अधिक जीव'
     challenge: true
   - 
-    title: What next?
+    title: पुढे काय?
