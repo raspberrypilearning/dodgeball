@@ -1,5 +1,5 @@
-## Challenge: better jumping
+## आव्हान: उडी सुधारणे
 
-Even if the character is already in mid-air, it jumps whenever the player presses the <kbd>space</kbd> bar. You can see this behaviour if you hold down the <kbd>space</kbd> bar.
+जरी पात्र आधीपासूनच हवेमध्ये असेल, तरीपण जेव्हा खेळाडू <kbd>स्पेसबार</kbd> दाबतो/दाबते तेव्हा पात्र उडी मारतो. आपण हे वर्तन <kbd>स्पेसबार</kbd> दाबून ठेवल्यावर पाहू शकता.
 
-Can you change the character sprite's code for jumping so that your character can only jump `if`{:class="block3control"} it touches a blue platform?
+तुम्ही पत्राच्या उडी मारण्याच्या स्प्राईट कोड मध्ये बदल करू शकता का जेणेकरून पात्र उडी शकेल मारू शकेल `जेव्हा`{:class="block3control"} त्याचा निळ्या फलाटाला स्पर्श होईल?
