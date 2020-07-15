@@ -1,10 +1,10 @@
-## Dodging balls
+## चेंडुंना चकवा देणे
 
 Your character can move and jump now, so it's time to add some balls that the character has to avoid.
 
 \--- task \---
 
-Create a new ball sprite. You can choose any type of ball you like.
+नवीन चेंडूची स्प्राइट तयार करा. You can choose any type of ball you like.
 
 ![screenshot](images/dodge-balls.png)
 
@@ -78,7 +78,7 @@ Repeat the code blocks you used to move the ball sprite clone across the first p
 
 \--- hint \---
 
-These are the blocks you need. Make sure you add them in the correct order.
+आपल्याला आवश्यक असलेले हे ब्लॉकस् आहेत. आपण त्यांना योग्य क्रमाने जोडले असल्याची खात्री करा.
 
 ![ball sprite](images/ball_sprite.png)
 
@@ -144,7 +144,7 @@ delete this clone
 
 Now add some code blocks to broadcast (send) a message if your character gets hit by a ball!
 
-Add this code to your ball sprite:
+आपल्या बॉल स्प्राइटमध्ये हा कोड जोडा:
 
 ![ball sprite](images/ball_sprite.png)
 
@@ -175,6 +175,6 @@ Finally, add code blocks to your character sprite to make it move back to its st
 
 \--- task \---
 
-Test out your code. Check whether the character moves back to the start after touching a ball.
+आपला कोड तपासून पहा. Check whether the character moves back to the start after touching a ball.
 
 \--- /task \---
