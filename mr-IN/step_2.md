@@ -14,7 +14,7 @@ Start by creating a character that can move left and right, and can climb up lad
 
 \--- /task \---
 
-The project contains a backdrop with platforms:
+ह्या प्रकल्पात फलाटासहित बॅकड्रॉप्स आहेत:
 
 ![dodgeball project background](images/dodge-background.png)
 
@@ -49,7 +49,7 @@ end
 
 \--- task \---
 
-If your sprite doesn't fit, adjust its size.
+जर आपला स्प्राइट बसत नसेल तर त्याचा आकारमान बदला.
 
 ![set sprite size so it fits](images/dodge-sprite-size-annotated.png)
 
