@@ -1,9 +1,9 @@
-## Challenge: random balls
+## आव्हान: अनियत चेंडू
 
-The balls that your character has to dodge all look the same, and they appear at regular three-second intervals. Can you add code to your game so that the balls:
+आपल्या पात्राला सर्व चेंडुंना चकवा द्यावा लागेल, जे नियमित तीन सेकंदांच्या अंतराने येतील. आपण आपल्या गेममध्ये कोड जोडू शकाल का जेणेकरून चेंडू:
 
-+ Don't all look the same?
-+ Appear after a `random`{:class="block3operators"} amount of time?
-+ Are a random size?
++ सर्व एकसारखे दिसणार नाहीत?
++ काही `अनियमित`{:class="block3operators"} काळाने दिसायला लागतील?
++ अनियमित आकाराचे होतील?
 
 ![screenshot](images/dodge-ball-random.png)
