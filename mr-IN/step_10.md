@@ -1,23 +1,23 @@
-## Challenge: improved gravity
+## आव्हान: सुधारित गुरुत्वाकर्षण
 
-There's one other small bug in your game: gravity doesn't pull the character sprite downwards if **any** part of the sprite is touching a blue platform. So even if the sprites head touches a platform, the sprite doesn't fall! You can test this yourself: make your character climb most of the way up a ladder, and then move the character sideways beneath a platform:
+आपल्या खेळामध्ये आणखी एक लहान बग आहे: पात्राच्या **कोणत्याही** भागाचा स्पर्श जर निळ्या फलाटाला होत असेल तर तर गुरुत्वाकर्षण पात्राला खाली खेचत नाही. तर जरी स्प्राइट्सच्या डोक्याचा स्पर्श एखाद्या फलाटाला झाला, तरी स्प्राइट खाली पडत नाही! आपण हे स्वत: तपासू शकता: तुमच्या पात्राला एखाद्या शिडीवर चढायला लावून मग पात्राला फलाटाच्या खालच्या बाजूने आडवे चालायला लावा:
 
 ![screenshot](images/dodge-gravity-bug.png)
 
-To fix the bug, you first need to give your character sprite new trousers that have a different colour (on **all** costumes).
+बगचे निराकरण करण्यासाठी, आपल्याला प्रथम आपल्या पात्राला भिन्न रंग असलेल्या नवीन विजारीची स्प्राइट प्रदान करण्याची आवश्यकता आहे (**सगळ्या** वेशभूषांसाठी).
 
 ![screenshot](images/dodge-trousers.png)
 
-Then replace this code block:
+नंतर हा कोड ब्लॉक पुनर्स्थित करा:
 
 ```blocks3
     < touching color [#0000FF]? >
 ```
 
-with this code block:
+या कोड ब्लॉकसह:
 
 ```blocks3
     < color [#00FF00] is touching [#0000FF]? >
 ```
 
-To make sure you've fixed the bug, test the game after you've made these changes!
+आपण बग ठीक केला आहे हे सुनिश्चित करण्यासाठी खेळाची चाचणी घ्या!
