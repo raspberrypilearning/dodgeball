@@ -1,14 +1,14 @@
-## Challenge: more obstacles
+## आव्हान: अधिक अडथळे
 
-If you think your game is still too easy, you can add more obstacles to it. The obstacles can be anything you like! Here are some ideas:
+आपला गेम अद्यापही खूप सोपा आहे असे आपल्याला वाटत असल्यास आपण त्यात आणखी अडथळे जोडू शकता. अडथळे आपल्या आवडीचे पण असू शकतात! काही कल्पना:
 
-+ A dangerous butterfly
-+ Platforms that appear and disappear
-+ Falling tennis balls that must be avoided
++ एक धोकादायक फुलपाखरू
++ दृश्य आणि अदृश्य होणारे फलाट
++ पडणारे टेनिस चेंडू जे टाळणं आवश्यक असेल
 
 ![screenshot](images/dodge-obstacles.png)
 
-You could even design another backdrop to create the next level. Then add code so that, when your character reaches the green door, the game switches to the new background:
+आपण पुढील स्तरावर जाण्यासाठी आणखी एक पार्श्वभूमी देखील डिझाइन करू शकता. तुम्ही कोड जोडू शकता जेणेकरून, आपले पात्र जेव्हा हिरव्या दाराजवळ पोहोचेल तेव्हा खेळची पार्श्वभूमी बदलली जाईल:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
