@@ -1,14 +1,14 @@
-## Character movement
+## पात्राची हालचाल
 
 Start by creating a character that can move left and right, and can climb up ladders.
 
 \--- task \---
 
-Open the 'Dodgeball' Scratch starter project.
+'डॉजबॉल' स्क्रॅच स्टार्टर प्रकल्प उघडा.
 
 **Online:** open the starter project at [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+आपल्याकडे स्क्रॅच खाते असल्यास आपण **Remix** वर क्लिक करून प्रत तयार करू शकता.
 
 **Offline:** download the starter project from [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) and then open it using the offline editor.
 
@@ -57,7 +57,7 @@ If your sprite doesn't fit, adjust its size.
 
 \--- task \---
 
-Test out your character by clicking the flag and then holding down the right arrow key. Does your character move to the right? Does your character look like it is walking?
+Test out your character by clicking the flag and then holding down the right arrow key. आपले पात्र उजवीकडे सरकत आहे का? आपले पात्र चालत असल्यासारखे दिसते आहे का?
 
 ![screenshot](images/dodge-walking.png)
 
@@ -77,7 +77,7 @@ So that your character can move to the left, you'll need to add another `if`{:cl
 
 \--- hint \---
 
-Copy the code you created to make the character walk to the right. Then set the `key pressed`{:class="block3sensing"} to the `left arrow`{:class="block3sensing"}, and change the `direction`{:class="block3motion"} to `-90`.
+पात्र उजवीकडे चालवण्यासाठी आपण तयार केलेला कोड कॉपी करा. Then set the `key pressed`{:class="block3sensing"} to the `left arrow`{:class="block3sensing"}, and change the `direction`{:class="block3motion"} to `-90`.
 
 ```blocks3
 if <key (right arrow v) pressed? > then
@@ -91,7 +91,7 @@ end
 
 \--- hint \---
 
-Your code should look like this now:
+आपला कोड आता यासारखा दिसला पाहिजे:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -119,7 +119,7 @@ end
 
 \--- task \---
 
-Test your new code to make sure that it works. Does your character turn upside-down when walking to the left?
+आपला नवीन कोड ठीक चालतोय हे पाहण्यासाठी त्याला चालवून पहा. डावीकडे चालत असताना आपले पात्र उलटे होते?
 
 ![screenshot](images/dodge-upside-down.png)
 
@@ -153,7 +153,7 @@ Add inside your character's `forever`{:class="block3control"} loop to `change`{:
 
 \--- task \---
 
-Test your code. Can you make the character climb the pink ladders and get to the end of the level?
+आपल्या कोडची पुन्हा चाचणी घ्या. आपण पात्राला गुलाबी शिडी चढायला लावून पातळीच्या शेवटाला पोहचवू शकता का?
 
 ![screenshot](images/dodge-test-character.png)
 
