@@ -1,10 +1,10 @@
 ## लेझर!
 
-To your game a little harder to complete, you are going to add lasers!
+आपल्या खेळाची काठिन्य पातळी वाढवण्यासाठी आपण लेझर जोडणार आहोत!
 
 \--- task \---
 
-Add a new sprite to your game and call it `laser`. It should have two costumes: one called 'on', and one called 'off'.
+आपल्या गेममध्ये एक नवीन स्प्राइट जोडा आणि त्यास `laser` नाव द्या. त्यास दोन पोशाख असावेत: एक म्हणजे 'चालू', आणि एक म्हणजे 'बंद'.
 
 ![screenshot](images/dodge-lasers-costume1.png)
 
@@ -14,7 +14,7 @@ Add a new sprite to your game and call it `laser`. It should have two costumes: 
 
 \--- task \---
 
-Place your new laser sprite between two platforms.
+दोन फलाटांच्या मध्ये आपले नवीन लेसर स्प्राइट ठेवा.
 
 ![screenshot](images/dodge-lasers-position.png)
 
