@@ -4,7 +4,7 @@ Your character can move and jump now, so it's time to add some balls that the ch
 
 \--- task \---
 
-नवीन चेंडूची स्प्राइट तयार करा. You can choose any type of ball you like.
+नवीन चेंडूची स्प्राइट तयार करा. आपल्या आवडीच्या कोणत्याही प्रकारच्या चेंडूची निवड तुम्ही करू शकता.
 
 ![screenshot](images/dodge-balls.png)
 
@@ -12,7 +12,7 @@ Your character can move and jump now, so it's time to add some balls that the ch
 
 \--- task \---
 
-Resize the ball sprite so that the character can jump over it. Try making the character jump over the ball to test whether the ball is the right size.
+चेंडूच्या स्प्राइटचे आकार बदला जेणेकरून पात्र त्यावर उडी मारू शकेल. Try making the character jump over the ball to test whether the ball is the right size.
 
 ![screenshot](images/dodge-ball-resize.png)
 
@@ -20,7 +20,7 @@ Resize the ball sprite so that the character can jump over it. Try making the ch
 
 \--- task \---
 
-Add this code to your ball sprite:
+आपल्या चेंडूच्या स्प्राइटमध्ये हा कोड जोडा:
 
 ![ball sprite](images/ball_sprite.png)
 
@@ -50,13 +50,13 @@ end
 delete this clone
 ```
 
-This code creates a new clone of the ball sprite every three seconds. Each new clone moves along the top platform and then drops.
+हा कोड दर तीन सेकंदाच्या अवधीने चेंडूच्या स्प्राइटचा नवीन क्लोन तयार करतो. प्रत्येक नवीन क्लोन वरच्या फलाटावर फिरतो आणि नंतर पडतो.
 
 \--- /task \---
 
 \--- task \---
 
-Click the flag to test the game.
+खेळाची चाचणी घेण्यासाठी ध्वजावर क्लिक करा.
 
 ![screenshot](images/dodge-ball-test.png)
 
@@ -102,7 +102,7 @@ end
 
 \--- hint \---
 
-The code for your ball sprite clones should look like this:
+आपल्या चेंडूच्या स्प्राइट क्लोनसाठी कोड यासारखा दिसावा:
 
 ![ball sprite](images/ball_sprite.png)
 
