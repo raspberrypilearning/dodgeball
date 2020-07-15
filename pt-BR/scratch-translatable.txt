@@ -1,0 +1,9 @@
+gravidade
+
+altura do salto
+
+atingido
+
+ligado
+
+desligado

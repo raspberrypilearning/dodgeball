@@ -1,20 +1,28 @@
 ---
 hero_image: images/banner.png
-theme: yellow
-duration: 2
 listed: true
 ingredient: false
 copyedit: false
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: EsquivaBol
-description: Neste projeto você vai aprender como fazer um jogo de plataforma, em que você tem que se esquivar das bolas em movimento e chegar ao final do nível.
-original_url: https://codeclubprojects.org/en-GB/scratch/dodgeball
-interests: games
-technologies: scratch
-site_areas: projects
-hardware: ''
-software: scratch
-version: 3
-last_tested: 2017-01-01
-steps: 
-- title: EsquivaBol
+title: Queimada
+description: Crie um jogo de plataforma no qual você esquiva das bolas em movimento para chegar ao final do nível
+version: 4.0.0
+last_tested: 2018-10-10
+steps:
+  - title: Introdução
+  - title: Movimento do personagem
+  - title: "Desafio: completando o nível"
+    challenge: true
+  - title: Gravidade e salto
+  - title: 'Desafio: salto melhorado'
+    challenge: true
+  - title: Esquivando das bolas
+  - title: 'Desafio: bolas aleatórias'
+    challenge: true
+  - title: Lasers!
+  - title: 'Desafio: mais obstáculos'
+    challenge: true
+  - title: 'Desafio: gravidade melhorada'
+    challenge: true
+  - title: 'Desafio: mais vidas'
+    challenge: true
+  - title: E agora?
