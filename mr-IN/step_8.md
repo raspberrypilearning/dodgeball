@@ -1,4 +1,4 @@
-## Lasers!
+## लेझर!
 
 To your game a little harder to complete, you are going to add lasers!
 
@@ -60,7 +60,7 @@ Copy the code you add to the ball sprite to make this sprite `broadcast 'hit'`{:
 
 \--- hint \---
 
-This is the code you should add:
+हा कोड आपण जोडावा:
 
 ![laser sprite](images/laser_sprite.png)
 
@@ -83,6 +83,6 @@ You don't need to add any extra code to your characters sprite, because the char
 
 \--- task \---
 
-Test out your game to see if you can move the character past the laser. If the laser is too easy or too hard to avoid, change the `wait`{:class="block3control"} times in the code for the laser sprite.
+आपण लेसरच्या मागे असताना पात्र हलवू शकता की नाही हे पाहण्यासाठी आपल्या खेळाची चाचणी घ्या. If the laser is too easy or too hard to avoid, change the `wait`{:class="block3control"} times in the code for the laser sprite.
 
 \--- /task \---
