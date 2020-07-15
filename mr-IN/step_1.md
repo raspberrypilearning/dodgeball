@@ -21,48 +21,48 @@ Click the green flag to start, and then use the arrow keys to move and the <kbd>
 
 \--- print-only \---
 
-![dodgeball game being played](images/dodgeball-showcase.png)
+![डॉजबॉल गेम खेळला जात आहे](images/dodgeball-showcase.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: आपल्याला कशाची आवश्यकता लागेल
 
-### Hardware
+### हार्डवेअर
 
-+ A computer capable of running Scratch 3
++ स्क्रॅच ३ चालवण्यास सक्षम असलेला संगणक
 
-### Software
+### सॉफ्टवेअर
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/download/))
++ स्क्रॅच व्हर्जन ३ ([ऑनलाइन](https://scratch.mit.edu/projects/editor/) अथवा [ऑफलाइन](https://scratch.mit.edu/download/))
 
-### Downloads
+### डाउनलोड्स
 
-You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: What you will learn
-
-+ How to use the keyboard to control a sprite
-+ How to use the `if, then, else`{:class="block3control"} Scratch block
-+ How to clone a sprite
+आपण [येथे डाउनलोड](http://rpf.io/p/en/dodgeball-go) शोधू शकता.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: आपण काय शिकणार आहोत
+
++ कीबोर्ड वापरुन स्प्राईट कसे नियंत्रित करावे
++ स्क्रॅचमध्ये `if, then, else`{:class="block3control"} ब्लॉक चा वापर कसा करावा
++ स्प्राईट ची प्रत कशी करायची
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: शिक्षकांसाठी अधिक माहिती
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
+आपल्याला जर हा प्रकल्प प्रिंट करायचा असेल तर आपण [प्रिंटर अनुकूल आवृत्ती](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"} चा वापर करू शकता.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/dodgeball-get).
+आपण [येथे पूर्ण केलेला प्रकल्प](http://rpf.io/p/en/dodgeball-get) शोधू शकता.
 
 \--- /collapse \---
