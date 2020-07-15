@@ -16,7 +16,7 @@ Now you're going to make your character move more realistically: you're going to
 
 [[[generic-scratch3-add-variable]]]
 
-You can hide this variable from your Stage if you want to.
+आवश्यकता वाटल्यास तुम्ही हे व्हेरिएबल लपवू शकता.
 
 ![screenshot](images/dodge-gravity-annotated.png)
 
@@ -66,7 +66,7 @@ Gravity shouldn't move the character sprite through a platform or a ladder! Add 
 
 \--- task \---
 
-Test the game again to see whether gravity works correctly now. Does your character sprite stop falling when it touches a platform or a ladder? Can you make the character walk off the edge of platforms and fall onto the level below?
+गुरुत्वाकर्षण आता योग्य प्रकारे कार्य करते की नाही हे पाहण्यासाठी पुन्हा खेळाची चाचणी घ्या. Does your character sprite stop falling when it touches a platform or a ladder? Can you make the character walk off the edge of platforms and fall onto the level below?
 
 ![screenshot](images/dodge-gravity-test.png)
 
@@ -74,7 +74,7 @@ Test the game again to see whether gravity works correctly now. Does your charac
 
 \--- task \---
 
-Now add code to make your character jump whenever the player presses the <kbd>space</kbd> key. One very easy way to do this is to move your character up a few times:
+Now add code to make your character jump whenever the player presses the <kbd>space</kbd> key. असे करण्याचा एक अतिशय सोपा मार्ग म्हणजे आपल्या पात्राला काही वेळा वर आणणे:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -85,19 +85,19 @@ Now add code to make your character jump whenever the player presses the <kbd>sp
     end
 ```
 
-Because gravity is constantly pushing your character down by 4 pixels, you need to choose a number greater than `4` in your `change y by (4)`{:class="block3motion"} block. Change the number until you're happy with the height the character jumps.
+Because gravity is constantly pushing your character down by 4 pixels, you need to choose a number greater than `4` in your `change y by (4)`{:class="block3motion"} block. जोपर्यंत पात्राची उडी मनासारखी होत नाही उंचीचे आकडे बदला.
 
 \--- /task \---
 
 \--- task \---
 
-आपला कोड तपासून पहा. Notice that the jumping movement isn't very smooth. To make jumping look smoother, you need to move your character sprite by smaller and smaller amounts, until it is not rising any higher.
+आपला कोड तपासून पहा. लक्षात घ्या की उडी मारण्याची हालचालीत गचके येऊ शकतात. To make jumping look smoother, you need to move your character sprite by smaller and smaller amounts, until it is not rising any higher.
 
 \--- /task \---
 
 \--- task \---
 
-To do this, create a new variable called `jump height`{:class="block3variables"}. Again, you can hide this variable if you prefer.
+To do this, create a new variable called `jump height`{:class="block3variables"}. परत एकदा, आवश्यकता वाटल्यास तुम्ही हे व्हेरिएबल लपवू शकता.
 
 \--- /task \---
 
