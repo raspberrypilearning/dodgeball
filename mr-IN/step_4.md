@@ -1,10 +1,10 @@
-## Gravity and jumping
+## गुरुत्वाकर्षण आणि उडी मारणे
 
 Now you're going to make your character move more realistically: you're going to add gravity to your game and give the character the ability to jump.
 
 \--- task \---
 
-In the game, move your character so that it walks off a platform. Do you see that it can walk into empty space?
+खेळात आपल्या पात्राची हालचाल अशी करा जेणेकरुन ते फलाटा बाहेर पडेल. तुम्हाला लक्षात आले का ते रिकाम्या जागेत चालू शकत आहे?
 
 ![screenshot](images/dodge-no-gravity.png)
 
@@ -12,7 +12,7 @@ In the game, move your character so that it walks off a platform. Do you see tha
 
 \--- task \---
 
-To fix this, add gravity to your game. To do this, create a new variable called `gravity`{:class="block3variables"}.
+हे सुधारित करण्यासाठी आपल्या गेममध्ये गुरुत्वाकर्षण जोडा. To do this, create a new variable called `gravity`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -40,7 +40,7 @@ Add these new code blocks that set `gravity` to a negative number and use the va
 
 \--- task \---
 
-Click the flag, and then drag your character to the top of the Stage. What happens? Does the gravity work as you expect?
+ध्वजावर क्लिक करा आणि नंतर आपल्या पात्राला स्टेजच्या शीर्षस्थानी ठेवा. काय होते? आपल्या अपेक्षेनुसार गुरुत्व कार्य करत आहे का?
 
 ![screenshot](images/dodge-gravity-drag.png)
 
@@ -48,7 +48,7 @@ Click the flag, and then drag your character to the top of the Stage. What happe
 
 \--- task \---
 
-Gravity shouldn't move the character sprite through a platform or a ladder! Add an `if`{:class="block3control"} block to your code to only let the gravity work when the character is in mid-air. The gravity code should then look like this:
+Gravity shouldn't move the character sprite through a platform or a ladder! Add an `if`{:class="block3control"} block to your code to only let the gravity work when the character is in mid-air. आपल्या गुरुत्वाकर्षणाचा कोड असा दिसला पाहिजे:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -91,7 +91,7 @@ Because gravity is constantly pushing your character down by 4 pixels, you need 
 
 \--- task \---
 
-Test out your code. Notice that the jumping movement isn't very smooth. To make jumping look smoother, you need to move your character sprite by smaller and smaller amounts, until it is not rising any higher.
+आपला कोड तपासून पहा. Notice that the jumping movement isn't very smooth. To make jumping look smoother, you need to move your character sprite by smaller and smaller amounts, until it is not rising any higher.
 
 \--- /task \---
 
@@ -116,13 +116,13 @@ Delete the jumping code you added to your character sprite, and add this code in
     end
 ```
 
-This code moves your character up by 8 pixels, then 7.5 pixels, then 7 pixels, and so on, until it does not rise any higher. This makes jumping look much smoother.
+This code moves your character up by 8 pixels, then 7.5 pixels, then 7 pixels, and so on, until it does not rise any higher. यामुळे उडी मारणे अधिक नितळ होते.
 
 \--- /task \---
 
 \--- task \---
 
-Change the value of the `jump height`{:class="block3variables"} variable that is set before the `repeat`{:class="block3control"} starts. Then test your game.
+Change the value of the `jump height`{:class="block3variables"} variable that is set before the `repeat`{:class="block3control"} starts. मग आपल्या खेळाची चाचणी घ्या.
 
 Repeat these two steps until you're happy with how high the character jumps.
 
