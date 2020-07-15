@@ -13,7 +13,7 @@ Você pode até desenhar outro plano de fundo para criar o próximo nível. Em s
 ![ator pico walking](images/pico_walking_sprite.png)
 
 ```blocks3
-    sif <touching color [#00FF00]?> then
+    if <touching color [#00FF00]?> then
 		switch backdrop to (next backdrop v)
 		go to x: (-210) y: (-120)
 		wait (1) seconds

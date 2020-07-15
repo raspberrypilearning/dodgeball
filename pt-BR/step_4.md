@@ -48,7 +48,7 @@ Clique na bandeira, e então arraste seu personagem para o topo do Palco. O que 
 
 --- task ---
 
-A gravidade não deve mover seu ator personagem através de uma plataforma ou de uma escada! Adicione um bloco `se`{:class="blockcontrol"} ao seu código para que a gravidade só funcione quando seu personagem estiver no ar. O código de gravidade agora deve ficar assim:
+A gravidade não deve mover seu ator personagem através de uma plataforma ou de uma escada! Adicione um bloco `se`{:class="block3control"} ao seu código para que a gravidade só funcione quando seu personagem estiver no ar. O código de gravidade agora deve ficar assim:
 
 ![ator pico walking](images/pico_walking_sprite.png)
 
@@ -85,7 +85,7 @@ Agora adicione um código para fazer seu personagem pular sempre que o jogador p
 	end
 ```
 
-Como a gravidade está constantemente empurrando seu personagem para baixo por 4 pixels, você precisa escolher um número maior que `4` em seu bloco `adicione (4) a y`{:class="blockmotion"}. Altere este número até ficar satisfeito com a altura que o seu personagem salta.
+Como a gravidade está constantemente empurrando seu personagem para baixo por 4 pixels, você precisa escolher um número maior que `4` em seu bloco `adicione (4) a y`{:class="block3motion"}. Altere este número até ficar satisfeito com a altura que o seu personagem salta.
 
 --- /task ---
 
