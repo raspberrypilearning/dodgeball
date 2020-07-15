@@ -1,7 +1,7 @@
-## Challenge: more lives
+## आव्हान: अधिक जीव
 
-Right now, your character goes back to its starting position when it gets hit. Can you also give the character sprite three `lives`{:class="block3variables"}, and make it lose one life when it gets hit? Here's how your game could work:
+सध्या, जेव्हा आपल्या पात्राला चेंडूचा स्पर्श होते तेव्हा ते पात्र सुरुवातीच्या जागेवर परत जातो. आपण पात्राला तीन `आयुष्य`{:class="block3variables"} देऊ शकता का आणि जेव्हा त्याला चेंडू लागेल तेव्हा एक आयुष्य कमी होईल? आपला गेम कसा कार्य करू शकेल हे येथे आहे:
 
-+ The game starts with three lives for the character
-+ Whenever the character gets hit, it loses one life **and** moves back to the start
-+ If there are no lives left, the game ends
++ खेळाची सुरूवात पात्रासाठी तीन जीवनाने होते
++ जेव्हा आपल्या पात्राला चेंडूचा स्पर्श होते तेव्हा एक आयुष्य कमी होते **आणि** ते पात्र सुरुवातीच्या जागेवर परत जातो
++ जर आयुष्य संपले तर खेळ समाप्त होईल
