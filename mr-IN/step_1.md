@@ -1,16 +1,16 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2).
+ही प्रकल्पाची **स्क्रॅच ३** आवृत्ती आहे. प्रोजेक्टची [स्क्रॅच २ आवृत्ती देखील उपलब्ध आहे](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## परिचय
 
-You'll learn how to create a platform game in which the player has to dodge moving balls to reach the end of the level.
+तुम्हाला प्लॅटफॉर्म गेम कसा तयार करावा ज्यात पातळी च्या शेवटाला पोहोचण्याकरत हलणाऱ्या चेंडुंना चकवा द्यावा लागेल हे शिकायला मिळेल.
 
 \--- no-print \---
 
-Click the green flag to start, and then use the arrow keys to move and the <kbd>space</kbd> key to jump.
+सुरुवात करण्यासाठी हिरवा ध्वजावर क्लिक करा, पुढे हालचाल करण्यासाठी अॅरो कीज आणि उडी मारायला <kbd>स्पेसबार</kbd> चा वापर करा.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/251809924/?autostart=false" frameborder="0" scrolling="no"></iframe>
