@@ -22,7 +22,7 @@
 
 \--- task \---
 
-Add code to your laser sprite to make it switch between its two costumes.
+त्याच्या दोन पोशाखांमध्ये स्विच करण्यासाठी आपल्या लेसर स्प्राइटमध्ये कोड जोडा.
 
 ![laser sprite](images/laser_sprite.png)
 
