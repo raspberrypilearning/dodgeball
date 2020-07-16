@@ -1,6 +1,6 @@
 ## चेंडुंना चकवा देणे
 
-Your character can move and jump now, so it's time to add some balls that the character has to avoid.
+आपले पात्र आता हलू आणि उडी मारू शकतं, तर आता थोडे चेंडू टाकायची गरज आली आहे जे आपल्या पात्राला चकवावे लागतील.
 
 \--- task \---
 
