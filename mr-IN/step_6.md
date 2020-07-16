@@ -175,6 +175,6 @@ Finally, add code blocks to your character sprite to make it move back to its st
 
 \--- task \---
 
-आपला कोड तपासून पहा. Check whether the character moves back to the start after touching a ball.
+आपला कोड तपासून पहा. बॉलला स्पर्श केल्यानंतर पात्र परत सुरुवातीकडे जातो की नाही ते तपासा.
 
 \--- /task \---
