@@ -20,7 +20,7 @@ Start by creating a character that can move left and right, and can climb up lad
 
 \--- task \---
 
-Choose a new sprite as the character the player will control, and add it to your project. It's best if you choose a sprite with multiple costumes, so that you can make it look as though it's walking.
+खेळाडू नियंत्रित करेल त्या पात्रानुसार एक नवीन स्प्राइट निवडा आणि त्यास आपल्या प्रकल्पात जोडा. आपण एका पेक्षा जास्त पोशाख असलेल्या स्प्राइट ची निवड केल्यास ते जास्त इष्ट, जेणेकरून आपण ते चालत असल्यासारखे भासवू शकता.
 
 ![pick a sprite](images/dodge-characters.png)
 
