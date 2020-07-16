@@ -12,7 +12,7 @@ Now you're going to make your character move more realistically: you're going to
 
 \--- task \---
 
-हे सुधारित करण्यासाठी आपल्या गेममध्ये गुरुत्वाकर्षण जोडा. To do this, create a new variable called `gravity`{:class="block3variables"}.
+हे सुधारित करण्यासाठी आपल्या गेममध्ये गुरुत्वाकर्षण जोडा. हे करण्यासाठी `gravity`{:class="block3variables"} नावाचे नवीन व्हेरिएबल तयार करा.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -66,7 +66,7 @@ Gravity shouldn't move the character sprite through a platform or a ladder! Add 
 
 \--- task \---
 
-गुरुत्वाकर्षण आता योग्य प्रकारे कार्य करते की नाही हे पाहण्यासाठी पुन्हा खेळाची चाचणी घ्या. Does your character sprite stop falling when it touches a platform or a ladder? Can you make the character walk off the edge of platforms and fall onto the level below?
+गुरुत्वाकर्षण आता योग्य प्रकारे कार्य करते की नाही हे पाहण्यासाठी पुन्हा खेळाची चाचणी घ्या. Does your character sprite stop falling when it touches a platform or a ladder? आपण पात्राला प्लॅटफॉर्मच्या काठावरुन खाली पडून खालच्या पातळीवर जायला भाग पडू शकता?
 
 ![screenshot](images/dodge-gravity-test.png)
 
