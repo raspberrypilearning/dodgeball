@@ -1,6 +1,6 @@
 ## गुरुत्वाकर्षण आणि उडी मारणे
 
-Now you're going to make your character move more realistically: you're going to add gravity to your game and give the character the ability to jump.
+आता आपण आपले पात्र अधिक वास्तविकपणे कसे हलेल ते पाहणार आहोत: आपण आपल्या गेममध्ये गुरुत्व जोडू आणि त्या पात्राला उडी मारण्याची क्षमता देणार आहोत.
 
 \--- task \---
 
@@ -24,7 +24,7 @@ Now you're going to make your character move more realistically: you're going to
 
 \--- task \---
 
-Add these new code blocks that set `gravity` to a negative number and use the value of `gravity` to repeatedly change your character's y-coordinate:
+हे नवीन कोड ब्लॉक जोडा जे `gravity` ला ऋण अकड्याने प्रस्थापित करेल आणि `gravity` चा उपयोग करून तुमच्या पात्राची y-coordinate सतत बदलत राहील:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -48,7 +48,7 @@ Add these new code blocks that set `gravity` to a negative number and use the va
 
 \--- task \---
 
-Gravity shouldn't move the character sprite through a platform or a ladder! Add an `if`{:class="block3control"} block to your code to only let the gravity work when the character is in mid-air. आपल्या गुरुत्वाकर्षणाचा कोड असा दिसला पाहिजे:
+गुरुत्वाकर्षणामुळे आपले पात्र फलाटाच्या आरपार नको जायला! तुमच्या कोडमध्ये एक `if`{:class="block3control"} ब्लॉक जोडा जेणेकरून तुम्ही गुरुत्वाकर्षणाला फक्त पात्र हवेत असताना चालू ठेऊ शकाल. आपल्या गुरुत्वाकर्षणाचा कोड असा दिसला पाहिजे:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -66,7 +66,7 @@ Gravity shouldn't move the character sprite through a platform or a ladder! Add 
 
 \--- task \---
 
-गुरुत्वाकर्षण आता योग्य प्रकारे कार्य करते की नाही हे पाहण्यासाठी पुन्हा खेळाची चाचणी घ्या. Does your character sprite stop falling when it touches a platform or a ladder? आपण पात्राला प्लॅटफॉर्मच्या काठावरुन खाली पडून खालच्या पातळीवर जायला भाग पडू शकता?
+गुरुत्वाकर्षण आता योग्य प्रकारे कार्य करते की नाही हे पाहण्यासाठी पुन्हा खेळाची चाचणी घ्या. तुमचे पात्र जेव्हा शिडीला किंवा फलाटाला स्पर्श करतो तेव्हा ते खाली पडायचे थांबते का? आपण पात्राला प्लॅटफॉर्मच्या काठावरुन खाली पडून खालच्या पातळीवर जायला भाग पडू शकता?
 
 ![screenshot](images/dodge-gravity-test.png)
 
@@ -74,7 +74,7 @@ Gravity shouldn't move the character sprite through a platform or a ladder! Add 
 
 \--- task \---
 
-Now add code to make your character jump whenever the player presses the <kbd>space</kbd> key. असे करण्याचा एक अतिशय सोपा मार्ग म्हणजे आपल्या पात्राला काही वेळा वर आणणे:
+आता जेव्हा खेळाडू <kbd>स्पेसबार</kbd> दाबेल तेव्हा पात्राने उडी मारावी ह्याकरता कोड जोडा. असे करण्याचा एक अतिशय सोपा मार्ग म्हणजे आपल्या पात्राला काही वेळा वर आणणे:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -85,25 +85,25 @@ Now add code to make your character jump whenever the player presses the <kbd>sp
     end
 ```
 
-Because gravity is constantly pushing your character down by 4 pixels, you need to choose a number greater than `4` in your `change y by (4)`{:class="block3motion"} block. जोपर्यंत पात्राची उडी मनासारखी होत नाही उंचीचे आकडे बदला.
+कारण गुरुत्व तुमच्या पात्राला सतत 4 पिक्सेल ने खाली ओढत आहे, त्यामुळेच तुम्हाला तुमच्या `change y by (4)`{:class="block3motion"} कोड ब्लॉकमध्ये `4` पेक्षा जास्त मोठा आकडा निवडावा लागेल. जोपर्यंत पात्राची उडी मनासारखी होत नाही उंचीचे आकडे बदला.
 
 \--- /task \---
 
 \--- task \---
 
-आपला कोड तपासून पहा. लक्षात घ्या की उडी मारण्याची हालचालीत गचके येऊ शकतात. To make jumping look smoother, you need to move your character sprite by smaller and smaller amounts, until it is not rising any higher.
+आपला कोड तपासून पहा. लक्षात घ्या की उडी मारण्याची हालचालीत गचके येऊ शकतात. उडी मारणे सोपे करण्यासाठी, तुम्हाला तुमच्या पात्राला कमी कमी प्रमाणात हलवावे लागेल, जोपर्यंत ते अजून उंच होणे थांबेल.
 
 \--- /task \---
 
 \--- task \---
 
-To do this, create a new variable called `jump height`{:class="block3variables"}. परत एकदा, आवश्यकता वाटल्यास तुम्ही हे व्हेरिएबल लपवू शकता.
+हे करण्यासाठी `jump height `{:class="block3variables"} नावाचे नवीन व्हेरिएबल तयार करा. परत एकदा, आवश्यकता वाटल्यास तुम्ही हे व्हेरिएबल लपवू शकता.
 
 \--- /task \---
 
 \--- task \---
 
-Delete the jumping code you added to your character sprite, and add this code instead:
+आपण आपल्या पात्राला जोडलेला उडीचा कोड पुसा आणि त्याऐवजी हा कोड जोडा:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -116,14 +116,14 @@ Delete the jumping code you added to your character sprite, and add this code in
     end
 ```
 
-This code moves your character up by 8 pixels, then 7.5 pixels, then 7 pixels, and so on, until it does not rise any higher. यामुळे उडी मारणे अधिक नितळ होते.
+हा कोड आपल्या पात्राला 8 पिक्सेल, नंतर 7.5 पिक्सेल, नंतर 7 पिक्सेल आणि इतक्या वर नेतो जोपर्यंत पात्राला अजून उंच होता येणार नाही तोवर. यामुळे उडी मारणे अधिक नितळ होते.
 
 \--- /task \---
 
 \--- task \---
 
-Change the value of the `jump height`{:class="block3variables"} variable that is set before the `repeat`{:class="block3control"} starts. मग आपल्या खेळाची चाचणी घ्या.
+`jump height`{:class="block3variables"} व्हेरियाबल ची व्हॅल्यू अशी बदला की ती `repeat`{:class="block3control"} चालू होण्याच्या आत सेट होईल. मग आपल्या खेळाची चाचणी घ्या.
 
-Repeat these two steps until you're happy with how high the character jumps.
+जोपर्यंत पात्राची उडी मनासारखी होत नाही तोपर्यंत ह्या दोन पायऱ्या पुन्हा करा.
 
 \--- /task \---
