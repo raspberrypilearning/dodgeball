@@ -1,16 +1,16 @@
-## Challenge: more obstacles
+## चुनौती: अधिक बाधाएँ
 
-If you think your game is still too easy, you can add more obstacles to it. The obstacles can be anything you like! Here are some ideas:
+अगर आपको लगता है कि आपका गेम अभी भी बहुत आसान है, तो आप इसमें और बाधाएँ जोड़ सकते हैं। बाधाएं आपकी पसंद की कुछ भी हो सकती हैं! यहाँ कुछ विचार हैं:
 
-+ A dangerous butterfly
-+ Platforms that appear and disappear
-+ Falling tennis balls that must be avoided
++ एक खतरनाक तितली
++ प्लेटफ़ॉर्म जो दिखाई देते हैं और गायब हो जाते हैं
++ गिरने वाली टेनिस बॉल्स, जिनसे बचना है
 
-![screenshot](images/dodge-obstacles.png)
+![स्क्रीनशॉट](images/dodge-obstacles.png)
 
-You could even design another backdrop to create the next level. Then add code so that, when your character reaches the green door, the game switches to the new background:
+आप एक और पृष्ठभूमि भी डिज़ाइन कर सकते हैं अगला लेवल बनाने के लिए। फिर कोड जोड़ें ताकि, जब आपका पात्र हरे रंग के दरवाजे तक पहुंच जाए, तो खेल नई पृष्ठभूमि पर पहुंच जाए:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![पिको चलने वाला sprite](images/pico_walking_sprite.png)
 
 ```blocks3
     if <touching color [#00FF00]?> then
