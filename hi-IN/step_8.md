@@ -1,30 +1,30 @@
-## Lasers!
+## लेज़र!
 
-To your game a little harder to complete, you are going to add lasers!
+आपके गेम को पूरा करना और कठिन बनाने के लिए, आप इसमें लेज़र जोडेंगे!
 
 \--- task \---
 
-Add a new sprite to your game and call it `laser`. It should have two costumes: one called 'on', and one called 'off'.
+अपनी गेम में एक नया sprite जोडें और उसे नाम दें `laser`। उसके पास दो costume होने चाहिए: एक होगा 'on', और दूसरा होगा 'off'।
 
-![screenshot](images/dodge-lasers-costume1.png)
+![स्क्रीनशॉट](images/dodge-lasers-costume1.png)
 
-![screenshot](images/dodge-lasers-costume2.png)
+![स्क्रीनशॉट](images/dodge-lasers-costume2.png)
 
 \--- /task \---
 
 \--- task \---
 
-Place your new laser sprite between two platforms.
+दो प्लेटफार्मों के बीच अपने नए लेज़र sprite को रखें।
 
-![screenshot](images/dodge-lasers-position.png)
+![स्क्रीनशॉट](images/dodge-lasers-position.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your laser sprite to make it switch between its two costumes.
+अपने लेज़र sprite में कोड जोड़ें इसे अपने दो costumes के बीच स्विच करने के लिए।
 
-![laser sprite](images/laser_sprite.png)
+![लेज़र sprite](images/laser_sprite.png)
 
 ```blocks3
     when flag clicked
@@ -36,33 +36,33 @@ Add code to your laser sprite to make it switch between its two costumes.
     end
 ```
 
-If you prefer, you can change the code shown above so that the sprite `waits`{:class="block3control"} a `random`{:class="block3operators"} amount of time between costume changes.
+यदि आप चाहें, तो आप ऊपर दिखाए गए कोड को बदल सकते हैं ताकि sprite `waits`{:class="block3control"} एक `random`{:class="block3operators"} समय के लिए costume परिवर्तन के बीच।
 
 \--- /task \---
 
 \--- task \---
 
-Finally, add code to your laser sprite so that the laser sprite broadcasts a 'hit' message when it touches the character sprite.
+अंत में, अपने लेज़र sprite में कोड जोड़ें ताकि लेजर sprite एक 'hit' संदेश प्रसारित करे जब यह पात्र sprite को छूता है।
 
 \--- hints \---
 
 \--- hint \---
 
-This code should be very similar to the code you added to your ball sprite.
+यह कोड आपके गेंद sprite में जोड़े गए कोड के समान होना चाहिए।
 
 \--- /hint \---
 
 \--- hint \---
 
-Copy the code you add to the ball sprite to make this sprite `broadcast 'hit'`{:class="block3control"} when it is `touching your character`{:class="block3sensing"}.
+गेंद sprite में जोड़े गए कोड की प्रतिलिपि बनाएँ इस sprite को `broadcast 'hit'`{:class="block3control"} करवाने के लिए जब भी ये `touching your character`{:class="block3sensing"}।
 
 \--- /hint \---
 
 \--- hint \---
 
-This is the code you should add:
+यह वह कोड है जिसे आपको जोड़ना चाहिए:
 
-![laser sprite](images/laser_sprite.png)
+![लेज़र sprite](images/laser_sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -77,12 +77,12 @@ end
 
 \--- /hints \---
 
-You don't need to add any extra code to your characters sprite, because the character sprite already knows what to do when it receives the `broadcast 'hit'`{:class="block3control"}!
+आपको अपने पात्र sprite में कोई अधिक कोड जोड़ने की कोई ज़रुरत नहीं है, क्युकी पात्र sprite पहले से ही जानता है उसे क्या करना है जब उसे `broadcast 'hit'`{:class="block3control"} मिलता है!
 
 \--- /task \---
 
 \--- task \---
 
-Test out your game to see if you can move the character past the laser. If the laser is too easy or too hard to avoid, change the `wait`{:class="block3control"} times in the code for the laser sprite.
+अपने गेम का परीक्षण करके देखें कि क्या आप पात्र को लेजर से आगे बढ़ा सकते हैं। यदि लेज़र से बचना बहुत आसान या बहुत कठिन है, तो `wait`{:class="block3control"} समय को बदलें लेजर sprite के लिए।
 
 \--- /task \---
