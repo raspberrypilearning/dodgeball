@@ -1,32 +1,32 @@
-## Gravity and jumping
+## गुरुत्वाकर्षण और छलांग
 
-Now you're going to make your character move more realistically: you're going to add gravity to your game and give the character the ability to jump.
+अब आप अपने पात्र को और अधिक वास्तविक रूप से आगे बढ़ाने जा रहे हैं: आप अपने खेल में गुरुत्वाकर्षण जोड़ने वाले हैं और पात्र को छलांग लगाने की क्षमता प्रदान करने वाले हैं।
 
 \--- task \---
 
-In the game, move your character so that it walks off a platform. Do you see that it can walk into empty space?
+खेल में, अपने पात्र को स्थानांतरित करें ताकि वह एक प्लेटफ़ॉर्म से आगे बढ़ जाए। क्या आप देख सकते हैं कि यह खाली जगह में चल सकता है?
 
-![screenshot](images/dodge-no-gravity.png)
+![स्क्रीनशॉट](images/dodge-no-gravity.png)
 
 \--- /task \---
 
 \--- task \---
 
-To fix this, add gravity to your game. To do this, create a new variable called `gravity`{:class="block3variables"}.
+इसे ठीक करने के लिए, अपने खेल में गुरुत्वाकर्षण जोड़ें। ऐसा करने के लिए, एक नया वेरिएबल बनाएं `gravity`{:class="block3variables"}।
 
 [[[generic-scratch3-add-variable]]]
 
-You can hide this variable from your Stage if you want to.
+आप चाहे तो इस वेरिएबल को अपने स्टेज से छिपा सकते हैं।
 
-![screenshot](images/dodge-gravity-annotated.png)
+![स्क्रीनशॉट](images/dodge-gravity-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add these new code blocks that set `gravity` to a negative number and use the value of `gravity` to repeatedly change your character's y-coordinate:
+इन नए कोड खंड़ों को जोड़ें जो सेट करते हैं `gravity` को एक नकारात्मक संख्या पर और `gravity` के मूल्य का उपयोग करें अपने पात्र के y-समन्वय को बार-बार बदलने के लिए:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![पिको चलने वाला sprite](images/pico_walking_sprite.png)
 
 ```blocks3
     when flag clicked
@@ -40,17 +40,17 @@ Add these new code blocks that set `gravity` to a negative number and use the va
 
 \--- task \---
 
-Click the flag, and then drag your character to the top of the Stage. What happens? Does the gravity work as you expect?
+ध्वज पर क्लिक करें, और फिर स्टेज के शीर्ष पर अपने पात्र को खिसकाएं। क्या होता है? क्या गुरुत्वाकर्षण आपकी अपेक्षा के अनुसार काम करता है?
 
-![screenshot](images/dodge-gravity-drag.png)
+![स्क्रीनशॉट](images/dodge-gravity-drag.png)
 
 \--- /task \---
 
 \--- task \---
 
-Gravity shouldn't move the character sprite through a platform or a ladder! Add an `if`{:class="block3control"} block to your code to only let the gravity work when the character is in mid-air. The gravity code should then look like this:
+गुरुत्वाकर्षण को एक प्लेटफ़ॉर्म या सीढ़ी के पार से पात्र sprite को स्थानांतरित नहीं करना चाहिए! एक `if`{:class="block3control"} खंड को अपने कोड में जोड़ें केवल पात्र के मध्य हवा में होने पर गुरुत्वाकर्षण को काम करने देने के लिए। आपका गुरुत्वाकर्षण कोड अब इस प्रकार दिखना चाहिए:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![पिको चलने वाला sprite](images/pico_walking_sprite.png)
 
 ```blocks3
     when flag clicked
@@ -66,17 +66,17 @@ Gravity shouldn't move the character sprite through a platform or a ladder! Add 
 
 \--- task \---
 
-Test the game again to see whether gravity works correctly now. Does your character sprite stop falling when it touches a platform or a ladder? Can you make the character walk off the edge of platforms and fall onto the level below?
+गुरुत्वाकर्षण सही ढंग से काम करता है या नहीं यह देखने के लिए फिर से गेम का परीक्षण करें। क्या प्लेटफ़ॉर्म या सीढ़ी को छूने पर आपका पात्र sprite गिरना बंद हो जाता है? क्या आप प्लेटफॉर्म के किनारे से पात्र को नीचे ले जाकर नीचे के स्तर पर गिरा सकते हैं?
 
-![screenshot](images/dodge-gravity-test.png)
+![स्क्रीनशॉट](images/dodge-gravity-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-Now add code to make your character jump whenever the player presses the <kbd>space</kbd> key. One very easy way to do this is to move your character up a few times:
+अब अपने खिलाड़ी को छलांग लगाने देने के लिए कोड जोड़ें जब भी खिलाड़ी <kbd>space</kbd> बटन दबाता है। ऐसा करने का एक बहुत आसान तरीका है कि आप अपने पात्र को कुछ बार ऊपर ले जाएं:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![पिको चलने वाला sprite](images/pico_walking_sprite.png)
 
 ```blocks3
     when [space v] key pressed
@@ -85,27 +85,27 @@ Now add code to make your character jump whenever the player presses the <kbd>sp
     end
 ```
 
-Because gravity is constantly pushing your character down by 4 pixels, you need to choose a number greater than `4` in your `change y by (4)`{:class="block3motion"} block. Change the number until you're happy with the height the character jumps.
+क्योंकि गुरुत्वाकर्षण लगातार आपके पात्र को 4 पिक्सेल (pixel) से नीचे धकेल रहा है, आपको `4` से अधिक संख्या चुनने की आवश्यकता है अपने `change y by (4)`{:class="block3motion"} खंड में। संख्या को तब तक बदलें जब तक कि आप पात्र की छलांग की ऊंचाई से खुश न हों।
 
 \--- /task \---
 
 \--- task \---
 
-Test out your code. Notice that the jumping movement isn't very smooth. To make jumping look smoother, you need to move your character sprite by smaller and smaller amounts, until it is not rising any higher.
+अपने कोड का परीक्षण करें। ध्यान दें कि छलांग लगाने की चाल बहुत सहज नहीं है। छलांग लगाने की चाल को सहज दिखने के लिए, आपको छोटी और छोटी मात्रा द्वारा अपने पात्र sprite को स्थानांतरित करने की आवश्यकता है, जब तक यह और अधिक ऊँचा नहीं जा रहा है।
 
 \--- /task \---
 
 \--- task \---
 
-To do this, create a new variable called `jump height`{:class="block3variables"}. Again, you can hide this variable if you prefer.
+ऐसा करने के लिए, एक नया वेरिएबल बनाएं `jump height`{:class="block3variables"}। यदि आप चाहें तो फिर से, आप इस वेरिएबल को छिपा सकते हैं।
 
 \--- /task \---
 
 \--- task \---
 
-Delete the jumping code you added to your character sprite, and add this code instead:
+आपके द्वारा अपने पात्र sprite में जोड़े गए छलांग लगाने के कोड को मिटाएं, और उसके बजाये इस कोड को जोडें:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![पिको चलने वाला sprite](images/pico_walking_sprite.png)
 
 ```blocks3
     when [space v] key pressed
@@ -116,14 +116,14 @@ Delete the jumping code you added to your character sprite, and add this code in
     end
 ```
 
-This code moves your character up by 8 pixels, then 7.5 pixels, then 7 pixels, and so on, until it does not rise any higher. This makes jumping look much smoother.
+यह कोड आपके पात्र को 8 पिक्सेल (pixel), फिर 7.5 पिक्सेल (pixel), फिर 7 पिक्सेल (pixel), और इसी तरह ऊपर बढ़ाता है, जब तक कि यह और ऊंचा नहीं जा सकता। इससे छलांग लगाने की चाल ज्यादा सहज लगती है।
 
 \--- /task \---
 
 \--- task \---
 
-Change the value of the `jump height`{:class="block3variables"} variable that is set before the `repeat`{:class="block3control"} starts. Then test your game.
+`jump height`{:class="block3variables"} वेरियबल का मान बदलें जो सेट है `repeat`{:class="block3control"} शुरू होने से पेहले। अपनी गेम का परीक्षण करें।
 
-Repeat these two steps until you're happy with how high the character jumps.
+इन दो चरणों को दोहराएं जब तक आप खुश न हों कि पात्र कितना ऊंचा कूदता है।
 
 \--- /task \---
