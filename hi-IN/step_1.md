@@ -50,7 +50,7 @@ title: आप क्या सीखेंगे
 ---
 
 + एक sprite को नियंत्रित करने के लिए कीबोर्ड का उपयोग कैसे करें
-+ `if, then, else` {:class="block3control"} Scratch खंड का उपयोग कैसे करें
++ `if, then, else`{:class="block3control"} Scratch खंड का उपयोग कैसे करें
 + एक sprite का हूबहू कैसे बनाएं
 
 --- /collapse ---
