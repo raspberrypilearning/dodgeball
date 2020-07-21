@@ -1,77 +1,71 @@
+--- no-print ---
+
+هذا هو إصدار **Scratch 3** من المشروع. هناك أيضًا [إصدار Scratch 2 للمشروع](https://projects.raspberrypi.org/ar-SA/projects/dodgeball-scratch2).
+
+--- /no-print ---
+
 ## المقدمة
 
-في هذا المشروع، ستتعلم كيف تصنع لعبة منصات تتفادى فيها الكرات المتحركة لتصل إلى نهاية المستوى.
+سوف تتعلم كيفية إنشاء برنامج لعبة. حيث يجب على اللاعب تفادي (او مراوغة) الكرات المتحركة للوصول إلى خط النهاية.
+
+--- no-print ---
+
+انقر على العلم الأخضر للبدء ، ثم استخدم مفاتيح الأسهم للتحرك و مفتاح <kbd>المسافة</kbd> للقفز.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/39740618/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/251809924/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/dodge-final.png">
 </div>
 
-### معلومات إضافية لقادة النادي
+--- /no-print ---
 
-إذا كنت بحاجة إلى طباعة هذا المشروع، فيُرجى استخدام [نسخة سهلة الطباعة](https://projects.raspberrypi.org/en/projects/dodgeball/print).
+--- print-only ---
 
+![لعبة دودجبل التي لعبت](images/dodgeball-showcase.png)
+
+--- /print-only ---
 
 --- collapse ---
 ---
-title: ملاحظات قادة النادي
+title: ما الذي ستحتاجه
 ---
 
+### الأجهزة
 
-## المقدمة:
-في هذا المشروع، سيتعلم الأطفال كيف يصنعون لعبة منصات، باستخدام مفاهيم لغة البرمجة لبرنامج Scratch والمهارات التي تم تعلمها في المشاريع السابقة.
++ جهاز كمبيوتر يدعم تشغيل برنامج Scratch 3
 
-## الموارد
-بالنسبة إلى هذا المشروع، يجب استخدام برنامج Scratch 2. ويمكن استخدام برنامج Scratch 2 عبر الإنترنت على [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) أو يمكن تنزيله من [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) واستخدامه دون اتصال بالإنترنت.
+### البرمجيات
 
-يحتوي رابط 'مواد المشروع' الخاص بهذا المشروع على الموارد التالية:
++ برنامج Scratch 3 (سواء كان [عبر الإنترنت](https://scratch.mit.edu/projects/editor/) أو [دون اتصال بالإنترنت](https://scratch.mit.edu/download/))
 
-##### موارد قادة النادي
+### للتحميل
 
-يمكنك العثور على نسخة مكتملة من هذا المشروع <a href="http://scratch.mit.edu/projects/39740618/#editor">online</a>، أو يمكن تنزيله بالنقر فوق الرابط 'مواد المشروع' الخاص بهذا المشروع، والذي يحتوي على:
-
-+ Dodgeball.sb2
-
-##### موارد المشروع
-
-بالنسبة إلى هذا المشروع، يمكن أن يستفيد أعضاء النادي من الموارد الخارجية غير المتوفرة في مكتبة Scratch:
-
-+ background.png.
-
-بالنسبة إلى أعضاء النادي الذين لا يمكنهم الوصول إلى موارد المشروع هذه، يوجد مشروع Scratch مع الموارد الخارجية المُحمَّلة مسبقًا. يتوفر ذلك عبر الإنترنت على [jumpto.cc/dodge-resources](http://jumpto.cc/dodge-resources)، أو في مواد المشروع القابلة للتنزيل، التي تحتوي على:
-
-+ DodgeballResources.sb2 
-
-## أهداف التعلم
-+ يدعم هذا المشروع تعلم مهارات البرمجة التي تم تعلمها مسبقًا.
-
-يتناول هذا المشروع عناصر من الصفوف التالية من [المناهج الرقمية الخاصة بـ Raspberry Pi](http://rpf.io/curriculum):
-
-+ [دمج الإنشاءات البرمجية لحل مشكلة.](https://www.raspberrypi.org/curriculum/programming/builder)
-
-## التحديات
-+ "تحسين القفز" - استخدام القالب `if`{:class="blockcontrol"} الإضافي لإصلاح خطأ القفزات المتعددة؛
-+ "كرات عشوائية" - استخدام قالب `عشوائي`{:class="blockoperators"} لتنويع مظهر الكرات المستنسخة وحجمها ومدة تأخيرها؛
-+ "عوائق أخرى" - إضافة كائنات أخرى إلى اللعبة؛
-+ "تحسين الجاذبية" - استخدام قالب `if`{:class="blockcontrol"} الإضافي لإصلاح خطأ في `الجاذبية`{:class="blockdata"}؛
-+ "محاولات أخرى" - إضافة متغير `المحاولات`{:class="blockdata"}.
-
-
+يمكنك [تحميل الملفات من هنا](http://rpf.io/p/ar-SA/dodgeball-go).
 
 --- /collapse ---
 
+--- collapse ---
+---
+title: ما الذي ستتعلمه
+---
+
++ كيفية استخدام لوحة المفاتيح للتحكم في كائن
++ كيف تستخدم الكتل البرمجية في سكراتش `if, then, else`{:class="block3control"}
++ كيفية استنساخ كائن
+
+--- /collapse ---
 
 --- collapse ---
 ---
-title: مواد المشروع
+title: ملاحظات إضافية للمعلمين
 ---
-## موارد المشروع
-* [مشروع Scratch 2 عبر الإنترنت يحتوي على موارد خارجية](http://jumpto.cc/dodge-resources)
-* [مشروع Scratch 2 قابل للتنزيل يحتوي على موارد خارجية](resources/DodgeballResources.sb2)
-* [background.png](resources/background.png)
 
-## موارد قادة النادي
-* [مشروع Scratch 2 مكتمل عبر الإنترنت](http://scratch.mit.edu/projects/39740618/#editor)
-* [مشروع Scratch 2 مكتمل قابل للتنزيل](resources/Dodgeball.sb2)
+--- no-print ---
+
+إذا كنت بحاجة إلى طباعة هذا المشروع ، فالرجاء استخدام الإصدار [الملائم للطابعة](https://projects.raspberrypi.org/ar-SA/projects/dodgeball/print){:target="_blank"}.
+
+--- /no-print ---
+
+يمكنك ايجاد [المشروع كامل هنا](http://rpf.io/p/ar-SA/dodgeball-get).
 
 --- /collapse ---
