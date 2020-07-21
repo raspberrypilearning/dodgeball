@@ -12,7 +12,7 @@
 
 \--- task \---
 
-चेंडूच्या स्प्राइटचे आकार बदला जेणेकरून पात्र त्यावर उडी मारू शकेल. Try making the character jump over the ball to test whether the ball is the right size.
+चेंडूच्या स्प्राइटचे आकार बदला जेणेकरून पात्र त्यावर उडी मारू शकेल. चेंडू योग्य आकाराचा आहे की नाही हे तपासण्यासाठी तुमच्या पात्राला घेऊन चेंडूवर उडी मारायचा प्रयत्न करा.
 
 ![screenshot](images/dodge-ball-resize.png)
 
@@ -64,7 +64,7 @@ delete this clone
 
 \--- task \---
 
-Add more code to your ball sprite so that clones of it move across all three platforms.
+आपल्या चेंडूच्या स्प्राइटमध्ये अजून कोड जोडा जेणेकरून तिचे क्लोन तीनही प्लॅटफॉर्मवर फिरतील.
 
 ![screenshot](images/dodge-ball-more-motion.png)
 
@@ -72,7 +72,7 @@ Add more code to your ball sprite so that clones of it move across all three pla
 
 \--- hint \---
 
-Repeat the code blocks you used to move the ball sprite clone across the first platform. You need to change the `x`{:class="block3motion"}, `y`{:class="block3motion"}, and `repeat`{:class="block3control"} numbers so that the clones follow the platforms correctly.
+पहिल्या व्यासपीठावर चेंडूच्या स्प्राईट क्लोन हलविण्यासाठी वापरत असलेल्या कोड ब्लॉक्सची पुनरावृत्ती करा. तुम्हाला `x`{:class="block3motion"}, `y`{:class="block3motion"}, आणि `repeat`{:class="block3control"} च्या आकड्यांना बदलावे लागेल जेणेकरून क्लोन्स् फालाटांना व्यवस्थितरीत्या अनुसरण करतील.
 
 \--- /hint \---
 
@@ -142,7 +142,7 @@ delete this clone
 
 \--- task \---
 
-Now add some code blocks to broadcast (send) a message if your character gets hit by a ball!
+आपल्या पात्राला चेंडू लागल्यास संदेश प्रसारित करण्यासाठी (पाठवण्यासाठी) काही कोड ब्लॉक जोडा!
 
 आपल्या बॉल स्प्राइटमध्ये हा कोड जोडा:
 
@@ -161,7 +161,7 @@ Now add some code blocks to broadcast (send) a message if your character gets hi
 
 \--- task \---
 
-Finally, add code blocks to your character sprite to make it move back to its starting position when it receives the `hit` message:
+सगळ्यात शेवटी, कोड ब्लॉक जोडा ज्याने तुमचे पात्र सुरवातीला परत जाईल जेव्हा त्याला `hit` संदेश मिळेल:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
