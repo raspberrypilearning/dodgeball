@@ -1,7 +1,7 @@
-## Challenge: more lives
+## चुनौती: अधिक जीवन
 
-Right now, your character goes back to its starting position when it gets hit. Can you also give the character sprite three `lives`{:class="block3variables"}, and make it lose one life when it gets hit? Here's how your game could work:
+अभी, आपका पात्र टकराने पर वापस अपनी प्रारंभिक स्थिति में चला जाता है। क्या आप पात्र sprite को तीन `lives`{:class="block3variables"} दे सकते हैं, और उसके टकराने पर एक जीवन ले सकते हैं? यहां बताया गया है कि आपका गेम कैसे काम करेगा:
 
-+ The game starts with three lives for the character
-+ Whenever the character gets hit, it loses one life **and** moves back to the start
-+ If there are no lives left, the game ends
++ गेम की शुरुआत में पात्र के पास तीन जीवन होता है
++ जब भी आपका पात्र टकरा जाता है, तो वो एक जीवन खो देता है **और** वापस आरंभ पर आ जाता है
++ यदि कोई अन्य जीवन शेष नहीं रहता है, तो गेम समाप्त हो जाती है
