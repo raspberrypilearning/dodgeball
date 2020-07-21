@@ -9,11 +9,11 @@ version: 4.0.0
 last_tested: 2018-10-10
 steps:
   - title: المقدمة
-  - title: حركة الشخصية
+  - title: حركة الشخصية(او الكائن)
   - title: "التحدي: إكمال المستوى"
     challenge: true
   - title: الجاذبية و القفز
-  - title: 'التحدي: تحسين القفز'
+  - title: 'التحدي: القفز بشكل أفضل'
     challenge: true
   - title: تفادي الكرات
   - title: 'التحدي: كرات عشوائية'

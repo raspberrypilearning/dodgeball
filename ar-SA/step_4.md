@@ -53,7 +53,7 @@
 ![كائن المشي بيكو](images/pico_walking_sprite.png)
 
 ```blocks3
-    عند نقwhen flag clicked
+      when flag clicked
 	  set [جاذبية v] to [-4]
 	  forever
 		  if < not < <touching color [#0000FF]?> or <touching color [#FF69B4]?> > > then
