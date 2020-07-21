@@ -1,9 +1,9 @@
-## Challenge: random balls
+## चुनौती: यादृच्छिक गेंदें
 
-The balls that your character has to dodge all look the same, and they appear at regular three-second intervals. Can you add code to your game so that the balls:
+जिन गेंदों को आपके पात्र को चकमा देना है वो सारी एक समान दिखती हैं, और वे नियमित तीन सेकंड के अंतराल पर दिखाई देती हैं। क्या आप अपने गेम में कोड जोड़ सकते हैं ताकि गेंदें:
 
-+ Don't all look the same?
-+ Appear after a `random`{:class="block3operators"} amount of time?
-+ Are a random size?
++ सभी एक जैसी न लगें?
++ एक `random`{:class="block3operators"} समय के बाद दिखाई दें?
++ यादृच्छिक आकार की हों?
 
-![screenshot](images/dodge-ball-random.png)
+![स्क्रीनशॉट](images/dodge-ball-random.png)
