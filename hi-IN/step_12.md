@@ -1,10 +1,10 @@
-## What next?
+## आगे क्या?
 
-Have a go at our [Brain game](https://projects.raspberrypi.org/en/projects/brain-game?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, in which you can create your own maths quiz.
+हमारी [ब्रेन गेम](https://projects.raspberrypi.org/en/projects/brain-game?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) परियोजना को आजमाएं, जिसमे आप अपनी गणित प्रश्नोत्तरी बना सकते हैं।
 
 \--- no-print \---
 
-Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
+शुरू करने के लिए बटन पर क्लिक करें। प्रश्न के उत्तर को टाइप करें, और फिर <kbd>Enter</kbd> कुंजी दबाएं।
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -15,6 +15,6 @@ Click the button to start. Type in the answer to the question, and then press th
 
 \--- print-only \---
 
-![Brain Game](images/brain-final.png)
+![ब्रेन गेम](images/brain-final.png)
 
 \--- /print-only \---
