@@ -1,66 +1,161 @@
-## कैरेक्टर की गति
+## पात्र की गति
 
-आइए हम, ऐसा कैरेक्टर बनाने से आरंभ करें, जो उपर नीचे गति कर सके, और साथ ही सीढ़ी पर चढ़ सके। 
+एक ऐसा पात्र बनाकर शुरू करें जो बाएँ और दाएँ घूम सकता है, और सीढ़ी चढ़ सकता है।
 
+--- task ---
 
+'Dodgeball' Scratch प्रारंभक परियोजना खोलें।
 
-+ ऑनलाइन <a href="http://jumpto.cc/dodge-go" target="_blank">jumpto.cc/dodge-go</a> पर 'डॉजबॉल' Scratch प्रोजेक्ट खोलें या <a href="http://jumpto.cc/dodge-get" target="_blank">jumpto.cc/dodge-get</a> से डाउनलोड करें और फिर इसे खोलें यदि आप ऑफ़लाइन एडिटर उपयोग कर रहे हैं।
+**ऑनलाइन:** [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"} पर प्रारंभक परियोजना खोलें।
 
-	इस प्रोजेक्ट में निम्नलिखित प्लेटफॉर्म्स वाली पृष्ठभूमि शामिल होती है:
+यदि आपके पास एक Scratch खाता है, तो आप **Remix** पर क्लिक करके प्रतिलिपि बना सकते हैं।
 
-	![screenshot](images/dodge-background.png)
+**ऑफ़लाइन:** प्रारंभक परियोजना को [rpf.io/p/hi-IN/dodgeball-get](http://rpf.io/p/hi-IN/dodgeball-get) से डाउनलोड करें और फिर इसे ऑफ़लाइन संपादक का उपयोग करके खोलें।
 
-+ नया स्प्राइट जोड़ें, जो आपका कैरेक्टर होगा। यह अच्छा होता है यदि आप कई पोशाकों के साथ स्प्राइट चुनते हैं, ताकि आप इसे ऐसा बना सकें कि यह चलता हुआ प्रतीत हो।
+--- /task ---
 
-	![screenshot](images/dodge-characters.png)
+इस परियोजना में प्लेटफार्मों के साथ एक पृष्ठभूमि शामिल है:
 
-+ चलिए आपके कैरेक्टर को गति करवाने के लिए तीर कुंजियों का उपयोग करें। जब खिलाड़ी दायाँ तीर दबाता है, तो आप चाहते हैं कि आपका कैरेक्टर दाईं ओर मुड़ जाए, कुछ कदम चलें और अगली पोशाक बदल ले:
+![डॉजबॉल परियोजना की पृष्ठभूमि](images/dodge-background.png)
 
-	```blocks
-		जब ⚑ क्लिक किया गया हो
-		हमेशा के लिए
+--- task ---
+
+एक नया sprite चुनें पात्र के रूप में जिसे खिलाड़ी नियंत्रित करेगा, और इसे अपनी परियोजना में जोड़ें। सबसे अच्छा होगा अगर आप कई costumes वाले sprite को चुनते हैं, ताकि आप इसे ऐसा दिखा सकें जैसे कि यह चल रहा है।
+
+![sprite चुनें](images/dodge-characters.png)
+
+[[[generic-scratch3-sprite-from-library]]]
+
+--- /task ---
+
+--- task ---
+
+अपने पात्र sprite में कोड खंड जोड़ें ताकि खिलाड़ी पात्र को चारों ओर ले जाने के लिए तीर कुंजियों का उपयोग कर सके। जब खिलाड़ी दाहिने तीर जैसा बटन दबाता है, तो पात्र को दाईं ओर इशारा करना चाहिए, कुछ कदम बढना चाहिए, और अगली costume में बदलना चाहिए:
+
+![पिको चलने वाला sprite](images/pico_walking_sprite.png)
+
+```blocks3
+when flag clicked
+forever
+    if <key (right arrow v) pressed? > then
+        point in direction (90 v)
+        move (3) steps
+        next costume
+    end
 end
-			अगर <[दायाँ तीर v] बटन दबाया है?> हो तो
+```
+
+--- /task ---
+
+--- task ---
+
+यदि आपका sprite फिट नहीं होता है, तो इसके आकार को ठीक करें।
+
+![sprite का आकार सेट करें ताकि यह फिट हो](images/dodge-sprite-size-annotated.png)
+
+--- /task ---
+
+--- task ---
+
+झंडे पर क्लिक करके और फिर दाहिने तीर जैसा बटन को दबाकर अपने पात्र का परीक्षण करें। क्या आपका पात्र दाहिनि ओर बढ़ता है? क्या आपका पात्र ऐसे दिख रहा है की जैसे वह चल रहा है?
+
+![स्क्रीनशॉट](images/dodge-walking.png)
+
+--- /task ---
+
+--- task ---
+
+Sprite पात्र के `forever`{:class="block3control"} लूप में कोड खंड जोड़ें ताकि बाएं तीर जैसा बटन दबाने पर वह बाईं ओर चले।
+
+--- hints ---
+
+
+--- hint ---
+
+ताकि आपका पात्र बाईं ओर जा सके, आपको एक और `if`{:class="block3control"} खंड जोड़ना होगा `forever`{:class="block3control"} लूप के अंदर। इस नए `if`{:class="block3control"} खंड में, अपने पात्र sprite को बाईं ओर `move`{:class="block3motion"} करने के लिए कोड जोड़ें।
+
+--- /hint ---
+
+--- hint ---
+
+पात्र को दाईं ओर चलाने के लिए आपके द्वारा बनाए गए कोड की प्रतिलिपि बनाएँ। फिर `key pressed`{:class="block3sensing"} सेट करें `left arrow`{:class="block3sensing"}पर, और `direction`{:class="block3motion"} बदलें `-90` तक।
+
+```blocks3
+if <key (right arrow v) pressed? > then
+    point in direction (90 v)
+    move (3) steps
+    next costume
 end
-				(90 v) की दिशा में देखे
-				(3) कदम चले
-				अगली पोशाक
-			end
-		end
-	```
+```
 
-+ फ्लैग पर क्लिक करके और दाईं तीर कुंजी को दबाए रखकर अपने कैरेक्टर का परीक्षण करें। क्या आपका खिलाड़ी दाईं और गति करता है? क्या आपका कैरेक्टर ऐसा दिखाई देता है कि वह चल रहा है?
+--- /hint ---
 
-	![screenshot](images/dodge-walking.png)
+--- hint ---
 
-+ अपने कैरेक्टर को बाईं ओर गति करवाने के लिए, आपको अपने `हमेशा के लिए`{:class="blockcontrol"} लूप में अन्य `अगर`{:class="blockcontrol"} ब्लॉक जोड़ना होगा, जो आपके कैरेक्टर को बाईं ओर गति करवाता है।
+आपका कोड इस प्रकार दिखना चाहिए:
 
-+ यह देखने के लिए अपने कोड का परीक्षण करें कि यह सही काम करता है। क्या आपका कैरेक्टर बाईं ओर चलते समय उल्टा हो जाता है?
+![पिको चलने वाला sprite](images/pico_walking_sprite.png)
 
-	![screenshot](images/dodge-upside-down.png)
-
-	यदि ऐसा होता है, तो आप अपने कैरेक्टर स्प्राइट पर `(i)`{:class="blocksensing"} आइकन पर क्लिक करके और फिर बाईं तीर कुंजी को दबाकर इस त्रुटि को ठीक कर सकते हैं।
-
-	![screenshot](images/dodge-left-right.png)
-
-	या, यदि आप चाहें तो आप इस ब्लॉक को अपने कैरेक्टर की स्क्रिप्ट के आरंभ में जोड़ सकते हैं:
-
-	```blocks
-	रोटेशन की शैली [left-right v] पर सेट करे
-	```
-
-+ गुलाबी सीढ़ी पर चढ़ने के लिए, आपके कैरेक्टर को कुछ उपर की और गति करनी होगी, जब भी उपर का तीर दबाया जाता है और वे सही रंग को छूते हैं। इस कोड को अपने कैरेक्टर के `हमेशा के लिए`{:class="blockcontrol"} लूप के भीतर जोड़ें:
-
-	```blocks
-		अगर <<[ऊपर का तीर v] बटन दबाया है?> और <[#FF69B4] रंग को छू रहा है?>> हो तो
+```blocks3
+when green flag clicked
+forever 
+  if <key (right arrow v) pressed?> then 
+    point in direction (90 v)
+    move (3) steps
+    next costume
+  end
+  if <key (left arrow v) pressed?> then 
+    point in direction (-90 v)
+    move (3) steps
+    next costume
+  end
 end
-			(4) से y बदले
-		End
-	```
+```
 
-+ अपने कैरेक्टर का परीक्षण – क्या आप गुलाबी सीढ़ी पर चढ़ सकते हैं और अपने लेवल के अंत तक पहुँच सकते हैं?
+--- /hint ---
 
-	![screenshot](images/dodge-test-character.png)
+--- /hints ---
 
+--- /task ---
 
+--- task ---
 
+अपने नए कोड का परीक्षण करें यह सुनिश्चित करने के लिए कि यह काम करता है। क्या बाईं ओर चलने पर आपका पात्र उल्टा हो जाता है?
+
+![स्क्रीनशॉट](images/dodge-upside-down.png)
+
+यदि हां, तो आप इसे अपने पात्र sprite के **direction** पर क्लिक करके ठीक कर सकते हैं, और फिर बाएँ-दाएँ तीर पर क्लिक कीजिये।
+
+![स्क्रीनशॉट](images/dodge-left-right-annotated.png)
+
+या यदि आप चाहें, तो आप अपने पात्र की स्क्रिप्ट की शुरुआत में इस खंड को जोड़कर समस्या को ठीक कर सकते हैं:
+
+```blocks3
+set rotation style [left-right v]
+```
+
+--- /task ---
+
+--- task ---
+
+गुलाबी सीढ़ी पर चढ़ने के लिए, आपके पात्र sprite को मंच पर ऊपर की ओर कुछ कदम बढ़ना चाहिए जब भी ऊपर तीर दबाया जाता है **और** चरित्र सही रंग को छू रहा है।
+
+जोड़ें अपने पात्र के `forever`{:class="block3control"} लूप के अंदर `change`{:class="block3motion"} करने के लिए पात्र की `y` (ऊर्ध्वाधर) स्थिति `if`{:class="block3control"} `up arrow is pressed`{:class="block3sensing"} और पात्र `touching the colour pink`{:class="block3sensing"} गुलाबी रंग को छू रहा है।
+
+![पिको चलने वाला sprite](images/pico_walking_sprite.png)
+
+```blocks3
+    if < <key (up arrow v) pressed?> and <touching color [#FF69B4]?> > then
+        change y by (4)
+    end
+```
+
+--- /task ---
+
+--- task ---
+
+अपने कोड का परीक्षण करें। क्या आप पात्र को गुलाबी सीढ़ी पर चढ़ कर लेवल के अंत तक पहुंचा सकते हैं?
+
+![स्क्रीनशॉट](images/dodge-test-character.png)
+
+--- /task ---

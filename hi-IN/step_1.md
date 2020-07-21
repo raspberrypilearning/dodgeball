@@ -1,77 +1,71 @@
+--- no-print ---
+
+यह इस परियोजना का **Scratch 3** संस्करण है। [इस परियोजना का Scratch 2 संस्करण](https://projects.raspberrypi.org/hi-IN/projects/dodgeball-scratch2) भी है।
+
+--- /no-print ---
+
 ## भूमिका
 
-इस प्रोजेक्ट में आप प्लेटफॉर्म गेम बनाना सीखेंगे, जिसमे आपको हिलती बॉल को पार करके अगले लेवल के अंत तक पहुँचना है।
+आप सीखेंगे कि एक प्लेटफ़ॉर्म गेम कैसे बनाया जाए जिसमें खिलाड़ी को लेवल के अंत तक पहुंचने के लिए चलती गेंदों को चकमा देना है।
+
+--- no-print ---
+
+शुरू करने के लिए हरे झंडे पर क्लिक करें, और फिर हिलने के लिए कुंजियों का और कूदने के लिए <kbd>space</kbd> का उपयोग करें।
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/39740618/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/251809924/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/dodge-final.png">
 </div>
 
-### क्लब लीडर्स के लिए अतिरिक्त जानकारी
+--- /no-print ---
 
-यदि आप इस प्रोजेक्ट को प्रिंट करना चाहते हैं, तो कृपया [प्रिंटर के लिए अनुकूल संस्करण](https://projects.raspberrypi.org/en/projects/dodgeball/print) का उपयोग करें।
+--- print-only ---
 
+![डॉजबॉल खेल खेला जा रहा है](images/dodgeball-showcase.png)
+
+--- /print-only ---
 
 --- collapse ---
 ---
-title: क्लब लीडर के नोट्स
+title: आपको किन चीज़ों की आवश्यकता होगी
 ---
 
+### हार्डवेयर
 
-## भूमिका:
-इस प्रोजेक्ट में, बच्चे पिछले प्रोजेक्ट्स में सीखी गई Scratch अवधारणाओं और कौशलों का इस्तेमाल करके प्लेटफॉर्म गेम बनाना सीखेंगे।
++ Scratch 3 चलाने में सक्षम कंप्यूटर
 
-## संसाधन
-इस प्रोजेक्ट के लिए, Scratch 2 का उपयोग किया जाना चाहिए। Scratch 2 का [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) पर ऑनलाइन उपयोग किया जा सकता है या इसे [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) से डाउनलोड करके ऑफ़लाइन उपयोग किया जा सकता है।
+### सॉफ्टवेयर
 
-इस प्रोजेक्ट के लिए 'प्रोजेक्ट सामग्री' लिंक में निम्नलिखित संसाधन शामिल होते हैं:
++ Scratch 3 (या तो [ऑनलाइन](https://scratch.mit.edu/projects/editor/) या [ऑफ़लाइन](https://scratch.mit.edu/download/))
 
-##### क्लब लीडर के संसाधन
+### डाउनलोड
 
-आप <a href="http://scratch.mit.edu/projects/39740618/#editor">online</a> इस प्रोजेक्ट का पूर्ण संस्करण खोज सकते हैं, या इसे इस प्रोजेक्ट के लिए 'प्रोजेक्ट सामग्री' लिंक पर क्लिक करके डाउनलोड किया जा सकता है, जिसमे ये शामिल है:
-
-+ Dodgeball.sb2
-
-##### प्रोजेक्ट संसाधन
-
-इस प्रोजेक्ट के लिए, क्लब के सदस्य उन बाहरी संसाधनों का उपयोग कर सकते हैं जो Scratch लाइब्रेरी में उपलब्ध नहीं हैं:
-
-+ background.png.
-
-क्लब के वे सदस्य जो इन प्रोजेक्ट संसाधनों तक पहुँच करने में सक्षम नहीं हैं, उनके लिए पहले से लोड किए गए बाहरी संसाधनों युक्त Scratch प्रोजेक्ट होता है। यह [jumpto.cc/dodge-resources](http://jumpto.cc/dodge-resources) पर ऑनलाइन, या डाउनलोड करने योग्य प्रोजेक्ट सामग्री में ऑनलाइन उपलब्ध है, जिसमे शामिल हैं:
-
-+ DodgeballResources.sb2 
-
-## अधिगम उद्देश्य
-+ इस प्रोजेक्ट में पहले से सीखे गए प्रोग्रामिंग कौशल शामिल हैं।
-
-इस प्रोजेक्ट में [Raspberry Pi डिजिटल निर्माण पाठ्यचर्या](http://rpf.io/curriculum) के निम्नलिखित गुणों के तत्व शामिल हैं:
-
-+ [समस्या का हल करने के लिए प्रोग्रामिंग निर्माण का संयोजन करें।](https://www.raspberrypi.org/curriculum/programming/builder)
-
-## चुनौतियाँ
-+ "छलांग में सुधार" – मल्टीप्ल-जंप की त्रुटि को ठीक करने के लिए `अगर`{:class="blockcontrol"} ब्लॉक का उपयोग करना;
-+ "बेतरतीब बॉल" – बॉल की पोशाक, आकार और क्लोन्स के बीच देरी में परिवर्तन के लिए `अनियमित`{:class="blockoperators"} ब्लॉक का उपयोग करना;
-+ "और रुकावटें" – गेम में अतिरित्क स्प्राइट्स जोड़ना;
-+ "गुरुत्वाकर्षण में सुधार" - `गुरुत्वाकर्षण`{:class="blockdata"} में त्रुटि को दूर करने के लिए अतिरिक्त `अगर`{:class="blockcontrol"} ब्लॉक का उपयोग करना;
-+ "और जीवन" - `जीवन`{:class="blockdata"} वेरिएबल का योग।
-
-
+आप [यहां डाउनलोड पा सकते हैं](http://rpf.io/p/hi-IN/dodgeball-go)।
 
 --- /collapse ---
 
+--- collapse ---
+---
+title: आप क्या सीखेंगे
+---
+
++ एक sprite को नियंत्रित करने के लिए कीबोर्ड का उपयोग कैसे करें
++ `if, then, else` {:class="block3control"} Scratch खंड का उपयोग कैसे करें
++ एक sprite का हूबहू कैसे बनाएं
+
+--- /collapse ---
 
 --- collapse ---
 ---
-title: प्रोजेक्ट सामग्री
+title: शिक्षकों के लिए अतिरिक्त टिप्पणियाँ
 ---
-## प्रोजेक्ट संसाधन
-* [बाहरी संसाधनों सहित ऑनलाइन Scratch 2 प्रोजेक्ट](http://jumpto.cc/dodge-resources)
-* [बाहरी संसाधनों सहित डाउनलोड योग्य Scratch 2 प्रोजेक्ट](resources/DodgeballResources.sb2)
-* [background.png](resources/background.png)
 
-## क्लब लीडर के संसाधन
-* [ऑनलाइन सम्पूर्ण Scratch 2 प्रोजेक्ट](http://scratch.mit.edu/projects/39740618/#editor)
-* [डाउनलोड योग्य सम्पूर्ण Scratch 2 प्रोजेक्ट](resources/Dodgeball.sb2)
+--- no-print ---
+
+अगर आपको इस परियोजना को प्रिंट करने की आवश्यकता है, तो कृप्या [प्रिंटर-अनुकूल संस्करण](https://projects.raspberrypi.org/hi-IN/projects/dodgeball/print){:target="_blank"} का उपयोग करें।
+
+--- /no-print ---
+
+आप [पूर्ण की गई परियोजना यहां](http://rpf.io/p/hi-IN/dodgeball-get) पा सकते हैं।
 
 --- /collapse ---
