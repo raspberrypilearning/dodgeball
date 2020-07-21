@@ -36,25 +36,25 @@
     end
 ```
 
-If you prefer, you can change the code shown above so that the sprite `waits`{:class="block3control"} a `random`{:class="block3operators"} amount of time between costume changes.
+तुम्हाला वाटत असल्यास, तुम्ही वर दाखवलेल्या कोडमध्ये बदल करू शकता जेणेकरून स्प्राईट पोशाख बदल्यामध्ये `अनियमित`{:class="block3operators"} काळासाठी `वाट पाहेल`{:class="block3control"}.
 
 \--- /task \---
 
 \--- task \---
 
-Finally, add code to your laser sprite so that the laser sprite broadcasts a 'hit' message when it touches the character sprite.
+शेवटी, आपल्या लेसरच्या स्प्राईटमध्ये कोड जोडा जेणेकरून जेव्हा लेजर स्प्राइट पात्राच्या स्प्राइटला स्पर्श करेल तेव्हा 'hit' संदेश प्रसारित करेल.
 
 \--- hints \---
 
 \--- hint \---
 
-This code should be very similar to the code you added to your ball sprite.
+हा कोड आपण आपल्या चेंडूच्या स्प्राइटमध्ये जोडलेल्या कोडसारखाच असावा.
 
 \--- /hint \---
 
 \--- hint \---
 
-Copy the code you add to the ball sprite to make this sprite `broadcast 'hit'`{:class="block3control"} when it is `touching your character`{:class="block3sensing"}.
+हा स्प्राइट बनविण्यासाठी आपण बॉल स्प्राइटमध्ये जोडलेला कोड कॉपी करा `'hit' प्रसारित`{:class="block3control"} करा जेव्हा त्याच्या `स्पर्श आपल्या पात्राला होतो`{:class="block3sensing"}.
 
 \--- /hint \---
 
@@ -77,12 +77,12 @@ end
 
 \--- /hints \---
 
-You don't need to add any extra code to your characters sprite, because the character sprite already knows what to do when it receives the `broadcast 'hit'`{:class="block3control"}!
+आपल्याला आपल्या पात्राच्या स्प्राइटमध्ये कोणताही अतिरिक्त कोड जोडण्याची आवश्यकता नाही, कारण पात्राला `'hit' प्रसारण`{:class="block3control"} मिळाल्यावर काय करावे हे आधीच ठाऊक आहे!
 
 \--- /task \---
 
 \--- task \---
 
-आपण लेसरच्या मागे असताना पात्र हलवू शकता की नाही हे पाहण्यासाठी आपल्या खेळाची चाचणी घ्या. If the laser is too easy or too hard to avoid, change the `wait`{:class="block3control"} times in the code for the laser sprite.
+आपण लेसरच्या मागे असताना पात्र हलवू शकता की नाही हे पाहण्यासाठी आपल्या खेळाची चाचणी घ्या. जर लेसर तळणं जासतीच सोप्पं किंवा कठीण वाटत असल्यास, कोडच्या `wait`{:class="block3control"} मध्ये बदल करा.
 
 \--- /task \---
