@@ -1,5 +1,5 @@
-## Challenge: better jumping
+## चुनौती: छलांग में सुधार
 
-Even if the character is already in mid-air, it jumps whenever the player presses the <kbd>space</kbd> bar. You can see this behaviour if you hold down the <kbd>space</kbd> bar.
+भले ही पात्र पहले से ही मध्य-वायु में हो, वो छलांग लगाता है जब भी खिलाडी <kbd>space</kbd> बटन दबाता है। आप इस व्यवहार को देख सकते हैं यदि आप <kbd>space</kbd> बटन दबाए रखते हैं।
 
-Can you change the character sprite's code for jumping so that your character can only jump `if`{:class="block3control"} it touches a blue platform?
+क्या आप अपने पात्र sprite के छलांग लगाने के कोड को बदल सकते हैं ताकि आपका पात्र तभी ही छलांग लगाए `if`{:class="block3control"} जब वो एक नीले रंग के प्लेटफार्म को छूता हो?
