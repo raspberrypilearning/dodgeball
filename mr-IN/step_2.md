@@ -1,16 +1,16 @@
 ## पात्राची हालचाल
 
-Start by creating a character that can move left and right, and can climb up ladders.
+सुरुवात डावीकडे आणि उजवीकडे सरकू शकणारे आणि शिडी चढू शकणारे असे एखादे पात्र तयार करुन करा.
 
 \--- task \---
 
 'डॉजबॉल' स्क्रॅच स्टार्टर प्रकल्प उघडा.
 
-**Online:** open the starter project at [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}.
+**ऑनलाइन: ** स्टार्टर प्रकल्प [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"} उघडा.
 
 आपल्याकडे स्क्रॅच खाते असल्यास आपण **Remix** वर क्लिक करून प्रत तयार करू शकता.
 
-**Offline:** download the starter project from [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) and then open it using the offline editor.
+**ऑफलाइनः** स्टार्टर प्रोजेक्ट [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) वरून डाउनलोड करा आणि नंतर ऑफलाइन एडिटर वापरून तो उघडा.
 
 \--- /task \---
 
@@ -30,7 +30,7 @@ Start by creating a character that can move left and right, and can climb up lad
 
 \--- task \---
 
-Add code blocks to your character sprite so that the player can use the arrow keys to move the character around. When the player presses the right arrow, the character should point right, move a few steps, and change to the next costume:
+आपल्या पात्राच्या स्प्राईटमध्ये कोड ब्लॉक जोडा जेणेकरून खेळाडू अॅरो कीज चा वापर करून पात्राला हलवू शकेल. जेव्हा खेळाडू राइट अॅरो की दाबेल, तेव्हा पात्राने उजवीकडे तोंड केले पाहिजे, काही पावलं चाललं पाहिजे आणि पुढचा पोशाख परिधान केला पाहिजे:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -57,7 +57,7 @@ end
 
 \--- task \---
 
-Test out your character by clicking the flag and then holding down the right arrow key. आपले पात्र उजवीकडे सरकत आहे का? आपले पात्र चालत असल्यासारखे दिसते आहे का?
+ध्वजावर क्लिक करून आणि नंतर किबोर्ड वरती राइट अॅरो की दाबून आपल्या पात्राची चाचणी घ्या. आपले पात्र उजवीकडे सरकत आहे का? आपले पात्र चालत असल्यासारखे दिसते आहे का?
 
 ![screenshot](images/dodge-walking.png)
 
@@ -65,19 +65,19 @@ Test out your character by clicking the flag and then holding down the right arr
 
 \--- task \---
 
-Add code blocks to the character sprite's `forever`{:class="block3control"} loop so that it walks left if the left arrow key is pressed.
+तुमच्या पात्राच्या स्प्राईटच्या `forever`{:class="block3control"} लुप ला कोड ब्लॉक जोडा जेणेकरून ते डावीकडे चालेल जेव्हा लेफ्ट अॅरो की दाबली जाईल.
 
 \--- hints \---
 
 \--- hint \---
 
-So that your character can move to the left, you'll need to add another `if`{:class="block3control"} block inside the `forever`{:class="block3control"} loop. In this new `if`{:class="block3control"} block, add code to make your character sprite `move`{:class="block3motion"} to the left.
+जेणेकरून आपले पात्र डावीकडे हलू शकेल, आपल्याला `forever`{:class="block3control"} लुपच्या आत आणखी एक `if`{:class="block3control"} जोडण्याची आवश्यकता आहे. ह्या नविन `if`{:class="block3control"} ब्लॉकमध्ये, कोड जोडा ज्याने तुमच्या पात्राची स्प्राईट डावीकडे `move`{:class="block3motion"} होईल.
 
 \--- /hint \---
 
 \--- hint \---
 
-पात्र उजवीकडे चालवण्यासाठी आपण तयार केलेला कोड कॉपी करा. Then set the `key pressed`{:class="block3sensing"} to the `left arrow`{:class="block3sensing"}, and change the `direction`{:class="block3motion"} to `-90`.
+पात्र उजवीकडे चालवण्यासाठी आपण तयार केलेला कोड कॉपी करा. त्यांतर `key pressed`{:class="block3sensing"} ला `left arrow`{:class="block3sensing"} सेट करा, आणि `direction`{:class="block3motion"} ला `-90` सेट करा.
 
 ```blocks3
 if <key (right arrow v) pressed? > then
@@ -123,11 +123,11 @@ end
 
 ![screenshot](images/dodge-upside-down.png)
 
-If so, you can fix this by clicking on the **direction** of your character sprite, and then clicking on the left-right arrow.
+असेल तर, तुमची ते पात्राच्या स्प्राईटच्या **direction** वर क्लिक करून, आणि नंतर लेफ्ट-राइट अॅरो वर क्लिक करून ठीक करू शकता.
 
 ![screenshot](images/dodge-left-right-annotated.png)
 
-Or if you prefer, you can also fix the problem by adding this block to the start of your character's script:
+किंवा आपल्याला वाटत असल्यास, आपल्या पात्राच्या स्क्रिप्टच्या सुरूवातीला हा ब्लॉक जोडून आपण समस्येचे निराकरण देखील करू शकता:
 
 ```blocks3
 set rotation style [left-right v]
@@ -137,9 +137,9 @@ set rotation style [left-right v]
 
 \--- task \---
 
-To climb a pink ladder, your character sprite should move a few steps upwards on the Stage whenever the up arrow is pressed **and** the character is touching the correct colour.
+जर गुलाबी शिडी चढायची असेल तर तुमच्या पात्राच्या स्प्राईटने फलाटावर काही पावलं वर चढलं पाहिजे जेव्हा जेव्हा अप अॅरो दाबलेला असेल **आणि** पात्र योग्य रंगला स्पर्श करत असायला पाहिजे.
 
-Add inside your character's `forever`{:class="block3control"} loop to `change`{:class="block3motion"} the character's `y` (vertical) position `if`{:class="block3control"} the `up arrow is pressed`{:class="block3sensing"} and the character is `touching the colour pink`{:class="block3sensing"}.
+तुमच्या पात्राच्या `forever`{:class="block3control"} लुप च्या आत `change`{:class="block3motion"} जोडा ज्याने तुमच्या पात्राची `y` (उभी) जागा बदलेल `if`{:class="block3control"} (जेव्हा) `अप अॅरो दाबलेला असेल`{:class="block3sensing"} आणि पात्र `गुलाबी रंगाला स्पर्श करत असेल`{:class="block3sensing"}.
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
