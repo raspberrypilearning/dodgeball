@@ -1,5 +1,5 @@
-## Challenge: completing the level
+## चुनौती: लेवल पूरा करना
 
-Can you add more code blocks to your character sprite to make the sprite say something `if`{:class="block3control"} it gets to the green door?
+क्या आप sprite से कुछ केहेलवाने के लिए अपने पात्र sprite में अधिक कोड ब्लॉक जोड़ सकते हैं `if`{:class="block3control"} यह हरे रंग के दरवाजे तक जाता है?
 
-![screenshot](images/dodge-win.png)
+![स्क्रीनशॉट](images/dodge-win.png)
