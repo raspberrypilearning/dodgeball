@@ -8,7 +8,7 @@
 
 ![لقطة الشاشة](images/dodge-balls.png)
 
----/task--
+--- /task ---
 
 --- task ---
 
@@ -60,7 +60,7 @@ delete this clone
 
 ![لقطة الشاشة](images/dodge-ball-test.png)
 
----/task--
+--- /task ---
 
 --- task ---
 
@@ -75,7 +75,7 @@ delete this clone
 
 كرر التعليمات البرمجية التي استخدمتها لنقل نسخة كائن الكرة عبر المنصة الأولى. تحتاج إلى تغيير قيم `x`{:class="block3motion"}, `y`{:class="block3motion"}, و`تكرار `{:class="block3control"} الارقام بحيث تتابع النسخ المنصات بشكل صحيح.
 
---- hint/ ---
+--- /hint ---
 
 --- hint ---
 
@@ -99,7 +99,7 @@ repeat (30)
 end
 ```
 
---- hint/ ---
+--- /hint ---
 
 --- hint ---
 
@@ -135,9 +135,9 @@ end
 delete this clone
 ```
 
---- hint/ ---
+--- /hint ---
 
---- hints/ ---
+--- /hints ---
 
 --- /task ---
 
