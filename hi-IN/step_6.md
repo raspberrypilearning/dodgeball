@@ -1,28 +1,28 @@
-## Dodging balls
+## गेंदों को चकमा देना
 
-Your character can move and jump now, so it's time to add some balls that the character has to avoid.
+अब आपका पात्र चल सकता है और छलांग लगा सकता है, इसलिए यह कुछ गेंदों को जोड़ने का समय है जिनसे पात्र को बचना है।
 
 \--- task \---
 
-Create a new ball sprite. You can choose any type of ball you like.
+एक नया गेंद sprite बनाएं। आप अपनी पसंद के अनुसार किसी भी प्रकार की गेंद चुन सकते हैं।
 
-![screenshot](images/dodge-balls.png)
+![स्क्रीनशॉट](images/dodge-balls.png)
 
 \--- /task \---
 
 \--- task \---
 
-Resize the ball sprite so that the character can jump over it. Try making the character jump over the ball to test whether the ball is the right size.
+गेंद sprite का आकार बदलें ताकि पात्र उसके ऊपर से छलांग लगा सके। गेंद का आकार सही है या नहीं यह जांचने के लिए पात्र को गेंद के ऊपर से छलाँग लगवाने का प्रयास करें।
 
-![screenshot](images/dodge-ball-resize.png)
+![स्क्रीनशॉट](images/dodge-ball-resize.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add this code to your ball sprite:
+इस कोड को अपने गेंद sprite में जोड़ें:
 
-![ball sprite](images/ball_sprite.png)
+![गेंद sprite](images/ball_sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -50,37 +50,37 @@ end
 delete this clone
 ```
 
-This code creates a new clone of the ball sprite every three seconds. Each new clone moves along the top platform and then drops.
+यह कोड हर तीन सेकंड में गेंद sprite का एक नया हूबहू बनाता है। प्रत्येक नया हूबहू शीर्ष प्लेटफार्म पर चलता है और फिर गिरता है।
 
 \--- /task \---
 
 \--- task \---
 
-Click the flag to test the game.
+गेम को जांचने के लिए ध्वज पर क्लिक करें।
 
-![screenshot](images/dodge-ball-test.png)
+![स्क्रीनशॉट](images/dodge-ball-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add more code to your ball sprite so that clones of it move across all three platforms.
+अपने गेंद sprite में अधिक कोड जोड़ें ताकि इसके हूबहू सभी तीन प्लेटफार्मों पर चलें।
 
-![screenshot](images/dodge-ball-more-motion.png)
+![स्क्रीनशॉट](images/dodge-ball-more-motion.png)
 
 \--- hints \---
 
 \--- hint \---
 
-Repeat the code blocks you used to move the ball sprite clone across the first platform. You need to change the `x`{:class="block3motion"}, `y`{:class="block3motion"}, and `repeat`{:class="block3control"} numbers so that the clones follow the platforms correctly.
+पहले प्लेटफ़ॉर्म पर गेंद sprite हूबहू को स्थानांतरित करने के लिए आपके द्वारा उपयोग किए गए कोड खंड को दोहराएं। आपको `x`{:class="block3motion"}, `y`{:class="block3motion"}, और `repeat`{:class="block3control"} मानों को बदलने की आवश्यकता है ताकि हूबहू प्लेटफार्मों का सही ढंग से पालन कर सकें।
 
 \--- /hint \---
 
 \--- hint \---
 
-These are the blocks you need. Make sure you add them in the correct order.
+इन खंडों की आपको आवश्यकता होगी। सुनिश्चित करें कि आप उन्हें सही क्रम में जोड़ते हैं।
 
-![ball sprite](images/ball_sprite.png)
+![गेंद sprite](images/ball_sprite.png)
 
 ```blocks3
 repeat (170) 
@@ -102,9 +102,9 @@ end
 
 \--- hint \---
 
-The code for your ball sprite clones should look like this:
+आपकी गेंद sprite हूबहू के लिए कोड इस तरह दिखना चाहिए:
 
-![ball sprite](images/ball_sprite.png)
+![गेंद sprite](images/ball_sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -142,11 +142,11 @@ delete this clone
 
 \--- task \---
 
-Now add some code blocks to broadcast (send) a message if your character gets hit by a ball!
+अब कुछ कोड खंड जोडें एक सन्देश प्रसारित करने (भेजने) के लिए अगर आपका पात्र गेंद से टकरा जाता है!
 
-Add this code to your ball sprite:
+इस कोड को अपने गेंद sprite में जोड़ें:
 
-![ball sprite](images/ball_sprite.png)
+![गेंद sprite](images/ball_sprite.png)
 
 ```blocks3
     when I start as a clone
@@ -161,9 +161,9 @@ Add this code to your ball sprite:
 
 \--- task \---
 
-Finally, add code blocks to your character sprite to make it move back to its starting position when it receives the `hit` message:
+अंत में, अपने पात्र sprite में कोड खंड जोड़ें `hit` संदेश प्राप्त करने पर इसे अपने शुरुआती स्थान पर वापस ले जाने के लिए:
 
-![pico walking sprite](images/pico_walking_sprite.png)
+![पिको चलने वाला sprite](images/pico_walking_sprite.png)
 
 ```blocks3
     when I receive [hit v]
@@ -175,6 +175,6 @@ Finally, add code blocks to your character sprite to make it move back to its st
 
 \--- task \---
 
-Test out your code. Check whether the character moves back to the start after touching a ball.
+अपने कोड का परीक्षण करें। जांचें कि क्या गेंद को छूने के बाद पात्र अपने शुरुआती स्थान पर जाता है।
 
 \--- /task \---
