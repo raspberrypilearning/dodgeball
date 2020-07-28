@@ -2,7 +2,7 @@ gravedad
 
 altura del salto
 
-golpe
+golpeado
 
 encendido
 
