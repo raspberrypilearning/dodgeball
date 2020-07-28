@@ -1,0 +1,9 @@
+gravedad
+
+altura del salto
+
+golpeado
+
+encendido
+
+apagado
