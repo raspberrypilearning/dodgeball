@@ -151,7 +151,7 @@ Añade este código a tu objeto pelota:
 ```blocks3
     when I start as a clone
     forever
-        if < touching (Pico walking v)? > then
+        if < touching (Pico caminando v)? > then
             broadcast (golpeado v)
         end
     end
