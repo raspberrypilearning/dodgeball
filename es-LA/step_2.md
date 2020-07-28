@@ -2,7 +2,7 @@
 
 Comienza creando un personaje que pueda moverse hacia la izquierda y derecha, y que pueda subir las escaleras.
 
---- función ---
+--- task ---
 
 Abre el proyecto inicial de Scratch "Quemados".
 
@@ -65,7 +65,7 @@ Prueba tu personaje haciendo clic en la bandera y luego pulsando la tecla de la 
 
 --- task ---
 
-Añade bloques de código al bucle `por siempre` del objeto personaje {:class="block3control"} para que se desplace hacia la izquierda si se presiona la tecla de flecha izquierda.
+Añade bloques de código al bucle `por siempre`{:class="block3control"} del objeto personaje para que se desplace hacia la izquierda si se presiona la tecla de flecha izquierda.
 
 --- hints ---
 

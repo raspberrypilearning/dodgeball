@@ -21,7 +21,7 @@ steps:
   - title: '¡Láseres!'
   - title: 'Desafío: Más obstáculos'
     challenge: true
-  - title: 'Desafío: Gravedad mejorada'
+  - title: 'Desafío: Mejorando la gravedad'
     challenge: true
   - title: 'Desafío: Más vidas'
     challenge: true

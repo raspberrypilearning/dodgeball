@@ -1,4 +1,4 @@
-## Esquivando pelotas
+## Esquivando las pelotas
 
 Ahora, tu personaje puede moverse y saltar, por lo que es hora de agregar algunas pelotas que el personaje tendra que esquivar.
 
@@ -68,7 +68,7 @@ Añade más código al objeto pelota para que los clones se muevan por las tres 
 
 ![captura de pantalla](images/dodge-ball-more-motion.png)
 
---- hint ---
+--- hints ---
 
 --- hint ---
 

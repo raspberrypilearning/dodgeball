@@ -55,7 +55,7 @@ Este código debe ser muy parecido al código que añadiste a tu objeto pelota.
 
 --- hint ---
 
-Copia el código que añadiste a la pelota para hacer que el objeto `envíe` el mensaje `'golpeado'`{:class="block3control"} cuando `toca a tu personaje`{:class="block3sensing"}.
+Copia el código que añadiste a la pelota para hacer que el objeto `envíe 'golpeado'`{:class="block3control"} cuando `toca a tu personaje`{:class="block3sensing"}.
 
 --- /hint ---
 
@@ -68,7 +68,7 @@ Este es el código que debes incluir:
 ```blocks3
 when green flag clicked
 forever 
-  if <touching (Pico walking v) ?> then 
+  if <touching (Pico caminando v) ?> then 
     broadcast (golpeado v)
   end
 end

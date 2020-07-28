@@ -1,4 +1,4 @@
-## Saltando y Gravedad
+## Gravedad y saltos
 
 Ahora harás que tu personaje se mueva de forma más realista: agregarás gravedad a tu juego y le darás al personaje la capacidad de saltar.
 
@@ -116,7 +116,7 @@ Elimina el código de salto que añadiste a tu personaje, y cámbialo por este:
     end
 ```
 
-Este código hace que tu personaje suba a 8 píxeles, luego a7.5 píxeles, luego a7 píxeles y así, sucesivamente, hasta que no suba más. Esto hace que el salto sea mucho más fluido.
+Este código hace que tu personaje suba a 8 píxeles, luego a 7.5 píxeles, luego a 7 píxeles y así, sucesivamente, hasta que no suba más. Esto hace que el salto sea mucho más fluido.
 
 --- /task---
 
