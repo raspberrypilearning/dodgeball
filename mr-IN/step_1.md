@@ -1,6 +1,6 @@
 \--- no-print \---
 
-ही प्रकल्पाची **स्क्रॅच ३** आवृत्ती आहे. प्रोजेक्टची [स्क्रॅच २ आवृत्ती देखील उपलब्ध आहे](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2).
+ही प्रकल्पाची **Scratch 3** आवृत्ती आहे. प्रोजेक्टची [Scratch 2 आवृत्ती देखील उपलब्ध आहे](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2).
 
 \--- /no-print \---
 
@@ -31,11 +31,11 @@
 
 ### हार्डवेअर
 
-+ स्क्रॅच ३ चालवण्यास सक्षम असलेला संगणक
++ Scratch 3 चालवण्यास सक्षम असलेला संगणक
 
 ### सॉफ्टवेअर
 
-+ स्क्रॅच व्हर्जन ३ ([ऑनलाइन](https://scratch.mit.edu/projects/editor/) अथवा [ऑफलाइन](https://scratch.mit.edu/download/))
++ Scratch व्हर्जन 3 ([ऑनलाइन](https://scratch.mit.edu/projects/editor/) अथवा [ऑफलाइन](https://scratch.mit.edu/download/))
 
 ### डाउनलोड्स
 
