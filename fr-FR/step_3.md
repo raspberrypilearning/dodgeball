@@ -1,10 +1,5 @@
---- challenge ---
-## Défi : Achèvement du niveau 
-Pouvez-vous ajouter plus de codage à votre personnage pour qu'il dise quelque chose `si`{:class="blockcontrol"} il arrive à la porte ?
+## Défi : terminer le niveau
 
-![screenshot](images/dodge-win.png)
+Peux-tu ajouter plus de blocs de code au sprite de ton personnage pour que le sprite dise quelque chose `si`{:class="block3control"} il passe la porte verte ?
 
-
-
-
---- /challenge ---
+![capture d'écran](images/dodge-win.png)

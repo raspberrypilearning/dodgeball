@@ -1,0 +1,9 @@
+gravity
+
+jump height
+
+hit
+
+on
+
+off

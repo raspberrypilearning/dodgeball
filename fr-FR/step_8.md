@@ -1,31 +1,89 @@
-## Lasers!
+## Lasers !
 
-Rendez votre jeu un peu plus compliqué en ajoutant des lasers!
+Pour que ton jeu soit un peu plus difficile à terminer, tu vas ajouter des lasers !
 
-+ Ajoutez un nouveau lutin appelé 'Laser' à votre jeu. Il devrait avoir 2 costumes appelés 'on' et 'off'.
+--- task ---
 
-	![screenshot](images/dodge-lasers-costume.png)
+Ajoute un nouveau sprite à ton jeu et appelle-le `laser`. Il devrait avoir deux costumes: l'un appelé « allumé » et l'autre appelé « éteint ».
 
-+ Placez votre nouveau laser n'importe où entre 2 plateformes.
+![capture d'écran](images/dodge-lasers-costume1.png)
 
-	![screenshot](images/dodge-lasers-position.png)
+![capture d'écran](images/dodge-lasers-costume2.png)
 
-+ Ajoutez le code à votre laser pour qu'il puisse changer entre les 2 costumes.
+--- /task ---
 
-	```blocks
-		quand le drapeau vert pressé
-		répéter indéfiniment
-			basculer sur le costume [Activé v]
-			attendre (2) secondes
-			basculer sur le costume [Désactivé v]
-			attendre (2) secondes
-		end
-	```
+--- task ---
 
-	Si vous préférez, vous pouvez `Attendre`{:class="blockcontrol"} un temps `aléatoire`{:class="blockoperators"} entre les changements de costume.
+Place ton nouveau sprite laser entre deux plates-formes.
 
-+ Finalement, ajoutez le code à votre laser pour que le message 'hit' soit diffusé quand le laser touche votre personnage. Ce code sera le même que vous avez ajouté à votre lutin de balle.
+![capture d'écran](images/dodge-lasers-position.png)
 
-	Vous n'avez pas à ajouter plus de codes à votre personnage, il sait déjà quoi faire lorsqu'il est frappé!
+--- /task ---
 
-+ Testez votre jeu pour voir si vous pouvez arriver devant le laser. Changer le temps `attendre`{:class="blockcontrol"} dans votre code si les lasers sont trop faciles ou trop difficiles.
+--- task ---
+
+Ajoute du code à ton sprite laser pour le faire basculer entre ses deux costumes.
+
+![sprite laser](images/laser_sprite.png)
+
+```blocks3
+	when flag clicked
+	forever
+		switch costume to (on v)
+		wait (2) seconds
+		switch costume to (off v)
+		wait (2) seconds
+	end
+```
+
+Si tu préfères, tu peux modifier le code présenté ci-dessus de sorte que le sprite `attend`{:class="block3control"} une durée `aléatoire`{:class="block3operators"} entre les changements de costume.
+
+--- /task ---
+
+--- task ---
+
+Enfin, ajoute du code à ton sprite laser afin que le sprite laser diffuse un message « touché » lorsqu'il touche le sprite du personnage.
+
+--- hints ---
+
+
+--- hint ---
+
+Ce code doit être très similaire au code que tu as ajouté à ton sprite de balle.
+
+--- /hint ---
+
+--- hint ---
+
+Copie le code que tu as ajouté au sprite de balle pour que ce sprite `envoie à tous « touché »`{:class="block3control"} lorsqu'il touche `ton personnage`{:class="block3sensing"}.
+
+--- /hint ---
+
+--- hint ---
+
+Voici le code que tu dois ajouter :
+
+![sprite laser](images/laser_sprite.png)
+
+```blocks3
+when green flag clicked
+forever 
+  if <touching (Pico walking v) ?> then 
+    broadcast (touché v)
+  end
+end
+```
+
+--- /hint ---
+
+--- /hints ---
+
+Tu n'as pas besoin d'ajouter de code supplémentaire au sprite de ton personnage, car celui-ci sait déjà quoi faire lorsqu'il reçoit le `envoyer à tous « touché »`{:class="block3control"} !
+
+--- /task ---
+
+--- task ---
+
+Teste ton jeu pour voir si tu peux déplacer le personnage au-delà du laser. Si le laser est trop facile ou trop difficile à éviter, change les temps `d'attente`{:class="block3control"} dans le code du sprite laser.
+
+--- /task ---

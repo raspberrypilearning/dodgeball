@@ -1,30 +1,28 @@
 ---
 hero_image: images/banner.png
-theme: yellow
-duration: 2
 listed: true
 ingredient: false
 copyedit: false
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Ballon chasseur
-description: Apprends à programmer ton propre jeu de plateforme!
-original_url: https://codeclubprojects.org/en-GB/scratch/dodgeball
-interests: games
-technologies: scratch
-site_areas: projects
-hardware: ''
-software: scratch
-version: 3
-last_tested: 2017-01-01
-steps: 
-- title: Introduction
-- title: Mouvement du personnage
-- title: 'Défi : Achèvement du niveau'
-- title: Gravité et saut
-- title: 'Défi : Bond Amélioré'
-- title: Esquive des balles
-- title: 'Défi : balles aléatoires'
-- title: Lasers!
-- title: "Défi : Plus d'obstacles"
-- title: 'Défi : gravité améliorée'
-- title: 'Défi : Plus de vies'
+title: La balle au prisonnier
+description: Crée un jeu de plate-forme dans lequel tu esquives des balles en mouvement pour atteindre la fin du niveau
+version: 4.0.0
+last_tested: 2018-10-10
+steps:
+  - title: Introduction
+  - title: Mouvement du personnage
+  - title: "Défi : terminer le niveau"
+    challenge: true
+  - title: Gravité et saut
+  - title: 'Défi : saut amélioré'
+    challenge: true
+  - title: Esquive des balles
+  - title: 'Défi : balles aléatoires'
+    challenge: true
+  - title: Lasers !
+  - title: 'Défi : plus d''obstacles'
+    challenge: true
+  - title: 'Défi : gravité améliorée'
+    challenge: true
+  - title: 'Défi : plus de vies'
+    challenge: true
+  - title: Et ensuite ?
