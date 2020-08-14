@@ -55,7 +55,7 @@ Ce code doit être très similaire au code que tu as ajouté à ton sprite de ba
 
 --- hint ---
 
-Copie le code que tu as ajouté au sprite de balle pour que ce sprite `envoie à tous « touché »` {:class="block3control"} lorsqu'il touche `ton personnage`{:class="block3sensing"}.
+Copie le code que tu as ajouté au sprite de balle pour que ce sprite `envoie à tous « touché »`{:class="block3control"} lorsqu'il touche `ton personnage`{:class="block3sensing"}.
 
 --- /hint ---
 

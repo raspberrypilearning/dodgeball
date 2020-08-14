@@ -19,7 +19,7 @@ steps:
   - title: 'Défi : balles aléatoires'
     challenge: true
   - title: Lasers !
-  - title: 'Défi: plus d''obstacles'
+  - title: 'Défi : plus d''obstacles'
     challenge: true
   - title: 'Défi : gravité améliorée'
     challenge: true
