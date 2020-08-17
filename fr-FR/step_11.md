@@ -1,12 +1,7 @@
---- challenge ---
-## Défi : Plus de vies
-Pouvez-vous donner 3 `vies`{:class="blockdata"} à votre joueur au lieu de les renvoyer à la position de départ à chaque fois ? Voici comment votre jeu pourrait marcher :
+## Défi : plus de vies
 
-+ Votre joueur commence par 3 vies;
-+ Lorsque votre joueur est frappé, une vie est perdue et ils doivent retourner à la position intiale;
-+ S'il ne reste plus de vies, c'est la fin du jeu.
+En ce moment, ton personnage retourne à sa position de départ quand il est touché. Peux-tu aussi donner au personnage trois `vies`{:class="block3variables"}, et lui faire perdre une vie quand il est touché ? Voici comment ton jeu pourrait fonctionner :
 
-
-
-
---- /challenge ---
++ Le jeu commence avec trois vies pour le personnage
++ Chaque fois que le personnage est touché, il perd une vie **et** revient au début
++ S'il ne reste plus aucune vie, le jeu se termine

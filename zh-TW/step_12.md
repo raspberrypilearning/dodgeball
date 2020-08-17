@@ -7,7 +7,7 @@
 點擊按鈕開始。 輸入問題的答案，然後按下鍵盤的 <kbd>Enter</kbd> 按鍵。
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/415973930/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/brain-final.png">
 </div>
 

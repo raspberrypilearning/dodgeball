@@ -1,23 +1,21 @@
---- challenge ---
-## Défi : Plus d'obstacles 
-Si vous pensez que votre jeu est trop facile, vous pouvez ajouter plus d'obstacles à votre niveau. Vous pouvez ajouter tout ce que vous souhaitez, mais voici quelques idées :
+## Défi : plus d'obstacles
 
-+ Un papillon tueur volant;
-+ Des plateformes qui apparaissent et disparaissent;
-+ Une chute des balles de tennis qui doivent être évitées.
+Si tu penses que ton jeu est encore trop facile, tu peux lui ajouter plus d'obstacles. Les obstacles peuvent être tout ce que tu veux ! Voici quelques idées :
 
-![screenshot](images/dodge-obstacles.png)
++ Un papillon dangereux
++ Des plateformes qui apparaissent et disparaissent
++ Chutes de balles de tennis à éviter
 
-Vous pourriez même créer plus qu'un fond et vous déplacer vers le niveau suivant lorsque votre personnage atteint la porte verte :
+![capture d'écran](images/dodge-obstacles.png)
 
-```blocks
-	Si <couleur [#714300] touchée?> alors
-		basculer sur l'arrière-plan [next backdrop v]
-		aller à x: (-210) y: (-120)
-		attendre (1) secondes
+Tu peux même concevoir un autre fond pour créer le niveau suivant. Ajoute ensuite du code pour que, lorsque ton personnage atteint la porte verte, le jeu bascule vers le nouvel arrière-plan :
+
+![sprite pico walking](images/pico_walking_sprite.png)
+
+```blocks3
+	if <touching color [#00FF00]?> then
+		switch backdrop to (next backdrop v)
+		go to x: (-210) y: (-120)
+		wait (1) seconds
 	end
 ```
-
-
-
---- /challenge ---

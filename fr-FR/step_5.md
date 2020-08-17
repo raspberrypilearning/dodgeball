@@ -1,8 +1,5 @@
---- challenge ---
-## Défi : Bond Amélioré 
-Votre personnage peut sauter lorsque la barre d'espace est appuyée même s'il est déjà dans les airs. Vous pouvez tester cette fonction en maintenant la barre d'espace. Pouvez-vous réparer cela pour que votre personnage puisse seulement sauter `si`{:class="blockcontrol"} il touche une plateforme bleue?
+## Défi : saut amélioré
 
+Même si le personnage est déjà dans les airs, il saute chaque fois que le joueur appuie sur la barre <kbd>espace</kbd>. Tu peux constater ce comportement si tu maintiens la barre <kbd>espace</kbd> enfoncée.
 
-
-
---- /challenge ---
+Peux-tu changer le code pour sauter du sprite du personnage afin que ton personnage ne puisse sauter que `si`{:class="block3control"} il touche une plate-forme bleue ?

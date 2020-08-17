@@ -1,14 +1,9 @@
---- challenge ---
-## Défi : balles aléatoires 
-Les balles que votre personnage doit esquiver ont tous la même apparence et apparaissent toujours à chaque 3 secondes. Pouvez-vous les améliorer pour qu'elles :
+## Défi : balles aléatoires
 
-+ ne se ressemblent pas ?
-+ apparaissent après un temps aléatoire ?
-+ soient d'une taille aléatoire ?
+Les balles que ton personnage doit esquiver se ressemblent toutes et elles apparaissent toutes les trois secondes. Peux-tu ajouter du code à ton jeu pour que les balles :
 
-![screenshot](images/dodge-ball-random.png)
++ Ne se ressemblent pas ?
++ Apparaissent après une durée `aléatoire`{:class="block3operators"} ?
++ Aient une taille aléatoire ?
 
-
-
-
---- /challenge ---
+![capture d'écran](images/dodge-ball-random.png)

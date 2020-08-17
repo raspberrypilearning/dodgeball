@@ -1,27 +1,23 @@
---- challenge ---
-## Défi : gravité améliorée 
-Il y a un autre petit bogue dans votre jeu : la gravité ne tire pas votre personnage vers le bas si n'importe quelle de ses parties touchent une plateforme bleue ! Vous pouvez tester cela en montant sur une échelle et en vous déplaçant ensuite à gauche.
+## Défi : gravité améliorée
 
-![screenshot](images/dodge-gravity-bug.png)
+Il y a un autre petit bug dans ton jeu : la gravité ne pousse pas le personnage vers le bas si **une** partie du sprite touche une plate-forme bleue. Donc, même si la tête du sprite touche une plate-forme, le sprite ne tombe pas ! Tu peux le tester toi-même: fais grimper ton personnage le plus haut possible, puis déplace-le latéralement sous une plate-forme :
 
-Pouvez-vous corriger ce bogue ? Pour faire cela, vous devez changer la couleur du pantalon de votre personnage (Sur tous les costumes)...
+![capture d'écran](images/dodge-gravity-bug.png)
 
-![screenshot](images/dodge-trousers.png)
+Pour résoudre ce problème, tu dois d’abord donner à ton personnage un nouveau pantalon de couleur différente (sur **tous** les costumes).
 
-... et remplacez ensuite le code:
+![capture d'écran](images/dodge-trousers.png)
 
-```blocks
-	< couleur [#0000FF] touchée? >
+Puis remplace ce bloc de code :
+
+```blocks3
+    < touching color [#0000FF]? >
 ```
 
-avec:
+avec ce bloc de code :
 
-```blocks
-	< couleur [#00FF00] touche [#0000FF]? >
+```blocks3
+    < color [#00FF00] is touching [#0000FF]? >
 ```
 
-N'oubliez pas de tester vos améliorations pour vous assurer que vous avez corrigé le bogue!
-
-
-
---- /challenge ---
+Pour t'assurer que tu as corrigé le bogue, teste le jeu après avoir apporté ces modifications !
