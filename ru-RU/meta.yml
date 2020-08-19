@@ -1,0 +1,28 @@
+---
+hero_image: images/banner.png
+listed: true
+ingredient: false
+copyedit: false
+title: Вышибалы
+description: Создай игру платформер, в котором ты будешь уклоняться от мячей, чтобы достичь конца уровня
+version: 4.0.0
+last_tested: 10-10-2018
+steps:
+  - title: Введение
+  - title: Движение персонажа
+  - title: "Задание: заверши уровень"
+    challenge: true
+  - title: Гравитация и прыжки
+  - title: 'Задание: улучшить гравитацию'
+    challenge: true
+  - title: Уклонение от мячей
+  - title: 'Задание: случайные мячи'
+    challenge: true
+  - title: Лазеры!
+  - title: 'Задание: больше препятствий'
+    challenge: true
+  - title: 'Задание: улучшить гравитацию'
+    challenge: true
+  - title: 'Задание: добавить жизни'
+    challenge: true
+  - title: Что дальше?
