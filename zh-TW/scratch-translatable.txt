@@ -1,9 +1,9 @@
-gravity
+重力
 
-jump height
+彈跳力
 
-hit
+擊中了
 
-on
+開啟
 
-off
+關閉
