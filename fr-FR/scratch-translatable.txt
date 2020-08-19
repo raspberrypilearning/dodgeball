@@ -1,9 +1,9 @@
-gravity
+gravité
 
-jump height
+hauteur du saut
 
-hit
+touché
 
-on
+allumé
 
-off
+éteint
