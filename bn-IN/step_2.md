@@ -1,26 +1,26 @@
-## Character movement
+## Character এর চলন
 
-Start by creating a character that can move left and right, and can climb up ladders.
+এমন একটি character তৈরি করে শুরু করুন যা বাম এবং ডানদিকে যেতে পারে এবং মই দিয়ে উঠতে পারে।.
 
 \--- task \---
 
-Open the 'Dodgeball' Scratch starter project.
+'Dodgeball' Scratch starter project খুলুন।.
 
-**Online:** open the starter project at [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}.
+**Online:** starter প্রকল্প এখানে খুলুন [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+আপনার যদি scratch অ্যাকাউন্ট থাকে তবে আপনি **Remix** ক্লিক করে এটির একটি অনুলিপি তৈরি করতে পারেন ।.
 
-**Offline:** download the starter project from [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) and then open it using the offline editor.
+**Offline:** প্রজেক্ট টি [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) থেকে ডাউনলোড করুন এবং সেটি অফলাইন এডিটর ব্যবহার করে খুলুন.
 
 \--- /task \---
 
-The project contains a backdrop with platforms:
+প্রকল্পটিতে প্ল্যাটফর্মগুলির সাথে একটি ব্যাকড্রপ রয়েছে:
 
 ![dodgeball project background](images/dodge-background.png)
 
 \--- task \---
 
-Choose a new sprite as the character the player will control, and add it to your project. It's best if you choose a sprite with multiple costumes, so that you can make it look as though it's walking.
+Choose a new sprite as the character the player will control, and add it to your project. আপনি একাধিক costume এর সাথে একটি sprite বেছে নিলে এটি সর্বোত্তম হয়, যাতে এটিকে হাঁটাচলা করার মতো দেখায়।.
 
 ![pick a sprite](images/dodge-characters.png)
 
@@ -30,7 +30,7 @@ Choose a new sprite as the character the player will control, and add it to your
 
 \--- task \---
 
-Add code blocks to your character sprite so that the player can use the arrow keys to move the character around. When the player presses the right arrow, the character should point right, move a few steps, and change to the next costume:
+আপনার character sprite এ কোড ব্লক যুক্ত করুন যাতে প্লেয়ার character টিকে চারপাশে সরানোর জন্য তীরযুক্ত কী বা arrow keys গুলো ব্যবহার করতে পারে।. প্লেয়ার যখন right arrow চাপছে, character টিকে ডানদিকে নির্দেশ করা উচিত, কয়েক ধাপ সরিয়ে নিয়ে, পরবর্তী costume পরিবর্তন করা উচিত:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -49,7 +49,7 @@ end
 
 \--- task \---
 
-If your sprite doesn't fit, adjust its size.
+যদি আপনার sprite ফিট না করে তবে এর আকারটি সামঞ্জস্য করুন।.
 
 ![set sprite size so it fits](images/dodge-sprite-size-annotated.png)
 
@@ -57,7 +57,7 @@ If your sprite doesn't fit, adjust its size.
 
 \--- task \---
 
-Test out your character by clicking the flag and then holding down the right arrow key. Does your character move to the right? Does your character look like it is walking?
+পতাকাটিতে ক্লিক করে এবং তারপরে right arrow key ধরে রেখে আপনার character টি পরীক্ষা করে দেখুন।. আপনার character কি ডানে যায়? Character দেখে মনে হয় এটি হাঁটছে?
 
 ![screenshot](images/dodge-walking.png)
 
@@ -65,19 +65,19 @@ Test out your character by clicking the flag and then holding down the right arr
 
 \--- task \---
 
-Add code blocks to the character sprite's `forever`{:class="block3control"} loop so that it walks left if the left arrow key is pressed.
+Character sprite এর লুপে এই কোড ব্লক যোগ করুন `forever`{:class="block3control"} যাতে এটি বাম দিকে যায় left arrow key চাপলে.
 
 \--- hints \---
 
 \--- hint \---
 
-So that your character can move to the left, you'll need to add another `if`{:class="block3control"} block inside the `forever`{:class="block3control"} loop. In this new `if`{:class="block3control"} block, add code to make your character sprite `move`{:class="block3motion"} to the left.
+যাতে character টি বাম দিকে যেতে পারে, আপনাকে `if`{:class="block3control"} এই ব্লক যোগ করতে হবে `forever`{:class="block3control"} loop এর মধ্যে।. এই নতুন `if`{:class="block3control"} ব্লক এর মধ্যে, character sprite কোড যুক্ত করুন `move`{:class="block3motion"} যাতে এটি বাম দিকে যায়.
 
 \--- /hint \---
 
 \--- hint \---
 
-Copy the code you created to make the character walk to the right. Then set the `key pressed`{:class="block3sensing"} to the `left arrow`{:class="block3sensing"}, and change the `direction`{:class="block3motion"} to `-90`.
+Character টি ডানদিকে হাঁটতে আপনি তৈরি কোডটি অনুলিপি করুন।. `key pressed`{:class="block3sensing"} এটিকে `left arrow`{:class="block3sensing"} এটিতে পরিবর্তন করুন, এবং `direction`{:class="block3motion"} এটিকে বদলে করুন `-90` তে.
 
 ```blocks3
 if <key (right arrow v) pressed? > then
@@ -91,7 +91,7 @@ end
 
 \--- hint \---
 
-Your code should look like this now:
+আপনার কোডটি দেখতে এমন হওয়া উচিত:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -119,15 +119,15 @@ end
 
 \--- task \---
 
-Test your new code to make sure that it works. Does your character turn upside-down when walking to the left?
+আপনার নতুন কোডটি কাজ করে তা নিশ্চিত করার জন্য পরীক্ষা করুন।. বাম দিকে হাঁটার সময় আপনার character টি কি উল্টো দিকে ঘুরছে?
 
 ![screenshot](images/dodge-upside-down.png)
 
-If so, you can fix this by clicking on the **direction** of your character sprite, and then clicking on the left-right arrow.
+যদি তা হয় তবে **direction** ক্লিক করে আপনি এটি ঠিক করতে পারেন এবং তারপরে বাম-ডান তীর বা left-right arrow ক্লিক করুন।.
 
 ![screenshot](images/dodge-left-right-annotated.png)
 
-Or if you prefer, you can also fix the problem by adding this block to the start of your character's script:
+অথবা আপনি যদি মনে করেন তবে আপনার character script এর শুরুতে এই ব্লকটি যুক্ত করে সমস্যাটি ঠিক করতে পারেন:
 
 ```blocks3
 set rotation style [left-right v]
@@ -137,7 +137,7 @@ set rotation style [left-right v]
 
 \--- task \---
 
-To climb a pink ladder, your character sprite should move a few steps upwards on the Stage whenever the up arrow is pressed **and** the character is touching the correct colour.
+গোলাপী মইয়ের উপরে উঠতে, যখনই উপরের তীরটি চাপা হয় তখন আপনার character sprite টি স্টেজের উপরে কয়েক ধাপ উপরে যাবে **and** character টি সঠিক রঙ স্পর্শ করবে ।.
 
 Add inside your character's `forever`{:class="block3control"} loop to `change`{:class="block3motion"} the character's `y` (vertical) position `if`{:class="block3control"} the `up arrow is pressed`{:class="block3sensing"} and the character is `touching the colour pink`{:class="block3sensing"}.
 
@@ -153,7 +153,7 @@ Add inside your character's `forever`{:class="block3control"} loop to `change`{:
 
 \--- task \---
 
-Test your code. Can you make the character climb the pink ladders and get to the end of the level?
+আপনার কোড পরীক্ষা করুন।. আপনি কি character টিকে গোলাপী মইয়ের উপরে তুলে স্তরটির শেষে যেতে পারেন?
 
 ![screenshot](images/dodge-test-character.png)
 
