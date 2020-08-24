@@ -1,5 +1,5 @@
-## Challenge: better jumping
+## Challenge: আরও ভাল লাফানো
 
-Even if the character is already in mid-air, it jumps whenever the player presses the <kbd>space</kbd> bar. You can see this behaviour if you hold down the <kbd>space</kbd> bar.
+Character টি ইতিমধ্যে বাতাসে থাকলেও, যখনই প্লেয়ার <kbd>space</kbd> চাপে তখন তা লাফ দেয়।. <kbd>space</kbd> ধরে রাখলে আপনি এই আচরণটি দেখতে পাবেন।.
 
-Can you change the character sprite's code for jumping so that your character can only jump `if`{:class="block3control"} it touches a blue platform?
+Character sprite এর লাফানোর কোড পরিবর্তন করতে পারেন কি যাতে character টি লাফায় শুধু মাত্র এই `if`{:class="block3control"} অংশ টি নীল প্লাটফর্মে স্পর্শ করলে?
