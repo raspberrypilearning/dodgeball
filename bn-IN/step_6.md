@@ -1,10 +1,10 @@
-## Dodging balls
+## বল ডজিং
 
-Your character can move and jump now, so it's time to add some balls that the character has to avoid.
+আপনার character টি এখন সরতে এবং লাফাতে পারে, তাই character টি এড়িয়ে চলবে এমন কয়েকটি বল যুক্ত করার সময় এসেছে ।.
 
 \--- task \---
 
-Create a new ball sprite. You can choose any type of ball you like.
+একটি নতুন বল/ball sprite তৈরি করুন।. আপনি যে কোনও ধরণের বল পছন্দ করতে পারেন।.
 
 ![screenshot](images/dodge-balls.png)
 
@@ -12,7 +12,7 @@ Create a new ball sprite. You can choose any type of ball you like.
 
 \--- task \---
 
-Resize the ball sprite so that the character can jump over it. Try making the character jump over the ball to test whether the ball is the right size.
+বল sprite কে resize করুন যাতে character টি তার উপরে লাফিয়ে উঠতে পারে।. Try making the character jump over the ball to test whether the ball is the right size.
 
 ![screenshot](images/dodge-ball-resize.png)
 
@@ -20,7 +20,7 @@ Resize the ball sprite so that the character can jump over it. Try making the ch
 
 \--- task \---
 
-Add this code to your ball sprite:
+আপনার ball sprite এ এই কোড যুক্ত করুন:
 
 ![ball sprite](images/ball_sprite.png)
 
@@ -50,7 +50,7 @@ end
 delete this clone
 ```
 
-This code creates a new clone of the ball sprite every three seconds. Each new clone moves along the top platform and then drops.
+এই কোড প্রতি তিন সেকেন্ডে বল sprite এর একটি নতুন ক্লোন তৈরি করে।. প্রতিটি নতুন ক্লোন উপরের প্ল্যাটফর্মের সাথে সরতে পারে এবং তারপরে পড়ে যায়।.
 
 \--- /task \---
 
