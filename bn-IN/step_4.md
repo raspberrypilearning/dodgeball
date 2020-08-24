@@ -1,10 +1,10 @@
-## Gravity and jumping
+## মাধ্যাকর্ষণ এবং লাফানো
 
-Now you're going to make your character move more realistically: you're going to add gravity to your game and give the character the ability to jump.
+এখন আপনি আপনার character টিকে আরও বাস্তবিক ভাবে চালিত করতে যাচ্ছেন: আপনি আপনার গেমটিতে মহাকর্ষ যুক্ত করবেন এবং চরিত্রটিকে লাফ দেওয়ার ক্ষমতা দেবেন।.
 
 \--- task \---
 
-In the game, move your character so that it walks off a platform. Do you see that it can walk into empty space?
+গেমটিতে, আপনার character টি এমনভাবে সরান যাতে এটি প্ল্যাটফর্মের বাইরে চলে যায়।. আপনি দেখতে পাচ্ছেন যে এটি খালি জায়গায় হাটতে পারে?
 
 ![screenshot](images/dodge-no-gravity.png)
 
@@ -12,11 +12,11 @@ In the game, move your character so that it walks off a platform. Do you see tha
 
 \--- task \---
 
-To fix this, add gravity to your game. To do this, create a new variable called `gravity`{:class="block3variables"}.
+এটি ঠিক করতে গেমটিতে মহাকর্ষ যুক্ত করুন।. ইহা করতে নতুন variable যুক্ত করুন `gravity`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
-You can hide this variable from your Stage if you want to.
+আপনি চাইলে আপনি এই variable টি আপনার স্টেজ থেকে আড়াল করতে পারেন।.
 
 ![screenshot](images/dodge-gravity-annotated.png)
 
@@ -24,7 +24,7 @@ You can hide this variable from your Stage if you want to.
 
 \--- task \---
 
-Add these new code blocks that set `gravity` to a negative number and use the value of `gravity` to repeatedly change your character's y-coordinate:
+এই নতুন কোড ব্লকগুলি যোগ করুন যা `gravity` সেট করে ঋণাত্মক সংখ্যায় এবং `gravity` মানটি ব্যবহার করুন আপনার character Y- অক্ষ বারবার পরিবর্তন করতে:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -40,7 +40,7 @@ Add these new code blocks that set `gravity` to a negative number and use the va
 
 \--- task \---
 
-Click the flag, and then drag your character to the top of the Stage. What happens? Does the gravity work as you expect?
+পতাকাটিতে ক্লিক করুন, এবং তারপরে আপনার চরিত্রটিকে স্টেজের শীর্ষে টেনে আনুন ।. কি ঘটেছে? আপনার প্রত্যাশা অনুযায়ী মাধ্যাকর্ষণ কি কাজ করে?
 
 ![screenshot](images/dodge-gravity-drag.png)
 
@@ -48,7 +48,7 @@ Click the flag, and then drag your character to the top of the Stage. What happe
 
 \--- task \---
 
-Gravity shouldn't move the character sprite through a platform or a ladder! Add an `if`{:class="block3control"} block to your code to only let the gravity work when the character is in mid-air. The gravity code should then look like this:
+মাধ্যাকর্ষণটি কোনও প্ল্যাটফর্ম বা মই দিয়ে character sprite কে সরাতে পারবে না! একটি `if`{:class="block3control"} ব্লক কোড যুক্ত করুন যাতে character টি মধ্য বায়ুতে থাকলে মাধ্যাকর্ষণ কাজ করে।. মাধ্যাকর্ষণ কোডটি এর পরে দেখতে হবে:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -66,7 +66,7 @@ Gravity shouldn't move the character sprite through a platform or a ladder! Add 
 
 \--- task \---
 
-Test the game again to see whether gravity works correctly now. Does your character sprite stop falling when it touches a platform or a ladder? Can you make the character walk off the edge of platforms and fall onto the level below?
+মাধ্যাকর্ষণটি এখন সঠিকভাবে কাজ করে কিনা তা দেখতে আবার গেমটি পরীক্ষা করুন।. আপনার character sprite টি যখন প্ল্যাটফর্ম বা মইয়ের সাথে স্পর্শ করে তখন কি পড়ে যাওয়া বন্ধ হয়ে যায়? আপনি কি character টিকে প্ল্যাটফর্মের প্রান্ত থেকে দূরে ফেলতে এবং নীচের স্তরের দিকে নিয়ে যেতে পারেন?
 
 ![screenshot](images/dodge-gravity-test.png)
 
@@ -74,7 +74,7 @@ Test the game again to see whether gravity works correctly now. Does your charac
 
 \--- task \---
 
-Now add code to make your character jump whenever the player presses the <kbd>space</kbd> key. One very easy way to do this is to move your character up a few times:
+যখনই প্লেয়ার <kbd>space</kbd> key চাপবেন তখন আপনার character টিকে লাফিয়ে তোলার জন্য কোড যোগ করুন. এটি করার একটি খুব সহজ উপায় হ'ল আপনার চরিত্রটি কয়েকবার উপরে উঠানো:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -85,25 +85,25 @@ Now add code to make your character jump whenever the player presses the <kbd>sp
     end
 ```
 
-Because gravity is constantly pushing your character down by 4 pixels, you need to choose a number greater than `4` in your `change y by (4)`{:class="block3motion"} block. Change the number until you're happy with the height the character jumps.
+মাধ্যাকর্ষণ ক্রমাগত আপনার character কে 4 পিক্সেল নীচে নামিয়ে দিচ্ছে, আপনাকে `4` এর চেয়ে বড় একটি সংখ্যা চয়ন করতে হবে `change y by (4)`{:class="block3motion"} এই ব্লকে. Character টির উচ্চতা নিয়ে আপনি খুশি না হওয়া পর্যন্ত নম্বরটি পরিবর্তন করুন।.
 
 \--- /task \---
 
 \--- task \---
 
-Test out your code. Notice that the jumping movement isn't very smooth. To make jumping look smoother, you need to move your character sprite by smaller and smaller amounts, until it is not rising any higher.
+আপনার কোড পরীক্ষা করুন।. লক্ষ্য করুন লাফানোটি খুব মসৃণ নয়।. লাফানোকে মসৃণ চেহারা দেওয়ার জন্য, আপনার character sprite টিকে আরও ছোট ছোট পরিমাণে স্থানান্তরিত করতে হবে, যতক্ষণ না এটি উপরে উঠছে ।.
 
 \--- /task \---
 
 \--- task \---
 
-To do this, create a new variable called `jump height`{:class="block3variables"}. Again, you can hide this variable if you prefer.
+ইহা করতে নতুন variable যুক্ত করুন `jump height`{:class="block3variables"}. আবার আপনি চাইলে এই variable টি আড়াল করতে পারেন।.
 
 \--- /task \---
 
 \--- task \---
 
-Delete the jumping code you added to your character sprite, and add this code instead:
+আপনি character sprite এ যুক্ত জাম্পিং কোডটি delete করুন এবং পরিবর্তে এই কোডটি যুক্ত করুন:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -116,14 +116,14 @@ Delete the jumping code you added to your character sprite, and add this code in
     end
 ```
 
-This code moves your character up by 8 pixels, then 7.5 pixels, then 7 pixels, and so on, until it does not rise any higher. This makes jumping look much smoother.
+এই কোডটি আপনার character টিকে 8 পিক্সেল, তারপরে 7.5 পিক্সেল, তারপর 7 পিক্সেল এইভাবে উপরে নিয়ে যায়, যতক্ষণ না এটি আরো উপরে ওঠে ।. এটি লাফানোটিকে বেশ মসৃণ করে তোলে।.
 
 \--- /task \---
 
 \--- task \---
 
-Change the value of the `jump height`{:class="block3variables"} variable that is set before the `repeat`{:class="block3control"} starts. Then test your game.
+`jump height`{:class="block3variables"} variable এর মান পরিবর্তন করুন যাহা `repeat`{:class="block3control"} শুরু হবার আগে বসানো. তারপরে আপনার গেমটি পরীক্ষা করুন।.
 
-Repeat these two steps until you're happy with how high the character jumps.
+Character টির লাফানোর উচ্চতা নিয়ে খুশি না হওয়া পর্যন্ত ওই দুটি পদ্ধতি পুনরাবিবৃতি করুন ।.
 
 \--- /task \---
