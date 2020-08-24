@@ -3,38 +3,38 @@ hero_image: images/banner.png
 listed: true
 ingredient: false
 copyedit: false
-title: Dodgeball
-description: Create a platform game in which you dodge moving balls to reach the end of the level
+title: ডজবল
+description: এমন প্ল্যাটফর্ম গেম তৈরি করুন যাতে আপনি চলমান বলগুলিকে স্তরের শেষ প্রান্তে পৌঁছানোর জন্য ডজ করতে পারেন
 version: 4.0.0
 last_tested: 2018-10-10
 steps:
   - 
-    title: Introduction
+    title: ভূমিকা
   - 
-    title: Character movement
+    title: Character এর চলন
   - 
-    title: "Challenge: completing the level"
+    title: "Challenge: স্তরটি সম্পূর্ণ করা"
     challenge: true
   - 
-    title: Gravity and jumping
+    title: মাধ্যাকর্ষণ এবং লাফানো
   - 
-    title: 'Challenge: improved jumping'
+    title: 'Challenge: লাফানোর মান উন্নীতকরণ'
     challenge: true
   - 
-    title: Dodging balls
+    title: বল ডজিং
   - 
-    title: 'Challenge: random balls'
+    title: 'Challenge: যেকোনো বল'
     challenge: true
   - 
-    title: Lasers!
+    title: লেজার!
   - 
-    title: 'Challenge: more obstacles'
+    title: 'Challenge: প্রতিবন্ধকতা'
     challenge: true
   - 
-    title: 'Challenge: improved gravity'
+    title: 'Challenge: উন্নত মাধ্যাকর্ষণ'
     challenge: true
   - 
-    title: 'Challenge: more lives'
+    title: 'Challenge: আরো বেশি life'
     challenge: true
   - 
-    title: What next?
+    title: এরপর কি?
