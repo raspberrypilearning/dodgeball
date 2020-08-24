@@ -56,7 +56,7 @@ delete this clone
 
 \--- task \---
 
-Click the flag to test the game.
+গেমটি পরীক্ষা করতে পতাকাতে ক্লিক করুন।.
 
 ![screenshot](images/dodge-ball-test.png)
 
@@ -64,7 +64,7 @@ Click the flag to test the game.
 
 \--- task \---
 
-Add more code to your ball sprite so that clones of it move across all three platforms.
+আপনার বল sprite এ আরও কোড যুক্ত করুন যাতে এর ক্লোনগুলি তিনটি প্ল্যাটফর্ম জুড়ে চলতে পারে।.
 
 ![screenshot](images/dodge-ball-more-motion.png)
 
@@ -72,13 +72,13 @@ Add more code to your ball sprite so that clones of it move across all three pla
 
 \--- hint \---
 
-Repeat the code blocks you used to move the ball sprite clone across the first platform. You need to change the `x`{:class="block3motion"}, `y`{:class="block3motion"}, and `repeat`{:class="block3control"} numbers so that the clones follow the platforms correctly.
+আপনি প্রথম প্ল্যাটফর্ম জুড়ে বল sprite ক্লোন সরানোর জন্য যে কোড ব্লকগুলি ব্যবহার করেছিলেন সেগুলি পুনরাবৃত্তি করুন।. `x`{:class="block3motion"}, `y`{:class="block3motion"}, এবং `repeat`{:class="block3control"} নম্বরগুলি পরিবর্তন করতে হবে যাতে ক্লোনগুলি প্লাটফর্মকে সঠিক ভাবে অনুসরণ করে.
 
 \--- /hint \---
 
 \--- hint \---
 
-These are the blocks you need. Make sure you add them in the correct order.
+আপনার প্রয়োজনীয় কোডগুলি এখানে রইল. আপনি এগুলি সঠিক ক্রমে যুক্ত করেছেন তা নিশ্চিত করুন।.
 
 ![ball sprite](images/ball_sprite.png)
 
@@ -102,7 +102,7 @@ end
 
 \--- hint \---
 
-The code for your ball sprite clones should look like this:
+আপনার বল sprite ক্লোনগুলির কোডটি দেখতে এমন হওয়া উচিত:
 
 ![ball sprite](images/ball_sprite.png)
 
@@ -142,9 +142,9 @@ delete this clone
 
 \--- task \---
 
-Now add some code blocks to broadcast (send) a message if your character gets hit by a ball!
+আপনার character টি যদি কোনও বল দ্বারা আঘাতের শিকার হয় তবে একটি বার্তা সম্প্রচার (broadcast) করতে করতে কয়েকটি কোড ব্লক যুক্ত করুন!
 
-Add this code to your ball sprite:
+আপনার ball sprite এ এই কোডটি যুক্ত করুন:
 
 ![ball sprite](images/ball_sprite.png)
 
