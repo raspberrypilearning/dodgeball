@@ -1,5 +1,5 @@
-## Challenge: completing the level
+## Challenge: স্তরটি সম্পূর্ণ করা
 
-Can you add more code blocks to your character sprite to make the sprite say something `if`{:class="block3control"} it gets to the green door?
+আপনি কী আপনার character sprite এ আরও কোড ব্লক যুক্ত করতে পারেন যাতে sprite টি সবুজ দরজার দিকে গেলে কিছু বলে `if`{:class="block3control"}?
 
 ![screenshot](images/dodge-win.png)
