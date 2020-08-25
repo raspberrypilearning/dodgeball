@@ -1,14 +1,14 @@
-## Challenge: more obstacles
+## Challenge: আরও বেশি বাধা
 
-If you think your game is still too easy, you can add more obstacles to it. The obstacles can be anything you like! Here are some ideas:
+আপনি যদি মনে করেন গেমটি এখনও খুব সহজ, আপনি এতে আরও বেশি বাধা যুক্ত করতে পারেন।. বাধাগুলি আপনার পছন্দ মতো যা কিছু হতে পারে! এখানে কিছু ধারনা দেওয়া হলো:
 
-+ A dangerous butterfly
-+ Platforms that appear and disappear
-+ Falling tennis balls that must be avoided
++ একটি বিপজ্জনক প্রজাপতি
++ এমন কিছু প্ল্যাটফর্ম যা প্রদর্শিত হয় এবং আবার অদৃশ্য হয়ে যায়
++ এমন কিছু টেনিস বল পড়ছে যেগুলো এড়িয়ে এগিয়ে যাওয়া যায়
 
 ![screenshot](images/dodge-obstacles.png)
 
-You could even design another backdrop to create the next level. Then add code so that, when your character reaches the green door, the game switches to the new background:
+এমনকি আপনি পরবর্তী স্তর তৈরি করতে অন্য একটি ব্যাকড্রপ বানাতে পারেন।. তারপরে কোড যুক্ত করুন যাতে আপনার character টি সবুজ দরজায় পৌঁছালে গেমটি নতুন পর্যায়ে চলে যায়:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
