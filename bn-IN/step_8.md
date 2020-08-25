@@ -1,10 +1,10 @@
-## Lasers!
+## লেজার!
 
-To your game a little harder to complete, you are going to add lasers!
+গেমটি শেষ করা যাতে আরো একটু বেশি কঠিন করা যায় তার জন্য আপনি লেজার যুক্ত করতে যাচ্ছেন!
 
 \--- task \---
 
-Add a new sprite to your game and call it `laser`. It should have two costumes: one called 'on', and one called 'off'.
+গেমটিতে একটি নতুন sprite যুক্ত করুন এবং এটির নাম দিন `laser`. এটিতে দুটি costume থাকতে হবে: একটিকে 'on' বলা হবে এবং অন্যটিকে বলা হবে 'off'.
 
 ![screenshot](images/dodge-lasers-costume1.png)
 
@@ -14,7 +14,7 @@ Add a new sprite to your game and call it `laser`. It should have two costumes: 
 
 \--- task \---
 
-Place your new laser sprite between two platforms.
+দুটি প্ল্যাটফর্মের মধ্যে আপনার নতুন লেজার sprite রাখুন।.
 
 ![screenshot](images/dodge-lasers-position.png)
 
@@ -22,7 +22,7 @@ Place your new laser sprite between two platforms.
 
 \--- task \---
 
-Add code to your laser sprite to make it switch between its two costumes.
+আপনার লেজার sprite এ কোড যুক্ত করুন যাতে ইহা দুটি costume পরিবর্তন করতে পার।.
 
 ![laser sprite](images/laser_sprite.png)
 
@@ -36,31 +36,31 @@ Add code to your laser sprite to make it switch between its two costumes.
     end
 ```
 
-If you prefer, you can change the code shown above so that the sprite `waits`{:class="block3control"} a `random`{:class="block3operators"} amount of time between costume changes.
+যদি আপনি মনে করেন তাহলে উপরে কোডগুলো পরিবর্তন করতে পারেন যাতে sprite টি costume পরিবর্তনের মধ্যে `random`{:class="block3operators"} সময় `wait`{:class="block3control"} করতে পারে.
 
 \--- /task \---
 
 \--- task \---
 
-Finally, add code to your laser sprite so that the laser sprite broadcasts a 'hit' message when it touches the character sprite.
+এরপর আপনার লেজার sprite এ এমন কোড যুক্ত করুন যাতে লেজার sprite টি character sprite কে স্পর্শ করলে একটি 'hit' বার্তা প্রচারিত/broadcast হয়।.
 
 \--- hints \---
 
 \--- hint \---
 
-This code should be very similar to the code you added to your ball sprite.
+এই কোডটির বল sprite এ যুক্ত কোডের সাথে মিল থাকা উচিত।.
 
 \--- /hint \---
 
 \--- hint \---
 
-Copy the code you add to the ball sprite to make this sprite `broadcast 'hit'`{:class="block3control"} when it is `touching your character`{:class="block3sensing"}.
+Sprite টি যখন `touching your character`{:class="block3sensing"} হবে তখন `broadcast 'hit'`{:class="block3control"} সম্প্রচার করার জন্য কোডটি কপি করে বল sprite এ যুক্ত করুন.
 
 \--- /hint \---
 
 \--- hint \---
 
-This is the code you should add:
+এই কোডটি আপনাকে যুক্ত করা উচিত:
 
 ![laser sprite](images/laser_sprite.png)
 
@@ -77,12 +77,12 @@ end
 
 \--- /hints \---
 
-You don't need to add any extra code to your characters sprite, because the character sprite already knows what to do when it receives the `broadcast 'hit'`{:class="block3control"}!
+Character sprite এ আপনাকে কোনও অতিরিক্ত কোড যুক্ত করার দরকার নেই, কারণ Character sprite টি ইতিমধ্যে জেনে গেছে যখন এটি `broadcast 'hit'`{:class="block3control"} পাবে তখন কি করতে হবে!
 
 \--- /task \---
 
 \--- task \---
 
-Test out your game to see if you can move the character past the laser. If the laser is too easy or too hard to avoid, change the `wait`{:class="block3control"} times in the code for the laser sprite.
+গেমটি পরীক্ষা করে দেখুন যে আপনি লেজারের পাশ দিয়ে character টির স্থানান্তর করতে পারছেন কিনা।. যদি লেজারটি এড়ানো খুব সহজ বা খুব কঠিন হয় তবে লেজার sprite এর `wait`{:class="block3control"} এর সময় পরিবর্তন করতে কোড যুক্ত করুন.
 
 \--- /task \---
