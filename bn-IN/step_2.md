@@ -20,7 +20,7 @@
 
 \--- task \---
 
-Choose a new sprite as the character the player will control, and add it to your project. আপনি একাধিক costume এর সাথে একটি sprite বেছে নিলে এটি সর্বোত্তম হয়, যাতে এটিকে হাঁটাচলা করার মতো দেখায়।.
+প্লেয়ারটি যে characterটি নিয়ন্ত্রণ করবে তার একটি নতুন sprite চয়ন করুন এবং এটি আপনার প্রকল্পে যুক্ত করুন।. আপনি একাধিক costume এর সাথে একটি sprite বেছে নিলে এটি সর্বোত্তম হয়, যাতে এটিকে হাঁটাচলা করার মতো দেখায়।.
 
 ![pick a sprite](images/dodge-characters.png)
 
