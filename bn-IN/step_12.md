@@ -1,10 +1,10 @@
-## What next?
+## এরপর কি?
 
-Have a go at our [Brain game](https://projects.raspberrypi.org/en/projects/brain-game?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, in which you can create your own maths quiz.
+আমাদের [Brain game](https://projects.raspberrypi.org/en/projects/brain-game?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) প্রকল্পে এবার একবার দেখুন, যেখানে আপনি আপনার নিজের maths quiz তৈরি করতে পারেন।.
 
 \--- no-print \---
 
-Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
+শুরু করতে বোতামটি ক্লিক করুন।. প্রশ্নের উত্তরে টাইপ করুন এবং তারপরে <kbd>Enter</kbd> চাপুন।.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
