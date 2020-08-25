@@ -1,7 +1,7 @@
-## Challenge: more lives
+## Challenge: আরও বেশি life
 
-Right now, your character goes back to its starting position when it gets hit. Can you also give the character sprite three `lives`{:class="block3variables"}, and make it lose one life when it gets hit? Here's how your game could work:
+এখন, আপনার character টি ধাক্কা খেলে সেটি তার শুরু অবস্থানে ফিরে যাবে।. আপনি কি character sprite কে তিনটি `lives`{:class="block3variables"} দিতে পারেন এবং আঘাতের পর এটি একটা life হারাবে সেরকম ভাবে বানাতে পারেন? আপনার গেমটি কীভাবে কাজ করতে পারে তা এখানে আছে:
 
-+ The game starts with three lives for the character
-+ Whenever the character gets hit, it loses one life **and** moves back to the start
-+ If there are no lives left, the game ends
++ গেমটি character এর তিনটি life দিয়ে শুরু হয়
++ যখনই character টি ধাক্কা খায়, তখন এটি একটি life হারায় **and** আবার শুরুর স্থানে চলে যায়
++ যদি আর কোনো life না থাকে, খেলা শেষ হবে
