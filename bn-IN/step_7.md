@@ -1,9 +1,9 @@
-## Challenge: random balls
+## Challenge: যেকোনো বল
 
-The balls that your character has to dodge all look the same, and they appear at regular three-second intervals. Can you add code to your game so that the balls:
+আপনার character টিকে যে বলগুলি লাফিয়ে পেরোতে বা dodge করতে হবে করতে হবে সেগুলি দেখতে একইরকম এবং সেগুলি পরপর তিন সেকেন্ডের বিরতিতে আসতে থাকে।. আপনি কি খেলায় কোড যুক্ত করতে পারেন যাতে বলগুলি:
 
-+ Don't all look the same?
-+ Appear after a `random`{:class="block3operators"} amount of time?
-+ Are a random size?
++ সব একই রকম দেখতে না হয়?
++ `random`{:class="block3operators"} সময় এর পর আসে?
++ বিভিন্ন আকারের?
 
 ![screenshot](images/dodge-ball-random.png)
