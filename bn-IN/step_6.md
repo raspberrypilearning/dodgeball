@@ -12,7 +12,7 @@
 
 \--- task \---
 
-বল sprite কে resize করুন যাতে character টি তার উপরে লাফিয়ে উঠতে পারে।. Try making the character jump over the ball to test whether the ball is the right size.
+বল sprite কে resize করুন যাতে character টি তার উপরে লাফিয়ে উঠতে পারে।. বল সঠিক আকারের কিনা তা পরীক্ষা করতে বলের উপর দিয়ে character টি লাফিয়ে দেখার চেষ্টা করুন।.
 
 ![screenshot](images/dodge-ball-resize.png)
 
@@ -161,7 +161,7 @@ delete this clone
 
 \--- task \---
 
-Finally, add code blocks to your character sprite to make it move back to its starting position when it receives the `hit` message:
+`hit` বার্তা পাওয়ার পরে character sprite কে আবার শুরুর স্থানে ফিরিয়ে আনতে এই কোড ব্লক যুক্ত করুন:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -175,6 +175,6 @@ Finally, add code blocks to your character sprite to make it move back to its st
 
 \--- task \---
 
-Test out your code. Check whether the character moves back to the start after touching a ball.
+কোড পরীক্ষা করুন।. বল স্পর্শ করার পরে character টি আবার শুরুতে ফিরে যায় কিনা তা পরীক্ষা করুন।.
 
 \--- /task \---
