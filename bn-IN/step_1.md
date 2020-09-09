@@ -1,6 +1,6 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. এই প্রকল্পের একটি [Scratch 2 version of the project ](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2) আছে.
+এটি ** Scratch 3 ** প্রকল্পের একটি সংস্করণ।. এই প্রকল্পের একটি [Scratch 2 version of the project ](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2) আছে.
 
 \--- /no-print \---
 
