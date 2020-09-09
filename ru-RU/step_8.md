@@ -65,12 +65,12 @@
 ![спрайт лазер](images/laser_sprite.png)
 
 ```blocks3
-when green flag clicked
-forever 
-  if <touching (Pico walking v) ?> then 
-    broadcast (hit v)
-  end
-end
+когда щёлкнут по зелёному флагу
+повторять всегда
+  если <touching (Pico walking v) ?>, то
+    передать (удар v)
+  конец
+конец
 ```
 
 \--- /hint \---
