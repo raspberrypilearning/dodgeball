@@ -13,15 +13,15 @@ steps:
   - title: "Challenge: স্তরটি সম্পূর্ণ করা"
     challenge: true
   - title: মাধ্যাকর্ষণ এবং লাফানো
-  - title: 'Challenge: লাফানোর মান উন্নীতকরণ'
+  - title: 'Challenge: আরও ভাল লাফানো'
     challenge: true
   - title: বল ডজিং
   - title: 'Challenge: যেকোনো বল'
     challenge: true
   - title: লেজার!
-  - title: 'Challenge: প্রতিবন্ধকতা'
+  - title: 'Challenge: পআরও বেশি বাধা'
     challenge: true
-  - title: 'Challenge: উন্নত মাধ্যাকর্ষণ'
+  - title: 'Challenge: মাধ্যাকর্ষণ আরও উন্নত করুন'
     challenge: true
   - title: 'Challenge: আরো বেশি life'
     challenge: true
