@@ -26,9 +26,9 @@
 --- /print-only ---
 
 --- collapse ---
-
-## শিরোনাম: আপনার যা প্রয়োজন হবে
-
+---
+title: আপনার যা প্রয়োজন হবে
+---
 ### Hardware
 
 + Scratch 3 চালানোর জন্য সক্ষম একটি কম্পিউটার
@@ -44,9 +44,9 @@
 --- /collapse ---
 
 --- collapse ---
-
-## শিরোনাম: যা শিখতে পারবেন
-
+---
+title: যা শিখতে পারবেন
+---
 + কীভাবে কী কীবোর্ড দিয়ে sprite নিয়ন্ত্রণ করতে পারবেন
 + কিভাবে `if, then, else`{:class="block3control"} Scratch block ব্যবহার করবেন
 + কিভাবে একটি sprite clone করবেন
@@ -54,9 +54,9 @@
 --- /collapse ---
 
 --- collapse ---
-
-## শিরোনাম: শিক্ষাবিদদের জন্য অতিরিক্ত তথ্য
-
+---
+title: শিক্ষাবিদদের জন্য অতিরিক্ত তথ্য
+---
 --- no-print ---
 
 আপনি যদি এই প্রজেক্টটি প্রিন্ট করতে চান তবে [printer-friendly version](https://projects.raspberrypi.org/bn-IN/projects/dodgeball/print){:target="_blank"} ব্যবহার করুন ।.
