@@ -1,0 +1,28 @@
+---
+hero_image: images/banner.png
+listed: true
+ingredient: false
+copyedit: false
+title: ডজবল
+description: এমন প্ল্যাটফর্ম গেম তৈরি করুন যাতে আপনি চলমান বলগুলিকে স্তরের শেষ প্রান্তে পৌঁছানোর জন্য ডজ করতে পারেন
+version: 4.0.0
+last_tested: 2018-10-10
+steps:
+  - title: ভূমিকা
+  - title: Character এর চলন
+  - title: "Challenge: স্তরটি সম্পূর্ণ করা"
+    challenge: true
+  - title: মাধ্যাকর্ষণ এবং লাফানো
+  - title: 'Challenge: লাফানোর মান উন্নীতকরণ'
+    challenge: true
+  - title: বল ডজিং
+  - title: 'Challenge: যেকোনো বল'
+    challenge: true
+  - title: লেজার!
+  - title: 'Challenge: প্রতিবন্ধকতা'
+    challenge: true
+  - title: 'Challenge: উন্নত মাধ্যাকর্ষণ'
+    challenge: true
+  - title: 'Challenge: আরো বেশি life'
+    challenge: true
+  - title: এরপর কি?
