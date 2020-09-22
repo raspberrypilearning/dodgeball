@@ -1,0 +1,28 @@
+---
+hero_image: images/banner.png
+listed: true
+ingredient: false
+copyedit: false
+title: डॉजबॉल
+description: असा एक प्लॅटफॉर्म गेम तयार करा ज्यात पातळी च्या शेवटाला पोहोचण्याकरत हलणाऱ्या चेंडुंना चकवा द्यावा लागेल
+version: 4.0.0
+last_tested: 2018-10-10
+steps:
+  - title: परिचय
+  - title: पात्राची हालचाल
+  - title: "आव्हान: स्तर पूर्ण करणे"
+    challenge: true
+  - title: गुरुत्वाकर्षण आणि उडी मारणे
+  - title: 'आव्हान: उडी सुधारणे'
+    challenge: true
+  - title: चेंडुंना चकवा देणे
+  - title: 'आव्हान: अनियत चेंडू'
+    challenge: true
+  - title: लेझर!
+  - title: 'आव्हान: अधिक अडथळे'
+    challenge: true
+  - title: 'आव्हान: सुधारित गुरुत्वाकर्षण'
+    challenge: true
+  - title: 'आव्हान: अधिक जीव'
+    challenge: true
+  - title: पुढे काय?
