@@ -59,7 +59,7 @@ Clique sur le drapeau vert pour commencer, puis utilise les touches fléchées p
 
 \--- no-print \---
 
-Si vous besoin d'imprimer ce projet, utilisez la [ version imprimable. ](https://projects.raspberrypi.org/en/projects/dodgeball/print) {:target="_blank"}.
+Si vous avez besoin d'imprimer ce projet, utilisez la [ version imprimable. ](https://projects.raspberrypi.org/en/projects/dodgeball/print) {:target="_blank"}.
 
 \--- /no-print \---
 
