@@ -40,7 +40,7 @@ title: 必要なもの
 
 ### ダウンロード
 
-[ここでダウンロードを見つけること](http://rpf.io/p/ja-JP/dodgeball-go)ができます 。
+[ここでダウンロードを見つけること](https://rpf.io/p/ja-JP/dodgeball-go)ができます 。
 
 --- /collapse ---
 
@@ -65,6 +65,6 @@ title: 教育者向けの追加メモ
 
 --- /no-print ---
 
-[ここで完成したプロジェクト](http://rpf.io/p/ja-JP/dodgeball-get)を見ることができます 。
+[ここで完成したプロジェクト](https://rpf.io/p/ja-JP/dodgeball-get)を見ることができます 。
 
 --- /collapse ---

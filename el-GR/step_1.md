@@ -39,7 +39,7 @@ title: Τι θα χρειαστείς
 
 ### Λήψεις
 
-Μπορείς να [βρεις τις λήψεις εδώ](http://rpf.io/p/el-GR/dodgeball-go).
+Μπορείς να [βρεις τις λήψεις εδώ](https://rpf.io/p/el-GR/dodgeball-go).
 
 --- /collapse ---
 
@@ -63,6 +63,6 @@ title: Πρόσθετες σημειώσεις για εκπαιδευτικού
 
 --- /no-print ---
 
-Μπορείς να βρεις το [ολοκληρωμένο έργο εδώ](http://rpf.io/p/el-GR/dodgeball-get).
+Μπορείς να βρεις το [ολοκληρωμένο έργο εδώ](https://rpf.io/p/el-GR/dodgeball-get).
 
 --- /collapse ---

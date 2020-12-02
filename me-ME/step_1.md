@@ -45,7 +45,7 @@ Za članove kluba koji nisu u mogućnosti da pristupe ovim izvorima projekta, po
 
 * U ovom projektu utvrđuju se prethodno savladane vještine programiranja.
 
-Ovim projektom obuhvaćeni su elementi iz sljedećih dijelova [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Ovim projektom obuhvaćeni su elementi iz sljedećih dijelova [Raspberry Pi Digital Making Curriculum](https://rpf.io/curriculum):
 
 * [Kombinujte programske konstrukcije za rješavanje problema.](https://www.raspberrypi.org/curriculum/programming/builder)
 

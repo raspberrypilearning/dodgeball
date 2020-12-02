@@ -40,7 +40,7 @@ title: 你需要准备什么
 
 ### 下载
 
-您可以从 [这里](http://rpf.io/p/zh-CN/dodgeball-go) 下载。
+您可以从 [这里](https://rpf.io/p/zh-CN/dodgeball-go) 下载。
 
 --- /collapse ---
 
@@ -66,6 +66,6 @@ title: 教师附加说明
 
 --- /no-print ---
 
-你可以在 [这里](http://rpf.io/p/zh-CN/dodgeball-get) 查看完整的项目.
+你可以在 [这里](https://rpf.io/p/zh-CN/dodgeball-get) 查看完整的项目.
 
 --- /collapse ---

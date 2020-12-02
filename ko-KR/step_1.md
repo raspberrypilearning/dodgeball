@@ -40,7 +40,7 @@ title: 준비물
 
 ### 다운로드 목록
 
-[여기](http://rpf.io/p/ko-KR/dodgeball-go)서 다운로드할 것들의 목록을 확인할 수 있습니다.
+[여기](https://rpf.io/p/ko-KR/dodgeball-go)서 다운로드할 것들의 목록을 확인할 수 있습니다.
 
 --- /collapse ---
 
@@ -66,6 +66,6 @@ title: 교육자를 위한 추가 정보
 
 --- /no-print ---
 
-여기서 [완성된 프로젝트](http://rpf.io/p/ko-KR/dodgeball-get)를 확인할 수 있습니다.
+여기서 [완성된 프로젝트](https://rpf.io/p/ko-KR/dodgeball-get)를 확인할 수 있습니다.
 
 --- /collapse ---

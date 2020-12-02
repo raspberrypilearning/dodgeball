@@ -40,7 +40,7 @@ title: Wat heb je nodig
 
 ### Downloads
 
-Je kunt [de downloads hier vinden](http://rpf.io/p/nl-NL/dodgeball-go).
+Je kunt [de downloads hier vinden](https://rpf.io/p/nl-NL/dodgeball-go).
 
 --- /collapse ---
 
@@ -66,6 +66,6 @@ Als je dit project wilt afdrukken, gebruik dan de [printvriendelijke versie](htt
 
 --- /no-print ---
 
-Als je de oplossing voor dit project nodig hebt, [kun je die hier vinden](http://rpf.io/p/nl-NL/dodgeball-get).
+Als je de oplossing voor dit project nodig hebt, [kun je die hier vinden](https://rpf.io/p/nl-NL/dodgeball-get).
 
 --- /collapse ---

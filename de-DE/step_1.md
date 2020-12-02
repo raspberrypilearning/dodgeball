@@ -39,7 +39,7 @@ title: Was du brauchen wirst
 
 ### Downloads
 
-Die [Downloads findest Du hier](http://rpf.io/p/de-DE/dodgeball-go).
+Die [Downloads findest Du hier](https://rpf.io/p/de-DE/dodgeball-go).
 
 --- /collapse ---
 
@@ -64,6 +64,6 @@ Wenn du dieses Projekt ausdrucken möchtest, verwende die [druckerfreundliche Ve
 
 --- /no-print ---
 
-Du findest das [abgeschlossene Projekt hier](http://rpf.io/p/de-DE/dodgeball-get).
+Du findest das [abgeschlossene Projekt hier](https://rpf.io/p/de-DE/dodgeball-get).
 
 --- /collapse ---
