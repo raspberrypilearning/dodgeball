@@ -40,7 +40,7 @@ title: ما الذي ستحتاجه
 
 ### للتحميل
 
-يمكنك [تحميل الملفات من هنا](http://rpf.io/p/ar-SA/dodgeball-go).
+يمكنك [تحميل الملفات من هنا](https://rpf.io/p/ar-SA/dodgeball-go).
 
 --- /collapse ---
 
@@ -66,6 +66,6 @@ title: ملاحظات إضافية للمعلمين
 
 --- /no-print ---
 
-يمكنك ايجاد [المشروع كامل هنا](http://rpf.io/p/ar-SA/dodgeball-get).
+يمكنك ايجاد [المشروع كامل هنا](https://rpf.io/p/ar-SA/dodgeball-get).
 
 --- /collapse ---

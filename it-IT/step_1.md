@@ -41,7 +41,7 @@ Per i soci del club che non possono accedere a queste risorse del progetto, c'è
 ## Obiettivi di apprendimento
 + Questo progetto consolida l'apprendimento delle tecniche di programmazione imparate precedentemente.
 
-Questo progetto copre elementi contenuti nei seguenti filoni di [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Questo progetto copre elementi contenuti nei seguenti filoni di [Raspberry Pi Digital Making Curriculum](https://rpf.io/curriculum):
 
 + [Combinazione di costrutti di programmazione per la soluzione di problemi.](https://www.raspberrypi.org/curriculum/programming/builder)
 

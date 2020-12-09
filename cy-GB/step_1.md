@@ -40,7 +40,7 @@ title: Beth fydd ei angen arno ti
 
 ### Lawrlwythiadau
 
-Gallwch chi ddod o hyd i'r [lawrlwythiadau yma](http://rpf.io/p/cy-GB/dodgeball-go).
+Gallwch chi ddod o hyd i'r [lawrlwythiadau yma](https://rpf.io/p/cy-GB/dodgeball-go).
 
 --- /collapse ---
 
@@ -66,6 +66,6 @@ Os oes angen i chi argraffu y prosiect, defnyddiwch [fersiwn i'w argraffu](https
 
 --- /no-print ---
 
-Gallwch ddod o hyd i'r prosiect gorffenedig [yma](http://rpf.io/p/cy-GB/dodgeball-get).
+Gallwch ddod o hyd i'r prosiect gorffenedig [yma](https://rpf.io/p/cy-GB/dodgeball-get).
 
 --- /collapse ---
