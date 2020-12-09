@@ -39,7 +39,7 @@
 
 ### Загрузки
 
-Скачать можно [здесь](http://rpf.io/p/en/dodgeball-go).
+You can [find the downloads here](https://rpf.io/p/en/dodgeball-go).
 
 \--- /collapse \---
 
@@ -63,6 +63,6 @@
 
 \--- /no-print \---
 
-Вы можете найти [завершенный проект здесь](http://rpf.io/p/en/dodgeball-get).
+You can find the [completed project here](https://rpf.io/p/en/dodgeball-get).
 
 \--- /collapse \---
