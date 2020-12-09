@@ -39,7 +39,7 @@ Click the green flag to start, and then use the arrow keys to move and the <kbd>
 
 ### Downloads
 
-You can [find the downloads here](http://rpf.io/p/en/dodgeball-go).
+You can [find the downloads here](https://rpf.io/p/en/dodgeball-go).
 
 \--- /collapse \---
 
@@ -63,6 +63,6 @@ If you need to print this project, please use the [printer-friendly version](htt
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/dodgeball-get).
+You can find the [completed project here](https://rpf.io/p/en/dodgeball-get).
 
 \--- /collapse \---
