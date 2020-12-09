@@ -39,7 +39,7 @@
 
 ### 下載
 
-材料包可[由此下載](http://rpf.io/p/en/dodgeball-go)。
+You can [find the downloads here](https://rpf.io/p/en/dodgeball-go).
 
 \--- /collapse \---
 
@@ -63,6 +63,6 @@
 
 \--- /no-print \---
 
-你可以在這裡找到[已經完成的專案](http://rpf.io/p/en/dodgeball-get)。
+You can find the [completed project here](https://rpf.io/p/en/dodgeball-get).
 
 \--- /collapse \---
