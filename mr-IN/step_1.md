@@ -39,7 +39,7 @@
 
 ### डाउनलोड्स
 
-आपण [येथे डाउनलोड](http://rpf.io/p/en/dodgeball-go) शोधू शकता.
+You can [find the downloads here](https://rpf.io/p/en/dodgeball-go).
 
 \--- /collapse \---
 
@@ -63,6 +63,6 @@
 
 \--- /no-print \---
 
-आपण [येथे पूर्ण केलेला प्रकल्प](http://rpf.io/p/en/dodgeball-get) शोधू शकता.
+You can find the [completed project here](https://rpf.io/p/en/dodgeball-get).
 
 \--- /collapse \---
