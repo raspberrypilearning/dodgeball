@@ -39,7 +39,7 @@
 
 ### ダウンロード
 
-[ここでダウンロードを見つけること](http://rpf.io/p/en/dodgeball-go)ができます 。
+You can [find the downloads here](https://rpf.io/p/en/dodgeball-go).
 
 \--- /collapse \---
 
@@ -63,6 +63,6 @@
 
 \--- /no-print \---
 
-[ここで完成したプロジェクト](http://rpf.io/p/en/dodgeball-get)を見ることができます 。
+You can find the [completed project here](https://rpf.io/p/en/dodgeball-get).
 
 \--- /collapse \---
