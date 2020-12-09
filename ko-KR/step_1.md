@@ -39,7 +39,7 @@
 
 ### 다운로드 목록
 
-[여기](http://rpf.io/p/en/dodgeball-go)서 다운로드할 것들의 목록을 확인할 수 있습니다.
+You can [find the downloads here](https://rpf.io/p/en/dodgeball-go).
 
 \--- /collapse \---
 
@@ -63,6 +63,6 @@
 
 \--- /no-print \---
 
-여기서 [완성된 프로젝트](http://rpf.io/p/en/dodgeball-get)를 확인할 수 있습니다.
+You can find the [completed project here](https://rpf.io/p/en/dodgeball-get).
 
 \--- /collapse \---
