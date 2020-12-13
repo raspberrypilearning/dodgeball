@@ -39,7 +39,7 @@
 
 ### ডাউনলোড
 
-এখানে আছে [find the downloads here](http://rpf.io/p/en/dodgeball-go).
+You can [find the downloads here](https://rpf.io/p/en/dodgeball-go).
 
 \--- /collapse \---
 
@@ -63,6 +63,6 @@
 
 \--- /no-print \---
 
-এখানে সমাপ্ত প্রকল্প সমূহ [completed project here](http://rpf.io/p/en/dodgeball-get) এখানে পাবেন.
+You can find the [completed project here](https://rpf.io/p/en/dodgeball-get).
 
 \--- /collapse \---
