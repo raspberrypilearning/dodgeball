@@ -1,9 +1,9 @@
-## Challenge: random balls
+## ಸವಾಲು: random ಚೆಂಡುಗಳು
 
-The balls that your character has to dodge all look the same, and they appear at regular three-second intervals. Can you add code to your game so that the balls:
+ನಿಮ್ಮ ಪಾತ್ರವು ತಪ್ಪಿಸಿಕೊಳ್ಳಬೇಕಾದ ಚೆಂಡುಗಳು ಒಂದೇ ರೀತಿ ಕಾಣುತ್ತವೆ, ಮತ್ತು ಅವು ನಿಯಮಿತವಾಗಿ ಮೂರು ಸೆಕೆಂಡುಗಳ ಮಧ್ಯಂತರದಲ್ಲಿ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತವೆ. ನಿಮ್ಮ ಆಟಕ್ಕೆ ಕೋಡ್ ಅನ್ನು ಸೇರಿಸಬಹುದೇ ಇದರಿಂದ ಚೆಂಡುಗಳು:
 
-+ Don't all look the same?
-+ Appear after a `random`{:class="block3operators"} amount of time?
-+ Are a random size?
++ ಎಲ್ಲವೂ ಒಂದೇ ರೀತಿ ಕಾಣುತ್ತಿಲ್ಲವೇ?
++ ಕೆಲವು `random`{:class="block3operators"} ಸಮಯದ ನಂತರ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತವೆಯೇ?
++ random ಗಾತ್ರವೇ?
 
 ![screenshot](images/dodge-ball-random.png)
