@@ -1,26 +1,26 @@
-## Character movement
+## ಪಾತ್ರ ಚಲನೆ
 
-Start by creating a character that can move left and right, and can climb up ladders.
+ಎಡ ಮತ್ತು ಬಲಕ್ಕೆ ಚಲಿಸಬಲ್ಲ ಮತ್ತು ಏಣಿಗಳನ್ನು ಏರುವಂತಹ ಅಕ್ಷರವನ್ನು ರಚಿಸುವ ಮೂಲಕ ಪ್ರಾರಂಭಿಸಿ.
 
 \--- task \---
 
-Open the 'Dodgeball' Scratch starter project.
+'Dodgeball' Scratch starter ಯೋಜನೆಯನ್ನು ತೆರೆಯಿರಿ.
 
-**Online:** open the starter project at [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}.
+**Online: ** [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}. ನಲ್ಲಿ ಸ್ಟಾರ್ಟರ್ ಯೋಜನೆಯನ್ನು ತೆರೆಯಿರಿ.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+ನೀವು Scratch ಖಾತೆಯನ್ನು ಹೊಂದಿದ್ದರೆ **Remix** ಕ್ಲಿಕ್ ಮಾಡುವ ಮೂಲಕ ನೀವು ನಕಲನ್ನು ಮಾಡಬಹುದು.
 
-**Offline:** download the starter project from [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) and then open it using the offline editor.
+**Offline:** [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) ನಿಂದ ಪ್ರಾರಂಭ ಯೋಜನೆಯನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ, ತದನಂತರ ಅದನ್ನುOffline editor ಬಳಸಿ ತೆರೆಯಿರಿ.
 
 \--- /task \---
 
-The project contains a backdrop with platforms:
+ಯೋಜನೆಯು ಪ್ಲಾಟ್‌ಫಾರ್ಮ್‌ಗಳೊಂದಿಗೆ ಹಿನ್ನೆಲೆ ಹೊಂದಿದೆ:
 
 ![dodgeball project background](images/dodge-background.png)
 
 \--- task \---
 
-Choose a new sprite as the character the player will control, and add it to your project. It's best if you choose a sprite with multiple costumes, so that you can make it look as though it's walking.
+ಆಟಗಾರನು ನಿಯಂತ್ರಿಸುವ ಪಾತ್ರದಂತೆ ಹೊಸ sprite ಅನ್ನು ಆರಿಸಿ ಮತ್ತು ಅದನ್ನು ನಿಮ್ಮ ಯೋಜನೆಗೆ ಸೇರಿಸಿ. ನೀವು ಅನೇಕ ವೇಷಭೂಷಣಗಳನ್ನು ಹೊಂದಿರುವ ಸ್ಪ್ರೈಟ್ ಅನ್ನು ಆರಿಸಿದರೆ ಅದು ಉತ್ತಮವಾಗಿರುತ್ತದೆ, ಇದರಿಂದಾಗಿ ನೀವು ಇದನ್ನು ನಡೆಯುತ್ತಿರುವಂತೆ ಕಾಣಿಸಬಹುದು.
 
 ![pick a sprite](images/dodge-characters.png)
 
@@ -30,7 +30,7 @@ Choose a new sprite as the character the player will control, and add it to your
 
 \--- task \---
 
-Add code blocks to your character sprite so that the player can use the arrow keys to move the character around. When the player presses the right arrow, the character should point right, move a few steps, and change to the next costume:
+ನಿಮ್ಮ sprite ಪಾತ್ರಕ್ಕೆ ಕೋಡ್ ಬ್ಲಾಕ್‌ಗಳನ್ನು ಸೇರಿಸಿ ಇದರಿಂದ ಆಟಗಾರನು ಪಾತ್ರವನ್ನು ಸರಿಸಲು arrow ಕೀ ಗಳನ್ನು ಬಳಸಬಹುದು. ಆಟಗಾರನು right arrow ವನ್ನು ಒತ್ತಿದಾಗ, ಪಾತ್ರವು ಬಲಕ್ಕೆ ಸೂಚಿಸಬೇಕು, ಕೆಲವು ಹಂತಗಳನ್ನು ಸರಿಸಬೇಕು ಮತ್ತು ಮುಂದಿನ ಉಡುಪಿಗೆ ಬದಲಾಗಬೇಕು:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -49,7 +49,7 @@ end
 
 \--- task \---
 
-If your sprite doesn't fit, adjust its size.
+ನಿಮ್ಮ sprite ಹೊಂದಿಕೆಯಾಗದಿದ್ದರೆ, ಅದರ ಗಾತ್ರವನ್ನು ಹೊಂದಿಸಿ.
 
 ![set sprite size so it fits](images/dodge-sprite-size-annotated.png)
 
@@ -57,7 +57,7 @@ If your sprite doesn't fit, adjust its size.
 
 \--- task \---
 
-Test out your character by clicking the flag and then holding down the right arrow key. Does your character move to the right? Does your character look like it is walking?
+ಧ್ವಜವನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು ನಂತರ right arrow ಕೀ ಅನ್ನು ಹಿಡಿದಿಟ್ಟುಕೊಳ್ಳುವ ಮೂಲಕ ನಿಮ್ಮ ಪಾತ್ರವನ್ನು ಪರೀಕ್ಷಿಸಿ. ನಿಮ್ಮ ಪಾತ್ರ ಬಲಕ್ಕೆ ಚಲಿಸುತ್ತದೆಯೇ? ನಿಮ್ಮ ಪಾತ್ರವು ನಡೆಯುತ್ತಿರುವಂತೆ ಕಾಣಿಸುತ್ತದೆಯೇ?
 
 ![screenshot](images/dodge-walking.png)
 
@@ -65,19 +65,19 @@ Test out your character by clicking the flag and then holding down the right arr
 
 \--- task \---
 
-Add code blocks to the character sprite's `forever`{:class="block3control"} loop so that it walks left if the left arrow key is pressed.
+sprite ಪಾತ್ರದ `forever`{:class="block3control"} loop ಗೆ ಕೋಡ್ ಬ್ಲಾಕ್ ಗಳನ್ನು ಸೇರಿಸಿ ಆದ್ದರಿಂದ left arrow ಕೀ ಅನ್ನು ಪ್ರೆಸ್ ಮಾಡಿದಾಗ ಅದು ಎಡಕ್ಕೆ ಚಲಿಸುತ್ತದೆ.
 
 \--- hints \---
 
 \--- hint \---
 
-So that your character can move to the left, you'll need to add another `if`{:class="block3control"} block inside the `forever`{:class="block3control"} loop. In this new `if`{:class="block3control"} block, add code to make your character sprite `move`{:class="block3motion"} to the left.
+ಆದ್ದರಿಂದ ನಿಮ್ಮ ಅಕ್ಷರವು ಎಡಕ್ಕೆ ಚಲಿಸಬಹುದು, `forever`{:class="block3control"} loop ನ ಒಳಗಡೆ ಮತ್ತೊಂದು `if`{:class="block3control"} ಬ್ಲಾಕ್ ಅನ್ನು ಸೇರಿಸಬೇಕಾಗುತ್ತದೆ. ಈ ಹೊಸ `if`{:class="block3control"} ಬ್ಲಾಕ್ ನಲ್ಲಿ, ನಿಮ್ಮ scratch ಪಾತ್ರವನ್ನು ಎಡಕ್ಕೆ `move`{:class="block3motion"} ಮಾಡಲು ಕೋಡ್ ಅನ್ನು ಸೇರಿಸಿ.
 
 \--- /hint \---
 
 \--- hint \---
 
-Copy the code you created to make the character walk to the right. Then set the `key pressed`{:class="block3sensing"} to the `left arrow`{:class="block3sensing"}, and change the `direction`{:class="block3motion"} to `-90`.
+ಪಾತ್ರವು ಬಲಕ್ಕೆ ನಡೆಯಲು ನೀವು ರಚಿಸಿದ ಕೋಡ್ ಅನ್ನು ನಕಲಿಸಿ. ನಂತರ `left arrow`{:class="block3sensing"} ಗೆ `key pressed`{:class="block3sensing"} ಅನ್ನು ಸೆಟ್ ಮಾಡಿ, ಮತ್ತು `direction`{:class="block3motion"} ಅನ್ನು `-90` ಗೆ ಬದಲಾಯಿಸಿ.
 
 ```blocks3
 if <key (right arrow v) pressed? > then
@@ -91,7 +91,7 @@ end
 
 \--- hint \---
 
-Your code should look like this now:
+ನಿಮ್ಮ ಕೋಡ್ ಈ ರೀತಿ ಇರಬೇಕು:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -119,15 +119,15 @@ end
 
 \--- task \---
 
-Test your new code to make sure that it works. Does your character turn upside-down when walking to the left?
+ನಿಮ್ಮ ಹೊಸ ಕೋಡ್ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತಿದೆಯೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಲು ಅದನ್ನು ಪರೀಕ್ಷಿಸಿ. ಎಡಕ್ಕೆ ನಡೆಯುವಾಗ ನಿಮ್ಮ ಪಾತ್ರ ತಲೆಕೆಳಗಾಗಿ ತಿರುಗುತ್ತದೆಯೇ?
 
 ![screenshot](images/dodge-upside-down.png)
 
-If so, you can fix this by clicking on the **direction** of your character sprite, and then clicking on the left-right arrow.
+ಹಾಗಿದ್ದಲ್ಲಿ, ನಿಮ್ಮ sprite ಪಾತ್ರದ **direction** ಕ್ಲಿಕ್ ಮಾಡುವ ಮೂಲಕ ಮತ್ತು ನಂತರ left-right arrow ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡುವ ಮೂಲಕ ನೀವು ಇದನ್ನು ಸರಿಪಡಿಸಬಹುದು.
 
 ![screenshot](images/dodge-left-right-annotated.png)
 
-Or if you prefer, you can also fix the problem by adding this block to the start of your character's script:
+ಅಥವಾ ನೀವು ಬಯಸಿದರೆ, ನಿಮ್ಮ ಪಾತ್ರದ ಸ್ಕ್ರಿಪ್ಟ್(script)‌ನ ಪ್ರಾರಂಭಕ್ಕೆ ಈ ಬ್ಲಾಕ್ ಅನ್ನು ಸೇರಿಸುವ ಮೂಲಕ ನೀವು ಸಮಸ್ಯೆಯನ್ನು ಪರಿಹರಿಸಬಹುದು:
 
 ```blocks3
 set rotation style [left-right v]
@@ -137,7 +137,7 @@ set rotation style [left-right v]
 
 \--- task \---
 
-To climb a pink ladder, your character sprite should move a few steps upwards on the Stage whenever the up arrow is pressed **and** the character is touching the correct colour.
+ಗುಲಾಬಿ ಏಣಿಯನ್ನು ಏರಲು, ನಿಮ್ಮ arrow ಅನ್ನು ಒತ್ತಿದಾಗಲೆಲ್ಲಾ ನಿಮ್ಮ sprite ಪಾತ್ರದ ವೇದಿಕೆಯಲ್ಲಿ ಕೆಲವು ಹೆಜ್ಜೆ ಮೇಲಕ್ಕೆ ಚಲಿಸಬೇಕು **ಮತ್ತು** ನಿಮ್ಮ ಪಾತ್ರವು ಸರಿಯಾದ ಬಣ್ಣಕ್ಕೆ ತಾಕುತ್ತಿರಬೇಕು.
 
 Add inside your character's `forever`{:class="block3control"} loop to `change`{:class="block3motion"} the character's `y` (vertical) position `if`{:class="block3control"} the `up arrow is pressed`{:class="block3sensing"} and the character is `touching the colour pink`{:class="block3sensing"}.
 
@@ -153,7 +153,7 @@ Add inside your character's `forever`{:class="block3control"} loop to `change`{:
 
 \--- task \---
 
-Test your code. Can you make the character climb the pink ladders and get to the end of the level?
+ನಿಮ್ಮ ಕೋಡ್ ಅನ್ನು ಪರೀಕ್ಷಿಸಿ. ನೀವು ಪಾತ್ರವನ್ನು ಗುಲಾಬಿ ಏಣಿಗಳನ್ನು ಏರಲು ಮತ್ತು ಹಂತದ ಅಂತ್ಯಕ್ಕೆ ಹೋಗುವಂತೆ ಮಾಡಬಹುದೇ?
 
 ![screenshot](images/dodge-test-character.png)
 
