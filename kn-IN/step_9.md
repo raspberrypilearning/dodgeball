@@ -1,14 +1,14 @@
-## Challenge: more obstacles
+## ಸವಾಲು: ಹೆಚ್ಚು ಅಡೆತಡೆಗಳು
 
-If you think your game is still too easy, you can add more obstacles to it. The obstacles can be anything you like! Here are some ideas:
+ನಿಮ್ಮ ಆಟವು ಇನ್ನೂ ತುಂಬಾ ಸುಲಭ ಎಂದು ನೀವು ಭಾವಿಸಿದರೆ, ನೀವು ಅದಕ್ಕೆ ಹೆಚ್ಚಿನ ಅಡೆತಡೆಗಳನ್ನು ಸೇರಿಸಬಹುದು. ಅಡೆತಡೆಗಳು ನೀವು ಇಷ್ಟಪಡುವ ಯಾವುದಾದರೂ ಆಗಿರಬಹುದು! ಕೆಲವು ವಿಚಾರಗಳು ಇಲ್ಲಿವೆ:
 
-+ A dangerous butterfly
-+ Platforms that appear and disappear
-+ Falling tennis balls that must be avoided
++ ಅಪಾಯಕಾರಿ ಚಿಟ್ಟೆ
++ ಗೋಚರಿಸುವ ಮತ್ತು ಕಣ್ಮರೆಯಾಗುವ ಪ್ಲಾಟ್ಫಾರ್ಮ್(platform) ಗಳು
++ ಬೀಳಬೇಕಾದ ಟೆನಿಸ್ ಚೆಂಡುಗಳನ್ನು ತಪ್ಪಿಸಬೇಕು
 
 ![screenshot](images/dodge-obstacles.png)
 
-You could even design another backdrop to create the next level. Then add code so that, when your character reaches the green door, the game switches to the new background:
+ಮುಂದಿನ ಹಂತವನ್ನು ರಚಿಸಲು ನೀವು ಮತ್ತೊಂದು ಹಿನ್ನೆಲೆಯನ್ನು ಸಹ ವಿನ್ಯಾಸಗೊಳಿಸಬಹುದು. ನಂತರ ಕೋಡ್ ಅನ್ನು ಸೇರಿಸಿ ಇದರಿಂದ ನಿಮ್ಮ ಪಾತ್ರವು ಹಸಿರು ಬಾಗಿಲನ್ನು ತಲುಪಿದಾಗ, ಆಟವು ಹೊಸ ಹಿನ್ನೆಲೆಗೆ ಬದಲಾಗುತ್ತದೆ:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
