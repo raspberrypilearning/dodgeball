@@ -1,5 +1,5 @@
-## Challenge: completing the level
+## ಸವಾಲು: ಹಂತವನ್ನು ಪೂರ್ಣಗೊಳಿಸುವುದು
 
-Can you add more code blocks to your character sprite to make the sprite say something `if`{:class="block3control"} it gets to the green door?
+`if`{:class="block3control" ಹಸಿರು ಬಾಗಿಲು ಹೊಂದಿದರೆ ನಿಮ್ಮ sprite ಪಾತ್ರಕ್ಕೆ ಏನಾದರು ಹೇಳಲು ಕೋಡ್ ಬ್ಲಾಕ್ ಗಳನ್ನು ಸೇರಿಸಬಹುದೇ?
 
 ![screenshot](images/dodge-win.png)
