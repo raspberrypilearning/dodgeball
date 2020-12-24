@@ -1,5 +1,5 @@
-## Challenge: better jumping
+## ಸವಾಲು: ಉತ್ತಮ ಜಿಗಿತ
 
-Even if the character is already in mid-air, it jumps whenever the player presses the <kbd>space</kbd> bar. You can see this behaviour if you hold down the <kbd>space</kbd> bar.
+ಪಾತ್ರವು ಈಗಾಗಲೇ ಮಧ್ಯ ಗಾಳಿಯಲ್ಲಿದ್ದರೂ, ಆಟಗಾರನು <kbd>space</kbd> bar ಅನ್ನು ಒತ್ತಿದಾಗಲೆಲ್ಲಾ ಅದು ಜಿಗಿಯುತ್ತದೆ. ನೀವು <kbd>space</kbd> bar ಅನ್ನು ಹಿಡಿದಿಟ್ಟುಕೊಂಡರೆ ಈ ನಡವಳಿಕೆಯನ್ನು ನೀವು ನೋಡಬಹುದು.
 
-Can you change the character sprite's code for jumping so that your character can only jump `if`{:class="block3control"} it touches a blue platform?
+`if`{:class="block3control"} ನೀಲಿ ಪ್ಲಾಟ್ಫಾರ್ಮ್ ಗೆ ತಾಕಿದಾಗ ನಿಮ್ಮ ಪಾತ್ರವು ಕೇವಲ ಜಿಗಿಯುವಂತೆ sprite ಕೋಡ್ ಅನ್ನು ಬದಲಿಸಬಹುದೇ?
