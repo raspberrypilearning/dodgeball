@@ -4,37 +4,37 @@ listed: true
 ingredient: false
 copyedit: false
 title: Dodgeball
-description: Create a platform game in which you dodge moving balls to reach the end of the level
+description: ಚಲಿಸುವ ಚೆಂಡುಗಳಿಂದ ತಪ್ಪಿಸಿಕೊಂಡು ಹಂತದ ಕೊನೆಯಲ್ಲಿ ತಲುಪುವ ಒಂದು ಪ್ಲಾಟ್ಫಾರ್ಮ್(platform) ಅನ್ನು ರಚಿಸಿ
 version: 4.0.0
 last_tested: 2018-10-10
 steps:
   - 
-    title: Introduction
+    title: ಪರಿಚಯ
   - 
-    title: Character movement
+    title: ಪಾತ್ರ ಚಲನೆ
   - 
-    title: "Challenge: completing the level"
+    title: "ಸವಾಲು: ಹಂತವನ್ನು ಪೂರ್ಣಗೊಳಿಸುವುದು"
     challenge: true
   - 
-    title: Gravity and jumping
+    title: ಗುರುತ್ವಾಕರ್ಷಣೆ ಮತ್ತು ಜಿಗಿತ
   - 
-    title: 'Challenge: improved jumping'
+    title: 'ಸವಾಲು: ಸುಧಾರಿತ ಜಿಗಿತ'
     challenge: true
   - 
-    title: Dodging balls
+    title: ಚೆಂಡುಗಳನ್ನು ಡಾಡ್ಜ್(dodge) ಮಾಡುವುದು
   - 
-    title: 'Challenge: random balls'
+    title: 'ಸವಾಲು: random ಚೆಂಡುಗಳು'
     challenge: true
   - 
-    title: Lasers!
+    title: ಲೇಸರ್ಗಳು(lasers)!
   - 
-    title: 'Challenge: more obstacles'
+    title: 'ಹೆಚ್ಚು ಅಡೆತಡೆಗಳು'
     challenge: true
   - 
-    title: 'Challenge: improved gravity'
+    title: 'ಸವಾಲು: ಸುಧಾರಿತ ಗುರುತ್ವಾಕರ್ಷಣೆ'
     challenge: true
   - 
-    title: 'Challenge: more lives'
+    title: 'ಸವಾಲು: ಹೆಚ್ಚಿನ ಜೀವಗಳು'
     challenge: true
   - 
-    title: What next?
+    title: ಮುಂದೆ ಏನು?
