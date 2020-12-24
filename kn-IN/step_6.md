@@ -1,10 +1,10 @@
 ## Dodging balls
 
-Your character can move and jump now, so it's time to add some balls that the character has to avoid.
+ನಿಮ್ಮ ಪಾತ್ರವು ಈಗ ಚಲಿಸಬಹುದು ಮತ್ತು ನೆಗೆಯಬಹುದು, ಆದ್ದರಿಂದ ಪಾತ್ರವು ತಪ್ಪಿಸಬೇಕಾದ ಕೆಲವು ಚೆಂಡುಗಳನ್ನು ಸೇರಿಸುವ ಸಮಯ.
 
 \--- task \---
 
-Create a new ball sprite. You can choose any type of ball you like.
+ಹೊಸ ಬಾಲ್(ball) sprite ರಚಿಸಿ. ನೀವು ಇಷ್ಟಪಡುವ ಯಾವುದೇ ರೀತಿಯ ಚೆಂಡನ್ನು ನೀವು ಆಯ್ಕೆ ಮಾಡಬಹುದು.
 
 ![screenshot](images/dodge-balls.png)
 
@@ -12,7 +12,7 @@ Create a new ball sprite. You can choose any type of ball you like.
 
 \--- task \---
 
-Resize the ball sprite so that the character can jump over it. Try making the character jump over the ball to test whether the ball is the right size.
+ಚೆಂಡಿನ sprite ಅನ್ನು ಮರುಗಾತ್ರಗೊಳಿಸಿ ಇದರಿಂದ ಪಾತ್ರವು ಅದರ ಮೇಲೆ ಹಾರಿಹೋಗುತ್ತದೆ. ಚೆಂಡು ಸರಿಯಾದ ಗಾತ್ರವೇ ಎಂದು ಪರೀಕ್ಷಿಸಲು ಪಾತ್ರವು ಚೆಂಡಿನ ಮೇಲೆ ಹಾರಿ ಹೋಗುವಂತೆ ಮಾಡಲು ಪ್ರಯತ್ನಿಸಿ.
 
 ![screenshot](images/dodge-ball-resize.png)
 
@@ -20,7 +20,7 @@ Resize the ball sprite so that the character can jump over it. Try making the ch
 
 \--- task \---
 
-Add this code to your ball sprite:
+ನಿಮ್ಮ ball sprite ‌ಗೆ ಈ ಕೋಡ್ ಸೇರಿಸಿ:
 
 ![ball sprite](images/ball_sprite.png)
 
@@ -50,13 +50,13 @@ end
 delete this clone
 ```
 
-This code creates a new clone of the ball sprite every three seconds. Each new clone moves along the top platform and then drops.
+ಈ ಕೋಡ್ ಪ್ರತಿ ಮೂರು ಸೆಕೆಂಡಿಗೆ ball sprite ‌ನ ಹೊಸ ತದ್ರೂಪಿ ರಚಿಸುತ್ತದೆ. ಪ್ರತಿಯೊಂದು ಹೊಸ ತದ್ರೂಪಿ ಮೇಲಿನ ಪ್ಲಾಟ್ಫಾರ್ಮ್ ನ ಉದ್ದಕ್ಕೂ ಚಲಿಸುತ್ತದೆ ಮತ್ತು ನಂತರ ಇಳಿಯುತ್ತದೆ.
 
 \--- /task \---
 
 \--- task \---
 
-Click the flag to test the game.
+ಆಟವನ್ನು ಪರೀಕ್ಷಿಸಲು ಧ್ವಜದ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ.
 
 ![screenshot](images/dodge-ball-test.png)
 
@@ -64,7 +64,7 @@ Click the flag to test the game.
 
 \--- task \---
 
-Add more code to your ball sprite so that clones of it move across all three platforms.
+ನಿಮ್ಮ ball sprite ‌ಗೆ ಹೆಚ್ಚಿನ ಕೋಡ್ ಸೇರಿಸಿ ಇದರಿಂದ ಅದರ ತದ್ರೂಪುಗಳು ಎಲ್ಲಾ ಮೂರು ಪ್ಲ್ಯಾಟ್‌ಫಾರ್ಮ್‌ಗಳಲ್ಲಿ ಚಲಿಸುತ್ತವೆ.
 
 ![screenshot](images/dodge-ball-more-motion.png)
 
@@ -72,13 +72,13 @@ Add more code to your ball sprite so that clones of it move across all three pla
 
 \--- hint \---
 
-Repeat the code blocks you used to move the ball sprite clone across the first platform. You need to change the `x`{:class="block3motion"}, `y`{:class="block3motion"}, and `repeat`{:class="block3control"} numbers so that the clones follow the platforms correctly.
+ball sprite ಕ್ಲೋನ್ ಅನ್ನು ಮೊದಲಿನ ಪ್ಲಾಟ್‌ಫಾರ್ಮ್‌ನಾದ್ಯಂತ ಸರಿಸಲು ನೀವು ಬಳಸಿದ ಕೋಡ್ ಬ್ಲಾಕ್‌ಗಳನ್ನು ಪುನರಾವರ್ತಿಸಿ. ನೀವು `x`{:class="block3motion"}, `y`{:class="block3motion"}, ಮತ್ತು `repeat`{:class="block3control"} ಸಂಖ್ಯೆಯನ್ನು ಬದಲಾಯಿಸಬೇಕಾಗಿದೆ ಇದರಿಂದ ತದ್ರೂಪುಗಳು ಪ್ಲ್ಯಾಟ್‌ಫಾರ್ಮ್‌ಗಳನ್ನು ಸರಿಯಾಗಿ ಅನುಸರಿಸುತ್ತವೆ.
 
 \--- /hint \---
 
 \--- hint \---
 
-These are the blocks you need. Make sure you add them in the correct order.
+ಇವು ನಿಮಗೆ ಅಗತ್ಯವಿರುವ ಬ್ಲಾಕ್ ಗಳು. ನೀವು ಅವುಗಳನ್ನು ಸರಿಯಾದ ಕ್ರಮದಲ್ಲಿ ಸೇರಿಸಿದ್ದೀರಿ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.
 
 ![ball sprite](images/ball_sprite.png)
 
@@ -102,7 +102,7 @@ end
 
 \--- hint \---
 
-The code for your ball sprite clones should look like this:
+ನಿಮ್ಮ ball sprite ತದ್ರೂಪುಗಳ ಕೋಡ್ ಈ ರೀತಿ ಕಾಣಬೇಕು:
 
 ![ball sprite](images/ball_sprite.png)
 
@@ -142,9 +142,9 @@ delete this clone
 
 \--- task \---
 
-Now add some code blocks to broadcast (send) a message if your character gets hit by a ball!
+ಈಗ ನಿಮ್ಮ ಪಾತ್ರವು ಚೆಂಡಿನಿಂದ ಹೊಡೆದರೆ ಸಂದೇಶವನ್ನು ಪ್ರಸಾರ ಮಾಡಲು (ಕಳುಹಿಸಲು) ಕೆಲವು ಕೋಡ್ ಬ್ಲಾಕ್‌ಗಳನ್ನು ಸೇರಿಸಿ!
 
-Add this code to your ball sprite:
+ನಿಮ್ಮ ball sprite ‌ಗೆ ಈ ಕೋಡ್ ಸೇರಿಸಿ:
 
 ![ball sprite](images/ball_sprite.png)
 
@@ -161,7 +161,7 @@ Add this code to your ball sprite:
 
 \--- task \---
 
-Finally, add code blocks to your character sprite to make it move back to its starting position when it receives the `hit` message:
+ಅಂತಿಮವಾಗಿ, `hit` ಸಂದೇಶವನ್ನು ಸ್ವೀಕರಿಸುವಾಗ ಅದನ್ನು ನಿಮ್ಮ ಆರಂಭಿಕ ಸ್ಥಾನಕ್ಕೆ ಹಿಂತಿರುಗಿಸಲು ನಿಮ್ಮ sprite ಪಾತ್ರಕ್ಕೆ ಕೋಡ್ ಬ್ಲಾಕ್‌ಗಳನ್ನು ಸೇರಿಸಿ:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -175,6 +175,6 @@ Finally, add code blocks to your character sprite to make it move back to its st
 
 \--- task \---
 
-Test out your code. Check whether the character moves back to the start after touching a ball.
+ನಿಮ್ಮ code ಅನ್ನು ಪರೀಕ್ಷಿಸಿ. ಚೆಂಡನ್ನು ಸ್ಪರ್ಶಿಸಿದ ನಂತರ ಪಾತ್ರವು ಪ್ರಾರಂಭಕ್ಕೆ ಹಿಂತಿರುಗುತ್ತದೆಯೇ ಎಂದು ಪರಿಶೀಲಿಸಿ.
 
 \--- /task \---
