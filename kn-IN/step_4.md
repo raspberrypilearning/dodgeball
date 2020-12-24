@@ -1,10 +1,10 @@
-## Gravity and jumping
+## ಗುರುತ್ವಾಕರ್ಷಣೆ ಮತ್ತು ಜಿಗಿತ
 
-Now you're going to make your character move more realistically: you're going to add gravity to your game and give the character the ability to jump.
+ಈಗ ನೀವು ನಿಮ್ಮ ಪಾತ್ರವನ್ನು ಹೆಚ್ಚು ವಾಸ್ತವಿಕವಾಗಿ ಚಲಿಸುವಂತೆ ಮಾಡಲಿದ್ದೀರಿ: ನಿಮ್ಮ ಆಟಕ್ಕೆ ಗುರುತ್ವಾಕರ್ಷಣೆಯನ್ನು ಸೇರಿಸಲು ಮತ್ತು ಪಾತ್ರಕ್ಕೆ ನೆಗೆಯುವ ಸಾಮರ್ಥ್ಯವನ್ನು ನೀಡಲಿದ್ದೀರಿ.
 
 \--- task \---
 
-In the game, move your character so that it walks off a platform. Do you see that it can walk into empty space?
+ಆಟದಲ್ಲಿ, ನಿಮ್ಮ ಪಾತ್ರವನ್ನು ಸರಿಸಿ ಇದರಿಂದ ಅದು ಪ್ಲಾಟ್ಫಾರ್ಮ್ ನಿಂದ ಹೊರನಡೆಯುತ್ತದೆ. ಅದು ಖಾಲಿ ಜಾಗಕ್ಕೆ ಕಾಲಿಡಬಹುದೆಂದು ನೀವು ನೋಡುತ್ತೀರಾ?
 
 ![screenshot](images/dodge-no-gravity.png)
 
@@ -12,11 +12,11 @@ In the game, move your character so that it walks off a platform. Do you see tha
 
 \--- task \---
 
-To fix this, add gravity to your game. To do this, create a new variable called `gravity`{:class="block3variables"}.
+ಇದನ್ನು ಸರಿಪಡಿಸಲು, ನಿಮ್ಮ ಆಟಕ್ಕೆ ಗುರುತ್ವಾಕರ್ಷಣೆಯನ್ನು ಸೇರಿಸಿ. ಇದನ್ನು ಮಾಡಲು, `gravity`{:class="block3variables"} ಎಂಬ ಹೊಸ variable ಅನ್ನು ರಚಿಸಿ.
 
 [[[generic-scratch3-add-variable]]]
 
-You can hide this variable from your Stage if you want to.
+ನೀವು ಬಯಸಿದರೆ ಈ variable ಅನ್ನು ನಿಮ್ಮ ಹಂತದಿಂದ ಮರೆಮಾಡಬಹುದು.
 
 ![screenshot](images/dodge-gravity-annotated.png)
 
@@ -24,7 +24,7 @@ You can hide this variable from your Stage if you want to.
 
 \--- task \---
 
-Add these new code blocks that set `gravity` to a negative number and use the value of `gravity` to repeatedly change your character's y-coordinate:
+`gravity` ಅನ್ನು ನಕಾರಾತ್ಮಕ ಸಂಖ್ಯೆಗೆ ಹೊಂದಿಸುವ ಈ ಹೊಸ ಕೋಡ್ ಬ್ಲಾಕ್‌ಗಳನ್ನು ಸೇರಿಸಿ ಮತ್ತು ನಿಮ್ಮ ಪಾತ್ರದ y-coordinate ಅನ್ನು ಪದೇ ಪದೇ ಬದಲಾಯಿಸಲು `gravity` ಮೌಲ್ಯವನ್ನು ಬಳಸಿ:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -40,7 +40,7 @@ Add these new code blocks that set `gravity` to a negative number and use the va
 
 \--- task \---
 
-Click the flag, and then drag your character to the top of the Stage. What happens? Does the gravity work as you expect?
+ಧ್ವಜವನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ, ತದನಂತರ ನಿಮ್ಮ ಪಾತ್ರವನ್ನು ಹಂತದ ಮೇಲ್ಭಾಗಕ್ಕೆ ಎಳೆಯಿರಿ. ಏನಾಗುತ್ತದೆ? ನೀವು ನಿರೀಕ್ಷಿಸಿದಂತೆ ಗುರುತ್ವ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆಯೇ?
 
 ![screenshot](images/dodge-gravity-drag.png)
 
@@ -48,7 +48,7 @@ Click the flag, and then drag your character to the top of the Stage. What happe
 
 \--- task \---
 
-Gravity shouldn't move the character sprite through a platform or a ladder! Add an `if`{:class="block3control"} block to your code to only let the gravity work when the character is in mid-air. The gravity code should then look like this:
+ಗುರುತ್ವವು sprite ಪಾತ್ರವನ್ನು ವೇದಿಕೆ ಅಥವಾ ಏಣಿಯ ಮೂಲಕ ಚಲಿಸಬಾರದು! ಪಾತ್ರವು ಗಾಳಿಯಲ್ಲಿದ್ದಾಗ ಕೇವಲ ಗುರುತ್ವಾಕರ್ಷಣೆ ಕೆಲಸ ಮಾಡಲು ನಿಮ್ಮ ಕೋಡ್ ಗೆ ಒಂದು `if`{:class="block3control"} ಬ್ಲಾಕ್ ಅನ್ನು ಸೇರಿಸಿ. ಗುರುತ್ವ ಕೋಡ್ ನಂತರ ಈ ರೀತಿ ಇರಬೇಕು:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -66,7 +66,7 @@ Gravity shouldn't move the character sprite through a platform or a ladder! Add 
 
 \--- task \---
 
-Test the game again to see whether gravity works correctly now. Does your character sprite stop falling when it touches a platform or a ladder? Can you make the character walk off the edge of platforms and fall onto the level below?
+ಗುರುತ್ವವು ಈಗ ಸರಿಯಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆಯೇ ಎಂದು ನೋಡಲು ಆಟವನ್ನು ಮತ್ತೆ ಪರೀಕ್ಷಿಸಿ. ನಿಮ್ಮ sprite ಪಾತ್ರವು ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ ಅಥವಾ ಏಣಿಯನ್ನು ಮುಟ್ಟಿದಾಗ ಬೀಳುವುದನ್ನು ನಿಲ್ಲಿಸುತ್ತದೆಯೇ? ನೀವು ಪ್ಲ್ಯಾಟ್‌ಫಾರ್ಮ್‌ಗಳ ಅಂಚಿನಿಂದ ಹೊರನಡೆದು ಕೆಳಗಿನ ಮಟ್ಟಕ್ಕೆ ಬೀಳುವಂತೆ ಮಾಡಬಹುದೇ?
 
 ![screenshot](images/dodge-gravity-test.png)
 
@@ -74,7 +74,7 @@ Test the game again to see whether gravity works correctly now. Does your charac
 
 \--- task \---
 
-Now add code to make your character jump whenever the player presses the <kbd>space</kbd> key. One very easy way to do this is to move your character up a few times:
+ಆಟಗಾರನು <kbd>space</kbd> ಕೀಲಿಯನ್ನು ಒತ್ತಿದಾಗಲೆಲ್ಲಾ ನಿಮ್ಮ ಪಾತ್ರವನ್ನು ಜಿಗಿಯುವಂತೆ ಮಾಡಲು ಕೋಡ್ ಸೇರಿಸಿ. ಇದನ್ನು ಮಾಡಲು ಬಹಳ ಸುಲಭವಾದ ಮಾರ್ಗವೆಂದರೆ ನಿಮ್ಮ ಪಾತ್ರವನ್ನು ಕೆಲವು ಬಾರಿ ಸರಿಸುವುದು:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -85,25 +85,25 @@ Now add code to make your character jump whenever the player presses the <kbd>sp
     end
 ```
 
-Because gravity is constantly pushing your character down by 4 pixels, you need to choose a number greater than `4` in your `change y by (4)`{:class="block3motion"} block. Change the number until you're happy with the height the character jumps.
+ಗುರುತ್ವ ನಿರಂತರವಾಗಿ 4 pixel ಗಳಿಂದ ನಿಮ್ಮ ಪಾತ್ರವನ್ನು ಕೆಳಗೆ ತಳ್ಳುತ್ತದೆ, ನೀವು ನಿಮ್ಮ `change y by (4)`{:class="block3motion"} block ನಲ್ಲಿ `4` ಕಿಂತ ಹೆಚ್ಚಿನ ಸಂಖ್ಯೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಬೇಕಾಗುತ್ತದೆ. ಪಾತ್ರ ಜಿಗಿತದ ಎತ್ತರದಿಂದ ನೀವು ಸಂತೋಷವಾಗುವವರೆಗೆ ಸಂಖ್ಯೆಯನ್ನು ಬದಲಾಯಿಸಿ.
 
 \--- /task \---
 
 \--- task \---
 
-Test out your code. Notice that the jumping movement isn't very smooth. To make jumping look smoother, you need to move your character sprite by smaller and smaller amounts, until it is not rising any higher.
+ನಿಮ್ಮ code ಅನ್ನು ಪರೀಕ್ಷಿಸಿ. ಜಿಗಿತದ ಚಲನೆ ತುಂಬಾ ಸುಗಮವಾಗಿಲ್ಲ ಎಂಬುದನ್ನು ಗಮನಿಸಿ. ಜಿಗಿತವನ್ನು ಸುಗಮವಾಗಿ ಕಾಣುವಂತೆ ಮಾಡಲು, ಅದು ಯಾವುದೇ ಎತ್ತರಕ್ಕೆ ಏರದಿರುವವರೆಗೆ, ನಿಮ್ಮ sprite ಪಾತ್ರವನ್ನು ಕಡಿಮೆ ಪ್ರಮಾಣದಲ್ಲಿ ಸರಿಸಬೇಕು.
 
 \--- /task \---
 
 \--- task \---
 
-To do this, create a new variable called `jump height`{:class="block3variables"}. Again, you can hide this variable if you prefer.
+ಇದನ್ನು ಮಾಡಲು, `jump height`{:class="block3variables"} ಎಂಬ ಹೊಸ variable ಅನ್ನು ರಚಿಸಿ. ಮತ್ತೆ, ನೀವು ಬಯಸಿದಲ್ಲಿ ಈ variable ಅನ್ನು ನೀವು ಮರೆಮಾಡಬಹುದು.
 
 \--- /task \---
 
 \--- task \---
 
-Delete the jumping code you added to your character sprite, and add this code instead:
+ನಿಮ್ಮ sprite ಪಾತ್ರಕ್ಕೆ ನೀವು ಸೇರಿಸಿದ ಜಂಪಿಂಗ್ ಕೋಡ್(jumping code ) ಅನ್ನು ಅಳಿಸಿ, ಮತ್ತು ಬದಲಿಗೆ ಈ ಕೋಡ್ ಅನ್ನು ಸೇರಿಸಿ:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
@@ -116,14 +116,14 @@ Delete the jumping code you added to your character sprite, and add this code in
     end
 ```
 
-This code moves your character up by 8 pixels, then 7.5 pixels, then 7 pixels, and so on, until it does not rise any higher. This makes jumping look much smoother.
+ಈ ಕೋಡ್ ನಿಮ್ಮ ಪಾತ್ರವು ಮೇಲೆ ಏರಿಕೆಯಾಗದಿರುವವರೆಗೂ 8 pixel, ನಂತರ 7.5 pixel, ನಂತರ 7 pixel ಮತ್ತು ಹೀಗೆ ಮುಂದುವರೆಯುತ್ತದೆ. ಇದು ಜಿಗಿತವನ್ನು ಹೆಚ್ಚು ಸುಗಮವಾಗಿ ಕಾಣುವಂತೆ ಮಾಡುತ್ತದೆ.
 
 \--- /task \---
 
 \--- task \---
 
-Change the value of the `jump height`{:class="block3variables"} variable that is set before the `repeat`{:class="block3control"} starts. Then test your game.
+`repeat`{:class="block3control"} ಪ್ರಾರಂಭವಾಗುವ ಮೊದಲು ದೃಢೀಕರಿಸಿದ `jump height`{:class="block3variables"} variable ನ ಮೌಲ್ಯವನ್ನು ಬದಲಾಯಿಸಿ. ನಂತರ ನಿಮ್ಮ ಆಟವನ್ನು ಪರೀಕ್ಷಿಸಿ.
 
-Repeat these two steps until you're happy with how high the character jumps.
+ಪಾತ್ರವು ಎಷ್ಟು ಎತ್ತರಕ್ಕೆ ಜಿಗಿಯುತ್ತದೆ ಎಂದು ನಿಮಗೆ ಸಂತೋಷವಾಗುವವರೆಗೆ ಈ ಎರಡು ಹಂತಗಳನ್ನು ಪುನರಾವರ್ತಿಸಿ.
 
 \--- /task \---
