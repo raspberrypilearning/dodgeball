@@ -1,10 +1,10 @@
 ## Lasers!
 
-To your game a little harder to complete, you are going to add lasers!
+ನಿಮ್ಮ ಆಟವನ್ನು ಕಷ್ಟದಿಂದ ಪೂರ್ಣಗೊಳಿಸಲು, ನೀವು ಲೇಸರ್‌(laser)ಗಳನ್ನು ಸೇರಿಸಲು ಹೊರಟಿದ್ದೀರಿ!
 
 \--- task \---
 
-Add a new sprite to your game and call it `laser`. It should have two costumes: one called 'on', and one called 'off'.
+ನಿಮ್ಮ ಆಟಕ್ಕೆ ಹೊಸ sprite ಸೇರಿಸಿ ಮತ್ತು ಅದನ್ನು `laser` ಎಂದು ಕರೆಯಿರಿ. ಇದು ಎರಡು ವೇಷಭೂಷಣಗಳನ್ನು ಹೊಂದಿರಬೇಕು: ಒಂದು 'on' ಮತ್ತೊಂದು 'ಆಫ್' ಎಂದು ಕರೆಯಲ್ಪಡುತ್ತದೆ.
 
 ![screenshot](images/dodge-lasers-costume1.png)
 
@@ -14,7 +14,7 @@ Add a new sprite to your game and call it `laser`. It should have two costumes: 
 
 \--- task \---
 
-Place your new laser sprite between two platforms.
+ನಿಮ್ಮ ಹೊಸ laser sprite ಅನ್ನು ಎರಡು ಪ್ಲಾಟ್‌ಫಾರ್ಮ್‌ಗಳ ನಡುವೆ ಇರಿಸಿ.
 
 ![screenshot](images/dodge-lasers-position.png)
 
@@ -22,7 +22,7 @@ Place your new laser sprite between two platforms.
 
 \--- task \---
 
-Add code to your laser sprite to make it switch between its two costumes.
+ಎರಡು ವೇಷಭೂಷಣಗಳ ನಡುವೆ ಬದಲಾಯಿಸಲು ನಿಮ್ಮlaser sprite ಗೆ ಕೋಡ್ ಅನ್ನು ಸೇರಿಸಿ.
 
 ![laser sprite](images/laser_sprite.png)
 
@@ -36,31 +36,31 @@ Add code to your laser sprite to make it switch between its two costumes.
     end
 ```
 
-If you prefer, you can change the code shown above so that the sprite `waits`{:class="block3control"} a `random`{:class="block3operators"} amount of time between costume changes.
+ನೀವು ಬಯಸಿದಲ್ಲಿ, ನೀವು ಮೇಲೆ ತೋರಿಸಿರುವ ಕೋಡ್ ಅನ್ನು ಬದಲಾಯಿಸಬಹುದು ಇದರಿಂದ sprite `random`{:class="block3operators"} ಅವಧಿಯವರೆಗೆ `waits`{:class="block3control"} ಮಾಡುತ್ತದೆ.
 
 \--- /task \---
 
 \--- task \---
 
-Finally, add code to your laser sprite so that the laser sprite broadcasts a 'hit' message when it touches the character sprite.
+ಅಂತಿಮವಾಗಿ, ನಿಮ್ಮ laser sprite ಗೆ ಕೋಡ್ ಸೇರಿಸಿ ಇದರಿಂದ laser sprite ಅದರ ಪಾತ್ರವನ್ನು ಮುಟ್ಟಿದಾಗ 'hit' ಸಂದೇಶವನ್ನು ಪ್ರಸಾರ ಮಾಡುತ್ತದೆ.
 
 \--- hints \---
 
 \--- hint \---
 
-This code should be very similar to the code you added to your ball sprite.
+ಈ ಕೋಡ್ ನಿಮ್ಮ ball sprite ಗೆ ಸೇರಿಸಿರುವ ಕೋಡ್ ಅನ್ನು ಹೋಲುವಂತೆ ಇರಬೇಕು.
 
 \--- /hint \---
 
 \--- hint \---
 
-Copy the code you add to the ball sprite to make this sprite `broadcast 'hit'`{:class="block3control"} when it is `touching your character`{:class="block3sensing"}.
+`touching your character`{:class="block3sensing"} ಸ್ಪರ್ಶಿಸಿದಾಗ `broadcast 'hit'`{:class="block3control"} ಮಾಡಲು ball sprite ಗೆ ಸೇರಿಸುವ ಕೋಡ್ ಅನ್ನು ನಕಲಿಸಿ.
 
 \--- /hint \---
 
 \--- hint \---
 
-This is the code you should add:
+ನೀವು ಈ ಕೋಡ್ ಅನ್ನು ಸೇರಿಸಬೇಕು:
 
 ![laser sprite](images/laser_sprite.png)
 
@@ -77,12 +77,12 @@ end
 
 \--- /hints \---
 
-You don't need to add any extra code to your characters sprite, because the character sprite already knows what to do when it receives the `broadcast 'hit'`{:class="block3control"}!
+ನಿಮ್ಮ sprite ಪಾತ್ರಕ್ಕೆ ನೀವು ಯಾವುದೇ ಹೆಚ್ಚುವರಿ ಕೋಡ್ ಅನ್ನು ಸೇರಿಸುವ ಅಗತ್ಯವಿಲ್ಲ, ಏಕೆಂದರೆ `broadcast 'hit'`{:class="block3control"} ಅನ್ನು ಪಡೆದಾಗ ಏನು ಮಾಡಬೇಕೆಂದು sprite ಪಾತ್ರಕ್ಕೆ ಈಗಾಗಲೇ ತಿಳಿದಿದೆ!
 
 \--- /task \---
 
 \--- task \---
 
-Test out your game to see if you can move the character past the laser. If the laser is too easy or too hard to avoid, change the `wait`{:class="block3control"} times in the code for the laser sprite.
+ನೀವು ಪಾತ್ರವನ್ನು laser ನ ಹಿಂದೆ ಸರಿಸಬಹುದೇ ಎಂದು ನೋಡಲು ನಿಮ್ಮ ಆಟವನ್ನು ಪರೀಕ್ಷಿಸಿ. Laser ತುಂಬಾ ಸುಲಭ ಅಥವಾ ತಪ್ಪಿಸಲು ತುಂಬಾ ಕಷ್ಟವಾಗಿದ್ದರೆ, laser sprite ಗಾಗಿ ಕೋಡ್‌ನಲ್ಲಿ `wait`{:class="block3control"} ಸಮಯವನ್ನ ಬದಲಾಯಿಸಿ.
 
 \--- /task \---
