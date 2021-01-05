@@ -1,6 +1,6 @@
 ## ಮುಂದೆ ಏನು?
 
-ನಮ್ಮ [Brain games](https://projects.raspberrypi.org/en/projects/brain-game?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) ಯೋಜನೆಗೆ ಹೋಗಿ, ಅದರಲ್ಲಿ ನೀವು ನಿಮ್ಮ ಸ್ವಂತ ರಸಪ್ರಶ್ನೆಯನ್ನು ತಯಾರಿಸಬಹುದು.
+ನಮ್ಮ [ಮೆದುಳಿನ ಆಟ](https://projects.raspberrypi.org/en/projects/brain-game?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) ಯೋಜನೆಗೆ ಹೋಗಿ, ಅದರಲ್ಲಿ ನೀವು ನಿಮ್ಮ ಸ್ವಂತ ರಸಪ್ರಶ್ನೆಯನ್ನು ತಯಾರಿಸಬಹುದು.
 
 \--- no-print \---
 
@@ -15,6 +15,6 @@
 
 \--- print-only \---
 
-![Brain Game](images/brain-final.png)
+![ಮೆದುಳಿನ ಆಟ](images/brain-final.png)
 
 \--- /print-only \---
