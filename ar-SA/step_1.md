@@ -39,7 +39,7 @@
 
 ### للتحميل
 
-You can [find the downloads here](https://rpf.io/p/en/dodgeball-go).
+يمكنك [تحميل الملفات من هنا](https://rpf.io/p/en/dodgeball-go).
 
 \--- /collapse \---
 
@@ -63,6 +63,6 @@ You can [find the downloads here](https://rpf.io/p/en/dodgeball-go).
 
 \--- /no-print \---
 
-You can find the [completed project here](https://rpf.io/p/en/dodgeball-get).
+يمكنك ايجاد [المشروع كامل هنا](https://rpf.io/p/en/dodgeball-get).
 
 \--- /collapse \---
