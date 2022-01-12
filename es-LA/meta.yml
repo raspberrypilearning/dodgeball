@@ -4,25 +4,28 @@ listed: true
 ingredient: false
 copyedit: false
 title: Quemados
-description: Crea un videojuego de plataformas en el que tienes que esquivar la pelota para llegar al final del nivel
+description: Crea un videojuego de plataformas en el que tienes que esquivar la pelota
+  para llegar al final del nivel
 version: 4.0.0
 last_tested: 2018-10-10
 steps:
-  - title: Introducción
-  - title: Movimientos del personaje
-  - title: "Desafío: Completar el nivel"
-    challenge: true
-  - title: Gravedad y saltos
-  - title: 'Desafío: Mejores saltos'
-    challenge: true
-  - title: Esquivando las pelotas
-  - title: 'Desafío: Pelotas aleatorias'
-    challenge: true
-  - title: '¡Láseres!'
-  - title: 'Desafío: Más obstáculos'
-    challenge: true
-  - title: 'Desafío: Mejorando la gravedad'
-    challenge: true
-  - title: 'Desafío: Más vidas'
-    challenge: true
-  - title: '¿Qué sigue?'
+- title: Introducción
+  completion: engaged
+- title: Movimientos del personaje
+- title: 'Desafío: Completar el nivel'
+  challenge: true
+- title: Gravedad y saltos
+- title: 'Desafío: Mejores saltos'
+  challenge: true
+- title: Esquivando las pelotas
+- title: 'Desafío: Pelotas aleatorias'
+  challenge: true
+  completion: internal
+- title: "¡Láseres!"
+- title: 'Desafío: Más obstáculos'
+  challenge: true
+- title: 'Desafío: Mejorando la gravedad'
+  challenge: true
+- title: 'Desafío: Más vidas'
+  challenge: true
+- title: "¿Qué sigue?"

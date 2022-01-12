@@ -4,25 +4,28 @@ listed: true
 ingredient: false
 copyedit: false
 title: Trefbal
-description: Maak een platformspel, waarin je de bewegende ballen moet ontwijken en het level moet halen
+description: Maak een platformspel, waarin je de bewegende ballen moet ontwijken en
+  het level moet halen
 version: 4.0.0
 last_tested: 2018-10-10
 steps:
-  - title: Inleiding
-  - title: Voortbeweging personage
-  - title: "Uitdaging: het level halen"
-    challenge: true
-  - title: Zwaartekracht en springen
-  - title: 'Uitdaging: beter springen'
-    challenge: true
-  - title: Trefballen
-  - title: 'Uitdaging: willekeurige ballen'
-    challenge: true
-  - title: Lasers!
-  - title: 'Uitdaging: meer obstakels'
-    challenge: true
-  - title: 'Uitdaging: verbeterde zwaartekracht'
-    challenge: true
-  - title: 'Uitdaging: meer levens'
-    challenge: true
-  - title: Wat nu?
+- title: Inleiding
+  completion: engaged
+- title: Voortbeweging personage
+- title: 'Uitdaging: het level halen'
+  challenge: true
+- title: Zwaartekracht en springen
+- title: 'Uitdaging: beter springen'
+  challenge: true
+- title: Trefballen
+- title: 'Uitdaging: willekeurige ballen'
+  challenge: true
+  completion: internal
+- title: Lasers!
+- title: 'Uitdaging: meer obstakels'
+  challenge: true
+- title: 'Uitdaging: verbeterde zwaartekracht'
+  challenge: true
+- title: 'Uitdaging: meer levens'
+  challenge: true
+- title: Wat nu?

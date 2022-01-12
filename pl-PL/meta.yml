@@ -4,25 +4,28 @@ listed: true
 ingredient: false
 copyedit: false
 title: Dwa ognie
-description: Naucz się, jak stworzyć grę platformową, w której gracz musi unikać toczących się piłek.
+description: Naucz się, jak stworzyć grę platformową, w której gracz musi unikać toczących
+  się piłek.
 version: 3
 last_tested: 2018-10-10
 steps:
-  - title: Wprowadzenie
-  - title: Poruszanie się postacią
-  - title: "Wyzwanie: ukończenie poziomu"
-    challenge: true
-  - title: Grawitacja i skakanie
-  - title: 'Wyzwanie: lepsze skakanie'
-    challenge: true
-  - title: Unikanie piłek
-  - title: 'Wyzwanie: losowe piłki'
-    challenge: true
-  - title: Lasery!
-  - title: 'Wyzwanie: więcej przeszkód'
-    challenge: true
-  - title: 'Wyzwanie: poprawiona grawitacja'
-    challenge: true
-  - title: 'Wyzwanie: więcej żyć'
-    challenge: true
-  - title: Co dalej?
+- title: Wprowadzenie
+  completion: engaged
+- title: Poruszanie się postacią
+- title: 'Wyzwanie: ukończenie poziomu'
+  challenge: true
+- title: Grawitacja i skakanie
+- title: 'Wyzwanie: lepsze skakanie'
+  challenge: true
+- title: Unikanie piłek
+- title: 'Wyzwanie: losowe piłki'
+  challenge: true
+  completion: internal
+- title: Lasery!
+- title: 'Wyzwanie: więcej przeszkód'
+  challenge: true
+- title: 'Wyzwanie: poprawiona grawitacja'
+  challenge: true
+- title: 'Wyzwanie: więcej żyć'
+  challenge: true
+- title: Co dalej?

@@ -8,21 +8,23 @@ description: 创建一个平台游戏，在游戏中，你必须躲避移动的�
 version: 4.0.0
 last_tested: 2018-10-10
 steps:
-  - title: 介绍
-  - title: 角色移动
-  - title: "挑战：通关"
-    challenge: true
-  - title: 重力和跳跃
-  - title: '挑战：改进跳跃体验'
-    challenge: true
-  - title: 躲避球
-  - title: '挑战：随机生成小球'
-    challenge: true
-  - title: 激光！
-  - title: '挑战：更多的障碍'
-    challenge: true
-  - title: '挑战：改进重力体验'
-    challenge: true
-  - title: '挑战：更多生命'
-    challenge: true
-  - title: 接下来呢？
+- title: 介绍
+  completion: engaged
+- title: 角色移动
+- title: 挑战：通关
+  challenge: true
+- title: 重力和跳跃
+- title: 挑战：改进跳跃体验
+  challenge: true
+- title: 躲避球
+- title: 挑战：随机生成小球
+  challenge: true
+  completion: internal
+- title: 激光！
+- title: 挑战：更多的障碍
+  challenge: true
+- title: 挑战：改进重力体验
+  challenge: true
+- title: 挑战：更多生命
+  challenge: true
+- title: 接下来呢？

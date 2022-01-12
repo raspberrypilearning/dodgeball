@@ -4,25 +4,28 @@ listed: true
 ingredient: false
 copyedit: false
 title: Dodgeball
-description: ಚಲಿಸುವ ಚೆಂಡುಗಳಿಂದ ತಪ್ಪಿಸಿಕೊಂಡು ಹಂತದ ಕೊನೆಯಲ್ಲಿ ತಲುಪುವ ಒಂದು ಪ್ಲಾಟ್ಫಾರ್ಮ್(platform) ಅನ್ನು ರಚಿಸಿ
+description: ಚಲಿಸುವ ಚೆಂಡುಗಳಿಂದ ತಪ್ಪಿಸಿಕೊಂಡು ಹಂತದ ಕೊನೆಯಲ್ಲಿ ತಲುಪುವ ಒಂದು ಪ್ಲಾಟ್ಫಾರ್ಮ್(platform)
+  ಅನ್ನು ರಚಿಸಿ
 version: 4.0.0
 last_tested: 2018-10-10
 steps:
-  - title: ಪರಿಚಯ
-  - title: ಪಾತ್ರ ಚಲನೆ
-  - title: "ಸವಾಲು: ಹಂತವನ್ನು ಪೂರ್ಣಗೊಳಿಸುವುದು"
-    challenge: true
-  - title: ಗುರುತ್ವಾಕರ್ಷಣೆ ಮತ್ತು ಜಿಗಿತ
-  - title: 'ಸವಾಲು: ಸುಧಾರಿತ ಜಿಗಿತ'
-    challenge: true
-  - title: ಚೆಂಡುಗಳನ್ನು ಡಾಡ್ಜ್(dodge) ಮಾಡುವುದು
-  - title: 'ಸವಾಲು: random ಚೆಂಡುಗಳು'
-    challenge: true
-  - title: ಲೇಸರ್ಗಳು(lasers)!
-  - title: 'ಸವಾಲು: ಹೆಚ್ಚು ಅಡೆತಡೆಗಳು'
-    challenge: true
-  - title: 'ಸವಾಲು: ಸುಧಾರಿತ ಗುರುತ್ವಾಕರ್ಷಣೆ'
-    challenge: true
-  - title: 'ಸವಾಲು: ಹೆಚ್ಚಿನ ಜೀವಗಳು'
-    challenge: true
-  - title: ಮುಂದೆ ಏನು?
+- title: ಪರಿಚಯ
+  completion: engaged
+- title: ಪಾತ್ರ ಚಲನೆ
+- title: 'ಸವಾಲು: ಹಂತವನ್ನು ಪೂರ್ಣಗೊಳಿಸುವುದು'
+  challenge: true
+- title: ಗುರುತ್ವಾಕರ್ಷಣೆ ಮತ್ತು ಜಿಗಿತ
+- title: 'ಸವಾಲು: ಸುಧಾರಿತ ಜಿಗಿತ'
+  challenge: true
+- title: ಚೆಂಡುಗಳನ್ನು ಡಾಡ್ಜ್(dodge) ಮಾಡುವುದು
+- title: 'ಸವಾಲು: random ಚೆಂಡುಗಳು'
+  challenge: true
+  completion: internal
+- title: ಲೇಸರ್ಗಳು(lasers)!
+- title: 'ಸವಾಲು: ಹೆಚ್ಚು ಅಡೆತಡೆಗಳು'
+  challenge: true
+- title: 'ಸವಾಲು: ಸುಧಾರಿತ ಗುರುತ್ವಾಕರ್ಷಣೆ'
+  challenge: true
+- title: 'ಸವಾಲು: ಹೆಚ್ಚಿನ ಜೀವಗಳು'
+  challenge: true
+- title: ಮುಂದೆ ಏನು?

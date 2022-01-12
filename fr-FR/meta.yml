@@ -4,25 +4,28 @@ listed: true
 ingredient: false
 copyedit: false
 title: La balle au prisonnier
-description: Crée un jeu de plate-forme dans lequel tu esquives des balles en mouvement pour atteindre la fin du niveau
+description: Crée un jeu de plate-forme dans lequel tu esquives des balles en mouvement
+  pour atteindre la fin du niveau
 version: 4.0.0
 last_tested: 2018-10-10
 steps:
-  - title: Introduction
-  - title: Mouvement du personnage
-  - title: "Défi : terminer le niveau"
-    challenge: true
-  - title: Gravité et saut
-  - title: 'Défi : saut amélioré'
-    challenge: true
-  - title: Esquive des balles
-  - title: 'Défi : balles aléatoires'
-    challenge: true
-  - title: Lasers !
-  - title: 'Défi : plus d''obstacles'
-    challenge: true
-  - title: 'Défi : gravité améliorée'
-    challenge: true
-  - title: 'Défi : plus de vies'
-    challenge: true
-  - title: Et ensuite ?
+- title: Introduction
+  completion: engaged
+- title: Mouvement du personnage
+- title: 'Défi : terminer le niveau'
+  challenge: true
+- title: Gravité et saut
+- title: 'Défi : saut amélioré'
+  challenge: true
+- title: Esquive des balles
+- title: 'Défi : balles aléatoires'
+  challenge: true
+  completion: internal
+- title: Lasers !
+- title: 'Défi : plus d''obstacles'
+  challenge: true
+- title: 'Défi : gravité améliorée'
+  challenge: true
+- title: 'Défi : plus de vies'
+  challenge: true
+- title: Et ensuite ?
