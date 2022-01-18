@@ -6,11 +6,11 @@ Commence par créer un personnage qui peut se déplacer à gauche et à droite, 
 
 Ouvre le projet de démarrage Scratch « La balle au prisonnier ».
 
-**En ligne :** ouvre le projet de démarrage à [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_ blank"}.
+**En ligne :** ouvre le projet de démarrage à [rpf.io/dodgeball-on](https://rpf.io/dodgeball-on){:target="_ blank"}.
 
 Si tu as un compte Scratch, tu peux en créer une copie en cliquant sur **Remix**.
 
-**Hors-ligne :** télécharge le projet de démarrage à partir de [rpf.io/p/fr-FR/dodgeball-get](http://rpf.io/p/fr-FR/dodgeball-get) , puis ouvre-le à l'aide de l'éditeur hors-ligne.
+**Hors-ligne :** télécharge le projet de démarrage à partir de [rpf.io/p/fr-FR/dodgeball-get](https://rpf.io/p/fr-FR/dodgeball-get) , puis ouvre-le à l'aide de l'éditeur hors-ligne.
 
 --- /task ---
 

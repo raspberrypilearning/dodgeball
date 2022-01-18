@@ -6,11 +6,11 @@ Erstelle als Erstes einen Charakter, der sich nach links und rechts bewegen und 
 
 Öffne das Scratch-Startprojekt 'Dodgeball'.
 
-**Online:** Öffne das Basisprojekt auf [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}.
+**Online:** Öffne das Basisprojekt auf [rpf.io/dodgeball-on](https://rpf.io/dodgeball-on){:target="_blank"}.
 
 Wenn du bereits einen Scratch-Account besitzt, kannst du dir durch Klick auf **Remix** eine Kopie anlegen.
 
-**Offline:** Lade das Basisprojekt von [rpf.io/p/de-DE/dodgeball-get](http://rpf.io/p/de-DE/dodgeball-get){:target="_blank"} herunter und öffne es dann mit dem Scratch Offline-Editor.
+**Offline:** Lade das Basisprojekt von [rpf.io/p/de-DE/dodgeball-get](https://rpf.io/p/de-DE/dodgeball-get){:target="_blank"} herunter und öffne es dann mit dem Scratch Offline-Editor.
 
 --- /task ---
 

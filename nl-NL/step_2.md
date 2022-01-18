@@ -6,11 +6,11 @@ Laten we beginnen met het creëren van een personage dat naar links en rechts ka
 
 Open het Scratch startersproject 'Dodgeball'.
 
-**Online** open het start project op [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}.
+**Online** open het start project op [rpf.io/dodgeball-on](https://rpf.io/dodgeball-on){:target="_blank"}.
 
 Als je een Scratch-account hebt, kun je een kopie maken door op **Remix** te klikken.
 
-**Offline:** download het startersproject van [rpf.io/p/nl-NL/dodgeball-get](http://rpf.io/p/nl-NL/dodgeball-get) en open het vervolgens met behulp van de offline editor.
+**Offline:** download het startersproject van [rpf.io/p/nl-NL/dodgeball-get](https://rpf.io/p/nl-NL/dodgeball-get) en open het vervolgens met behulp van de offline editor.
 
 --- /task ---
 

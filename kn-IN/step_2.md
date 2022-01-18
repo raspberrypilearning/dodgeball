@@ -6,11 +6,11 @@
 
 'Dodgeball' Scratch starter ಯೋಜನೆಯನ್ನು ತೆರೆಯಿರಿ.
 
-**Online:** [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}. ನಲ್ಲಿ ಸ್ಟಾರ್ಟರ್ ಯೋಜನೆಯನ್ನು ತೆರೆಯಿರಿ.
+**Online:** [rpf.io/dodgeball-on](https://rpf.io/dodgeball-on){:target="_blank"}. ನಲ್ಲಿ ಸ್ಟಾರ್ಟರ್ ಯೋಜನೆಯನ್ನು ತೆರೆಯಿರಿ.
 
 ನೀವು Scratch ಖಾತೆಯನ್ನು ಹೊಂದಿದ್ದರೆ **Remix** ಕ್ಲಿಕ್ ಮಾಡುವ ಮೂಲಕ ನೀವು ನಕಲನ್ನು ಮಾಡಬಹುದು.
 
-**Offline:** [rpf.io/p/kn-IN/dodgeball-get](http://rpf.io/p/kn-IN/dodgeball-get) ನಿಂದ ಪ್ರಾರಂಭ ಯೋಜನೆಯನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ, ತದನಂತರ ಅದನ್ನುOffline editor ಬಳಸಿ ತೆರೆಯಿರಿ.
+**Offline:** [rpf.io/p/kn-IN/dodgeball-get](https://rpf.io/p/kn-IN/dodgeball-get) ನಿಂದ ಪ್ರಾರಂಭ ಯೋಜನೆಯನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ, ತದನಂತರ ಅದನ್ನುOffline editor ಬಳಸಿ ತೆರೆಯಿರಿ.
 
 --- /task ---
 

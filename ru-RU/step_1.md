@@ -40,7 +40,7 @@ title: Что тебе понадобится
 
 ### Загрузки
 
-Скачать можно [здесь](http://rpf.io/p/ru-RU/dodgeball-go).
+Скачать можно [здесь](https://rpf.io/p/ru-RU/dodgeball-go).
 
 --- /collapse ---
 
@@ -66,6 +66,6 @@ title: Дополнительные примечания для педагого
 
 --- /no-print ---
 
-Вы можете найти [завершенный проект здесь](http://rpf.io/p/ru-RU/dodgeball-get).
+Вы можете найти [завершенный проект здесь](https://rpf.io/p/ru-RU/dodgeball-get).
 
 --- /collapse ---
