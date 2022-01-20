@@ -6,11 +6,11 @@
 
 'Dodgeball' Scratch प्रारंभक परियोजना खोलें।
 
-**ऑनलाइन:** [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"} पर प्रारंभक परियोजना खोलें।
+**ऑनलाइन:** [rpf.io/dodgeball-on](https://rpf.io/dodgeball-on){:target="_blank"} पर प्रारंभक परियोजना खोलें।
 
 यदि आपके पास एक Scratch खाता है, तो आप **Remix** पर क्लिक करके प्रतिलिपि बना सकते हैं।
 
-**ऑफ़लाइन:** प्रारंभक परियोजना को [rpf.io/p/hi-IN/dodgeball-get](http://rpf.io/p/hi-IN/dodgeball-get) से डाउनलोड करें और फिर इसे ऑफ़लाइन संपादक का उपयोग करके खोलें।
+**ऑफ़लाइन:** प्रारंभक परियोजना को [rpf.io/p/hi-IN/dodgeball-get](https://rpf.io/p/hi-IN/dodgeball-get) से डाउनलोड करें और फिर इसे ऑफ़लाइन संपादक का उपयोग करके खोलें।
 
 --- /task ---
 

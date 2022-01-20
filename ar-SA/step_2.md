@@ -6,11 +6,11 @@
 
 افتح مشروع سكراتش مبدئي 'تفادي الكرات'.
 
-**بالاتصال بالانترنت**: افتح المشروع المبدئي من هنا [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}.
+**بالاتصال بالانترنت**: افتح المشروع المبدئي من هنا [rpf.io/dodgeball-on](https://rpf.io/dodgeball-on){:target="_blank"}.
 
 اذا كنت تملك حساب على منصة السكراتش (Scratch) فيمكنك عمل نسخة بالضغط على **Remix**.
 
-**دون اتصال انترنيت:** قم بتنزيل المشروع المبدئي من [rpf.io/p/ar-SA/dodgeballget](http://rpf.io/p/ar-SA/dodgeball-get) ثم قم بفتحه باستخدام محرر سكراتش بدون اتصال انترنيت.
+**دون اتصال انترنيت:** قم بتنزيل المشروع المبدئي من [rpf.io/p/ar-SA/dodgeballget](https://rpf.io/p/ar-SA/dodgeball-get) ثم قم بفتحه باستخدام محرر سكراتش بدون اتصال انترنيت.
 
 --- /task ---
 

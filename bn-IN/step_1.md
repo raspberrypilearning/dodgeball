@@ -39,7 +39,7 @@ title: আপনার যা প্রয়োজন হবে
 
 ### ডাউনলোড
 
-এখানে আছে [find the downloads here](http://rpf.io/p/bn-IN/dodgeball-go).
+এখানে আছে [find the downloads here](https://rpf.io/p/bn-IN/dodgeball-go).
 
 --- /collapse ---
 
@@ -63,6 +63,6 @@ title: শিক্ষাবিদদের জন্য অতিরিক্�
 
 --- /no-print ---
 
-এখানে সমাপ্ত প্রকল্প সমূহ [completed project here](http://rpf.io/p/bn-IN/dodgeball-get) এখানে পাবেন.
+এখানে সমাপ্ত প্রকল্প সমূহ [completed project here](https://rpf.io/p/bn-IN/dodgeball-get) এখানে পাবেন.
 
 --- /collapse ---

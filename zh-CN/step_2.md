@@ -6,11 +6,11 @@
 
 打开 '躲避球' Scratch 启动项目。
 
-**在线编辑:** 在 [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"} 打开初始项目。
+**在线编辑:** 在 [rpf.io/dodgeball-on](https://rpf.io/dodgeball-on){:target="_blank"} 打开初始项目。
 
 如果您有一个 Scratch 帐户，您可以通过点击 **改编** 复制该项目。
 
-**离线编辑:** 从 [rpf.io/p/zh-CN/dodgeball-get](http://rpf.io/p/zh-CN/dodgeball-get) 下载初始项目，然后使用 Scratch 离线编辑器打开它。
+**离线编辑:** 从 [rpf.io/p/zh-CN/dodgeball-get](https://rpf.io/p/zh-CN/dodgeball-get) 下载初始项目，然后使用 Scratch 离线编辑器打开它。
 
 --- /task ---
 

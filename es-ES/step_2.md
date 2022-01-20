@@ -6,11 +6,11 @@ Comienza por crear un personaje que pueda moverse hacia la izquierda, la derecha
 
 Abre el proyecto inicial de Scratch 'Esquiva-pelotas'.
 
-**En línea:** abre el proyecto inicial en [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}.
+**En línea:** abre el proyecto inicial en [rpf.io/dodgeball-on](https://rpf.io/dodgeball-on){:target="_blank"}.
 
 Si tienes una cuenta de Scratch puedes hacer una copia haciendo clic en **Remix**.
 
-**Sin conexión:** descarga el proyecto inicial desde [rpf.io/p/es-ES/dodgeball-get](http://rpf.io/p/es-ES/dodgeball-get) y luego ábrelo con el editor de Scratch sin conexión.
+**Sin conexión:** descarga el proyecto inicial desde [rpf.io/p/es-ES/dodgeball-get](https://rpf.io/p/es-ES/dodgeball-get) y luego ábrelo con el editor de Scratch sin conexión.
 
 --- /task ---
 

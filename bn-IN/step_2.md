@@ -6,11 +6,11 @@
 
 'Dodgeball' Scratch starter project খুলুন।.
 
-**Online:** starter প্রকল্প এখানে খুলুন [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}.
+**Online:** starter প্রকল্প এখানে খুলুন [rpf.io/dodgeball-on](https://rpf.io/dodgeball-on){:target="_blank"}.
 
 আপনার যদি scratch অ্যাকাউন্ট থাকে তবে আপনি **Remix** ক্লিক করে এটির একটি অনুলিপি তৈরি করতে পারেন ।.
 
-**Offline:** প্রজেক্ট টি [rpf.io/p/bn-IN/dodgeball-get](http://rpf.io/p/bn-IN/dodgeball-get) থেকে ডাউনলোড করুন এবং সেটি অফলাইন এডিটর ব্যবহার করে খুলুন.
+**Offline:** প্রজেক্ট টি [rpf.io/p/bn-IN/dodgeball-get](https://rpf.io/p/bn-IN/dodgeball-get) থেকে ডাউনলোড করুন এবং সেটি অফলাইন এডিটর ব্যবহার করে খুলুন.
 
 --- /task ---
 
