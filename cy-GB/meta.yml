@@ -4,25 +4,28 @@ listed: true
 ingredient: false
 copyedit: false
 title: Osgoi'r bêl
-description: Creu gêm blatfform lle rydych chi'n osgoi peli sy'n symud i gyrraedd diwedd y lefel
+description: Creu gêm blatfform lle rydych chi'n osgoi peli sy'n symud i gyrraedd
+  diwedd y lefel
 version: 4.0.0
 last_tested: 2018-10-10
 steps:
-  - title: Cyflwyniad
-  - title: Symudiad y cymeriad
-  - title: "Her: cwblhau'r lefel"
-    challenge: true
-  - title: Disgyrchiant a neidio
-  - title: 'Her: gwella''r neidio'
-    challenge: true
-  - title: Osgoi peli
-  - title: 'Her: peli ar hap'
-    challenge: true
-  - title: Laser!
-  - title: 'Her: mwy o rwystrau'
-    challenge: true
-  - title: 'Her: gwell disgyrchiant'
-    challenge: true
-  - title: 'Her: mwy o fywydau'
-    challenge: true
-  - title: Beth nesaf?
+- title: Cyflwyniad
+  completion: engaged
+- title: Symudiad y cymeriad
+- title: 'Her: cwblhau''r lefel'
+  challenge: true
+- title: Disgyrchiant a neidio
+- title: 'Her: gwella''r neidio'
+  challenge: true
+- title: Osgoi peli
+- title: 'Her: peli ar hap'
+  challenge: true
+  completion: internal
+- title: Laser!
+- title: 'Her: mwy o rwystrau'
+  challenge: true
+- title: 'Her: gwell disgyrchiant'
+  challenge: true
+- title: 'Her: mwy o fywydau'
+  challenge: true
+- title: Beth nesaf?

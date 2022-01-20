@@ -6,11 +6,11 @@ Dechreua drwy greu cymeriad a all symud i'r chwith ac i'r dde, a gall ddringo i 
 
 Agora y prosiect cychwynnol Scratch 'Osgoi'r bêl'.
 
-**Arlein:** agora brosiect Scratch newydd yma [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}.
+**Arlein:** agora brosiect Scratch newydd yma [rpf.io/dodgeball-on](https://rpf.io/dodgeball-on){:target="_blank"}.
 
 Os oes ganddot ti gyfrif Scratch galli di wneud copi drwy glicio ar **Remix**.
 
-**All-lein:** lawrlwytha'r prosiect cychwynnol o [rpf.io/p/cy-GB/dodgeball-get](http://rpf.io/p/cy-GB/dodgeball-get) ac yna ei agor gan ddefnyddio'r golygydd all-lein.
+**All-lein:** lawrlwytha'r prosiect cychwynnol o [rpf.io/p/cy-GB/dodgeball-get](https://rpf.io/p/cy-GB/dodgeball-get) ac yna ei agor gan ddefnyddio'r golygydd all-lein.
 
 --- /task ---
 

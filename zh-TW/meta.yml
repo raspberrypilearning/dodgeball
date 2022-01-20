@@ -8,21 +8,23 @@ description: 創建一個平台遊戲，在其中躲避移動的球以達到關�
 version: 4.0.0
 last_tested: 2018-10-10
 steps:
-  - title: 介紹
-  - title: 角色的動作
-  - title: "挑戰：讓角色過關"
-    challenge: true
-  - title: 重力和跳躍
-  - title: '挑戰：改良跳躍動作'
-    challenge: true
-  - title: 躲避的球
-  - title: '挑戰：隨機的球'
-    challenge: true
-  - title: 動感光波！
-  - title: '挑戰: 更多阻礙'
-    challenge: true
-  - title: '挑戰：改良重力'
-    challenge: true
-  - title: '挑戰：更多生命'
-    challenge: true
-  - title: 然後呢？
+- title: 介紹
+  completion: engaged
+- title: 角色的動作
+- title: 挑戰：讓角色過關
+  challenge: true
+- title: 重力和跳躍
+- title: 挑戰：改良跳躍動作
+  challenge: true
+- title: 躲避的球
+- title: 挑戰：隨機的球
+  challenge: true
+  completion: internal
+- title: 動感光波！
+- title: '挑戰: 更多阻礙'
+  challenge: true
+- title: 挑戰：改良重力
+  challenge: true
+- title: 挑戰：更多生命
+  challenge: true
+- title: 然後呢？

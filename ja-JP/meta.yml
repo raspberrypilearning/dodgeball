@@ -8,21 +8,23 @@ description: レベルの最後に到達するために動くボールをかわ�
 version: 4.0.0
 last_tested: 2018-10-10
 steps:
-  - title: はじめに
-  - title: キャラクターの動き
-  - title: "チャレンジ: レベルを完了する"
-    challenge: true
-  - title: 重力とジャンプ
-  - title: 'チャレンジ: ジャンプをより良くする'
-    challenge: true
-  - title: ボールをよける
-  - title: 'チャレンジ: ランダムボール'
-    challenge: true
-  - title: レーザー！
-  - title: 'チャレンジ: 障害物の追加'
-    challenge: true
-  - title: 'チャレンジ: 重力をより良くする'
-    challenge: true
-  - title: 'チャレンジ: ライフを増やす'
-    challenge: true
-  - title: 次は何をしますか？
+- title: はじめに
+  completion: engaged
+- title: キャラクターの動き
+- title: 'チャレンジ: レベルを完了する'
+  challenge: true
+- title: 重力とジャンプ
+- title: 'チャレンジ: ジャンプをより良くする'
+  challenge: true
+- title: ボールをよける
+- title: 'チャレンジ: ランダムボール'
+  challenge: true
+  completion: internal
+- title: レーザー！
+- title: 'チャレンジ: 障害物の追加'
+  challenge: true
+- title: 'チャレンジ: 重力をより良くする'
+  challenge: true
+- title: 'チャレンジ: ライフを増やす'
+  challenge: true
+- title: 次は何をしますか？

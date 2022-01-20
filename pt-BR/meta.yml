@@ -4,25 +4,28 @@ listed: true
 ingredient: false
 copyedit: false
 title: Queimada
-description: Crie um jogo de plataforma no qual você esquiva das bolas em movimento para chegar ao final do nível
+description: Crie um jogo de plataforma no qual você esquiva das bolas em movimento
+  para chegar ao final do nível
 version: 4.0.0
 last_tested: 2018-10-10
 steps:
-  - title: Introdução
-  - title: Movimento do personagem
-  - title: "Desafio: completando o nível"
-    challenge: true
-  - title: Gravidade e salto
-  - title: 'Desafio: salto melhorado'
-    challenge: true
-  - title: Esquivando das bolas
-  - title: 'Desafio: bolas aleatórias'
-    challenge: true
-  - title: Lasers!
-  - title: 'Desafio: mais obstáculos'
-    challenge: true
-  - title: 'Desafio: gravidade melhorada'
-    challenge: true
-  - title: 'Desafio: mais vidas'
-    challenge: true
-  - title: E agora?
+- title: Introdução
+  completion: engaged
+- title: Movimento do personagem
+- title: 'Desafio: completando o nível'
+  challenge: true
+- title: Gravidade e salto
+- title: 'Desafio: salto melhorado'
+  challenge: true
+- title: Esquivando das bolas
+- title: 'Desafio: bolas aleatórias'
+  challenge: true
+  completion: internal
+- title: Lasers!
+- title: 'Desafio: mais obstáculos'
+  challenge: true
+- title: 'Desafio: gravidade melhorada'
+  challenge: true
+- title: 'Desafio: mais vidas'
+  challenge: true
+- title: E agora?

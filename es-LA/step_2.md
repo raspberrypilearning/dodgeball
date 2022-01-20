@@ -6,11 +6,11 @@ Comienza creando un personaje que pueda moverse hacia la izquierda y derecha, y 
 
 Abre el proyecto inicial de Scratch "Quemados".
 
-**En línea**: abra un nuevo proyecto Scratch en línea en [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on).
+**En línea**: abra un nuevo proyecto Scratch en línea en [rpf.io/dodgeball-on](https://rpf.io/dodgeball-on).
 
 Si tiene una cuenta de Scratch, puede hacer una copia haciendo clic en **Remix**.
 
-**Sin conexión:** descarga el proyecto inicial desde [rpf.io/p/es-LA/dodgeball-get](http://rpf.io/p/es-LA/dodgeball-get) y luego ábrelo con el editor de Scratch fuera de linea.
+**Sin conexión:** descarga el proyecto inicial desde [rpf.io/p/es-LA/dodgeball-get](https://rpf.io/p/es-LA/dodgeball-get) y luego ábrelo con el editor de Scratch fuera de linea.
 
 --- /task ---
 

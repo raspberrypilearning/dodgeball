@@ -4,25 +4,28 @@ listed: true
 ingredient: false
 copyedit: false
 title: Völkerball
-description: Erstelle ein Plattform-Spiel, in dem du bewegenden Bällen ausweichen und das Ende des Levels erreichen musst
+description: Erstelle ein Plattform-Spiel, in dem du bewegenden Bällen ausweichen
+  und das Ende des Levels erreichen musst
 version: 4.0.0
 last_tested: 2018-10-10
 steps:
-  - title: Einleitung
-  - title: Bewegung der Spielfigur
-  - title: "Herausforderung: Das Level abschließen"
-    challenge: true
-  - title: Schwerkraft und springen
-  - title: 'Herausforderung: Verbessertes Springen'
-    challenge: true
-  - title: Bällen ausweichen
-  - title: 'Herausforderung: zufällige Bälle'
-    challenge: true
-  - title: Laser!
-  - title: 'Herausforderung: Mehr Hindernisse'
-    challenge: true
-  - title: 'Herausforderung: Verbesserte Schwerkraft'
-    challenge: true
-  - title: 'Herausforderung: Mehr Leben'
-    challenge: true
-  - title: Wie geht es weiter?
+- title: Einleitung
+  completion: engaged
+- title: Bewegung der Spielfigur
+- title: 'Herausforderung: Das Level abschließen'
+  challenge: true
+- title: Schwerkraft und springen
+- title: 'Herausforderung: Verbessertes Springen'
+  challenge: true
+- title: Bällen ausweichen
+- title: 'Herausforderung: zufällige Bälle'
+  challenge: true
+  completion: internal
+- title: Laser!
+- title: 'Herausforderung: Mehr Hindernisse'
+  challenge: true
+- title: 'Herausforderung: Verbesserte Schwerkraft'
+  challenge: true
+- title: 'Herausforderung: Mehr Leben'
+  challenge: true
+- title: Wie geht es weiter?

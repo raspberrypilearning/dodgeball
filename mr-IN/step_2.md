@@ -6,11 +6,11 @@
 
 'डॉजबॉल' स्क्रॅच स्टार्टर प्रकल्प उघडा.
 
-**ऑनलाइन:** स्टार्टर प्रकल्प [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"} उघडा.
+**ऑनलाइन:** स्टार्टर प्रकल्प [rpf.io/dodgeball-on](https://rpf.io/dodgeball-on){:target="_blank"} उघडा.
 
 आपल्याकडे स्क्रॅच खाते असल्यास आपण **Remix** वर क्लिक करून प्रत तयार करू शकता.
 
-**ऑफलाइनः** स्टार्टर प्रोजेक्ट [rpf.io/p/mr-IN/dodgeball-get](http://rpf.io/p/mr-IN/dodgeball-get) वरून डाउनलोड करा आणि नंतर ऑफलाइन एडिटर वापरून तो उघडा.
+**ऑफलाइनः** स्टार्टर प्रोजेक्ट [rpf.io/p/mr-IN/dodgeball-get](https://rpf.io/p/mr-IN/dodgeball-get) वरून डाउनलोड करा आणि नंतर ऑफलाइन एडिटर वापरून तो उघडा.
 
 --- /task ---
 
