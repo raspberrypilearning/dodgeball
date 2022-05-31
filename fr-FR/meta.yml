@@ -10,18 +10,20 @@ version: 4.0.0
 last_tested: 2018-10-10
 steps:
 - title: Introduction
-  completion: engaged
 - title: Mouvement du personnage
 - title: 'Défi : terminer le niveau'
   challenge: true
 - title: Gravité et saut
+  completion:
+  - engaged
 - title: 'Défi : saut amélioré'
   challenge: true
 - title: Esquive des balles
 - title: 'Défi : balles aléatoires'
   challenge: true
-  completion: internal
 - title: Lasers !
+  completion:
+  - internal
 - title: 'Défi : plus d''obstacles'
   challenge: true
 - title: 'Défi : gravité améliorée'

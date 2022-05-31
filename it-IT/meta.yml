@@ -19,15 +19,17 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Introduzione
-  completion: engaged
 - title: Movimento del personaggio
 - title: 'Sfida: Completare il livello'
 - title: Gravità e salti
+  completion:
+  - engaged
 - title: 'Sfida: Salto migliorato'
 - title: Palle da schivare
 - title: 'Sfida: Palle a caso'
-  completion: internal
 - title: Laser!
+  completion:
+  - internal
 - title: 'Sfida: Altri ostacoli'
 - title: 'Sfida: Salto migliorato'
 - title: 'Sfida: Altre vite'

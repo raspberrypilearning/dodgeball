@@ -9,18 +9,20 @@ version: 4.0.0
 last_tested: 2018-10-10
 steps:
 - title: 介紹
-  completion: engaged
 - title: 角色的動作
 - title: 挑戰：讓角色過關
   challenge: true
 - title: 重力和跳躍
+  completion:
+  - engaged
 - title: 挑戰：改良跳躍動作
   challenge: true
 - title: 躲避的球
 - title: 挑戰：隨機的球
   challenge: true
-  completion: internal
 - title: 動感光波！
+  completion:
+  - internal
 - title: '挑戰: 更多阻礙'
   challenge: true
 - title: 挑戰：改良重力

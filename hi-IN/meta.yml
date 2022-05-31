@@ -10,18 +10,20 @@ version: 4.0.0
 last_tested: 2018-10-10
 steps:
 - title: भूमिका
-  completion: engaged
 - title: पात्र की गति
 - title: 'चुनौती: लेवल पूरा करना'
   challenge: true
 - title: गुरुत्वाकर्षण और छलांग
+  completion:
+  - engaged
 - title: 'चुनौती: छलांग में सुधार'
   challenge: true
 - title: गेंदों को चकमा देना
 - title: 'चुनौती: यादृच्छिक गेंदें'
   challenge: true
-  completion: internal
 - title: लेज़र!
+  completion:
+  - internal
 - title: 'चुनौती: अधिक बाधाएँ'
   challenge: true
 - title: 'चुनौती: गुरुत्वाकर्षण में सुधार'

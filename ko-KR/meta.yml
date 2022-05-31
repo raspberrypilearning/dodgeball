@@ -9,18 +9,20 @@ version: 4.0.0
 last_tested: 2018-10-10
 steps:
 - title: 들어가며
-  completion: engaged
 - title: 캐릭터 이동
 - title: '도전 과제: 레벨 완료하기'
   challenge: true
 - title: 중력과 점프
+  completion:
+  - engaged
 - title: '도전 과제: 개선된 점프'
   challenge: true
 - title: 공들 피하기
 - title: '도전 과제: 무작위의 공'
   challenge: true
-  completion: internal
 - title: 레이저!
+  completion:
+  - internal
 - title: '도전 과제: 더 많은 장애물'
   challenge: true
 - title: '도전 과제: 개선된 중력'

@@ -9,18 +9,20 @@ version: 4.0.0
 last_tested: 2018-10-10
 steps:
 - title: はじめに
-  completion: engaged
 - title: キャラクターの動き
 - title: 'チャレンジ: レベルを完了する'
   challenge: true
 - title: 重力とジャンプ
+  completion:
+  - engaged
 - title: 'チャレンジ: ジャンプをより良くする'
   challenge: true
 - title: ボールをよける
 - title: 'チャレンジ: ランダムボール'
   challenge: true
-  completion: internal
 - title: レーザー！
+  completion:
+  - internal
 - title: 'チャレンジ: 障害物の追加'
   challenge: true
 - title: 'チャレンジ: 重力をより良くする'

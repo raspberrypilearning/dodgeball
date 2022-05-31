@@ -10,18 +10,20 @@ version: 4.0.0
 last_tested: 2018-10-10
 steps:
 - title: Inleiding
-  completion: engaged
 - title: Voortbeweging personage
 - title: 'Uitdaging: het level halen'
   challenge: true
 - title: Zwaartekracht en springen
+  completion:
+  - engaged
 - title: 'Uitdaging: beter springen'
   challenge: true
 - title: Trefballen
 - title: 'Uitdaging: willekeurige ballen'
   challenge: true
-  completion: internal
 - title: Lasers!
+  completion:
+  - internal
 - title: 'Uitdaging: meer obstakels'
   challenge: true
 - title: 'Uitdaging: verbeterde zwaartekracht'
