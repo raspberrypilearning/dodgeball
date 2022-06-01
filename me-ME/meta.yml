@@ -19,15 +19,17 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Uvod
-  completion: engaged
 - title: Kretanje karaktera
 - title: 'Izazov: Dovršavanje nivoa'
 - title: Gravitacija i skokovi
+  completion:
+  - engaged
 - title: 'Izazov: Poboljšan skok'
 - title: Izbjegavanje lopti
 - title: 'Izazov: Slučajne lopte'
-  completion: internal
 - title: Laseri!
+  completion:
+  - internal
 - title: 'Izazov: Više prepreka'
 - title: 'Izazov: Poboljšana gravitacija'
 - title: 'Izazov: Više života'

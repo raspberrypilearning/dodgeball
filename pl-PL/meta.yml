@@ -10,18 +10,20 @@ version: 3
 last_tested: 2018-10-10
 steps:
 - title: Wprowadzenie
-  completion: engaged
 - title: Poruszanie się postacią
 - title: 'Wyzwanie: ukończenie poziomu'
   challenge: true
 - title: Grawitacja i skakanie
+  completion:
+  - engaged
 - title: 'Wyzwanie: lepsze skakanie'
   challenge: true
 - title: Unikanie piłek
 - title: 'Wyzwanie: losowe piłki'
   challenge: true
-  completion: internal
 - title: Lasery!
+  completion:
+  - internal
 - title: 'Wyzwanie: więcej przeszkód'
   challenge: true
 - title: 'Wyzwanie: poprawiona grawitacja'

@@ -10,18 +10,20 @@ version: 4.0.0
 last_tested: 2018-10-10
 steps:
 - title: Introducción
-  completion: engaged
 - title: Movimientos del personaje
 - title: 'Desafío: acabar el nivel'
   challenge: true
 - title: Gravedad y saltos
+  completion:
+  - engaged
 - title: 'Desafío: mejores saltos'
   challenge: true
 - title: Esquivando las pelotas
 - title: 'Desafío: pelotas aleatorias'
   challenge: true
-  completion: internal
 - title: "¡Láseres!"
+  completion:
+  - internal
 - title: 'Desafío: más obstáculos'
   challenge: true
 - title: 'Desafío: mejorando la gravedad'

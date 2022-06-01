@@ -20,4 +20,3 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Dodgeball
-  completion: engaged

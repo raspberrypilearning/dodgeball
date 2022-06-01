@@ -10,18 +10,20 @@ version: 4.0.0
 last_tested: 2018-10-10
 steps:
 - title: Cyflwyniad
-  completion: engaged
 - title: Symudiad y cymeriad
 - title: 'Her: cwblhau''r lefel'
   challenge: true
 - title: Disgyrchiant a neidio
+  completion:
+  - engaged
 - title: 'Her: gwella''r neidio'
   challenge: true
 - title: Osgoi peli
 - title: 'Her: peli ar hap'
   challenge: true
-  completion: internal
 - title: Laser!
+  completion:
+  - internal
 - title: 'Her: mwy o rwystrau'
   challenge: true
 - title: 'Her: gwell disgyrchiant'

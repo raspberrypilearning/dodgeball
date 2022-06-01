@@ -10,18 +10,20 @@ version: 4.0.0
 last_tested: 2018-10-10
 steps:
 - title: ভূমিকা
-  completion: engaged
 - title: Character এর চলন
 - title: 'Challenge: স্তরটি সম্পূর্ণ করা'
   challenge: true
 - title: মাধ্যাকর্ষণ এবং লাফানো
+  completion:
+  - engaged
 - title: 'Challenge: আরও ভাল লাফানো'
   challenge: true
 - title: বল ডজিং
 - title: 'Challenge: যেকোনো বল'
   challenge: true
-  completion: internal
 - title: লেজার!
+  completion:
+  - internal
 - title: 'Challenge: পআরও বেশি বাধা'
   challenge: true
 - title: 'Challenge: মাধ্যাকর্ষণ আরও উন্নত করুন'

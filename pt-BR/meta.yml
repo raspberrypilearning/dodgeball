@@ -10,18 +10,20 @@ version: 4.0.0
 last_tested: 2018-10-10
 steps:
 - title: Introdução
-  completion: engaged
 - title: Movimento do personagem
 - title: 'Desafio: completando o nível'
   challenge: true
 - title: Gravidade e salto
+  completion:
+  - engaged
 - title: 'Desafio: salto melhorado'
   challenge: true
 - title: Esquivando das bolas
 - title: 'Desafio: bolas aleatórias'
   challenge: true
-  completion: internal
 - title: Lasers!
+  completion:
+  - internal
 - title: 'Desafio: mais obstáculos'
   challenge: true
 - title: 'Desafio: gravidade melhorada'

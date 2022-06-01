@@ -10,18 +10,20 @@ version: 4.0.0
 last_tested: 10-10-2018
 steps:
 - title: Введение
-  completion: engaged
 - title: Движение персонажа
 - title: 'Задание: заверши уровень'
   challenge: true
 - title: Гравитация и прыжки
+  completion:
+  - engaged
 - title: 'Задание: улучшить гравитацию'
   challenge: true
 - title: Уклонение от мячей
 - title: 'Задание: случайные мячи'
   challenge: true
-  completion: internal
 - title: Лазеры!
+  completion:
+  - internal
 - title: 'Задание: больше препятствий'
   challenge: true
 - title: 'Задание: улучшить гравитацию'

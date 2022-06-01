@@ -10,18 +10,20 @@ version: 4.0.0
 last_tested: 2018-10-10
 steps:
 - title: Einleitung
-  completion: engaged
 - title: Bewegung der Spielfigur
 - title: 'Herausforderung: Das Level abschließen'
   challenge: true
 - title: Schwerkraft und springen
+  completion:
+  - engaged
 - title: 'Herausforderung: Verbessertes Springen'
   challenge: true
 - title: Bällen ausweichen
 - title: 'Herausforderung: zufällige Bälle'
   challenge: true
-  completion: internal
 - title: Laser!
+  completion:
+  - internal
 - title: 'Herausforderung: Mehr Hindernisse'
   challenge: true
 - title: 'Herausforderung: Verbesserte Schwerkraft'

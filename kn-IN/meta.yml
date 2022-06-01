@@ -10,18 +10,20 @@ version: 4.0.0
 last_tested: 2018-10-10
 steps:
 - title: ಪರಿಚಯ
-  completion: engaged
 - title: ಪಾತ್ರ ಚಲನೆ
 - title: 'ಸವಾಲು: ಹಂತವನ್ನು ಪೂರ್ಣಗೊಳಿಸುವುದು'
   challenge: true
 - title: ಗುರುತ್ವಾಕರ್ಷಣೆ ಮತ್ತು ಜಿಗಿತ
+  completion:
+  - engaged
 - title: 'ಸವಾಲು: ಸುಧಾರಿತ ಜಿಗಿತ'
   challenge: true
 - title: ಚೆಂಡುಗಳನ್ನು ಡಾಡ್ಜ್(dodge) ಮಾಡುವುದು
 - title: 'ಸವಾಲು: random ಚೆಂಡುಗಳು'
   challenge: true
-  completion: internal
 - title: ಲೇಸರ್ಗಳು(lasers)!
+  completion:
+  - internal
 - title: 'ಸವಾಲು: ಹೆಚ್ಚು ಅಡೆತಡೆಗಳು'
   challenge: true
 - title: 'ಸವಾಲು: ಸುಧಾರಿತ ಗುರುತ್ವಾಕರ್ಷಣೆ'

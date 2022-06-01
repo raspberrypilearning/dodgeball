@@ -10,18 +10,20 @@ version: 4.0.0
 last_tested: 2018-10-10
 steps:
 - title: Εισαγωγή
-  completion: engaged
 - title: Κινηση χαρακτήρων
 - title: 'Δοκιμασία: ολοκλήρωση του επιπέδου'
   challenge: true
 - title: Βαρύτητα και άλματα
+  completion:
+  - engaged
 - title: 'Δοκιμασία: καλύτερα άλματα'
   challenge: true
 - title: Αποφεύγοντας τις μπάλες
 - title: 'Δοκιμασία: τυχαίες μπάλες'
   challenge: true
-  completion: internal
 - title: Λέιζερ!
+  completion:
+  - internal
 - title: 'Δοκιμασία: περισσότερα εμπόδια'
   challenge: true
 - title: 'Δοκιμασία: βελτιωμένη βαρύτητα'

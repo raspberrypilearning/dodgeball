@@ -9,18 +9,20 @@ version: 4.0.0
 last_tested: 2018-10-10
 steps:
 - title: المقدمة
-  completion: engaged
 - title: حركة الشخصية(او الكائن)
 - title: 'التحدي: إكمال المستوى'
   challenge: true
 - title: الجاذبية و القفز
+  completion:
+  - engaged
 - title: 'التحدي: القفز بشكل أفضل'
   challenge: true
 - title: تفادي الكرات
 - title: 'التحدي: كرات عشوائية'
   challenge: true
-  completion: internal
 - title: أشعة الليزر!
+  completion:
+  - internal
 - title: 'التحدي: المزيد من العقبات (او العوائق)'
   challenge: true
 - title: 'التحدي: تحسين الجاذبية'

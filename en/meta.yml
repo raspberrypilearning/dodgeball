@@ -10,18 +10,20 @@ version: 4.0.0
 last_tested: 2018-10-10
 steps:
 - title: Introduction
-  completion: engaged
 - title: Character movement
 - title: 'Challenge: completing the level'
   challenge: true
 - title: Gravity and jumping
+  completion:
+  - engaged
 - title: 'Challenge: improved jumping'
   challenge: true
 - title: Dodging balls
 - title: 'Challenge: random balls'
   challenge: true
-  completion: internal
 - title: Lasers!
+  completion:
+  - internal
 - title: 'Challenge: more obstacles'
   challenge: true
 - title: 'Challenge: improved gravity'
