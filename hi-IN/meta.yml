@@ -9,21 +9,21 @@ version: 4.0.0
 last_tested: 2018-10-10
 steps:
   - 
-    title: भूमिका
+    title: परिचय
   - 
     title: पात्र की गति
   - 
     title: "चुनौती: लेवल पूरा करना"
     challenge: true
   - 
-    title: गुरुत्वाकर्षण और छलांग
+    title: गुरुत्वाकर्षण (gravity) और छलांग
   - 
     title: 'चुनौती: छलांग में सुधार'
     challenge: true
   - 
     title: गेंदों को चकमा देना
   - 
-    title: 'चुनौती: यादृच्छिक गेंदें'
+    title: 'चुनौती: यादृच्छिक (random) गेंदें'
     challenge: true
   - 
     title: लेज़र!
@@ -31,7 +31,7 @@ steps:
     title: 'चुनौती: अधिक बाधाएँ'
     challenge: true
   - 
-    title: 'चुनौती: गुरुत्वाकर्षण में सुधार'
+    title: 'चुनौती: गुरुत्वाकर्षण (gravity) में सुधार'
     challenge: true
   - 
     title: 'चुनौती: अधिक जीवन'
