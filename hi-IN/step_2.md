@@ -4,17 +4,17 @@
 
 \--- task \---
 
-'Dodgeball' Scratch प्रारंभक परियोजना खोलें।
+'Dodgeball' Scratch प्रारंभक प्रोजेक्ट खोलें।
 
-**ऑनलाइन:** [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"} पर प्रारंभक परियोजना खोलें।
+**ऑनलाइन:** [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"} पर प्रारंभक प्रोजेक्ट खोलें।
 
 यदि आपके पास एक Scratch खाता है, तो आप **Remix** पर क्लिक करके प्रतिलिपि बना सकते हैं।
 
-**ऑफ़लाइन:** प्रारंभक परियोजना को [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) से डाउनलोड करें और फिर इसे ऑफ़लाइन संपादक का उपयोग करके खोलें।
+**ऑफ़लाइन:** प्रारंभक प्रोजेक्ट को [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) से डाउनलोड करें और फिर इसे ऑफ़लाइन संपादक का उपयोग करके खोलें।
 
 \--- /task \---
 
-इस परियोजना में प्लेटफार्मों के साथ एक पृष्ठभूमि शामिल है:
+इस प्रोजेक्ट में प्लेटफार्मों के साथ एक पृष्ठभूमि शामिल है:
 
 ![डॉजबॉल परियोजना की पृष्ठभूमि](images/dodge-background.png)
 
