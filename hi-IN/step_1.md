@@ -1,10 +1,10 @@
 \--- no-print \---
 
-यह इस परियोजना का **Scratch 3** संस्करण है। [इस परियोजना का Scratch 2 संस्करण](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2) भी है।
+यह इस प्रोजेक्ट का **Scratch 3** संस्करण है। [इस प्रोजेक्ट का Scratch 2 संस्करण](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2) भी है।
 
 \--- /no-print \---
 
-## भूमिका
+## परिचय
 
 आप सीखेंगे कि एक प्लेटफ़ॉर्म गेम कैसे बनाया जाए जिसमें खिलाड़ी को लेवल के अंत तक पहुंचने के लिए चलती गेंदों को चकमा देना है।
 
@@ -39,7 +39,7 @@
 
 ### डाउनलोड
 
-You can [find the downloads here](https://rpf.io/p/en/dodgeball-go).
+आप [यहां डाउनलोड पा सकते हैं](https://rpf.io/p/en/dodgeball-go)।
 
 \--- /collapse \---
 
@@ -48,7 +48,7 @@ You can [find the downloads here](https://rpf.io/p/en/dodgeball-go).
 ## title: आप क्या सीखेंगे
 
 + एक sprite को नियंत्रित करने के लिए कीबोर्ड का उपयोग कैसे करें
-+ `if, then, else` {"class =" block3control "} Scratch खंड का उपयोग कैसे करें
++ `if, then, else`{:class="block3control"} Scratch खंड का उपयोग कैसे करें
 + एक sprite का हूबहू कैसे बनाएं
 
 \--- /collapse \---
@@ -59,10 +59,10 @@ You can [find the downloads here](https://rpf.io/p/en/dodgeball-go).
 
 \--- no-print \---
 
-अगर आपको इस परियोजना को प्रिंट करने की आवश्यकता है, तो कृप्या [प्रिंटर-अनुकूल संस्करण](https://projects.raspberrypi.org/en/projects/dodgeball/print){: target = "_ blank"} का उपयोग करें।
+अगर आपको इस प्रोजेक्ट को प्रिंट करने की आवश्यकता है, तो कृप्या [प्रिंटर अनुकूल वर्ज़न](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"} का उपयोग करें।
 
 \--- /no-print \---
 
-You can find the [completed project here](https://rpf.io/p/en/dodgeball-get).
+आप यहां [ पूर्ण किया हुआ प्रोजेक्ट पा सकते हैं ](https://rpf.io/p/en/dodgeball-get)।
 
 \--- /collapse \---
