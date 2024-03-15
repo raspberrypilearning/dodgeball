@@ -6,11 +6,11 @@
 
 Открой стартовый проект Scratch "Вышибалы".
 
-**Онлайн:** открой стартовый проект по адресу [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}.
+**Online:** open the starter project at [rpf.io/dodgeball-on](https://rpf.io/dodgeball-on){:target="_blank"}.
 
 Если у тебя есть учетная запись в Scratch, то ты можешь сделать копию, нажав **Ремикс**.
 
-**Оффлайн:** скачай стартовый проект с [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get){:target="_blank"} и затем открой его с помощью оффлайн редактора.
+**Offline:** download the starter project from [rpf.io/p/en/dodgeball-get](https://rpf.io/p/en/dodgeball-get) and then open it using the offline editor.
 
 \--- /task \---
 
