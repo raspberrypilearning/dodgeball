@@ -13,10 +13,12 @@ steps:
   - 
     title: Symudiad y cymeriad
   - 
-    title: "Her: cwblhau'r lefel"
+    title: 'Her: cwblhau''r lefel'
     challenge: true
   - 
     title: Disgyrchiant a neidio
+    completion:
+      - engaged
   - 
     title: 'Her: gwella''r neidio'
     challenge: true
@@ -27,6 +29,8 @@ steps:
     challenge: true
   - 
     title: Laser!
+    completion:
+      - internal
   - 
     title: 'Her: mwy o rwystrau'
     challenge: true
