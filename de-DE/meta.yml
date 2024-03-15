@@ -13,10 +13,12 @@ steps:
   - 
     title: Bewegung der Spielfigur
   - 
-    title: "Herausforderung: Das Level abschließen"
+    title: 'Herausforderung: Das Level abschließen'
     challenge: true
   - 
     title: Schwerkraft und springen
+    completion:
+      - engaged
   - 
     title: 'Herausforderung: Verbessertes Springen'
     challenge: true
@@ -27,6 +29,8 @@ steps:
     challenge: true
   - 
     title: Laser!
+    completion:
+      - internal
   - 
     title: 'Herausforderung: Mehr Hindernisse'
     challenge: true
