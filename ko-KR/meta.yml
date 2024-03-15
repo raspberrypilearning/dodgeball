@@ -13,10 +13,12 @@ steps:
   - 
     title: 캐릭터 이동
   - 
-    title: "도전 과제 : 레벨 완료하기"
+    title: '도전 과제 : 레벨 완료하기'
     challenge: true
   - 
     title: 중력과 점프
+    completion:
+      - engaged
   - 
     title: '도전 과제 : 개선된 점프'
     challenge: true
@@ -27,6 +29,8 @@ steps:
     challenge: true
   - 
     title: 레이저!
+    completion:
+      - internal
   - 
     title: '도전 과제: 더 많은 장애물'
     challenge: true
