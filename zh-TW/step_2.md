@@ -6,11 +6,11 @@
 
 打開躲避球這個專案的材料包。
 
-**線上版：**你可以連結 [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"} 以新建專案。
+**Online:** open the starter project at [rpf.io/dodgeball-on](https://rpf.io/dodgeball-on){:target="_blank"}.
 
 如果你有 Scratch 帳戶，你就可以直接**改編**專案。
 
-**離線版：** 你可以點擊 [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get){:target="_blank"} 以下載專案。
+**Offline:** download the starter project from [rpf.io/p/en/dodgeball-get](https://rpf.io/p/en/dodgeball-get) and then open it using the offline editor.
 
 \--- /task \---
 
