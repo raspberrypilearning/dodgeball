@@ -1,9 +1,9 @@
-gravity
+grawitacja
 
-jump height
+Wysokość skoku
 
-hit
+trafiony
 
-on
+włączony
 
-off
+wyłączony
