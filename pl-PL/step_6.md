@@ -134,9 +134,9 @@ koniec
 usuń tego klona
 ```
 
-\--- /wskazówka \---
+\--- /hint \---
 
-\--- /wskazówka \---
+\--- /hints \---
 
 \--- /task \---
 
@@ -152,7 +152,7 @@ Dodaj poniższy kod do duszka piłki:
     gdy zaczynam jako klon
     zawsze
         jeżeli < dotyka (Pico walking v)? > to
-            nadaj komunikat (trafienie v)
+            nadaj komunikat (trafiony v)
         koniec
     koniec
 ```
@@ -161,12 +161,12 @@ Dodaj poniższy kod do duszka piłki:
 
 \--- task \---
 
-Na koniec dodaj bloki kodu do duszka postaci, aby powrócił do swojej pozycji początkowej kiedy dostaje komunikat `trafienie`:
+Na koniec dodaj bloki kodu do duszka postaci, aby powrócił do swojej pozycji początkowej kiedy dostaje komunikat `trafiony`:
 
 ![duszek Pico walking](images/pico_walking_sprite.png)
 
 ```blocks3
-    kiedy otrzymam [trafienie v]
+    kiedy otrzymam [trafiony v]
     ustaw kierunek na (90)
     idź do x: (-210) y: (-120)
 ```
