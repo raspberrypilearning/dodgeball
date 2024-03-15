@@ -6,11 +6,11 @@ Zacznij od stworzenia postaci która może poruszać się w lewo i w prawo oraz 
 
 Otwórz projekt startowy Scratch „Dwa ognie”.
 
-**Online:** otwórz nowy projekt Scratcha na stronie [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}.
+**Online:** open the starter project at [rpf.io/dodgeball-on](https://rpf.io/dodgeball-on){:target="_blank"}.
 
 Jeśli masz konto Scratch, możesz wykonać kopię klikając **Remiks**.
 
-**Offline:** pobierz projekt początkowy z [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) i otwórz w programie Scratch Desktop.
+**Offline:** download the starter project from [rpf.io/p/en/dodgeball-get](https://rpf.io/p/en/dodgeball-get) and then open it using the offline editor.
 
 \--- /task \---
 
