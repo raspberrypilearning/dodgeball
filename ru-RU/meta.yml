@@ -13,10 +13,12 @@ steps:
   - 
     title: Движение персонажа
   - 
-    title: "Задание: заверши уровень"
+    title: 'Задание: заверши уровень'
     challenge: true
   - 
     title: Гравитация и прыжки
+    completion:
+      - engaged
   - 
     title: 'Задание: улучшить гравитацию'
     challenge: true
@@ -27,6 +29,8 @@ steps:
     challenge: true
   - 
     title: Лазеры!
+    completion:
+      - internal
   - 
     title: 'Задание: больше препятствий'
     challenge: true
