@@ -13,10 +13,12 @@ steps:
   - 
     title: Voortbeweging personage
   - 
-    title: "Uitdaging: het level halen"
+    title: 'Uitdaging: het level halen'
     challenge: true
   - 
     title: Zwaartekracht en springen
+    completion:
+      - engaged
   - 
     title: 'Uitdaging: beter springen'
     challenge: true
@@ -27,6 +29,8 @@ steps:
     challenge: true
   - 
     title: Lasers!
+    completion:
+      - internal
   - 
     title: 'Uitdaging: meer obstakels'
     challenge: true
