@@ -13,10 +13,12 @@ steps:
   - 
     title: キャラクターの動き
   - 
-    title: "チャレンジ: レベルを完了する"
+    title: 'チャレンジ: レベルを完了する'
     challenge: true
   - 
     title: 重力とジャンプ
+    completion:
+      - engaged
   - 
     title: 'チャレンジ: ジャンプをより良くする'
     challenge: true
@@ -27,6 +29,8 @@ steps:
     challenge: true
   - 
     title: レーザー！
+    completion:
+      - internal
   - 
     title: 'チャレンジ: 障害物の追加'
     challenge: true
