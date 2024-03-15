@@ -6,11 +6,11 @@
 
 افتح مشروع سكراتش مبدئي 'Dodgeball'.
 
-**بالاتصال بالانترنت**: افتح المشروع المبدئي من هنا [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}.
+**Online:** open the starter project at [rpf.io/dodgeball-on](https://rpf.io/dodgeball-on){:target="_blank"}.
 
 اذا كنت تملك حساب على منصة السكراتش (Scratch) فيمكنك عمل نسخة بالضغط على **Remix**.
 
-**دون اتصال انترنيت:** قم بتنزيل المشروع المبدئي من [rpf.io/p/en/dodgeballget](http://rpf.io/p/en/dodgeball-get) ثم قم بفتحه باستخدام محرر سكراتش بدون اتصال انترنيت.
+**Offline:** download the starter project from [rpf.io/p/en/dodgeball-get](https://rpf.io/p/en/dodgeball-get) and then open it using the offline editor.
 
 \--- /task \---
 
