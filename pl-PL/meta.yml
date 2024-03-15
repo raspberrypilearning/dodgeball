@@ -13,10 +13,12 @@ steps:
   - 
     title: Sterowanie postacią
   - 
-    title: "Wyzwanie: ukończenie poziomu"
+    title: 'Wyzwanie: ukończenie poziomu'
     challenge: true
   - 
     title: Grawitacja i skakanie
+    completion:
+      - engaged
   - 
     title: 'Wyzwanie: poprawione skakanie'
     challenge: true
@@ -27,6 +29,8 @@ steps:
     challenge: true
   - 
     title: Lasery!
+    completion:
+      - internal
   - 
     title: 'Wyzwanie: więcej przeszkód'
     challenge: true
