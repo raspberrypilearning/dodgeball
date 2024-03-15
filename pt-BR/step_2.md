@@ -6,11 +6,11 @@ Vamos começar criando um personagem que pode se mover para esquerda e direita, 
 
 Abra o projeto inicial 'Queimada' do Scratch.
 
-**Online:** abra o projeto inicial em [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}.
+**Online:** abra o projeto inicial em [rpf.io/dodgeball-on](https://rpf.io/dodgeball-on){:target="_blank"}.
 
 Se você tiver uma conta do Scratch, pode fazer uma cópia clicando em **Remix**.
 
-**Offline:** baixe o projeto inicial em [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) e, em seguida, abra-o usando o editor offline.
+**Offline:** baixe o projeto inicial em [rpf.io/p/pt-BR/dodgeball-get](https://rpf.io/p/pt-BR/dodgeball-get) e, em seguida, abra-o usando o editor offline.
 
 \--- /task \---
 
