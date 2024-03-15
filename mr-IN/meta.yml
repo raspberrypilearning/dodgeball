@@ -13,10 +13,12 @@ steps:
   - 
     title: पात्राची हालचाल
   - 
-    title: "आव्हान: स्तर पूर्ण करणे"
+    title: 'आव्हान: स्तर पूर्ण करणे'
     challenge: true
   - 
     title: गुरुत्वाकर्षण आणि उडी मारणे
+    completion:
+      - engaged
   - 
     title: 'आव्हान: उडी सुधारणे'
     challenge: true
@@ -27,6 +29,8 @@ steps:
     challenge: true
   - 
     title: लेझर!
+    completion:
+      - internal
   - 
     title: 'आव्हान: अधिक अडथळे'
     challenge: true
