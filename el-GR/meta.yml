@@ -13,10 +13,12 @@ steps:
   - 
     title: Κινηση χαρακτήρων
   - 
-    title: "Δοκιμασία: ολοκλήρωση του επιπέδου"
+    title: 'Δοκιμασία: ολοκλήρωση του επιπέδου'
     challenge: true
   - 
     title: Βαρύτητα και άλματα
+    completion:
+      - engaged
   - 
     title: 'Δοκιμασία: βελτιωμένα άλματα'
     challenge: true
@@ -27,6 +29,8 @@ steps:
     challenge: true
   - 
     title: Λέιζερ!
+    completion:
+      - internal
   - 
     title: 'Δοκιμασία: περισσότερα εμπόδια'
     challenge: true
