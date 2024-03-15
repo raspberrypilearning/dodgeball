@@ -39,7 +39,7 @@ Clique na bandeira verde para começar, em seguida use as setas para andar e a t
 
 ### Downloads
 
-You can [find the downloads here](https://rpf.io/p/en/dodgeball-go).
+Você pode [baixar os arquivos aqui](https://rpf.io/p/pt-BR/dodgeball-go).
 
 \--- /collapse \---
 
@@ -63,6 +63,6 @@ Se você precisar imprimir este projeto, por favor use a [versão para impressã
 
 \--- /no-print \---
 
-You can find the [completed project here](https://rpf.io/p/en/dodgeball-get).
+Você pode encontrar o [projeto concluído aqui](https://rpf.io/p/pt-BR/dodgeball-get).
 
 \--- /collapse \---
