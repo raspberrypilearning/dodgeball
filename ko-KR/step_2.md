@@ -6,11 +6,11 @@
 
 '피구 게임' 스크래치 스타터 프로젝트를 여십시오.
 
-** 온라인:** [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}에서 새로운 스타터 프로젝트 열기.
+**Online:** open the starter project at [rpf.io/dodgeball-on](https://rpf.io/dodgeball-on){:target="_blank"}.
 
 스크래치 계정이 있는 경우 ** Remix **를 클릭하여 사본을 만들 수 있습니다.
 
-**오프라인:** 스타터 프로젝트를 [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get){:target="_blank"} 에서 다운로드하고, 오프라인 편집기로 파일을 엽니다.
+**Offline:** download the starter project from [rpf.io/p/en/dodgeball-get](https://rpf.io/p/en/dodgeball-get) and then open it using the offline editor.
 
 \--- /task \---
 
