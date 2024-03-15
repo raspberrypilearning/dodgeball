@@ -13,10 +13,12 @@ steps:
   - 
     title: حركة الشخصية
   - 
-    title: "التحدي: إكمال المستوى"
+    title: 'التحدي: إكمال المستوى'
     challenge: true
   - 
     title: الجاذبية و القفز
+    completion:
+      - engaged
   - 
     title: 'التحدي: تحسين القفز'
     challenge: true
@@ -27,6 +29,8 @@ steps:
     challenge: true
   - 
     title: أشعة الليزر!
+    completion:
+      - internal
   - 
     title: 'التحدي: المزيد من العقبات (او العوائق)'
     challenge: true
