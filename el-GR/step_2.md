@@ -6,11 +6,11 @@
 
 Άνοιξε το αρχικό έργο Scratch 'Dodgeball'.
 
-**Online:** άνοιξε το αρχικό έργο στο [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}.
+**Online:** open the starter project at [rpf.io/dodgeball-on](https://rpf.io/dodgeball-on){:target="_blank"}.
 
 Αν έχεις λογαριασμό Scratch μπορείς να δημιουργήσεις ένα αντίγραφο, κάνοντας κλικ στο κουμπί **Ανάμειξη**.
 
-**Offline:** κατέβασε το αρχικό έργο από το [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) και κατόπιν άνοιξέ το με τον τοπικό επεξεργαστή εκτός σύνδεσης. (offline editor).
+**Offline:** download the starter project from [rpf.io/p/en/dodgeball-get](https://rpf.io/p/en/dodgeball-get) and then open it using the offline editor.
 
 \--- /task \---
 
