@@ -13,10 +13,12 @@ steps:
   - 
     title: Character এর চলন
   - 
-    title: "Challenge: স্তরটি সম্পূর্ণ করা"
+    title: 'Challenge: স্তরটি সম্পূর্ণ করা'
     challenge: true
   - 
     title: মাধ্যাকর্ষণ এবং লাফানো
+    completion:
+      - engaged
   - 
     title: 'Challenge: লাফানোর মান উন্নীতকরণ'
     challenge: true
@@ -27,6 +29,8 @@ steps:
     challenge: true
   - 
     title: লেজার!
+    completion:
+      - internal
   - 
     title: 'Challenge: প্রতিবন্ধকতা'
     challenge: true
