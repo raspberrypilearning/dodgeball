@@ -6,11 +6,11 @@
 
 打开 'Dodgeball' Scratch 启动项目。
 
-**在线编辑:** 在 [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target =“_ blank”} 打开初始项目。
+**Online:** open the starter project at [rpf.io/dodgeball-on](https://rpf.io/dodgeball-on){:target="_blank"}.
 
 如果您有一个 Scratch 帐户，您可以通过点击 **改编** 复制该项目。
 
-**离线编辑:** 从 [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get) 下载初始项目，然后使用 Scratch 离线编辑器打开它。
+**Offline:** download the starter project from [rpf.io/p/en/dodgeball-get](https://rpf.io/p/en/dodgeball-get) and then open it using the offline editor.
 
 \--- /task \---
 
