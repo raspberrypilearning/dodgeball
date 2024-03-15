@@ -13,10 +13,12 @@ steps:
   - 
     title: Character movement
   - 
-    title: "Challenge: completing the level"
+    title: 'Challenge: completing the level'
     challenge: true
   - 
     title: Gravity and jumping
+    completion:
+      - engaged
   - 
     title: 'Challenge: improved jumping'
     challenge: true
@@ -27,6 +29,8 @@ steps:
     challenge: true
   - 
     title: Lasers!
+    completion:
+      - internal
   - 
     title: 'Challenge: more obstacles'
     challenge: true
