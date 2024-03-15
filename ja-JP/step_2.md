@@ -6,11 +6,11 @@
 
 「ドッジボール」 スクラッチスタータープロジェクトを開きます。
 
-**オンラインの場合:** [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on){:target="_blank"}にあるスタータープロジェクトを開きます。
+**Online:** open the starter project at [rpf.io/dodgeball-on](https://rpf.io/dodgeball-on){:target="_blank"}.
 
 スクラッチアカウントをお持ちの場合は**リミックス**をクリックしてコピーを作成できます。
 
-**オフラインの場合:** [rpf.io/p/en/dodgeball-get](http://rpf.io/p/en/dodgeball-get)からスタータープロジェクトをダウンロードして、オフラインエディターで開きます。
+**Offline:** download the starter project from [rpf.io/p/en/dodgeball-get](https://rpf.io/p/en/dodgeball-get) and then open it using the offline editor.
 
 \--- /task \---
 
