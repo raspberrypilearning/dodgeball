@@ -13,10 +13,12 @@ steps:
   - 
     title: ಪಾತ್ರ ಚಲನೆ
   - 
-    title: "ಸವಾಲು: ಹಂತವನ್ನು ಪೂರ್ಣಗೊಳಿಸುವುದು"
+    title: 'ಸವಾಲು: ಹಂತವನ್ನು ಪೂರ್ಣಗೊಳಿಸುವುದು'
     challenge: true
   - 
     title: ಗುರುತ್ವಾಕರ್ಷಣೆ ಮತ್ತು ಜಿಗಿತ
+    completion:
+      - engaged
   - 
     title: 'ಸವಾಲು: ಸುಧಾರಿತ ಜಿಗಿತ'
     challenge: true
@@ -27,6 +29,8 @@ steps:
     challenge: true
   - 
     title: ಲೇಸರ್ಗಳು(lasers)!
+    completion:
+      - internal
   - 
     title: 'ಸವಾಲು: ಹೆಚ್ಚು ಅಡೆತಡೆಗಳು'
     challenge: true
