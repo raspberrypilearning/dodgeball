@@ -13,10 +13,12 @@ steps:
   - 
     title: 角色移动
   - 
-    title: "挑战：通关"
+    title: '挑战：通关'
     challenge: true
   - 
     title: 重力和跳跃
+    completion:
+      - engaged
   - 
     title: '挑战：改进跳跃体验'
     challenge: true
@@ -27,6 +29,8 @@ steps:
     challenge: true
   - 
     title: 激光！
+    completion:
+      - internal
   - 
     title: '挑战：更多的障碍'
     challenge: true
