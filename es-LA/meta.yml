@@ -13,10 +13,12 @@ steps:
   - 
     title: Movimientos del personaje
   - 
-    title: "Desafío: Completar el nivel"
+    title: 'Desafío: Completar el nivel'
     challenge: true
   - 
     title: Gravedad y saltos
+    completion:
+      - engaged
   - 
     title: 'Desafío: Mejores saltos'
     challenge: true
@@ -27,6 +29,8 @@ steps:
     challenge: true
   - 
     title: '¡Láseres!'
+    completion:
+      - internal
   - 
     title: 'Desafío: Más obstáculos'
     challenge: true
