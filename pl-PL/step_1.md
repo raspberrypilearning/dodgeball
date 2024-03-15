@@ -27,7 +27,7 @@ Kliknij zieloną flagę, aby rozpocząć, a następnie użyj klawiszy strzałek,
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Czego będziesz potrzebować
 
 ### Sprzęt
 
@@ -39,13 +39,13 @@ Kliknij zieloną flagę, aby rozpocząć, a następnie użyj klawiszy strzałek,
 
 ### Pliki do pobrania
 
-You can [find the downloads here](https://rpf.io/p/en/dodgeball-go).
+Możesz znaleźć [pliki do pobrania tutaj](https://rpf.io/p/en/dodgeball-go).
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Czego się nauczysz
 
 + Jak używać klawiatury do kontrolowania duszka
 + Jak korzystać z bloku Scratch `jeżeli, to, w przeciwnym razie`{:class="block3control"}
@@ -55,14 +55,14 @@ You can [find the downloads here](https://rpf.io/p/en/dodgeball-go).
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: Dodatkowe informacje dla edukatorów
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
+Jeśli chcesz wydrukować ten projekt, użyj [wersji do druku](https://projects.raspberrypi.org/en/projects/dodgeball/print){:target="_blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](https://rpf.io/p/en/dodgeball-get).
+Możesz znaleźć [ukończoną wersję projektu tutaj](https://rpf.io/p/en/dodgeball-get).
 
 \--- /collapse \---
