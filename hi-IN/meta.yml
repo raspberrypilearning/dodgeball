@@ -13,10 +13,12 @@ steps:
   - 
     title: पात्र की गति
   - 
-    title: "चुनौती: लेवल पूरा करना"
+    title: 'चुनौती: लेवल पूरा करना'
     challenge: true
   - 
     title: गुरुत्वाकर्षण (gravity) और छलांग
+    completion:
+      - engaged
   - 
     title: 'चुनौती: छलांग में सुधार'
     challenge: true
@@ -27,6 +29,8 @@ steps:
     challenge: true
   - 
     title: लेज़र!
+    completion:
+      - internal
   - 
     title: 'चुनौती: अधिक बाधाएँ'
     challenge: true
