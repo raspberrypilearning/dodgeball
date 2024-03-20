@@ -18,7 +18,7 @@ steps:
   - 
     title: Gravidade e salto
     completion:
-      - engaged
+      - engajado
   - 
     title: 'Desafio: salto melhorado'
     challenge: true
@@ -30,7 +30,7 @@ steps:
   - 
     title: Lasers!
     completion:
-      - internal
+      - interno
   - 
     title: 'Desafio: mais obstáculos'
     challenge: true
