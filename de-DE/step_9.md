@@ -13,9 +13,9 @@ Du kannst sogar einen anderen Hintergrund entwerfen, um das nächste Level zu er
 ![Pico-Walking Sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    falls <touching color [#00FF00]?> , dann 
-  wechsle zu Bühnenbild (nächstes Bühnenbild v)
-  gehe zu x: (-210) y: (-120)
-  warte (1) Sekunden
+if <touching color [#00FF00] ?> then 
+  switch backdrop to (nächstes Bühnenbild v)
+  go to x: (-210) y: (-120)
+  wait (1) seconds
 end
 ```

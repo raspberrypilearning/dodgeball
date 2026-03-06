@@ -11,13 +11,13 @@ Um den Fehler zu beheben, musst du zuerst deinem Charakter neue Hosen mit einer 
 Ersetze diesen Code-Block:
 
 ```blocks3
-    < wird Farbe [#0000FF] berührt? >
+	< touching color [#0000FF]? >
 ```
 
 mit diesem Codeblock:
 
 ```blocks3
-    < Farbe [#00FF00] berührt [#0000FF]? >
+	< color [#00FF00] is touching [#0000FF]? >
 ```
 
 Um sicherzustellen, dass du den Fehler behoben hast, teste das Spiel, nachdem du diese Änderungen vorgenommen hast!

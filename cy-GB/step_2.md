@@ -35,12 +35,12 @@ Ychwanega flociau côd i dy gymeriad fel bod y chwareuwr yn gallu defnyddio'r by
 ![corlun cerdded pico](images/pico_walking_sprite.png)
 
 ```blocks3
-pan fo'r flag werdd yn cael ei glicio
-am byth 
-  os <bysell (saeth de v) wedi ei phwyso? > yna 
-    pwyntio i gyfeiriad (90 v)
-    symud (3) cam
-    gwisg nesaf
+when flag clicked
+forever 
+  if <key (saeth de v) pressed?> then 
+    point in direction (90 v)
+    move (3) steps
+    next costume
   end
 end
 ```
@@ -81,10 +81,10 @@ Fel bod y cymeriad yn gallu symud i'r chwith, bydd angen ychwanegu bloc arall `o
 Copïa'r côd rwyt ti wedi ei greu i wneud i'r cymeriad gerdded i'r dde. Yna gosoda yr `bysell wedi ei wasgu`{:class="block3sensing"} i'r `chwith`{:class="block3sensing"}, a newid `cyfeiriad`{:class="block3motion"} i `-90`.
 
 ```blocks3
-os <bysell (saeth de v) wedi ei phwyso? > yna 
-  pwyntio i gyfeiriad (90 v)
-  symud (3) cam
-  gwisg nesaf
+if <key (saeth de v) pressed?> then 
+  point in direction (90 v)
+  move (3) steps
+  next costume
 end
 ```
 
@@ -97,17 +97,17 @@ Fe ddylai dy gôd edrych fel hyn:
 ![corlun cerdded pico](images/pico_walking_sprite.png)
 
 ```blocks3
-pan fo'r flag werdd yn cael ei glicio
-am byth 
-  os <bysell (saeth de v) wedi ei phwyso?> yna 
-    pwyntio i gyfeiriad (90 v)
-    symud (3) cam
-    gwisg nesaf
+when flag clicked
+forever 
+  if <key (saeth de v) pressed?> then 
+    point in direction (90 v)
+    move (3) steps
+    next costume
   end
-  os <bysell (saeth chwith v) wedi ei phwyso?> yna 
-    pwyntio i gyfeiriad (-90 v)
-    symud (3) cam
-    gwisg nesaf
+  if <key (saeth chwith v) pressed?> then 
+    point in direction (-90 v)
+    move (3) steps
+    next costume
   end
 end
 ```
@@ -131,7 +131,7 @@ Os felly, fe alli di drwsio hyn trwy glicio y **cyfeiriad** ar gymeriad dy giplu
 Neu, os oes well gyda ti ychwanegu y bloc yma i ddechrau sgript dy gymeriad:
 
 ```blocks3
-gosod steil cylchdroi [chwith-dde v]
+set rotation style [chwith-dde v]
 ```
 
 --- /task ---
@@ -145,8 +145,8 @@ Ychwanega o fewn y ddolen `am byth`{:class="block3control"} i `newid`{:class="bl
 ![corlun cerdded pico](images/pico_walking_sprite.png)
 
 ```blocks3
-    os <<bysell (saeth i fyny v) wedi ei phwyso?> a <cyffwrdd lliw [#FF69B4] ?>> yna 
-  newid y gan (4)
+if <<key (saeth i fyny v) pressed?> and <touching color [#FF69B4] ?>> then 
+  change y by (4)
 end
 ```
 

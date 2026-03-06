@@ -29,10 +29,10 @@ Füge diese neuen Codeblöcke hinzu, um die `Schwerkraft` auf eine negative Zahl
 ![Pico-Walking Sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    Wenn die grüne Flagge angeklickt
-setze [Schwerkraft v] auf [-4]
-wiederhole fortlaufend 
-ändere y um (Schwerkraft)
+when flag clicked
+set [Schwerkraft v] to [-4]
+forever 
+  change y by (Schwerkraft)
 end
 ```
 
@@ -53,11 +53,11 @@ Die Schwerkraft sollte das Sprite des Charakters nicht durch eine Plattform oder
 ![Pico-Walking Sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    Wenn die grüne Flagge angeklickt
-setze [Schwerkraft v] auf [-4]
-wiederhole fortlaufend 
-  falls < nicht < <touching color [#0000FF]?> oder <touching color [#FF69B4]?> > > , dann 
-    ändere y um (Schwerkraft)
+when flag clicked
+set [Schwerkraft v] to [-4]
+forever 
+  if <not <<touching color [#0000FF] ?> or <touching color [#FF69B4] ?>>> then 
+    change y by (Schwerkraft)
   end
 end
 ```
@@ -79,9 +79,9 @@ Füge nun einen Code hinzu, um deinen Charakter springen zu lassen, wenn der Spi
 ![Pico-Walking Sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    Wenn Taste [Leertaste v] gedrückt wird
-wiederhole (10) mal 
-  ändere y um (4)
+when [Leertaste v] key pressed
+repeat (10) 
+  change y by (4)
 end
 ```
 
@@ -108,11 +108,11 @@ Lösche den Sprungcode, den du deinem Charakter-Sprite hinzugefügt hast, und f�
 ![Pico-Walking Sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    Wenn Taste [Leertaste v] gedrückt wird
-setze [Sprunghöhe v] auf [8]
-wiederhole bis <(Sprunghöhe) = [0]> 
-  ändere y um (Sprunghöhe)
-  ändere [Sprunghöhe v] um (-0.5)
+when [Leertaste v] key pressed
+set [Sprunghöhe v] to [8]
+repeat until <(Sprunghöhe) = [0]> 
+  change y by (Sprunghöhe)
+  change [Sprunghöhe v] by (-0.5)
 end
 ```
 

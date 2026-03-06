@@ -27,12 +27,12 @@ Ychwanega’r côd i dy laser, i wneud iddo newid rhwng y 2 wisg.
 ![corlun laser](images/laser_sprite.png)
 
 ```blocks3
-    pan fo'r flag werdd yn cael ei glicio
-am byth 
-  newid gwisg i (ymlaen v)
-  aros (2) eiliad
-  newid gwisg i (i ffwrdd v)
-  aros (2) eiliad
+when flag clicked
+forever 
+  switch costume to (ymlaen v)
+  wait (2) seconds
+  switch costume to (i ffwrdd v)
+  wait (2) seconds
 end
 ```
 
@@ -66,10 +66,10 @@ Dyma'r côd sydd angen ei ychwanegu:
 ![corlun laser](images/laser_sprite.png)
 
 ```blocks3
-pan fo'r flag werdd yn cael ei glicio
-am byth 
-  os <cyffwrdd (Pico walking v) ?> yna 
-    darlledu (taro v)
+when flag clicked
+forever 
+  if <touching (Pico walking v) ?> then 
+    broadcast (taro v)
   end
 end
 ```

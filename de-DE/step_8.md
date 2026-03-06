@@ -27,12 +27,12 @@ Füge diesen Code zu deinem Lasersprite hinzu, um ihn zwischen den beiden Kostü
 ![Laser-Sprite](images/laser_sprite.png)
 
 ```blocks3
-    Wenn die grüne Flagge angeklickt
-wiederhole fortlaufend 
-  wechsle zu Kostüm (an v)
-  warte (2) Sekunden
-  wechsle zu Kostüm (aus v)
-  warte (2) Sekunden
+when flag clicked
+forever 
+  switch costume to (an v)
+  wait (2) seconds
+  switch costume to (aus v)
+  wait (2) seconds
 end
 ```
 
@@ -65,10 +65,10 @@ Dies ist der Code, den du dafür hinzufügen sollst:
 ![Laser-Sprite](images/laser_sprite.png)
 
 ```blocks3
-Wenn die grüne Flagge angeklickt
-wiederhole fortlaufend 
-  falls <touching (Pico walking v) ?> , dann 
-    sende (Treffer v) an alle
+when flag clicked
+forever 
+  if <touching (Pico walking v) ?> then 
+    broadcast (Treffer v)
   end
 end
 ```
