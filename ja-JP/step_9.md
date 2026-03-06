@@ -13,9 +13,9 @@
 ![歩いているピコスプライト](images/pico_walking_sprite.png)
 
 ```blocks3
-もし <[#00FF00] いろにふれた> なら 
-  はいけいを (次の背景 v) にする
-  xざひょうを (-210) 、yざひょうを (-120) にする
-  (1) びょうまつ
+if <touching color [#00FF00] ?> then 
+  switch backdrop to (次の背景 v)
+  go to x: (-210) y: (-120)
+  wait (1) seconds
 end
 ```

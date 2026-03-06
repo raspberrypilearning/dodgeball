@@ -29,11 +29,11 @@ Dodaj te nowe bloki kodu, które ustawiają `grawitację` na liczbę ujemną i u
 ![duszek Pico walking](images/pico_walking_sprite.png)
 
 ```blocks3
-    kiedy kliknięto zieloną flagę
-    ustaw [grawitacja v] na [-4]
-    zawsze
-        zmień y o (grawitacja)
-    end
+when flag clicked
+set [grawitacja v] to [-4]
+forever 
+  change y by (grawitacja)
+end
 ```
 
 --- /task ---
@@ -53,13 +53,13 @@ Grawitacja nie powinna pozwalać na przesuwanie Twojej postaci przez platformy l
 ![duszek Pico walking](images/pico_walking_sprite.png)
 
 ```blocks3
-    kiedy kliknięto zieloną flagę
-        ustaw [grawitacja v] na [-4]
-        zawsze
-            jeżeli < nie < <dotyka koloru [#FF69B4]?> lub <dotyka koloru [#0000FF]?> > > to
-                zmień y o (grawitacja)
-            end
-        end
+when flag clicked
+set [grawitacja v] to [-4]
+forever 
+  if <not <<touching color [#FF69B4] ?> or <touching color [#0000FF] ?>>> then 
+    change y by (grawitacja)
+  end
+end
 ```
 
 --- /task ---
@@ -79,9 +79,9 @@ Teraz dodaj kod, aby twoja postać podskakiwała za każdym razem, gdy gracz nac
 ![duszek Pico walking](images/pico_walking_sprite.png)
 
 ```blocks3
-kiedy klawisz [spacja v] naciśnięty
-powtarzaj (10) 
-  zmień y o (4)
+when [spacja v] key pressed
+repeat (10) 
+  change y by (4)
 end
 ```
 
@@ -108,12 +108,12 @@ Usuń kod odpowiedzialny za skoki który dodałaś do Twojej postaci i dodaj ten
 ![duszek Pico walking](images/pico_walking_sprite.png)
 
 ```blocks3
-kiedy klawisz [spacja v] naciśnięty
-ustaw [wysokość skoku v] na [8]
-powtarzaj aż <(wysokość skoku) = [0]> 
-  zmień y o (wysokość skoku)
-  zmień [wysokość skoku v] o (-0.5)
-koniec
+when [spacja v] key pressed
+set [wysokość skoku v] to [8]
+repeat until <(wysokość skoku) = [0]> 
+  change y by (wysokość skoku)
+  change [wysokość skoku v] by (-0.5)
+end
 ```
 
 Ten kod przesuwa twoją postać w górę o 8 pikseli, następnie 7.5 pikseli, następnie 7 pikseli i tak dalej, aż postać nie podniesie się. To uczyni wygląd skoków bardziej płynnym.

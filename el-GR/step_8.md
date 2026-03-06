@@ -27,13 +27,13 @@
 ![κινούμενη εικόνα λέιζερ](images/laser_sprite.png)
 
 ```blocks3
-    Όταν στην πράσινη σημαία γίνει κλικ
-    για πάντα 
-      άλλαξε ενδυμασία σε (on v)
-      περίμενε (2) δευτερόλεπτα
-      άλλαξε ενδυμασία σε (off v)
-      περίμενε (2) δευτερόλεπτα
-    end
+	when flag clicked
+	forever
+		switch costume to (on v)
+		wait (2) seconds
+		switch costume to (off v)
+		wait (2) seconds
+	end
 ```
 
 Αν προτιμάς, μπορείς να αλλάξεις τον κώδικα που εμφανίζεται παραπάνω, έτσι ώστε η εικόνα να `περιμένει`{:class="block3control"} για ένα `τυχαίο`{:class="block3operators"} χρονικό διάστημα μεταξύ των αλλαγών κοστουμιών.
@@ -54,7 +54,7 @@
 
 --- hint ---
 
-Αντέγραψε τον κώδικα που πρόσθεσες στην εικόνα της μπάλας, για να την κάνεις να `μεταδίδει 'χτύπημα'`{:class="block3control"} όταν `αγγίζει τον χαρακτήρα σου`{:class="block3sensing"}.
+Αντέγραψε τον κώδικα που πρόσθεσες στην εικόνα της μπάλας, για να την κάνεις να `μεταδίδει 'χτυπήματος'`{:class="block3control"} όταν `αγγίζει τον χαρακτήρα σου`{:class="block3sensing"}.
 
 --- /hint ---
 
@@ -65,10 +65,10 @@
 ![κινούμενη εικόνα λέιζερ](images/laser_sprite.png)
 
 ```blocks3
-Όταν στην πράσινη σημαία γίνει κλικ
-για πάντα 
-  εάν <αγγίζει (Pico walking v) ;> τότε 
-    μετάδωσε (hit v)
+when green flag clicked
+forever 
+  if <touching (Pico walking v) ?> then 
+    broadcast (χτυπήματος v)
   end
 end
 ```

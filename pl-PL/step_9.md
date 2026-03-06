@@ -13,9 +13,9 @@ Możesz nawet zaprojektować kolejne tło, aby stworzyć kolejny poziom. Następ
 ![duszek Pico walking](images/pico_walking_sprite.png)
 
 ```blocks3
-jeżeli <dotyka koloru [#00FF00] ?> to 
-  zmień tło na (następne tło v)
-  Idź do x: (-210) y: (-120)
-  czekaj (1) sekund
-koniec
+if <touching color [#00FF00] ?> then 
+  switch backdrop to (następne tło v)
+  go to x: (-210) y: (-120)
+  wait (1) seconds
+end
 ```

@@ -11,13 +11,13 @@ Aby naprawić ten błąd, musisz najpierw dać duszkowi postaci nowe spodnie, kt
 Następnie zamień ten blok kodu:
 
 ```blocks3
-    < dotyka koloru [#0000FF]? >
+	< touching color [#0000FF]? >
 ```
 
 z tym blokiem kodu:
 
 ```blocks3
-    < kolor [#00FF00] dotyka [#0000FF]? >
+	< color [#00FF00] is touching [#0000FF]? >
 ```
 
 Aby upewnić się, że naprawiłeś błąd, przetestuj grę po wprowadzeniu tych zmian!

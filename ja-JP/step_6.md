@@ -25,29 +25,29 @@
 ![ボールスプライト](images/ball_sprite.png)
 
 ```blocks3
-⚑ が押されたとき
-隠す
-ずっと 
-  (3) 秒待つ
-  (自分自身 v) のクローンを作る
+when flag clicked
+hide
+forever 
+  wait (3) seconds
+  create clone of (自分自身 v)
 end
 ```
 
 ```blocks3
-クローンされたとき
-x座標を (160) 、y座標を (160) にする
-表示する
-(22) 回繰り返す 
-  y座標を (-4) ずつ変える
+when I start as a clone
+go to x: (160) y: (160)
+show
+repeat (22) 
+  change y by (-4)
 end
-(170) 回繰り返す 
-  x座標を (-2) ずつ変える
-  ↺ (6) 度回す
+repeat (170) 
+  change x by (-2)
+  turn ccw (6) degrees
 end
-(30) 回繰り返す 
-  y座標を (-4) ずつ変える
+repeat (30) 
+  change y by (-4)
 end
-このクローンを削除する
+delete this clone
 ```
 
 このコードは、ボールスプライトの新しいクローンを3秒ごとに作成します。 新しいクローンはそれぞれ、一番上の床に沿って移動してから落ちます。
@@ -84,18 +84,18 @@ end
 ![ボールスプライト](images/ball_sprite.png)
 
 ```blocks3
-(170) 回繰り返す 
-  x座標を (-2) ずつ変える
-  ↺ (6) 度回す
+repeat (170) 
+  change x by (-2)
+  turn ccw (6) degrees
 end
 
-(180) 回繰り返す 
-  x座標を (2) ずつ変える
-  ↻ (6) 度回す
+repeat (180) 
+  change x by (2)
+  turn cw (6) degrees
 end
 
-(30) 回繰り返す 
-  y座標を (-4) ずつ変える
+repeat (30) 
+  change y by (-4)
 end
 ```
 
@@ -108,31 +108,31 @@ end
 ![ボールスプライト](images/ball_sprite.png)
 
 ```blocks3
-クローンされたとき
-x座標を (160) 、y座標を (160) にする
-表示する
-(22) 回繰り返す 
-  y座標を (-4) ずつ変える
+when I start as a clone
+go to x: (160) y: (160)
+show
+repeat (22) 
+  change y by (-4)
 end
-(170) 回繰り返す 
-  x座標を (-2) ずつ変える
-  ↺ (6) 度回す
+repeat (170) 
+  change x by (-2)
+  turn ccw (6) degrees
 end
-(30) 回繰り返す 
-  y座標を (-4) ずつ変える
+repeat (30) 
+  change y by (-4)
 end
-(180) 回繰り返す 
-  x座標を (2) ずつ変える
-  ↻ (6) 度回す
+repeat (180) 
+  change x by (2)
+  turn cw (6) degrees
 end
-(30) 回繰り返す 
-  y座標を (-4) ずつ変える
+repeat (30) 
+  change y by (-4)
 end
-(170) 回繰り返す 
-  x座標を (-2) ずつ変える
-  ↺ (6) 度回す
+repeat (170) 
+  change x by (-2)
+  turn ccw (6) degrees
 end
-このクローンを削除する
+delete this clone
 ```
 
 --- /hint ---
@@ -150,10 +150,10 @@ end
 ![ボールスプライト](images/ball_sprite.png)
 
 ```blocks3
-    クローンされたとき
-    ずっと
-        もし < (歩いているピコ v) に触れた > なら
- (ヒット v) を送る
+when I start as a clone
+forever 
+  if <touching (歩いているピコ v) ?> then 
+    broadcast (ヒット v)
   end
 end
 ```
@@ -167,9 +167,9 @@ end
 ![歩いているピコスプライト](images/pico_walking_sprite.png)
 
 ```blocks3
-[ヒット v] をうけとったとき
-(90) どにむける
-xざひょうを (-210) 、yざひょうを (-120) にする
+when I receive [ヒット v]
+point in direction (90)
+go to x: (-210) y: (-120)
 ```
 
 --- /task ---

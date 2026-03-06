@@ -25,29 +25,29 @@
 ![κινούμενη εικόνα μπάλας](images/ball_sprite.png)
 
 ```blocks3
-Όταν στην πράσινη σημαία γίνει κλικ
-εξαφανίσου
-για πάντα 
-  περίμενε (3) δευτερόλεπτα
-  δημιούργησε κλώνο του (myself v)
+when green flag clicked
+hide
+forever 
+  wait (3) seconds
+  create clone of (εαυτού μου v)
 end
 ```
 
 ```blocks3
-όταν ξεκινήσω ως κλώνος
-πήγαινε σε θέση x: (160) y: (160)
-εμφανίσου
-επανάλαβε (22) 
-  άλλαξε y κατά (-4)
+when I start as a clone
+go to x: (160) y: (160)
+show
+repeat (22) 
+  change y by (-4)
 end
-επανάλαβε (170) 
-  άλλαξε x κατά (-2)
-  στρίψε αριστερόστροφα (6) μοίρες
+repeat (170) 
+  change x by (-2)
+  turn ccw (6) degrees
 end
-επανάλαβε (30) 
-  άλλαξε y κατά (-4)
+repeat (30) 
+  change y by (-4)
 end
-διάγραψε αυτόν τον κλώνο
+delete this clone
 ```
 
 Αυτός ο κώδικας δημιουργεί ένα νέο κλώνο της μπάλας κάθε τρία δευτερόλεπτα. Κάθε νέος κλώνος κινείται κατά μήκος της επάνω πλατφόρμας και έπειτα πέφτει.
@@ -83,18 +83,18 @@ end
 ![κινούμενη εικόνα μπάλας](images/ball_sprite.png)
 
 ```blocks3
-επανάλαβε (170) 
-  άλλαξε x κατά (-2)
-  στρίψε αριστερόστροφα (6) μοίρες
+repeat (170) 
+  change x by (-2)
+  turn ccw (6) degrees
 end
 
-επανάλαβε (180) 
-  άλλαξε x κατά (2)
-  στρίψε δεξιόστροφα (6) μοίρες
+repeat (180) 
+  change x by (2)
+  turn cw (6) degrees
 end
 
-επανάλαβε (30) 
-  άλλαξε y κατά (-4)
+repeat (30) 
+  change y by (-4)
 end
 ```
 
@@ -107,31 +107,31 @@ end
 ![κινούμενη εικόνα μπάλας](images/ball_sprite.png)
 
 ```blocks3
-όταν ξεκινήσω ως κλώνος
-πήγαινε σε θέση x: (160) y: (160)
-εμφανίσου
-επανάλαβε (22) 
-  άλλαξε y κατά (-4)
+when I start as a clone
+go to x: (160) y: (160)
+show
+repeat (22) 
+  change y by (-4)
 end
-επανάλαβε (170) 
-  άλλαξε x κατά (-2)
-  στρίψε αριστερόστροφα (6) μοίρες
+repeat (170) 
+  change x by (-2)
+  turn ccw (6) degrees
 end
-επανάλαβε (30) 
-  άλλαξε y κατά (-4)
+repeat (30) 
+  change y by (-4)
 end
-επανάλαβε (180) 
-  άλλαξε x κατά (2)
-  στρίψε δεξιόστροφα (6) μοίρες
+repeat (180) 
+  change x by (2)
+  turn cw (6) degrees
 end
-επανάλαβε (30) 
-  άλλαξε y κατά (-4)
+repeat (30) 
+  change y by (-4)
 end
-επανάλαβε (170) 
-  άλλαξε x κατά (-2)
-  στρίψε αριστερόστροφα (6) μοίρες
+repeat (170) 
+  change x by (-2)
+  turn ccw (6) degrees
 end
-διάγραψε αυτόν τον κλώνο
+delete this clone
 ```
 
 --- /hint ---
@@ -149,12 +149,12 @@ end
 ![κινούμενη εικόνα μπάλας](images/ball_sprite.png)
 
 ```blocks3
-όταν ξεκινήσω ως κλώνος
-για πάντα 
-  εάν <αγγίζει (Pico walking v) ;> τότε 
-    μετάδωσε (hit v)
-  end
-end
+	when I start as a clone
+	forever
+		if < touching (Pico walking v)? > then
+			broadcast (χτυπήματος v)
+		end
+	end
 ```
 
 --- /task ---
@@ -166,10 +166,10 @@ end
 ![κινούμενη εικόνα pico](images/pico_walking_sprite.png)
 
 ```blocks3
-όταν λάβω [hit v]
-δείξε προς κατεύθυνση (90)
-πήγαινε σε θέση x: (-210) y: (-120)
-```
+	when I receive [χτυπήματος v]
+	point in direction (90)
+	go to x: (-210) y: (-120)
+```	
 
 --- /task ---
 

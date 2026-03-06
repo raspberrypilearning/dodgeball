@@ -25,29 +25,29 @@ Dodaj poniższy kod do duszka piłki:
 ![duszek piłki](images/ball_sprite.png)
 
 ```blocks3
-kiedy kliknięto zieloną flagę
-ukryj
-zawsze 
-  czekaj (3) sekund
-  utwórz klona z (siebie v)
-koniec
+when flag clicked
+hide
+forever 
+  wait (3) seconds
+  create clone of (siebie v)
+end
 ```
 
 ```blocks3
-gdy zaczynam jako klon
-idź do x: (160) y: (160)
-pokaż
-powtarzaj (22) 
-  zmień y o (-4)
-koniec
-powtarzaj (170) 
-  zmień x o (-2)
-  obróć w lewo o (6) stopni
-koniec
-powtarzaj (30) 
-  zmień y o (-4)
-koniec
-usuń tego klona
+when I start as a clone
+go to x: (160) y: (160)
+show
+repeat (22) 
+  change y by (-4)
+end
+repeat (170) 
+  change x by (-2)
+  turn ccw (6) degrees
+end
+repeat (30) 
+  change y by (-4)
+end
+delete this clone
 ```
 
 Ten kod tworzy nowy klon duszka piłki co trzy sekundy. Każdy nowy klon porusza się wzdłuż górnej platformy, a następnie spada.
@@ -83,19 +83,19 @@ Oto bloki, których potrzebujesz. Upewnij się, że dodałaś je we właściwej 
 ![duszek piłki](images/ball_sprite.png)
 
 ```blocks3
-powtarzaj (170) 
-  zmień x o (-2)
-  obróć w lewo o (6) stopni
-koniec
+repeat (170) 
+  change x by (-2)
+  turn ccw (6) degrees
+end
 
-powtarzaj (180) 
-  zmień x o (2)
-  obróć w prawo o (6) stopni
-koniec
+repeat (180) 
+  change x by (2)
+  turn cw (6) degrees
+end
 
-powtarzaj (30) 
-  zmień y o (-4)
-koniec
+repeat (30) 
+  change y by (-4)
+end
 ```
 
 --- /hint ---
@@ -107,31 +107,31 @@ Kod twoich klonów duszka piłki powinien wyglądać następująco:
 ![duszek piłki](images/ball_sprite.png)
 
 ```blocks3
-gdy zaczynam jako klon
-idź do x: (160) y: (160)
-pokaż
-powtarzaj (22) 
-  zmień y o (-4)
-koniec
-powtarzaj (170) 
-  zmień x o (-2)
-  obróć w lewo o (6) stopni
-koniec
-powtarzaj (30) 
-  zmień y o (-4)
-koniec
-powtarzaj (180) 
-  zmień x o (2)
-  obróć w prawo o (6) stopni
-koniec
-powtarzaj (30) 
-  zmień y o (-4)
-koniec
-powtarzaj (170) 
-  zmień x o (-2)
-  obróć w lewo o (6) stopni
-koniec
-usuń tego klona
+when I start as a clone
+go to x: (160) y: (160)
+show
+repeat (22) 
+  change y by (-4)
+end
+repeat (170) 
+  change x by (-2)
+  turn ccw (6) degrees
+end
+repeat (30) 
+  change y by (-4)
+end
+repeat (180) 
+  change x by (2)
+  turn cw (6) degrees
+end
+repeat (30) 
+  change y by (-4)
+end
+repeat (170) 
+  change x by (-2)
+  turn ccw (6) degrees
+end
+delete this clone
 ```
 
 --- /hint ---
@@ -149,12 +149,12 @@ Dodaj poniższy kod do duszka piłki:
 ![duszek piłki](images/ball_sprite.png)
 
 ```blocks3
-    gdy zaczynam jako klon
-    zawsze
-        jeżeli < dotyka (Pico walking v)? > to
-            nadaj komunikat (trafienie v)
-        koniec
-    koniec
+when I start as a clone
+forever 
+  if <touching (Pico walking v) ?> then 
+    broadcast (trafienie v)
+  end
+end
 ```
 
 --- /task ---
@@ -166,9 +166,9 @@ Na koniec dodaj bloki kodu do duszka postaci, aby powrócił do swojej pozycji p
 ![duszek Pico walking](images/pico_walking_sprite.png)
 
 ```blocks3
-    kiedy otrzymam [trafienie v]
-    ustaw kierunek na (90)
-    idź do x: (-210) y: (-120)
+when I receive [trafienie v]
+point in direction (90)
+go to x: (-210) y: (-120)
 ```
 
 --- /task ---
