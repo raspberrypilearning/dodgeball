@@ -25,29 +25,29 @@ Voeg deze code toe aan je balsprite:
 ![balsprite](images/ball_sprite.png)
 
 ```blocks3
-wanneer groene vlag wordt aangeklikt
-verdwijn
-herhaal 
-  wacht (3) seconden
-  maak kloon van (ikzelf v)
+when flag clicked
+hide
+forever 
+  wait (3) seconds
+  create clone of (ikzelf v)
 end
 ```
 
 ```blocks3
-wanneer ik als kloon start
-ga naar x: (160) y: (160)
-verschijn
-herhaal (22) 
-  verander y met (-4)
+when I start as a clone
+go to x: (160) y: (160)
+show
+repeat (22) 
+  change y by (-4)
 end
-herhaal (170) 
-  verander x met (-2)
-  draai tegen de klok in (6) graden
+repeat (170) 
+  change x by (-2)
+  turn ccw (6) degrees
 end
-herhaal (30) 
-  verander y met (-4)
+repeat (30) 
+  change y by (-4)
 end
-verwijder deze kloon
+delete this clone
 ```
 
 Deze code maakt om de drie seconden een nieuwe kloon van de balsprite. Elke nieuwe kloon rolt over het bovenste platform en valt vervolgens naar beneden.
@@ -73,7 +73,7 @@ Voeg meer code toe aan je balsprite, zodat klonen ervan over alle drie platforms
 
 --- hint ---
 
-Herhaal de codeblokken die je hebt gebruikt om de balsprite kloon over het eerste platform te bewegen. Je moet de `x` {:class="block3motion"}, `y`{:class="block3motion"}, en het aantal keren dat de `herhaal`{:class="block3control"} moet worden uitgevoerd wijzigen zodat de klonen de platforms correct volgen.
+Herhaal de codeblokken die je hebt gebruikt om de balsprite kloon over het eerste platform te bewegen. Je moet de `x`{:class="block3motion"}, `y`{:class="block3motion"}, en het aantal keren dat de `herhaal`{:class="block3control"} moet worden uitgevoerd wijzigen zodat de klonen de platforms correct volgen.
 
 --- /hint ---
 
@@ -84,18 +84,18 @@ Dit zijn de blokken die je nodig hebt. Zorg ervoor dat je ze in de juiste volgor
 ![balsprite](images/ball_sprite.png)
 
 ```blocks3
-herhaal (170) 
-  verander x met (-2)
-  draai tegen de klok in (6) graden
+repeat (170) 
+  change x by (-2)
+  turn ccw (6) degrees
 end
 
-herhaal (180) 
-  verander x met (2)
-  draai met de klok mee (6) graden
+repeat (180) 
+  change x by (2)
+  turn cw (6) degrees
 end
 
-herhaal (30) 
-  verander y met (-4)
+repeat (30) 
+  change y by (-4)
 end
 ```
 
@@ -108,31 +108,31 @@ De code voor jouw bal sprite klonen zou er zo moeten uitzien:
 ![balsprite](images/ball_sprite.png)
 
 ```blocks3
-wanneer ik als kloon start
-ga naar x: (160) y: (160)
-verschijn
-herhaal (22) 
-  verander y met (-4)
+when I start as a clone
+go to x: (160) y: (160)
+show
+repeat (22) 
+  change y by (-4)
 end
-herhaal (170) 
-  verander x met (-2)
-  draai tegen de klok in (6) graden
+repeat (170) 
+  change x by (-2)
+  turn ccw (6) degrees
 end
-herhaal (30) 
-  verander y met (-4)
+repeat (30) 
+  change y by (-4)
 end
-herhaal (180) 
-  verander x met (2)
-  draai met de klok mee (6) graden
+repeat (180) 
+  change x by (2)
+  turn cw (6) degrees
 end
-herhaal (30) 
-  verander y met (-4)
+repeat (30) 
+  change y by (-4)
 end
-herhaal (170) 
-  verander x met (-2)
-  draai tegen de klok in (6) graden
+repeat (170) 
+  change x by (-2)
+  turn ccw (6) degrees
 end
-verwijder deze kloon
+delete this clone
 ```
 
 --- /hint ---
@@ -150,12 +150,12 @@ Voeg deze code toe aan je balsprite:
 ![balsprite](images/ball_sprite.png)
 
 ```blocks3
-    wanneer ik als kloon start
-  herhaal 
-    als < raak ik (Pico loopt v)? > dan
-            zend signaal (raak v)
-        end
-    end
+when I start as a clone
+forever 
+  if <touching (Pico loopt v) ?> then 
+    broadcast (raak v)
+  end
+end
 ```
 
 --- /task ---
@@ -167,9 +167,9 @@ Voeg ten slotte code-blokken toe aan jouw personagesprite om terug te gaan naar 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    wanneer ik signaal [raak v] ontvang
-  richt naar (90 v) graden
-  ga naar x: (-210) y: (-120)
+when I receive [raak v]
+point in direction (90 v)
+go to x: (-210) y: (-120)
 ```
 
 --- /task ---

@@ -11,13 +11,13 @@ Om de fout te repareren moet je de personage sprite een nieuwe broek geven die e
 Vervang vervolgens dit codeblok:
 
 ```blocks3
-    <raak ik kleur [#0000FF] ?> &gt;
+	< touching color [#0000FF]? >
 ```
 
 door dit codeblok:
 
 ```blocks3
-    < kleur [#00FF00] raakt [#0000FF]? >
+	< color [#00FF00] is touching [#0000FF]? >
 ```
 
 Om zeker te zijn dat je de fout hebt opgelost, test je het spel nadat je deze wijzigingen hebt aangebracht!

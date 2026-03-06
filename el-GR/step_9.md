@@ -13,9 +13,9 @@
 ![κινούμενη εικόνα pico](images/pico_walking_sprite.png)
 
 ```blocks3
-    εάν <αγγίζει χρώμα [#00FF00] ;> τότε 
-        άλλαξε υπόβαθρο σε (next backdrop v)
-        πήγαινε σε θέση x: (-210) y: (-120)
-        περίμενε (1) δευτερόλεπτα
-    end
+	if <touching color [#00FF00]?> then
+		switch backdrop to (επόμενο υπόβαθρο v)
+		go to x: (-210) y: (-120)
+		wait (1) seconds
+	end
 ```

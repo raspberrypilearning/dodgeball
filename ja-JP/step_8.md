@@ -27,12 +27,12 @@
 ![レーザースプライト](images/laser_sprite.png)
 
 ```blocks3
-    ⚑ が押されたとき
-ずっと 
-  コスチュームを (オン v) にする
-  (2) 秒待つ
-  コスチュームを (オフ v) にする
-  (2) 秒待つ
+when flag clicked
+forever 
+  switch costume to (オン v)
+  wait (2) seconds
+  switch costume to (オフ v)
+  wait (2) seconds
 end
 ```
 
@@ -66,10 +66,10 @@ end
 ![レーザースプライト](images/laser_sprite.png)
 
 ```blocks3
-⚑ が押されたとき
-ずっと 
-  もし < (歩いているピコ v) に触れた > なら 
-    (ヒット v) を送る
+when flag clicked
+forever 
+  if <touching (歩いているピコ v) ?> then 
+    broadcast (ヒット v)
   end
 end
 ```

@@ -27,13 +27,13 @@ Voeg code aan je laser toe, zodat die kan wisselen tussen de twee uiterlijken.
 ![laser sprite](images/laser_sprite.png)
 
 ```blocks3
-    wanneer groene vlag wordt aangeklikt
-  herhaal 
-    verander uiterlijk naar (aan v)
-    wacht (2) sec.
-    verander uiterlijk naar (uit v)
-    wacht (2) sec.
-  end
+when flag clicked
+forever 
+  switch costume to (aan v)
+  wait (2) seconds
+  switch costume to (uit v)
+  wait (2) seconds
+end
 ```
 
 Als je wilt, kun je de bovenstaande code wijzigen zodat de sprite `wacht`{:class="block3control"} gedurende een `willekeurig`{:class="block3operators"} bepaalde hoeveelheid tijd tussen het wisselen van uiterlijk.
@@ -66,10 +66,10 @@ Dit is de code die je moet toevoegen:
 ![laser sprite](images/laser_sprite.png)
 
 ```blocks3
-wanneer groene vlag wordt aangeklikt
-herhaal 
-  als <touching (Pico walking v) ?> dan 
-    zend signaal (raak v)
+when flag clicked
+forever 
+  if <touching (Pico walking v) ?> then 
+    broadcast (raak v)
   end
 end
 ```

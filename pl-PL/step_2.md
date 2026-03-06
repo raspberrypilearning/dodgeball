@@ -35,12 +35,12 @@ Dodaj bloki kodu do duszka postaci, aby gracz mógł używać klawiszy strzałek
 ![duszek Pico walking](images/pico_walking_sprite.png)
 
 ```blocks3
-kiedy kliknięto zieloną flagę
-zawsze 
-  jeżeli <klawisz (strzałka w prawo v) naciśnięty ?> to 
-    ustaw kierunek na (90 v)
-    przesuń o (3) kroków
-    następny kostium
+when flag clicked
+forever 
+  if <key (strzałka w prawo v) pressed?> then 
+    point in direction (90 v)
+    move (3) steps
+    next costume
   end
 end
 ```
@@ -81,11 +81,11 @@ Aby Twoja postać mogła poruszyć się w lewo, będziesz musiała dodać kolejn
 Skopiuj utworzony kod, aby sprawić, żeby postać poruszała się w prawo. Następnie ustaw w bloku `klawisz naciśnięty`{:class="block3sensing"} `strzałka w lewo`{:class="block3sensing"} i zmień `kierunek`{:class="block3motion"} na `-90`.
 
 ```blocks3
-jeżeli <klawisz (strzałka w prawo v) naciśnięty ?> to 
-  ustaw kierunek na (90 v)
-  przesuń o (3) kroków
-  następny kostium
-koniec
+if <key (strzałka w prawo v) pressed?> then 
+  point in direction (90 v)
+  move (3) steps
+  next costume
+end
 ```
 
 --- /hint ---
@@ -97,19 +97,19 @@ Twój kod powinien wyglądać teraz tak:
 ![duszek Pico walking](images/pico_walking_sprite.png)
 
 ```blocks3
-kiedy kliknięto zieloną flagę
-zawsze 
-  jeżeli <klawisz (strzałka w prawo v) naciśnięty ?> to 
-    ustaw kierunek na (90 v)
-    przesuń o (3) kroków
-    następny kostium
+when flag clicked
+forever 
+  if <key (strzałka w prawo v) pressed?> then 
+    point in direction (90 v)
+    move (3) steps
+    next costume
   end
-  jeżeli <klawisz (strzałka w lewo v) naciśnięty ?> to 
-    ustaw kierunek na (-90 v)
-    przesuń o (3) kroków
-    następny kostium
-  koniec
-koniec
+  if <key (strzałka w lewo v) pressed?> then 
+    point in direction (-90 v)
+    move (3) steps
+    next costume
+  end
+end
 ```
 
 --- /hint ---
@@ -131,7 +131,7 @@ Jeśli tak, możesz to naprawić, klikając **Kierunek** swojego duszka postaci,
 Lub jeśli wolisz, możesz również rozwiązać ten problem, dodając ten blok na początku kodu swojej postaci:
 
 ```blocks3
-ustaw styl obrotu na [lewo-prawo v]
+set rotation style [lewo-prawo v]
 ```
 
 --- /task ---
@@ -145,9 +145,9 @@ Dodaj wewnątrz pętli `zawsze`{:class="block3control"} dla twojej postaci blok 
 ![duszek Pico walking](images/pico_walking_sprite.png)
 
 ```blocks3
-    jeżeli < <key (strzałka w górę v) pressed?> i <dotyka koloru [#FF69B4]?> > to
-        zmień y o (4)
-    koniec
+if <<key (strzałka w górę v) pressed?> and <touching color [#FF69B4] ?>> then 
+  change y by (4)
+end
 ```
 
 --- /task ---

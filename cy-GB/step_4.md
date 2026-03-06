@@ -29,10 +29,10 @@ Ychwanega’r bloc côd yma, sydd yn gosod y `disgyrchiant` i rif negatif ac yna
 ![corlun cerdded pico](images/pico_walking_sprite.png)
 
 ```blocks3
-    pan fo'r flag werdd yn cael ei glicio
-gosod [disgyrchiant v] i [-4]
-am byth 
-  newid y gan (disgyrchiant)
+when flag clicked
+set [disgyrchiant v] to [-4]
+forever 
+  change y by (disgyrchiant)
 end
 ```
 
@@ -53,11 +53,11 @@ Ni ddylai disgyrchiant symud dy gymeriad trwy blatfform neu ysgol! Ychwanega blo
 ![corlun cerdded pico](images/pico_walking_sprite.png)
 
 ```blocks3
-    pan fo'r flag werdd yn cael ei glicio
-gosod [disgyrchiant v] i [-4]
-am byth 
-  os <nid <<cyffwrdd lliw [#0000FF] ?> neu <cyffwrdd lliw [#FF69B4] ?>>> yna 
-    newid y gan (disgyrchiant)
+when flag clicked
+set [disgyrchiant v] to [-4]
+forever 
+  if <not <<touching color [#0000FF] ?> or <touching color [#FF69B4] ?>>> then 
+    change y by (disgyrchiant)
   end
 end
 ```
@@ -79,9 +79,9 @@ Fe wnawn ni hefyd wneud i dy gymeriad neidio pan mae’r chwareuwr yn gwasgu’r
 ![corlun cerdded pico](images/pico_walking_sprite.png)
 
 ```blocks3
-    pan fo bysell [bwlch v] wedi ei wasgu
-ailadrodd (10) 
-  newid y gan (4)
+when [bwlch v] key pressed
+repeat (10) 
+  change y by (4)
 end
 ```
 
@@ -108,11 +108,11 @@ Dileua’r côd neidio wnes di ychwanegu i dy gymeriad, a gosod y côd yma yn ei
 ![corlun cerdded pico](images/pico_walking_sprite.png)
 
 ```blocks3
-    pan fo bysell [bwlch v] wedi ei wasgu
-gosod [uchder neidio v] i [8]
-ailadrodd hyd at <(uchder neidio) = [0]> 
-  newid y gan (uchder neidio)
-  newid [uchder neidio v] gan (-0.5)
+when [bwlch v] key pressed
+set [uchder neidio v] to [8]
+repeat until <(uchder neidio) = [0]> 
+  change y by (uchder neidio)
+  change [uchder neidio v] by (-0.5)
 end
 ```
 

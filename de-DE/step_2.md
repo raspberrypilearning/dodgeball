@@ -35,13 +35,13 @@ Füge Code-Blöcke zu deinem Sprite hinzu, damit der Spieler die Pfeiltasten ver
 ![Pico-Walking Sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-Wenn die grüne Flagge angeklickt
-wiederhole fortlaufend 
-  if <key (right arrow v) pressed? > then
-setze Richtung auf (90 v) Grad
-gehe (3) er Schritt
-wechsle zum nächsten Kostüm
-end
+when flag clicked
+forever
+	if <key (Pfeil nach rechts v) pressed? > then
+		point in direction (90 v)
+		move (3) steps
+		next costume
+	end
 end
 ```
 
@@ -80,10 +80,10 @@ Damit sich dein Charakter nach links bewegen kann, musst du einen weiteren `fall
 Kopiere den Code, den du erstellt hast, um den Charakter nach rechts laufen zu lassen. Setze dann die `gedrückte Taste`{:class="block3sensing"} auf `Pfeil nach links`{:class="block3sensing"}, und ändere die `Richtung`{:class="block3motion"} auf `-90`.
 
 ```blocks3
-falls <Taste (right arrow v) gedrückt? > , dann 
-  setze Richtung auf (90 v) Grad
-  gehe (3) er Schritt
-  wechsle zum nächsten Kostüm
+if <key (Pfeil nach rechts v) pressed? > then
+	point in direction (90 v)
+	move (3) steps
+	next costume
 end
 ```
 
@@ -96,18 +96,18 @@ Dein Code sollte so aussehen:
 ![Pico-Walking Sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-Wenn die grüne Flagge angeklickt
-wiederhole fortlaufend 
-falls <key (right arrow v) pressed?> , dann 
-setze Richtung auf (90 v) Grad
-gehe (3) er Schritt
-wechsle zum nächsten Kostüm
-end
-falls <key (left arrow v) pressed?> , dann 
-setze Richtung auf (-90 v) Grad
-gehe (3) er Schritt
-wechsle zum nächsten Kostüm
-end
+when green flag clicked
+forever 
+  if <key (Pfeil nach rechts v) pressed?> then 
+    point in direction (90 v)
+    move (3) steps
+    next costume
+  end
+  if <key (Pfeil nach links v) pressed?> then 
+    point in direction (-90 v)
+    move (3) steps
+    next costume
+  end
 end
 ```
 
@@ -130,7 +130,7 @@ Wenn ja, kannst du dies beheben, indem du auf die **Richtung** von deinen Charak
 Wenn du möchtest, kannst du das Problem auch beheben, indem du diesen Block am Anfang des Skripts deines Charakters einfügst:
 
 ```blocks3
-setze Drehtyp auf [left-right v]
+set rotation style [links-rechts v]
 ```
 
 --- /task ---
@@ -139,14 +139,14 @@ setze Drehtyp auf [left-right v]
 
 Um eine rosafarbene Leiter zu besteigen, sollte sich dein Charakter-Sprite auf dem Spielfeld ein paar Schritte nach oben bewegen, wenn der Aufwärtspfeil gedrückt wird **und** der Charakter die richtige Farbe berührt.
 
-Füge zu der `wiederhohle fortlaufend`{:class="block3control"} Schleife deines Charakters, um die `y` (vertikale) Position des Charakters zu verändern `ändere` {:class="block3motion"}, `falls` {:class="block3control"} die `Pfeiltaste nach oben`{:class="block3sensing"} gedrückt wird und der Charakter die `Pinke Farbe berührt`{:class="block3sensing"}, hinzu.
+Füge zu der `wiederhohle fortlaufend`{:class="block3control"} Schleife deines Charakters, um die `y` (vertikale) Position des Charakters zu verändern `ändere` {:class="block3motion"}, `falls` {:class="block3control"} die `Pfeil nach oben`{:class="block3sensing"} gedrückt wird und der Charakter die `Pinke Farbe berührt`{:class="block3sensing"}, hinzu.
 
 ![Pico-Walking Sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    falls <<key (up arrow v) pressed?> und <touching color [#FF69B4]?>> , dann 
-  ändere y um (4)
-end
+	if < <key (Pfeil nach oben v) pressed?> and <touching color [#FF69B4]?> > then
+		change y by (4)
+	end
 ```
 
 --- /task ---

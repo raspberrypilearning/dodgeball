@@ -35,12 +35,12 @@
 ![ピコウォーキングスプライト](images/pico_walking_sprite.png)
 
 ```blocks3
-⚑ がおされたとき
-ずっと 
-  もし <(右向き矢印 v) キーがおされた> なら 
-    (90 v) どにむける
-    (3) ほうごかす
-    つぎのコスチュームにする
+when flag clicked
+forever 
+  if <key (右向き矢印 v) pressed?> then 
+    point in direction (90 v)
+    move (3) steps
+    next costume
   end
 end
 ```
@@ -81,10 +81,10 @@ end
 キャラクターが右に歩くよう作成したコードをコピーします。 さらに、`左向き矢印`{:class="block3sensing"}の `キーが押された`{:class="block3sensing"}ら、`向き`{:class="block3motion"} を`-90 `度に変更するするようにセットします。
 
 ```blocks3
-もし < (右向き矢印 v) キーが押された > なら
-    (90 v) 度に向ける
-    (3) 歩動かす
-    次のコスチュームにする
+if <key (右向き矢印 v) pressed?> then 
+  point in direction (90 v)
+  move (3) steps
+  next costume
 end
 ```
 
@@ -97,17 +97,17 @@ end
 ![ピコウォーキングスプライト](images/pico_walking_sprite.png)
 
 ```blocks3
-⚑ が押されたとき
-ずっと 
-  もし < (右向き矢印 v) キーが押された > なら 
-    (90 v) 度に向ける
-    (3) 歩動かす
-    次のコスチュームにする
+when flag clicked
+forever 
+  if <key (右向き矢印 v) pressed?> then 
+    point in direction (90 v)
+    move (3) steps
+    next costume
   end
-  もし < (ひだりむきやじるし v) キーが押された > なら
-    (-90 v) 度に向ける
-    (3) 歩動かす
-    次のコスチュームにする
+  if <key (ひだりむきやじるし v) pressed?> then 
+    point in direction (-90 v)
+    move (3) steps
+    next costume
   end
 end
 ```
@@ -131,7 +131,7 @@ end
 または、必要に応じて、このブロックをキャラクターのスクリプトの先頭に追加して問題を修正することもできます。
 
 ```blocks3
-回転方法を [左右のみ v] にする
+set rotation style [左右のみ v]
 ```
 
 --- /task ---
@@ -145,8 +145,8 @@ end
 ![ピコウォーキングスプライト](images/pico_walking_sprite.png)
 
 ```blocks3
-    もし <<(うわむきやじるし v) キーがおされた> かつ <[#FF69B4] いろにふれた>> なら 
-      yざひょうを (4) ずつかえる
+if <<key (うわむきやじるし v) pressed?> and <touching color [#FF69B4] ?>> then 
+  change y by (4)
 end
 ```
 

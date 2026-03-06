@@ -29,10 +29,10 @@ Voeg deze nieuwe codeblokken toe die de `zwaartekracht` instelt op een negatief 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    wanneer groene vlag wordt aangeklikt
-maak [zwaartekracht v] [-4]
-herhaal 
-  verander y met (zwaartekracht)
+when flag clicked
+set [zwaartekracht v] to [-4]
+forever 
+  change y by (zwaartekracht)
 end
 ```
 
@@ -53,11 +53,11 @@ Zwaartekracht zou je personage niet door een platform of een ladder moeten laten
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    wanneer groene vlag wordt aangeklikt
-maak [zwaartekracht v] [-4]
-herhaal 
-  als <niet <<raak ik kleur [#003fff] ?> of <raak ik kleur [#ff00bf] ?>>> dan 
-    verander y met (zwaartekracht)
+when flag clicked
+set [zwaartekracht v] to [-4]
+forever 
+  if <not <<touching color [#003fff] ?> or <touching color [#ff00bf] ?>>> then 
+    change y by (zwaartekracht)
   end
 end
 ```
@@ -79,9 +79,9 @@ Voeg nu code toe om er voor te zorgen dat je personage springt wanneer de speler
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    wanneer [spatiebalk v] wordt ingedrukt
-herhaal (10) keer 
-  verander y met (4)
+when [spatiebalk v] key pressed
+repeat (10) 
+  change y by (4)
 end
 ```
 
@@ -108,11 +108,11 @@ Verwijder de springcode die je aan je personage hebt toegevoegd en vervang die d
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    wanneer [spatiebalk v] wordt ingedrukt
-maak [springhoogte v] [8]
-herhaal tot <(springhoogte) = [0]> 
-  verander y met (springhoogte)
-  verander [springhoogte v] met (-0.5)
+when [spatiebalk v] key pressed
+set [springhoogte v] to [8]
+repeat until <(springhoogte) = [0]> 
+  change y by (springhoogte)
+  change [springhoogte v] by (-0.5)
 end
 ```
 

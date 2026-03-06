@@ -29,10 +29,10 @@
 ![ピコウォーキングスプライト](images/pico_walking_sprite.png)
 
 ```blocks3
-    ⚑ が押されたとき
-[重力 v] を [-4] にする
-ずっと 
-  y座標を (重力) ずつ変える
+when flag clicked
+set [重力 v] to [-4]
+forever 
+  change y by (重力)
 end
 ```
 
@@ -53,11 +53,11 @@ end
 ![ピコウォーキングスプライト](images/pico_walking_sprite.png)
 
 ```blocks3
-⚑ がおされたとき
-[重力 v] を [-4] にする
-ずっと 
-  もし <<<[#0000FF] いろにふれた> または <[#FF69B4] いろにふれた>> ではない> なら 
-    yざひょうを (重力) ずつかえる
+when flag clicked
+set [重力 v] to [-4]
+forever 
+  if <not <<touching color [#0000FF] ?> or <touching color [#FF69B4] ?>>> then 
+    change y by (重力)
   end
 end
 ```
@@ -79,9 +79,9 @@ end
 ![ピコウォーキングスプライト](images/pico_walking_sprite.png)
 
 ```blocks3
-    [スペース v] キーが押されたとき
-(10) 回繰り返す 
-  y座標を (4) ずつ変える
+when [スペース v] key pressed
+repeat (10) 
+  change y by (4)
 end
 ```
 
@@ -108,11 +108,11 @@ end
 ![ピコウォーキングスプライト](images/pico_walking_sprite.png)
 
 ```blocks3
-    [スペース v] キーが押されたとき
-[ジャンプの高さ v] を [8] にする
-<(ジャンプの高さ) = [0]> まで繰り返す 
-  y座標を (ジャンプの高さ) ずつ変える
-  [ジャンプの高さ v] を (-0.5) ずつ変える
+when [スペース v] key pressed
+set [ジャンプの高さ v] to [8]
+repeat until <(ジャンプの高さ) = [0]> 
+  change y by (ジャンプの高さ)
+  change [ジャンプの高さ v] by (-0.5)
 end
 ```
 

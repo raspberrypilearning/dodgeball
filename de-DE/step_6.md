@@ -25,29 +25,29 @@ Füge diesen Code deinem Ball-Sprite hinzu:
 ![Ball-Sprite](images/ball_sprite.png)
 
 ```blocks3
-Wenn die grüne Flagge angeklickt
-verstecke dich
-wiederhole fortlaufend 
-  warte (3) Sekunden
-  erzeuge Klon von (mir selbst v)
+when flag clicked
+hide
+forever 
+  wait (3) seconds
+  create clone of (mir selbst v)
 end
 ```
 
 ```blocks3
-Wenn ich als Klon entstehe
-gehe zu x: (160) y: (160)
-zeige dich
-wiederhole (22) mal 
-  ändere y um (-4)
+when I start as a clone
+go to x: (160) y: (160)
+show
+repeat (22) 
+  change y by (-4)
 end
-wiederhole (170) mal 
-  ändere x um (-2)
-  drehe dich nach links um (6) Grad
+repeat (170) 
+  change x by (-2)
+  turn ccw (6) degrees
 end
-wiederhole (30) mal 
-  ändere y um (-4)
+repeat (30) 
+  change y by (-4)
 end
-lösche diesen Klon
+delete this clone
 ```
 
 Dieser Code erstellt alle drei Sekunden einen neuen Klon des Ball-Sprites. Jeder neue Klon bewegt sich auf der obersten Plattform und fällt dann.
@@ -83,18 +83,18 @@ Hier sind die Codeblöcke die du brauchst. Stelle sicher, dass du sie in der ric
 ![Ball-Sprite](images/ball_sprite.png)
 
 ```blocks3
-wiederhole (170) mal 
-  ändere x um (-2)
-  drehe dich nach links um (6) Grad
+repeat (170) 
+  change x by (-2)
+  turn ccw (6) degrees
 end
 
-wiederhole (180) mal 
-  ändere x um (2)
-  drehe dich nach rechts um (6) Grad
+repeat (180) 
+  change x by (2)
+  turn cw (6) degrees
 end
 
-wiederhole (30) mal 
-  ändere y um (-4)
+repeat (30) 
+  change y by (-4)
 end
 ```
 
@@ -107,31 +107,31 @@ Der Code für deine Ball-Sprite Klone sollte wie folgt aussehen:
 ![Ball-Sprite](images/ball_sprite.png)
 
 ```blocks3
-Wenn ich als Klon entstehe
-gehe zu x: (160) y: (160)
-zeige dich
-wiederhole (22) mal 
-  ändere y um (-4)
+when I start as a clone
+go to x: (160) y: (160)
+show
+repeat (22) 
+  change y by (-4)
 end
-wiederhole (170) mal 
-  ändere x um (-2)
-  drehe dich nach links um (6) Grad
+repeat (170) 
+  change x by (-2)
+  turn ccw (6) degrees
 end
-wiederhole (30) mal 
-  ändere y um (-4)
+repeat (30) 
+  change y by (-4)
 end
-wiederhole (180) mal 
-  ändere x um (2)
-  drehe dich nach rechts um (6) Grad
+repeat (180) 
+  change x by (2)
+  turn cw (6) degrees
 end
-wiederhole (30) mal 
-  ändere y um (-4)
+repeat (30) 
+  change y by (-4)
 end
-wiederhole (170) mal 
-  ändere x um (-2)
-  drehe dich nach links um (6) Grad
+repeat (170) 
+  change x by (-2)
+  turn ccw (6) degrees
 end
-lösche diesen Klon
+delete this clone
 ```
 
 --- /hint ---
@@ -149,10 +149,10 @@ Füge diesen Code deinem Ball-Sprite hinzu:
 ![Ball-Sprite](images/ball_sprite.png)
 
 ```blocks3
-    Wenn ich als Klon entstehe
-wiederhole fortlaufend 
-  falls <wird (Pico walking v) berührt?> , dann 
-    sende (Treffer v) an alle
+when I start as a clone
+forever 
+  if <touching (Pico walking v) ?> then 
+    broadcast (Treffer v)
   end
 end
 ```
@@ -166,9 +166,9 @@ Füge schließlich Code-Blöcke zu deinem Charakter-Sprite hinzu, um es zu seine
 ![Pico-Walking Sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    Wenn ich [Treffer v] empfange
-setze Richtung auf (90) Grad
-gehe zu x: (-210) y: (-120)
+when I receive [Treffer v]
+point in direction (90)
+go to x: (-210) y: (-120)
 ```
 
 --- /task ---
