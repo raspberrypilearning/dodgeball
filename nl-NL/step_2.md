@@ -35,12 +35,12 @@ Voeg codeblokken toe aan je personage-sprite, zodat de speler de pijltjestoetsen
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-wanneer groene vlag wordt aangeklikt
-herhaal 
-  als <toets (pijltje rechts v) ingedrukt? > dan 
-    richt naar (90 v) graden
-    neem (3) stappen
-    volgend uiterlijk
+when flag clicked
+forever 
+  if <key (pijltje rechts v) pressed?> then 
+    point in direction (90 v)
+    move (3) steps
+    next costume
   end
 end
 ```
@@ -81,10 +81,10 @@ Om je personage naar links te laten lopen moet je nog een `als`{:class="block3co
 Kopieer de code die je hebt gemaakt om het personage naar rechts te laten lopen. Stel vervolgens de `toets ingedrukt`{:class="block3sensing"} in op het `pijltje links`{:class="block3sensing"} en wijzig de `richting`{:class="block3motion"} naar `-90`.
 
 ```blocks3
-als <toets (pijltje rechts v) ingedrukt? > dan 
-    richt naar (90 v) graden
-    neem (3) stappen
-    volgend uiterlijk
+if <key (pijltje rechts v) pressed?> then 
+  point in direction (90 v)
+  move (3) steps
+  next costume
 end
 ```
 
@@ -97,17 +97,17 @@ Je code zou er als volgt uit moeten zien:
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-wanneer groene vlag wordt aangeklikt
-herhaal 
-  als <key (right arrow v) pressed?> dan 
-    richt naar (90 v) graden
-    neem (3) stappen
-    volgend uiterlijk
+when flag clicked
+forever 
+  if <key (pijltje rechts v) pressed?> then 
+    point in direction (90 v)
+    move (3) steps
+    next costume
   end
-  als <key (left arrow v) pressed?> dan 
-    richt naar (-90 v) graden
-    neem (3) stappen
-    volgend uiterlijk
+  if <key (pijltje links v) pressed?> then 
+    point in direction (-90 v)
+    move (3) steps
+    next costume
   end
 end
 ```
@@ -131,7 +131,7 @@ Zo ja, dan kun je dit probleem oplossen door in het pictogram van de sprite op d
 Of als je dat liever hebt, kun je het probleem ook oplossen door dit blok toe te voegen aan het begin van het script van je personage:
 
 ```blocks3
-maak draaistijl [links-rechts v]
+set rotation style [links-rechts v]
 ```
 
 --- /task ---
@@ -145,8 +145,8 @@ Voeg deze code toe aan de `herhaal`{:class="block3control"} -lus van je personag
 ![pico walking sprite](images/pico_walking_sprite.png)
 
 ```blocks3
-    als < <key (up arrow v) pressed?> en <touching color [#FF69B4]?> > dan
-        verander y met (4)
+if <<key (up arrow v) pressed?> and <touching color [#FF69B4] ?>> then 
+  change y by (4)
 end
 ```
 
