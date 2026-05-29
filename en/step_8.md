@@ -45,19 +45,6 @@ If you prefer, you can change the code shown above so that the sprite `waits`{:c
 Finally, add code to your laser sprite so that the laser sprite broadcasts a 'hit' message when it touches the character sprite. 
 
 --- hints ---
-
---- hint ---
-
-This code should be very similar to the code you added to your ball sprite.
-
---- /hint ---
-
---- hint ---
-
-Copy the code you add to the ball sprite to make this sprite `broadcast 'hit'`{:class="block3control"} when it is `touching your character`{:class="block3sensing"}.
-
---- /hint ---
-
 --- hint ---
 
 This is the code you should add:
@@ -74,8 +61,8 @@ end
 ```
 
 --- /hint ---
-
 --- /hints ---
+
 
 You don't need to add any extra code to your characters sprite, because the character sprite already knows what to do when it receives the `broadcast 'hit'`{:class="block3control"}!
 
