@@ -69,37 +69,6 @@ Add more code to your ball sprite so that clones of it move across all three pla
 ![screenshot](images/dodge-ball-more-motion.png)
 
 --- hints ---
-
---- hint ---
-
-Repeat the code blocks you used to move the ball sprite clone across the first platform. You need to change the `x`{:class="block3motion"}, `y`{:class="block3motion"}, and `repeat`{:class="block3control"} numbers so that the clones follow the platforms correctly.
-
---- /hint ---
-
---- hint ---
-
-These are the blocks you need. Make sure you add them in the correct order.
-
-![ball sprite](images/ball_sprite.png)
-
-```blocks3
-repeat (170) 
-  change x by (-2)
-  turn ccw (6) degrees
-end
-
-repeat (180) 
-  change x by (2)
-  turn cw (6) degrees
-end
-
-repeat (30) 
-  change y by (-4)
-end
-```
-
---- /hint ---
-
 --- hint ---
 
 The code for your ball sprite clones should look like this:
@@ -135,8 +104,8 @@ delete this clone
 ```
 
 --- /hint ---
-
 --- /hints ---
+
 
 --- /task ---
 
