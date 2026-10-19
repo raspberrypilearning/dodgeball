@@ -10,7 +10,7 @@ Open the 'Dodgeball' Scratch starter project.
 
 If you have a Scratch account you can make a copy by clicking **Remix**.
 
-**Offline:** download the starter project from [rpf.io/p/en/dodgeball-get](https://rpf.io/p/en/dodgeball-get) and then open it using the offline editor.
+**Offline:** download the starter project from [rpf.io/p/en/dodgeball-go](https://rpf.io/p/en/dodgeball-go) and then open it using the offline editor.
 
 --- /task ---
 
